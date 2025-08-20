@@ -2,23 +2,25 @@
 
 - [ ] more shaders
 - [ ] restore session params and automation
-- [ ] render dimensions selector
-- [ ] show shader credit
-- [ ] syphon view
 - [ ] midi render
 - [ ] text/clip? render
-- [ ] open file
-- [ ] open folder
-- [ ] osc pre render?
 - [ ] mid/side something?
 - [ ] pause rendering on silence
-- [ ] wave draw?
-- [ ] parametrize audio images
-- [ ] image params
-- [ ] better XY? https://m1el.github.io/woscope-how/ https://github.com/m1el/woscope/blob/master/shaders/fsLine.glsl
-- [ ] syphon in?
-- [ ] add vizualizer meta
 - [ ] beat param?
+- [ ] better XY? https://m1el.github.io/woscope-how/ https://github.com/m1el/woscope/blob/master/shaders/fsLine.glsl
+- [ ] wave draw?
+- [ ] syphon in?
+- [ ] doc
+- [ ] demo
+- [x] render dimensions selector
+- [x] show shader credit
+- [x] syphon view
+- [x] open file
+- [x] open folder
+- [x] osc pre render?
+- [x] parametrize audio images
+- [x] image params
+- [x] add vizualizer meta
 - [x] syphon tabs
 - [x] load shaders dir
 - [x] categorize
