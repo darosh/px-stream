@@ -1,0 +1,5 @@
+.idea
+frozen/
+shaders/~.*
+.shaders/
+ISF Audio DEBUG.amxd
