@@ -18,6 +18,7 @@
 - [ ] better XY? https://m1el.github.io/woscope-how/ https://github.com/m1el/woscope/blob/master/shaders/fsLine.glsl
 - [ ] syphon in?
 - [ ] add vizualizer meta
+- [ ] beat param?
 - [x] syphon tabs
 - [x] load shaders dir
 - [x] categorize
