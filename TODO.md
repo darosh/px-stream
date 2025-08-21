@@ -2,7 +2,6 @@
 
 - [ ] more shaders
 - [ ] restore session params and automation
-- [ ] midi render
 - [ ] text/clip? render
 - [ ] mid/side something?
 - [ ] pause rendering on silence
@@ -12,6 +11,8 @@
 - [ ] syphon in?
 - [ ] doc
 - [ ] demo
+- [ ] better midi shader
+- [x] midi render
 - [x] render dimensions selector
 - [x] show shader credit
 - [x] syphon view
