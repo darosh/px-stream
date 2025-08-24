@@ -10,6 +10,7 @@
 - [ ] better XY? https://m1el.github.io/woscope-how/ https://github.com/m1el/woscope/blob/master/shaders/fsLine.glsl
 - [ ] syphon in?
 - [ ] image in?
+- [ ] jit fx?
 - [ ] doc
 - [ ] demo
 - [ ] better midi shader
