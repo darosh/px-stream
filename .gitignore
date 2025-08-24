@@ -4,3 +4,4 @@ shaders/~.*
 .shaders/
 node_modules/
 ISF Audio DEBUG.amxd
+.drawing.svg/
