@@ -1,4 +1,5 @@
 {
+  "name": "isf-audio",
   "scripts": {
     "format": "node format-shader.js"
   },
