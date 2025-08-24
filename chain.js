@@ -1,19 +1,31 @@
-outlets = 3
+outlets = 4
 let DID = null
+let MIDI = false
 
-function bang () {
-  let chainObj = this.patcher.getnamed('isf_chain_in')
-  let boxtext = chainObj.boxtext.replace('receive ', '')
+function init (t) {
+  // post('Type: ' + t + '\n')
 
-  outlet(0, [boxtext])
+  MIDI = t === 'midi'
+
+  let obj = this.patcher.getnamed('isf_chain_in')
+  let name = obj.boxtext.replace('receive ', '')
+  let objM = this.patcher.getnamed('isf_chain_midi')
+  let nameM = objM.boxtext.replace('receive ', '')
+
+  outlet(0, [name, nameM])
 }
 
-function register (cid, tn, dn, did, rid) {
+function register (cid, tn, dn, did, rid, mid) {
   DID = did
   // post([cid, tn, dn, did, rid] + '\n')
 
   const dic = new Dict('isf_audio_chains')
-  dic.replace(did, [cid, tn, dn, did, rid])
+
+  if (!MIDI) {
+    dic.replace(did, [cid, tn, dn, did, rid, mid])
+  } else {
+    MIDI = [cid, tn, dn, did, rid, mid]
+  }
 
   outlet(1, ['bang'])
 }
@@ -38,10 +50,18 @@ function next () {
   if (!keys) {
     return
   }
-  
-  const sorted = keys.map(k => dic.get(k)).sort((a, b) => a[0] - b[0])
+
+  const arr = keys.map(k => dic.get(k))
+
+  if (MIDI) {
+    arr.push(MIDI)
+  }
+
+  const sorted = arr.sort((a, b) => a[0] - b[0])
   const me = sorted.findIndex(a => a[3] === DID)
   const next = sorted[me + 1]
 
-  outlet(2, next ? ['next', next[4]] : ['end'])
+  outlet(2, next
+    ? MIDI ? ['next', next[5]] : ['next', next[4]]
+    : ['end'])
 }
