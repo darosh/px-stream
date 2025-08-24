@@ -26,30 +26,37 @@ git --no-pager diff "./ISF Audio.amxd" "./param.maxpat"
 
 ### ISF Extensions
 
-|      | Name      | Type     | Description                                                                                                                                                                                           |
-|------|-----------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| WAVE | waveImage | audio    | standard ISF, channel per image row                                                                                                                                                                   |
-| WAVU | wavuImage | audio    | channel per image color, Red = Left, Green = Right                                                                                                                                                    |
-| FFT  | fftImage  | audiofft | standard ISF, channel per image row                                                                                                                                                                   |
-| FFTU | fftuImage | audiofft | channel per image color                                                                                                                                                                               |
-| XY   | xyImage   | audio    | X = Left, Y = Right, dots                                                                                                                                                                             |
-| XYC  | xycImage  | audio    | X = Left, Y = Right, connected lines                                                                                                                                                                  |
-| XYD  | xydImage  | audio    | X = Left, Y = Right, skipping distant lines                                                                                                                                                           |
-| XYE  | xyeImage  | audio    | [electron beam emulation](https://m1el.github.io/woscope-how/), ported to Jitter shader by Rob Ramirez [here](https://discord.com/channels/289378508247924738/351004699811512322/1407790819183956109) |
-| MIDI | midiImage | audio    | X = (R: note/velocity, G: CC number/value), Y = MIDI channel                                                                                                                                          |
-| TEXT |           |          |                                                                                                                                                                                                       |
+|      | Name       | Type     | Description                                                                                                                                                                                           |
+|------|------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| WAVE | waveImage  | audio    | standard ISF, channel per image row                                                                                                                                                                   |
+| WAVU | wavuImage  | audio    | channel per image color, Red = Left, Green = Right                                                                                                                                                    |
+| FFT  | fftImage   | audiofft | standard ISF, channel per image row                                                                                                                                                                   |
+| FFTU | fftuImage  | audiofft | channel per image color                                                                                                                                                                               |
+| XY   | xyImage    | audio    | X = Left, Y = Right, dots                                                                                                                                                                             |
+| XYC  | xycImage   | audio    | X = Left, Y = Right, connected lines                                                                                                                                                                  |
+| XYD  | xydImage   | audio    | X = Left, Y = Right, skipping distant lines                                                                                                                                                           |
+| XYE  | xyeImage   | audio    | [electron beam emulation](https://m1el.github.io/woscope-how/), ported to Jitter shader by Rob Ramirez [here](https://discord.com/channels/289378508247924738/351004699811512322/1407790819183956109) |
+| MIDI | midiImage  | audio    | X = (R: note/velocity, G: CC number/value), Y = MIDI channel                                                                                                                                          |
+| TEXT |            |          |                                                                                                                                                                                                       |
+| IN   | inputImage | image    | automatic, from previous device in the chain                                                                                                                                                          |
 
 ## Shaders [TBD]
 
 ### C. Colorful
 
-### G. Spectrogram
+### F. FFT Spectrogram
+
+### G. Generator
 
 ### L. LED
 
-### N. No Audio
+### M. MIDI
 
 ### S. Scenes
+
+### T. Transformation
+
+### U. Utility
 
 ### W. Waveforms
 
