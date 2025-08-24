@@ -1,0 +1,62 @@
+{
+  "Add": {
+    "blend_mode": [1, 1],
+    "description": "Pure additive blend, brightens by accumulating light."
+  },
+  "Alpha": {
+    "blend_mode": [6, 7],
+    "description": "Standard transparency blending based on source alpha."
+  },
+  "Alpha add": {
+    "blend_mode": [6, 1],
+    "description": "Additive blending that respects source transparency."
+  },
+  "Alpha saturate": {
+    "blend_mode": [10, 1],
+    "description": "Clamps alpha to avoid oversaturation; useful for particles."
+  },
+  "Alpha mask": {
+    "blend_mode": [6, 0],
+    "description": "Acts like a stencil mask; replaces destination where alpha > 0."
+  },
+  "Darken": {
+    "blend_mode": [2, 5],
+    "description": "Keeps darker portions of source and blends with destination."
+  },
+  "Exclusion": {
+    "blend_mode": [4, 5],
+    "description": "Creates a difference-like effect with softer contrast than 'difference'."
+  },
+  "Ghosting": {
+    "blend_mode": [6, 9],
+    "description": "Creates ghost-like transitions by mixing source alpha with inverse destination alpha."
+  },
+  "Hard contrast": {
+    "blend_mode": [3, 4],
+    "description": "High-contrast blend using source color against inverted destination."
+  },
+  "Lighten": {
+    "blend_mode": [1, 4],
+    "description": "Emphasizes brighter portions of the source."
+  },
+  "Multiply": {
+    "blend_mode": [2, 1],
+    "description": "Darkens by multiplying source and destination colors."
+  },
+  "Overlay": {
+    "blend_mode": [3, 5],
+    "description": "Overlay-like effect that boosts midtone contrast."
+  },
+  "Overlay inverted": {
+    "blend_mode": [7, 2],
+    "description": "Weird inverted overlay effect with transparency artifacts."
+  },
+  "Screen": {
+    "blend_mode": [4, 1],
+    "description": "Brightens by inverting, multiplying, and inverting again."
+  },
+  "Subtract": {
+    "blend_mode": [1, 9],
+    "description": "Inverted add effect, useful for subtractive-like blending."
+  }
+}
