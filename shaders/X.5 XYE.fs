@@ -6,8 +6,8 @@
         {"NAME": "glowIntensity", "TYPE": "float", "DEFAULT": 3, "MIN": 0, "MAX": 5},
         {"NAME": "glowRadius", "TYPE": "float", "DEFAULT": 0.01, "MIN": 0.001, "MAX": 10},
         {"NAME": "fadeRate", "TYPE": "float", "DEFAULT": 0.9, "MIN": 0, "MAX": 1},
-        {"NAME": "fg", "TYPE": "color", "DEFAULT": [0.4, 1.0, 0.3, 1.0]},
-        {"NAME": "bg", "TYPE": "color", "DEFAULT": [0.4, 0.8, 0.3, 1.0]},
+        {"NAME": "fg", "TYPE": "color", "DEFAULT": [0.4, 1, 0.3, 1]},
+        {"NAME": "bg", "TYPE": "color", "DEFAULT": [0.4, 0.8, 0.3, 1]},
         {"NAME": "threshold", "TYPE": "float", "DEFAULT": 0.5, "MIN": 0, "MAX": 3},
         {"NAME": "brightness", "TYPE": "float", "DEFAULT": 1, "MIN": 0.1, "MAX": 3}
     ],

@@ -1,18 +1,15 @@
 /*{
-  "CREDIT": "by darosh + chatgpt",
-  "CATEGORIES": ["Audio Visualizer"],
-  "INPUTS": [
-    {"NAME":"midiImage","TYPE":"audio"},
-    {"NAME":"scrollSpeed","TYPE":"float","DEFAULT":1.0,"MIN":0.2,"MAX":4.0},
-    {"NAME":"stroke","TYPE":"float","DEFAULT":0.12,"MIN":0.0,"MAX":3.0},
-    {"NAME":"fade","TYPE":"float","DEFAULT":1,"MIN":0.0,"MAX":1.0}
-  ],
-  "PASSES":[
-    {"TARGET":"bufferA","PERSISTENT":true,"FLOAT":true},
-    {}
-  ],
-  "ISFVSN":"2",
-  "DESCRIPTION":"Raw MIDI visualizer: top=128x16 note grid (R), bottom=rolling CC line charts (G). midiImage: R/G width = note/CC (0..127), height = channel (0..15)."
+    "CREDIT": "by darosh + chatgpt",
+    "CATEGORIES": ["Audio Visualizer"],
+    "INPUTS": [
+        {"NAME": "midiImage", "TYPE": "audio"},
+        {"NAME": "scrollSpeed", "TYPE": "float", "DEFAULT": 1, "MIN": 0.2, "MAX": 4},
+        {"NAME": "stroke", "TYPE": "float", "DEFAULT": 0.12, "MIN": 0, "MAX": 3},
+        {"NAME": "fade", "TYPE": "float", "DEFAULT": 1, "MIN": 0, "MAX": 1}
+    ],
+    "PASSES": [{"TARGET": "bufferA", "PERSISTENT": true, "FLOAT": true}, {}],
+    "ISFVSN": "2",
+    "DESCRIPTION": "Raw MIDI visualizer: top=128x16 note grid (R), bottom=rolling CC line charts (G). midiImage: R/G width = note/CC (0..127), height = channel (0..15)."
 }*/
 
 /*
