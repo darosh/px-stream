@@ -11,6 +11,8 @@
 - [ ] syphon in?
 - [ ] image in?
 - [ ] jit fx?
+- [ ] check dim params
+- [ ] extend dim params
 - [ ] doc
 - [ ] demo
 - [ ] better midi shader
