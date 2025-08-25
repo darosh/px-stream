@@ -22,6 +22,8 @@
 - [ ] fix dials restore
 - [ ] fix text error msg
 - [ ] adjust fps brightness
+- [ ] rebrand popup title
+- [ ] rebrand patching comments
 - [x] ~~wave draw?~~
 - [x] text/clip? render
 - [x] rebrand to PX Stream?
