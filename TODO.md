@@ -18,6 +18,9 @@
 - [ ] channel view buttons automation 
 - [ ] demo
 - [ ] better midi shader
+- [ ] logo open GH
+- [ ] fix dials restore
+- [ ] fix text error msg
 - [x] ~~wave draw?~~
 - [x] text/clip? render
 - [x] rebrand to PX Stream?
