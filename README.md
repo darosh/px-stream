@@ -19,6 +19,10 @@
 git --no-pager diff "./ISF Audio.amxd" "./param.maxpat"
 ```
 
+```bash
+git --no-pager diff "./ISF Text.amxd"
+```
+
 ### Shaders
 
 - shaders loaded from `./shaders` folder near the device
