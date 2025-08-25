@@ -4,7 +4,21 @@
 > featuring audio-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals, 
 > text rendering and [Syphon](https://syphon.info/) output streaming
 
-![](./assets/banner.gif)
+![](./assets/banner.gif) 
+
+## Devices / Usage [TBD]
+
+### PX World.amxd
+
+### PX View.amxd
+
+### PX Shader.amxd
+
+### PX Text.amxd
+
+### PX Receive.amxd
+
+### PX Send Midi.amxd
 
 ## Development
 
