@@ -1,8 +1,8 @@
-# ISF Audio [WIP]
+# PX Stream [WIP]
 
-> Interactive Shader Format ([IFS](https://www.interactiveshaderformat.com/)) audio [Syphon](https://syphon.info/)
-> renderer, a [Max for Live](https://www.ableton.com/en/live/max-for-live/) device with support for `audio` and `audioFFT`
-> IFS types
+> PX Stream is a visual performance toolkit for [Max for Live](https://www.ableton.com/en/live/max-for-live/),
+> featuring audio-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals, 
+> text rendering and [Syphon](https://syphon.info/) output streaming
 
 ![](./banner.gif)
 
@@ -16,11 +16,11 @@
 ### Diff
 
 ```bash
-git --no-pager diff "./ISF Audio.amxd" "./param.maxpat"
+git --no-pager diff "./PX Shader.amxd" "./param.maxpat"
 ```
 
 ```bash
-git --no-pager diff "./ISF Text.amxd"
+git --no-pager diff "./PX Text.amxd"
 ```
 
 ### Shaders
