@@ -14,7 +14,9 @@
 - [ ] check dim params
 - [ ] extend dim params
 - [ ] doc
+- [ ] sdk?
 - [ ] demo
+- [ ] rebrand to PX Stream?
 - [ ] better midi shader
 - [ ] ~~wave draw?~~
 - [x] midi render
