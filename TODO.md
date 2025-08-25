@@ -15,6 +15,7 @@
 - [ ] extend dim params
 - [ ] doc
 - [ ] sdk?
+- [ ] channel view buttons automation 
 - [ ] demo
 - [ ] better midi shader
 - [x] ~~wave draw?~~
