@@ -24,6 +24,7 @@
 - [ ] adjust fps brightness
 - [ ] rebrand popup title
 - [ ] rebrand patching comments
+- [ ] rebrand world context
 - [x] ~~wave draw?~~
 - [x] text/clip? render
 - [x] rebrand to PX Stream?
