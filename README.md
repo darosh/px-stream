@@ -34,7 +34,7 @@ git --no-pager diff "./PX Shader.amxd" "./param.maxpat"
 ```
 
 ```bash
-git --no-pager diff "./PX Text.amxd"
+git --no-pager diff "./PX Text.amxd" "./PX View.amxd"
 ```
 
 ### Shaders
