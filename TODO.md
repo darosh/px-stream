@@ -21,6 +21,7 @@
 - [ ] logo open GH
 - [ ] fix dials restore
 - [ ] fix text error msg
+- [ ] adjust fps brightness
 - [x] ~~wave draw?~~
 - [x] text/clip? render
 - [x] rebrand to PX Stream?
