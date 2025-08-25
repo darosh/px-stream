@@ -1,12 +1,12 @@
 # Todo
 
 - [ ] popup
-- [ ] text/clip? render
 - [ ] more shaders
 - [ ] restore session params and automation
 - [ ] mid/side something?
 - [ ] pause rendering on silence
 - [ ] beat param?
+- [ ] tempo param?
 - [ ] better XY? https://m1el.github.io/woscope-how/ https://github.com/m1el/woscope/blob/master/shaders/fsLine.glsl
 - [ ] syphon in?
 - [ ] image in?
@@ -16,9 +16,10 @@
 - [ ] doc
 - [ ] sdk?
 - [ ] demo
-- [ ] rebrand to PX Stream?
 - [ ] better midi shader
-- [ ] ~~wave draw?~~
+- [x] ~~wave draw?~~
+- [x] text/clip? render
+- [x] rebrand to PX Stream?
 - [x] midi render
 - [x] render dimensions selector
 - [x] show shader credit
