@@ -2,18 +2,16 @@
 
 ## Misc
 
-- [ ] restore session params and automation
-- [ ] pause rendering on pause
 - [ ] check dim params
 - [ ] extend dim params
-- [ ] doc
-- [ ] doc alternatives
-- [ ] sdk?
-- [ ] channel view buttons automation
-- [ ] demo
+- [ ] restore session params and automation
 - [ ] popup ui?
+- [ ] pause rendering on pause
 - [ ] update banner
 - [ ] mystery error ```typedmess: draw: corrupt object object_class_internal: bad object b06583e0 doesn't understand "draw" ```
+- [ ] demo
+- [ ] doc
+- [ ] sdk?
 
 ## Ideas
 
@@ -37,6 +35,8 @@
 
 ## Done
 
+- [x] doc alternatives
+- [x] channel view buttons automation
 - [x] adjust fps brightness
 - [x] better XY? https://m1el.github.io/woscope-how/ https://github.com/m1el/woscope/blob/master/shaders/fsLine.glsl
 - [x] logo open GH
