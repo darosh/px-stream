@@ -1,5 +1,5 @@
 {
-  "name": "isf-audio",
+  "name": "px-stream",
   "scripts": {
     "format": "node format-shader.js"
   },
