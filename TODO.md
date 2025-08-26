@@ -2,8 +2,6 @@
 
 ## Misc
 
-- [ ] check dim params
-- [ ] extend dim params
 - [ ] restore session params and automation
 - [ ] pause rendering on pause
 - [ ] update banner
@@ -20,6 +18,7 @@
 ## Devices
 
 - [ ] syphon in?
+- [ ] webcam in?
 - [ ] image in?
 - [ ] video in?
 - [ ] jit fx?
@@ -35,6 +34,8 @@
 
 ## Done
 
+- [x] check dim params
+- [x] extend dim params
 - [x] popup ui?
 - [x] popup fullscreen
 - [x] doc alternatives
