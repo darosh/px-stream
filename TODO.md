@@ -1,30 +1,50 @@
 # Todo
 
-- [ ] popup
-- [ ] more shaders
+## Misc
+
 - [ ] restore session params and automation
-- [ ] mid/side something?
-- [ ] pause rendering on silence
-- [ ] beat param?
-- [ ] tempo param?
-- [ ] better XY? https://m1el.github.io/woscope-how/ https://github.com/m1el/woscope/blob/master/shaders/fsLine.glsl
-- [ ] syphon in?
-- [ ] image in?
-- [ ] jit fx?
+- [ ] pause rendering on pause
 - [ ] check dim params
 - [ ] extend dim params
 - [ ] doc
+- [ ] doc alternatives
 - [ ] sdk?
-- [ ] channel view buttons automation 
+- [ ] channel view buttons automation
 - [ ] demo
+- [ ] popup ui?
+- [ ] update banner
+- [ ] mystery error ```typedmess: draw: corrupt object object_class_internal: bad object b06583e0 doesn't understand "draw" ```
+
+## Ideas
+
+- [ ] mid/side something?
+
+## Devices
+
+- [ ] syphon in?
+- [ ] image in?
+- [ ] video in?
+- [ ] jit fx?
+
+## IFS
+
+- [ ] more shaders
 - [ ] better midi shader
-- [ ] logo open GH
-- [ ] fix dials restore
-- [ ] fix text error msg
-- [ ] adjust fps brightness
-- [ ] rebrand popup title
-- [ ] rebrand patching comments
-- [ ] rebrand world context
+- [ ] vu shader?
+- [ ] rolling waveform shader?
+- [ ] beat param?
+- [ ] tempo param?
+
+## Done
+
+- [x] adjust fps brightness
+- [x] better XY? https://m1el.github.io/woscope-how/ https://github.com/m1el/woscope/blob/master/shaders/fsLine.glsl
+- [x] logo open GH
+- [x] fix text error msg
+- [x] popup
+- [x] rebrand popup title
+- [x] rebrand patching comments
+- [x] rebrand world context
 - [x] ~~wave draw?~~
 - [x] text/clip? render
 - [x] rebrand to PX Stream?
