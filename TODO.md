@@ -5,13 +5,13 @@
 - [ ] check dim params
 - [ ] extend dim params
 - [ ] restore session params and automation
-- [ ] popup ui?
 - [ ] pause rendering on pause
 - [ ] update banner
 - [ ] mystery error ```typedmess: draw: corrupt object object_class_internal: bad object b06583e0 doesn't understand "draw" ```
 - [ ] demo
 - [ ] doc
 - [ ] sdk?
+- [ ] debug globals?
 
 ## Ideas
 
@@ -35,6 +35,8 @@
 
 ## Done
 
+- [x] popup ui?
+- [x] popup fullscreen
 - [x] doc alternatives
 - [x] channel view buttons automation
 - [x] adjust fps brightness
