@@ -1,21 +1,26 @@
-/*{"CREDIT": "by darosh", "CATEGORIES": ["Audio Visualizer"], "INPUTS": [], "ISFVSN": "2", "DESCRIPTION": "Adapted from GLSL Sandbox 71493.0"}*/
+/*{
+    "CREDIT": "by darosh",
+    "CATEGORIES": ["Scene"],
+    "INPUTS": [
+        {"NAME": "speed", "TYPE": "float", "DEFAULT": 6, "MIN": 0, "MAX": 20},
+        {"NAME": "lineWidth", "TYPE": "float", "DEFAULT": 0.2, "MIN": 0, "MAX": 10},
+        {"NAME": "lineCountX", "TYPE": "float", "DEFAULT": 35, "MIN": 1, "MAX": 100},
+        {"NAME": "lineCountY", "TYPE": "float", "DEFAULT": 16.666, "MIN": 1, "MAX": 100},
+        {"NAME": "gridColor", "TYPE": "color", "DEFAULT": [0.2, 0.05, 1, 1]},
+        {"NAME": "sunA", "TYPE": "color", "DEFAULT": [1, 0, 0.2, 1]},
+        {"NAME": "sunB", "TYPE": "color", "DEFAULT": [1, 1, 0, 1]},
+        {"NAME": "sunC", "TYPE": "color", "DEFAULT": [1, 0.2, 0.75, 1]},
+        {"NAME": "flickerIntensity", "TYPE": "float", "DEFAULT": 0.1, "MIN": 0, "MAX": 30}
+    ],
+    "ISFVSN": "2",
+    "DESCRIPTION": "Adapted from GLSL Sandbox 71493.0"
+}*/
 
-
-#define usePixelation false
 #define flickerFreq 1400.
 #define flickerSpeed 30.
-#define flickerIntensity .1
 
-// Reduced iterations for better performance
 #define iters 35  // Reduced from 70
 #define minDst .002  // Slightly increased for early termination
-#define lineWidth .2
-#define lineCountX 35.
-#define lineCountY 50./3.
-#define speed 6.
-
-#define pixelsize .2
-#define gridColor vec3(.2,.05,1.)
 
 float smin(float a, float b, float k) {
   float h = clamp(0.5 + 0.5 * (b - a) / k, 0.0, 1.0);
@@ -131,18 +136,18 @@ void main() {
     sin(uv.x * 20. + t_time * 5.) * .01;
   float sunOutline = smoothstep(0.0, -0.0315, max(dist - 0.315, -pattern));
 
-  vec3 c = sunOutline * mix(vec3(4.0, 0.0, 0.2), vec3(1.0, 1.1, 0.0), uv.y);
+  vec3 c = sunOutline * mix(sunA.rgb, sunB.rgb, uv.y);
 
   // glow
   float glow = max(0.0, 1.0 - dist * 1.25);
   glow = min(glow * glow * glow, 0.325);
-  c += glow * vec3(1.5, 0.3, (.2 + 1.0)) * 1.1;
+  c += glow * sunC.rgb * 1.5;
 
   // Optimized grid calculation
   gridUV.y += .18;
   if(gridUV.y < 0.1) {
     float gridIntensity = getGridColor(gridUV);
-    c += gridIntensity * 4. * gridColor;
+    c += gridIntensity * 4. * gridColor.rgb;
   }
   
   // Effects (could be optimized further with LUT)
