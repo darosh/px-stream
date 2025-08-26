@@ -10,6 +10,8 @@
 - [ ] doc
 - [ ] sdk?
 - [ ] debug globals?
+- [ ] disable unused chains?
+- [ ] reset dials on empty inputs
 
 ## Ideas
 
