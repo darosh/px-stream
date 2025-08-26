@@ -7,9 +7,9 @@ function init (t) {
 
   MIDI = t === 'midi'
 
-  let obj = this.patcher.getnamed('isf_chain_in')
+  let obj = this.patcher.getnamed('px_chain_in')
   let name = obj.boxtext.replace('receive ', '')
-  let objM = this.patcher.getnamed('isf_chain_midi')
+  let objM = this.patcher.getnamed('px_chain_midi')
   let nameM = objM.boxtext.replace('receive ', '')
 
   outlet(0, [name, nameM])
@@ -19,7 +19,7 @@ function register (cid, tn, dn, did, rid, mid) {
   DID = did
   // post([cid, tn, dn, did, rid] + '\n')
 
-  const dic = new Dict('isf_audio_chains')
+  const dic = new Dict('px_chains')
 
   if (!MIDI) {
     dic.replace(did, [cid, tn, dn, did, rid, mid])
@@ -31,7 +31,7 @@ function register (cid, tn, dn, did, rid, mid) {
 }
 
 function unregister () {
-  const dic = new Dict('isf_audio_chains')
+  const dic = new Dict('px_chains')
 
   if (dic.contains(DID)) {
     dic.remove(DID)
@@ -44,7 +44,7 @@ function next () {
     return
   }
 
-  const dic = new Dict('isf_audio_chains')
+  const dic = new Dict('px_chains')
   const keys = dic.getkeys()
 
   if (!keys) {
