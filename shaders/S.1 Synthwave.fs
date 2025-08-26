@@ -1,11 +1,4 @@
-/*{
-"CREDIT": "by darosh",
-"CATEGORIES": ["Audio Visualizer"],
-"INPUTS": [],
-"ISFVSN": "2",
-"DESCRIPTION": "Adapted from GLSL Sandbox 71493.0"
-}
-*/
+/*{"CREDIT": "by darosh", "CATEGORIES": ["Audio Visualizer"], "INPUTS": [], "ISFVSN": "2", "DESCRIPTION": "Adapted from GLSL Sandbox 71493.0"}*/
 
 #define usePixelation false
 #define flickerFreq 1400.
@@ -52,11 +45,8 @@ float getDistance(vec3 p) {
 
 float getGridColor(vec2 uv) {
   float t_time = TIME;
-  float zoom = 1., col;
-  vec3 cam = vec3(0., 1., .1), lookat = vec3(0.), fwd = normalize(lookat - cam),
-  // r = normalize(cross(fwd, vec3(0.,1.,0.))),
-  // u = cross(fwd, r),
-  u = normalize(cross(fwd, vec3(1., 0., 0.))), r = cross(u, fwd), c = cam + fwd * zoom, i = c + r * uv.x + u * uv.y, ray = normalize(i - cam);
+  float zoom = 1., col = 0.;
+  vec3 cam = vec3(0., 1., .1), lookat = vec3(0.), fwd = normalize(lookat - cam), u = normalize(cross(fwd, vec3(1., 0., 0.))), r = cross(u, fwd), c = cam + fwd * zoom, i = c + r * uv.x + u * uv.y, ray = normalize(i - cam);
   float distSur, distOrigin = 0.;
 
   vec3 p = cam;
@@ -75,27 +65,31 @@ float getGridColor(vec2 uv) {
     p += ray * distSur;
     distOrigin += distSur;
   }
-  return max(0., col - (distOrigin * .8));
+  return max(0., col - (distOrigin * .98));
 }
 
 void main() {
   float t_time = TIME;
   vec2 t_resolution = RENDERSIZE;
-  float val = 0.; // (texture2D(backbuffer,vec2(0.)).r);
+  float val = 0.;
   float sunHeight = sin(t_time * .1) * .1 + .1;
 
-  // val=val<=0.?.5:val-.5;
-  // vec3 last = IMG_NORM_PIXEL(backbuffer, vec2(floor(gl_FragCoord.xy * (usePixelation ? pixelsize : 1.)) / t_resolution.xy / (usePixelation ? pixelsize : 1.))).rgb;
-  vec2 R = t_resolution.xy, uv = (gl_FragCoord.xy - .5 * R) / R.y + .5;
+  // Normalize coordinates properly for ISF
+  vec2 R = t_resolution.xy;
+  vec2 uv = (gl_FragCoord.xy - .5 * R) / R.y;
 
+  // Store original UV for grid calculation
+  vec2 gridUV = uv;
+
+  // Apply sun positioning
   uv.y -= sunHeight;
   uv.x += val * .2;
+  uv += 0.5; // Center for sun calculation
 
   // sun
   float dist = 2.5 * length(uv - vec2(0.5, 0.5));
   float divisions = 50.0;
 
-  // float pattern = tri(fract(( uv.y + 0.5)* 20.0), 2.0/  divisions, divisionsShift)- (-uv.y + 0.26) * 0.85;
   float pattern = (sin(uv.y * divisions * 10. - t_time * 2.) * 1.2 + uv.y * 8.3) * uv.y - 1.5 +
     sin(uv.x * 20. + t_time * 5.) * .01;
   float sunOutline = smoothstep(0.0, -0.0315, max(dist - 0.315, -pattern));
@@ -107,18 +101,17 @@ void main() {
   glow = min(glow * glow * glow, 0.325);
   c += glow * vec3(1.5, 0.3, (.2 + 1.0)) * 1.1;
 
-  uv -= .5;
+  // Grid calculation - use original UV coordinates
+  gridUV.y += .18;
+  // Adjust the condition to show grid in lower portion
+  if(gridUV.y < 0.1) {
+    float gridIntensity = getGridColor(gridUV);
+    c += gridIntensity * 4. * gridColor;
+  }
 
-  uv.y += sunHeight;
+  // Apply effects
+  gl_FragColor = 1.0 * (1.3 + sin(t_time * flickerSpeed + gridUV.y * flickerFreq) * flickerIntensity) * vec4(c, 1.0);
 
-  uv.y += .18;
-  if(uv.y < 0.1)
-    c += getGridColor(uv) * 4. * gridColor;
-  float p = .1;
-  gl_FragColor = 1.0 * (1.3 + sin(t_time * flickerSpeed + uv.y * flickerFreq) * flickerIntensity) * vec4(
-	// vec3(mix(c, last,motionblur))
-  c, 1.0);
-  float scanline = smoothstep(1. - .2 / flickerFreq, 1., sin(t_time * flickerSpeed * .1 + uv.y * 4.));
-
+  float scanline = smoothstep(1. - .2 / flickerFreq, 1., sin(t_time * flickerSpeed * .1 + gridUV.y * 4.));
   gl_FragColor *= scanline * .2 + 1.;
 }
