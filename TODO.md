@@ -12,6 +12,8 @@
 - [ ] debug globals?
 - [ ] disable unused chains?
 - [ ] reset dials on empty inputs
+- [ ] popup responsivness
+- [ ] selector to maxpat
 
 ## Ideas
 
@@ -23,7 +25,11 @@
 - [ ] webcam in?
 - [ ] image in?
 - [ ] video in?
-- [ ] jit fx?
+- [ ] jit fx? kaleido
+- [ ] jit fx? amoeba
+- [ ] jit fx blur?
+- [ ] jit fx glow?
+- [ ] merge?
 
 ## IFS
 
