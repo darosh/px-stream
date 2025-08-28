@@ -8,12 +8,10 @@
 - [ ] mystery error ```typedmess: draw: corrupt object object_class_internal: bad object b06583e0 doesn't understand "draw" ```
 - [ ] demo
 - [ ] doc
+- [ ] doc FS display link and fps 0
 - [ ] sdk?
-- [ ] debug globals?
 - [ ] disable unused chains?
 - [ ] reset dials on empty inputs
-- [ ] popup responsivness
-- [ ] selector to maxpat
 
 ## Ideas
 
@@ -42,6 +40,11 @@
 
 ## Done
 
+- [x] debug globals?
+- [x] popup responsivness
+- [x] channel to maxpat
+- [x] ~~selector to maxpat~~
+- [x] ~~GL fullscreen FPS sync~~
 - [x] check dim params
 - [x] extend dim params
 - [x] popup ui?
