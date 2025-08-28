@@ -12,6 +12,10 @@
 - [ ] sdk?
 - [ ] disable unused chains?
 - [ ] reset dials on empty inputs
+- [ ] optimize mix (jxs?)
+- [ ] migrate to umenu?
+- [ ] view channel hotkeys 1-8
+- [ ] esc multi view bug
 
 ## Ideas
 
