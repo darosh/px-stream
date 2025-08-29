@@ -16,7 +16,6 @@
 - [ ] migrate to umenu?
 - [ ] scrollable bpatcher to isf info
 - [ ] no webcam selected on load
-- [ ] fx pass: 
 - [ ] hsv mode? 
 - [ ] automate batch freeze?
 
@@ -27,13 +26,8 @@
 ## Devices
 
 - [ ] syphon in?
-- [ ] webcam in?
 - [ ] image in?
 - [ ] video in?
-- [ ] jit fx? kaleido
-- [ ] jit fx? amoeba
-- [ ] jit fx blur?
-- [ ] jit fx glow?
 - [ ] merge channels?
 
 ## IFS
@@ -47,6 +41,12 @@
 
 ## Done
 
+- [x] webcam in?
+- [x] jit fx? kaleido
+- [x] ~~~jit fx? amoeba~~~
+- [x] jit fx blur?
+- [x] jit fx glow?
+- [x] fx pass
 - [x] check removed device/channel
 - [x] remove log from view
 - [x] texture info
