@@ -16,7 +16,9 @@
 - [ ] migrate to umenu?
 - [ ] scrollable bpatcher to isf info
 - [ ] no webcam selected on load
-- [ ] check removed device/channel
+- [ ] fx pass: 
+- [ ] hsv mode? 
+- [ ] automate batch freeze?
 
 ## Ideas
 
@@ -45,6 +47,7 @@
 
 ## Done
 
+- [x] check removed device/channel
 - [x] remove log from view
 - [x] texture info
 - [x] shader wrong intital size
