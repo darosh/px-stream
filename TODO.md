@@ -14,8 +14,9 @@
 - [ ] reset dials on empty inputs
 - [ ] optimize mix (jxs?)
 - [ ] migrate to umenu?
-- [ ] view channel hotkeys 1-8
-- [ ] esc multi view bug
+- [ ] scrollable bpatcher to isf info
+- [ ] no webcam selected on load
+- [ ] check removed device/channel
 
 ## Ideas
 
@@ -31,7 +32,7 @@
 - [ ] jit fx? amoeba
 - [ ] jit fx blur?
 - [ ] jit fx glow?
-- [ ] merge?
+- [ ] merge channels?
 
 ## IFS
 
@@ -44,6 +45,11 @@
 
 ## Done
 
+- [x] remove log from view
+- [x] texture info
+- [x] shader wrong intital size
+- [x] ~~view channel hotkeys 1-8~~
+- [x] esc multi view bug
 - [x] debug globals?
 - [x] popup responsivness
 - [x] channel to maxpat
