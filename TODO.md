@@ -18,6 +18,8 @@
 - [ ] no webcam selected on load
 - [ ] hsv mode? 
 - [ ] automate batch freeze?
+- [ ] View -> Mix, Stream -> Out, Mix OUT, MIX IN
+- [ ] Unify prefix PX
 
 ## Ideas
 
