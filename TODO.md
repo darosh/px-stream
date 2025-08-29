@@ -20,6 +20,7 @@
 - [ ] automate batch freeze?
 - [ ] View -> Mix, Stream -> Out, Mix OUT, MIX IN
 - [ ] Unify prefix PX
+- [ ] [P] pass not marked as RED on collision?
 
 ## Ideas
 
