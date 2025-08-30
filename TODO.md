@@ -19,6 +19,8 @@
 - [ ] shader stored as name
 - [ ] hsv mode? 
 - [ ] automate batch freeze?
+- [ ] doc exclusive rotation
+- [ ] cache svg texture
 - [ ] [P] pass not marked as RED on collision?
 
 ## Ideas
@@ -30,7 +32,8 @@
 - [ ] syphon in?
 - [ ] image in?
 - [ ] video in?
-- [ ] merge channels?
+- [ ] merge channels? dry wet?
+- [ ] copy channel?
 
 ## IFS
 
