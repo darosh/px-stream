@@ -13,13 +13,12 @@
 - [ ] disable unused chains?
 - [ ] reset dials on empty inputs
 - [ ] optimize mix (jxs?)
-- [ ] migrate to umenu?
 - [ ] scrollable bpatcher to isf info
 - [ ] no webcam selected on load
+- [ ] web cam stored as name
+- [ ] shader stored as name
 - [ ] hsv mode? 
 - [ ] automate batch freeze?
-- [ ] View -> Mix, Stream -> Out, Mix OUT, MIX IN
-- [ ] Unify prefix PX
 - [ ] [P] pass not marked as RED on collision?
 
 ## Ideas
@@ -44,6 +43,9 @@
 
 ## Done
 
+- [x] ~~migrate to umenu?~~
+- [x] View -> Mix, Stream -> Out, Mix OUT, MIX IN
+- [x] Unify prefix PX
 - [x] webcam in?
 - [x] jit fx? kaleido
 - [x] ~~~jit fx? amoeba~~~
