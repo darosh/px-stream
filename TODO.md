@@ -29,6 +29,9 @@
 - [ ] doc globals, sends, dicts
 - [ ] doc https://syphon.info/recorder.html
 - [ ] syphon persistence?
+- [ ] add dry/wet algo
+- [ ] center dry/wet by channel
+- [ ] transformation causing errors in PASS?
 - [ ] review channel / chain usage, esp. chain "to end"
 
 chain devices:
@@ -61,6 +64,7 @@ non-chain devices:
 
 - [ ] image in?
 - [ ] video in?
+- [ ] activity blink?
 - [ ] merge channels? dry wet?
 
 ## IFS
@@ -74,6 +78,7 @@ non-chain devices:
 
 ## Done
 
+- [x] rename dev devices to DEV?
 - [x] syphon in?
 - [x] copy channel?
 - [x] ~~migrate to umenu?~~
