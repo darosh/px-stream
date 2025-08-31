@@ -21,10 +21,14 @@
 - [ ] automate batch freeze?
 - [ ] doc exclusive rotation
 - [ ] cache svg texture
+- [ ] text font automation + ref, store by string
 - [ ] info device console style
 - [ ] doc console font, brew install --cask font-cascadia-code
 - [ ] how to erase texture from layer?
 - [ ] [P] pass not marked as RED on collision?
+- [ ] doc globals, sends, dicts
+- [ ] doc https://syphon.info/recorder.html
+- [ ] syphon persistence?
 - [ ] review channel / chain usage, esp. chain "to end"
 
 chain devices:
@@ -55,11 +59,9 @@ non-chain devices:
 
 ## Devices
 
-- [ ] syphon in?
 - [ ] image in?
 - [ ] video in?
 - [ ] merge channels? dry wet?
-- [ ] copy channel?
 
 ## IFS
 
@@ -72,6 +74,8 @@ non-chain devices:
 
 ## Done
 
+- [x] syphon in?
+- [x] copy channel?
 - [x] ~~migrate to umenu?~~
 - [x] View -> Mix, Stream -> Out, Mix OUT, MIX IN
 - [x] Unify prefix PX
