@@ -21,7 +21,33 @@
 - [ ] automate batch freeze?
 - [ ] doc exclusive rotation
 - [ ] cache svg texture
+- [ ] info device console style
+- [ ] doc console font, brew install --cask font-cascadia-code
+- [ ] how to erase texture from layer?
 - [ ] [P] pass not marked as RED on collision?
+- [ ] review channel / chain usage, esp. chain "to end"
+
+chain devices:
+  - Blur FX
+  - Cam IN
+  - Channel IN
+  - Channel
+  - Info
+  - Kaleido FX
+  - Mix IN
+  - Pass FX
+  - Send MIDI
+  - Shader
+  - SVG IN
+  - Text
+  - Transform
+
+non-chain devices:
+  - Console
+  - Mix
+  - Receive
+  - Send MIDI
+  - World
 
 ## Ideas
 
