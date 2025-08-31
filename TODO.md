@@ -39,6 +39,7 @@
 - [ ] channel add through
 - [ ] frameSkip should be time based
 - [ ] review channel / chain usage, esp. chain "to end"
+- [ ] shader redesign, sliders columns by 4,
 
 chain devices:
 
@@ -73,6 +74,7 @@ non-chain devices:
 - [ ] image in?
 - [ ] video in?
 - [ ] activity blink?
+- [ ] reactive geometry device?
 - [ ] inline preview device
 - [ ] merge channels? dry wet?
 
