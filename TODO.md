@@ -35,6 +35,9 @@
 - [ ] find optimal ranges for FX pass / blur / kaleido
 - [ ] dry wet - dry selector
 - [ ] powered by logo
+- [ ] disable device for bypass
+- [ ] channel add through
+- [ ] frameSkip should be time based
 - [ ] review channel / chain usage, esp. chain "to end"
 
 chain devices:
