@@ -5,7 +5,8 @@
 - [ ] restore session params and automation
 - [ ] pause rendering on pause
 - [ ] update banner
-- [ ] mystery error ```typedmess: draw: corrupt object object_class_internal: bad object b06583e0 doesn't understand "draw" ```
+- [ ] mystery error
+  ```typedmess: draw: corrupt object object_class_internal: bad object b06583e0 doesn't understand "draw" ```
 - [ ] demo
 - [ ] doc
 - [ ] doc FS display link and fps 0, and multi fs limitation
@@ -17,7 +18,7 @@
 - [ ] no webcam selected on load
 - [ ] web cam stored as name
 - [ ] shader stored as name
-- [ ] hsv mode? 
+- [ ] hsv mode?
 - [ ] automate batch freeze?
 - [ ] doc exclusive rotation
 - [ ] cache svg texture
@@ -33,29 +34,32 @@
 - [ ] center dry/wet by channel
 - [ ] transformation causing errors in PASS?
 - [ ] find optimal ranges for FX pass / blur / kaleido
+- [ ] powered by
 - [ ] review channel / chain usage, esp. chain "to end"
 
 chain devices:
-  - Blur FX
-  - Cam IN
-  - Channel IN
-  - Channel
-  - Info
-  - Kaleido FX
-  - Mix IN
-  - Pass FX
-  - Send MIDI
-  - Shader
-  - SVG IN
-  - Text
-  - Transform
+
+- Blur FX
+- Cam IN
+- Channel IN
+- Channel
+- Info
+- Kaleido FX
+- Mix IN
+- Pass FX
+- Send MIDI
+- Shader
+- SVG IN
+- Text
+- Transform
 
 non-chain devices:
-  - Console
-  - Mix
-  - Receive
-  - Send MIDI
-  - World
+
+- Console
+- Mix
+- Receive
+- Send MIDI
+- World
 
 ## Ideas
 
@@ -66,6 +70,7 @@ non-chain devices:
 - [ ] image in?
 - [ ] video in?
 - [ ] activity blink?
+- [ ] inline preview device
 - [ ] merge channels? dry wet?
 
 ## IFS
