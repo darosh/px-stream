@@ -30,11 +30,11 @@
 - [ ] doc globals, sends, dicts
 - [ ] doc https://syphon.info/recorder.html
 - [ ] syphon persistence?
-- [ ] add dry/wet algo
 - [ ] center dry/wet by channel
 - [ ] transformation causing errors in PASS?
 - [ ] find optimal ranges for FX pass / blur / kaleido
-- [ ] powered by
+- [ ] dry wet - dry selector
+- [ ] powered by logo
 - [ ] review channel / chain usage, esp. chain "to end"
 
 chain devices:
@@ -84,6 +84,7 @@ non-chain devices:
 
 ## Done
 
+- [x] add dry/wet algo
 - [x] rename dev devices to DEV?
 - [x] syphon in?
 - [x] copy channel?
