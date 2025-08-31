@@ -32,6 +32,7 @@
 - [ ] add dry/wet algo
 - [ ] center dry/wet by channel
 - [ ] transformation causing errors in PASS?
+- [ ] find optimal ranges for FX pass / blur / kaleido
 - [ ] review channel / chain usage, esp. chain "to end"
 
 chain devices:
