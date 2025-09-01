@@ -39,6 +39,8 @@
 - [ ] channel add through
 - [ ] frameSkip should be time based
 - [ ] review channel / chain usage, esp. chain "to end"
+- [ ] fix svg automation
+- [ ] fix svg resolution switch
 - [ ] shader redesign, sliders columns by 4,
 
 chain devices:
