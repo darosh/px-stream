@@ -41,6 +41,7 @@
 - [ ] review channel / chain usage, esp. chain "to end"
 - [ ] fix svg automation
 - [ ] fix svg resolution switch
+- [ ] disable dynamic live.menu automation
 - [ ] shader redesign, sliders columns by 4,
 
 chain devices:
@@ -51,6 +52,7 @@ chain devices:
 - Channel
 - Info
 - Kaleido FX
+- Dry Wet
 - Mix IN
 - Pass FX
 - Send MIDI
@@ -73,6 +75,9 @@ non-chain devices:
 
 ## Devices
 
+- [ ] color
+- [ ] gradient
+- [ ] cos pallete (presets)
 - [ ] image in?
 - [ ] video in?
 - [ ] activity blink?
@@ -91,6 +96,7 @@ non-chain devices:
 
 ## Done
 
+- [x] global reset texture?
 - [x] add dry/wet algo
 - [x] rename dev devices to DEV?
 - [x] syphon in?
