@@ -25,7 +25,6 @@
 - [ ] text font automation + ref, store by string
 - [ ] info device console style
 - [ ] doc console font, brew install --cask font-cascadia-code
-- [ ] [P] pass not marked as RED on collision?
 - [ ] doc globals, sends, dicts
 - [ ] doc https://syphon.info/recorder.html
 - [ ] syphon persistence?
@@ -89,6 +88,7 @@ non-chain devices:
 
 ## Done
 
+- [x] [P] pass not marked as RED on collision?
 - [x] merge channels? dry wet?
 - [x] ~~how to erase texture from layer?~~
 - [x] ~~c~~enter dry/wet by channel
