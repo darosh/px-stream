@@ -77,7 +77,6 @@ non-chain devices:
 - [ ] activity blink?
 - [ ] reactive geometry device?
 - [ ] inline preview device
-- [ ] merge channels? dry wet?
 
 ## IFS
 
@@ -90,6 +89,7 @@ non-chain devices:
 
 ## Done
 
+- [x] merge channels? dry wet?
 - [x] ~~how to erase texture from layer?~~
 - [x] ~~c~~enter dry/wet by channel
 - [x] dry wet - dry selector
