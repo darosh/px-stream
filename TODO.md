@@ -5,8 +5,7 @@
 - [ ] restore session params and automation
 - [ ] pause rendering on pause
 - [ ] update banner
-- [ ] mystery error
-  ```typedmess: draw: corrupt object object_class_internal: bad object b06583e0 doesn't understand "draw" ```
+- [ ] mystery error ```typedmess: draw: corrupt object object_class_internal: bad object b06583e0 doesn't understand "draw" ```
 - [ ] demo
 - [ ] doc
 - [ ] doc FS display link and fps 0, and multi fs limitation
@@ -15,6 +14,7 @@
 - [ ] reset dials on empty inputs
 - [ ] optimize mix (jxs?)
 - [ ] scrollable bpatcher to isf info
+- [ ] fix jit.gl.syphonclient: doesn't understand "<separator>"
 - [ ] no webcam selected on load
 - [ ] web cam stored as name
 - [ ] shader stored as name
@@ -25,24 +25,18 @@
 - [ ] text font automation + ref, store by string
 - [ ] info device console style
 - [ ] doc console font, brew install --cask font-cascadia-code
-- [ ] how to erase texture from layer?
 - [ ] [P] pass not marked as RED on collision?
 - [ ] doc globals, sends, dicts
 - [ ] doc https://syphon.info/recorder.html
 - [ ] syphon persistence?
-- [ ] center dry/wet by channel
 - [ ] transformation causing errors in PASS?
 - [ ] find optimal ranges for FX pass / blur / kaleido
-- [ ] dry wet - dry selector
 - [ ] powered by logo
 - [ ] disable device for bypass
-- [ ] channel add through
 - [ ] frameSkip should be time based
-- [ ] review channel / chain usage, esp. chain "to end"
 - [ ] fix svg automation
 - [ ] fix svg resolution switch
 - [ ] disable dynamic live.menu automation
-- [ ] shader redesign, sliders columns by 4,
 
 chain devices:
 
@@ -96,6 +90,13 @@ non-chain devices:
 
 ## Done
 
+- [x] ~~how to erase texture from layer?~~
+- [x] ~~c~~enter dry/wet by channel
+- [x] dry wet - dry selector
+- [x] review channel / chain usage, esp. chain "to end"
+- [x] channel add through
+- [x] shader redesign, sliders columns by ~~4~~ 8,
+- [x] shader type should not be default on, expand should be ...
 - [x] global reset texture?
 - [x] add dry/wet algo
 - [x] rename dev devices to DEV?
