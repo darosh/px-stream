@@ -23,6 +23,11 @@ Param d_g(0.5);  // Green component - Phase
 Param d_b(0.5);  // Blue component - Phase
 Param d_a(0.5);
 
+Param on_r(1);   
+Param on_g(1);  
+Param on_b(1);  
+Param on_a(1);
+
 Param angle(0.0);  // Rotation angle in radians
 Param density(1.0);  // Scale factor for the gradient
 
@@ -32,7 +37,10 @@ Param scale_y(1.0);    // Y axis scaling
 Param shift_x(0.0);    // X axis shift (proportional to image size)
 Param shift_y(0.0);    // Y axis shift (proportional to image size)
 
+Param steps(0);
 Param pat(1.0);
+Param hue_shift(0);
+Param value_1(0);
 
 // Center normalized coordinates around 0
 cx = norm.x - 0.5;
@@ -69,7 +77,7 @@ y = cx * sin_a + cy * cos_a;
 
 // Create gradient parameter t
 t = 0;
-// Linear Radial Spiral Log Flower Twisted Ripples Hyperbolic Plasma Board Waves Liquid Veins Cells Clouds Fractal Flowing Random Noise Grid Turbulence Constant
+// Linear Radial Spiral Log Flower Twisted Ripples Hyperbolic Plasma Board Waves Liquid Veins Cells Clouds Fractal Flowing Turbulence Random Grid Noise Constant
 if(pat < 1) {
     t = (x + y) * density;
 } else if(pat < 2) {
@@ -79,17 +87,17 @@ if(pat < 1) {
 } else if(pat < 4) {
     t = (atan2(y, x) / 6.28318 + log(sqrt(x*x + y*y) + 0.001)) * density;
 } else if(pat < 5) {
-    t = (atan2(y, x) * 5.0 / 6.28318 + sqrt(x*x + y*y)) * density;
+    t = (atan2(y, x) * (5.0 + value_1) / 6.28318 + sqrt(x*x + y*y)) * density;
 } else if(pat < 6) {
-    t = ((x + y) + sin(x * 5) * 0.1) * density;
+    t = ((x + y) + sin(x * (5 + value_1)) * 0.1) * density;
 } else if(pat < 7) {
-    t = sin(sqrt(x * x + y * y) * 5) * density;
+    t = sin(sqrt(x * x + y * y) * (5 + value_1)) * density;
 } else if(pat < 8) {
     t = (x * y) * 2 * density;
 } else if(pat < 9) {
-    t = (sin(x * 5) + sin(y * 5) + sin((x + y) * 2.5)) * density;
+    t = (sin(x * (5 + value_1)) + sin(y * (5 + value_1)) + sin((x + y) * (2.5 + value_1 / 2.))) * density;
 } else if(pat < 10) {
-    t = (sin(x * 10) * sin(y * 10)) * density;
+    t = (sin(x * (10 + value_1)) * sin(y * (10 + value_1))) * density;
 } else if(pat < 11) {
     t = (sin(x * 3 + y * 2) + sin(x * 5 - y * 3) * 0.7 + sin(x * 7 + y * 4) * 0.5) * density;
 } else if(pat < 12) {
@@ -110,6 +118,9 @@ if(pat < 1) {
     wave3 = sin((x + y) * 1.7 + wave1 * 1.5);
     t = (wave1 + wave2 * 0.8 + wave3 * 0.6 + cos(x * 4.5) * 0.4) * density;
 } else if(pat < 18) {
+    turb = sin(x * 4 + sin(y * 3) * 2) + sin(x * 8 + cos(y * 6) * 1) * 0.5 + sin(x * 16 + sin(y * 12) * 0.5) * 0.25;
+    t = turb * density;
+} else if(pat < 19) {
 	n = vec(x, y);
 	d = vec(0.0, 1.0);
 	b = floor(n);
@@ -119,8 +130,6 @@ if(pat < 1) {
 	rxy = fract(sin(b.x + (b.y + 1.0) * 100.0) * 43758.545312);
 	ryy = fract(sin(b.x + 1.0 + (b.y + 1.0) * 100.0) * 43758.545312);
 	t = mix(mix(rb, ryx, f.r), mix(rxy, ryy, f.r), f.g) * density;
-} else if(pat < 19) {
-    t = (sin(x * 12.9898) * cos(y * 78.233) * 43758.5453) * density;
 } else if(pat < 20) {
     gx = floor(x * 16);
     gy = floor(y * 16);
@@ -131,18 +140,24 @@ if(pat < 1) {
     h = sin(gx * 12.9898 + gy * 78.233) * 43758.5453;
     t = h * density;
 } else if(pat < 21) {
-    turb = sin(x * 4 + sin(y * 3) * 2) + sin(x * 8 + cos(y * 6) * 1) * 0.5 + sin(x * 16 + sin(y * 12) * 0.5) * 0.25;
-    t = turb * density;
+    t = (sin(x * 12.9898) * cos(y * 78.233) * 43758.5453) * density;
 } else if(pat < 22) {
     t = .5;
 }
 
+if (steps > 0) {
+	intPart = floor(t);
+    fracPart = t - intPart;
+    steppedFrac = floor(fracPart * steps) / steps;
+    t = intPart + steppedFrac;
+}
+
 // Apply cos palette formula for each color channel
 // color = a + b * cos(2π * (c * t + d))
-r = a_r + b_r * cos(6.28318530718 * (c_r * t + d_r));
-g = a_g + b_g * cos(6.28318530718 * (c_g * t + d_g));
-b = a_b + b_b * cos(6.28318530718 * (c_b * t + d_b));
-a = a_a + b_a * cos(6.28318530718 * (c_a * t + d_a));
+r = on_r ? (a_r + b_r * cos(6.28318530718 * (c_r * t + d_r))) : 0;
+g = on_g ? (a_g + b_g * cos(6.28318530718 * (c_g * t + d_g))) : 0;
+b = on_b ? (a_b + b_b * cos(6.28318530718 * (c_b * t + d_b))) : 0;
+a = on_a ? (a_a + b_a * cos(6.28318530718 * (c_a * t + d_a))) : 1;
 
 // Clamp values to 0-1 range
 r = clamp(r, 0, 1);
@@ -150,5 +165,13 @@ g = clamp(g, 0, 1);
 b = clamp(b, 0, 1);
 a = clamp(a, 0, 1);
 
+rgba = vec(r, g, b, a);
+
+if (hue_shift > 0) {
+	hsl = rgb2hsl(rgba);
+	hsl = hsl + vec(hue_shift, 0, 0);
+	rgba = hsl2rgb(hsl);
+}
+
 // Output RGBA
-out1 = vec(r, g, b, a);
+out1 = rgba;

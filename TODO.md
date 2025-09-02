@@ -36,7 +36,6 @@
 - [ ] fix svg automation
 - [ ] fix svg resolution switch
 - [ ] disable dynamic live.menu automation
-- [ ] Cos Pattern: lock scale, extract param (flower etc), color presets, win size -1,  
 
 chain devices:
 
@@ -89,6 +88,14 @@ non-chain devices:
 
 ## Done
 
+- [x] Cos Pattern:
+    - lock scale,
+    - extract param (flower etc),
+    - color presets,
+    - win size -1,
+    - ~~luma?~~
+    - channel switch
+    - hue shift
 - [x] [P] pass not marked as RED on collision?
 - [x] merge channels? dry wet?
 - [x] ~~how to erase texture from layer?~~
