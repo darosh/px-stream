@@ -36,6 +36,11 @@
 - [ ] fix svg automation
 - [ ] fix svg resolution switch
 - [ ] disable dynamic live.menu automation
+- [ ] kaleido scale lock
+- [ ] kaleido redesign
+- [ ] kaleido simulation https://en.wikipedia.org/wiki/Kaleidoscope
+- [ ] blur redesign
+- [ ] rename IN FX Dry
 
 chain devices:
 
