@@ -36,6 +36,7 @@
 - [ ] fix svg automation
 - [ ] fix svg resolution switch
 - [ ] disable dynamic live.menu automation
+- [ ] Cos Pattern: lock scale, extract param (flower etc), color presets, win size -1,  
 
 chain devices:
 
