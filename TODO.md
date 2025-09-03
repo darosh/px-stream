@@ -36,11 +36,9 @@
 - [ ] fix svg automation
 - [ ] fix svg resolution switch
 - [ ] disable dynamic live.menu automation
-- [ ] kaleido scale lock
-- [ ] kaleido redesign
-- [ ] kaleido simulation https://en.wikipedia.org/wiki/Kaleidoscope
 - [ ] blur redesign
-- [ ] rename IN FX Dry
+- [ ] text: beat, time, frame, direct
+- [ ] fl: tabs
 
 chain devices:
 
@@ -75,7 +73,6 @@ non-chain devices:
 
 - [ ] color
 - [ ] gradient
-- [ ] cos pallete (presets)
 - [ ] image in?
 - [ ] video in?
 - [ ] activity blink?
@@ -93,6 +90,11 @@ non-chain devices:
 
 ## Done
 
+- [x] cos pallete (presets)
+- [x] kaleido scale lock
+- [x] kaleido redesign
+- [x] kaleido simulation https://en.wikipedia.org/wiki/Kaleidoscope
+- [x] rename IN FX Dry
 - [x] Cos Pattern:
     - lock scale,
     - extract param (flower etc),
