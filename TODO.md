@@ -36,9 +36,7 @@
 - [ ] fix svg automation
 - [ ] fix svg resolution switch
 - [ ] disable dynamic live.menu automation
-- [ ] blur redesign
 - [ ] text: beat, time, frame, direct
-- [ ] fl: tabs
 
 chain devices:
 
@@ -90,6 +88,9 @@ non-chain devices:
 
 ## Done
 
+- [x] blur redesign
+- [x] fl: tabs
+- [x] fl: cam tooltips
 - [x] cos pallete (presets)
 - [x] kaleido scale lock
 - [x] kaleido redesign
