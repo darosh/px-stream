@@ -37,6 +37,13 @@
 - [ ] fix svg resolution switch
 - [ ] disable dynamic live.menu automation
 - [ ] text: beat, time, frame, direct
+- [ ] If parameter automation causes high CPU load, try enabling Defer Automation Output in the object Inspector,
+  or try higher values for the Update Limit.
+- [ ] cc.scalebias.jxs?
+- [ ] use jit window instead of world for fullscreen
+- [ ] https://cycling74.com/tutorials/max-and-opengl-gl-texture-delay
+- [ ] https://www.youtube.com/watch?v=PomKrUNqdAk
+- [ ] mix: takes screenshot 
 
 chain devices:
 
@@ -69,10 +76,15 @@ non-chain devices:
 
 ## Devices
 
+- [ ] video in? loop on/off per clip, speed control, in/out points
+- [ ] texture (feedback?) delay
+- [ ] color correction
+- [ ] JPEG
+- [ ] video rate LFO?
+
 - [ ] color
 - [ ] gradient
 - [ ] image in?
-- [ ] video in?
 - [ ] activity blink?
 - [ ] reactive geometry device?
 - [ ] inline preview device
@@ -84,7 +96,7 @@ non-chain devices:
 - [ ] vu shader?
 - [ ] rolling waveform shader?
 - [ ] beat param?
-- [ ] tempo param?
+- [ ] tempo param? BEAT? BAR?
 
 ## Done
 
