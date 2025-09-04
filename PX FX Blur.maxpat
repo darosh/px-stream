@@ -18,6 +18,7 @@
 		"objectsnaponopen" : 0,
 		"enablehscroll" : 0,
 		"enablevscroll" : 0,
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-34",
@@ -344,7 +345,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
 					"id" : "obj-366",
 					"maxclass" : "live.tab",
@@ -1071,14 +1072,7 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 832.0, 80.0, 130.0, 124.0 ],
@@ -1294,6 +1288,50 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-31::obj-10" : [ "Width[3]", "Width", 0 ],
+			"obj-31::obj-13" : [ "Width[1]", "Width", 0 ],
+			"obj-31::obj-15" : [ "Width[2]", "Width", 0 ],
+			"obj-31::obj-28" : [ "live.numbox[18]", "live.numbox[2]", 0 ],
+			"obj-31::obj-47" : [ "live.numbox[19]", "live.numbox[2]", 0 ],
+			"obj-31::obj-9" : [ "Width", "Width", 0 ],
+			"obj-366" : [ "Syphon", "Syphon", 0 ],
+			"obj-4" : [ "live.tab", "live.tab", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "chain.js",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chain.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "channel.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "MP-M4L",
 				"default" : 				{
@@ -1320,14 +1358,7 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
-			}
-
-		}
-
+ ]
 	}
 
 }
