@@ -16,6 +16,34 @@
 		"gridsnaponopen" : 2,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 8.0,
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 114.189181566238403, 16.216215133666992, 48.196712851524353, 16.0 ],
+					"text" : "render",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 8.0,
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 96.621615171432495, 1.351351261138916, 48.196712851524353, 16.0 ],
+					"text" : "empty",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -372,7 +400,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.262301445007324, 16.0, 48.196712851524353, 16.0 ],
+					"patching_rect" : [ 149.999989986419678, 16.0, 42.567564725875854, 16.0 ],
 					"text" : "to next",
 					"textjustification" : 2
 				}
@@ -401,7 +429,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.174867630004883, 16.0, 48.196712851524353, 16.0 ],
+					"patching_rect" : [ 77.702697515487671, 16.216215133666992, 48.196712851524353, 16.0 ],
 					"text" : "color",
 					"textjustification" : 1
 				}
@@ -415,7 +443,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.087433815002441, 16.0, 48.196712851524353, 16.0 ],
+					"patching_rect" : [ 47.972969770431519, 16.0, 39.189186573028564, 16.0 ],
 					"text" : "bang"
 				}
 
@@ -862,7 +890,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "jit_gl_texture" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 313.432824611663818, 134.328353404998779, 30.0, 30.0 ]
 				}
 
