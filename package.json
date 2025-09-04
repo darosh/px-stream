@@ -1,16 +1,18 @@
 {
   "name": "px-stream",
   "version": "0.0.0",
-  "dependencies": {
-    "glob": "^11.0.3"
-  },
   "devDependencies": {
+    "glob": "^11.0.3",
+    "eslint": "^9.34.0",
+    "eslint-plugin-maxpat": "1.0.0",
     "json-stringify-pretty-compact": "^4.0.0"
   },
   "private": true,
   "scripts": {
     "format": "node format-shader.js",
-    "lint": "node maxpat-lint.js ."
+    "lint:maxpat": "eslint ./*.maxpat",
+    "lint:maxpat:info": "eslint --format node_modules/eslint-plugin-maxpat/lib/formatter.js ./*.maxpat",
+    "lint:maxpat:fix": "eslint --fix ./*.maxpat"
   },
   "type": "module"
 }
