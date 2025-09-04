@@ -1,0 +1,123 @@
+{
+  // Max/MSP Patch Linter Configuration
+  // Based on .maxpat file structure and Max/MSP best practices
+
+  "rules": {
+    // === STRUCTURE VALIDATION ===
+    "validate-structure": "error",                    // Check for required `patcher` object and basic structure
+    "require-fileversion": "warn",                    // Ensure `fileversion` is present
+    "require-appversion": "warn",                     // Ensure `appversion` is present
+
+    // === PATCH WINDOW SETTINGS ===
+    "check-window-bounds": ["warn", {                 // Validate `rect` array for reasonable window size
+      "min-size": [100, 100],                         // Minimum [width, height] for patch window
+      "max-size": [2000, 1500]                        // Maximum [width, height] for patch window
+    }],
+
+    // === GRID AND SNAP SETTINGS ===
+    "require-snap-to-grid": "warn",                   // Check `snap` property is enabled
+    "require-snap-to-pixel": "warn",                  // Check `gridsnap` property is enabled  
+    "require-default-grid-size": ["warn", [8, 8]],   // Expected `gridsize` array values
+    "require-show-grid": "off",                       // Check `showgrid` property (often personal preference)
+    "require-snap-to-object-off": "warn",             // Check `objectsnap` is disabled
+    "require-open-in-presentation": "warn",           // Check `openinpresentation` is enabled
+
+    // === OBJECT VALIDATION ===
+    "check-missing-objects": "error",                 // Validate object structure in `boxes` array
+    "check-deprecated-objects": ["warn", [            // Check against deprecated object list
+      "gate~",        // Replaced by selector~
+      "switch~",      // Replaced by selector~  
+      "scope~",       // Replaced by scope
+      "poly~",        // Often better to use mc. objects
+      "drunk"         // Consider using random with seed
+    ]],
+    "check-duplicate-object-types": "off",            // Check for multiple instances of same object type
+
+    // === POSITIONING AND LAYOUT ===
+    "check-position-rounding": ["warn", {             // Validate `patching_rect` and `presentation_rect` coordinates
+      "patching-precision": [8.0, 8.0],               // Required precision for patching mode coordinates
+      "presentation-precision": [1.0, 1.0]            // Required precision for presentation mode (allows .5)
+    }],
+    "check-negative-coordinates": "warn",             // Warn about negative x/y in `patching_rect`
+
+    // === CONNECTION VALIDATION ===
+    "validate-connections": "error",                  // Check `lines` array for valid connections
+    "check-disconnected-objects": ["warn", [         // Find objects not referenced in `lines`, skip these types:
+      "comment",      // Comments don't need connections
+      "panel",        // Visual panels don't need connections  
+      "bpatcher",     // Sub-patches handle their own connections
+      "p",            // Sub-patches handle their own connections
+      "loadbang",     // Loadbang often stands alone
+      "inlet",        // Part of abstraction interface
+      "outlet"        // Part of abstraction interface
+    ]],
+    "check-print-connections": "warn",                // Ensure connections to print objects have `disabled` set to 1
+
+    // === SEND/RECEIVE VALIDATION ===
+    "check-local-sends": "warn",                      // Check local sends (---NAME) have matching receives
+
+    // === GLOBAL NAMING VALIDATION ===
+    "global-send-receive": ["warn", [                 // Allowed global send/receive names (without ---)
+      "master-volume",
+      "tempo",
+      "transport",
+      "midi-in",
+      "midi-out"
+    ]],
+    "global-dict": ["warn", [                         // Allowed global dict names
+      "settings",
+      "presets",
+      "user-data",
+      "project-config"
+    ]],
+    "global-value": ["warn", [                        // Allowed global value names
+      "project-tempo",
+      "master-gain",
+      "sample-rate",
+      "buffer-size"
+    ]],
+
+    // === NAMING CONVENTIONS ===
+    "naming-send-receive": ["warn", "^[a-zA-Z][a-zA-Z0-9_-]*$"],  // Regex for send/receive names
+    "naming-patcher": ["warn", "^[a-zA-Z][a-zA-Z0-9_-]*$"],       // Regex for patcher `varname`
+    "naming-dict": ["warn", "^[a-zA-Z][a-zA-Z0-9_-]*$"],          // Regex for dict names
+    "naming-value": ["warn", "^[a-zA-Z][a-zA-Z0-9_-]*$"],         // Regex for value names
+
+    // === UI ELEMENT VALIDATION ===
+    "check-ui-sizing": ["warn", {                     // Validate UI object `size` or calculated from `patching_rect`
+      "min-width": 10,                                // Minimum width for UI elements  
+      "min-height": 10                                // Minimum height for UI elements
+    }],
+    "require-ui-annotation": ["warn", [               // Check UI elements have proper annotation
+      "slider", "dial", "button", "toggle", "number", // Standard UI objects
+      "live.dial", "live.slider", "live.button",      // Live UI objects  
+      "live.toggle", "live.menu", "live.tab"
+    ]],
+    "check-ui-hint-usage": ["warn", [                 // Warn about `hint` property usage (prefer annotation)
+      "slider", "dial", "button", "toggle", "number",
+      "live.dial", "live.slider", "live.button",
+      "live.toggle", "live.menu", "live.tab"
+    ]],
+    "check-generic-names": ["warn", [                 // Patterns indicating generic/auto-generated names
+      "\\[\\d+\\]$",           // Matches "[1]", "[2]", etc. - automatic Max suffixes
+      "^(live\\.)?\\w+$",      // Single word object names without context
+      "^untitled",             // Default untitled names
+      "^(slider|dial|button)\\d*$" // Generic UI element names
+    ]],
+    "list-ui-elements": ["info", [                    // List all UI elements with details for review
+      "slider", "dial", "button", "toggle", "number",
+      "live.dial", "live.slider", "live.button",
+      "live.toggle", "live.menu", "live.tab"
+    ]],
+    "check-annotation-consistency": "warn",           // Check `annotation`/`annotation_name` match `parameter_info`/`parameter_annotation_name`
+
+    // === PERFORMANCE CHECKS ===
+    "check-performance-issues": ["warn", {            // Check for performance-sensitive configurations
+      "metro-min-interval": 10,                       // Minimum safe interval for metro objects (ms)
+      "performance-objects": [                        // Objects that can cause performance issues
+        "metro", "drunk", "random", "line~", "curve~"
+      ]
+    }],
+    "check-feedback-loops": "warn"                    // Detect potential send/receive feedback loops
+  }
+}

@@ -1,10 +1,16 @@
 {
   "name": "px-stream",
-  "scripts": {
-    "format": "node format-shader.js"
+  "version": "0.0.0",
+  "dependencies": {
+    "glob": "^11.0.3"
   },
   "devDependencies": {
     "json-stringify-pretty-compact": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "format": "node format-shader.js",
+    "lint": "node maxpat-lint.js ."
   },
   "type": "module"
 }

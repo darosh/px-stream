@@ -12,6 +12,9 @@
 		"classnamespace" : "box",
 		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 2,
+		"objectsnaponopen" : 0,
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-9",
