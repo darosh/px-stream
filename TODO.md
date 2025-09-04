@@ -182,3 +182,38 @@ non-chain devices:
 - [x] categorize
 - [x] fps
 - [x] unified wav
+
+
+#!/bin/bash
+
+# source file
+SRC="./.TEST EMPTY.maxpat"
+
+# target files
+TARGETS=(
+"PX IN Cam.maxpat"
+"PX IN Channel.maxpat"
+"PX IN Cos Pattern.maxpat"
+"PX IN Mix.maxpat"
+"PX IN SVG.maxpat"
+"PX IN Syphon.maxpat"
+"PX IN Text.maxpat"
+"PX Mix Channel.maxpat"
+"PX Mix Dry.maxpat"
+"PX Mix View.maxpat"
+"PX Route Audio.maxpat"
+"PX Route MIDI.maxpat"
+"PX Shader.maxpat"
+"PX Transform.maxpat"
+"PX World.maxpat"
+"PX FX Pass.maxpat"
+"PX FX Kaleidoscope.maxpat"
+"DEV Info.maxpat"
+"DEV Console.maxpat"
+)
+
+# copy loop
+for TGT in "${TARGETS[@]}"; do
+cp "$SRC" "$TGT"
+echo "Created: $TGT"
+done
