@@ -69,7 +69,7 @@ export default defineConfig([{
       ]
     }],
     'maxpat/performance/speed-limit': ['warn', {
-      milliseconds: 10, include: [
+      milliseconds: 1, include: [
         'slider', 'dial', 'button', 'toggle', 'number', 'live.dial',
         'live.slider', 'live.button', 'live.toggle', 'live.text',
         'live.menu', 'live.tab',
