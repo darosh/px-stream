@@ -18,6 +18,7 @@
 		"objectsnaponopen" : 0,
 		"enablehscroll" : 0,
 		"enablevscroll" : 0,
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-24",
@@ -25,7 +26,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 168.0, 96.0, 100.0, 50.0 ],
+					"patching_rect" : [ 384.0, 8.0, 100.0, 50.0 ],
 					"pic" : "cam.svg",
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 59.0, 112.0, 46.0 ]
@@ -42,7 +43,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 312.0, 168.0, 32.0, 32.0 ],
+					"patching_rect" : [ 512.0, 32.0, 32.0, 32.0 ],
 					"pictures" : [ "refresh.svg", "refresh.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 86.0, 34.0, 42.0, 16.0 ],
@@ -83,13 +84,13 @@
 					"allowdrag" : 0,
 					"hint" : "Select an input format",
 					"id" : "obj-22",
-					"items" : [ "NV12 - 420YpCbCr8BiPlanar - 1920 x 1080", ",", "NV12 - 420YpCbCr8BiPlanar - 1280 x 720", ",", "NV12 - 420YpCbCr8BiPlanar - 1080 x 1920", ",", "NV12 - 420YpCbCr8BiPlanar - 1760 x 1328", ",", "NV12 - 420YpCbCr8BiPlanar - 640 x 480", ",", "NV12 - 420YpCbCr8BiPlanar - 1328 x 1760", ",", "NV12 - 420YpCbCr8BiPlanar - 1552 x 1552" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 616.0, 440.0, 196.0, 20.0 ],
+					"patching_rect" : [ 624.0, 448.0, 196.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 13.0, 126.0, 20.0 ],
 					"style" : "umenu.live",
@@ -102,13 +103,13 @@
 					"allowdrag" : 0,
 					"hint" : "Select an input device",
 					"id" : "obj-51",
-					"items" : [ "FaceTime HD Camera", ",", "OBS Virtual Camera", ",", "Elgato Virtual Camera" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 408.0, 440.0, 196.0, 20.0 ],
+					"patching_rect" : [ 392.0, 464.0, 196.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 0.0, 126.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -139,7 +140,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 616.0, 440.0, 200.0, 24.0 ],
+					"patching_rect" : [ 624.0, 448.0, 200.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 3.0, 124.0, 13.0 ],
 					"proportion" : 0.39,
@@ -483,7 +484,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 680.0, 544.0, 54.0, 22.0 ],
+					"patching_rect" : [ 688.0, 568.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -507,7 +508,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 16.0, 448.0, 22.0, 22.0 ],
+					"patching_rect" : [ 8.0, 448.0, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -531,7 +532,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 464.0, 104.0, 22.0 ],
+					"patching_rect" : [ 152.0, 448.0, 104.0, 22.0 ],
 					"text" : "automatic 0, bang"
 				}
 
@@ -579,7 +580,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 680.0, 520.0, 72.0, 22.0 ],
+					"patching_rect" : [ 688.0, 528.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -591,7 +592,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 336.0, 520.0, 72.0, 22.0 ],
+					"patching_rect" : [ 320.0, 544.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -604,7 +605,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 616.0, 480.0, 50.0, 22.0 ],
+					"patching_rect" : [ 616.0, 520.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -630,7 +631,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 408.0, 480.0, 50.0, 22.0 ],
+					"patching_rect" : [ 392.0, 504.0, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -656,7 +657,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 680.0, 480.0, 93.0, 22.0 ],
+					"patching_rect" : [ 688.0, 488.0, 93.0, 22.0 ],
 					"restore" : [ 0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -701,7 +702,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 616.0, 520.0, 59.0, 22.0 ],
+					"patching_rect" : [ 616.0, 560.0, 59.0, 22.0 ],
 					"text" : "format $1"
 				}
 
@@ -893,7 +894,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 408.0, 520.0, 138.0, 22.0 ],
+					"patching_rect" : [ 416.0, 544.0, 138.0, 22.0 ],
 					"text" : "vdevice $1, getformatlist"
 				}
 
@@ -937,7 +938,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 408.0, 440.0, 200.0, 24.0 ],
+					"patching_rect" : [ 392.0, 464.0, 200.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 17.0, 124.0, 13.0 ],
 					"proportion" : 0.39,
@@ -1003,7 +1004,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 718.5, 427.5, 625.5, 427.5 ],
+					"midpoints" : [ 718.5, 427.5, 633.5, 427.5 ],
 					"source" : [ "obj-16", 1 ]
 				}
 
@@ -1097,7 +1098,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 370.5, 440.0, 625.5, 440.0 ],
+					"midpoints" : [ 369.5, 440.0, 633.5, 440.0 ],
 					"order" : 0,
 					"source" : [ "obj-28", 0 ]
 				}
@@ -1106,7 +1107,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
-					"midpoints" : [ 370.5, 437.5, 417.5, 437.5 ],
+					"midpoints" : [ 369.5, 437.5, 401.5, 437.5 ],
 					"order" : 1,
 					"source" : [ "obj-28", 0 ]
 				}
@@ -1131,7 +1132,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"midpoints" : [ 690.5, 579.5, 823.5, 579.5, 823.5, 433.0, 625.5, 433.0 ],
+					"midpoints" : [ 697.5, 587.5, 831.5, 587.5, 831.5, 441.0, 633.5, 441.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1153,7 +1154,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
-					"midpoints" : [ 345.5, 552.0, 309.0, 552.0, 309.0, 439.0, 417.5, 439.0 ],
+					"midpoints" : [ 329.5, 576.0, 293.0, 576.0, 293.0, 463.0, 401.5, 463.0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -1280,7 +1281,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
-					"midpoints" : [ 508.5, 427.5, 417.5, 427.5 ],
+					"midpoints" : [ 510.5, 427.5, 401.5, 427.5 ],
 					"source" : [ "obj-46", 1 ]
 				}
 
@@ -1406,7 +1407,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 690.5, 552.0 ],
+					"midpoints" : [ 697.5, 560.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1433,6 +1434,57 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-14" : [ "formatnum[1]", "formatnum[1]", 0 ],
+			"obj-18" : [ "vdevnum", "vdevnum", 0 ],
+			"obj-29" : [ "formatnum", "formatnum", 10 ],
+			"obj-362" : [ "Reload[5]", "Reload", 0 ],
+			"obj-366" : [ "Syphon", "Syphon", 0 ],
+			"obj-40" : [ "vdevnum[1]", "vdevnum[1]", 0 ],
+			"obj-51" : [ "Available devices", "Available devices", 0 ],
+			"obj-54" : [ "live.tab", "live.tab", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "cam.svg",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chain.js",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chain.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "channel.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "umenu.live",
 				"default" : 				{
@@ -1474,8 +1526,7 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ],
-		"integercoordinates" : 1
+ ]
 	}
 
 }

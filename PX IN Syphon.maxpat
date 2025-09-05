@@ -18,6 +18,7 @@
 		"objectsnaponopen" : 0,
 		"enablehscroll" : 0,
 		"enablevscroll" : 0,
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-14",
@@ -25,7 +26,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 152.0, 80.0, 100.0, 50.0 ],
+					"patching_rect" : [ 384.0, 8.0, 100.0, 50.0 ],
 					"pic" : "syphon.svg",
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 55.0, 112.0, 72.0 ]
@@ -178,7 +179,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.0, 560.0, 96.0, 22.0 ],
+					"patching_rect" : [ 520.0, 560.0, 96.0, 22.0 ],
 					"text" : "prepend append"
 				}
 
@@ -268,6 +269,8 @@
 						"classnamespace" : "box",
 						"rect" : [ 133.0, 71.0, 585.0, 508.0 ],
 						"gridsize" : [ 8.0, 8.0 ],
+						"gridsnaponopen" : 2,
+						"integercoordinates" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -421,9 +424,7 @@
 								}
 
 							}
- ],
-		"gridsnaponopen" : 2,
-		"integercoordinates" : 1
+ ]
 					}
 ,
 					"patching_rect" : [ 392.0, 336.0, 102.0, 22.0 ],
@@ -716,7 +717,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 200.0, 648.0, 202.0, 22.0 ],
+					"patching_rect" : [ 184.0, 648.0, 202.0, 22.0 ],
 					"text" : "append appname $1 servername $2"
 				}
 
@@ -967,6 +968,55 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-362" : [ "Reload[5]", "Reload", 0 ],
+			"obj-366" : [ "Syphon", "Syphon", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "chain.js",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chain.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "channel.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.gl.syphonclient.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "syphon.svg",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "umenu.live",
 				"default" : 				{
@@ -1008,8 +1058,7 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ],
-		"integercoordinates" : 1
+ ]
 	}
 
 }

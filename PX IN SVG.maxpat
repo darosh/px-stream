@@ -1645,7 +1645,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 336.0, 60.0, 22.0 ],
+					"patching_rect" : [ 112.0, 368.0, 60.0, 22.0 ],
 					"text" : "s ---folder"
 				}
 
