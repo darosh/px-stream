@@ -18,6 +18,7 @@
 		"objectsnaponopen" : 0,
 		"enablehscroll" : 0,
 		"enablevscroll" : 0,
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-8",
@@ -109,7 +110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 672.0, 392.0, 59.0, 22.0 ],
+					"patching_rect" : [ 800.0, 392.0, 59.0, 22.0 ],
 					"text" : "append 9"
 				}
 
@@ -121,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 616.0, 392.0, 59.0, 22.0 ],
+					"patching_rect" : [ 728.0, 392.0, 59.0, 22.0 ],
 					"text" : "append 8"
 				}
 
@@ -133,7 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 560.0, 392.0, 59.0, 22.0 ],
+					"patching_rect" : [ 656.0, 392.0, 59.0, 22.0 ],
 					"text" : "append 7"
 				}
 
@@ -145,7 +146,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.0, 392.0, 59.0, 22.0 ],
+					"patching_rect" : [ 584.0, 392.0, 59.0, 22.0 ],
 					"text" : "append 6"
 				}
 
@@ -157,7 +158,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 448.0, 392.0, 59.0, 22.0 ],
+					"patching_rect" : [ 512.0, 392.0, 59.0, 22.0 ],
 					"text" : "append 5"
 				}
 
@@ -169,7 +170,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 392.0, 392.0, 59.0, 22.0 ],
+					"patching_rect" : [ 440.0, 392.0, 59.0, 22.0 ],
 					"text" : "append 4"
 				}
 
@@ -181,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 336.0, 392.0, 59.0, 22.0 ],
+					"patching_rect" : [ 368.0, 392.0, 59.0, 22.0 ],
 					"text" : "append 3"
 				}
 
@@ -193,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 392.0, 59.0, 22.0 ],
+					"patching_rect" : [ 296.0, 392.0, 59.0, 22.0 ],
 					"text" : "append 2"
 				}
 
@@ -1891,7 +1892,52 @@
 
 			}
  ],
-		"integercoordinates" : 1
+		"parameters" : 		{
+			"obj-1" : [ "live.text[12]", "live.text", 0 ],
+			"obj-366" : [ "Syphon", "Syphon", 0 ],
+			"obj-78" : [ "live.text[9]", "live.text", 0 ],
+			"obj-79" : [ "live.text[10]", "live.text", 0 ],
+			"obj-84" : [ "live.text[11]", "live.text", 0 ],
+			"obj-88" : [ "live.text[13]", "live.text", 0 ],
+			"obj-89" : [ "live.text[14]", "live.text", 0 ],
+			"obj-90" : [ "live.text[15]", "live.text", 0 ],
+			"obj-91" : [ "live.text[16]", "live.text", 0 ],
+			"obj-95" : [ "live.text[17]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "chain.js",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chain.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "channel.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
