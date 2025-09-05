@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 26.0, 284.0, 20.0 ],
+					"patching_rect" : [ 200.0, 24.0, 284.0, 20.0 ],
 					"prototypename" : "M4L.patcher-summary",
 					"text" : "A utility used by the BrowseRouting abstraction"
 				}
@@ -61,7 +61,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 20.0, 144.0, 27.0 ],
+					"patching_rect" : [ 48.0, 24.0, 144.0, 27.0 ],
 					"prototypename" : "M4L.subpatcher-title",
 					"text" : "RoutingObjects"
 				}
@@ -74,7 +74,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 50.0, 560.0, 47.0 ],
+					"patching_rect" : [ 48.0, 48.0, 560.0, 47.0 ],
 					"text" : "The BrowseRouting abstraction is a utility that lists available tracks in the current Live set to send audio to or receive audio from, to be used inside a multichannel Max For Live device. The RoutingObjects abstraction is the mechanism used to list and map available audio inputs and outputs."
 				}
 
@@ -87,7 +87,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 540.0, 80.0, 35.0 ],
+					"patching_rect" : [ 488.0, 544.0, 80.0, 35.0 ],
 					"text" : "clearchecks, checkitem $1"
 				}
 
@@ -100,7 +100,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.0, 540.0, 80.0, 49.0 ],
+					"patching_rect" : [ 232.0, 544.0, 80.0, 49.0 ],
 					"text" : "set $1, clearchecks, checkitem $1"
 				}
 
@@ -111,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 640.0, 49.0, 20.0 ],
+					"patching_rect" : [ 328.0, 640.0, 49.0, 20.0 ],
 					"text" : "Umenu"
 				}
 
@@ -122,7 +122,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 745.0, 115.0, 22.0, 20.0 ],
+					"patching_rect" : [ 744.0, 112.0, 22.0, 20.0 ],
 					"text" : "id"
 				}
 
@@ -133,7 +133,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 575.0, 335.0, 88.0, 20.0 ],
+					"patching_rect" : [ 576.0, 336.0, 88.0, 20.0 ],
 					"text" : "Index (umenu)"
 				}
 
@@ -145,7 +145,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "bang" ],
-					"patching_rect" : [ 230.0, 170.0, 79.0, 22.0 ],
+					"patching_rect" : [ 232.0, 168.0, 79.0, 22.0 ],
 					"text" : "t b l b"
 				}
 
@@ -157,7 +157,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 330.0, 65.0, 22.0 ],
+					"patching_rect" : [ 40.0, 328.0, 65.0, 22.0 ],
 					"text" : "symbol $1"
 				}
 
@@ -171,7 +171,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 230.0, 510.0, 29.5, 22.0 ],
+					"patching_rect" : [ 232.0, 512.0, 30.0, 22.0 ],
 					"text" : "i"
 				}
 
@@ -198,7 +198,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 330.0, 270.0, 119.0, 22.0 ],
+					"patching_rect" : [ 328.0, 272.0, 119.0, 22.0 ],
 					"text" : "routepass dictionary"
 				}
 
@@ -212,7 +212,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 300.0, 123.0, 22.0 ],
+					"patching_rect" : [ 40.0, 304.0, 123.0, 22.0 ],
 					"text" : "dict.unpack identifier:"
 				}
 
@@ -238,7 +238,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 290.0, 630.0, 30.0, 30.0 ]
+					"patching_rect" : [ 288.0, 632.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -251,7 +251,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 740.0, 140.0, 30.0, 30.0 ]
+					"patching_rect" : [ 744.0, 144.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -264,7 +264,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 270.0, 161.0, 22.0 ],
+					"patching_rect" : [ 40.0, 272.0, 161.0, 22.0 ],
 					"text" : "dict.unpack #2:"
 				}
 
@@ -297,7 +297,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 640.0, 610.0, 161.0, 22.0 ],
+					"patching_rect" : [ 640.0, 608.0, 161.0, 22.0 ],
 					"text" : "prepend set #2"
 				}
 
@@ -330,7 +330,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 640.0, 540.0, 30.0, 22.0 ],
+					"patching_rect" : [ 640.0, 544.0, 30.0, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -344,7 +344,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 640.0, 580.0, 50.5, 22.0 ],
+					"patching_rect" : [ 640.0, 584.0, 51.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0,
@@ -364,7 +364,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 640.0, 510.0, 92.0, 22.0 ],
+					"patching_rect" : [ 640.0, 512.0, 92.0, 22.0 ],
 					"text" : "set identifier $1"
 				}
 
@@ -392,7 +392,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 430.0, 370.0, 98.0, 22.0 ],
+					"patching_rect" : [ 432.0, 368.0, 98.0, 22.0 ],
 					"text" : "prepend append"
 				}
 
@@ -406,7 +406,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 540.0, 98.0, 22.0 ],
+					"patching_rect" : [ 328.0, 544.0, 98.0, 22.0 ],
 					"text" : "prepend append"
 				}
 
@@ -420,7 +420,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 430.0, 340.0, 123.0, 22.0 ],
+					"patching_rect" : [ 432.0, 344.0, 123.0, 22.0 ],
 					"text" : "dict.unpack identifier:"
 				}
 
@@ -434,7 +434,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 430.0, 300.0, 27.0, 22.0 ],
+					"patching_rect" : [ 432.0, 304.0, 27.0, 22.0 ],
 					"text" : "iter"
 				}
 
@@ -448,7 +448,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 240.0, 221.0, 22.0 ],
+					"patching_rect" : [ 328.0, 240.0, 221.0, 22.0 ],
 					"text" : "dict.unpack #1:"
 				}
 
@@ -462,7 +462,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 510.0, 152.0, 22.0 ],
+					"patching_rect" : [ 328.0, 512.0, 152.0, 22.0 ],
 					"text" : "dict.unpack display_name:"
 				}
 
@@ -490,7 +490,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 230.0, 140.0, 208.0, 22.0 ],
+					"patching_rect" : [ 232.0, 144.0, 208.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"_persistence" : 0
 					}
@@ -508,7 +508,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.0, 440.0, 37.0, 22.0 ],
+					"patching_rect" : [ 288.0, 440.0, 37.0, 22.0 ],
 					"text" : "clear"
 				}
 

@@ -29,7 +29,7 @@
 					"fontsize" : 10.0,
 					"frgb" : [ 0.3, 0.34, 0.4, 1.0 ],
 					"numinlets" : 1,
-					"patching_rect" : [ 91.0, 280.0, 19.0, 18.0 ]
+					"patching_rect" : [ 88.0, 280.0, 19.0, 18.0 ]
 				}
 
 			}
@@ -44,7 +44,7 @@
 					"fontsize" : 10.0,
 					"frgb" : [ 0.3, 0.34, 0.4, 1.0 ],
 					"numinlets" : 1,
-					"patching_rect" : [ 51.0, 280.0, 19.0, 18.0 ]
+					"patching_rect" : [ 48.0, 280.0, 19.0, 18.0 ]
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"fontsize" : 10.0,
 					"frgb" : [ 0.3, 0.34, 0.4, 1.0 ],
 					"numinlets" : 1,
-					"patching_rect" : [ 91.0, 72.0, 19.0, 18.0 ]
+					"patching_rect" : [ 88.0, 72.0, 19.0, 18.0 ]
 				}
 
 			}
@@ -74,7 +74,7 @@
 					"fontsize" : 10.0,
 					"frgb" : [ 0.3, 0.34, 0.4, 1.0 ],
 					"numinlets" : 1,
-					"patching_rect" : [ 51.0, 72.0, 19.0, 18.0 ]
+					"patching_rect" : [ 48.0, 72.0, 19.0, 18.0 ]
 				}
 
 			}
@@ -88,7 +88,7 @@
 					"outlettype" : [ "signal" ],
 					"fontsize" : 10.0,
 					"numinlets" : 2,
-					"patching_rect" : [ 72.0, 240.0, 32.5, 18.0 ]
+					"patching_rect" : [ 72.0, 240.0, 33.0, 18.0 ]
 				}
 
 			}
@@ -253,7 +253,7 @@
 					"fontsize" : 11.0,
 					"frgb" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"numinlets" : 1,
-					"patching_rect" : [ 144.0, 14.0, 119.0, 19.0 ]
+					"patching_rect" : [ 144.0, 16.0, 119.0, 19.0 ]
 				}
 
 			}
@@ -341,7 +341,7 @@
 					"outlettype" : [ "signal" ],
 					"fontsize" : 10.0,
 					"numinlets" : 2,
-					"patching_rect" : [ 32.0, 240.0, 32.5, 18.0 ]
+					"patching_rect" : [ 32.0, 240.0, 33.0, 18.0 ]
 				}
 
 			}

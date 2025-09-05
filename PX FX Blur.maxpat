@@ -99,7 +99,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 769.0, 312.0, 83.0, 22.0 ],
+					"patching_rect" : [ 768.0, 312.0, 83.0, 22.0 ],
 					"text" : "cf.sharpen.jxs"
 				}
 
@@ -147,7 +147,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 512.0, 265.0, 176.0, 22.0 ],
+					"patching_rect" : [ 512.0, 264.0, 176.0, 22.0 ],
 					"text" : "route 0 1 2 3"
 				}
 
@@ -226,7 +226,7 @@
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "bang", "", "", "" ],
-					"patching_rect" : [ 9.0, 328.0, 239.0, 32.0 ],
+					"patching_rect" : [ 8.0, 328.0, 239.0, 32.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -326,7 +326,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 8.0, 217.0, 31.0, 22.0 ],
+					"patching_rect" : [ 8.0, 216.0, 31.0, 22.0 ],
 					"text" : "int 8"
 				}
 
@@ -496,7 +496,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 135.0, 609.0, 50.0, 63.0 ],
+									"patching_rect" : [ 136.0, 608.0, 50.0, 63.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 40.0, 13.0, 50.0, 63.0 ],
 									"saved_attribute_attributes" : 									{
@@ -537,7 +537,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 38.0, 1811.0, 34.0, 22.0 ],
+									"patching_rect" : [ 40.0, 1808.0, 34.0, 22.0 ],
 									"text" : "r ---b"
 								}
 
@@ -561,7 +561,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 109.0, 1584.0, 121.0, 22.0 ],
+									"patching_rect" : [ 112.0, 1584.0, 121.0, 22.0 ],
 									"text" : "prepend param width"
 								}
 
@@ -573,7 +573,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 38.0, 1212.0, 34.0, 22.0 ],
+									"patching_rect" : [ 40.0, 1216.0, 34.0, 22.0 ],
 									"text" : "r ---b"
 								}
 
@@ -586,7 +586,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 109.0, 1105.0, 44.0, 15.0 ],
+									"patching_rect" : [ 112.0, 1104.0, 44.0, 15.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 65.0, 348.0, 48.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
@@ -618,7 +618,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 109.0, 1024.0, 44.0, 15.0 ],
+									"patching_rect" : [ 112.0, 1024.0, 44.0, 15.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 17.0, 348.0, 48.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
@@ -648,7 +648,7 @@
 									"maxclass" : "live.comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 174.0, 1021.0, 150.0, 18.0 ],
+									"patching_rect" : [ 176.0, 1024.0, 150.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 333.0, 56.0, 18.0 ],
 									"text" : "Center",
@@ -675,7 +675,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 410.0, 1127.0, 123.0, 22.0 ],
+									"patching_rect" : [ 408.0, 1128.0, 123.0, 22.0 ],
 									"text" : "prepend param origin"
 								}
 
@@ -687,7 +687,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 109.0, 985.0, 121.0, 22.0 ],
+									"patching_rect" : [ 112.0, 984.0, 121.0, 22.0 ],
 									"text" : "prepend param width"
 								}
 
@@ -746,7 +746,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.0, 696.0, 63.0, 22.0 ],
+									"patching_rect" : [ 328.0, 696.0, 63.0, 22.0 ],
 									"text" : "prepend 0"
 								}
 
@@ -758,7 +758,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 134.838708281517029, 697.612903237342834, 121.0, 22.0 ],
+									"patching_rect" : [ 136.0, 696.0, 121.0, 22.0 ],
 									"text" : "prepend param width"
 								}
 
@@ -770,7 +770,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.0, 75.0, 63.0, 22.0 ],
+									"patching_rect" : [ 328.0, 72.0, 63.0, 22.0 ],
 									"text" : "prepend 1"
 								}
 
@@ -782,7 +782,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 479.0, 135.0, 46.0, 22.0 ],
+									"patching_rect" : [ 480.0, 136.0, 46.0, 22.0 ],
 									"text" : "route 0"
 								}
 
@@ -794,7 +794,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 135.0, 75.913049035072333, 121.0, 22.0 ],
+									"patching_rect" : [ 136.0, 72.0, 121.0, 22.0 ],
 									"text" : "prepend param width"
 								}
 
@@ -807,7 +807,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 495.0, 233.38982105255127, 30.0, 30.0 ]
+									"patching_rect" : [ 496.0, 232.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -820,7 +820,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 495.0, 30.0, 30.0, 30.0 ]
+									"patching_rect" : [ 496.0, 32.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -833,7 +833,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 160.0, 143.0, 50.0, 63.0 ],
+									"patching_rect" : [ 160.0, 144.0, 50.0, 63.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 40.0, 141.0, 50.0, 63.0 ],
 									"saved_attribute_attributes" : 									{

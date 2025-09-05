@@ -28,7 +28,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 260.0, 56.0, 22.0 ],
+					"patching_rect" : [ 392.0, 264.0, 56.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -42,7 +42,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 26.0, 282.0, 20.0 ],
+					"patching_rect" : [ 200.0, 24.0, 282.0, 20.0 ],
 					"prototypename" : "M4L.patcher-summary",
 					"text" : "Route signal to/from a multichannel M4L device"
 				}
@@ -57,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 20.0, 143.0, 27.0 ],
+					"patching_rect" : [ 48.0, 24.0, 143.0, 27.0 ],
 					"prototypename" : "M4L.subpatcher-title",
 					"text" : "BrowseRouting"
 				}
@@ -70,7 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 90.0, 540.0, 33.0 ],
+					"patching_rect" : [ 48.0, 88.0, 540.0, 33.0 ],
 					"text" : "Arguments: type - audio_inputs or audio_outputs - stereo input or output index (1 for in/outputs 1-2, 2 for in/outputs 3-4, etc), available according to plugin~ or plugout~ arguments in the parent device"
 				}
 
@@ -82,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 50.0, 570.0, 33.0 ],
+					"patching_rect" : [ 48.0, 48.0, 570.0, 33.0 ],
 					"text" : "A utility that lists available tracks in the current Live set to send audio to or receive audio from, depending on the chosen type (inpiuts or outputs) - to be used inside a multichannel Max For Live device."
 				}
 
@@ -97,7 +97,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "int", "int" ],
-					"patching_rect" : [ 530.0, 150.0, 85.0, 22.0 ],
+					"patching_rect" : [ 528.0, 152.0, 85.0, 22.0 ],
 					"text" : "live.thisdevice"
 				}
 
@@ -111,7 +111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 410.0, 329.0, 22.0 ],
+					"patching_rect" : [ 120.0, 408.0, 329.0, 22.0 ],
 					"text" : "RoutingObjects available_routing_channels routing_channel"
 				}
 
@@ -125,7 +125,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 370.0, 291.0, 22.0 ],
+					"patching_rect" : [ 120.0, 368.0, 291.0, 22.0 ],
 					"text" : "RoutingObjects available_routing_types routing_type"
 				}
 
@@ -139,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 430.0, 370.0, 37.0, 22.0 ],
+					"patching_rect" : [ 432.0, 368.0, 37.0, 22.0 ],
 					"text" : "id $1"
 				}
 
@@ -153,7 +153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 430.0, 320.0, 56.0, 22.0 ],
+					"patching_rect" : [ 432.0, 320.0, 56.0, 22.0 ],
 					"text" : "zl nth #2"
 				}
 
@@ -167,7 +167,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 390.0, 290.0, 59.0, 22.0 ],
+					"patching_rect" : [ 392.0, 288.0, 59.0, 22.0 ],
 					"text" : "zl delace"
 				}
 
@@ -182,7 +182,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 390.0, 230.0, 159.0, 22.0 ],
+					"patching_rect" : [ 392.0, 232.0, 159.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"_persistence" : 1
 					}
@@ -202,7 +202,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 530.0, 180.0, 101.0, 35.0 ],
+					"patching_rect" : [ 528.0, 184.0, 101.0, 35.0 ],
 					"text" : "live.path live_set this_device"
 				}
 
@@ -231,7 +231,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 370.0, 80.0, 20.0 ],
+					"patching_rect" : [ 32.0, 368.0, 80.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, -2.0, 96.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -276,7 +276,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 410.0, 80.0, 20.0 ],
+					"patching_rect" : [ 32.0, 408.0, 80.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 12.0, 96.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -309,7 +309,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 560.0, 410.0, 20.0, 20.0 ],
+					"patching_rect" : [ 560.0, 408.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 15.0, 96.0, 13.0 ],
 					"proportion" : 0.39,
@@ -340,7 +340,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.0, 410.0, 20.0, 20.0 ],
+					"patching_rect" : [ 528.0, 408.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 1.0, 96.0, 13.0 ],
 					"proportion" : 0.39,

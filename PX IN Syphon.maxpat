@@ -275,7 +275,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 136.46341460943222, 91.0, 58.0, 22.0 ],
+									"patching_rect" : [ 136.0, 88.0, 58.0, 22.0 ],
 									"text" : "loadbang"
 								}
 
@@ -287,7 +287,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 81.0, 192.0, 38.0, 22.0 ],
+									"patching_rect" : [ 80.0, 192.0, 38.0, 22.0 ],
 									"text" : "zl.reg"
 								}
 
@@ -298,7 +298,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 245.0, 309.756097376346588, 71.0, 22.0 ],
+									"patching_rect" : [ 248.0, 312.0, 71.0, 22.0 ],
 									"text" : "s px_debug"
 								}
 
@@ -310,7 +310,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 131.0, 244.0, 39.0, 22.0 ],
+									"patching_rect" : [ 128.0, 248.0, 39.0, 22.0 ],
 									"text" : "zl.join"
 								}
 
@@ -322,7 +322,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 50.000004999999987, 105.0, 40.0, 22.0 ],
+									"patching_rect" : [ 48.0, 104.0, 40.0, 22.0 ],
 									"text" : "t l b l"
 								}
 
@@ -334,7 +334,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 136.46341460943222, 139.0, 72.0, 22.0 ],
+									"patching_rect" : [ 136.0, 136.0, 72.0, 22.0 ],
 									"text" : "patcherargs"
 								}
 
@@ -348,7 +348,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.000004999999987, 40.0, 30.0, 30.0 ]
+									"patching_rect" : [ 48.0, 40.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -360,7 +360,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.000004999999987, 301.756097376346588, 30.0, 30.0 ]
+									"patching_rect" : [ 48.0, 304.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -480,7 +480,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 197.0, 285.0, 157.0, 22.0 ],
+					"patching_rect" : [ 200.0, 288.0, 157.0, 22.0 ],
 					"text" : "jit.gl.syphonclient px-stream"
 				}
 

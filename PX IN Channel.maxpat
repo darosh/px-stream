@@ -230,7 +230,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 190.0, 64.0, 18.0 ],
+					"patching_rect" : [ 24.0, 192.0, 64.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.0, 37.0, 59.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
@@ -351,7 +351,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1104.0, 103.0, 80.0, 22.0 ],
+					"patching_rect" : [ 1104.0, 104.0, 80.0, 22.0 ],
 					"text" : "r ---this_bang"
 				}
 

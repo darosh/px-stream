@@ -21,7 +21,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 321.0, 30.0, 30.0 ]
+					"patching_rect" : [ 88.0, 320.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -32,7 +32,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 29.0, 215.0, 55.0, 22.0 ],
+					"patching_rect" : [ 32.0, 216.0, 55.0, 22.0 ],
 					"text" : "zl.slice 1"
 				}
 
@@ -44,7 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 81.0, 262.0, 63.0, 22.0 ],
+					"patching_rect" : [ 80.0, 264.0, 63.0, 22.0 ],
 					"text" : "array.tolist"
 				}
 
@@ -56,7 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.0, 245.0, 115.0, 22.0 ],
+					"patching_rect" : [ 176.0, 248.0, 115.0, 22.0 ],
 					"text" : "get $1::blend_mode"
 				}
 
@@ -68,7 +68,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 177.0, 203.0, 41.0, 22.0 ],
+					"patching_rect" : [ 176.0, 200.0, 41.0, 22.0 ],
 					"text" : "zl.mth"
 				}
 
@@ -80,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "int", "bang" ],
-					"patching_rect" : [ 185.0, 92.0, 40.0, 22.0 ],
+					"patching_rect" : [ 184.0, 96.0, 40.0, 22.0 ],
 					"text" : "t b i b"
 				}
 
@@ -92,7 +92,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 177.0, 165.0, 38.0, 22.0 ],
+					"patching_rect" : [ 176.0, 168.0, 38.0, 22.0 ],
 					"text" : "zl.reg"
 				}
 
@@ -209,7 +209,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 5,
 					"outlettype" : [ "dictionary", "", "", "", "" ],
-					"patching_rect" : [ 64.0, 165.0, 89.0, 22.0 ],
+					"patching_rect" : [ 64.0, 168.0, 89.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"legacy" : 0,
@@ -228,7 +228,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.0, 123.0, 50.0, 22.0 ],
+					"patching_rect" : [ 64.0, 120.0, 50.0, 22.0 ],
 					"text" : "getkeys"
 				}
 
