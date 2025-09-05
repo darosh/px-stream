@@ -54,6 +54,19 @@ export default defineConfig([{
         'px_chains_updated', 'px_bang'
       ]
     }],
+    'maxpat/flow/disconnected-outlets': ['warn', {
+      exclude: [
+        'jit.gl.node', 'dac~', 'print', 'post', 'error', 'jit.window',
+        'jit.pwindow', 'live.gain~', 'ezdac~', 'ezadc~', 'scope~',
+        'meter~', 'live.scope~', 's', 'send', 'forward', 'prepend',
+        'sprintf', 'tosymbol', 'fromsymbol', 'jit.gl.render',
+        'jit.gl.videoplane', 'live.dial', 'live.slider', 'live.numbox',
+        'live.toggle', 'live.button', 'live.menu', 'plugout~',
+        'thispatcher', 'live.object', 'live.text', 'jit.gl.texture',
+        'jit.poke~', 'jit.gl.mesh', 'live.banks', '"jit.gl.shader',
+        'live.meter~', 'jit.gl.layer', 'jit.gl.text'
+      ]
+    }],
 
     // DEBUG
     'maxpat/debug/connected-print': ['warn', { fix: false }],
