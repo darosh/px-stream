@@ -9,10 +9,11 @@
   },
   "private": true,
   "scripts": {
-    "format": "node format-shader.js",
+    "format:shader": "node format-shader.js",
     "lint:maxpat": "eslint ./*.maxpat --rule={\"maxpat/list-ui-elements\":\"off\"}",
     "lint:maxpat:info": "eslint ./*.maxpat --format node_modules/eslint-plugin-maxpat/lib/formatter.js",
-    "lint:maxpat:fix": "eslint ./*.maxpat --fix"
+    "lint:maxpat:fix": "eslint ./*.maxpat --fix",
+    "lint:maxpat:fix-dry": "eslint ./*.maxpat --fix-dry-run --rule={\"maxpat/list-ui-elements\":\"off\"}"
   },
   "type": "module"
 }
