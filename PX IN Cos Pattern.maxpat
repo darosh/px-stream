@@ -18,6 +18,7 @@
 		"objectsnaponopen" : 0,
 		"enablehscroll" : 0,
 		"enablevscroll" : 0,
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-108",
@@ -210,7 +211,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 768.0, 96.0, 150.0, 18.0 ],
+					"patching_rect" : [ 1320.0, 416.0, 150.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 151.0, 40.0, 18.0 ],
 					"text" : "Preset",
@@ -490,7 +491,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active1" : [ 0.9, 0.65, 0.05, 1.0 ],
+					"active1" : [ 1.0, 0.67843137254902, 0.337254901960784, 1.0 ],
 					"bubblesize" : 12,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.0,
@@ -597,7 +598,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 752.0, 80.0, 150.0, 18.0 ],
+					"patching_rect" : [ 1320.0, 368.0, 150.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 134.0, 40.0, 18.0 ],
 					"text" : "Density",
@@ -611,7 +612,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 736.0, 64.0, 150.0, 18.0 ],
+					"patching_rect" : [ 1320.0, 320.0, 150.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 118.0, 40.0, 18.0 ],
 					"text" : "Angle",
@@ -689,7 +690,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 720.0, 48.0, 150.0, 18.0 ],
+					"patching_rect" : [ 1320.0, 264.0, 150.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 102.0, 40.0, 18.0 ],
 					"text" : "Shift",
@@ -767,7 +768,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 704.0, 32.0, 150.0, 18.0 ],
+					"patching_rect" : [ 1320.0, 216.0, 150.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 86.0, 40.0, 18.0 ],
 					"text" : "Scale",
@@ -1404,7 +1405,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 680.0, 24.0, 150.0, 18.0 ],
+					"patching_rect" : [ 1320.0, 168.0, 150.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 36.0, 40.0, 18.0 ],
 					"text" : "Amp.",
@@ -1418,7 +1419,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 680.0, 16.0, 150.0, 18.0 ],
+					"patching_rect" : [ 1320.0, 64.0, 150.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 52.0, 40.0, 18.0 ],
 					"text" : "Freq.",
@@ -1432,7 +1433,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 696.0, 24.0, 150.0, 18.0 ],
+					"patching_rect" : [ 1320.0, 120.0, 150.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 67.0, 40.0, 18.0 ],
 					"text" : "Phase",
@@ -1446,7 +1447,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 704.0, 16.0, 150.0, 18.0 ],
+					"patching_rect" : [ 1320.0, 16.0, 150.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 20.0, 40.0, 18.0 ],
 					"text" : "Offset",
@@ -2057,7 +2058,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
 					"id" : "obj-366",
 					"maxclass" : "live.tab",
@@ -2823,7 +2824,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-87", 0 ]
 				}
 
@@ -2831,7 +2832,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-87", 0 ]
 				}
 
@@ -2855,7 +2856,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"order" : 6,
+					"order" : 7,
 					"source" : [ "obj-87", 0 ]
 				}
 
@@ -2863,7 +2864,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"order" : 7,
+					"order" : 6,
 					"source" : [ "obj-87", 0 ]
 				}
 
@@ -3048,7 +3049,77 @@
 
 			}
  ],
-		"integercoordinates" : 1
+		"parameters" : 		{
+			"obj-10" : [ "live.numbox[15]", "live.numbox[1]", 0 ],
+			"obj-13" : [ "live.numbox[13]", "live.numbox[1]", 0 ],
+			"obj-14" : [ "live.numbox[16]", "live.numbox[1]", 0 ],
+			"obj-151" : [ "Dimensions", "Dimensions", 0 ],
+			"obj-17" : [ "live.numbox[17]", "live.numbox[1]", 0 ],
+			"obj-19" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-24" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
+			"obj-25" : [ "live.numbox[2]", "live.numbox[1]", 0 ],
+			"obj-26" : [ "live.numbox[3]", "live.numbox[1]", 0 ],
+			"obj-27" : [ "live.numbox[4]", "live.numbox[1]", 0 ],
+			"obj-28" : [ "live.numbox[5]", "live.numbox[1]", 0 ],
+			"obj-29" : [ "live.numbox[6]", "live.numbox[1]", 0 ],
+			"obj-30" : [ "live.numbox[7]", "live.numbox[1]", 0 ],
+			"obj-31" : [ "live.numbox[8]", "live.numbox[1]", 0 ],
+			"obj-32" : [ "live.numbox[9]", "live.numbox[1]", 0 ],
+			"obj-33" : [ "live.numbox[10]", "live.numbox[1]", 0 ],
+			"obj-34" : [ "live.numbox[11]", "live.numbox[1]", 0 ],
+			"obj-35" : [ "live.numbox[12]", "live.numbox[1]", 0 ],
+			"obj-366" : [ "Syphon", "Syphon", 0 ],
+			"obj-4" : [ "live.tab", "live.tab", 0 ],
+			"obj-6" : [ "live.text", "live.text", 0 ],
+			"obj-60" : [ "Syphon[1]", "Syphon", 0 ],
+			"obj-62" : [ "live.numbox[18]", "live.numbox[1]", 0 ],
+			"obj-63" : [ "live.numbox[19]", "live.numbox[1]", 0 ],
+			"obj-72" : [ "live.numbox[24]", "live.numbox[1]", 0 ],
+			"obj-74" : [ "live.numbox[20]", "live.numbox[1]", 0 ],
+			"obj-75" : [ "live.numbox[21]", "live.numbox[1]", 0 ],
+			"obj-8" : [ "live.numbox[14]", "live.numbox[1]", 0 ],
+			"obj-90" : [ "live.text[1]", "live.text", 0 ],
+			"obj-92" : [ "live.numbox[22]", "live.numbox[1]", 0 ],
+			"obj-93" : [ "live.text[2]", "live.text", 0 ],
+			"obj-94" : [ "live.text[3]", "live.text", 0 ],
+			"obj-95" : [ "live.text[4]", "live.text", 0 ],
+			"obj-96" : [ "live.text[5]", "live.text", 0 ],
+			"obj-97" : [ "live.numbox[23]", "live.numbox[1]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "chain.js",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chain.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "channel.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

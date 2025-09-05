@@ -18,6 +18,7 @@
 		"objectsnaponopen" : 0,
 		"enablehscroll" : 0,
 		"enablevscroll" : 0,
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-23",
@@ -202,7 +203,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 79.0, 555.0, 498.0 ],
+						"rect" : [ 33.0, 71.0, 562.0, 508.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 8.0, 8.0 ],
@@ -453,7 +454,7 @@
 									"maxclass" : "live.comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 872.0, 136.0, 67.0, 18.0 ],
+									"patching_rect" : [ 856.0, 200.0, 67.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -3.0, 231.0, 36.0, 18.0 ],
 									"text" : "Origin",
@@ -467,7 +468,7 @@
 									"maxclass" : "live.comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 872.0, 152.0, 67.0, 18.0 ],
+									"patching_rect" : [ 856.0, 240.0, 67.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -3.0, 215.0, 36.0, 18.0 ],
 									"text" : "Offset",
@@ -481,7 +482,7 @@
 									"maxclass" : "live.comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 872.0, 176.0, 67.0, 18.0 ],
+									"patching_rect" : [ 856.0, 320.0, 67.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -3.0, 184.0, 36.0, 18.0 ],
 									"text" : "Scale",
@@ -776,7 +777,7 @@
 									"maxclass" : "live.comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 856.0, 136.0, 67.0, 18.0 ],
+									"patching_rect" : [ 856.0, 160.0, 67.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -3.0, 87.0, 36.0, 18.0 ],
 									"text" : "Offset",
@@ -790,7 +791,7 @@
 									"maxclass" : "live.comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 864.0, 160.0, 67.0, 18.0 ],
+									"patching_rect" : [ 856.0, 280.0, 67.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -3.0, 56.0, 36.0, 18.0 ],
 									"text" : "Scale",
@@ -1235,7 +1236,7 @@
 , 							{
 								"box" : 								{
 									"angle" : 270.0,
-									"bgcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+									"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1814,6 +1815,8 @@
 						"classnamespace" : "box",
 						"rect" : [ 133.0, 71.0, 585.0, 508.0 ],
 						"gridsize" : [ 8.0, 8.0 ],
+						"gridsnaponopen" : 2,
+						"integercoordinates" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -1967,9 +1970,7 @@
 								}
 
 							}
- ],
-		"gridsnaponopen" : 2,
-		"integercoordinates" : 1
+ ]
 					}
 ,
 					"patching_rect" : [ 8.0, 584.0, 117.0, 22.0 ],
@@ -1997,6 +1998,8 @@
 						"classnamespace" : "box",
 						"rect" : [ 133.0, 71.0, 585.0, 508.0 ],
 						"gridsize" : [ 8.0, 8.0 ],
+						"gridsnaponopen" : 2,
+						"integercoordinates" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -2150,9 +2153,7 @@
 								}
 
 							}
- ],
-		"gridsnaponopen" : 2,
-		"integercoordinates" : 1
+ ]
 					}
 ,
 					"patching_rect" : [ 736.0, 288.0, 103.0, 22.0 ],
@@ -2315,7 +2316,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
 					"id" : "obj-366",
 					"maxclass" : "live.tab",
@@ -2696,8 +2697,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"integercoordinates" : 1
+		"autosave" : 0
 	}
 
 }

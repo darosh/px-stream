@@ -46,7 +46,7 @@ export default defineConfig([{
     'maxpat/flow/local-send-receive': 'warn',
     'maxpat/flow/global-send-receive': ['warn', {
       exclude: [
-        'master-volume', 'tempo', 'transport'
+        'px_debug', 'px_mix', 'px_render', 'px_channel_removed', 'px_chains_updated'
       ]
     }],
 
@@ -61,7 +61,7 @@ export default defineConfig([{
     }],
 
     // PERFORMANCE
-    'maxpat/performance/defer': ['warn', {
+    'maxpat/performance/defer': ['off', {
       include: [
         'live.dial', 'live.slider', 'live.button'
       ]
