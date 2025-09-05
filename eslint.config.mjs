@@ -1,8 +1,6 @@
 import { defineConfig } from 'eslint/config'
 import maxpat from 'eslint-plugin-maxpat'
 
-const fix = false
-
 export default defineConfig([{
   files: ['*.maxpat'],
   plugins: { maxpat },
@@ -12,13 +10,13 @@ export default defineConfig([{
     'maxpat/structure/validate': 'error',
 
     // LAYOUT
-    'maxpat/layout/snap-to-grid': ['warn', { snap: true, fix }],
-    'maxpat/layout/snap-to-pixel': ['warn', { snap: true, fix }],
-    'maxpat/layout/grid-size': ['warn', { grid: [8, 8], fix }],
+    'maxpat/layout/snap-to-grid': ['warn', { snap: true, fix: true }],
+    'maxpat/layout/snap-to-pixel': ['warn', { snap: true, fix: true }],
+    'maxpat/layout/grid-size': ['warn', { grid: [8, 8], fix: true }],
     'maxpat/layout/position-rounding': ['warn', {
       'patching-precision': [8, 8],
       'presentation-precision': [1, 1],
-      fix
+      fix: true
     }],
     'maxpat/layout/patching-overlaps': ['warn', {
       exceptions: ['panel', 'comment', 'bpatcher', 'inlet', 'outlet'],
@@ -53,7 +51,7 @@ export default defineConfig([{
     }],
 
     // DEBUG
-    'maxpat/debug/connected-print': ['warn', { fix }],
+    'maxpat/debug/connected-print': ['warn', { fix: false }],
 
     // COMPATIBILITY
     'maxpat/compatibility/deprecated': ['warn', {
@@ -73,7 +71,7 @@ export default defineConfig([{
         'slider', 'dial', 'button', 'toggle', 'number', 'live.dial',
         'live.slider', 'live.button', 'live.toggle', 'live.text',
         'live.menu', 'live.tab',
-      ], fix
+      ], fix: true
     }],
   }
 }])
