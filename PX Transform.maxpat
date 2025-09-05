@@ -1126,7 +1126,8 @@
 				}
 
 			}
- ]
+ ],
+		"integercoordinates" : 1
 	}
 
 }

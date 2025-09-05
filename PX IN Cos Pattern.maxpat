@@ -3047,7 +3047,8 @@
 				}
 
 			}
- ]
+ ],
+		"integercoordinates" : 1
 	}
 
 }

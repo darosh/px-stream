@@ -951,7 +951,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"source" : [ "obj-26", 0 ]
+					"source" : [ "obj-26", 0 ],
+					"disabled" : 1
 				}
 
 			}
@@ -1009,7 +1010,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"source" : [ "obj-30", 0 ]
+					"source" : [ "obj-30", 0 ],
+					"disabled" : 1
 				}
 
 			}
@@ -1124,7 +1126,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"source" : [ "obj-39", 0 ]
+					"source" : [ "obj-39", 0 ],
+					"disabled" : 1
 				}
 
 			}
@@ -1138,7 +1141,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
-					"source" : [ "obj-40", 0 ]
+					"source" : [ "obj-40", 0 ],
+					"disabled" : 1
 				}
 
 			}
@@ -1321,7 +1325,8 @@
 				}
 
 			}
- ]
+ ],
+		"integercoordinates" : 1
 	}
 
 }

@@ -1314,7 +1314,9 @@
 				}
 
 			}
- ]
+ ],
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1
 	}
 
 }

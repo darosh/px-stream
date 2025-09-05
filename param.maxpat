@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"integercoordinates" : 1,
@@ -46,7 +46,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 58.0, 100.0, 662.0, 476.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
+						"gridsize" : [ 8.0, 8.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -229,7 +229,9 @@
 								}
 
 							}
- ]
+ ],
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1
 					}
 ,
 					"patching_rect" : [ 578.260850608348846, 504.347809553146362, 82.608692944049835, 22.0 ],
@@ -460,7 +462,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 58.0, 100.0, 662.0, 476.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
+						"gridsize" : [ 8.0, 8.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -494,7 +496,9 @@
 								}
 
 							}
- ]
+ ],
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1
 					}
 ,
 					"patching_rect" : [ 885.0, 630.0, 54.0, 22.0 ],
@@ -569,7 +573,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 55.0, 100.0, 662.0, 476.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
+						"gridsize" : [ 8.0, 8.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -707,7 +711,9 @@
 								}
 
 							}
- ]
+ ],
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1
 					}
 ,
 					"patching_rect" : [ 270.0, 360.0, 61.0, 22.0 ],

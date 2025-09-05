@@ -11,7 +11,7 @@
 		"default_fontname" : "Arial Bold",
 		"gridonopen" : 0,
 		"gridsize" : [ 8.0, 8.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
@@ -480,7 +480,8 @@
 				}
 
 			}
- ]
+ ],
+		"integercoordinates" : 1
 	}
 
 }

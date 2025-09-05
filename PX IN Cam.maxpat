@@ -1474,7 +1474,8 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ]
+ ],
+		"integercoordinates" : 1
 	}
 
 }

@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 33.0, 71.0, 643.0, 508.0 ],
 		"openinpresentation" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridsize" : [ 8.0, 8.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
@@ -324,7 +324,9 @@
 				"expression" : ""
 			}
 
-		}
+		},
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1
 
 	}
 

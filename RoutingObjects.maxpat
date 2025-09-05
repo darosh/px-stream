@@ -17,7 +17,7 @@
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 2,
-		"gridsize" : [ 10.0, 10.0 ],
+		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"statusbarvisible" : 2,
@@ -828,7 +828,8 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ]
+ ],
+		"integercoordinates" : 1
 	}
 
 }

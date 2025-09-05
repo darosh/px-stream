@@ -340,7 +340,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 45.0, 100.0, 662.0, 476.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
+						"gridsize" : [ 8.0, 8.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-15",
@@ -672,7 +672,9 @@
 								}
 
 							}
- ]
+ ],
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1
 					}
 ,
 					"patching_rect" : [ 424.0, 408.0, 41.0, 22.0 ],
@@ -1034,7 +1036,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 133.0, 71.0, 671.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
+						"gridsize" : [ 8.0, 8.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-20",
@@ -1589,7 +1591,9 @@
 								}
 
 							}
- ]
+ ],
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1
 					}
 ,
 					"patching_rect" : [ 336.0, 448.0, 86.0, 22.0 ],
@@ -3744,7 +3748,8 @@
 				}
 
 			}
- ]
+ ],
+		"integercoordinates" : 1
 	}
 
 }

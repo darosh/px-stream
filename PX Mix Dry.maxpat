@@ -834,7 +834,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 133.0, 71.0, 585.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
+						"gridsize" : [ 8.0, 8.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -988,7 +988,9 @@
 								}
 
 							}
- ]
+ ],
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1
 					}
 ,
 					"patching_rect" : [ 576.0, 496.0, 95.0, 22.0 ],
@@ -1015,7 +1017,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 133.0, 71.0, 585.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
+						"gridsize" : [ 8.0, 8.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -1169,7 +1171,9 @@
 								}
 
 							}
- ]
+ ],
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1
 					}
 ,
 					"patching_rect" : [ 448.0, 872.0, 94.0, 22.0 ],
@@ -1196,7 +1200,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 133.0, 71.0, 585.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
+						"gridsize" : [ 8.0, 8.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -1350,7 +1354,9 @@
 								}
 
 							}
- ]
+ ],
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1
 					}
 ,
 					"patching_rect" : [ 280.0, 432.0, 108.0, 22.0 ],
@@ -2410,7 +2416,8 @@
 				}
 
 			}
- ]
+ ],
+		"integercoordinates" : 1
 	}
 
 }

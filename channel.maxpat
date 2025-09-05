@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"gridonopen" : 2,
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -85,7 +85,7 @@
 ,
 						"classnamespace" : "box",
 						"rect" : [ 53.0, 99.0, 662.0, 476.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
+						"gridsize" : [ 8.0, 8.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-444",
@@ -209,7 +209,9 @@
 								"expression" : ""
 							}
 
-						}
+						},
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1
 
 					}
 ,
@@ -1499,7 +1501,8 @@
 				"expression" : ""
 			}
 
-		}
+		},
+		"integercoordinates" : 1
 
 	}
 

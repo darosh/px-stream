@@ -13,7 +13,7 @@
 		"rect" : [ 33.0, 71.0, 555.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
-		"gridsize" : [ 4.0, 4.0 ],
+		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"style" : "Max For Live",
