@@ -19,11 +19,11 @@ export default defineConfig([{
       fix: true
     }],
     'maxpat/layout/patching-overlaps': ['warn', {
-      exceptions: ['panel', 'comment', 'bpatcher', 'inlet', 'outlet'],
+      exceptions: ['panel', 'comment', 'bpatcher', 'inlet', 'outlet', 'fpic'],
       threshold: 5 // More forgiving for patching mode
     }],
     'maxpat/layout/presentation-overlaps': ['warn', {
-      exceptions: ['panel', 'bpatcher', 'live.comment', 'comment'],
+      exceptions: ['panel', 'bpatcher', 'live.comment', 'comment', 'fpic'],
       threshold: 1, // Precise for UI
     }],
 
@@ -46,7 +46,8 @@ export default defineConfig([{
     'maxpat/flow/local-send-receive': 'warn',
     'maxpat/flow/global-send-receive': ['warn', {
       exclude: [
-        'px_debug', 'px_mix', 'px_render', 'px_channel_removed', 'px_chains_updated'
+        'px_debug', 'px_mix', 'px_render', 'px_channel_removed', 
+        'px_chains_updated', 'px_bang'
       ]
     }],
 
