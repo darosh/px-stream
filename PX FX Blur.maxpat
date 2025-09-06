@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 555.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -174,10 +174,10 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "Blur", "Gaussian", "Radial", "Sharpen" ],
-							"parameter_longname" : "live.tab",
+							"parameter_longname" : "Blur",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.tab",
+							"parameter_shortname" : "Blur",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
 						}
@@ -345,7 +345,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
 					"id" : "obj-366",
 					"maxclass" : "live.tab",
@@ -371,10 +371,10 @@
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_initial" : [ 8.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Syphon",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Syphon",
+							"parameter_shortname" : "Channel",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
 						}
@@ -382,7 +382,7 @@
 					}
 ,
 					"spacing_x" : 3.0,
-					"varname" : "Syphon"
+					"varname" : "live.tab[1]"
 				}
 
 			}
@@ -472,10 +472,10 @@
 										"valueof" : 										{
 											"parameter_initial" : [ 4.0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "Width[3]",
+											"parameter_longname" : "Sharpen Width",
 											"parameter_mmax" : 200.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "Width",
+											"parameter_shortname" : "Sharpen Width",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -503,10 +503,10 @@
 										"valueof" : 										{
 											"parameter_initial" : [ 4.0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "Width",
+											"parameter_longname" : "Blur Width",
 											"parameter_mmax" : 200.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "Width",
+											"parameter_shortname" : "Blur Width",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -593,11 +593,11 @@
 										"valueof" : 										{
 											"parameter_initial" : [ 0.5 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[18]",
+											"parameter_longname" : "Y",
 											"parameter_mmax" : 3.0,
 											"parameter_mmin" : -2.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Y",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_units" : "y",
@@ -625,11 +625,11 @@
 										"valueof" : 										{
 											"parameter_initial" : [ 0.5 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[19]",
+											"parameter_longname" : "X",
 											"parameter_mmax" : 3.0,
 											"parameter_mmin" : -2.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "X",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_units" : "x",
@@ -840,10 +840,10 @@
 										"valueof" : 										{
 											"parameter_initial" : [ 4.0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "Width[1]",
+											"parameter_longname" : "Gaussian Width",
 											"parameter_mmax" : 100.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "Width",
+											"parameter_shortname" : "Gaussian Width",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -871,10 +871,10 @@
 										"valueof" : 										{
 											"parameter_initial" : [ 0.5 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "Width[2]",
+											"parameter_longname" : "Radial Width",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "Width",
+											"parameter_shortname" : "Radial Width",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1298,14 +1298,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-31::obj-10" : [ "Width[3]", "Width", 0 ],
-			"obj-31::obj-13" : [ "Width[1]", "Width", 0 ],
-			"obj-31::obj-15" : [ "Width[2]", "Width", 0 ],
-			"obj-31::obj-28" : [ "live.numbox[18]", "live.numbox[2]", 0 ],
-			"obj-31::obj-47" : [ "live.numbox[19]", "live.numbox[2]", 0 ],
-			"obj-31::obj-9" : [ "Width", "Width", 0 ],
-			"obj-366" : [ "Syphon", "Syphon", 0 ],
-			"obj-4" : [ "live.tab", "live.tab", 0 ],
+			"obj-31::obj-10" : [ "Sharpen Width", "Sharpen Width", 0 ],
+			"obj-31::obj-13" : [ "Gaussian Width", "Gaussian Width", 0 ],
+			"obj-31::obj-15" : [ "Radial Width", "Radial Width", 0 ],
+			"obj-31::obj-28" : [ "Y", "Y", 0 ],
+			"obj-31::obj-47" : [ "X", "X", 0 ],
+			"obj-31::obj-9" : [ "Blur Width", "Blur Width", 0 ],
+			"obj-366" : [ "Channel", "Channel", 0 ],
+			"obj-4" : [ "Blur", "Blur", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
