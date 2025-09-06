@@ -48,7 +48,9 @@ export default defineConfig([{
         'live.comment', 'live.banks'
       ]
     },],
-    'maxpat/flow/local-send-receive': 'warn',
+    'maxpat/flow/local-send-receive': ['warn', {
+      exclude: ['---bang_param', '---isf_pre_param']
+    }],
     'maxpat/flow/global-send-receive': ['warn', {
       exclude: [
         'px_debug', 'px_mix', 'px_render', 'px_channel_removed',
@@ -65,7 +67,8 @@ export default defineConfig([{
         'live.toggle', 'live.button', 'live.menu', 'plugout~',
         'thispatcher', 'live.object', 'live.text', 'jit.gl.texture',
         'jit.poke~', 'jit.gl.mesh', 'live.banks', '"jit.gl.shader',
-        'live.meter~', 'jit.gl.layer', 'jit.gl.text'
+        'live.meter~', 'jit.gl.layer', 'jit.gl.text', 'jit.world',
+        'jit.gl.syphonserver'
       ]
     }],
 
