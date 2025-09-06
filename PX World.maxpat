@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 233.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -350,16 +350,16 @@
 							"parameter_enum" : [ "0", "1", "4", "8", "16", "24", "30", "60", "90", "120", "240" ],
 							"parameter_initial" : [ 5.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Dimensions[1]",
+							"parameter_longname" : "FPS",
 							"parameter_mmax" : 10,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Dimensions",
+							"parameter_shortname" : "FPS",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "Dimensions[1]"
+					"varname" : "live.menu"
 				}
 
 			}
@@ -404,10 +404,10 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text",
+							"parameter_longname" : "Enabled",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Enabled",
 							"parameter_type" : 2
 						}
 
@@ -441,8 +441,7 @@
 						}
 
 					}
-,
-					"varname" : "Dimensions"
+
 				}
 
 			}
@@ -1212,8 +1211,8 @@
  ],
 		"parameters" : 		{
 			"obj-151" : [ "Dimensions", "Dimensions", 0 ],
-			"obj-16" : [ "live.text", "live.text", 0 ],
-			"obj-23" : [ "Dimensions[1]", "Dimensions", 0 ],
+			"obj-16" : [ "Enabled", "Enabled", 0 ],
+			"obj-23" : [ "FPS", "FPS", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
