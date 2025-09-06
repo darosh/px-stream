@@ -716,7 +716,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "channel.maxpat",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "bang", "", "", "", "" ],
@@ -1269,6 +1269,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-85", 2 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"order" : 3,
 					"source" : [ "obj-120", 0 ]
@@ -1632,7 +1639,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 2 ],
+					"destination" : [ "obj-85", 3 ],
 					"source" : [ "obj-2", 0 ]
 				}
 

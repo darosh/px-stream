@@ -438,7 +438,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "channel.maxpat",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "bang", "", "", "", "" ],
@@ -561,7 +561,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
 					"id" : "obj-366",
 					"maxclass" : "live.tab",
@@ -3521,14 +3521,7 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 976.0, 96.0, 130.0, 124.0 ],
@@ -3549,7 +3542,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 2 ],
+					"destination" : [ "obj-42", 3 ],
 					"source" : [ "obj-100", 0 ]
 				}
 
@@ -3571,6 +3564,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
+					"order" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 2 ],
+					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -3893,13 +3895,83 @@
 
 			}
  ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
+		"parameters" : 		{
+			"obj-25" : [ "live.tab", "live.tab", 0 ],
+			"obj-26::obj-170" : [ "live.numbox[50]", "live.numbox[2]", 0 ],
+			"obj-26::obj-172" : [ "live.numbox[40]", "live.numbox[2]", 0 ],
+			"obj-26::obj-173" : [ "live.numbox[47]", "live.numbox[2]", 0 ],
+			"obj-26::obj-191" : [ "live.numbox[41]", "live.numbox[2]", 0 ],
+			"obj-26::obj-192" : [ "live.numbox[48]", "live.numbox[2]", 0 ],
+			"obj-26::obj-193" : [ "live.numbox[52]", "live.numbox[2]", 0 ],
+			"obj-26::obj-194" : [ "live.numbox[28]", "live.numbox[2]", 0 ],
+			"obj-26::obj-195" : [ "live.numbox[42]", "live.numbox[2]", 0 ],
+			"obj-26::obj-196" : [ "live.numbox[53]", "live.numbox[2]", 0 ],
+			"obj-26::obj-21" : [ "live.numbox[13]", "live.numbox[2]", 0 ],
+			"obj-26::obj-213" : [ "live.numbox[27]", "live.numbox[2]", 0 ],
+			"obj-26::obj-23" : [ "live.numbox[10]", "live.numbox[2]", 0 ],
+			"obj-26::obj-24" : [ "live.numbox[16]", "live.numbox[2]", 0 ],
+			"obj-26::obj-25" : [ "live.numbox[17]", "live.numbox[2]", 0 ],
+			"obj-26::obj-26" : [ "live.numbox[11]", "live.numbox[2]", 0 ],
+			"obj-26::obj-27" : [ "live.numbox[14]", "live.numbox[2]", 0 ],
+			"obj-26::obj-28" : [ "live.numbox[18]", "live.numbox[2]", 0 ],
+			"obj-26::obj-29" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
+			"obj-26::obj-32" : [ "live.numbox[3]", "live.numbox[2]", 0 ],
+			"obj-26::obj-34" : [ "live.numbox[4]", "live.numbox[2]", 0 ],
+			"obj-26::obj-36" : [ "live.numbox[5]", "live.numbox[2]", 0 ],
+			"obj-26::obj-39" : [ "live.numbox[6]", "live.numbox[2]", 0 ],
+			"obj-26::obj-41" : [ "live.numbox[7]", "live.numbox[2]", 0 ],
+			"obj-26::obj-42" : [ "live.numbox[15]", "live.numbox[2]", 0 ],
+			"obj-26::obj-44" : [ "live.numbox[8]", "live.numbox[2]", 0 ],
+			"obj-26::obj-46" : [ "live.numbox[9]", "live.numbox[2]", 0 ],
+			"obj-26::obj-47" : [ "live.numbox[19]", "live.numbox[2]", 0 ],
+			"obj-26::obj-51" : [ "live.numbox[20]", "live.numbox[2]", 0 ],
+			"obj-26::obj-72" : [ "live.numbox[22]", "live.numbox[2]", 0 ],
+			"obj-26::obj-73" : [ "live.numbox[23]", "live.numbox[2]", 0 ],
+			"obj-26::obj-74" : [ "live.numbox[24]", "live.numbox[2]", 0 ],
+			"obj-26::obj-75" : [ "live.numbox[25]", "live.numbox[2]", 0 ],
+			"obj-26::obj-76" : [ "live.numbox[26]", "live.numbox[2]", 0 ],
+			"obj-366" : [ "Syphon", "Syphon", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
 			}
-
+,
+			"inherited_shortname" : 1
 		}
-
+,
+		"dependency_cache" : [ 			{
+				"name" : "chain.js",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chain.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "channel.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jitgltextureinfo.js",
+				"bootpath" : "C74:/packages/Jitter Tools/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

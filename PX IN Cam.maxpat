@@ -277,7 +277,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "channel.maxpat",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "bang", "", "", "", "" ],
@@ -982,6 +982,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-85", 2 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -1004,7 +1011,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					
 					"source" : [ "obj-16", 1 ]
 				}
 
@@ -1098,7 +1104,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					
 					"order" : 0,
 					"source" : [ "obj-28", 0 ]
 				}
@@ -1107,7 +1112,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
-					
 					"order" : 1,
 					"source" : [ "obj-28", 0 ]
 				}
@@ -1132,7 +1136,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1154,7 +1157,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
-					
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -1168,7 +1170,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 2 ],
+					"destination" : [ "obj-85", 3 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -1281,7 +1283,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
-					
 					"source" : [ "obj-46", 1 ]
 				}
 
@@ -1407,7 +1408,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					
 					"source" : [ "obj-8", 0 ]
 				}
 
