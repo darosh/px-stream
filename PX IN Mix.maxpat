@@ -21,18 +21,6 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 920.0, 112.0, 144.0, 22.0 ],
-					"text" : "jit_gl_texture PX_EMPTY"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -728,10 +716,10 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "channel.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 5,
+					"numinlets" : 3,
+					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "bang", "", "", "" ],
+					"outlettype" : [ "int", "bang", "", "", "", "" ],
 					"patching_rect" : [ 760.0, 144.0, 239.0, 32.0 ],
 					"viewvisibility" : 1
 				}
@@ -1644,7 +1632,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 1 ],
+					"destination" : [ "obj-85", 2 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1672,7 +1660,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-85", 1 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -1730,7 +1718,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-85", 1 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1769,13 +1757,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 1 ],
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-120", 0 ],
 					"order" : 1,
 					"source" : [ "obj-84", 0 ]
@@ -1793,7 +1774,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-85", 3 ]
+					"source" : [ "obj-85", 4 ]
 				}
 
 			}

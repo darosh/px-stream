@@ -538,10 +538,10 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "channel.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 5,
+					"numinlets" : 3,
+					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "bang", "", "", "" ],
+					"outlettype" : [ "int", "bang", "", "", "", "" ],
 					"patching_rect" : [ 136.0, 216.0, 240.0, 30.0 ],
 					"viewvisibility" : 1
 				}
@@ -710,9 +710,9 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
+					"bgcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
+					"bordercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 					"id" : "obj-27",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -777,7 +777,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 1 ],
+					"destination" : [ "obj-42", 2 ],
 					"order" : 2,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -961,7 +961,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-42", 3 ]
+					"source" : [ "obj-42", 4 ]
 				}
 
 			}

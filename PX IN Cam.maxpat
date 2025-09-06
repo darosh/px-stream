@@ -277,10 +277,10 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "channel.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 5,
+					"numinlets" : 3,
+					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "bang", "", "", "" ],
+					"outlettype" : [ "int", "bang", "", "", "", "" ],
 					"patching_rect" : [ 760.0, 152.0, 239.0, 32.0 ],
 					"viewvisibility" : 1
 				}
@@ -1168,7 +1168,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 1 ],
+					"destination" : [ "obj-85", 2 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -1415,7 +1415,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-85", 3 ]
+					"source" : [ "obj-85", 4 ]
 				}
 
 			}

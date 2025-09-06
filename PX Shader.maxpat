@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 555.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -1349,7 +1349,7 @@
 
 					}
 ,
-					"text" : "1.50",
+					"text" : "0.02",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"textjustification" : 1
 				}
@@ -1372,7 +1372,7 @@
 
 					}
 ,
-					"text" : "0.92",
+					"text" : "0.06",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"textjustification" : 1
 				}
@@ -1418,7 +1418,7 @@
 
 					}
 ,
-					"text" : "0.01",
+					"text" : "0.80",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"textjustification" : 1
 				}
@@ -1441,7 +1441,7 @@
 
 					}
 ,
-					"text" : "3.00",
+					"text" : "0.00",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"textjustification" : 1
 				}
@@ -2635,10 +2635,10 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "channel.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 5,
+					"numinlets" : 3,
+					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "bang", "", "", "" ],
+					"outlettype" : [ "int", "bang", "", "", "", "" ],
 					"patching_rect" : [ 400.000004053115845, 1168.0, 239.999995946884155, 32.0 ],
 					"viewvisibility" : 1
 				}
@@ -5046,8 +5046,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 56.0, 314.0, 17.0 ],
-					"text" : "ISF is open source under the MIT License, copyright VIDVOX, LLC 2019",
-					"textjustification" : 0
+					"text" : "ISF is open source under the MIT License, copyright VIDVOX, LLC 2019"
 				}
 
 			}
@@ -16512,7 +16511,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-481", 1 ],
+					"destination" : [ "obj-481", 2 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -17903,7 +17902,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-307", 0 ],
-					"source" : [ "obj-481", 3 ]
+					"source" : [ "obj-481", 4 ]
 				}
 
 			}

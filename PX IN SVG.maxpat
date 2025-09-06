@@ -675,10 +675,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 424.0, 408.0, 41.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"text" : "p filter"
 				}
 
@@ -1594,10 +1608,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 336.0, 448.0, 86.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"text" : "p menu_range"
 				}
 
@@ -1605,9 +1633,9 @@
 , 			{
 				"box" : 				{
 					"bangmode" : 1,
-					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
 					"border" : 1.0,
-					"bordercolor" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
+					"bordercolor" : [ 0.090196078431373, 0.090196078431373, 0.090196078431373, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-62",
@@ -1634,7 +1662,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"textcolor" : [ 0.882352941176471, 0.882352941176471, 0.882352941176471, 1.0 ],
 					"varname" : "textedit"
 				}
 
@@ -2067,10 +2095,10 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "channel.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 5,
+					"numinlets" : 3,
+					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "bang", "", "", "" ],
+					"outlettype" : [ "int", "bang", "", "", "", "" ],
 					"patching_rect" : [ 568.0, 128.0, 238.0, 34.0 ],
 					"viewvisibility" : 1
 				}
@@ -2213,7 +2241,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
 					"id" : "obj-366",
 					"maxclass" : "live.tab",
@@ -3225,7 +3253,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 1 ],
+					"destination" : [ "obj-85", 2 ],
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -3606,7 +3634,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
-					"source" : [ "obj-85", 3 ]
+					"source" : [ "obj-85", 4 ]
 				}
 
 			}
@@ -3711,52 +3739,13 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-151" : [ "Dimensions", "Dimensions", 0 ],
-			"obj-360" : [ "Reload[3]", "Reload", 0 ],
-			"obj-361" : [ "Reload[4]", "Reload", 0 ],
-			"obj-362" : [ "Reload[5]", "Reload", 0 ],
-			"obj-366" : [ "Syphon", "Syphon", 0 ],
-			"obj-4" : [ "FileName", "FileName", 0 ],
-			"obj-6" : [ "File", "File", 0 ],
-			"obj-76" : [ "live.menu", "live.menu", 0 ],
-			"obj-92" : [ "Reload[6]", "Reload", 0 ],
-			"obj-95" : [ "Filter", "Filter", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
 
-			}
-,
-			"inherited_shortname" : 1
 		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "chain.js",
-				"bootpath" : "~/Documents/GitHub/px-stream",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "chain.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "channel.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+
 	}
 
 }
