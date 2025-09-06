@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 555.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -522,11 +522,11 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[6]",
+							"parameter_longname" : "Scale X",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : -10.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "live.numbox",
+							"parameter_shortname" : "Scale X",
 							"parameter_steps" : 1001,
 							"parameter_type" : 0,
 							"parameter_units" : "sx",
@@ -534,8 +534,7 @@
 						}
 
 					}
-,
-					"varname" : "live.numbox[6]"
+
 				}
 
 			}
@@ -712,18 +711,17 @@
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_initial" : [ 8.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Syphon",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Syphon",
+							"parameter_shortname" : "Channel",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
 						}
 
 					}
 ,
-					"spacing_x" : 3.0,
-					"varname" : "Syphon"
+					"spacing_x" : 3.0
 				}
 
 			}
@@ -1146,9 +1144,9 @@
 			"obj-25" : [ "live.numbox[8]", "live.numbox", 0 ],
 			"obj-31" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-32" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-366" : [ "Syphon", "Syphon", 0 ],
+			"obj-366" : [ "Channel", "Channel", 0 ],
 			"obj-62" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-63" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-63" : [ "Scale X", "Scale X", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
