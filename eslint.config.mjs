@@ -13,6 +13,7 @@ export default defineConfig([{
     'maxpat/layout/snap-to-grid': ['warn', { snap: true, fix: true }],
     'maxpat/layout/snap-to-pixel': ['warn', { snap: true, fix: true }],
     'maxpat/layout/grid-size': ['warn', { grid: [8, 8], fix: true }],
+    'maxpat/layout/no-segmented-cords': ['warn', { fix: true }],
     'maxpat/layout/position-rounding': ['warn', {
       'patching-precision': [8, 8],
       'presentation-precision': [1, 1],

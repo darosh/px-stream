@@ -385,8 +385,7 @@
 				"patchline" : 				{
 					"source" : [ "obj-76", 0 ],
 					"destination" : [ "obj-10", 1 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
+					"hidden" : 0
 				}
 
 			}
@@ -394,8 +393,7 @@
 				"patchline" : 				{
 					"source" : [ "obj-12", 0 ],
 					"destination" : [ "obj-10", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
+					"hidden" : 0
 				}
 
 			}
@@ -403,8 +401,7 @@
 				"patchline" : 				{
 					"source" : [ "obj-10", 0 ],
 					"destination" : [ "obj-13", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
+					"hidden" : 0
 				}
 
 			}
@@ -412,8 +409,7 @@
 				"patchline" : 				{
 					"source" : [ "obj-76", 0 ],
 					"destination" : [ "obj-46", 1 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
+					"hidden" : 0
 				}
 
 			}
@@ -421,8 +417,7 @@
 				"patchline" : 				{
 					"source" : [ "obj-46", 0 ],
 					"destination" : [ "obj-41", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
+					"hidden" : 0
 				}
 
 			}
@@ -430,8 +425,7 @@
 				"patchline" : 				{
 					"source" : [ "obj-38", 0 ],
 					"destination" : [ "obj-46", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
+					"hidden" : 0
 				}
 
 			}
@@ -439,8 +433,7 @@
 				"patchline" : 				{
 					"source" : [ "obj-40", 0 ],
 					"destination" : [ "obj-4", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
+					"hidden" : 0
 				}
 
 			}
@@ -448,8 +441,7 @@
 				"patchline" : 				{
 					"source" : [ "obj-4", 0 ],
 					"destination" : [ "obj-5", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
+					"hidden" : 0
 				}
 
 			}
@@ -457,8 +449,7 @@
 				"patchline" : 				{
 					"source" : [ "obj-4", 1 ],
 					"destination" : [ "obj-3", 1 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
+					"hidden" : 0
 				}
 
 			}
@@ -466,8 +457,7 @@
 				"patchline" : 				{
 					"source" : [ "obj-3", 0 ],
 					"destination" : [ "obj-76", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
+					"hidden" : 0
 				}
 
 			}
@@ -475,8 +465,7 @@
 				"patchline" : 				{
 					"source" : [ "obj-5", 0 ],
 					"destination" : [ "obj-3", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ]
+					"hidden" : 0
 				}
 
 			}
