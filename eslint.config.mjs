@@ -8,6 +8,10 @@ export default defineConfig([{
   rules: {
     // STRUCTURE
     'maxpat/structure/validate': 'error',
+    'maxpat/structure/require': ['warn', {
+      file: 'PX .+\\.maxpat',
+      include: ['live.banks', 'live.thisdevice'],
+    }],
 
     // LAYOUT
     'maxpat/layout/snap-to-grid': ['warn', { snap: true, fix: true }],
