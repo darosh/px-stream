@@ -10,14 +10,16 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 643.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 555.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -99,6 +101,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Determines how two layers are blended with each other",
+					"annotation_name" : "Blend Mode",
 					"id" : "obj-2",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -110,17 +114,18 @@
 					"presentation_rect" : [ 0.0, 0.0, 65.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Blend Mode",
 							"parameter_enum" : [ "Add", "Alpha", "Alpha add", "Alpha saturate", "Alpha mask", "Darken", "Exclusion", "Ghosting", "Hard contrast", "Lighten", "Multiply", "Overlay", "Overlay inverted", "Screen", "Subtract" ],
-							"parameter_longname" : "live.menu[1]",
+							"parameter_info" : "Determines how two layers are blended with each other",
+							"parameter_longname" : "Blend Mode",
 							"parameter_mmax" : 14,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.menu[1]",
+							"parameter_shortname" : "Blend",
 							"parameter_type" : 2
 						}
 
 					}
-,
-					"varname" : "live.menu"
+
 				}
 
 			}
@@ -319,15 +324,22 @@
 
 			}
  ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
+		"parameters" : 		{
+			"obj-2" : [ "Blend Mode", "Blend", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
 			}
-
-		},
-		"gridsnaponopen" : 2,
-		"integercoordinates" : 1
-
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
