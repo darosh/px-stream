@@ -39,9 +39,9 @@ export default defineConfig([{
     // UI
     'maxpat/ui/annotation-info': ['warn', {
       include: [
-        'slider', 'dial', 'button', 'toggle', 'number', 'live.dial',
-        'live.slider', 'live.button', 'live.toggle', 'live.text',
-        'live.menu', 'live.tab',
+        'live.dial', 'live.slider', 'live.button', 'live.toggle',
+        'live.text', 'live.menu', 'live.tab', 'live.numbox',
+        'umenu',
       ]
     }],
 
