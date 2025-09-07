@@ -12,6 +12,8 @@
 		"classnamespace" : "box",
 		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"gridsize" : [ 8.0, 8.0 ],
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -21,7 +23,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 136.0, 136.0, 88.0, 22.0 ],
+					"patching_rect" : [ 136.0, 184.0, 88.0, 22.0 ],
 					"text" : "prepend name"
 				}
 
@@ -35,21 +37,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 136.0, 72.0, 33.0, 22.0 ],
+					"patching_rect" : [ 136.0, 104.0, 33.0, 22.0 ],
 					"text" : "t b i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 136.0, 240.0, 79.0, 22.0 ],
-					"text" : "print texbank"
 				}
 
 			}
@@ -62,7 +51,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 136.0, 96.0, 87.0, 22.0 ],
+					"patching_rect" : [ 136.0, 144.0, 97.0, 22.0 ],
 					"text" : "combine #2- 0"
 				}
 
@@ -76,8 +65,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 136.0, 24.0, 33.0, 22.0 ],
-					"text" : "r init"
+					"patching_rect" : [ 136.0, 24.0, 43.0, 22.0 ],
+					"text" : "r ---init"
 				}
 
 			}
@@ -90,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 136.0, 48.0, 58.0, 22.0 ],
+					"patching_rect" : [ 136.0, 64.0, 58.0, 22.0 ],
 					"text" : "thispoly~"
 				}
 
@@ -104,8 +93,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 32.0, 43.0, 22.0 ],
-					"text" : "r dims"
+					"patching_rect" : [ 24.0, 24.0, 53.0, 22.0 ],
+					"text" : "r ---dims"
 				}
 
 			}
@@ -118,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 40.0, 184.0, 89.0, 22.0 ],
+					"patching_rect" : [ 24.0, 232.0, 95.0, 22.0 ],
 					"text" : "jit.gl.texture #1"
 				}
 
@@ -141,14 +130,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"disabled" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -181,11 +162,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
-		"gridsnaponopen" : 2,
-		"integercoordinates" : 1
+ ]
 	}
 
 }
