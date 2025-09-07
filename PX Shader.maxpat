@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 555.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 233.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -4368,13 +4368,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 512.0, 680.0, 457.0, 22.0 ],
-									"text" : "jit.gl.shader px-stream @name ---beamshader @enable 0 @file \"./PX Shader._xye.jsx\"",
+									"patching_rect" : [ 512.0, 680.0, 469.0, 22.0 ],
+									"text" : "jit.gl.shader px-stream @name ---beamshader @enable 0 @file \"./PX Shader._xye.jxs\"",
 									"textfile" : 									{
 										"text" : "<jittershader name=\"fill-flat-triangles\">\n\t<description>Default Shader </description>\n\t<param name=\"position\" type=\"vec3\" state=\"POSITION\" />\n\t<param name=\"modelViewProjectionMatrix\" type=\"mat4\" state=\"MODELVIEW_PROJECTION_MATRIX\" />\n\t<param name=\"color\" type=\"vec4\" state=\"COLOR\" />\n\t<language name=\"glsl\" version=\"1.5\">\n\t\t<bind param=\"position\" program=\"vp\" />\n\t\t<bind param=\"modelViewProjectionMatrix\" program=\"vp\" />\n\t\t<bind param=\"color\" program=\"vp\" />\n\t\t<program name=\"vp\" type=\"vertex\">\n<![CDATA[\n#version 330 core\nuniform mat4 modelViewProjectionMatrix;\nin vec3 position;\nin vec4 color;\n\nout jit_PerVertex {\n\tflat vec4 color;\t\n} jit_out;\n\nvoid main() {\t\n\tgl_Position = modelViewProjectionMatrix * vec4(position, 1.);\t\n\tjit_out.color = color;\n}\n]]>\n\t\t</program>\n\t\t<program name=\"fp\" type=\"fragment\">\n<![CDATA[\n#version 330 core\n\nin jit_PerVertex {\n\tflat vec4 color;\n} jit_in;\n\nout vec4 color;\n\nvoid main() {\n\tcolor = jit_in.color;\n}\t\n]]>\n\t\t</program>\n\t</language>\n</jittershader>\n",
 										"filename" : "none",
 										"flags" : 0,
-										"embed" : 0,
+										"embed" : 1,
 										"autowatch" : 1
 									}
 
@@ -18649,7 +18649,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "chain.js",
+				"name" : "PX Shader._param.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._chain.js",
 				"bootpath" : "~/Documents/GitHub/px-stream",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
@@ -18678,13 +18685,6 @@
 				"bootpath" : "~/Documents/Max 9/Packages/ISF/javascript",
 				"patcherrelativepath" : "../../Max 9/Packages/ISF/javascript",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "PX Shader._param.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
