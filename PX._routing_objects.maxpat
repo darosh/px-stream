@@ -786,38 +786,7 @@
 
 			}
  ],
-		"styles" : [ 			{
-				"name" : "Audiomix",
-				"default" : 				{
-					"bgfillcolor" : 					{
-						"type" : "gradient",
-						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39
-					}
-
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
-				"name" : "Max 12 Regular",
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
-				"name" : "Max For Live",
-				"default" : 				{
-					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.631373 ]
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
+		"styles" : [ 			 			 			 			{
 				"name" : "stb001",
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
