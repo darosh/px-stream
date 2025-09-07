@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 555.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -264,9 +264,9 @@
 									"maxclass" : "live.comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 64.0, 124.0, 18.0 ],
+									"patching_rect" : [ 0.0, 64.0, 192.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 106.0, 18.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 192.0, 18.0 ],
 									"textjustification" : 0
 								}
 
@@ -710,9 +710,9 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
+					"bgcolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
+					"bordercolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
 					"id" : "obj-27",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1017,7 +1017,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "chain.js",
+				"name" : "PX._chain.js",
 				"bootpath" : "~/Documents/GitHub/px-stream",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
