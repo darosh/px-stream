@@ -63,7 +63,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 48.0, 24.0, 144.0, 27.0 ],
 					"prototypename" : "M4L.subpatcher-title",
-					"text" : "RoutingObjects"
+					"text" : "PX._routing_objects"
 				}
 
 			}

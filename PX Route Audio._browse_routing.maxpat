@@ -112,7 +112,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 120.0, 408.0, 329.0, 22.0 ],
-					"text" : "RoutingObjects available_routing_channels routing_channel"
+					"text" : "PX._routing_objects available_routing_channels routing_channel"
 				}
 
 			}
@@ -126,7 +126,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 120.0, 368.0, 291.0, 22.0 ],
-					"text" : "RoutingObjects available_routing_types routing_type"
+					"text" : "PX._routing_objects available_routing_types routing_type"
 				}
 
 			}

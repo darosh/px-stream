@@ -261,7 +261,7 @@
 				"box" : 				{
 					"maxclass" : "comment",
 					"prototypename" : "M4L.subpatcher-title",
-					"text" : "M4L.Gain2~",
+					"text" : "PX._gain2~",
 					"id" : "obj-33",
 					"fontname" : "Arial Bold Italic",
 					"textcolor" : [ 0.3, 0.34, 0.4, 1.0 ],

@@ -27,7 +27,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 384.0, 8.0, 100.0, 50.0 ],
-					"pic" : "cam.svg",
+					"pic" : "PX IN Cam._cam.svg",
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 59.0, 112.0, 46.0 ]
 				}
@@ -276,7 +276,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "channel.maxpat",
+					"name" : "PX._channel.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
@@ -364,7 +364,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "chain.maxpat",
+					"name" : "PX._chain.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
@@ -1456,7 +1456,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "cam.svg",
+				"name" : "PX IN Cam._cam.svg",
 				"bootpath" : "~/Documents/GitHub/px-stream",
 				"patcherrelativepath" : ".",
 				"type" : "svg",
@@ -1470,14 +1470,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "chain.maxpat",
+				"name" : "PX._chain.maxpat",
 				"bootpath" : "~/Documents/GitHub/px-stream",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "channel.maxpat",
+				"name" : "PX._channel.maxpat",
 				"bootpath" : "~/Documents/GitHub/px-stream",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

@@ -182,7 +182,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 96.0, 136.0, 89.0, 22.0 ],
-					"text" : "M4L.gain2~"
+					"text" : "PX._gain2~"
 				}
 
 			}
@@ -531,7 +531,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 240.0, 136.0, 89.0, 22.0 ],
-					"text" : "M4L.gain2~"
+					"text" : "PX._gain2~"
 				}
 
 			}
@@ -548,7 +548,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "BrowseRouting.maxpat",
+					"name" : "PX Route Audio._browse_routing.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],

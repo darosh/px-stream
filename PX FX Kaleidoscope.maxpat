@@ -148,7 +148,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 360.0, 456.0, 115.0, 22.0 ],
-					"text" : "file kaleidoscope.jxs"
+					"text" : "file \"PX FX Kaleidoscope._kaleidoscope.jxs\""
 				}
 
 			}
@@ -2172,7 +2172,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "channel.maxpat",
+					"name" : "PX._channel.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
@@ -2280,7 +2280,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "chain.maxpat",
+					"name" : "PX._chain.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
@@ -2691,14 +2691,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "chain.maxpat",
+				"name" : "PX._chain.maxpat",
 				"bootpath" : "~/Documents/GitHub/px-stream",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "channel.maxpat",
+				"name" : "PX._channel.maxpat",
 				"bootpath" : "~/Documents/GitHub/px-stream",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

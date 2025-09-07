@@ -727,7 +727,7 @@
 			}
 , 			{
 				"box" : 				{
-					"filename" : "chain.js",
+					"filename" : "PX._chain.js",
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -738,9 +738,9 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "v8 chain.js",
+					"text" : "v8 PX._chain.js",
 					"textfile" : 					{
-						"filename" : "chain.js",
+						"filename" : "PX._chain.js",
 						"flags" : 0,
 						"embed" : 0,
 						"autowatch" : 1

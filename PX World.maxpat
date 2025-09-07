@@ -149,7 +149,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 264.0, 464.0, 100.0, 50.0 ],
-					"pic" : "mad-world.svg",
+					"pic" : "PX World._mad-world.svg",
 					"presentation" : 1,
 					"presentation_rect" : [ -4.0, 19.0, 122.0, 129.0 ]
 				}
@@ -454,7 +454,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 352.0, 464.0, 100.0, 50.0 ],
-					"pic" : "Macintosh HD:/Users/jan/Documents/GitHub/px-stream/stop.svg",
+					"pic" : "Macintosh HD:/Users/jan/Documents/GitHub/px-stream/PX World._stop.svg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 35.0, 118.0, 121.0 ]
 				}
@@ -1226,14 +1226,14 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mad-world.svg",
+				"name" : "PX World._mad-world.svg",
 				"bootpath" : "~/Documents/GitHub/px-stream",
 				"patcherrelativepath" : ".",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "stop.svg",
+				"name" : "PX World._stop.svg",
 				"bootpath" : "~/Documents/GitHub/px-stream",
 				"patcherrelativepath" : ".",
 				"type" : "svg",

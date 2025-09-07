@@ -21,6 +21,6 @@
         <bind param="variation" program="fp"/>
         <bind param="tex0" program="fp"/>
         <program name="vp" type="vertex" source="sh.passthrudim.vp.glsl"/>
-        <program name="fp" type="fragment" source="kaleidoscope.fp.glsl"/>
+        <program name="fp" type="fragment" source="PX FX Kaleidoscope._kaleidoscope.fp.glsl"/>
     </language>
 </jittershader>
