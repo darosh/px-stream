@@ -8,6 +8,7 @@ export default defineConfig([{
   rules: {
     // STRUCTURE
     'maxpat/structure/validate': 'error',
+    'maxpat/structure/no-unused-styles': ['warn', { fix: true }],
     'maxpat/structure/require': ['warn', {
       file: 'PX .+\\.maxpat',
       include: ['live.banks', 'live.thisdevice'],
