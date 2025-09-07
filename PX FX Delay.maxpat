@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 555.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -256,8 +256,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 376.0, 560.0, 322.0, 22.0 ],
-					"text" : "poly~ \"PX FX Delay._vps.texlut\" 60 args jit_gl_texture bank"
+					"patching_rect" : [ 376.0, 560.0, 334.0, 22.0 ],
+					"text" : "poly~ \"PX FX Delay._vps.texlut\" 60 args jit_gl_texture ---bank"
 				}
 
 			}
@@ -285,8 +285,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 48.0, 520.0, 294.0, 22.0 ],
-					"text" : "poly~ \"PX FX Delay._vps.texlut\" 60 args capture bank"
+					"patching_rect" : [ 48.0, 520.0, 306.0, 22.0 ],
+					"text" : "poly~ \"PX FX Delay._vps.texlut\" 60 args capture ---bank"
 				}
 
 			}
@@ -299,8 +299,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 528.0, 264.0, 291.0, 22.0 ],
-					"text" : "poly~ \"PX FX Delay._vps.texset\" 60 args ---wrld bank"
+					"patching_rect" : [ 528.0, 264.0, 303.0, 22.0 ],
+					"text" : "poly~ \"PX FX Delay._vps.texset\" 60 args ---wrld ---bank"
 				}
 
 			}
