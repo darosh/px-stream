@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridsize" : [ 8.0, 8.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -21,7 +21,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.0, 135.0, 88.0, 22.0 ],
+					"patching_rect" : [ 136.0, 136.0, 88.0, 22.0 ],
 					"text" : "prepend name"
 				}
 
@@ -35,7 +35,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 133.0, 68.0, 32.5, 22.0 ],
+					"patching_rect" : [ 136.0, 72.0, 33.0, 22.0 ],
 					"text" : "t b i"
 				}
 
@@ -48,7 +48,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 134.0, 238.0, 79.0, 22.0 ],
+					"patching_rect" : [ 136.0, 240.0, 79.0, 22.0 ],
 					"text" : "print texbank"
 				}
 
@@ -62,7 +62,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 134.0, 98.0, 87.0, 22.0 ],
+					"patching_rect" : [ 136.0, 96.0, 87.0, 22.0 ],
 					"text" : "combine #2- 0"
 				}
 
@@ -76,7 +76,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 133.0, 22.0, 33.0, 22.0 ],
+					"patching_rect" : [ 136.0, 24.0, 33.0, 22.0 ],
 					"text" : "r init"
 				}
 
@@ -90,7 +90,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 133.0, 46.0, 58.0, 22.0 ],
+					"patching_rect" : [ 136.0, 48.0, 58.0, 22.0 ],
 					"text" : "thispoly~"
 				}
 
@@ -104,7 +104,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 34.0, 43.0, 22.0 ],
+					"patching_rect" : [ 40.0, 32.0, 43.0, 22.0 ],
 					"text" : "r dims"
 				}
 
@@ -118,7 +118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 40.0, 183.0, 89.0, 22.0 ],
+					"patching_rect" : [ 40.0, 184.0, 89.0, 22.0 ],
 					"text" : "jit.gl.texture #1"
 				}
 
@@ -183,7 +183,9 @@
 			}
  ],
 		"dependency_cache" : [  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1
 	}
 
 }
