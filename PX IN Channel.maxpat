@@ -21,6 +21,78 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 872.0, 80.0, 145.0, 22.0 ],
+					"text" : "jit.gl.asyncread px-stream"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1064.0, 80.0, 84.0, 22.0 ],
+					"text" : "routepass dim"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 928.0, 32.0, 30.0, 22.0 ],
+					"text" : "t l l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"filename" : "jitgltextureinfo.js",
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1064.0, 48.0, 89.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"text" : "jit.gl.textureinfo",
+					"textfile" : 					{
+						"filename" : "jitgltextureinfo.js",
+						"flags" : 0,
+						"embed" : 0,
+						"autowatch" : 1
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 928.0, 120.0, 242.0, 22.0 ],
+					"text" : "jit.gl.texture px-stream @defaultimage black"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -230,7 +302,7 @@
 					}
 ,
 					"text" : "Channel IN",
-					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"textcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -238,7 +310,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
 					"id" : "obj-93",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -274,7 +346,7 @@
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "bang", "", "", "", "" ],
-					"patching_rect" : [ 760.0, 136.0, 240.0, 32.0 ],
+					"patching_rect" : [ 760.0, 200.0, 240.0, 32.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -340,7 +412,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1104.0, 104.0, 80.0, 22.0 ],
+					"patching_rect" : [ 1104.0, 168.0, 80.0, 22.0 ],
 					"text" : "r ---this_bang"
 				}
 
@@ -362,7 +434,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1016.0, 136.0, 240.0, 32.0 ],
+					"patching_rect" : [ 1016.0, 200.0, 240.0, 32.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -374,7 +446,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 760.0, 40.0, 31.0, 22.0 ],
+					"patching_rect" : [ 760.0, 104.0, 31.0, 22.0 ],
 					"text" : "int 8"
 				}
 
@@ -386,14 +458,14 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 760.0, 8.0, 54.0, 22.0 ],
+					"patching_rect" : [ 760.0, 72.0, 54.0, 22.0 ],
 					"text" : "r ---reset"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
 					"id" : "obj-366",
 					"maxclass" : "live.tab",
@@ -403,7 +475,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 760.0, 104.0, 100.0, 20.0 ],
+					"patching_rect" : [ 760.0, 168.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 153.0, 126.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -552,6 +624,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -567,6 +646,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-85", 3 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -575,6 +661,34 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-24", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -686,7 +800,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "chain.js",
+				"name" : "PX._chain.js",
 				"bootpath" : "~/Documents/GitHub/px-stream",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
@@ -704,6 +818,12 @@
 				"bootpath" : "~/Documents/GitHub/px-stream",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jitgltextureinfo.js",
+				"bootpath" : "C74:/packages/Jitter Tools/javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
