@@ -1,84 +1,35 @@
 # Todo
 
+## Doc
+
+- [ ] doc
+- [ ] doc demo
+- [ ] doc update banner
+- [ ] doc FS display link and fps 0, and multi fs limitation
+- [ ] doc exclusive rotation
+- [ ] doc console font, brew install --cask font-cascadia-code
+- [ ] doc https://syphon.info/recorder.html
+- [ ] sdk?
+
 ## Misc
 
-- [ ] restore session params and automation
-- [ ] pause rendering on pause
-- [ ] update banner
-- [ ] mystery error ```typedmess: draw: corrupt object object_class_internal: bad object b06583e0 doesn't understand "draw" ```
-- [ ] demo
-- [ ] doc
-- [ ] doc FS display link and fps 0, and multi fs limitation
-- [ ] sdk?
 - [ ] disable unused chains?
-- [ ] reset dials on empty inputs
-- [ ] optimize mix (jxs?)
-- [ ] scrollable bpatcher to isf info
-- [ ] fix jit.gl.syphonclient: doesn't understand "<separator>"
-- [ ] no webcam selected on load
-- [ ] web cam stored as name
-- [ ] shader stored as name
-- [ ] hsv mode?
 - [ ] automate batch freeze?
-- [ ] doc exclusive rotation
-- [ ] cache svg texture
-- [ ] text font automation + ref, store by string
-- [ ] info device console style
-- [ ] doc console font, brew install --cask font-cascadia-code
-- [ ] doc globals, sends, dicts
-- [ ] doc https://syphon.info/recorder.html
-- [ ] syphon persistence?
-- [ ] transformation causing errors in PASS?
-- [ ] find optimal ranges for FX pass / blur / kaleido
-- [ ] powered by logo
-- [ ] disable device for bypass
-- [ ] frameSkip should be time based
-- [ ] fix svg automation
-- [ ] fix svg resolution switch
-- [ ] disable dynamic live.menu automation
-- [ ] text: beat, time, frame, direct
 - [ ] If parameter automation causes high CPU load, try enabling Defer Automation Output in the object Inspector,
   or try higher values for the Update Limit.
-- [ ] cc.scalebias.jxs?
-- [ ] use jit window instead of world for fullscreen
-- [ ] https://cycling74.com/tutorials/max-and-opengl-gl-texture-delay
-- [ ] https://www.youtube.com/watch?v=PomKrUNqdAk
-- [ ] mix: takes screenshot 
-
-chain devices:
-
-- Blur FX
-- Cam IN
-- Channel IN
-- Channel
-- Info
-- Kaleido FX
-- Dry Wet
-- Mix IN
-- Pass FX
-- Send MIDI
-- Shader
-- SVG IN
-- Text
-- Transform
-
-non-chain devices:
-
-- Console
-- Mix
-- Receive
-- Send MIDI
-- World
-
-## Ideas
-
 - [ ] mid/side something?
+- [ ] check texture float 32
+- [ ] check fx (pass) quality param
+- [ ] restore session params and automation
+- [ ] disable dynamic live.menu automation
 
 ## Devices
 
 - [ ] video in? loop on/off per clip, speed control, in/out points
 - [ ] texture (feedback?) delay
 - [ ] color correction
+  - [ ] cc.scalebias.jxs?
+  - [ ] https://docs.cycling74.com/learn/articles/01-color-management/
 - [ ] JPEG
 - [ ] video rate LFO?
 
@@ -87,19 +38,118 @@ non-chain devices:
 - [ ] image in?
 - [ ] activity blink?
 - [ ] reactive geometry device?
+  - [ ] /Applications/Max.app/Contents/Resources/C74/media/demos/max9-geom-demo.maxpat
 - [ ] inline preview device
+
+### DEV
+
+#### DEV Console.amxd
+
+- [ ] optimize console
+
+#### DEV Info.amxd
+
+### FX
+
+#### PX FX Blur.amxd
+
+- [ ] find optimal ranges
+
+#### PX FX Delay.amxd
+
+- [ ] make max frames dynamic
+- [ ] https://cycling74.com/tutorials/max-and-opengl-gl-texture-delay
+- [ ] https://www.youtube.com/watch?v=PomKrUNqdAk
+
+#### PX FX Kaleidoscope.amxd
+
+- [ ] find optimal ranges
+
+#### PX FX Pass.amxd
+
+- [ ] find optimal ranges
+
+### IN
+
+#### PX IN Cam.amxd
+
+- [ ] no webcam selected on load
+- [ ] webcam stored as name
+
+#### PX IN Channel.amxd
+
+#### PX IN Cos Pattern.amxd
+
+#### PX IN Mix.amxd
+
+#### PX IN SVG.amxd
+
+- [ ] powered by logo
+- [ ] fix svg automation
+- [ ] fix svg resolution switch
+- [ ] cache svg texture
+
+#### PX IN Syphon.amxd
+
+- [ ] syphon persistence?
+- [ ] fix jit.gl.syphonclient: doesn't understand "<separator>"
+
+#### PX IN Text.amxd
+
+- [ ] text: beat, time, frame, direct
+- [ ] text font automation + ref, store by string
+
+### PX
+
+#### PX Mix Channel.amxd
+
+#### PX Mix Dry.amxd
+
+#### PX Mix View.amxd
+
+- [ ] optimize mix (jxs?)
+- [ ] mix: takes screenshot
+
+#### PX Route Audio.amxd
+
+#### PX Route MIDI.amxd
+
+#### PX Shader.amxd
+
+- [ ] hsv mode?
+- [ ] shader stored as name
+- [ ] beat param?
+- [ ] tempo param? BEAT? BAR?
+- [ ] replace bpatchers
+- [ ] scrollable bpatcher to isf info
+- [ ] reset dials on empty inputs
+
+#### PX Transform.amxd
+
+- [ ] transformation causing errors in PASS?
+- [ ] tranform bake in texture
+- [ ] tranform scale x=y btn
+
+#### PX World.amxd
+
+- [ ] pause rendering on pause
 
 ## IFS
 
+- [ ] frameSkip should be time based
 - [ ] more shaders
 - [ ] better midi shader
 - [ ] vu shader?
 - [ ] rolling waveform shader?
-- [ ] beat param?
-- [ ] tempo param? BEAT? BAR?
 
 ## Done
 
+- [x] ~~mystery error
+  ```typedmess: draw: corrupt object object_class_internal: bad object b06583e0 doesn't understand "draw" ```~~
+- [x] info device console style
+- [x] ~~doc~~ eslint globals, sends, dicts
+- [x] disable device for bypass
+- [x] use jit window instead of world for fullscreen
 - [x] blur redesign
 - [x] fl: tabs
 - [x] fl: cam tooltips
@@ -182,38 +232,3 @@ non-chain devices:
 - [x] categorize
 - [x] fps
 - [x] unified wav
-
-
-#!/bin/bash
-
-# source file
-SRC="./.TEST EMPTY.maxpat"
-
-# target files
-TARGETS=(
-"PX IN Cam.maxpat"
-"PX IN Channel.maxpat"
-"PX IN Cos Pattern.maxpat"
-"PX IN Mix.maxpat"
-"PX IN SVG.maxpat"
-"PX IN Syphon.maxpat"
-"PX IN Text.maxpat"
-"PX Mix Channel.maxpat"
-"PX Mix Dry.maxpat"
-"PX Mix View.maxpat"
-"PX Route Audio.maxpat"
-"PX Route MIDI.maxpat"
-"PX Shader.maxpat"
-"PX Transform.maxpat"
-"PX World.maxpat"
-"PX FX Pass.maxpat"
-"PX FX Kaleidoscope.maxpat"
-"DEV Info.maxpat"
-"DEV Console.maxpat"
-)
-
-# copy loop
-for TGT in "${TARGETS[@]}"; do
-cp "$SRC" "$TGT"
-echo "Created: $TGT"
-done
