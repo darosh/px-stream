@@ -1,24 +1,88 @@
 # PX Stream [WIP]
 
 > PX Stream is a visual performance toolkit for [Max for Live](https://www.ableton.com/en/live/max-for-live/),
-> featuring audio-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals, 
+> featuring audio-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals,
 > text rendering and [Syphon](https://syphon.info/) output streaming
 
-![](./assets/banner.gif) 
+![](./assets/banner.gif)
 
-## Devices / Usage [TBD]
+## Devices / Usage
 
-### PX World.amxd
+### PX World
 
-### PX View.amxd
+![PX World](assets/devices/PX_World_v1.jpg)
 
-### PX Shader.amxd
+### PX Mix View
 
-### PX Text.amxd
+![PX Mix View](assets/devices/PX_Mix_View_v1.jpg)
 
-### PX Receive.amxd
+### PX Mix_Channel
 
-### PX Send Midi.amxd
+![PX Mix Channel](assets/devices/PX_Mix_Channel_v1.jpg)
+
+### PX Mix Dry
+
+![PX Mix Dry](assets/devices/PX_Mix_Dry_v1.jpg)
+
+### PX Shader
+
+![PX Shader](assets/devices/PX_Shader_v1.jpg)
+
+### PX Transform
+
+![PX Transform](assets/devices/PX_Transform_v1.jpg)
+
+### PX Route Audio
+
+![PX Route Audio](assets/devices/PX_Route_Audio_v1.jpg)
+
+### PX Route MIDI
+
+![PX_Route_MIDI](assets/devices/PX_Route_MIDI_v1.jpg)
+
+### PX IN Text
+
+![PX IN Text](assets/devices/PX_IN_Text_v1.jpg)
+
+### PX IN Cam
+
+![PX IN Cam](assets/devices/PX_IN_Cam_v1.jpg)
+
+### PX IN Channel
+
+![PX IN Channel](assets/devices/PX_IN_Channel_v1.jpg)
+
+### PX IN Cos Pattern
+
+![PX IN Cos Pattern](assets/devices/PX_IN_Cos_Pattern_v1.jpg)
+
+### PX IN Mix
+
+![PX IN Mix](assets/devices/PX_IN_Mix_v1.jpg)
+
+### PX IN SVG
+
+![PX IN SVG](assets/devices/PX_IN_SVG_v1.jpg)
+
+### PX IN Syphon
+
+![PX IN Syphon](assets/devices/PX_IN_Syphon_v1.jpg)
+
+### PX FX Blur
+
+![PX FX Blur](assets/devices/PX_FX_Blur_v1.jpg)
+
+### PX FX Delay
+
+![PX FX Delay](assets/devices/PX_FX_Delay_v1.jpg)
+
+### PX FX Kaleidoscope
+
+![PX FX Kaleidoscope](assets/devices/PX_FX_Kaleidoscope_v1.jpg)
+
+### PX FX Pass
+
+![PX FX Pass](assets/devices/PX_FX_Pass_v1.jpg)
 
 ## Development
 

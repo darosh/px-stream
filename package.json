@@ -5,7 +5,8 @@
     "glob": "^11.0.3",
     "eslint": "^9.34.0",
     "eslint-plugin-maxpat": "1.0.0",
-    "json-stringify-pretty-compact": "^4.0.0"
+    "json-stringify-pretty-compact": "^4.0.0",
+    "sharp": "^0.34.3"
   },
   "private": true,
   "scripts": {
@@ -14,7 +15,8 @@
     "lint:maxpat:info": "eslint ./*.maxpat --format node_modules/eslint-plugin-maxpat/lib/formatter.js",
     "lint:maxpat:fix": "eslint ./*.maxpat --fix --rule={\"maxpat/ui/annotation-info\":\"off\"}",
     "lint:maxpat:fix:layout": "eslint ./*.maxpat --fix --fix-type layout",
-    "lint:maxpat:fix-dry-run": "eslint ./*.maxpat --fix-dry-run --rule={\"maxpat/ui/annotation-info\":\"off\"}"
+    "lint:maxpat:fix-dry-run": "eslint ./*.maxpat --fix-dry-run --rule={\"maxpat/ui/annotation-info\":\"off\"}",
+    "screenshots": "rm ./assets/devices/*.jpg && node screenshots.js"
   },
   "type": "module"
 }
