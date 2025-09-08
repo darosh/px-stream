@@ -128,11 +128,6 @@
 
 #### PX Transform.amxd
 
-- [ ] transformation causing errors in PASS?
-- [ ] tranform bake in texture
-- [ ] tranform scale x=y btn
-- [ ] tranform rotation tabs
-
 #### PX World.amxd
 
 ## IFS
@@ -145,6 +140,10 @@
 
 ## Done
 
+- [x] ~~transformation causing errors in PASS?~~
+- [x] transform bake in texture
+- [x] transform scale x=y btn
+- [x] transform rotation tabs
 - [x] ~~pause rendering on pause~~ use automation instead
 - - [x] ~~mystery error
   ```typedmess: draw: corrupt object object_class_internal: bad object b06583e0 doesn't understand "draw" ```~~
