@@ -4,6 +4,7 @@
 
 - [ ] doc
 - [ ] doc demo
+- [ ] doc world enabled automation
 - [ ] doc update banner
 - [ ] doc FS display link and fps 0, and multi fs limitation
 - [ ] doc exclusive rotation
@@ -132,8 +133,6 @@
 
 #### PX World.amxd
 
-- [ ] pause rendering on pause
-
 ## IFS
 
 - [ ] frameSkip should be time based
@@ -144,7 +143,8 @@
 
 ## Done
 
-- [x] ~~mystery error
+- [x] ~~pause rendering on pause~~ use automation instead
+- - [x] ~~mystery error
   ```typedmess: draw: corrupt object object_class_internal: bad object b06583e0 doesn't understand "draw" ```~~
 - [x] info device console style
 - [x] ~~doc~~ eslint globals, sends, dicts
