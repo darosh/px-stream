@@ -447,16 +447,6 @@
 
 			}
  ],
-		"styles" : [ 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			 			{
-				"name" : "tap",
-				"default" : 				{
-					"fontname" : [ "Lato Light" ]
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
- ],
 		"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.631373 ],
 		"saved_attribute_attributes" : 		{
 			"default_plcolor" : 			{

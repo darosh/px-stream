@@ -786,18 +786,6 @@
 
 			}
  ],
-		"styles" : [ 			 			 			 			{
-				"name" : "stb001",
-				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"fontface" : [ 1 ]
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
- ],
 		"integercoordinates" : 1
 	}
 
