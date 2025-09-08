@@ -187,7 +187,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "", "bang", "" ],
-					"patching_rect" : [ 8.0, 360.0, 50.5, 22.0 ],
+					"patching_rect" : [ 8.0, 360.0, 51.0, 22.0 ],
 					"text" : "t b l b l"
 				}
 
