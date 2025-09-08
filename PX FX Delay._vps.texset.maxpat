@@ -51,7 +51,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 136.0, 144.0, 97.0, 22.0 ],
+					"patching_rect" : [ 136.0, 144.0, 109.0, 22.0 ],
 					"text" : "combine #2- 0"
 				}
 
@@ -107,8 +107,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 24.0, 232.0, 95.0, 22.0 ],
-					"text" : "jit.gl.texture #1"
+					"patching_rect" : [ 24.0, 232.0, 242.0, 22.0 ],
+					"text" : "jit.gl.texture #1 @defaultimage black"
 				}
 
 			}
