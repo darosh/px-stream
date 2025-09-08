@@ -11,6 +11,7 @@
 - [ ] doc console font, brew install --cask font-cascadia-code
 - [ ] doc https://syphon.info/recorder.html
 - [ ] sdk?
+- [ ] screenshot automation
 
 ## Misc
 
@@ -130,6 +131,7 @@
 - [ ] transformation causing errors in PASS?
 - [ ] tranform bake in texture
 - [ ] tranform scale x=y btn
+- [ ] tranform rotation tabs
 
 #### PX World.amxd
 
