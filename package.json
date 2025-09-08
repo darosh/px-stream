@@ -2,9 +2,9 @@
   "name": "px-stream",
   "version": "0.0.0",
   "devDependencies": {
-    "glob": "^11.0.3",
     "eslint": "^9.34.0",
-    "eslint-plugin-maxpat": "1.0.0",
+    "eslint-plugin-maxpat": "github:darosh/eslint-plugin-maxpat",
+    "glob": "^11.0.3",
     "json-stringify-pretty-compact": "^4.0.0",
     "sharp": "^0.34.3"
   },
