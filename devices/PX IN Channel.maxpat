@@ -845,12 +845,6 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "jitgltextureinfo.js",
-				"bootpath" : "C74:/packages/Jitter Tools/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
  ],
 		"autosave" : 0
 	}

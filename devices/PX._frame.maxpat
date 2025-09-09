@@ -10,41 +10,31 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 58.0, 99.0, 662.0, 476.0 ],
+		"rect" : [ 55.0, 99.0, 662.0, 476.0 ],
 		"gridsize" : [ 8.0, 8.0 ],
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 240.0, 200.0, 84.0, 22.0 ],
-					"text" : "routepass dim"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 240.0, 200.0, 46.0, 22.0 ],
+					"text" : "pack i i"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"filename" : "jitgltextureinfo.js",
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 160.0, 89.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"text" : "jit.gl.textureinfo",
-					"textfile" : 					{
-						"filename" : "jitgltextureinfo.js",
-						"flags" : 0,
-						"embed" : 0,
-						"autowatch" : 1
-					}
-
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "int", "int", "int" ],
+					"patching_rect" : [ 240.0, 160.0, 84.0, 22.0 ],
+					"text" : "unpack s s i i i"
 				}
 
 			}
@@ -249,7 +239,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-19",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -262,7 +252,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-24",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -275,7 +265,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-25",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -307,8 +297,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 1 ],
+					"source" : [ "obj-30", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"source" : [ "obj-30", 0 ]
+					"source" : [ "obj-30", 2 ]
 				}
 
 			}
@@ -413,8 +410,22 @@
 
 			}
  ],
-		"gridsnaponopen" : 2,
-		"integercoordinates" : 1
+		"dependency_cache" : [ 			{
+				"name" : "PX FX Delay._vps.texlut.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX FX Delay._vps.texset.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
