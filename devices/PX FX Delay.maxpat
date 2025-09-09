@@ -674,6 +674,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"order" : 1,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 4 ],
+					"order" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
