@@ -26,8 +26,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 400.0, 432.0, 52.0, 22.0 ],
-					"text" : "route int"
+					"patching_rect" : [ 400.0, 432.0, 55.0, 22.0 ],
+					"text" : "zl.slice 1"
 				}
 
 			}
@@ -674,7 +674,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-25", 0 ]
+					"source" : [ "obj-25", 1 ]
 				}
 
 			}
