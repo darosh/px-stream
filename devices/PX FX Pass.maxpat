@@ -593,7 +593,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 79.0, 555.0, 498.0 ],
+						"rect" : [ 33.0, 82.0, 555.0, 498.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 8.0, 8.0 ],
@@ -2244,7 +2244,7 @@
 									"presentation_rect" : [ 2.0, 202.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 1.5 ],
+											"parameter_initial" : [ 0.99 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.numbox[6]",
 											"parameter_mmax" : 10.0,
@@ -3549,7 +3549,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 4 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
