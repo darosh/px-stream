@@ -24,6 +24,9 @@
 - [ ] check fx (pass) quality param
 - [ ] restore session params and automation
 - [ ] disable dynamic live.menu automation
+- [ ] remove the silly cam & syphon icons, replace with dims and activity
+- [ ] add activity to dev info
+- [ ] check negative values parsing in eslint
 
 ## Devices
 
