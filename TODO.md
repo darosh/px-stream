@@ -11,7 +11,6 @@
 - [ ] doc console font, brew install --cask font-cascadia-code
 - [ ] doc https://syphon.info/recorder.html
 - [ ] sdk?
-- [ ] screenshot automation
 
 ## Misc
 
@@ -25,7 +24,6 @@
 - [ ] restore session params and automation
 - [ ] disable dynamic live.menu automation
 - [ ] remove the silly cam & syphon icons, replace with dims and activity
-- [ ] add activity to dev info
 - [ ] check negative values parsing in eslint
 
 ## Devices
@@ -108,6 +106,8 @@
 
 #### PX Mix Dry.amxd
 
+- [ ] fix dry swap dims?
+
 #### PX Mix View.amxd
 
 - [ ] optimize mix (jxs?)
@@ -141,6 +141,9 @@
 
 ## Done
 
+- [x] fix pass?
+- [x] add activity to dev info
+- [x] screenshot automation
 - [x] optimize console
 - [x] ~~transformation causing errors in PASS?~~
 - [x] transform bake in texture
