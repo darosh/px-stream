@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 555.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 574.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -252,7 +252,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 82.0, 510.0, 498.0 ],
+						"rect" : [ 33.0, 71.0, 571.0, 508.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 8.0, 8.0 ],
 						"gridsnaponopen" : 2,
@@ -266,7 +266,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 64.0, 192.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 192.0, 18.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 256.0, 18.0 ],
 									"textjustification" : 0
 								}
 
@@ -297,7 +297,7 @@
 ,
 					"patching_rect" : [ 872.0, 408.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 20.0, 192.0, 149.0 ],
+					"presentation_rect" : [ 0.0, 20.0, 256.0, 149.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -348,25 +348,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.0, 128.0, 124.0, 22.0 ],
-					"text" : "prepend jit_gl_texture"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 520.0, 88.0, 107.0, 22.0 ],
-					"text" : "route jit_gl_texture"
+					"patching_rect" : [ 600.0, 48.0, 133.0, 22.0 ],
+					"text" : "routepass jit_gl_texture"
 				}
 
 			}
@@ -413,8 +401,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 752.0, 48.0, 76.0, 22.0 ],
-					"text" : "qmetro 2000"
+					"patching_rect" : [ 752.0, 48.0, 69.0, 22.0 ],
+					"text" : "qmetro 500"
 				}
 
 			}
@@ -538,7 +526,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "PX._channel.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "bang", "", "", "", "" ],
@@ -710,9 +698,9 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
+					"bgcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
+					"bordercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 					"id" : "obj-27",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -720,7 +708,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1008.0, 408.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 192.0, 147.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 256.0, 147.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -800,7 +788,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -823,13 +811,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-18", 0 ]
 				}
 
 			}

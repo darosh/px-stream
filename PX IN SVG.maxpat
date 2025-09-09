@@ -21,6 +21,18 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 760.0, 88.0, 47.0, 22.0 ],
+					"text" : "r ---dim"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-102",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -744,9 +756,9 @@
 					"presentation_rect" : [ 2.0, 2.0, 126.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "Loading...", " " ],
+							"parameter_enum" : [ "L.1", "L.2", "L.3", "N.1", "N.2", "N.3", "N.4", "N.5", "PX.1 Logo", "PX.2 Made with", "T.1 TestScreen_square1", "T.2 TestScreen_Remix", "T.3 1291143713", "T.4 EIA1956" ],
 							"parameter_longname" : "live.menu",
-							"parameter_mmax" : 1,
+							"parameter_mmax" : 13,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2
@@ -1656,7 +1668,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 776.0, 592.0, 77.0, 22.0 ],
+					"patching_rect" : [ 880.0, 592.0, 77.0, 22.0 ],
 					"text" : "s ---svg_size"
 				}
 
@@ -1703,7 +1715,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1128.0, 160.0, 49.0, 22.0 ],
+					"patching_rect" : [ 1144.0, 160.0, 49.0, 22.0 ],
 					"text" : "s ---dim"
 				}
 
@@ -2027,8 +2039,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 696.0, 592.0, 70.0, 22.0 ],
-					"text" : "jit.gl.texture"
+					"patching_rect" : [ 696.0, 592.0, 163.0, 22.0 ],
+					"text" : "jit.gl.texture @name ---_SVG"
 				}
 
 			}
@@ -2067,7 +2079,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "PX._channel.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "bang", "", "", "", "" ],
@@ -2820,6 +2832,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 4 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -3742,7 +3761,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "chain.js",
+				"name" : "PX._chain.js",
 				"bootpath" : "~/Documents/GitHub/px-stream",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",

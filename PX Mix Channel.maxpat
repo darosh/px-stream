@@ -209,7 +209,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 936.0, 48.0, 30.0, 22.0 ],
+					"patching_rect" : [ 936.0, 40.0, 30.0, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -221,7 +221,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 984.0, 64.0, 50.0, 22.0 ],
+					"patching_rect" : [ 952.0, 120.0, 50.0, 22.0 ],
 					"text" : "select 0"
 				}
 
@@ -233,7 +233,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 880.0, 144.0, 32.0, 22.0 ],
+					"patching_rect" : [ 880.0, 184.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -245,7 +245,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 880.0, 80.0, 59.0, 22.0 ],
+					"patching_rect" : [ 880.0, 120.0, 59.0, 22.0 ],
 					"text" : "unpack i i"
 				}
 
@@ -257,7 +257,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 880.0, 48.0, 40.0, 22.0 ],
+					"patching_rect" : [ 880.0, 88.0, 40.0, 22.0 ],
 					"text" : "pak i i"
 				}
 
@@ -269,7 +269,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 880.0, 112.0, 30.0, 22.0 ],
+					"patching_rect" : [ 880.0, 152.0, 30.0, 22.0 ],
 					"text" : "&&"
 				}
 
@@ -340,11 +340,11 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "PX._channel.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "bang", "", "", "", "" ],
-					"patching_rect" : [ 760.0, 192.0, 239.0, 32.0 ],
+					"patching_rect" : [ 760.0, 232.0, 239.0, 32.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -795,7 +795,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1120.0, 152.0, 80.0, 22.0 ],
+					"patching_rect" : [ 1120.0, 192.0, 80.0, 22.0 ],
 					"text" : "r ---this_bang"
 				}
 
@@ -817,7 +817,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1040.0, 192.0, 240.0, 32.0 ],
+					"patching_rect" : [ 1040.0, 232.0, 240.0, 32.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -829,7 +829,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 760.0, 40.0, 31.0, 22.0 ],
+					"patching_rect" : [ 760.0, 80.0, 31.0, 22.0 ],
 					"text" : "int 8"
 				}
 
@@ -858,7 +858,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 760.0, 104.0, 100.0, 20.0 ],
+					"patching_rect" : [ 760.0, 144.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 153.0, 126.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1467,7 +1467,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "chain.js",
+				"name" : "PX._chain.js",
 				"bootpath" : "~/Documents/GitHub/px-stream",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",

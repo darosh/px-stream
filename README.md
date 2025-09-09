@@ -94,11 +94,7 @@
 ### Diff
 
 ```bash
-git --no-pager diff "./PX Shader.amxd" "./param.maxpat"
-```
-
-```bash
-git --no-pager diff "./PX Text.amxd" "./PX View.amxd"
+git --no-pager diff "./*.amxd" "./*.maxpat"
 ```
 
 ### Shaders
