@@ -47,8 +47,6 @@
 
 #### DEV Console.amxd
 
-- [ ] optimize console
-
 #### DEV Info.amxd
 
 ### FX
@@ -140,6 +138,7 @@
 
 ## Done
 
+- [x] optimize console
 - [x] ~~transformation causing errors in PASS?~~
 - [x] transform bake in texture
 - [x] transform scale x=y btn
