@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 571.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -26,7 +26,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 336.0, 408.0, 30.0, 22.0 ],
+					"patching_rect" : [ 320.0, 384.0, 30.0, 22.0 ],
 					"text" : "t b i"
 				}
 
@@ -38,7 +38,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 272.0, 416.0, 30.0, 22.0 ],
+					"patching_rect" : [ 248.0, 384.0, 30.0, 22.0 ],
 					"text" : "t b i"
 				}
 
@@ -99,7 +99,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 296.0, 336.0, 30.0, 22.0 ],
+					"patching_rect" : [ 248.0, 288.0, 30.0, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -123,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 440.0, 328.0, 46.0, 22.0 ],
+					"patching_rect" : [ 440.0, 336.0, 46.0, 22.0 ],
 					"text" : "route 0"
 				}
 
@@ -147,8 +147,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 456.0, 115.0, 22.0 ],
-					"text" : "file \"PX FX Kaleidoscope._kaleidoscope.jxs\""
+					"patching_rect" : [ 384.0, 456.0, 141.0, 22.0 ],
+					"text" : "file PX._kaleidoscope.jxs"
 				}
 
 			}
@@ -171,7 +171,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 256.0, 376.0, 136.0, 22.0 ],
+					"patching_rect" : [ 248.0, 336.0, 64.0, 22.0 ],
 					"text" : "select 0"
 				}
 
@@ -1769,7 +1769,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 264.0, 272.0, 100.0, 20.0 ],
+					"patching_rect" : [ 248.0, 248.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 126.0, 28.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2173,7 +2173,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "PX._channel.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "bang", "", "", "", "" ],
@@ -2184,7 +2184,7 @@
 			}
 , 			{
 				"box" : 				{
-					"filename" : "td.kaleido.jxs",
+					"filename" : "PX FX Kaleidoscope._kaleidoscope.jxs",
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -2193,7 +2193,7 @@
 					"patching_rect" : [ 8.0, 536.0, 300.0, 22.0 ],
 					"text" : "jit.gl.slab px-stream @file td.kaleido.jxs @param div 12",
 					"textfile" : 					{
-						"filename" : "td.kaleido.jxs",
+						"filename" : "PX FX Kaleidoscope._kaleidoscope.jxs",
 						"flags" : 0,
 						"embed" : 0,
 						"autowatch" : 1
@@ -2297,7 +2297,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 432.0, 88.0, 31.0, 22.0 ],
+					"patching_rect" : [ 432.0, 112.0, 31.0, 22.0 ],
 					"text" : "int 8"
 				}
 
@@ -2309,7 +2309,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.0, 56.0, 54.0, 22.0 ],
+					"patching_rect" : [ 432.0, 80.0, 54.0, 22.0 ],
 					"text" : "r ---reset"
 				}
 
@@ -2684,22 +2684,22 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "chain.js",
-				"bootpath" : "~/Documents/GitHub/px-stream",
+				"name" : "PX._chain.js",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PX._chain.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PX._channel.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
