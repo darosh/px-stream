@@ -713,8 +713,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 664.0, 424.0, 539.0, 22.0 ],
-					"text" : "jit.gl.texture px-stream @name ---capture @defaultimage black @type float32 @erase_color 0 0 0 0"
+					"patching_rect" : [ 664.0, 424.0, 546.0, 22.0 ],
+					"text" : "jit.gl.texture px-stream @name ---_TRANS @defaultimage black @type float32 @erase_color 0 0 0 0"
 				}
 
 			}
@@ -725,8 +725,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 664.0, 376.0, 471.0, 22.0 ],
-					"text" : "jit.gl.videoplane px-stream @capture ---capture @preserve_aspect 1 @blend_enable 1"
+					"patching_rect" : [ 664.0, 376.0, 478.0, 22.0 ],
+					"text" : "jit.gl.videoplane px-stream @capture ---_TRANS @preserve_aspect 1 @blend_enable 1"
 				}
 
 			}
@@ -766,7 +766,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "PX._channel.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "bang", "", "", "", "" ],
@@ -1585,21 +1585,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "PX._chain.js",
-				"bootpath" : "~/Documents/GitHub/px-stream",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PX._chain.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PX._channel.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
