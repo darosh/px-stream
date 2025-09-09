@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 233.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -2670,7 +2670,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "PX._channel.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "bang", "", "", "", "" ],
@@ -18644,34 +18644,34 @@
 		"dependency_cache" : [ 			{
 				"name" : "ISF_UI_stack.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/ISF/patchers",
-				"patcherrelativepath" : "../../Max 9/Packages/ISF/patchers",
+				"patcherrelativepath" : "../../../Max 9/Packages/ISF/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PX Shader._param.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PX._chain.js",
-				"bootpath" : "~/Documents/GitHub/px-stream",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PX._chain.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PX._channel.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -18683,7 +18683,7 @@
 , 			{
 				"name" : "jit_gl_isf_controller.js",
 				"bootpath" : "~/Documents/Max 9/Packages/ISF/javascript",
-				"patcherrelativepath" : "../../Max 9/Packages/ISF/javascript",
+				"patcherrelativepath" : "../../../Max 9/Packages/ISF/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
