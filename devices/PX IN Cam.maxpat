@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 571.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -142,7 +142,7 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"hint" : "Select an input format",
+					"hint" : "",
 					"id" : "obj-22",
 					"items" : "<empty>",
 					"maxclass" : "umenu",
@@ -161,7 +161,7 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"hint" : "Select an input device",
+					"hint" : "",
 					"id" : "obj-51",
 					"items" : "<empty>",
 					"maxclass" : "umenu",
