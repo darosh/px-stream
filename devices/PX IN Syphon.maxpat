@@ -21,6 +21,66 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 848.0, 408.0, 60.0, 22.0 ],
+					"text" : "zl.change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 848.0, 360.0, 59.0, 22.0 ],
+					"text" : "route dim"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 848.0, 264.0, 29.5, 22.0 ],
+					"text" : "t l l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"filename" : "jitgltextureinfo.js",
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 848.0, 312.0, 89.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"text" : "jit.gl.textureinfo",
+					"textfile" : 					{
+						"filename" : "jitgltextureinfo.js",
+						"flags" : 0,
+						"embed" : 0,
+						"autowatch" : 1
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -509,7 +569,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "PX._channel.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "bang", "", "", "", "" ],
@@ -813,6 +873,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-27", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 3 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -876,6 +957,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-40", 0 ]
 				}
@@ -904,6 +992,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"order" : 0,
 					"source" : [ "obj-45", 1 ]
@@ -920,13 +1015,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 3 ],
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"order" : 1,
 					"source" : [ "obj-5", 0 ]
@@ -938,6 +1026,13 @@
 					"destination" : [ "obj-40", 0 ],
 					"order" : 0,
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 4 ],
+					"source" : [ "obj-50", 0 ]
 				}
 
 			}
@@ -1009,22 +1104,29 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "chain.js",
-				"bootpath" : "~/Documents/GitHub/px-stream",
+				"name" : "PX IN Syphon._syphon.svg",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._chain.js",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PX._chain.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PX._channel.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1034,10 +1136,9 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "PX IN Syphon._syphon.svg",
-				"bootpath" : "~/Documents/GitHub/px-stream",
-				"patcherrelativepath" : ".",
-				"type" : "svg",
+				"name" : "jitgltextureinfo.js",
+				"bootpath" : "C74:/packages/Jitter Tools/javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
