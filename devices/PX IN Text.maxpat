@@ -6012,6 +6012,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-85", 4 ],
+					"order" : 2,
+					"source" : [ "obj-386", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-132", 1 ],
 					"order" : 1,
 					"source" : [ "obj-39", 0 ]
