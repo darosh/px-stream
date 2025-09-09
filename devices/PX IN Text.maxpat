@@ -38,7 +38,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 864.0, 867.0, 57.0, 22.0 ],
+					"patching_rect" : [ 864.0, 864.0, 57.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
