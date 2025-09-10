@@ -1,0 +1,73 @@
+<jittershader name="rgb2oklab">
+    <description>Shader for converting sRGB to OKLab color space</description>
+    <param name="tex0" type="int" default="0" />
+    <language name="glsl" version="1.0">
+        <bind param="tex0" program="fp" />
+        <program name="vp" type="vertex">
+            <![CDATA[
+
+varying vec2 texcoord0;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+}
+]]>
+        </program>
+        <program name="fp" type="fragment">
+            <![CDATA[
+
+varying vec2 texcoord0;
+uniform sampler2DRect tex0;
+
+vec3 rgb2oklab(vec3 rgb) {
+    // First convert sRGB to linear RGB
+    vec3 linear = pow(rgb, vec3(2.2));
+    
+    // Convert linear RGB to LMS (Long, Medium, Short cone response)
+    mat3 rgb_to_lms = mat3(
+        0.4122214708, 0.5363325363, 0.0514459929,
+        0.2119034982, 0.6806995451, 0.1073969566,
+        0.0883024619, 0.2817188376, 0.6299787005
+    );
+    
+    vec3 lms = rgb_to_lms * linear;
+    
+    // Apply cube root for perceptual uniformity
+    vec3 lms_cbrt = sign(lms) * pow(abs(lms), vec3(0.3333333333));
+    
+    // Convert to OKLab
+    mat3 lms_to_oklab = mat3(
+        0.2104542553,  0.7936177850, -0.0040720468,
+        1.9779984951, -2.4285922050,  0.4505937099,
+        0.0259040371,  0.7827717662, -0.8086757660
+    );
+    
+    vec3 oklab = lms_to_oklab * lms_cbrt;
+    
+    oklab.x = (oklab.x + 4.) / 8.;
+    oklab.y = (oklab.y + 2.) / 4.;
+    oklab.z = (oklab.z + 2.) / 4.;
+    
+    return oklab;
+}
+
+vec4 rgb2oklab(vec4 rgba) {
+    vec4 oklaba;
+    oklaba.rgb = rgb2oklab(rgba.rgb);
+    oklaba.a = rgba.a;
+    return oklaba;
+}
+
+void main() {
+    vec4 rgba = texture2DRect(tex0, texcoord0);
+    vec4 oklaba = rgb2oklab(rgba);
+    //oklaba.r = clamp(oklaba.r, 0., 1.);
+    //oklaba.g = clamp(oklaba.g, 0., 1.);
+    //oklaba.b = clamp(oklaba.b, 0., 1.);
+    gl_FragColor = oklaba;
+}
+]]>
+        </program>
+    </language>
+</jittershader>
