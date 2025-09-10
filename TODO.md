@@ -26,6 +26,7 @@
 - [ ] remove the silly cam & syphon icons, replace with dims and activity
 - [ ] check negative values parsing in eslint
 - [ ] transform is FX?
+- [ ] add DEV to doc
 
 ## Devices
 
@@ -75,8 +76,6 @@
 #### PX FX Color.amxd
 
 - [ ] add to doc
-- [ ] reorder ops
-- [ ] improve wheel pic
 
 ### IN
 
@@ -149,6 +148,8 @@
 
 ## Done
 
+- [x] color: reorder ops
+- [x] color: improve wheel pic
 - [x] fix pass?
 - [x] add activity to dev info
 - [x] screenshot automation

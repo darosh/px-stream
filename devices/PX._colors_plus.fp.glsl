@@ -24,6 +24,28 @@ uniform float shadow_hue, shadow_sat, shadow_lum;
 uniform float light_hue, light_sat, light_lum;
 uniform float global_hue, global_sat, global_lum;
 
+/*
+GLOBAL CONTROLS:
+- global_hue_shift: -0.5 to 0.5 (-180° to +180°)
+- global_sat_mult: 0.0 to 3.0 (0% to 300%)
+- global_lum_offset: -0.5 to 0.5 (-50% to +50%)
+
+COLOR RANGE CONTROLS (same for all 6 ranges):
+- *_hue_shift: -0.5 to 0.5 (-180° to +180°)
+- *_sat_mult: 0.0 to 3.0 (0% to 300%)
+- *_lum_offset: -0.5 to 0.5 (-50% to +50%)
+*/
+uniform float global_hue_shift;
+uniform float global_sat_mult;
+uniform float global_lum_offset;
+
+uniform float red_hue_shift, red_sat_mult, red_lum_offset;
+uniform float yellow_hue_shift, yellow_sat_mult, yellow_lum_offset;
+uniform float green_hue_shift, green_sat_mult, green_lum_offset;
+uniform float cyan_hue_shift, cyan_sat_mult, cyan_lum_offset;
+uniform float blue_hue_shift, blue_sat_mult, blue_lum_offset;
+uniform float magenta_hue_shift, magenta_sat_mult, magenta_lum_offset;
+
 const float EPSILON = 0.001;
 const float PI = 3.14159265359;
 
@@ -53,12 +75,12 @@ vec3 wheelToRGB(float hue, float sat, float lum) {
 
     // Convert polar coordinates to RGB offset
     float angle = hue * 2.0 * PI;
-    float magnitude = sat * 0.5; // Scale saturation influence
+    float magnitude = sat * 0.5;// Scale saturation influence
 
     vec3 offset = vec3(
     cos(angle) * magnitude,
     cos(angle + 2.094395) * magnitude, // 120 degrees offset
-    cos(angle + 4.188790) * magnitude  // 240 degrees offset
+    cos(angle + 4.188790) * magnitude// 240 degrees offset
     );
 
     // Add luminance adjustment
@@ -70,10 +92,10 @@ vec3 wheelToRGB(float hue, float sat, float lum) {
 // Luminance-based range masks for color wheels
 vec4 getRangeMasks(float luma) {
     // Smooth transitions between ranges
-    float dark_mask = smoothstep(0.3, 0.0, luma);       // Shadows/Dark
-    float shadow_mask = smoothstep(0.0, 0.4, luma) * smoothstep(0.7, 0.3, luma); // Lower mids
-    float light_mask = smoothstep(0.3, 0.7, luma) * smoothstep(1.0, 0.6, luma);  // Upper mids  
-    float global_mask = smoothstep(0.6, 1.0, luma);     // Highlights/Global
+    float dark_mask = smoothstep(0.3, 0.0, luma);// Shadows/Dark
+    float shadow_mask = smoothstep(0.0, 0.4, luma) * smoothstep(0.7, 0.3, luma);// Lower mids
+    float light_mask = smoothstep(0.3, 0.7, luma) * smoothstep(1.0, 0.6, luma);// Upper mids  
+    float global_mask = smoothstep(0.6, 1.0, luma);// Highlights/Global
 
     return vec4(dark_mask, shadow_mask, light_mask, global_mask);
 }
@@ -115,45 +137,140 @@ vec3 liftGammaGain(vec3 color, vec3 lift, vec3 gamma, vec3 gain) {
     return color;
 }
 
+// Smooth hue range mask - returns weight for a color range
+float getHueRangeMask(float hue, float center, float width) {
+    float range = width * 0.5;
+    float dist = abs(hue - center);
+
+    // Handle hue wrap-around (0° = 360°)
+    if (dist > 0.5) {
+        dist = 1.0 - dist;
+    }
+
+    // Smooth falloff
+    return smoothstep(range + 0.1, range - 0.1, dist);
+}
+
+// Apply HSL adjustments to a specific color range
+vec3 applyColorRangeAdjustment(vec3 hsv, float hue_shift, float sat_mult, float lum_offset, float mask) {
+    if (mask < 0.001) return hsv;// Skip if no influence
+
+    vec3 adjusted = hsv;
+
+    // Apply hue shift with wrap-around
+    adjusted.x = fract(adjusted.x + hue_shift * mask);
+
+    // Apply saturation multiplier
+    adjusted.y *= (1.0 + (sat_mult - 1.0) * mask);
+
+    // Apply luminance offset
+    adjusted.z += lum_offset * mask;
+
+    return adjusted;
+}
+
+// Main color slice processing function
+vec3 processColorSlice(vec3 rgb) {
+    // Skip if all parameters are default
+    bool needsProcessing = abs(global_hue_shift) > EPSILON ||
+    abs(global_sat_mult - 1.0) > EPSILON ||
+    abs(global_lum_offset) > EPSILON ||
+    abs(red_hue_shift) > EPSILON || abs(red_sat_mult - 1.0) > EPSILON || abs(red_lum_offset) > EPSILON ||
+    abs(yellow_hue_shift) > EPSILON || abs(yellow_sat_mult - 1.0) > EPSILON || abs(yellow_lum_offset) > EPSILON ||
+    abs(green_hue_shift) > EPSILON || abs(green_sat_mult - 1.0) > EPSILON || abs(green_lum_offset) > EPSILON ||
+    abs(cyan_hue_shift) > EPSILON || abs(cyan_sat_mult - 1.0) > EPSILON || abs(cyan_lum_offset) > EPSILON ||
+    abs(blue_hue_shift) > EPSILON || abs(blue_sat_mult - 1.0) > EPSILON || abs(blue_lum_offset) > EPSILON ||
+    abs(magenta_hue_shift) > EPSILON || abs(magenta_sat_mult - 1.0) > EPSILON || abs(magenta_lum_offset) > EPSILON;
+
+    if (!needsProcessing) return rgb;
+
+    vec3 hsv = rgb2hsv(rgb);
+
+    // Apply global adjustments first
+    if (abs(global_hue_shift) > EPSILON) {
+        hsv.x = fract(hsv.x + global_hue_shift);
+    }
+    if (abs(global_sat_mult - 1.0) > EPSILON) {
+        hsv.y *= global_sat_mult;
+    }
+    if (abs(global_lum_offset) > EPSILON) {
+        hsv.z += global_lum_offset;
+    }
+
+    // Calculate range masks (hue positions in 0-1 range)
+    float red_mask = getHueRangeMask(hsv.x, 0.0, 0.167);// Red: 330°-30° (wraps around)
+    float yellow_mask = getHueRangeMask(hsv.x, 0.167, 0.167);// Yellow: 30°-90°
+    float green_mask = getHueRangeMask(hsv.x, 0.333, 0.167);// Green: 90°-150°
+    float cyan_mask = getHueRangeMask(hsv.x, 0.5, 0.167);// Cyan: 150°-210°
+    float blue_mask = getHueRangeMask(hsv.x, 0.667, 0.167);// Blue: 210°-270°
+    float magenta_mask = getHueRangeMask(hsv.x, 0.833, 0.167);// Magenta: 270°-330°
+
+    // Apply color range adjustments
+    hsv = applyColorRangeAdjustment(hsv, red_hue_shift, red_sat_mult, red_lum_offset, red_mask);
+    hsv = applyColorRangeAdjustment(hsv, yellow_hue_shift, yellow_sat_mult, yellow_lum_offset, yellow_mask);
+    hsv = applyColorRangeAdjustment(hsv, green_hue_shift, green_sat_mult, green_lum_offset, green_mask);
+    hsv = applyColorRangeAdjustment(hsv, cyan_hue_shift, cyan_sat_mult, cyan_lum_offset, cyan_mask);
+    hsv = applyColorRangeAdjustment(hsv, blue_hue_shift, blue_sat_mult, blue_lum_offset, blue_mask);
+    hsv = applyColorRangeAdjustment(hsv, magenta_hue_shift, magenta_sat_mult, magenta_lum_offset, magenta_mask);
+
+    // Clamp values
+    hsv.y = clamp(hsv.y, 0.0, 1.0);
+    hsv.z = clamp(hsv.z, 0.0, 1.0);
+
+    return hsv2rgb(hsv);
+}
+
 void main(void) {
     vec4 texColor = texture2DRect(tex0, texcoord0);
     vec3 rgb = texColor.rgb;
 
-    // Early exit optimization - skip processing if all values are default
-    /*
-    bool needsProcessing = abs(brightness) > EPSILON || 
-                          abs(contrast - 1.0) > EPSILON || 
-                          abs(exposure) > EPSILON || 
-                          abs(saturation - 1.0) > EPSILON ||
-                          abs(temperature) > EPSILON || 
-                          abs(tint) > EPSILON ||
-                          abs(dark_hue) > EPSILON || abs(dark_sat) > EPSILON || abs(dark_lum) > EPSILON ||
-                          abs(shadow_hue) > EPSILON || abs(shadow_sat) > EPSILON || abs(shadow_lum) > EPSILON ||
-                          abs(light_hue) > EPSILON || abs(light_sat) > EPSILON || abs(light_lum) > EPSILON ||
-                          abs(global_hue) > EPSILON || abs(global_sat) > EPSILON || abs(global_lum) > EPSILON;
-    
-    if (!needsProcessing) {
-        gl_FragColor = texColor;
-        return;
-    }
-    */
-
-    // 1. Exposure (skip if default)
+    // 1. Exposure (linear brightness)
     if (abs(exposure) > EPSILON) {
         rgb *= pow(2.0, exposure);
     }
 
-    // 2. Brightness (skip if default)
+    // 2. Brightness (additive offset)
     if (abs(brightness) > EPSILON) {
         rgb += brightness;
     }
 
-    // 3. Contrast (skip if default)
+    // 3. Contrast
     if (abs(contrast - 1.0) > EPSILON) {
         rgb = adjustContrast(rgb, contrast);
     }
 
-    // 4. White Balance (skip if default)
+    // 4. Lift/Gamma/Gain (per channel)
+    bool processGamma = red_lift != 0. || green_lift != 0. || blue_lift != 0. ||
+    red_gamma != 1. || green_gamma != 1. || blue_gamma != 1. ||
+    red_gain != 1. || green_gain != 1. || blue_gain != 1.;
+
+    if (processGamma) {
+        vec3 lift = vec3(red_lift, green_lift, blue_lift);
+        vec3 gamma = vec3(red_gamma, green_gamma, blue_gamma);
+        vec3 gain = vec3(red_gain, green_gain, blue_gain);
+        
+        rgb = liftGammaGain(rgb, lift, gamma, gain);
+    }
+
+    // 5. Color Wheels (Dark/Shadow/Light/Global)
+    bool processWheels = (abs(dark_hue) > EPSILON) || (abs(dark_sat) > EPSILON) || (abs(dark_lum) > EPSILON) ||
+    (abs(shadow_hue) > EPSILON) || (abs(shadow_sat) > EPSILON) || (abs(shadow_lum) > EPSILON) ||
+    (abs(light_hue) > EPSILON) || (abs(light_sat) > EPSILON) || (abs(light_lum) > EPSILON) ||
+    (abs(global_hue) > EPSILON) || (abs(global_sat) > EPSILON) || (abs(global_lum) > EPSILON);
+
+    if (processWheels) {
+        float luma = dot(rgb, vec3(0.299, 0.587, 0.114));// Rec.709 luminance
+        vec4 masks = getRangeMasks(luma);
+
+        vec3 dark_offset = wheelToRGB(dark_hue, dark_sat, dark_lum);
+        vec3 shadow_offset = wheelToRGB(shadow_hue, shadow_sat, shadow_lum);
+        vec3 light_offset = wheelToRGB(light_hue, light_sat, light_lum);
+        vec3 global_offset = wheelToRGB(global_hue, global_sat, global_lum);
+
+        rgb += dark_offset * masks.x + shadow_offset * masks.y + light_offset * masks.z + global_offset * masks.w;
+    }
+
+    // 6. White Balance (Temperature/Tint)
     if (abs(temperature) > EPSILON) {
         rgb = temperatureMatrix(temperature) * rgb;
     }
@@ -161,44 +278,15 @@ void main(void) {
         rgb = tintMatrix(tint) * rgb;
     }
 
-    // 5. Color Wheels (DaVinci-style)
-    /*
-    bool hasColorWheelAdjustments = abs(dark_hue) > EPSILON || abs(dark_sat) > EPSILON || abs(dark_lum) > EPSILON ||
-                                   abs(shadow_hue) > EPSILON || abs(shadow_sat) > EPSILON || abs(shadow_lum) > EPSILON ||
-                                   abs(light_hue) > EPSILON || abs(light_sat) > EPSILON || abs(light_lum) > EPSILON ||
-                                   abs(global_hue) > EPSILON || abs(global_sat) > EPSILON || abs(global_lum) > EPSILON;
-    
-    */
-    //if (hasColorWheelAdjustments) {
-    float luma = dot(rgb, vec3(0.299, 0.587, 0.114)); // Rec.709 luminance
-    vec4 masks = getRangeMasks(luma);
+    // 7. Color Slice/HSL (NEW - radical hue shifts)
+    rgb = processColorSlice(rgb);
 
-    // 6. Lift Gamma Gain per channel (DaVinci-style)
-    vec3 lift = vec3(red_lift, green_lift, blue_lift);
-    vec3 gamma = vec3(red_gamma, green_gamma, blue_gamma);
-    vec3 gain = vec3(red_gain, green_gain, blue_gain);
-    rgb = liftGammaGain(rgb, lift, gamma, gain);
-
-    // Apply color wheel adjustments
-    vec3 dark_offset = wheelToRGB(dark_hue, dark_sat, dark_lum);
-    vec3 shadow_offset = wheelToRGB(shadow_hue, shadow_sat, shadow_lum);
-    vec3 light_offset = wheelToRGB(light_hue, light_sat, light_lum);
-    vec3 global_offset = wheelToRGB(global_hue, global_sat, global_lum);
-
-    rgb += dark_offset * masks.x +
-    shadow_offset * masks.y +
-    light_offset * masks.z +
-    global_offset * masks.w;
-    //}
-
-    // 6. Saturation (skip if default)
+    // 8. Saturation (final global saturation)
     if (abs(saturation - 1.0) > EPSILON) {
         vec3 hsv = rgb2hsv(rgb);
         hsv.y *= saturation;
         rgb = hsv2rgb(hsv);
     }
-
-    //rgb.r *= 2.;
 
     // Clamp to valid range
     rgb = clamp(rgb, 0.0, 1.0);

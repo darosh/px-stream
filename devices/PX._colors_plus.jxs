@@ -38,6 +38,41 @@
     <param name="global_sat" type="float" default="0.0"/>
     <param name="global_lum" type="float" default="0.0"/>
 
+    <!-- Global HSL Controls -->
+    <param name="global_hue_shift" type="float" default="0.0" />
+    <param name="global_sat_mult" type="float" default="1.0" />
+    <param name="global_lum_offset" type="float" default="0.0" />
+
+    <!-- Red Range (330° - 30°) -->
+    <param name="red_hue_shift" type="float" default="0.0" />
+    <param name="red_sat_mult" type="float" default="1.0" />
+    <param name="red_lum_offset" type="float" default="0.0" />
+
+    <!-- Yellow Range (30° - 90°) -->
+    <param name="yellow_hue_shift" type="float" default="0.0" />
+    <param name="yellow_sat_mult" type="float" default="1.0" />
+    <param name="yellow_lum_offset" type="float" default="0.0" />
+
+    <!-- Green Range (90° - 150°) -->
+    <param name="green_hue_shift" type="float" default="0.0" />
+    <param name="green_sat_mult" type="float" default="1.0" />
+    <param name="green_lum_offset" type="float" default="0.0" />
+
+    <!-- Cyan Range (150° - 210°) -->
+    <param name="cyan_hue_shift" type="float" default="0.0" />
+    <param name="cyan_sat_mult" type="float" default="1.0" />
+    <param name="cyan_lum_offset" type="float" default="0.0" />
+
+    <!-- Blue Range (210° - 270°) -->
+    <param name="blue_hue_shift" type="float" default="0.0" />
+    <param name="blue_sat_mult" type="float" default="1.0" />
+    <param name="blue_lum_offset" type="float" default="0.0" />
+
+    <!-- Magenta Range (270° - 330°) -->
+    <param name="magenta_hue_shift" type="float" default="0.0" />
+    <param name="magenta_sat_mult" type="float" default="1.0" />
+    <param name="magenta_lum_offset" type="float" default="0.0" />
+
     <language name="glsl" version="1.0">
         <bind param="tex0" program="fp"/>
         <bind param="brightness" program="fp"/>
@@ -67,6 +102,27 @@
         <bind param="global_hue" program="fp"/>
         <bind param="global_sat" program="fp"/>
         <bind param="global_lum" program="fp"/>
+        <bind param="global_hue_shift" program="fp" />
+        <bind param="global_sat_mult" program="fp" />
+        <bind param="global_lum_offset" program="fp" />
+        <bind param="red_hue_shift" program="fp" />
+        <bind param="red_sat_mult" program="fp" />
+        <bind param="red_lum_offset" program="fp" />
+        <bind param="yellow_hue_shift" program="fp" />
+        <bind param="yellow_sat_mult" program="fp" />
+        <bind param="yellow_lum_offset" program="fp" />
+        <bind param="green_hue_shift" program="fp" />
+        <bind param="green_sat_mult" program="fp" />
+        <bind param="green_lum_offset" program="fp" />
+        <bind param="cyan_hue_shift" program="fp" />
+        <bind param="cyan_sat_mult" program="fp" />
+        <bind param="cyan_lum_offset" program="fp" />
+        <bind param="blue_hue_shift" program="fp" />
+        <bind param="blue_sat_mult" program="fp" />
+        <bind param="blue_lum_offset" program="fp" />
+        <bind param="magenta_hue_shift" program="fp" />
+        <bind param="magenta_sat_mult" program="fp" />
+        <bind param="magenta_lum_offset" program="fp" />
         <program name="vp" type="vertex">
 <![CDATA[
 varying vec2 texcoord0;
