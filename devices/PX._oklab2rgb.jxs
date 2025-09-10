@@ -1,11 +1,10 @@
-<jittershader name="oklab2rgb">
-    <description>Shader for converting OKLab to sRGB color space</description>
+<jittershader name="oklab_to_linear_srgb">
+    <description>Convert OKLab (stored as L, a+0.5, b+0.5) back to linear sRGB</description>
     <param name="tex0" type="int" default="0" />
     <language name="glsl" version="1.0">
         <bind param="tex0" program="fp" />
         <program name="vp" type="vertex">
             <![CDATA[
-
 varying vec2 texcoord0;
 
 void main() {
@@ -14,57 +13,51 @@ void main() {
 }
 ]]>
         </program>
+
         <program name="fp" type="fragment">
             <![CDATA[
-
 varying vec2 texcoord0;
 uniform sampler2DRect tex0;
 
-vec3 oklab2rgb(vec3 oklab) {
-    oklab.x = (oklab.x * 8.) - 4.;
-    oklab.y = (oklab.y * 4.) - 2.;
-    oklab.z = (oklab.z * 4.) - 2.;
-    
-    // Convert OKLab back to LMS
-    mat3 oklab_to_lms = mat3(
+vec3 oklab_to_linear_srgb(vec3 lab) {
+    // Expand encoded values
+    float L = lab.r;
+    float a = lab.g;
+    float b = lab.b;
+
+    // OKLab -> LMS (cube-rooted)
+    mat3 oklab_to_lms_cbrt = mat3(
         1.0,  0.3963377774,  0.2158037573,
         1.0, -0.1055613458, -0.0638541728,
         1.0, -0.0894841775, -1.2914855480
     );
-    
-    vec3 lms_cbrt = oklab_to_lms * oklab;
-    
-    // Convert from cube root back to linear LMS
+    vec3 lms_cbrt = oklab_to_lms_cbrt * vec3(L, a, b);
+
+    // Cube to get LMS
     vec3 lms = lms_cbrt * lms_cbrt * lms_cbrt;
-    
-    // Convert LMS to linear RGB
+
+    // LMS -> linear RGB
     mat3 lms_to_rgb = mat3(
          4.0767416621, -3.3077115913,  0.2309699292,
         -1.2684380046,  2.6097574011, -0.3413193965,
         -0.0041960863, -0.7034186147,  1.7076147010
     );
-    
-    vec3 linear_rgb = lms_to_rgb * lms;
-    
-    // Clamp to valid range
-    linear_rgb = clamp(linear_rgb, 0.0, 1.0);
-    
-    // Convert linear RGB back to sRGB
-    vec3 srgb = pow(linear_rgb, vec3(0.4545454545)); // 1/2.2
-    
-    return srgb;
+    return lms_to_rgb * lms;
 }
 
-vec4 oklab2rgb(vec4 oklaba) {
-    vec4 rgba;
-    rgba.rgb = oklab2rgb(oklaba.rgb);
-    rgba.a = oklaba.a;
-    return rgba;
+// Overload for vec4 (decode from stored format: a,b offset by -0.5)
+vec4 oklab_to_linear_srgb(vec4 encoded) {
+    vec3 lab = vec3(encoded.r, encoded.g, encoded.b);
+    lab.r = lab.r * 8. - 4.;
+    lab.gb = lab.gb * 4. - 2.;
+    vec3 rgb = oklab_to_linear_srgb(lab);
+    //rgb = clamp(rgb, 0.0, 1.0);
+    return vec4(rgb, encoded.a);
 }
 
 void main() {
-    vec4 oklab = texture2DRect(tex0, texcoord0);
-    gl_FragColor = oklab2rgb(oklab);
+    vec4 encoded = texture2DRect(tex0, texcoord0);
+    gl_FragColor = oklab_to_linear_srgb(encoded);
 }
 ]]>
         </program>

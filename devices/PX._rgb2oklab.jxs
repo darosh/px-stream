@@ -22,7 +22,8 @@ uniform sampler2DRect tex0;
 
 vec3 rgb2oklab(vec3 rgb) {
     // First convert sRGB to linear RGB
-    vec3 linear = pow(rgb, vec3(2.2));
+    // vec3 linear = pow(rgb, vec3(2.2));
+    vec3 linear = rgb;
     
     // Convert linear RGB to LMS (Long, Medium, Short cone response)
     mat3 rgb_to_lms = mat3(
@@ -45,9 +46,8 @@ vec3 rgb2oklab(vec3 rgb) {
     
     vec3 oklab = lms_to_oklab * lms_cbrt;
     
-    oklab.x = (oklab.x + 4.) / 8.;
-    oklab.y = (oklab.y + 2.) / 4.;
-    oklab.z = (oklab.z + 2.) / 4.;
+    oklab.r = (oklab.r + 4.) / 8.;
+    oklab.gb = (oklab.gb + 2.) / 4.;
     
     return oklab;
 }
