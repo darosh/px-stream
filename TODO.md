@@ -25,6 +25,7 @@
 - [ ] disable dynamic live.menu automation
 - [ ] remove the silly cam & syphon icons, replace with dims and activity
 - [ ] check negative values parsing in eslint
+- [ ] transform is FX?
 
 ## Devices
 
@@ -35,6 +36,7 @@
   - [ ] https://docs.cycling74.com/learn/articles/01-color-management/
 - [ ] JPEG
 - [ ] video rate LFO?
+- [ ] colorize?
 
 - [ ] color
 - [ ] gradient
@@ -69,6 +71,12 @@
 #### PX FX Pass.amxd
 
 - [ ] find optimal ranges
+
+#### PX FX Color.amxd
+
+- [ ] add to doc
+- [ ] reorder ops
+- [ ] improve wheel pic
 
 ### IN
 

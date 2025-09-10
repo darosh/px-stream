@@ -1,0 +1,82 @@
+<jittershader name="ColorGrading">
+    <description>Color Grading Shader</description>
+    <param name="tex0" type="int" default="0"/>
+    <param name="brightness" type="float" default="0.0"/>
+    <param name="contrast" type="float" default="1.0"/>
+    <param name="exposure" type="float" default="0.0"/>
+    <param name="saturation" type="float" default="1.0"/>
+    <param name="temperature" type="float" default="0.0"/>
+    <param name="tint" type="float" default="0.0"/>
+
+    <param name="red_gain" type="float" default="1.0"/>
+    <param name="green_gain" type="float" default="1.0"/>
+    <param name="blue_gain" type="float" default="1.0"/>
+    <param name="red_lift" type="float" default="0.0"/>
+    <param name="green_lift" type="float" default="0.0"/>
+    <param name="blue_lift" type="float" default="0.0"/>
+    <param name="red_gamma" type="float" default="1.0"/>
+    <param name="green_gamma" type="float" default="1.0"/>
+    <param name="blue_gamma" type="float" default="1.0"/>
+
+    <!-- Color Wheels: Dark/Lift (shadows) -->
+    <param name="dark_hue" type="float" default="0.0"/>
+    <param name="dark_sat" type="float" default="0.0"/>
+    <param name="dark_lum" type="float" default="0.0"/>
+
+    <!-- Color Wheels: Shadow (lower midtones) -->
+    <param name="shadow_hue" type="float" default="0.0"/>
+    <param name="shadow_sat" type="float" default="0.0"/>
+    <param name="shadow_lum" type="float" default="0.0"/>
+
+    <!-- Color Wheels: Light (upper midtones) -->
+    <param name="light_hue" type="float" default="0.0"/>
+    <param name="light_sat" type="float" default="0.0"/>
+    <param name="light_lum" type="float" default="0.0"/>
+
+    <!-- Color Wheels: Global/Gain (highlights) -->
+    <param name="global_hue" type="float" default="0.0"/>
+    <param name="global_sat" type="float" default="0.0"/>
+    <param name="global_lum" type="float" default="0.0"/>
+
+    <language name="glsl" version="1.0">
+        <bind param="tex0" program="fp"/>
+        <bind param="brightness" program="fp"/>
+        <bind param="contrast" program="fp"/>
+        <bind param="exposure" program="fp"/>
+        <bind param="saturation" program="fp"/>
+        <bind param="temperature" program="fp"/>
+        <bind param="tint" program="fp"/>
+        <bind param="red_gain" program="fp"/>
+        <bind param="green_gain" program="fp"/>
+        <bind param="blue_gain" program="fp"/>
+        <bind param="red_lift" program="fp"/>
+        <bind param="green_lift" program="fp"/>
+        <bind param="blue_lift" program="fp"/>
+        <bind param="red_gamma" program="fp"/>
+        <bind param="green_gamma" program="fp"/>
+        <bind param="blue_gamma" program="fp"/>
+        <bind param="dark_hue" program="fp"/>
+        <bind param="dark_sat" program="fp"/>
+        <bind param="dark_lum" program="fp"/>
+        <bind param="shadow_hue" program="fp"/>
+        <bind param="shadow_sat" program="fp"/>
+        <bind param="shadow_lum" program="fp"/>
+        <bind param="light_hue" program="fp"/>
+        <bind param="light_sat" program="fp"/>
+        <bind param="light_lum" program="fp"/>
+        <bind param="global_hue" program="fp"/>
+        <bind param="global_sat" program="fp"/>
+        <bind param="global_lum" program="fp"/>
+        <program name="vp" type="vertex">
+<![CDATA[
+varying vec2 texcoord0;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+}
+]]>
+        </program>
+        <program name="fp" type="fragment" source="PX._colors_plus.fp.glsl" />
+    </language>
+</jittershader>
