@@ -31,18 +31,8 @@
 ## Devices
 
 - [ ] video in? loop on/off per clip, speed control, in/out points
-- [ ] texture (feedback?) delay
-- [ ] color correction
-  - [ ] cc.scalebias.jxs?
-  - [ ] https://docs.cycling74.com/learn/articles/01-color-management/
 - [ ] JPEG
-- [ ] video rate LFO?
-- [ ] colorize?
 
-- [ ] color
-- [ ] gradient
-- [ ] image in?
-- [ ] activity blink?
 - [ ] reactive geometry device?
   - [ ] /Applications/Max.app/Contents/Resources/C74/media/demos/max9-geom-demo.maxpat
 - [ ] inline preview device
@@ -76,6 +66,12 @@
 #### PX FX Color.amxd
 
 - [ ] add to doc
+
+#### PX FX Colorize.amxd
+
+- [ ] add to doc
+- [ ] add presets
+- [ ] test on color/bw videos
 
 ### IN
 
@@ -149,6 +145,16 @@
 
 ## Done
 
+- [x] ~~video rate LFO?~~
+- [x] texture (feedback?) delay
+- [x] colorize?
+- [x] color correction
+    - [x] ~~cc.scalebias.jxs?~~
+    - [x] https://docs.cycling74.com/learn/articles/01-color-management/
+- [x] ~~color~~
+- [x] ~~gradient~~
+- [x] ~~image in?~~
+- [x] ~~activity blink?~~
 - [x] color: reorder ops
 - [x] color: improve wheel pic
 - [x] fix pass?
