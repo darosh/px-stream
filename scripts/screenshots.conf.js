@@ -3,7 +3,7 @@ let x0 = 14
 
 export default {
   v: 1,
-  y0: 1441,
+  y0: 1445,
   y1: 385,
   devices: [
     [1, 'PX World', 248],
@@ -25,6 +25,19 @@ export default {
     [3, 'PX IN Cos Pattern', 646],
     [3, 'PX FX Delay', 276],
     [3, 'PX FX Blur', 276],
+    [3, 'DEV Info', 528],
+    [3, 'DEV Console', 276],
+    [3, 'PX FX Convert', 276],
+    [3, 'PX FX Convert (convert back)', 276],
+    [3, 'PX World (mad world)', 248],
+    [4, 'PX FX Color', 648],
+    [4, 'PX FX Color (gamma)', 620],
+    [4, 'PX FX Color (hue)', 972],
+    [4, 'PX FX Colorize', 452],
+    [5, 'PX Mix View (expanded)', 1054],
+    [5, 'PX Route MIDI (linked)', 224],
+    [5, 'PX Shader (types)', 592],
+    [5, 'PX IN Text (expanded)', 536],
   ].map(([src, name, x1]) => {
     WIDTHS[src] = WIDTHS[src] || 14
     const r = [src, name, WIDTHS[src], x1]
