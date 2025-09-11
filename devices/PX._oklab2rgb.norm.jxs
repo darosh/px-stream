@@ -40,8 +40,14 @@ vec3 oklab_to_linear_srgb(vec3 c) {
     return rgb;
 }
 
+vec3 denormalizeRange(vec3 value) {
+    vec3 minVal = vec3(0., -1.838,  -0.450);
+    vec3 maxVal = vec3(1.004, 1.253, 0.264);
+    return value * (maxVal - minVal) + minVal;
+}
+
 vec4 oklab_to_linear_srgb(vec4 encoded) {
-    vec3 rgb = linear_to_srgb(oklab_to_linear_srgb(encoded.rgb));
+    vec3 rgb = linear_to_srgb(oklab_to_linear_srgb(denormalizeRange(encoded.rgb)));
 
     return vec4(rgb, encoded.a);
 }

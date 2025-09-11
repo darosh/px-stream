@@ -44,9 +44,15 @@ vec3 rgb2oklab(vec3 c) {
 	);
 }
 
+vec3 normalizeRange(vec3 value) {
+    vec3 minVal = vec3(0., -1.838,  -0.450);
+    vec3 maxVal = vec3(1.004, 1.253, 0.264);
+    return (value - minVal) / (maxVal - minVal);
+}
+
 vec4 rgb2oklab(vec4 rgba) {
     vec4 oklaba;
-    oklaba.rgb = rgb2oklab(srgb_to_linear(rgba.rgb));
+    oklaba.rgb = normalizeRange(rgb2oklab(srgb_to_linear(rgba.rgb)));
     oklaba.a = rgba.a;
 
     return oklaba;
