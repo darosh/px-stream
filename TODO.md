@@ -36,6 +36,7 @@
 - [ ] reactive geometry device?
   - [ ] /Applications/Max.app/Contents/Resources/C74/media/demos/max9-geom-demo.maxpat
 - [ ] inline preview device
+- [ ] oklab blend? color adjustment?
 
 ### DEV
 
