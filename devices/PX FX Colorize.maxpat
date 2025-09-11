@@ -69,16 +69,16 @@
 			}
 , 			{
 				"box" : 				{
-					"filename" : "PX._gradient_oklab_jxs",
+					"filename" : "PX._colorize_oklab_jxs",
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 280.0, 224.0, 272.0, 22.0 ],
-					"text" : "jit.gl.slab px-stream @file PX._gradient_oklab_jxs",
+					"patching_rect" : [ 280.0, 224.0, 270.0, 22.0 ],
+					"text" : "jit.gl.slab px-stream @file PX._colorize_oklab_jxs",
 					"textfile" : 					{
-						"filename" : "PX._gradient_oklab_jxs",
+						"filename" : "PX._colorize_oklab_jxs",
 						"flags" : 0,
 						"embed" : 0,
 						"autowatch" : 1
@@ -222,7 +222,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
 					"id" : "obj-366",
 					"maxclass" : "live.tab",

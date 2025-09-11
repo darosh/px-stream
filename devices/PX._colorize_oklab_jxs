@@ -52,6 +52,6 @@ void main() {
 }
 ]]>
         </program>
-        <program name="fp" type="fragment" source="PX._gradient_oklab_fp.glsl" />
+        <program name="fp" type="fragment" source="PX._colorize_oklab_fp.glsl" />
     </language>
 </jittershader>
