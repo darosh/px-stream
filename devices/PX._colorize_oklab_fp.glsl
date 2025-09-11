@@ -18,6 +18,11 @@ uniform int blend_mode;
 uniform float posterize_levels;
 uniform float posterize_smooth;
 uniform int invert_mapping;
+uniform float posterize_offset;
+uniform float posterize_curve;
+uniform float mapping_scale;
+uniform float mapping_phase;
+uniform int mapping_mirror;
 
 vec3 srgb_to_linear(vec3 c) {
     return mix(c / 12.92, pow((c + 0.055) / 1.055, vec3(2.4)), step(0.04045, c));
@@ -138,6 +143,15 @@ vec3 mix_three_rgb(vec3 c1, vec3 c2, vec3 c3, float t, float mid_pos, float widt
 
 float apply_posterization(float value, float levels, float smoothness) {
     if (levels <= 1.0) return value;
+
+    if (posterize_offset > 0.) {
+        value = fract(value + posterize_offset);
+    }
+
+    if (posterize_curve != 0.) {
+        value = pow(value, mix(1.0, 2.5, posterize_curve));
+    }
+
     if (smoothness <= 0.0) {
         return floor(value * levels) / levels;
     }
@@ -148,13 +162,13 @@ float apply_posterization(float value, float levels, float smoothness) {
     // Calculate which band we're in
     float scaled = value * levels;
     float band_index = floor(scaled);
-    float local_pos = scaled - band_index; // Position within the current band [0,1]
+    float local_pos = scaled - band_index;// Position within the current band [0,1]
 
     // Calculate the target posterized value for this band
     float target_value = band_index / levels;
 
     // If we're in the center region, return the target value
-    float transition_width = smoothness * 0.5; // Transition takes up smoothness * 50% on each side
+    float transition_width = smoothness * 0.5;// Transition takes up smoothness * 50% on each side
 
     if (local_pos >= transition_width && local_pos <= (1.0 - transition_width)) {
         return target_value;
@@ -165,15 +179,15 @@ float apply_posterization(float value, float levels, float smoothness) {
         // Transition from average of (previous + current) to current band
         float prev_value = max(0.0, (band_index - 1.0) / levels);
         float blend_value = (prev_value + target_value) * 0.5;
-        float t = local_pos / transition_width; // 0 at start, 1 at end of transition
-        t = smoothstep(0.0, 1.0, t); // Apply smooth curve
+        float t = local_pos / transition_width;// 0 at start, 1 at end of transition
+        t = smoothstep(0.0, 1.0, t);// Apply smooth curve
         return mix(blend_value, target_value, t);
     } else {
         // Transition from current band to average of (current + next)
         float next_value = min(1.0, (band_index + 1.0) / levels);
         float blend_value = (target_value + next_value) * 0.5;
         float t = (local_pos - (1.0 - transition_width)) / transition_width;
-        t = smoothstep(0.0, 1.0, t); // Apply smooth curve
+        t = smoothstep(0.0, 1.0, t);// Apply smooth curve
         return mix(target_value, blend_value, t);
     }
 }
@@ -215,10 +229,26 @@ float get_mapping_value(vec3 input_oklab, vec3 original_rgb) {
     // Map to range
     value = (value - range_min) / (range_max - range_min);
 
+    value += mapping_phase;
+    value *= mapping_scale;
+
+    if (mapping_mirror == 1) {
+        float segment = floor(value);
+        float local_pos = value - segment;
+
+        if (int(segment) % 2 == 1) {
+            local_pos = 1.0 - local_pos;
+        }
+
+        value = local_pos;
+    } else {
+        value = fract(value);
+    }
+
     if (invert_mapping == 1) {
         value = 1.0 - value;
     }
-    
+
     return clamp(value, 0.0, 1.0);
 }
 
