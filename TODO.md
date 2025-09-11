@@ -96,6 +96,7 @@
 - [ ] fix svg automation
 - [ ] fix svg resolution switch
 - [ ] cache svg texture
+- [ ] fit vs fill
 
 #### PX IN Syphon.amxd
 
