@@ -91,53 +91,34 @@ vec3 mix_rgb(vec3 c1, vec3 c2, float t) {
 }
 
 vec3 mix_three_oklab(vec3 c1, vec3 c2, vec3 c3, float t, float mid_pos, float width) {
-    float half_width = width * 0.5;
-    float left_edge = max(0.0, mid_pos - half_width);
-    float right_edge = min(1.0, mid_pos + half_width);
+    float curve_amount = 1.0 + width;
 
-    if (t <= left_edge) {
-        // Pure color1 to color2 transition
-        if (left_edge > 0.0) {
-            float local_t = t / left_edge;
-            return mix_oklab(c1, c2, local_t);
-        } else {
-            return mix_oklab(c1, c2, 0.0);
-        }
-    } else if (t >= right_edge) {
-        // Pure color2 to color3 transition
-        if (right_edge < 1.0) {
-            float local_t = (t - right_edge) / (1.0 - right_edge);
-            return mix_oklab(c2, c3, local_t);
-        } else {
-            return mix_oklab(c2, c3, 1.0);
-        }
+    if (t <= mid_pos) {
+        float local_t = t / mid_pos;
+        // Invert the curve for symmetry: steep start, flatten towards mid
+        local_t = 1.0 - pow(1.0 - local_t, curve_amount);
+        return mix_oklab(c1, c2, local_t);
     } else {
-        // Within the middle width - pure color2
-        return mix_oklab(c2, c2, 0.0);// This just returns c2 in oklab space
+        float local_t = (t - mid_pos) / (1.0 - mid_pos);
+        // Normal curve: flat start, steepen away from mid
+        local_t = pow(local_t, curve_amount);
+        return mix_oklab(c2, c3, local_t);
     }
 }
 
 vec3 mix_three_rgb(vec3 c1, vec3 c2, vec3 c3, float t, float mid_pos, float width) {
-    float half_width = width * 0.5;
-    float left_edge = max(0.0, mid_pos - half_width);
-    float right_edge = min(1.0, mid_pos + half_width);
+    float curve_amount = 1.0 + width;
 
-    if (t <= left_edge) {
-        if (left_edge > 0.0) {
-            float local_t = t / left_edge;
-            return mix(c1, c2, local_t);
-        } else {
-            return c2;
-        }
-    } else if (t >= right_edge) {
-        if (right_edge < 1.0) {
-            float local_t = (t - right_edge) / (1.0 - right_edge);
-            return mix(c2, c3, local_t);
-        } else {
-            return c3;
-        }
+    if (t <= mid_pos) {
+        float local_t = t / mid_pos;
+        // Invert the curve for symmetry: steep start, flatten towards mid
+        local_t = 1.0 - pow(1.0 - local_t, curve_amount);
+        return mix(c1, c2, local_t);
     } else {
-        return c2;
+        float local_t = (t - mid_pos) / (1.0 - mid_pos);
+        // Normal curve: flat start, steepen away from mid
+        local_t = pow(local_t, curve_amount);
+        return mix(c2, c3, local_t);
     }
 }
 
@@ -149,7 +130,15 @@ float apply_posterization(float value, float levels, float smoothness) {
     }
 
     if (posterize_curve != 0.) {
-        value = pow(value, mix(1.0, 2.5, posterize_curve));
+        if (posterize_curve > 0.0) {
+            // Positive values: shift towards highlights (more bands in shadows)
+            float exponent = mix(1.0, 2.5, posterize_curve);
+            value = pow(value, exponent);
+        } else {
+            // Negative values: shift towards shadows (more bands in highlights)
+            float exponent = mix(1.0, 2.5, -posterize_curve);
+            value = 1.0 - pow(1.0 - value, exponent);
+        }
     }
 
     if (smoothness <= 0.0) {
@@ -276,7 +265,18 @@ void main() {
     grad_pos = apply_posterization(grad_pos, posterize_levels, posterize_smooth);
 
     // Apply falloff curve
-    grad_pos = pow(grad_pos, falloff);
+    if (falloff != 0.) {
+        if (falloff > 0.0) {
+            // Positive values: shift towards highlights (more bands in shadows)
+            float exponent = mix(1.0, 2.5, falloff);
+            grad_pos = pow(grad_pos, exponent);
+        } else {
+            // Negative values: shift towards shadows (more bands in highlights)
+            float exponent = mix(1.0, 2.5, -falloff);
+            grad_pos = 1.0 - pow(1.0 - grad_pos, exponent);
+        }
+    }
+
 
     // Generate gradient color in OKLAB space
     vec3 gradient_color;
