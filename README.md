@@ -19,7 +19,7 @@
 - [PX Route Audio](#px-route-audio)
 - [PX Route MIDI](#px-route-midi)
 
-**Inputs FX**
+**Inputs IN**
 
 - [PX IN Text](#px-in-text)
 - [PX IN Cam](#px-in-cam)
