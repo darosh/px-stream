@@ -46,106 +46,106 @@
 
 ### PX World
 
-![PX World](assets/devices/PX_World_v1.jpg) ![PX World](assets/devices/PX_World_(mad_world)_v1.jpg)
+![PX World](assets/devices/PX_World_v1.webp) ![PX World](assets/devices/PX_World_(mad_world)_v1.webp)
 
 ### PX Mix View
 
-![PX Mix View](assets/devices/PX_Mix_View_v1.jpg)
-![PX Mix View](assets/devices/PX_Mix_View_(expanded)_v1.jpg)
+![PX Mix View](assets/devices/PX_Mix_View_v1.webp)
+![PX Mix View](assets/devices/PX_Mix_View_(expanded)_v1.webp)
 
 ### PX Mix_Channel
 
-![PX Mix Channel](assets/devices/PX_Mix_Channel_v1.jpg)
+![PX Mix Channel](assets/devices/PX_Mix_Channel_v1.webp)
 
 ### PX Mix Dry
 
-![PX Mix Dry](assets/devices/PX_Mix_Dry_v1.jpg)
+![PX Mix Dry](assets/devices/PX_Mix_Dry_v1.webp)
 
 ### PX Shader
 
-![PX Shader](assets/devices/PX_Shader_v1.jpg)
-![PX Shader](assets/devices/PX_Shader_(types)_v1.jpg)
+![PX Shader](assets/devices/PX_Shader_v1.webp)
+![PX Shader](assets/devices/PX_Shader_(types)_v1.webp)
 
 ### PX Transform
 
-![PX Transform](assets/devices/PX_Transform_v1.jpg)
+![PX Transform](assets/devices/PX_Transform_v1.webp)
 
 ### PX Route Audio
 
-![PX Route Audio](assets/devices/PX_Route_Audio_v1.jpg)
+![PX Route Audio](assets/devices/PX_Route_Audio_v1.webp)
 
 ### PX Route MIDI
 
-![PX_Route_MIDI](assets/devices/PX_Route_MIDI_v1.jpg)
-![PX Shader](assets/devices/PX_Shader_(types)_v1.jpg)
+![PX_Route_MIDI](assets/devices/PX_Route_MIDI_v1.webp)
+![PX Shader](assets/devices/PX_Shader_(types)_v1.webp)
 
 ### PX IN Text
 
-![PX IN Text](assets/devices/PX_IN_Text_v1.jpg)
-![PX IN Text](assets/devices/PX_IN_Text_(expanded)_v1.jpg)
+![PX IN Text](assets/devices/PX_IN_Text_v1.webp)
+![PX IN Text](assets/devices/PX_IN_Text_(expanded)_v1.webp)
 
 ### PX IN Cam
 
-![PX IN Cam](assets/devices/PX_IN_Cam_v1.jpg)
+![PX IN Cam](assets/devices/PX_IN_Cam_v1.webp)
 
 ### PX IN Channel
 
-![PX IN Channel](assets/devices/PX_IN_Channel_v1.jpg)
+![PX IN Channel](assets/devices/PX_IN_Channel_v1.webp)
 
 ### PX IN Cos Pattern
 
-![PX IN Cos Pattern](assets/devices/PX_IN_Cos_Pattern_v1.jpg)
+![PX IN Cos Pattern](assets/devices/PX_IN_Cos_Pattern_v1.webp)
 
 ### PX IN Mix
 
-![PX IN Mix](assets/devices/PX_IN_Mix_v1.jpg)
+![PX IN Mix](assets/devices/PX_IN_Mix_v1.webp)
 
 ### PX IN SVG
 
-![PX IN SVG](assets/devices/PX_IN_SVG_v1.jpg)
+![PX IN SVG](assets/devices/PX_IN_SVG_v1.webp)
 
 ### PX IN Syphon
 
-![PX IN Syphon](assets/devices/PX_IN_Syphon_v1.jpg)
+![PX IN Syphon](assets/devices/PX_IN_Syphon_v1.webp)
 
 ### PX FX Blur
 
-![PX FX Blur](assets/devices/PX_FX_Blur_v1.jpg)
+![PX FX Blur](assets/devices/PX_FX_Blur_v1.webp)
 
 ### PX FX Color
 
-![PX FX Color](assets/devices/PX_FX_Color_v1.jpg)
-![PX FX Color](assets/devices/PX_FX_Color_(gamma)_v1.jpg)
-![PX FX Color](assets/devices/PX_FX_Color_(hue)_v1.jpg)
+![PX FX Color](assets/devices/PX_FX_Color_v1.webp)
+![PX FX Color](assets/devices/PX_FX_Color_(gamma)_v1.webp)
+![PX FX Color](assets/devices/PX_FX_Color_(hue)_v1.webp)
 
 ### PX FX Colorize
 
-![PX FX Colorize](assets/devices/PX_FX_Colorize_v1.jpg)
+![PX FX Colorize](assets/devices/PX_FX_Colorize_v1.webp)
 
 ### PX FX Convert
 
-![PX FX Convert](assets/devices/PX_FX_Convert_v1.jpg)
-![PX FX Convert](assets/devices/PX_FX_Convert_(convert_back)_v1.jpg)
+![PX FX Convert](assets/devices/PX_FX_Convert_v1.webp)
+![PX FX Convert](assets/devices/PX_FX_Convert_(convert_back)_v1.webp)
 
 ### PX FX Delay
 
-![PX FX Delay](assets/devices/PX_FX_Delay_v1.jpg)
+![PX FX Delay](assets/devices/PX_FX_Delay_v1.webp)
 
 ### PX FX Kaleidoscope
 
-![PX FX Kaleidoscope](assets/devices/PX_FX_Kaleidoscope_v1.jpg)
+![PX FX Kaleidoscope](assets/devices/PX_FX_Kaleidoscope_v1.webp)
 
 ### PX FX Pass
 
-![PX FX Pass](assets/devices/PX_FX_Pass_v1.jpg)
+![PX FX Pass](assets/devices/PX_FX_Pass_v1.webp)
 
 ### DEV Info
 
-![Dev Info](assets/devices/DEV_Info_v1.jpg)
+![Dev Info](assets/devices/DEV_Info_v1.webp)
 
 ### DEV Console
 
-![Dev Console](assets/devices/DEV_Console_v1.jpg)
+![Dev Console](assets/devices/DEV_Console_v1.webp)
 
 ## Development
 
