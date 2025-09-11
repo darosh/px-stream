@@ -9,6 +9,7 @@
     <param name="color3" type="vec3" default="1.0 0.7 0.0" />
     <param name="use_three_colors" type="int" default="1" />
     <param name="midpoint_pos" type="float" default="0.5" />
+    <param name="mid_width" type="float" default="0.0" />
     <param name="falloff" type="float" default="1.0" />
     
     <!-- Mapping Options -->
@@ -17,7 +18,10 @@
     <param name="range_max" type="float" default="1.0" />
     <param name="mix_amount" type="float" default="1" />
     <param name="blend_mode" type="int" default="0" />
+    <param name="invert_mapping" type="int" default="0" />
     <param name="luminosity" type="float" default="1.0" />
+    <param name="posterize_levels" type="float" default="7.0" />
+    <param name="posterize_smooth" type="float" default="0.5" />
     
     <language name="glsl" version="1.0">
         <bind param="tex0" program="fp" />
@@ -27,13 +31,17 @@
         <bind param="color3" program="fp" />
         <bind param="use_three_colors" program="fp" />
         <bind param="midpoint_pos" program="fp" />
+        <bind param="mid_width" program="fp" />
         <bind param="falloff" program="fp" />
         <bind param="mapping_mode" program="fp" />
         <bind param="range_min" program="fp" />
         <bind param="range_max" program="fp" />
         <bind param="mix_amount" program="fp" />
         <bind param="blend_mode" program="fp" />
+        <bind param="invert_mapping" program="fp" />
         <bind param="luminosity" program="fp" />
+        <bind param="posterize_levels" program="fp" />
+        <bind param="posterize_smooth" program="fp" />
         <program name="vp" type="vertex">
             <![CDATA[
 varying vec2 texcoord0;
