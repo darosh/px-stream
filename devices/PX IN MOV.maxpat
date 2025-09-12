@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 148.0, 508.0 ],
+		"rect" : [ 133.0, 82.0, 459.0, 498.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -27,7 +27,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 429.0, 53.0, 100.0, 50.0 ],
-					"pic" : "PX._svg.svg",
+					"pic" : "PX._mov.svg",
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 49.0, 112.0, 64.0 ]
 				}
@@ -3804,7 +3804,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "PX._svg.svg",
+				"name" : "PX._mov.svg",
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "svg",

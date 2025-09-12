@@ -12,7 +12,7 @@ export default {
     [1, 'PX Mix Channel', 276],
     [1, 'PX Mix Dry', 276],
     [1, 'PX Transform', 276],
-    [2, 'PX Route MIDI', 224],
+    [1, 'PX IN JPG', 276],
     [2, 'PX Route Audio', 224],
     [2, 'PX IN Text', 276],
     [2, 'PX IN Syphon', 276],
@@ -22,6 +22,7 @@ export default {
     [2, 'PX IN Cam', 276],
     [2, 'PX FX Pass', 276],
     [2, 'PX FX Kaleidoscope', 276],
+    [2, 'PX IN MOV', 276],
     [3, 'PX IN Cos Pattern', 646],
     [3, 'PX FX Delay', 276],
     [3, 'PX FX Blur', 276],
@@ -38,6 +39,7 @@ export default {
     [5, 'PX Route MIDI (linked)', 224],
     [5, 'PX Shader (types)', 592],
     [5, 'PX IN Text (expanded)', 536],
+    [5, 'PX FX Alpha', 276],
   ].map(([src, name, x1, animated]) => {
     WIDTHS[src] = WIDTHS[src] || 14
     const r = [src, name, WIDTHS[src], x1, animated]

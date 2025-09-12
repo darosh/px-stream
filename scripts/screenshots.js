@@ -4,10 +4,12 @@ import { glob } from 'glob'
 import config from './screenshots.conf.js'
 
 async function processScreenshots () {
+  const screenshots = glob.sync('./assets/Screenshot 2*.png').sort()
+
   for (const device of config.devices) {
     const [src, name, x0, x1] = device
     const outputFile = `./assets/devices/${name.replace(/\s+/g, '_')}_v${config.v}.webp`
-    const inputFile = `./assets/screenshot-${src}.png`
+    const inputFile = `./${screenshots[src - 1]}`
 
     await sharp(inputFile)
       .extract({ left: x0, top: config.y0, width: x1, height: config.y1 })
