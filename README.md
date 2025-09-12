@@ -57,10 +57,10 @@
 
 <table>
   <tr>
-    <th>Core</th>
-    <th>Inputs IN</th>
-    <th>Effects FX</th>
-    <th>Development utilities DEV</th>
+    <th align="left">Core</th>
+    <th align="left">Inputs IN</th>
+    <th align="left">Effects FX</th>
+    <th align="left">Development utilities DEV</th>
   </tr>
     <td valign="top">
       <ul>
