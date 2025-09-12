@@ -53,41 +53,52 @@
   </div>
 </div>
 
-**Core**
-
-- [PX World](#px-world)
-- [PX Mix View](#px-mix-view)
-- [PX Mix Channel](#px-mix_channel)
-- [PX Mix Dry](#px-mix-dry)
-- [PX Shader](#px-shader)
-- [PX Transform](#px-transform)
-- [PX Route Audio](#px-route-audio)
-- [PX Route MIDI](#px-route-midi)
-
-**Inputs IN**
-
-- [PX IN Text](#px-in-text)
-- [PX IN Cam](#px-in-cam)
-- [PX IN Channel](#px-in-channel)
-- [PX IN Cos Pattern](#px-in-cos-pattern)
-- [PX IN Mix](#px-in-mix)
-- [PX IN SVG](#px-in-svg)
-- [PX IN Syphon](#px-in-syphon)
-
-**Effects FX**
-
-- [PX FX Blur](#px-fx-blur)
-- [PX FX Color](#px-fx-color)
-- [PX FX Colorize](#px-fx-colorize)
-- [PX FX Convert](#px-fx-convert)
-- [PX FX Delay](#px-fx-delay)
-- [PX FX Kaleidoscope](#px-fx-kaleidoscope)
-- [PX FX Pass](#px-fx-pass)
-
-**Development utilities DEV**
-
-- [DEV Info](#dev-info)
-- [DEV Console](#dev-console)
+<div style="display:flex; flex: 0 1; gap:16px; max-width:830px;">
+<div>
+<p dir="auto"><strong>Core</strong></p>
+<ul dir="auto">
+<li><a href="#px-world">PX World</a></li>
+<li><a href="#px-mix-view">PX Mix View</a></li>
+<li><a href="#px-mix_channel">PX Mix Channel</a></li>
+<li><a href="#px-mix-dry">PX Mix Dry</a></li>
+<li><a href="#px-shader">PX Shader</a></li>
+<li><a href="#px-transform">PX Transform</a></li>
+<li><a href="#px-route-audio">PX Route Audio</a></li>
+<li><a href="#px-route-midi">PX Route MIDI</a></li>
+</ul>
+</div>
+<div>
+<p dir="auto"><strong>Inputs IN</strong></p>
+<ul dir="auto">
+<li><a href="#px-in-text">PX IN Text</a></li>
+<li><a href="#px-in-cam">PX IN Cam</a></li>
+<li><a href="#px-in-channel">PX IN Channel</a></li>
+<li><a href="#px-in-cos-pattern">PX IN Cos Pattern</a></li>
+<li><a href="#px-in-mix">PX IN Mix</a></li>
+<li><a href="#px-in-svg">PX IN SVG</a></li>
+<li><a href="#px-in-syphon">PX IN Syphon</a></li>
+</ul>
+</div>
+<div>
+<p dir="auto"><strong>Effects FX</strong></p>
+<ul dir="auto">
+<li><a href="#px-fx-blur">PX FX Blur</a></li>
+<li><a href="#px-fx-color">PX FX Color</a></li>
+<li><a href="#px-fx-colorize">PX FX Colorize</a></li>
+<li><a href="#px-fx-convert">PX FX Convert</a></li>
+<li><a href="#px-fx-delay">PX FX Delay</a></li>
+<li><a href="#px-fx-kaleidoscope">PX FX Kaleidoscope</a></li>
+<li><a href="#px-fx-pass">PX FX Pass</a></li>
+</ul>
+</div>
+<div>
+<p dir="auto"><strong>Development utilities DEV</strong></p>
+<ul dir="auto">
+<li><a href="#dev-info">DEV Info</a></li>
+<li><a href="#dev-console">DEV Console</a></li>
+</ul>
+</div>
+</div>
 
 ### PX World
 
