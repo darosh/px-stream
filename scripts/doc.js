@@ -15,10 +15,12 @@ const targetWidth = 830 // target max width for GH rendering
 
 function imgSection (name) {
   return path.parse(name).name
-    .replace(/_v\d+$/, '')
     .toLowerCase()
+    .replace(/_v\d+$/, '')
     .replace(/_\(.+\)/, '')
     .replaceAll('_', '-')
+    .replace(/^px-in/, 'in')
+    .replace(/^px-fx/, 'fx')
 }
 
 async function createCollage () {
@@ -124,10 +126,10 @@ async function createCollage () {
   // Generate HTML snippet for GH
   const scaleFactor = targetWidth / (maxRowWidth + margin * 2)
   const html = []
-  html.push(`<div style="display:flex; flex-direction:column; gap:${spacing}px; max-width:${targetWidth}px;">`)
+  html.push(`<div>`)
 
   layout.forEach((row, rowIndex) => {
-    html.push(`  <div style="display:flex; gap:${spacing}px; justify-content:space-between;">`)
+    html.push(`  <div>`)
     row.forEach((img, i) => {
       const scaledWidth = Math.round(img.width * scaleFactor)
       html.push(
