@@ -53,10 +53,16 @@
   </div>
 </div>
 
+<br>
+
 <table>
   <tr>
+    <th>Core</th>
+    <th>Inputs IN</th>
+    <th>Effects FX</th>
+    <th>Development utilities DEV</th>
+  </tr>
     <td valign="top">
-      <strong>Core</strong>
       <ul>
         <li><a href="#px-world">PX World</a></li>
         <li><a href="#px-mix-view">PX Mix View</a></li>
@@ -69,7 +75,6 @@
       </ul>
     </td>
     <td valign="top">
-      <strong>Inputs IN</strong>
       <ul>
         <li><a href="#px-in-text">PX IN Text</a></li>
         <li><a href="#px-in-cam">PX IN Cam</a></li>
@@ -81,7 +86,6 @@
       </ul>
     </td>
     <td valign="top">
-      <strong>Effects FX</strong>
       <ul>
         <li><a href="#px-fx-blur">PX FX Blur</a></li>
         <li><a href="#px-fx-color">PX FX Color</a></li>
@@ -93,7 +97,6 @@
       </ul>
     </td>
     <td valign="top">
-      <strong>Development utilities DEV</strong>
       <ul>
         <li><a href="#dev-info">DEV Info</a></li>
         <li><a href="#dev-console">DEV Console</a></li>
