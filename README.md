@@ -211,6 +211,14 @@
 git --no-pager diff "./*.amxd" "./*.maxpat"
 ```
 
+### Batch freezing
+
+Requires preparation, see [scripts/freeze.scpt](./scripts/freeze.scpt)
+
+```shell
+npm script freeze
+```
+
 ### Shaders
 
 - shaders loaded from `./shaders` folder near the device

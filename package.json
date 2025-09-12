@@ -11,6 +11,7 @@
   "private": true,
   "scripts": {
     "doc": "node ./scripts/doc.js",
+    "freeze": "rm -f ./devices/frozen/*.amxd && osascript ./scripts/freeze.scpt \"$(pwd)/devices\" \"$(pwd)/devices/frozen\"",
     "format:shader": "node ./scripts/format-shader.js",
     "lint:maxpat": "eslint ./devices/*.maxpat --rule={\"maxpat/ui/annotation-info\":\"off\"}",
     "lint:maxpat:info": "eslint ./devices/*.maxpat --format node_modules/eslint-plugin-maxpat/lib/formatter.js",
