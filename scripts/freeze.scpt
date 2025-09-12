@@ -4,6 +4,7 @@
 -- Enable /opt/homebrew/bin/cliclick in System Preferences → Security & Privacy → Accessibility
 -- Adjust mouse positions bellow using: while true; do cliclick p; sleep 0.2; done
 -- Save one archive to target/folder - max will reuse it next time and we can just automate the enter key on the save dialog
+-- We use "Archive..." because "Export Max for Live device" is disabled and this solution does not help: https://cycling74.com/forums/%22export-max-for-live-device%22-in-project-grayed-out
 -- Usage (full paths): osascript freeze.scpt /input/folder /target/folder
 
 on run argv
