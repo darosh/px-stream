@@ -687,7 +687,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 122.0, 1326.0, 100.0, 50.0 ],
-									"pic" : "PX,_color_line.svg",
+									"pic" : "PX._color_line.svg",
 									"presentation" : 1,
 									"presentation_rect" : [ 6.0, 421.0, 38.0, 10.0 ]
 								}
@@ -702,7 +702,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 1264.0, 1336.0, 100.0, 50.0 ],
-									"pic" : "PX,_color_line.svg",
+									"pic" : "PX._color_line.svg",
 									"presentation" : 1,
 									"presentation_rect" : [ 294.0, 421.0, 38.0, 10.0 ]
 								}
@@ -717,7 +717,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 1080.0, 1328.0, 100.0, 50.0 ],
-									"pic" : "PX,_color_line.svg",
+									"pic" : "PX._color_line.svg",
 									"presentation" : 1,
 									"presentation_rect" : [ 246.0, 421.0, 38.0, 10.0 ]
 								}
@@ -732,7 +732,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 896.0, 1328.0, 100.0, 50.0 ],
-									"pic" : "PX,_color_line.svg",
+									"pic" : "PX._color_line.svg",
 									"presentation" : 1,
 									"presentation_rect" : [ 198.0, 421.0, 38.0, 10.0 ]
 								}
@@ -747,7 +747,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 736.0, 1328.0, 100.0, 50.0 ],
-									"pic" : "PX,_color_line.svg",
+									"pic" : "PX._color_line.svg",
 									"presentation" : 1,
 									"presentation_rect" : [ 150.0, 421.0, 38.0, 10.0 ]
 								}
@@ -776,7 +776,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 504.0, 1328.0, 100.0, 50.0 ],
-									"pic" : "PX,_color_line.svg",
+									"pic" : "PX._color_line.svg",
 									"presentation" : 1,
 									"presentation_rect" : [ 102.0, 421.0, 38.0, 10.0 ]
 								}
@@ -2934,7 +2934,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 505.0, 164.0, 100.0, 50.0 ],
-									"pic" : "Macintosh HD:/Users/jan/Documents/GitHub/px-stream/devices/PX,_color_wheel_cut.svg",
+									"pic" : "Macintosh HD:/Users/jan/Documents/GitHub/px-stream/devices/PX._color_wheel_cut.svg",
 									"presentation" : 1,
 									"presentation_rect" : [ 92.0, 100.0, 60.0, 60.0 ]
 								}
@@ -3005,7 +3005,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 393.0, 164.0, 100.0, 50.0 ],
-									"pic" : "Macintosh HD:/Users/jan/Documents/GitHub/px-stream/devices/PX,_color_wheel_cut.svg",
+									"pic" : "Macintosh HD:/Users/jan/Documents/GitHub/px-stream/devices/PX._color_wheel_cut.svg",
 									"presentation" : 1,
 									"presentation_rect" : [ 92.0, 18.0, 60.0, 60.0 ]
 								}
@@ -3076,7 +3076,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 505.0, 100.0, 100.0, 50.0 ],
-									"pic" : "Macintosh HD:/Users/jan/Documents/GitHub/px-stream/devices/PX,_color_wheel_cut.svg",
+									"pic" : "Macintosh HD:/Users/jan/Documents/GitHub/px-stream/devices/PX._color_wheel_cut.svg",
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 100.0, 60.0, 60.0 ]
 								}
@@ -3147,7 +3147,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 393.0, 100.0, 100.0, 50.0 ],
-									"pic" : "Macintosh HD:/Users/jan/Documents/GitHub/px-stream/devices/PX,_color_wheel_cut.svg",
+									"pic" : "Macintosh HD:/Users/jan/Documents/GitHub/px-stream/devices/PX._color_wheel_cut.svg",
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 18.0, 60.0, 60.0 ]
 								}
@@ -3251,7 +3251,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 304.0, 1328.0, 100.0, 50.0 ],
-									"pic" : "PX,_color_line.svg",
+									"pic" : "PX._color_line.svg",
 									"presentation" : 1,
 									"presentation_rect" : [ 54.0, 421.0, 38.0, 10.0 ]
 								}
@@ -5218,14 +5218,14 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "PX,_color_line.svg",
+				"name" : "PX._color_line.svg",
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "PX,_color_wheel_cut.svg",
+				"name" : "PX._color_wheel_cut.svg",
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "svg",
