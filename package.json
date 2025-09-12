@@ -17,7 +17,8 @@
     "lint:maxpat:fix": "eslint ./devices/*.maxpat --fix --rule={\"maxpat/ui/annotation-info\":\"off\"}",
     "lint:maxpat:fix:layout": "eslint ./devices/*.maxpat --fix --fix-type layout",
     "lint:maxpat:fix-dry-run": "eslint ./devices/*.maxpat --fix-dry-run --rule={\"maxpat/ui/annotation-info\":\"off\"}",
-    "screenshots": "rm -f ./assets/devices/*.webp && node ./scripts/screenshots.js"
+    "screenshots": "rm -f ./assets/devices/*.webp && node ./scripts/screenshots.js",
+    "screenshots:animated": "node ./scripts/screenshots.animated.js"
   },
   "type": "module"
 }

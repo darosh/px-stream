@@ -7,7 +7,7 @@ export default {
   y1: 385,
   devices: [
     [1, 'PX World', 248],
-    [1, 'PX Mix View', 676],
+    [1, 'PX Mix View', 676, true],
     [1, 'PX Shader', 856],
     [1, 'PX Mix Channel', 276],
     [1, 'PX Mix Dry', 276],
@@ -38,9 +38,9 @@ export default {
     [5, 'PX Route MIDI (linked)', 224],
     [5, 'PX Shader (types)', 592],
     [5, 'PX IN Text (expanded)', 536],
-  ].map(([src, name, x1]) => {
+  ].map(([src, name, x1, animated]) => {
     WIDTHS[src] = WIDTHS[src] || 14
-    const r = [src, name, WIDTHS[src], x1]
+    const r = [src, name, WIDTHS[src], x1, animated]
     WIDTHS[src] = r[2] + r[3] + 10
     return r
   })
