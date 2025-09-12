@@ -10,6 +10,7 @@
   },
   "private": true,
   "scripts": {
+    "doc": "node ./scripts/doc.js",
     "format:shader": "node ./scripts/format-shader.js",
     "lint:maxpat": "eslint ./devices/*.maxpat --rule={\"maxpat/ui/annotation-info\":\"off\"}",
     "lint:maxpat:info": "eslint ./devices/*.maxpat --format node_modules/eslint-plugin-maxpat/lib/formatter.js",
