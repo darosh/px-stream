@@ -11,6 +11,7 @@
 - [ ] doc console font, brew install --cask font-cascadia-code
 - [ ] doc https://syphon.info/recorder.html
 - [ ] sdk?
+- [ ] img alt
 
 ## Misc
 
