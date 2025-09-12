@@ -11,7 +11,7 @@ const rows = 5 // number of rows
 const align = 'justify' // "left" | "center" | "justify"
 const spacing = 16 // minimal distance between images
 const margin = 24 // outer margin around the whole collage
-const targetWidth = 980 // target max width for GH rendering
+const targetWidth = 830 // target max width for GH rendering
 
 function imgSection (name) {
   return path.parse(name).name

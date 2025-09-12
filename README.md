@@ -8,48 +8,48 @@
 
 ## Devices / Usage
 
-<div style="display:flex; flex-direction:column; gap:16px; max-width:980px; background-color: rgba(56, 56, 56, 1); line-height: 0; padding: 16px;">
+<div style="display:flex; flex-direction:column; gap:16px; max-width:830px;">
   <div style="display:flex; gap:16px; justify-content:space-between;">
-    <a href="#px-mix-view"><img src="./assets/devices/PX_Mix_View_(expanded)_v1.webp" width="346"/></a>
-    <a href="#dev-info"><img src="./assets/devices/DEV_Info_v1.webp" width="173"/></a>
-    <a href="#px-in-text"><img src="./assets/devices/PX_IN_Text_v1.webp" width="91"/></a>
-    <a href="#px-in-cam"><img src="./assets/devices/PX_IN_Cam_v1.webp" width="91"/></a>
-    <a href="#px-fx-convert"><img src="./assets/devices/PX_FX_Convert_(convert_back)_v1.webp" width="91"/></a>
-    <a href="#px-route-midi"><img src="./assets/devices/PX_Route_MIDI_v1.webp" width="73"/></a>
+    <a href="#px-mix-view"><img src="./assets/devices/PX_Mix_View_(expanded)_v1.webp" width="293"/></a>
+    <a href="#dev-info"><img src="./assets/devices/DEV_Info_v1.webp" width="147"/></a>
+    <a href="#px-in-text"><img src="./assets/devices/PX_IN_Text_v1.webp" width="77"/></a>
+    <a href="#px-in-cam"><img src="./assets/devices/PX_IN_Cam_v1.webp" width="77"/></a>
+    <a href="#px-fx-convert"><img src="./assets/devices/PX_FX_Convert_(convert_back)_v1.webp" width="77"/></a>
+    <a href="#px-route-midi"><img src="./assets/devices/PX_Route_MIDI_v1.webp" width="62"/></a>
   </div>
   <div style="display:flex; gap:16px; justify-content:space-between;">
-    <a href="#px-fx-color"><img src="./assets/devices/PX_FX_Color_(hue)_v1.webp" width="319"/></a>
-    <a href="#px-in-text"><img src="./assets/devices/PX_IN_Text_(expanded)_v1.webp" width="176"/></a>
-    <a href="#px-mix-channel"><img src="./assets/devices/PX_Mix_Channel_v1.webp" width="91"/></a>
-    <a href="#px-in-channel"><img src="./assets/devices/PX_IN_Channel_v1.webp" width="91"/></a>
-    <a href="#px-fx-convert"><img src="./assets/devices/PX_FX_Convert_v1.webp" width="91"/></a>
-    <a href="#px-world"><img src="./assets/devices/PX_World_(mad_world)_v1.webp" width="81"/></a>
+    <a href="#px-fx-color"><img src="./assets/devices/PX_FX_Color_(hue)_v1.webp" width="270"/></a>
+    <a href="#px-in-text"><img src="./assets/devices/PX_IN_Text_(expanded)_v1.webp" width="149"/></a>
+    <a href="#px-mix-channel"><img src="./assets/devices/PX_Mix_Channel_v1.webp" width="77"/></a>
+    <a href="#px-in-channel"><img src="./assets/devices/PX_IN_Channel_v1.webp" width="77"/></a>
+    <a href="#px-fx-convert"><img src="./assets/devices/PX_FX_Convert_v1.webp" width="77"/></a>
+    <a href="#px-world"><img src="./assets/devices/PX_World_(mad_world)_v1.webp" width="69"/></a>
   </div>
   <div style="display:flex; gap:16px; justify-content:space-between;">
-    <a href="#px-shader"><img src="./assets/devices/PX_Shader_v1.webp" width="281"/></a>
-    <a href="#px-shader"><img src="./assets/devices/PX_Shader_(types)_v1.webp" width="194"/></a>
-    <a href="#px-mix-dry"><img src="./assets/devices/PX_Mix_Dry_v1.webp" width="91"/></a>
-    <a href="#px-in-svg"><img src="./assets/devices/PX_IN_SVG_v1.webp" width="91"/></a>
-    <a href="#px-fx-kaleidoscope"><img src="./assets/devices/PX_FX_Kaleidoscope_v1.webp" width="91"/></a>
-    <a href="#dev-console"><img src="./assets/devices/DEV_Console_v1.webp" width="91"/></a>
+    <a href="#px-shader"><img src="./assets/devices/PX_Shader_v1.webp" width="238"/></a>
+    <a href="#px-shader"><img src="./assets/devices/PX_Shader_(types)_v1.webp" width="164"/></a>
+    <a href="#px-mix-dry"><img src="./assets/devices/PX_Mix_Dry_v1.webp" width="77"/></a>
+    <a href="#px-in-svg"><img src="./assets/devices/PX_IN_SVG_v1.webp" width="77"/></a>
+    <a href="#px-fx-kaleidoscope"><img src="./assets/devices/PX_FX_Kaleidoscope_v1.webp" width="77"/></a>
+    <a href="#dev-console"><img src="./assets/devices/DEV_Console_v1.webp" width="77"/></a>
   </div>
   <div style="display:flex; gap:16px; justify-content:space-between;">
-    <a href="#px-mix-view"><img src="./assets/devices/PX_Mix_View_v1.webp" width="222"/></a>
-    <a href="#px-fx-color"><img src="./assets/devices/PX_FX_Color_(gamma)_v1.webp" width="204"/></a>
-    <a href="#px-transform"><img src="./assets/devices/PX_Transform_v1.webp" width="91"/></a>
-    <a href="#px-in-syphon"><img src="./assets/devices/PX_IN_Syphon_v1.webp" width="91"/></a>
-    <a href="#px-fx-pass"><img src="./assets/devices/PX_FX_Pass_v1.webp" width="91"/></a>
-    <a href="#px-fx-blur"><img src="./assets/devices/PX_FX_Blur_v1.webp" width="91"/></a>
-    <a href="#px-route-midi"><img src="./assets/devices/PX_Route_MIDI_(linked)_v1.webp" width="73"/></a>
+    <a href="#px-mix-view"><img src="./assets/devices/PX_Mix_View_v1.webp" width="188"/></a>
+    <a href="#px-fx-color"><img src="./assets/devices/PX_FX_Color_(gamma)_v1.webp" width="172"/></a>
+    <a href="#px-transform"><img src="./assets/devices/PX_Transform_v1.webp" width="77"/></a>
+    <a href="#px-in-syphon"><img src="./assets/devices/PX_IN_Syphon_v1.webp" width="77"/></a>
+    <a href="#px-fx-pass"><img src="./assets/devices/PX_FX_Pass_v1.webp" width="77"/></a>
+    <a href="#px-fx-blur"><img src="./assets/devices/PX_FX_Blur_v1.webp" width="77"/></a>
+    <a href="#px-route-midi"><img src="./assets/devices/PX_Route_MIDI_(linked)_v1.webp" width="62"/></a>
   </div>
   <div style="display:flex; gap:16px; justify-content:space-between;">
-    <a href="#px-fx-color"><img src="./assets/devices/PX_FX_Color_v1.webp" width="213"/></a>
-    <a href="#px-in-cos-pattern"><img src="./assets/devices/PX_IN_Cos_Pattern_v1.webp" width="212"/></a>
-    <a href="#px-fx-colorize"><img src="./assets/devices/PX_FX_Colorize_v1.webp" width="148"/></a>
-    <a href="#px-in-mix"><img src="./assets/devices/PX_IN_Mix_v1.webp" width="91"/></a>
-    <a href="#px-fx-delay"><img src="./assets/devices/PX_FX_Delay_v1.webp" width="91"/></a>
-    <a href="#px-world"><img src="./assets/devices/PX_World_v1.webp" width="81"/></a>
-    <a href="#px-route-audio"><img src="./assets/devices/PX_Route_Audio_v1.webp" width="73"/></a>
+    <a href="#px-fx-color"><img src="./assets/devices/PX_FX_Color_v1.webp" width="180"/></a>
+    <a href="#px-in-cos-pattern"><img src="./assets/devices/PX_IN_Cos_Pattern_v1.webp" width="180"/></a>
+    <a href="#px-fx-colorize"><img src="./assets/devices/PX_FX_Colorize_v1.webp" width="125"/></a>
+    <a href="#px-in-mix"><img src="./assets/devices/PX_IN_Mix_v1.webp" width="77"/></a>
+    <a href="#px-fx-delay"><img src="./assets/devices/PX_FX_Delay_v1.webp" width="77"/></a>
+    <a href="#px-world"><img src="./assets/devices/PX_World_v1.webp" width="69"/></a>
+    <a href="#px-route-audio"><img src="./assets/devices/PX_Route_Audio_v1.webp" width="62"/></a>
   </div>
 </div>
 
