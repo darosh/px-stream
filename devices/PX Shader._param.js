@@ -14,7 +14,6 @@ const extra = {
 }
 
 function anything () {
-
   const d = new Dict(arguments[0])
 
   const keys = d.getkeys()
@@ -67,11 +66,17 @@ function anything () {
 
     for (const m of ms) {
       o[k][m] = p.get(m)
+      // post('o[k][m]: ' + [k, m] + ': ' + JSON.stringify(o[k][m])  + '\n')
+    }
+    
+    if (o[k]?.values) {
+      o[k].min = Math.min(...o[k].values)
+      o[k].max = Math.max(...o[k].values)
     }
 
     o[k].min = o[k].min ?? 0
     o[k].max = o[k].max ?? 1.
-    o[k].default = o[k].default ?? 1.
+    o[k].default = o[k].default ?? o[k].max ?? 1.
     o[k].group = o[k].group ?? '_'
   }
 
