@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 82.0, 141.0, 498.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -260,7 +260,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 71.0, 141.0, 508.0 ],
+						"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 8.0, 8.0 ],
@@ -638,10 +638,10 @@
 									"presentation_rect" : [ 88.0, 391.0, 40.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.5 ],
+											"parameter_initial" : [ 0.1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.numbox[8]",
-											"parameter_mmax" : 1.0,
+											"parameter_mmax" : 0.5,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "live.numbox",
 											"parameter_type" : 0,
@@ -667,7 +667,7 @@
 									"presentation_rect" : [ 88.0, 407.0, 40.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.5 ],
+											"parameter_initial" : [ 0.1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.numbox[33]",
 											"parameter_mmax" : 1.0,
@@ -1079,15 +1079,14 @@
 									"presentation_rect" : [ 52.0, 263.0, 40.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0 ],
+											"parameter_initial" : [ 0.5 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.numbox[27]",
-											"parameter_mmax" : 32.0,
-											"parameter_mmin" : 1.0,
+											"parameter_mmax" : 1.0,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "live.numbox",
-											"parameter_type" : 1,
-											"parameter_unitstyle" : 0
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 1
 										}
 
 									}
@@ -1296,8 +1295,7 @@
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.numbox[22]",
-											"parameter_mmax" : 2.0,
-											"parameter_mmin" : -2.0,
+											"parameter_mmax" : 1.0,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "live.numbox",
 											"parameter_type" : 0,
@@ -1323,10 +1321,10 @@
 									"presentation_rect" : [ 52.0, 279.0, 40.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0 ],
+											"parameter_initial" : [ 0.1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.numbox[16]",
-											"parameter_mmax" : 1.0,
+											"parameter_mmax" : 0.5,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "live.numbox",
 											"parameter_type" : 0,
@@ -2975,8 +2973,7 @@
 
 					}
 ,
-					"text" : "PX Stream by darosh\nhttps://github.com/darosh/px-stream",
-					"textcolor" : [ 0.882352941176471, 0.882352941176471, 0.882352941176471, 1.0 ]
+					"text" : "PX Stream by darosh\nhttps://github.com/darosh/px-stream"
 				}
 
 			}
