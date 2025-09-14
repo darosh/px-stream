@@ -1709,16 +1709,16 @@
 			}
 , 			{
 				"box" : 				{
-					"filename" : "PX._colorize_oklab_jxs",
+					"filename" : "PX._colorize_oklab.jxs",
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 280.0, 224.0, 270.0, 22.0 ],
-					"text" : "jit.gl.slab px-stream @file PX._colorize_oklab_jxs",
+					"text" : "jit.gl.slab px-stream @file PX._colorize_oklab.jxs",
 					"textfile" : 					{
-						"filename" : "PX._colorize_oklab_jxs",
+						"filename" : "PX._colorize_oklab.jxs",
 						"flags" : 0,
 						"embed" : 0,
 						"autowatch" : 1

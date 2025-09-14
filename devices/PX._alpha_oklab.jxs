@@ -111,6 +111,6 @@ void main() {
 }
 ]]>
         </program>
-        <program name="fp" type="fragment" source="PX._alpha_oklab_fp.glsl"/>
+        <program name="fp" type="fragment" source="PX._alpha_oklab.fp.glsl"/>
     </language>
 </jittershader>
