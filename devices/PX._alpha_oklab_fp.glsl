@@ -1,3 +1,6 @@
+// OKLAB Alpha Generation and Manipulation Fragment Shader
+// Based on colorize device - reusing OKLAB functions and mapping system
+
 varying vec2 texcoord0;
 uniform sampler2DRect tex0;
 
@@ -12,7 +15,7 @@ uniform float hue_tolerance;
 uniform float global_tolerance;
 uniform float chroma_fade;
 
-// Mapping-Based Alpha
+// Mapping-Based Alpha (from colorize device)
 uniform int mapping_mode;
 uniform float range_min;
 uniform float range_max;
@@ -51,59 +54,62 @@ uniform int output_mode;
 uniform int preview_mode;
 uniform float mix_amount;
 
-// OKLAB conversion functions
-vec3 rgb_to_oklab(vec3 rgb) {
-    // Linear RGB to LMS
-    mat3 rgb_to_lms = mat3(
-    0.4122214708, 0.5363325363, 0.0514459929,
-    0.2119034982, 0.6806995451, 0.1073969566,
-    0.0883024619, 0.2817188376, 0.6299787005
-    );
-
-    vec3 lms = rgb_to_lms * rgb;
-    lms = sign(lms) * pow(abs(lms), vec3(1.0/3.0));
-
-    // LMS to OKLAB
-    mat3 lms_to_oklab = mat3(
-    0.2104542553, 0.7936177850, -0.0040720468,
-    1.9779984951, -2.4285922050, 0.4505937099,
-    0.0259040371, 0.7827717662, -0.8086757660
-    );
-
-    return lms_to_oklab * lms;
+// OKLAB conversion functions (copied from colorize device)
+vec3 srgb_to_linear(vec3 c) {
+    return mix(c / 12.92, pow((c + 0.055) / 1.055, vec3(2.4)), step(0.04045, c));
 }
 
-vec3 oklab_to_rgb(vec3 oklab) {
-    // OKLAB to LMS
-    mat3 oklab_to_lms = mat3(
-    1.0, 0.3963377774, 0.2158037573,
-    1.0, -0.1055613458, -0.0638541728,
-    1.0, -0.0894841775, -1.2914855480
-    );
-
-    vec3 lms = oklab_to_lms * oklab;
-    lms = lms * lms * lms;
-
-    // LMS to RGB
-    mat3 lms_to_rgb = mat3(
-    4.0767416621, -3.3077115913, 0.2309699292,
-    -1.2684380046, 2.6097574011, -0.3413193965,
-    -0.0041960863, -0.7034186147, 1.7076147010
-    );
-
-    return lms_to_rgb * lms;
+vec3 linear_to_srgb(vec3 c) {
+    return mix(12.92 * c, 1.055 * pow(c, vec3(1.0/2.4)) - 0.055, step(0.0031308, c));
 }
 
-// Normalize OKLAB to 0-1 range for processing
-vec3 normalizeRange(vec3 oklab_color) {
+float cbrtf(float v) {
+    return pow(v, 1./3.);
+}
+
+vec3 normalizeRange(vec3 value) {
+    vec3 minVal = vec3(0., -1.838, -0.450);
+    vec3 maxVal = vec3(1.004, 1.253, 0.264);
+    return (value - minVal) / (maxVal - minVal);
+}
+
+vec3 rgb2oklab(vec3 c) {
+    c = srgb_to_linear(c);
+
+    float l = 0.4122214708 * c.r + 0.5363325363 * c.g + 0.0514459929 * c.b;
+    float m = 0.2119034982 * c.r + 0.6806995451 * c.g + 0.1073969566 * c.b;
+    float s = 0.0883024619 * c.r + 0.2817188376 * c.g + 0.6299787005 * c.b;
+
+    float l_ = cbrtf(l);
+    float m_ = cbrtf(m);
+    float s_ = cbrtf(s);
+
     return vec3(
-    oklab_color.r,
-    (oklab_color.g + 0.4) / 0.8,
-    (oklab_color.b + 0.4) / 0.8
+    0.2104542553*l_ + 0.7936177850*m_ - 0.0040720468*s_,
+    1.9779984951*l_ - 2.4285922050*m_ + 0.4505937099*s_,
+    0.0259040371*l_ + 0.7827717662*m_ - 0.8086757660*s_
     );
 }
 
-// Get mapping value (reused from colorize device)
+vec3 oklab2rgb(vec3 c) {
+    float l_ = c.r + 0.3963377774 * c.g + 0.2158037573 * c.b;
+    float m_ = c.r - 0.1055613458 * c.g - 0.0638541728 * c.b;
+    float s_ = c.r - 0.0894841775 * c.g - 1.2914855480 * c.b;
+
+    float l = l_*l_*l_;
+    float m = m_*m_*m_;
+    float s = s_*s_*s_;
+
+    vec3 rgb = vec3(
+    4.0767416621 * l - 3.3077115913 * m + 0.2309699292 * s,
+    -1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * s,
+    -0.0041960863 * l - 0.7034186147 * m + 1.7076147010 * s
+    );
+
+    return linear_to_srgb(rgb);
+}
+
+// Mapping function (exact copy from colorize device)
 float get_mapping_value(vec3 input_oklab, vec3 original_rgb) {
     float value = 0.0;
 
@@ -140,15 +146,18 @@ float get_mapping_value(vec3 input_oklab, vec3 original_rgb) {
 
     // Map to range
     value = (value - range_min) / (range_max - range_min);
+
     value += mapping_phase;
     value *= mapping_scale;
 
     if (mapping_mirror == 1) {
         float segment = floor(value);
         float local_pos = value - segment;
+
         if (int(segment) % 2 == 1) {
             local_pos = 1.0 - local_pos;
         }
+
         value = local_pos;
     } else {
         value = fract(value);
@@ -187,34 +196,16 @@ float chroma_key_oklab(vec3 input_oklab, vec3 target_oklab) {
     return max(l_alpha, max(c_alpha, h_alpha));
 }
 
-// Simple single-pass smoothing (box filter approximation)
-float smooth_alpha(float alpha, vec2 coord) {
-    if (alpha_smooth <= 0.0) return alpha;
-
-    float smoothed = alpha;
-    float weight = 1.0;
-    float radius = alpha_smooth * 2.0;
-
-    // 4-tap cross pattern for efficiency
-    smoothed += texture2DRect(tex0, coord + vec2(radius, 0.0)).a;
-    smoothed += texture2DRect(tex0, coord + vec2(-radius, 0.0)).a;
-    smoothed += texture2DRect(tex0, coord + vec2(0.0, radius)).a;
-    smoothed += texture2DRect(tex0, coord + vec2(0.0, -radius)).a;
-    weight += 4.0;
-
-    return smoothed / weight;
-}
-
 void main() {
     vec4 input_color = texture2DRect(tex0, texcoord0);
-    vec3 oklab_color = rgb_to_oklab(input_color.rgb);
+    vec3 oklab_color = rgb2oklab(input_color.rgb);
 
     float generated_alpha = 0.0;
 
     // Alpha Generation Switch
     if (alpha_mode == 0) {
         // Chroma Key
-        vec3 target_oklab = rgb_to_oklab(target_color);
+        vec3 target_oklab = rgb2oklab(target_color);
         generated_alpha = chroma_key_oklab(oklab_color, target_oklab);
     }
     else if (alpha_mode == 1) {
@@ -233,7 +224,7 @@ void main() {
         // Color Distance
         float dist;
         if (use_oklab_distance == 1) {
-            vec3 target_oklab = rgb_to_oklab(distance_color);
+            vec3 target_oklab = rgb2oklab(distance_color);
             dist = length(oklab_color - target_oklab);
         } else {
             dist = length(input_color.rgb - distance_color);
@@ -256,7 +247,23 @@ void main() {
         generated_alpha = floor(generated_alpha * alpha_quantize) / alpha_quantize;
     }
 
-    // Note: Smoothing would require multiple passes, skipped for single-pass efficiency
+    // Simple smoothing (single-pass cross pattern)
+    if (alpha_smooth > 0.0) {
+        float smoothed = generated_alpha;
+        float weight = 1.0;
+        float radius = alpha_smooth * 2.0;
+
+        // Get alpha from neighboring pixels - limitation: uses source alpha, not recalculated
+        vec4 right = texture2DRect(tex0, texcoord0 + vec2(radius, 0.0));
+        vec4 left = texture2DRect(tex0, texcoord0 + vec2(-radius, 0.0));
+        vec4 up = texture2DRect(tex0, texcoord0 + vec2(0.0, radius));
+        vec4 down = texture2DRect(tex0, texcoord0 + vec2(0.0, -radius));
+
+        smoothed += right.a + left.a + up.a + down.a;
+        weight += 4.0;
+
+        generated_alpha = smoothed / weight;
+    }
 
     if (hard_cutoff == 1) {
         generated_alpha = (generated_alpha >= cutoff_threshold) ? 1.0 : 0.0;
