@@ -20,6 +20,7 @@
     "lint:maxpat:fix:layout": "eslint ./devices/*.maxpat --fix --fix-type layout",
     "lint:maxpat:info": "eslint ./devices/*.maxpat --format node_modules/eslint-plugin-maxpat/lib/formatter.js",
     "screenshots": "rm -f ./assets/devices/*.webp && node ./scripts/screenshots.js",
+    "measure": "node ./scripts/meausures.js",
     "screenshots:animated": "node ./scripts/screenshots.animated.js"
   },
   "type": "module"
