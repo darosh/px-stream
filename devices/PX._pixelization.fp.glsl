@@ -6,7 +6,6 @@ uniform sampler2DRect tex1;// freeze buffer
 // Resolution
 uniform float resolution_x;
 uniform float resolution_y;
-uniform int resolution_link;
 
 // Shape
 uniform int shape_type;
@@ -209,9 +208,10 @@ void main() {
     vec2 uv = texcoord0 / texdim0;
     vec4 original = texture2DRect(tex0, texcoord0);
 
-    // Calculate pixel grid resolution
-    float res_x = resolution_x;
-    float res_y = resolution_link == 1 ? resolution_x : resolution_y;
+    // Calculate pixel grid resolution with aspect ratio correction
+    vec2 aspect = texdim0 / max(texdim0.x, texdim0.y);// normalize to longer dimension
+    float res_x = resolution_x / aspect.x;// scale by aspect ratio
+    float res_y = resolution_y / aspect.y;// scale by aspect ratio
 
     // Apply mapping-based resolution modulation if enabled
     if (use_mapping == 1) {
@@ -314,7 +314,7 @@ void main() {
         }
 
         // Apply shape mask
-        final_color = mix(original.rgb, final_color, shape_mask);
+        final_color = mix(vec3(0), final_color, shape_mask);
     }
 
     // Temporal freezing (simplified implementation)
