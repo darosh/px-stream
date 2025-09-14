@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 82.0, 141.0, 498.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -260,7 +260,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 71.0, 585.0, 508.0 ],
+						"rect" : [ 33.0, 71.0, 141.0, 508.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 8.0, 8.0 ],
@@ -826,10 +826,10 @@
 									"presentation_rect" : [ 88.0, 7.0, 40.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.5 ],
+											"parameter_initial" : [ 0.1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.numbox[28]",
-											"parameter_mmax" : 1.0,
+											"parameter_mmax" : 0.5,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "live.numbox",
 											"parameter_type" : 0,
@@ -855,10 +855,10 @@
 									"presentation_rect" : [ 88.0, 71.0, 40.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.0 ],
+											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.numbox[21]",
-											"parameter_mmax" : 2.0,
+											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "live.numbox",
 											"parameter_type" : 0,
@@ -884,10 +884,10 @@
 									"presentation_rect" : [ 88.0, 55.0, 40.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.0 ],
+											"parameter_initial" : [ 0.1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.numbox[3]",
-											"parameter_mmax" : 2.0,
+											"parameter_mmax" : 1.0,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "live.numbox",
 											"parameter_type" : 0,
@@ -1352,10 +1352,10 @@
 									"presentation_rect" : [ 88.0, 39.0, 40.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.0 ],
+											"parameter_initial" : [ 0.2 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.numbox[15]",
-											"parameter_mmax" : 2.0,
+											"parameter_mmax" : 1.0,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "live.numbox",
 											"parameter_type" : 0,
@@ -1381,7 +1381,7 @@
 									"presentation_rect" : [ 88.0, 23.0, 40.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.5 ],
+											"parameter_initial" : [ 0.1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.numbox[14]",
 											"parameter_mmax" : 1.0,
@@ -2368,6 +2368,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "1" ],
+							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.text[12]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -2410,10 +2412,10 @@
 					"presentation_rect" : [ 134.0, 39.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0.5 ],
+							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[4]",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 2.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -2439,10 +2441,10 @@
 					"presentation_rect" : [ 176.0, 39.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0.0 ],
+							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[5]",
-							"parameter_mmax" : 2.0,
+							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -2471,7 +2473,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[6]",
-							"parameter_mmax" : 2.0,
+							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -2500,7 +2502,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[7]",
-							"parameter_mmax" : 2.0,
+							"parameter_mmax" : 16.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -2526,10 +2528,10 @@
 					"presentation_rect" : [ 134.0, 71.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0.5 ],
+							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[29]",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 3.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -2612,6 +2614,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Normal", "Alpha", "Overlay" ],
+							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.menu[3]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
@@ -2680,6 +2684,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Replace", "Multiply", "Add", "Subtract" ],
+							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.menu[1]",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
@@ -2757,6 +2763,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "1" ],
+							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.text[9]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
