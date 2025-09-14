@@ -1,0 +1,122 @@
+<jittershader name="pixelization">
+    <description>Advanced Pixelization with OKLAB Support</description>
+    <param name="tex0" type="int" default="0"/>
+    <param name="tex1" type="int" default="1"/>  <!-- freeze buffer -->
+
+    <!-- Resolution Controls -->
+    <param name="resolution_x" type="float" default="0.02"/>    <!-- range: 0.001-1.0 (1.0 = single block) -->
+    <param name="resolution_y" type="float" default="0.02"/>    <!-- range: 0.001-1.0 (1.0 = single block) -->
+    <param name="resolution_link" type="int" default="1"/>      <!-- range: 0-1 -->
+
+    <!-- Shape Controls -->
+    <param name="shape_type" type="int" default="0"/>           <!-- range: 0-3 (Square, Circle, Triangle, Hexagon) -->
+    <param name="shape_rotation" type="float" default="0.0"/>   <!-- shape_type > 0, range: 0.0-360.0 -->
+    <param name="shape_scale" type="float" default="1.0"/>      <!-- shape_type > 0, range: 0.1-2.0 -->
+
+    <!-- Channel Displacement -->
+    <param name="displacement" type="float" default="0.0"/>     <!-- range: 0.0-1.0 -->
+    <param name="disp_distance" type="float" default="2.0"/>    <!-- displacement > 0, range: 0.0-10.0 -->
+    <param name="disp_angle" type="float" default="0.0"/>       <!-- displacement > 0, range: 0.0-360.0 -->
+    <param name="disp_r_phase" type="float" default="0.0"/>     <!-- displacement > 0, range: 0.0-360.0 -->
+    <param name="disp_g_phase" type="float" default="120.0"/>   <!-- displacement > 0, range: 0.0-360.0 -->
+    <param name="disp_b_phase" type="float" default="240.0"/>   <!-- displacement > 0, range: 0.0-360.0 -->
+
+    <!-- Edge Processing -->
+    <param name="smooth" type="float" default="0.0"/>           <!-- range: -1.0-1.0 -->
+    <param name="fade" type="float" default="0.5"/>             <!-- smooth != 0, range: 0.1-2.0 -->
+    <param name="edge_distortion" type="float" default="0.0"/>  <!-- range: 0.0-1.0 -->
+    <param name="distort_freq" type="float" default="4.0"/>     <!-- edge_distortion > 0, range: 1.0-20.0 -->
+
+    <!-- Color Processing -->
+    <param name="use_oklab" type="int" default="1"/>            <!-- range: 0-1 -->
+    <param name="posterize_levels" type="float" default="0.0"/> <!-- range: 0.0-32.0 -->
+    <param name="posterize_smooth" type="float" default="0.2"/> <!-- posterize_levels > 0, range: 0.0-1.0 -->
+    <param name="color_quantize" type="float" default="0.0"/>   <!-- range: 0.0-8.0 -->
+
+    <!-- Mapping-Based Resolution -->
+    <param name="use_mapping" type="int" default="0"/>          <!-- range: 0-1 -->
+    <param name="mapping_mode" type="int" default="0"/>         <!-- use_mapping == 1, range: 0-7 -->
+    <param name="mapping_intensity" type="float" default="0.5"/><!-- use_mapping == 1, range: 0.0-2.0 -->
+    <param name="mapping_invert" type="int" default="0"/>       <!-- use_mapping == 1, range: 0-1 -->
+
+    <!-- Temporal Freezing -->
+    <param name="freeze_enable" type="int" default="0"/>        <!-- range: 0-1 -->
+    <param name="freeze_probability" type="float" default="0.1"/><!-- freeze_enable == 1, range: 0.0-1.0 -->
+    <param name="freeze_duration" type="float" default="0.5"/>  <!-- freeze_enable == 1, range: 0.1-5.0 -->
+    <param name="freeze_pattern" type="int" default="0"/>       <!-- freeze_enable == 1, range: 0-2 (Random, Scanline, Grid) -->
+
+    <!-- Output Controls -->
+    <param name="mix_amount" type="float" default="1.0"/>       <!-- range: 0.0-1.0 -->
+    <param name="blend_mode" type="int" default="0"/>           <!-- range: 0-3 (Replace, Multiply, Add, Screen) -->
+    <param name="preview_mode" type="int" default="0"/>         <!-- range: 0-2 (Normal, Grid, Freeze Map) -->
+
+    <!-- Internal Time Parameter -->
+    <param name="time" type="float" default="0.0"/>
+
+    <language name="glsl" version="1.0">
+        <bind param="tex0" program="fp"/>
+        <bind param="tex1" program="fp"/>
+
+        <!-- Resolution -->
+        <bind param="resolution_x" program="fp"/>
+        <bind param="resolution_y" program="fp"/>
+        <bind param="resolution_link" program="fp"/>
+
+        <!-- Shape -->
+        <bind param="shape_type" program="fp"/>
+        <bind param="shape_rotation" program="fp"/>
+        <bind param="shape_scale" program="fp"/>
+
+        <!-- Displacement -->
+        <bind param="displacement" program="fp"/>
+        <bind param="disp_distance" program="fp"/>
+        <bind param="disp_angle" program="fp"/>
+        <bind param="disp_r_phase" program="fp"/>
+        <bind param="disp_g_phase" program="fp"/>
+        <bind param="disp_b_phase" program="fp"/>
+
+        <!-- Edge Processing -->
+        <bind param="smooth" program="fp"/>
+        <bind param="fade" program="fp"/>
+        <bind param="edge_distortion" program="fp"/>
+        <bind param="distort_freq" program="fp"/>
+
+        <!-- Color -->
+        <bind param="use_oklab" program="fp"/>
+        <bind param="posterize_levels" program="fp"/>
+        <bind param="posterize_smooth" program="fp"/>
+        <bind param="color_quantize" program="fp"/>
+
+        <!-- Mapping -->
+        <bind param="use_mapping" program="fp"/>
+        <bind param="mapping_mode" program="fp"/>
+        <bind param="mapping_intensity" program="fp"/>
+        <bind param="mapping_invert" program="fp"/>
+
+        <!-- Temporal -->
+        <bind param="freeze_enable" program="fp"/>
+        <bind param="freeze_probability" program="fp"/>
+        <bind param="freeze_duration" program="fp"/>
+        <bind param="freeze_pattern" program="fp"/>
+
+        <!-- Output -->
+        <bind param="mix_amount" program="fp"/>
+        <bind param="blend_mode" program="fp"/>
+        <bind param="preview_mode" program="fp"/>
+        <bind param="time" program="fp"/>
+
+        <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2(textureSize2DRect(0));
+}
+]]>
+        </program>
+        <program name="fp" type="fragment" source="PX._pixelization.fp.glsl"/>
+    </language>
+</jittershader>
