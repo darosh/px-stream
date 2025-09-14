@@ -1,0 +1,116 @@
+<jittershader name="alpha_oklab">
+    <description>Alpha Generation and Manipulation</description>
+    <param name="tex0" type="int" default="0"/>
+
+    <!-- Alpha Generation Mode -->
+    <param name="alpha_mode" type="int" default="0"/>         <!-- range: 0-4 (Chroma Key, Mapping, Luminance, Color Distance, Channel Extract) -->
+
+    <!-- Chroma Key Settings -->
+    <param name="target_color" type="vec3" default="0.0 1.0 0.0"/>  <!-- alpha_mode == 0, range: 0.0-1.0 each component -->
+    <param name="chroma_tolerance" type="float" default="0.1"/>     <!-- alpha_mode == 0, range: 0.0-1.0 -->
+    <param name="lightness_tolerance" type="float" default="0.2"/>  <!-- alpha_mode == 0, range: 0.0-1.0 -->
+    <param name="hue_tolerance" type="float" default="0.1"/>        <!-- alpha_mode == 0, range: 0.0-1.0 -->
+    <param name="global_tolerance" type="float" default="1.0"/>     <!-- alpha_mode == 0, range: 0.1-3.0 -->
+    <param name="chroma_fade" type="float" default="0.1"/>          <!-- alpha_mode == 0, range: 0.0-0.5 -->
+    
+    <!-- Mapping-Based Alpha (reuse colorize mapping) -->
+    <param name="mapping_mode" type="int" default="3"/>        <!-- alpha_mode == 1, range: 0-7 -->
+    <param name="range_min" type="float" default="0.0"/>       <!-- alpha_mode == 1, range: 0.0-1.0 -->
+    <param name="range_max" type="float" default="1.0"/>       <!-- alpha_mode == 1, range: 0.0-1.0 -->
+    <param name="mapping_scale" type="float" default="1.0"/>   <!-- alpha_mode == 1, range: 0.1-10.0 -->
+    <param name="mapping_phase" type="float" default="0.0"/>   <!-- alpha_mode == 1, range: 0.0-1.0 -->
+    <param name="mapping_mirror" type="int" default="0"/>      <!-- alpha_mode == 1, range: 0-1 -->
+    <param name="invert_mapping" type="int" default="0"/>      <!-- alpha_mode == 1, range: 0-1 -->
+    
+    <!-- Luminance Threshold -->
+    <param name="luma_threshold" type="float" default="0.5"/>  <!-- alpha_mode == 2, range: 0.0-1.0 -->
+    <param name="luma_fade" type="float" default="0.1"/>       <!-- alpha_mode == 2, range: 0.0-0.5 -->
+    <param name="luma_invert" type="int" default="0"/>         <!-- alpha_mode == 2, range: 0-1 -->
+    
+    <!-- Color Distance -->
+    <param name="distance_color" type="vec3" default="0.5 0.5 0.5"/> <!-- alpha_mode == 3, range: 0.0-1.0 each component -->
+    <param name="distance_threshold" type="float" default="0.3"/>    <!-- alpha_mode == 3, range: 0.0-1.0 -->
+    <param name="distance_fade" type="float" default="0.1"/>         <!-- alpha_mode == 3, range: 0.0-0.5 -->
+    <param name="use_oklab_distance" type="int" default="1"/>        <!-- alpha_mode == 3, range: 0-1 -->
+    
+    <!-- Channel Extraction -->
+    <param name="extract_channel" type="int" default="0"/>     <!-- alpha_mode == 4, range: 0-3 -->
+
+    <!-- Alpha Processing -->
+    <param name="alpha_invert" type="int" default="0"/>        <!-- range: 0-1 -->
+    <param name="alpha_multiply" type="float" default="1.0"/>  <!-- range: 0.0-2.0 -->
+    <param name="alpha_gamma" type="float" default="1.0"/>     <!-- range: 0.1-3.0 -->
+    <param name="alpha_quantize" type="float" default="0.0"/>  <!-- range: 0.0-16.0 -->
+    <param name="alpha_smooth" type="float" default="0.0"/>    <!-- range: 0.0-1.0 -->
+
+    <!-- Hard Cutoff -->
+    <param name="hard_cutoff" type="int" default="0"/>          <!-- range: 0-1 -->
+    <param name="cutoff_threshold" type="float" default="0.5"/> <!-- range: 0.0-1.0 -->
+
+    <!-- Output Options -->
+    <param name="output_mode" type="int" default="0"/>         <!-- range: 0-3 (Replace, Multiply, Add, Subtract) -->
+    <param name="preview_mode" type="int" default="0"/>        <!-- range: 0-2 (Normal, Alpha, Overlay) -->
+    <param name="mix_amount" type="float" default="1.0"/>      <!-- range: 0.0-1.0 -->
+
+    <language name="glsl" version="1.0">
+        <bind param="tex0" program="fp"/>
+        <bind param="alpha_mode" program="fp"/>
+
+        <!-- Chroma Key -->
+        <bind param="target_color" program="fp"/>
+        <bind param="chroma_tolerance" program="fp"/>
+        <bind param="lightness_tolerance" program="fp"/>
+        <bind param="hue_tolerance" program="fp"/>
+        <bind param="global_tolerance" program="fp"/>
+        <bind param="chroma_fade" program="fp"/>
+
+        <!-- Mapping -->
+        <bind param="mapping_mode" program="fp"/>
+        <bind param="range_min" program="fp"/>
+        <bind param="range_max" program="fp"/>
+        <bind param="mapping_scale" program="fp"/>
+        <bind param="mapping_phase" program="fp"/>
+        <bind param="mapping_mirror" program="fp"/>
+        <bind param="invert_mapping" program="fp"/>
+
+        <!-- Luminance -->
+        <bind param="luma_threshold" program="fp"/>
+        <bind param="luma_fade" program="fp"/>
+        <bind param="luma_invert" program="fp"/>
+
+        <!-- Color Distance -->
+        <bind param="distance_color" program="fp"/>
+        <bind param="distance_threshold" program="fp"/>
+        <bind param="distance_fade" program="fp"/>
+        <bind param="use_oklab_distance" program="fp"/>
+
+        <!-- Channel Extract -->
+        <bind param="extract_channel" program="fp"/>
+
+        <!-- Processing -->
+        <bind param="alpha_invert" program="fp"/>
+        <bind param="alpha_multiply" program="fp"/>
+        <bind param="alpha_gamma" program="fp"/>
+        <bind param="alpha_quantize" program="fp"/>
+        <bind param="alpha_smooth" program="fp"/>
+        <bind param="hard_cutoff" program="fp"/>
+        <bind param="cutoff_threshold" program="fp"/>
+
+        <!-- Output -->
+        <bind param="output_mode" program="fp"/>
+        <bind param="preview_mode" program="fp"/>
+        <bind param="mix_amount" program="fp"/>
+
+        <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+}
+]]>
+        </program>
+        <program name="fp" type="fragment" source="PX._alpha_oklab_fp.glsl"/>
+    </language>
+</jittershader>
