@@ -4,8 +4,12 @@
     <param name="tex1" type="int" default="1"/>  <!-- freeze buffer -->
 
     <!-- Resolution Controls -->
-    <param name="resolution_x" type="float" default="0.02"/>    <!-- range: 0.001-1.0 (1.0 = single block) -->
-    <param name="resolution_y" type="float" default="0.02"/>    <!-- range: 0.001-1.0 (1.0 = single block) -->
+    <param name="resolution_x" type="float" default="0.03"/>    <!-- range: 0.001-1.0 (1.0 = single block) -->
+    <param name="resolution_y" type="float" default="0.03"/>    <!-- range: 0.001-1.0 (1.0 = single block) -->
+    <param name="grid_shift_x" type="float" default="0"/>       <!-- range: 0.0-1.0 -->
+    <param name="grid_shift_y" type="float" default="0"/>       <!-- range: 0.0-1.0 -->
+    <param name="grid_rotation" type="float" default="0"/>      <!-- range: 0.0-360.0 -->
+    <param name="grid_center" type="vec2" default="0.5 0.5"/>   <!-- range: 0.0-1.0 -->
 
     <!-- Shape Controls -->
     <param name="shape_type" type="int" default="0"/>           <!-- range: 0-3 (Square, Circle, Triangle, Hexagon) -->
@@ -59,7 +63,10 @@
         <!-- Resolution -->
         <bind param="resolution_x" program="fp"/>
         <bind param="resolution_y" program="fp"/>
-        <bind param="resolution_link" program="fp"/>
+        <bind param="grid_shift_x" program="fp"/>
+        <bind param="grid_shift_y" program="fp"/>
+        <bind param="grid_rotation" program="fp"/>
+        <bind param="grid_center" program="fp"/>
 
         <!-- Shape -->
         <bind param="shape_type" program="fp"/>
@@ -116,6 +123,6 @@ void main() {
 }
 ]]>
         </program>
-        <program name="fp" type="fragment" source="PX._pixelization.fp.glsl"/>
+        <program name="fp" type="fragment" source="PX._pixelization-simple.fp.glsl"/>
     </language>
 </jittershader>
