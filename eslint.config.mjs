@@ -23,6 +23,7 @@ export default defineConfig([{
       'presentation-precision': [1, 1],
       fix: true
     }],
+    'maxpat/layout/no-negative-patching': ['warn', { minimum: 0, fix: true }],
     'maxpat/layout/patching-overlaps': ['warn', {
       exceptions: [
         'panel', 'comment', 'bpatcher', 'inlet', 'outlet', 'fpic', 'umenu'
