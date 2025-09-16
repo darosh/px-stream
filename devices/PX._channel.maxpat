@@ -58,7 +58,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 660.0, 384.0, 42.0, 22.0 ],
+					"patching_rect" : [ 664.0, 384.0, 42.0, 22.0 ],
 					"text" : "switch"
 				}
 

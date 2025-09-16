@@ -26,7 +26,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 429.0, 53.0, 100.0, 50.0 ],
+					"patching_rect" : [ 432.0, 56.0, 100.0, 50.0 ],
 					"pic" : "PX._mov.svg",
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 49.0, 112.0, 64.0 ]

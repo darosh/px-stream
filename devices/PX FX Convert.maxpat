@@ -112,7 +112,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.0, 480.0, 84.0, 22.0 ],
+					"patching_rect" : [ 616.0, 480.0, 84.0, 22.0 ],
 					"text" : "cc.rgb2yuv.jxs"
 				}
 

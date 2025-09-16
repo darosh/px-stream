@@ -31,7 +31,7 @@ export default defineConfig([{
     }],
     'maxpat/layout/presentation-overlaps': ['warn', {
       exceptions: [
-        'panel', 'bpatcher', 'live.comment', 'comment', 'fpic', 'umenu'
+        'panel', 'bpatcher', 'live.comment', 'comment', 'fpic', 'umenu', 'live.slider'
       ],
       threshold: 1, // Precise for UI
     }],
@@ -49,7 +49,7 @@ export default defineConfig([{
     'maxpat/flow/disconnected': ['warn', {
       exclude: [
         'comment', 'panel', 'fpic', 'bpatcher',
-        'live.comment', 'live.banks'
+        'live.comment', 'live.banks', 'live.line'
       ]
     },],
     'maxpat/flow/local-send-receive': ['warn', {
