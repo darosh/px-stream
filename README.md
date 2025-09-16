@@ -93,7 +93,7 @@
         <a href="#fx-kaleidoscope">FX Kaleidoscope</a><br>
         <a href="#fx-pass">FX Pass</a><br>
         <a href="#fx-pixelization">FX Pixelization</a><br>
-        <a href="#fx-transform">Transform</a>
+        <a href="#fx-transform">FX Transform</a>
     </td>
     <td valign="top">
         <a href="#dev-info">DEV Info</a><br>
