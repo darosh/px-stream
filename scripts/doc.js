@@ -23,6 +23,15 @@ function imgSection (name) {
     .replace(/^px-fx/, 'fx')
 }
 
+function imgTitle (name) {
+  return path.parse(name).name
+    .replace(/_v\d+$/, '')
+    .replace(/_\(.+\)/, '')
+    .replaceAll('_', ' ')
+    .replace(/^px in/i, 'IN')
+    .replace(/^px fx/i, 'FX')
+}
+
 async function createCollage () {
   // Get images
   const files = glob.sync(inputPattern)
@@ -139,8 +148,9 @@ async function createCollage () {
     html.push(`  <div>`)
     row.forEach((img, i) => {
       const scaledWidth = Math.round(img.width * scaleFactor)
+      const title = imgTitle(img.name)
       html.push(
-        `    <a href="#${imgSection(img.name)}"><img src="./${path.join('assets', 'devices', img.name)}" width="${scaledWidth}"/></a>`
+        `    <a href="#${imgSection(img.name)}"><img src="./${path.join('assets', 'devices', img.name)}" title="${title}" width="${scaledWidth}"/></a>`
       )
     })
     html.push('  </div>')
