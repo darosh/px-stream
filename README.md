@@ -92,7 +92,7 @@
         <a href="#fx-convert">FX Convert</a><br>
         <a href="#fx-delay">FX Delay</a><br>
         <a href="#fx-kaleidoscope">FX Kaleidoscope</a><br>
-        <a href="#fx-pass">FX Pass</a>
+        <a href="#fx-pass">FX Pass</a><br>
         <a href="#fx-pixelization">FX Pixelization</a>
     </td>
     <td valign="top">
