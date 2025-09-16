@@ -61,6 +61,13 @@ async function createCollage () {
 
   const totalHeight = rows * rowHeight + (rows - 1) * spacing
 
+  for (const row of rowImages) {
+    const index = (rowImages.indexOf(row) % 2 === 0) * 1;
+    const pick = row[index]
+    row.splice(index, 1)
+    row.push(pick)
+  }
+  
   // Prepare sharp composites and layout data for HTML
   const composites = []
   const layout = []

@@ -21,12 +21,59 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 888.0, 184.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 824.0, 184.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 760.0, 184.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 936.0, 272.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 888.0, 176.0, 22.0, 22.0 ],
+					"patching_rect" : [ 888.0, 216.0, 22.0, 22.0 ],
 					"text" : "t 3"
 				}
 
@@ -38,7 +85,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 888.0, 136.0, 50.0, 22.0 ],
+					"patching_rect" : [ 888.0, 152.0, 50.0, 22.0 ],
 					"text" : "select 1"
 				}
 
@@ -112,7 +159,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.0, 224.0, 248.0, 35.0 ],
+					"patching_rect" : [ 432.0, 256.0, 248.0, 35.0 ],
 					"text" : "expr 0 + ($i1 == 1) * 0 + ($i1 == 2) * -200 + ($i1 == 3) * -400 + ($i1 == 0) * -600"
 				}
 
@@ -124,7 +171,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.0, 272.0, 64.0, 22.0 ],
+					"patching_rect" : [ 432.0, 304.0, 64.0, 22.0 ],
 					"text" : "offset 0 $1"
 				}
 
@@ -136,7 +183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.0, 312.0, 163.0, 22.0 ],
+					"patching_rect" : [ 432.0, 344.0, 163.0, 22.0 ],
 					"text" : "prepend script send colorTab"
 				}
 
@@ -148,7 +195,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 432.0, 352.0, 67.0, 22.0 ],
+					"patching_rect" : [ 432.0, 384.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -161,7 +208,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 824.0, 176.0, 22.0, 22.0 ],
+					"patching_rect" : [ 824.0, 216.0, 22.0, 22.0 ],
 					"text" : "t 2"
 				}
 
@@ -173,7 +220,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 760.0, 176.0, 22.0, 22.0 ],
+					"patching_rect" : [ 760.0, 216.0, 22.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -185,7 +232,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 824.0, 136.0, 50.0, 22.0 ],
+					"patching_rect" : [ 824.0, 152.0, 50.0, 22.0 ],
 					"text" : "select 1"
 				}
 
@@ -197,7 +244,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 760.0, 136.0, 50.0, 22.0 ],
+					"patching_rect" : [ 760.0, 152.0, 50.0, 22.0 ],
 					"text" : "select 1"
 				}
 
@@ -209,7 +256,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 696.0, 176.0, 22.0, 22.0 ],
+					"patching_rect" : [ 696.0, 216.0, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -221,7 +268,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 696.0, 136.0, 50.0, 22.0 ],
+					"patching_rect" : [ 696.0, 152.0, 50.0, 22.0 ],
 					"text" : "select 0"
 				}
 
@@ -4043,7 +4090,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 696.0, 272.0, 344.0, 22.0 ],
+					"patching_rect" : [ 696.0, 304.0, 344.0, 22.0 ],
 					"text" : "expr 130 + ($i1 == 1) * 186 + ($i1 == 2) * 172 + ($i1 == 3) * 348"
 				}
 
@@ -4366,7 +4413,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 696.0, 312.0, 69.0, 22.0 ],
+					"patching_rect" : [ 696.0, 344.0, 69.0, 22.0 ],
 					"text" : "setwidth $1"
 				}
 
@@ -4378,7 +4425,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "int", "int" ],
-					"patching_rect" : [ 696.0, 352.0, 83.0, 22.0 ],
+					"patching_rect" : [ 696.0, 384.0, 83.0, 22.0 ],
 					"text" : "live.thisdevice"
 				}
 
@@ -4863,14 +4910,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
+					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
+					"destination" : [ "obj-54", 0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -5057,7 +5104,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
+					"destination" : [ "obj-55", 0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -5096,6 +5143,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}
@@ -5218,20 +5286,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "PX._color_line.svg",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "PX._color_wheel_cut.svg",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "PX._chain.js",
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
@@ -5250,6 +5304,20 @@
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._color_line.svg",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._color_wheel_cut.svg",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
 				"implicit" : 1
 			}
  ],
