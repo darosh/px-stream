@@ -11,25 +11,19 @@
 - [ ] doc console font, brew install --cask font-cascadia-code
 - [ ] doc https://syphon.info/recorder.html
 - [ ] sdk?
-- [ ] img alt
 - [ ] param doc / mass edit
 - [ ] FX preview, animation
 
 ## Misc
 
 - [ ] disable unused chains?
-- [ ] automate batch freeze?
 - [ ] If parameter automation causes high CPU load, try enabling Defer Automation Output in the object Inspector,
   or try higher values for the Update Limit.
-- [ ] mid/side something?
 - [ ] check texture float 32
 - [ ] check fx (pass) quality param
 - [ ] restore session params and automation
 - [ ] disable dynamic live.menu automation
-- [ ] remove the silly cam & syphon icons, replace with dims and activity
-- [ ] check negative values parsing in eslint
-- [ ] transform is FX?
-- [ ] add DEV to doc
+- [ ] disable irrelevant params
 
 ## Devices
 
@@ -40,6 +34,7 @@
   - [ ] /Applications/Max.app/Contents/Resources/C74/media/demos/max9-geom-demo.maxpat
 - [ ] inline preview device
 - [ ] oklab blend? color adjustment?
+- [ ] sky box?
 
 ### DEV
 
@@ -149,6 +144,12 @@
 
 ## Done
 
+- [x] automate batch freeze?
+- [x] remove the silly cam & syphon icons, replace with dims and activity
+- [x] check negative values parsing in eslint
+- [x] add DEV to doc
+- [x] transform is FX?
+- [x] img alt
 - [x] ~~video rate LFO?~~
 - [x] texture (feedback?) delay
 - [x] colorize?
