@@ -18,7 +18,7 @@
   </div>
   <div>
     <a href="#fx-pixelization"><img src="./assets/devices/PX_FX_Pixelization_v1.webp" width="142"/></a>
-    <a href="#px-transform"><img src="./assets/devices/PX_Transform_v1.webp" width="72"/></a>
+    <a href="#fx-transform"><img src="./assets/devices/PX_FX_Transform_v1.webp" width="72"/></a>
     <a href="#in-text"><img src="./assets/devices/PX_IN_Text_v1.webp" width="72"/></a>
     <a href="#in-jpg"><img src="./assets/devices/PX_IN_JPG_v1.webp" width="72"/></a>
     <a href="#fx-delay"><img src="./assets/devices/PX_FX_Delay_v1.webp" width="72"/></a>
@@ -68,10 +68,9 @@
         <a href="#px-mix-view">Mix View</a><br>
         <a href="#px-mix_channel">Mix Channel</a><br>
         <a href="#px-mix-dry">Mix Dry</a><br>
-        <a href="#px-shader">Shader</a><br>
-        <a href="#px-transform">Transform</a><br>
         <a href="#px-route-audio">Route Audio</a><br>
-        <a href="#px-route-midi">Route MIDI</a>
+        <a href="#px-route-midi">Route MIDI</a><br>
+        <a href="#px-shader">Shader</a>
     </td>
     <td valign="top">
         <a href="#in-text">IN Text</a><br>
@@ -93,7 +92,8 @@
         <a href="#fx-delay">FX Delay</a><br>
         <a href="#fx-kaleidoscope">FX Kaleidoscope</a><br>
         <a href="#fx-pass">FX Pass</a><br>
-        <a href="#fx-pixelization">FX Pixelization</a>
+        <a href="#fx-pixelization">FX Pixelization</a><br>
+        <a href="#fx-transform">Transform</a>
     </td>
     <td valign="top">
         <a href="#dev-info">DEV Info</a><br>
@@ -123,10 +123,6 @@
 
 ![PX Shader](assets/devices/PX_Shader_v1.webp)
 ![PX Shader](assets/devices/PX_Shader_(types)_v1.webp)
-
-### PX Transform
-
-![PX Transform](assets/devices/PX_Transform_v1.webp)
 
 ### PX Route Audio
 
@@ -212,6 +208,10 @@
 ### FX Pixelization
 
 ![PX FX Pixelization](assets/devices/PX_FX_Pixelization_v1.webp)
+
+### PX FX Transform
+
+![PX FX Transform](assets/devices/PX_FX_Transform_v1.webp)
 
 ### DEV Info
 
