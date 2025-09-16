@@ -111,7 +111,7 @@
 ![PX Mix View](assets/devices/PX_Mix_View_v1.webp)
 ![PX Mix View](assets/devices/PX_Mix_View_(expanded)_v1.webp)
 
-### PX Mix_Channel
+### PX Mix Channel
 
 ![PX Mix Channel](assets/devices/PX_Mix_Channel_v1.webp)
 
