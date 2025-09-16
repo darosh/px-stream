@@ -12,6 +12,8 @@
 - [ ] doc https://syphon.info/recorder.html
 - [ ] sdk?
 - [ ] img alt
+- [ ] param doc / mass edit
+- [ ] FX preview, animation
 
 ## Misc
 
