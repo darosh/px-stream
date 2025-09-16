@@ -297,6 +297,12 @@ vec3 pixel_to_grid(vec2 uv, vec2 size) {
     float inside = 0.0;
     norm_pos = rotate_point(norm_pos, radians(shape_rotation));
 
+    if (edge_distortion > 0.0) {
+        float distort = sin(norm_pos.x * distort_freq * 6.28318) * sin(norm_pos.y * distort_freq * 6.28318);
+        distort *= edge_distortion;
+        norm_pos += distort;
+    }
+
     if (shape_type == 0) { // Square
         if (shape_scale == 1.) {
             inside = 1.;
@@ -392,11 +398,11 @@ void main() {
         gl_FragColor = vec4(color, 1.);
     } else {
         vec3 pixel_color;
-
+        
         if (displacement > 0.0) {
             // Sample each channel with displacement
             float angle_rad = radians(disp_angle);
-            vec2 disp_vec = vec2(cos(angle_rad), sin(angle_rad)) * disp_distance;
+            vec2 disp_vec = vec2(cos(angle_rad), sin(angle_rad));
 
             vec2 r_coord = grid.xy + disp_vec * cos(radians(disp_r_phase)) * displacement;
             vec2 g_coord = grid.xy + disp_vec * cos(radians(disp_g_phase)) * displacement;
@@ -421,6 +427,7 @@ void main() {
         } else if (smoothing < 0.0) {
             float edge_dist = length(norm_pos_r);
             float edge_factor = smoothstep(0., .5, edge_dist);
+            
             vec3 edge_color = mix(pixel_color * (1.0 + fade), pixel_color * (1.0 - fade), edge_factor);
             
             pixel_color = use_oklab == 1 

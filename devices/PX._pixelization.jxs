@@ -18,14 +18,13 @@
 
     <!-- Channel Displacement -->
     <param name="displacement" type="float" default="1.0"/>     <!-- range: 0.0-1.0 -->
-    <param name="disp_distance" type="float" default="0.05"/>    <!-- displacement > 0, range: 0.0-10.0 -->
     <param name="disp_angle" type="float" default="0.0"/>       <!-- displacement > 0, range: 0.0-360.0 -->
     <param name="disp_r_phase" type="float" default="0.0"/>     <!-- displacement > 0, range: 0.0-360.0 -->
     <param name="disp_g_phase" type="float" default="120.0"/>   <!-- displacement > 0, range: 0.0-360.0 -->
     <param name="disp_b_phase" type="float" default="240.0"/>   <!-- displacement > 0, range: 0.0-360.0 -->
 
     <!-- Edge Processing -->
-    <param name="smoothing" type="float" default="-.5"/>           <!-- range: -1.0-1.0 -->
+    <param name="smoothing" type="float" default="0"/>           <!-- range: -1.0-1.0 -->
     <param name="fade" type="float" default="0.5"/>             <!-- smooth != 0, range: 0.1-2.0 -->
     <param name="edge_distortion" type="float" default="0.0"/>  <!-- range: 0.0-1.0 -->
     <param name="distort_freq" type="float" default="4.0"/>     <!-- edge_distortion > 0, range: 1.0-20.0 -->
