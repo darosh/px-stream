@@ -38,7 +38,7 @@ export default {
     [5, 'PX Mix View (expanded)', 1054],
     [5, 'PX Route MIDI (linked)', 224],
     [5, 'PX Shader (types)', 592],
-    [5, 'PX IN Text (expanded)', 536],
+    [5, 'PX GEN Text (expanded)', 536],
     [5, 'PX FX Alpha', 452],
     [6, 'PX FX Pixelization', 544],
   ].map(([src, name, x1, animated]) => {
