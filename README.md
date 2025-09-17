@@ -38,7 +38,7 @@
     <a href="#fx-color"><img src="./assets/devices/PX_FX_Color_(gamma)_v1.webp" title="FX Color" width="163"/></a>
     <a href="#fx-colorize"><img src="./assets/devices/PX_FX_Colorize_v1.webp" title="FX Colorize" width="118"/></a>
     <a href="#in-text"><img src="./assets/devices/PX_IN_Text_v1.webp" title="IN Text" width="72"/></a>
-    <a href="#in-jpg"><img src="./assets/devices/PX_IN_JPG_v1.webp" title="IN JPG" width="72"/></a>
+    <a href="#in-img"><img src="./assets/devices/PX_IN_IMG_v1.webp" title="IN IMG" width="72"/></a>
     <a href="#fx-kaleidoscope"><img src="./assets/devices/PX_FX_Kaleidoscope_v1.webp" title="FX Kaleidoscope" width="72"/></a>
     <a href="#dev-console"><img src="./assets/devices/DEV_Console_v1.webp" title="DEV Console" width="72"/></a>
     <a href="#px-mix-view"><img src="./assets/devices/PX_Mix_View_v1.webp" title="PX Mix View" width="177"/></a>
@@ -78,9 +78,9 @@
         <a href="#in-channel">IN Channel</a><br>
         <a href="#in-cos-pattern">IN Cos Pattern</a><br>
         <a href="#in-mix">IN Mix</a><br>
-        <a href="#in-svg">IN SVG</a><br>
+        <a href="#in-img">IN IMG</a><br>
         <a href="#in-mov">IN MOV</a><br>
-        <a href="#in-jpg">IN JPG</a><br>
+        <a href="#in-svg">IN SVG</a><br>
         <a href="#in-syphon">IN Syphon</a>
     </td>
     <td valign="top">
@@ -158,9 +158,9 @@
 
 ![PX IN SVG](assets/devices/PX_IN_SVG_v1.webp)
 
-### IN JPG
+### IN IMG
 
-![PX IN JPG](assets/devices/PX_IN_JPG_v1.webp)
+![PX IN IMG](assets/devices/PX_IN_IMG_v1.webp)
 
 ### IN MOV
 

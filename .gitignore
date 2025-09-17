@@ -8,9 +8,10 @@ ISF Audio DEBUG.amxd
 .drawing.*.svg
 .TEST*.amxd
 .TEST*.maxpat
-mov
-mov/*.avi
-mov/*.mp4
+devices/img/
+devices/mov
+devices/mov/*.avi
+devices/mov/*.mp4
 assets/screenshot-*.png
 assets/Screenshot 2*.png
 assets/screenshot-*.mov

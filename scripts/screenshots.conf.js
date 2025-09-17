@@ -12,7 +12,7 @@ export default {
     [1, 'PX Mix Channel', 276],
     [1, 'PX Mix Dry', 276],
     [1, 'PX FX Transform', 276],
-    [1, 'PX IN JPG', 276],
+    [1, 'PX IN IMG', 276],
     [2, 'PX Route Audio', 224],
     [2, 'PX IN Text', 276],
     [2, 'PX IN Syphon', 276],
