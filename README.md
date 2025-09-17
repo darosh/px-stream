@@ -20,7 +20,7 @@
     <a href="#fx-pixelization"><img src="./assets/devices/PX_FX_Pixelization_v1.webp" title="FX Pixelization" width="142"/></a>
     <a href="#px-mix-dry"><img src="./assets/devices/PX_Mix_Dry_v1.webp" title="PX Mix Dry" width="72"/></a>
     <a href="#in-syphon"><img src="./assets/devices/PX_IN_Syphon_v1.webp" title="IN Syphon" width="72"/></a>
-    <a href="#in-channel"><img src="./assets/devices/PX_IN_Channel_v1.webp" title="IN Channel" width="72"/></a>
+    <a href="#in-cam"><img src="./assets/devices/PX_IN_Cam_v1.webp" title="IN Cam" width="72"/></a>
     <a href="#fx-delay"><img src="./assets/devices/PX_FX_Delay_v1.webp" title="FX Delay" width="72"/></a>
     <a href="#px-world"><img src="./assets/devices/PX_World_v1.webp" title="PX World" width="65"/></a>
     <a href="#fx-color"><img src="./assets/devices/PX_FX_Color_(hue)_v1.webp" title="FX Color" width="255"/></a>
@@ -28,7 +28,7 @@
   <div>
     <a href="#px-shader"><img src="./assets/devices/PX_Shader_v1.webp" title="PX Shader" width="224"/></a>
     <a href="#fx-alpha"><img src="./assets/devices/PX_FX_Alpha_v1.webp" title="FX Alpha" width="118"/></a>
-    <a href="#in-mov"><img src="./assets/devices/PX_IN_MOV_v1.webp" title="IN MOV" width="72"/></a>
+    <a href="#in-image"><img src="./assets/devices/PX_IN_Image_v1.webp" title="IN Image" width="72"/></a>
     <a href="#fx-pass"><img src="./assets/devices/PX_FX_Pass_v1.webp" title="FX Pass" width="72"/></a>
     <a href="#fx-blur"><img src="./assets/devices/PX_FX_Blur_v1.webp" title="FX Blur" width="72"/></a>
     <a href="#px-route-audio"><img src="./assets/devices/PX_Route_Audio_v1.webp" title="PX Route Audio" width="59"/></a>
@@ -37,8 +37,8 @@
   <div>
     <a href="#fx-color"><img src="./assets/devices/PX_FX_Color_(gamma)_v1.webp" title="FX Color" width="163"/></a>
     <a href="#fx-colorize"><img src="./assets/devices/PX_FX_Colorize_v1.webp" title="FX Colorize" width="118"/></a>
-    <a href="#in-text"><img src="./assets/devices/PX_IN_Text_v1.webp" title="IN Text" width="72"/></a>
-    <a href="#in-img"><img src="./assets/devices/PX_IN_IMG_v1.webp" title="IN IMG" width="72"/></a>
+    <a href="#in-video"><img src="./assets/devices/PX_IN_Video_v1.webp" title="IN Video" width="72"/></a>
+    <a href="#in-channel"><img src="./assets/devices/PX_IN_Channel_v1.webp" title="IN Channel" width="72"/></a>
     <a href="#fx-kaleidoscope"><img src="./assets/devices/PX_FX_Kaleidoscope_v1.webp" title="FX Kaleidoscope" width="72"/></a>
     <a href="#dev-console"><img src="./assets/devices/DEV_Console_v1.webp" title="DEV Console" width="72"/></a>
     <a href="#px-mix-view"><img src="./assets/devices/PX_Mix_View_v1.webp" title="PX Mix View" width="177"/></a>
@@ -47,10 +47,10 @@
     <a href="#fx-color"><img src="./assets/devices/PX_FX_Color_v1.webp" title="FX Color" width="170"/></a>
     <a href="#dev-info"><img src="./assets/devices/DEV_Info_v1.webp" title="DEV Info" width="138"/></a>
     <a href="#in-svg"><img src="./assets/devices/PX_IN_SVG_v1.webp" title="IN SVG" width="72"/></a>
-    <a href="#in-cam"><img src="./assets/devices/PX_IN_Cam_v1.webp" title="IN Cam" width="72"/></a>
+    <a href="#px-gen-text"><img src="./assets/devices/PX_GEN_Text_v1.webp" title="PX GEN Text" width="72"/></a>
     <a href="#fx-convert"><img src="./assets/devices/PX_FX_Convert_v1.webp" title="FX Convert" width="72"/></a>
     <a href="#px-world"><img src="./assets/devices/PX_World_(mad_world)_v1.webp" title="PX World" width="65"/></a>
-    <a href="#in-cos-pattern"><img src="./assets/devices/PX_IN_Cos_Pattern_v1.webp" title="IN Cos Pattern" width="169"/></a>
+    <a href="#px-gen-cos-pattern"><img src="./assets/devices/PX_GEN_Cos_Pattern_v1.webp" title="PX GEN Cos Pattern" width="169"/></a>
   </div>
 </div>
 
