@@ -24,6 +24,7 @@
 - [ ] restore session params and automation
 - [ ] disable dynamic live.menu automation
 - [ ] disable irrelevant params
+- [ ] in to in + gen
 
 ## Devices
 
