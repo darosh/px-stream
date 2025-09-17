@@ -98,15 +98,6 @@
                   </ablFR:colors>
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
-                  <ablFR:filePath>PX IN Cos Pattern.amxd</ablFR:filePath>
-                  <ablFR:colors>
-                     <rdf:Bag>
-                        <rdf:li>4</rdf:li>
-                        <rdf:li>5</rdf:li>
-                     </rdf:Bag>
-                  </ablFR:colors>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
                   <ablFR:filePath>PX IN Channel.amxd</ablFR:filePath>
                   <ablFR:colors>
                      <rdf:Bag>
@@ -126,15 +117,6 @@
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
                   <ablFR:filePath>PX IN Mix.amxd</ablFR:filePath>
-                  <ablFR:colors>
-                     <rdf:Bag>
-                        <rdf:li>4</rdf:li>
-                        <rdf:li>5</rdf:li>
-                     </rdf:Bag>
-                  </ablFR:colors>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <ablFR:filePath>PX IN Text.amxd</ablFR:filePath>
                   <ablFR:colors>
                      <rdf:Bag>
                         <rdf:li>4</rdf:li>
@@ -221,15 +203,6 @@
                   </ablFR:colors>
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
-                  <ablFR:filePath>PX IN MOV.amxd</ablFR:filePath>
-                  <ablFR:colors>
-                     <rdf:Bag>
-                        <rdf:li>4</rdf:li>
-                        <rdf:li>5</rdf:li>
-                     </rdf:Bag>
-                  </ablFR:colors>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
                   <ablFR:filePath>PX FX Transform.amxd</ablFR:filePath>
                   <ablFR:colors>
                      <rdf:Bag>
@@ -247,20 +220,11 @@
                      </rdf:Bag>
                   </ablFR:colors>
                </rdf:li>
-               <rdf:li rdf:parseType="Resource">
-                  <ablFR:filePath>PX IN IMG.amxd</ablFR:filePath>
-                  <ablFR:colors>
-                     <rdf:Bag>
-                        <rdf:li>4</rdf:li>
-                        <rdf:li>6</rdf:li>
-                     </rdf:Bag>
-                  </ablFR:colors>
-               </rdf:li>
             </rdf:Bag>
          </ablFR:items>
          <xmp:CreatorTool>Updated by Ableton Index 12.2.5</xmp:CreatorTool>
          <xmp:CreateDate>2025-08-29T20:56:33+02:00</xmp:CreateDate>
-         <xmp:MetadataDate>2025-09-17T22:13+02:00</xmp:MetadataDate>
+         <xmp:MetadataDate>2025-09-18T00:41:57+02:00</xmp:MetadataDate>
       </rdf:Description>
    </rdf:RDF>
 </x:xmpmeta>

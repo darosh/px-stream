@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 257.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -1259,8 +1259,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 104.0, 248.0, 102.0, 22.0 ],
-					"text" : "sprintf \\\"%smov/\\\""
+					"patching_rect" : [ 104.0, 248.0, 108.0, 22.0 ],
+					"text" : "sprintf \\\"%svideo/\\\""
 				}
 
 			}

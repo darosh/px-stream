@@ -60,6 +60,7 @@
   <tr>
     <th align="left">PX Core</th>
     <th align="left">IN (inputs)</th>
+    <th align="left">GEN (generators)</th>
     <th align="left">FX (effects)</th>
     <th align="left">DEV (utilities)</th>
   </tr>
@@ -68,20 +69,26 @@
         <a href="#px-mix-view">Mix View</a><br>
         <a href="#px-mix_channel">Mix Channel</a><br>
         <a href="#px-mix-dry">Mix Dry</a><br>
+        <hr>
         <a href="#px-route-audio">Route Audio</a><br>
         <a href="#px-route-midi">Route MIDI</a><br>
+        <hr>
         <a href="#px-shader">Shader</a>
     </td>
     <td valign="top">
-        <a href="#in-text">IN Text</a><br>
         <a href="#in-cam">IN Cam</a><br>
-        <a href="#in-channel">IN Channel</a><br>
-        <a href="#in-cos-pattern">IN Cos Pattern</a><br>
-        <a href="#in-mix">IN Mix</a><br>
-        <a href="#in-img">IN IMG</a><br>
-        <a href="#in-mov">IN MOV</a><br>
+        <a href="#in-syphon">IN Syphon</a><br>
+        <hr>
+        <a href="#in-image">IN Image</a><br>
+        <a href="#in-video">IN Video</a><br>
         <a href="#in-svg">IN SVG</a><br>
-        <a href="#in-syphon">IN Syphon</a>
+        <hr>
+        <a href="#in-channel">IN Channel</a><br>
+        <a href="#in-mix">IN Mix</a><br>
+    </td>
+    <td valign="top">
+        <a href="#gen-cos-pattern">GEN Cos Pattern</a><br>
+        <a href="#gen-text">GEN Text</a><br>
     </td>
     <td valign="top">
         <a href="#fx-alpha">FX Alpha</a><br>
@@ -119,11 +126,6 @@
 
 ![PX Mix Dry](assets/devices/PX_Mix_Dry_v1.webp)
 
-### PX Shader
-
-![PX Shader](assets/devices/PX_Shader_v1.webp)
-![PX Shader](assets/devices/PX_Shader_(types)_v1.webp)
-
 ### PX Route Audio
 
 ![PX Route Audio](assets/devices/PX_Route_Audio_v1.webp)
@@ -133,42 +135,53 @@
 ![PX_Route_MIDI](assets/devices/PX_Route_MIDI_(linked)_v1.webp)
 ![PX Shader](assets/devices/PX_Shader_(types)_v1.webp)
 
-### IN Text
+### PX Shader
 
-![PX IN Text](assets/devices/PX_IN_Text_v1.webp)
-![PX IN Text](assets/devices/PX_IN_Text_(expanded)_v1.webp)
+![PX Shader](assets/devices/PX_Shader_v1.webp)
+![PX Shader](assets/devices/PX_Shader_(types)_v1.webp)
+
+---
 
 ### IN Cam
 
 ![PX IN Cam](assets/devices/PX_IN_Cam_v1.webp)
 
-### IN Channel
+### IN Syphon
 
-![PX IN Channel](assets/devices/PX_IN_Channel_v1.webp)
+![PX IN Syphon](assets/devices/PX_IN_Syphon_v1.webp)
 
-### IN Cos Pattern
+### IN Image
 
-![PX IN Cos Pattern](assets/devices/PX_IN_Cos_Pattern_v1.webp)
-
-### IN Mix
-
-![PX IN Mix](assets/devices/PX_IN_Mix_v1.webp)
+![PX IN Image](assets/devices/PX_IN_Image_v1.webp)
 
 ### IN SVG
 
 ![PX IN SVG](assets/devices/PX_IN_SVG_v1.webp)
 
-### IN IMG
+### IN Video
 
-![PX IN IMG](assets/devices/PX_IN_IMG_v1.webp)
+![PX IN Video](assets/devices/PX_IN_Video_v1.webp)
 
-### IN MOV
+### IN Channel
 
-![PX IN MOV](assets/devices/PX_IN_MOV_v1.webp)
+![PX IN Channel](assets/devices/PX_IN_Channel_v1.webp)
 
-### IN Syphon
+### IN Mix
 
-![PX IN Syphon](assets/devices/PX_IN_Syphon_v1.webp)
+![PX IN Mix](assets/devices/PX_IN_Mix_v1.webp)
+
+---
+
+### GEN Cos Pattern
+
+![PX GEN Cos Pattern](assets/devices/PX_GEN_Cos_Pattern_v1.webp)
+
+### GEN Text
+
+![PX GEN Text](assets/devices/PX_GEN_Text_v1.webp)
+![PX GEN Text](assets/devices/PX_GEN_Text_(expanded)_v1.webp)
+
+---
 
 ### FX Alpha
 
@@ -209,7 +222,7 @@
 
 ![PX FX Pixelization](assets/devices/PX_FX_Pixelization_v1.webp)
 
-### PX FX Transform
+### FX Transform
 
 ![PX FX Transform](assets/devices/PX_FX_Transform_v1.webp)
 

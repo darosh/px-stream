@@ -24,7 +24,6 @@
 - [ ] restore session params and automation
 - [ ] disable dynamic live.menu automation
 - [ ] disable irrelevant params
-- [ ] in to in + gen
 
 ## Devices
 
@@ -145,6 +144,7 @@
 
 ## Done
 
+- [x] in to in + gen
 - [x] automate batch freeze?
 - [x] remove the silly cam & syphon icons, replace with dims and activity
 - [x] check negative values parsing in eslint

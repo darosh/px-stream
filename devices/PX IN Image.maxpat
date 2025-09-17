@@ -2459,8 +2459,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 104.0, 248.0, 99.0, 22.0 ],
-					"text" : "sprintf \\\"%simg/\\\""
+					"patching_rect" : [ 104.0, 248.0, 112.0, 22.0 ],
+					"text" : "sprintf \\\"%simage/\\\""
 				}
 
 			}
