@@ -20,7 +20,7 @@ export default defineConfig([{
     'maxpat/layout/no-segmented-cords': ['warn', { fix: true }],
     'maxpat/layout/position-rounding': ['warn', {
       'patching-precision': [8, 8],
-      'presentation-precision': [1, 1],
+      'presentation-precision': [.5, .5],
       fix: true
     }],
     'maxpat/layout/no-negative-patching': ['warn', { minimum: 0, fix: true }],
