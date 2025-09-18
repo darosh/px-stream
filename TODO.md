@@ -24,9 +24,6 @@
 - [ ] restore session params and automation
 - [ ] disable dynamic live.menu automation
 - [ ] disable irrelevant params
-- [ ] shader menu
-- [ ] cam/syphon indicator
-- [ ] cam/syphon live bang only
 
 ## Devices
 
@@ -147,6 +144,9 @@
 
 ## Done
 
+- [x] shader menu
+- [x] cam/syphon indicator
+- [x] cam/syphon live bang only
 - [x] in to in + gen
 - [x] automate batch freeze?
 - [x] remove the silly cam & syphon icons, replace with dims and activity
