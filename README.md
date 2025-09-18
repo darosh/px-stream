@@ -126,6 +126,8 @@
 
 ![PX Mix Dry](assets/devices/PX_Mix_Dry_v1.webp)
 
+---
+
 ### PX Route Audio
 
 ![PX Route Audio](assets/devices/PX_Route_Audio_v1.webp)
@@ -134,6 +136,8 @@
 
 ![PX_Route_MIDI](assets/devices/PX_Route_MIDI_(linked)_v1.webp)
 ![PX Shader](assets/devices/PX_Shader_(types)_v1.webp)
+
+---
 
 ### PX Shader
 
@@ -225,6 +229,8 @@
 ### FX Transform
 
 ![PX FX Transform](assets/devices/PX_FX_Transform_v1.webp)
+
+---
 
 ### DEV Info
 
