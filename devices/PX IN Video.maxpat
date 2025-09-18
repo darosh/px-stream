@@ -341,8 +341,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 848.0, 115.0, 541.0, 22.0 ],
-					"text" : "jit.gl.texture px-stream @name ---_MOVX @defaultimage black @type float32 @erase_color 0 0 0 0"
+					"patching_rect" : [ 848.0, 115.0, 525.0, 22.0 ],
+					"text" : "jit.gl.texture px-stream @name ---_VID @defaultimage black @type float32 @erase_color 0 0 0 0"
 				}
 
 			}
@@ -353,8 +353,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 760.0, 417.0, 558.0, 22.0 ],
-					"text" : "jit.gl.videoplane px-stream @preserve_aspect 1 @capture ---_MOVX @transform_reset 2 @scale 1 1 1"
+					"patching_rect" : [ 760.0, 417.0, 543.0, 22.0 ],
+					"text" : "jit.gl.videoplane px-stream @preserve_aspect 1 @capture ---_VID @transform_reset 2 @scale 1 1 1"
 				}
 
 			}
