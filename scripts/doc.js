@@ -21,6 +21,7 @@ function imgSection (name) {
     .replaceAll('_', '-')
     .replace(/^px-in/, 'in')
     .replace(/^px-fx/, 'fx')
+    .replace(/^px-gen/, 'gen')
 }
 
 function imgTitle (name) {
