@@ -24,6 +24,8 @@
 - [ ] restore session params and automation
 - [ ] disable dynamic live.menu automation
 - [ ] disable irrelevant params
+- [ ] shader menu
+- [ ] cam/syphon indicator
 
 ## Devices
 
