@@ -1,0 +1,45 @@
+{
+  "boxes": [
+    {
+      "id": "obj-362",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Reload",
+      "varname": "live.text[10]",
+      "parameter_longname": "Reload[5]",
+      "parameter_shortname": "Reload",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-51",
+      "maxclass": "umenu",
+      "presentation": 1,
+      "varname": "Available devices",
+      "parameter_longname": "Available devices",
+      "parameter_shortname": "Available devices",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-54",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "live.tab",
+      "parameter_longname": "live.tab",
+      "parameter_shortname": "live.tab",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-366",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "Syphon",
+      "parameter_longname": "Syphon",
+      "parameter_shortname": "Syphon",
+      "annotation": "",
+      "annotation_name": ""
+    }
+  ]
+}

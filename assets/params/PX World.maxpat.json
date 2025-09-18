@@ -1,0 +1,25 @@
+{
+  "boxes": [
+    {
+      "id": "obj-23",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu",
+      "parameter_longname": "FPS",
+      "parameter_shortname": "FPS",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-16",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Enabled",
+      "varname": "live.text",
+      "parameter_longname": "Enabled",
+      "parameter_shortname": "Enabled",
+      "annotation": "",
+      "annotation_name": ""
+    }
+  ]
+}

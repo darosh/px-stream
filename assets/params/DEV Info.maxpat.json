@@ -1,0 +1,15 @@
+{
+  "boxes": [
+    {
+      "id": "obj-28",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Auto",
+      "varname": "live.text",
+      "parameter_longname": "Auto",
+      "parameter_shortname": "Auto",
+      "annotation": "Automatically update texture info",
+      "annotation_name": "Auto"
+    }
+  ]
+}

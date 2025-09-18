@@ -1,0 +1,24 @@
+{
+  "boxes": [
+    {
+      "id": "obj-1",
+      "maxclass": "live.dial",
+      "presentation": 1,
+      "varname": "live.dial",
+      "parameter_longname": "Delay Frames",
+      "parameter_shortname": "Frames",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-366",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "live.tab[1]",
+      "parameter_longname": "Channel",
+      "parameter_shortname": "Channel",
+      "annotation": "",
+      "annotation_name": ""
+    }
+  ]
+}

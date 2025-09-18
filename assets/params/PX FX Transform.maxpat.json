@@ -1,0 +1,75 @@
+{
+  "boxes": [
+    {
+      "id": "obj-96",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "x=y",
+      "varname": "live.text[5]",
+      "parameter_longname": "live.text[5]",
+      "parameter_shortname": "live.text",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-62",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[5]",
+      "parameter_longname": "live.numbox[5]",
+      "parameter_shortname": "live.numbox",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-63",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox",
+      "parameter_longname": "Scale X",
+      "parameter_shortname": "Scale X",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-32",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[2]",
+      "parameter_longname": "live.numbox[2]",
+      "parameter_shortname": "live.numbox",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-31",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[1]",
+      "parameter_longname": "live.numbox[1]",
+      "parameter_shortname": "live.numbox",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-366",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "live.tab",
+      "parameter_longname": "Channel",
+      "parameter_shortname": "Channel",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-43",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "live.tab[1]",
+      "parameter_longname": "live.tab[1]",
+      "parameter_shortname": "live.tab[1]",
+      "annotation": "",
+      "annotation_name": ""
+    }
+  ]
+}

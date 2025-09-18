@@ -1,0 +1,46 @@
+{
+  "boxes": [
+    {
+      "id": "obj-4",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "Receive Gain",
+      "parameter_longname": "Receive Gain",
+      "parameter_shortname": "Receive Gain",
+      "annotation": "Sets the gain of remote audio.",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-27",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "Thru Gain",
+      "parameter_longname": "Thru Gain",
+      "parameter_shortname": "Thru Gain",
+      "annotation": "Sets the gain of audio thru.",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-11",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Thru",
+      "varname": "Thru",
+      "parameter_longname": "Thru",
+      "parameter_shortname": "Thru",
+      "annotation": "Enables/disables audio thru.",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-10",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Receive",
+      "varname": "Receive",
+      "parameter_longname": "Receive",
+      "parameter_shortname": "Receive",
+      "annotation": "Enables/disables remote audio.",
+      "annotation_name": ""
+    }
+  ]
+}

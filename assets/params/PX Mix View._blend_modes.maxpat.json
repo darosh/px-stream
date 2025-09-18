@@ -1,0 +1,13 @@
+{
+  "boxes": [
+    {
+      "id": "obj-2",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "parameter_longname": "Blend Mode",
+      "parameter_shortname": "Blend",
+      "annotation": "Determines how two layers are blended with each other",
+      "annotation_name": "Blend Mode"
+    }
+  ]
+}

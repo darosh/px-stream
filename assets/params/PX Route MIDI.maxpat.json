@@ -1,0 +1,15 @@
+{
+  "boxes": [
+    {
+      "id": "obj-2",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Send MIDI",
+      "varname": "Thru",
+      "parameter_longname": "Thru",
+      "parameter_shortname": "Thru",
+      "annotation": "",
+      "annotation_name": ""
+    }
+  ]
+}

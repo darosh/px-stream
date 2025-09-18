@@ -1,0 +1,509 @@
+{
+  "boxes": [
+    {
+      "id": "obj-267",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[24]",
+      "parameter_longname": "P32",
+      "parameter_shortname": "P32",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-269",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[25]",
+      "parameter_longname": "P31",
+      "parameter_shortname": "P31",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-271",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[26]",
+      "parameter_longname": "P30",
+      "parameter_shortname": "P30",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-273",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[27]",
+      "parameter_longname": "P29",
+      "parameter_shortname": "P29",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-275",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[28]",
+      "parameter_longname": "P28",
+      "parameter_shortname": "P28",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-303",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[29]",
+      "parameter_longname": "P27",
+      "parameter_shortname": "P27",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-363",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[30]",
+      "parameter_longname": "P26",
+      "parameter_shortname": "P26",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-390",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[31]",
+      "parameter_longname": "P25",
+      "parameter_shortname": "P25",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-478",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[16]",
+      "parameter_longname": "P24",
+      "parameter_shortname": "P24",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-480",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[17]",
+      "parameter_longname": "P23",
+      "parameter_shortname": "P23",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-483",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[18]",
+      "parameter_longname": "P22",
+      "parameter_shortname": "P22",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-485",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[19]",
+      "parameter_longname": "P21",
+      "parameter_shortname": "P21",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-487",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[20]",
+      "parameter_longname": "P20",
+      "parameter_shortname": "P20",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-489",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[21]",
+      "parameter_longname": "P19",
+      "parameter_shortname": "P19",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-491",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[22]",
+      "parameter_longname": "P18",
+      "parameter_shortname": "P18",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-493",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[23]",
+      "parameter_longname": "P17",
+      "parameter_shortname": "P17",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-449",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[8]",
+      "parameter_longname": "P16",
+      "parameter_shortname": "P16",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-451",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[9]",
+      "parameter_longname": "P15",
+      "parameter_shortname": "P15",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-453",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[10]",
+      "parameter_longname": "P14",
+      "parameter_shortname": "P14",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-455",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[11]",
+      "parameter_longname": "P13",
+      "parameter_shortname": "P13",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-457",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[12]",
+      "parameter_longname": "P12",
+      "parameter_shortname": "P12",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-459",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[13]",
+      "parameter_longname": "P11",
+      "parameter_shortname": "P11",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-463",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[14]",
+      "parameter_longname": "P10",
+      "parameter_shortname": "P10",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-474",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[15]",
+      "parameter_longname": "P09",
+      "parameter_shortname": "P09",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-439",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[7]",
+      "parameter_longname": "P08",
+      "parameter_shortname": "P08",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-371",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[6]",
+      "parameter_longname": "P07",
+      "parameter_shortname": "P07",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-311",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[5]",
+      "parameter_longname": "P06",
+      "parameter_shortname": "P06",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-294",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[4]",
+      "parameter_longname": "P05",
+      "parameter_shortname": "P05",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-153",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[3]",
+      "parameter_longname": "P04",
+      "parameter_shortname": "P04",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-78",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[2]",
+      "parameter_longname": "P03",
+      "parameter_shortname": "P03",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-40",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[1]",
+      "parameter_longname": "P02",
+      "parameter_shortname": "P02",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-12",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox",
+      "parameter_longname": "P01",
+      "parameter_shortname": "P01",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-308",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "IN",
+      "varname": "typeLed[10]",
+      "parameter_longname": "fftImage[8]",
+      "parameter_shortname": "fftImage",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-195",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Type",
+      "varname": "live.text[14]",
+      "parameter_longname": "live.text[1]",
+      "parameter_shortname": "live.text",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-4",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "...",
+      "varname": "live.text[13]",
+      "parameter_longname": "live.text[8]",
+      "parameter_shortname": "live.text",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-427",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "XYE",
+      "varname": "typeLed[7]",
+      "parameter_longname": "fftImage[7]",
+      "parameter_shortname": "fftImage",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-24",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "XYD",
+      "varname": "typeLed[5]",
+      "parameter_longname": "fftImage[6]",
+      "parameter_shortname": "fftImage",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-15",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "XYC",
+      "varname": "typeLed[6]",
+      "parameter_longname": "fftImage[5]",
+      "parameter_shortname": "fftImage",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-5",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "XY",
+      "varname": "typeLed[4]",
+      "parameter_longname": "fftImage[4]",
+      "parameter_shortname": "fftImage",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-364",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "MIDI",
+      "varname": "typeLed[8]",
+      "parameter_longname": "fftImage[2]",
+      "parameter_shortname": "fftImage",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-362",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Reload",
+      "varname": "live.text[10]",
+      "parameter_longname": "Reload[5]",
+      "parameter_shortname": "Reload",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-361",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Folder",
+      "varname": "live.text[9]",
+      "parameter_longname": "Reload[4]",
+      "parameter_shortname": "Reload",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-360",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Edit",
+      "varname": "live.text[8]",
+      "parameter_longname": "Reload[3]",
+      "parameter_shortname": "Reload",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-138",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "FFTU",
+      "varname": "typeLed",
+      "parameter_longname": "fftImage[1]",
+      "parameter_shortname": "fftImage",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-317",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "WAVU",
+      "varname": "typeLed[2]",
+      "parameter_longname": "waveImage[1]",
+      "parameter_shortname": "waveImage",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-151",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "Dimensions",
+      "parameter_longname": "Dimensions",
+      "parameter_shortname": "Dimensions",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-9",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "WAVE",
+      "varname": "typeLed[3]",
+      "parameter_longname": "waveImage",
+      "parameter_shortname": "waveImage",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-8",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "FFT",
+      "varname": "typeLed[1]",
+      "parameter_longname": "fftImage",
+      "parameter_shortname": "fftImage",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-366",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "Syphon",
+      "parameter_longname": "Syphon",
+      "parameter_shortname": "Syphon",
+      "annotation": "",
+      "annotation_name": ""
+    }
+  ]
+}

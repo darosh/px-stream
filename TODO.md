@@ -13,6 +13,8 @@
 - [ ] sdk?
 - [ ] param doc / mass edit
 - [ ] FX preview, animation
+- [ ] UI faceli ft, consolidation
+- [ ] params scripts
 
 ## Misc
 

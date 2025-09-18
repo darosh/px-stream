@@ -1,0 +1,99 @@
+{
+  "boxes": [
+    {
+      "id": "obj-14",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Reset",
+      "varname": "live.text[1]",
+      "parameter_longname": "live.text[1]",
+      "parameter_shortname": "live.text",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-10",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox",
+      "parameter_longname": "live.numbox",
+      "parameter_shortname": "live.numbox",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-103",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Play",
+      "varname": "live.text",
+      "parameter_longname": "live.text",
+      "parameter_shortname": "live.text",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-91",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu",
+      "parameter_longname": "live.menu",
+      "parameter_shortname": "live.menu",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-361",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Folder",
+      "varname": "live.text[9]",
+      "parameter_longname": "Reload[4]",
+      "parameter_shortname": "Reload",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-360",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Edit",
+      "varname": "live.text[8]",
+      "parameter_longname": "Reload[3]",
+      "parameter_shortname": "Reload",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-151",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "Dimensions",
+      "parameter_longname": "Dimensions",
+      "parameter_shortname": "Dimensions",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-366",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "Syphon",
+      "parameter_longname": "Syphon",
+      "parameter_shortname": "Syphon",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-362",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Reload",
+      "varname": "live.text[10]",
+      "parameter_longname": "Reload[5]",
+      "parameter_shortname": "Reload",
+      "annotation": "",
+      "annotation_name": ""
+    }
+  ]
+}

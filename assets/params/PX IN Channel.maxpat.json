@@ -1,0 +1,24 @@
+{
+  "boxes": [
+    {
+      "id": "obj-7",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "Syphon[1]",
+      "parameter_longname": "Syphon[1]",
+      "parameter_shortname": "Syphon",
+      "annotation": "",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-366",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "Syphon",
+      "parameter_longname": "Syphon",
+      "parameter_shortname": "Syphon",
+      "annotation": "",
+      "annotation_name": ""
+    }
+  ]
+}

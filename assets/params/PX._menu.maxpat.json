@@ -1,0 +1,24 @@
+{
+  "boxes": [
+    {
+      "id": "obj-6",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "File",
+      "parameter_longname": "File Automation",
+      "parameter_shortname": "File",
+      "annotation": "Selected file",
+      "annotation_name": "File"
+    },
+    {
+      "id": "obj-76",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu",
+      "parameter_longname": "File",
+      "parameter_shortname": "File",
+      "annotation": "Selected file",
+      "annotation_name": "File"
+    }
+  ]
+}

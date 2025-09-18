@@ -1,0 +1,25 @@
+{
+  "boxes": [
+    {
+      "id": "obj-13",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Thru",
+      "varname": "Thru",
+      "parameter_longname": "Thru",
+      "parameter_shortname": "Thru",
+      "annotation": "Enables/disables audio thru.",
+      "annotation_name": ""
+    },
+    {
+      "id": "obj-366",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "Syphon",
+      "parameter_longname": "Syphon",
+      "parameter_shortname": "Syphon",
+      "annotation": "",
+      "annotation_name": ""
+    }
+  ]
+}

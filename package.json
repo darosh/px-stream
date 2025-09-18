@@ -19,9 +19,11 @@
     "lint:maxpat:fix-dry-run": "eslint ./devices/*.maxpat --fix-dry-run --rule={\"maxpat/ui/annotation-info\":\"off\"}",
     "lint:maxpat:fix:layout": "eslint ./devices/*.maxpat --fix --fix-type layout",
     "lint:maxpat:info": "eslint ./devices/*.maxpat --format node_modules/eslint-plugin-maxpat/lib/formatter.js",
-    "screenshots": "rm -f ./assets/devices/*.webp && node ./scripts/screenshots.js",
     "measure": "node ./scripts/meausures.js",
-    "screenshots:animated": "node ./scripts/screenshots.animated.js"
+    "screenshots": "rm -f ./assets/devices/*.webp && node ./scripts/screenshots.js",
+    "screenshots:animated": "node ./scripts/screenshots.animated.js",
+    "params:collect": "node scripts/params.js collect './devices/*.maxpat' './assets/params/'",
+    "params:update": "node scripts/params.js update './devices/*.maxpat' './assets/params/*.maxpat.json'"
   },
   "type": "module"
 }
