@@ -26,6 +26,7 @@
 - [ ] disable irrelevant params
 - [ ] shader menu
 - [ ] cam/syphon indicator
+- [ ] cam/syphon live bang only
 
 ## Devices
 
