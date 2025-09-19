@@ -24,8 +24,9 @@
     <param name="disp_b_phase" type="float" default="240.0"/>   <!-- displacement > 0, range: 0.0-360.0 -->
 
     <!-- Edge Processing -->
-    <param name="smoothing" type="float" default="0"/>           <!-- range: -1.0-1.0 -->
-    <param name="fade" type="float" default="0.5"/>             <!-- smooth != 0, range: 0.1-2.0 -->
+    <param name="smoothing" type="float" default="0"/>           <!-- range: 0.0-1.0 -->
+    <param name="fading" type="float" default="0"/>           <!-- range: 0.0-1.0 -->
+    <param name="fade" type="float" default="0.5"/>             <!-- fading > 0, range: 0.1-3.0 -->
     <param name="edge_distortion" type="float" default="0.0"/>  <!-- range: 0.0-1.0 -->
     <param name="distort_freq" type="float" default="4.0"/>     <!-- edge_distortion > 0, range: 1.0-20.0 -->
     <param name="use_oklab" type="int" default="1"/>     
@@ -66,6 +67,7 @@
 
         <!-- Edge Processing -->
         <bind param="smoothing" program="fp"/>
+        <bind param="fading" program="fp"/>
         <bind param="fade" program="fp"/>
         <bind param="edge_distortion" program="fp"/>
         <bind param="distort_freq" program="fp"/>

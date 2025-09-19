@@ -34,10 +34,11 @@ uniform float mapping_intensity;
 uniform int mapping_invert;
 
 // Edge Processing
-uniform float smoothing;
-uniform float fade;
 uniform float edge_distortion;
 uniform float distort_freq;
+uniform float smoothing;
+uniform float fading;
+uniform float fade;
 uniform int use_oklab;
 
 vec2 rotate_point(vec2 pos, float angle) {
@@ -338,7 +339,7 @@ vec3 pixel_to_grid(vec2 uv, vec2 size) {
     }
 
     norm_pos_r = norm_pos;
-    
+
     return vec3(cell_center_uv, inside);
 }
 
@@ -361,7 +362,7 @@ void main() {
 
     // Compute aspect ratio (width/height)
     float aspect = texdim0.x / texdim0.y;
-    
+
     if (aspect >= 1.0) {
         res_y = res_y * aspect;
     } else {
@@ -398,7 +399,7 @@ void main() {
         gl_FragColor = vec4(color, 1.);
     } else {
         vec3 pixel_color;
-        
+
         if (displacement > 0.0) {
             // Sample each channel with displacement
             float angle_rad = radians(disp_angle);
@@ -416,25 +417,29 @@ void main() {
             pixel_color = texture2DRect(tex0, grid.xy * texdim0).rgb;
         }
 
-        if (smoothing > 0.0) {
+        if (smoothing != 0.0) {
             original = original.a != -1. ? original : texture2DRect(tex0, texcoord0);
             float edge_dist = length(norm_pos_r);
             float edge_factor = smoothstep(0.5 - smoothing, 0.5, edge_dist);
-            
-            pixel_color = use_oklab == 1 
-                ? mix(pixel_color, original.rgb, edge_factor)
-                : mix_oklab(pixel_color, original.rgb, edge_factor);
-        } else if (smoothing < 0.0) {
-            float edge_dist = length(norm_pos_r);
-            float edge_factor = smoothstep(0., .5, edge_dist);
-            
-            vec3 edge_color = mix(pixel_color * (1.0 + fade), pixel_color * (1.0 - fade), edge_factor);
-            
-            pixel_color = use_oklab == 1 
-                ? mix(pixel_color, edge_color, -smoothing)
-                : mix_oklab(pixel_color, edge_color, -smoothing);
+
+            pixel_color = use_oklab == 1
+            ? mix_oklab(pixel_color, original.rgb, edge_factor)
+            : mix(pixel_color, original.rgb, edge_factor);
         }
 
+        if (fading != 0.0) {
+            float edge_dist = length(norm_pos_r);
+            float edge_factor = smoothstep(0., .5, edge_dist);
+
+            vec3 edge_color = use_oklab == 1
+            ?mix_oklab(pixel_color * (1.0 + fade), pixel_color * (1.0 - fade), edge_factor)
+            :mix(pixel_color * (1.0 + fade), pixel_color * (1.0 - fade), edge_factor);
+
+            pixel_color = use_oklab == 1
+            ? mix_oklab(pixel_color, edge_color, fading)
+            : mix(pixel_color, edge_color, fading);
+        }
+        
         vec4 color = grid.z > 0.5 ? vec4(pixel_color, 1.) : vec4(0.);
         gl_FragColor = color;
     }

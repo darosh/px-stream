@@ -15,9 +15,10 @@
 - [ ] FX preview, animation
 - [ ] params scripts
 - [ ] shader labels
-- [ ] pixelization smoothing split
 - [ ] dry/wet modes capitalization
 - [ ] dimension x format, abstraction
+- [ ] reset shader param
+- [ ] reset color grading
 
 ## Misc
 
@@ -149,6 +150,7 @@
 
 ## Done
 
+- [x] pixelization smoothing split
 - [x] UI fl, consolidation
 - [x] shader menu
 - [x] cam/syphon indicator
