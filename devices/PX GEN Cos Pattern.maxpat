@@ -21,6 +21,29 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-109",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "PX._dimensions.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1144.0, 96.0, 72.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 133.0, 72.0, 17.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-55",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -514,7 +537,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active1" : [ 1.0, 0.67843137254902, 0.337254901960784, 1.0 ],
+					"active1" : [ 0.9, 0.65, 0.05, 1.0 ],
 					"bubblesize" : 12,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.0,
@@ -1959,47 +1982,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-386",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1144.0, 112.0, 66.0, 22.0 ],
-					"text" : "string.tolist"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-151",
-					"maxclass" : "live.menu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 1144.0, 80.0, 100.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 135.0, 68.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "2560 1440", "2560 1080", "1920 1080", "1280 720", "720 1280", "640 480", "320 240", "512 512", "480 480", "256 256" ],
-							"parameter_initial" : [ 3 ],
-							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Dimensions",
-							"parameter_mmax" : 9,
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "Dimensions",
-							"parameter_type" : 2
-						}
-
-					}
-,
-					"varname" : "Dimensions"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-309",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -2058,7 +2040,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
 					"id" : "obj-366",
 					"maxclass" : "live.tab",
@@ -2256,6 +2238,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"source" : [ "obj-109", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-85", 3 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -2286,13 +2275,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-386", 0 ],
-					"source" : [ "obj-151", 1 ]
 				}
 
 			}
@@ -2494,13 +2476,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-83", 0 ],
-					"source" : [ "obj-386", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-85", 2 ],
 					"source" : [ "obj-39", 0 ]
 				}
@@ -2550,7 +2525,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-151", 0 ],
+					"destination" : [ "obj-109", 0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -3056,9 +3031,9 @@
  ],
 		"parameters" : 		{
 			"obj-10" : [ "live.numbox[15]", "live.numbox[1]", 0 ],
+			"obj-109::obj-151" : [ "Dimensions[1]", "Dimensions", 0 ],
 			"obj-13" : [ "live.numbox[13]", "live.numbox[1]", 0 ],
 			"obj-14" : [ "live.numbox[16]", "live.numbox[1]", 0 ],
-			"obj-151" : [ "Dimensions", "Dimensions", 0 ],
 			"obj-17" : [ "live.numbox[17]", "live.numbox[1]", 0 ],
 			"obj-19" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-24" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
@@ -3099,6 +3074,13 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-109::obj-151" : 				{
+					"parameter_longname" : "Dimensions[1]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
@@ -3118,6 +3100,13 @@
 			}
 , 			{
 				"name" : "PX._channel.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._dimensions.maxpat",
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

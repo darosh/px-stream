@@ -15,7 +15,6 @@
 - [ ] FX preview, animation
 - [ ] params scripts
 - [ ] shader labels
-- [ ] dimension x format, abstraction
 - [ ] reset shader param
 
 ## Misc
@@ -148,6 +147,7 @@
 
 ## Done
 
+- [x] dimension x format, abstraction
 - [x] dry/wet modes capitalization
 - [x] reset color grading
 - [x] pixelization smoothing split
