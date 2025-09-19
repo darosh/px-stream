@@ -593,7 +593,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 71.0, 567.0, 508.0 ],
+						"rect" : [ 33.0, 82.0, 567.0, 498.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 29.0, 29.0 ],
@@ -1971,7 +1971,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 200.0, 656.0, 319.0, 35.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 152.0, 130.0, 35.0 ],
+									"presentation_rect" : [ 0.0, 160.0, 130.0, 35.0 ],
 									"text" : "FXAA",
 									"textjustification" : 1
 								}

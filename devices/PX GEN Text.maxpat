@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 567.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 567.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -517,7 +517,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 82.0, 574.0, 498.0 ],
+						"rect" : [ 33.0, 79.0, 574.0, 498.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 8.0, 8.0 ],
@@ -571,7 +571,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 240.0, 72.0, 257.0, 35.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 181.0, 124.0, 35.0 ],
+									"presentation_rect" : [ 0.0, 183.0, 124.0, 35.0 ],
+									"text" : "10:14:31",
 									"textjustification" : 1
 								}
 
