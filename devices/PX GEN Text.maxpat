@@ -4137,7 +4137,7 @@
 							"parameter_shortname" : "live.numbox",
 							"parameter_steps" : 1001,
 							"parameter_type" : 0,
-							"parameter_units" : "Y",
+							"parameter_units" : "y",
 							"parameter_unitstyle" : 9
 						}
 
@@ -4169,7 +4169,7 @@
 							"parameter_shortname" : "live.numbox",
 							"parameter_steps" : 1001,
 							"parameter_type" : 0,
-							"parameter_units" : "X",
+							"parameter_units" : "x",
 							"parameter_unitstyle" : 9
 						}
 
@@ -4524,7 +4524,7 @@
 					"presentation_rect" : [ 2.0, 118.0, 68.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "left", "center", "right", "justify" ],
+							"parameter_enum" : [ "Left", "Center", "Right", "Justify" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Dimensions[1]",
@@ -5975,8 +5975,8 @@
 			"obj-73" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"obj-8" : [ "live.numbox[10]", "live.numbox[8]", 0 ],
 			"obj-81::obj-4" : [ "FileName", "FileName", 0 ],
-			"obj-81::obj-6" : [ "File", "File", 0 ],
-			"obj-81::obj-76" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-81::obj-6" : [ "File", "Font", 0 ],
+			"obj-81::obj-76" : [ "live.menu[1]", "Font", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -5987,8 +5987,13 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-81::obj-6" : 				{
+					"parameter_longname" : "File"
+				}
+,
 				"obj-81::obj-76" : 				{
 					"parameter_invisible" : 2,
+					"parameter_longname" : "live.menu[1]",
 					"parameter_modmode" : 0,
 					"parameter_range" : [ "Loading...", " " ],
 					"parameter_type" : 2,
