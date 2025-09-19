@@ -8,7 +8,7 @@
       "parameter_longname": "Receive Gain",
       "parameter_shortname": "Receive Gain",
       "annotation": "Sets the gain of remote audio.",
-      "annotation_name": ""
+      "annotation_name": "Receive Gain"
     },
     {
       "id": "obj-27",
@@ -18,7 +18,7 @@
       "parameter_longname": "Thru Gain",
       "parameter_shortname": "Thru Gain",
       "annotation": "Sets the gain of audio thru.",
-      "annotation_name": ""
+      "annotation_name": "Thru Gain"
     },
     {
       "id": "obj-11",
@@ -29,7 +29,7 @@
       "parameter_longname": "Thru",
       "parameter_shortname": "Thru",
       "annotation": "Enables/disables audio thru.",
-      "annotation_name": ""
+      "annotation_name": "Thru"
     },
     {
       "id": "obj-10",
@@ -40,7 +40,7 @@
       "parameter_longname": "Receive",
       "parameter_shortname": "Receive",
       "annotation": "Enables/disables remote audio.",
-      "annotation_name": ""
+      "annotation_name": "Receive"
     }
   ]
 }
