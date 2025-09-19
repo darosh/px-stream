@@ -51,19 +51,19 @@ function update (obj, updated) {
     const { id, varname } = box
 
     const u = updated.find(v => v.id === id && v.varname === varname)
-    
+
     if (u.parameter_longname) {
       box.saved_attribute_attributes = box.saved_attribute_attributes || {}
       box.saved_attribute_attributes.valueof = box.saved_attribute_attributes.valueof || {}
       box.saved_attribute_attributes.valueof.parameter_longname = u.parameter_longname
     }
-    
+
     if (u.parameter_shortname) {
       box.saved_attribute_attributes = box.saved_attribute_attributes || {}
       box.saved_attribute_attributes.valueof = box.saved_attribute_attributes.valueof || {}
       box.saved_attribute_attributes.valueof.parameter_shortname = u.parameter_shortname
     }
-    
+
     if (u.annotation_name) {
       box.annotation_name = u.annotation_name
       box.saved_attribute_attributes = box.saved_attribute_attributes || {}
@@ -124,7 +124,9 @@ if (process.argv[2] === 'collect') {
     await writeFile(`${save}/${basename(name)}.json`, stringify({ boxes }))
   })
 
-  console.log(`Params saved: ${save}`)
+  const total = Object.values(params).reduce((acc, { boxes }) => acc + boxes.length, 0)
+
+  console.log(`${total} params saved: ${save}`)
 } else if (process.argv[2] === 'update') {
   const params = await collect(process.argv[3])
   const stored = await read(process.argv[4], process.argv[3])
@@ -140,7 +142,7 @@ if (process.argv[2] === 'collect') {
 
     console.log(`Updating: ${file}`)
     update(obj.patcher, stored[file])
-    
+
     await writeFile(file, stringify(obj))
   })
 }

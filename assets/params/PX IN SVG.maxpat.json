@@ -44,16 +44,6 @@
       "annotation": ""
     },
     {
-      "id": "obj-151",
-      "maxclass": "live.menu",
-      "presentation": 1,
-      "varname": "Dimensions",
-      "parameter_longname": "Dimensions",
-      "parameter_shortname": "Dimensions",
-      "annotation_name": "",
-      "annotation": ""
-    },
-    {
       "id": "obj-366",
       "maxclass": "live.tab",
       "presentation": 1,

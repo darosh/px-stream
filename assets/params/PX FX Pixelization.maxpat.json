@@ -1,6 +1,27 @@
 {
   "boxes": [
     {
+      "id": "obj-96",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "x=y",
+      "varname": "live.text[5]",
+      "parameter_longname": "live.text[5]",
+      "parameter_shortname": "live.text",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-18",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[20]",
+      "parameter_longname": "live.numbox[13]",
+      "parameter_shortname": "live.numbox",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
       "id": "obj-66",
       "maxclass": "live.numbox",
       "presentation": 1,

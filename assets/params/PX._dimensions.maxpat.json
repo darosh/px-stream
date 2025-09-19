@@ -1,0 +1,14 @@
+{
+  "boxes": [
+    {
+      "id": "obj-151",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "Dimensions",
+      "parameter_longname": "Dimensions",
+      "parameter_shortname": "Dimensions",
+      "annotation_name": "",
+      "annotation": ""
+    }
+  ]
+}

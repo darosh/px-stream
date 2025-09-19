@@ -38,7 +38,7 @@
       "maxclass": "live.dial",
       "presentation": 1,
       "varname": "live.dial[5]",
-      "parameter_longname": "live.dial[5]",
+      "parameter_longname": "Tint",
       "parameter_shortname": "live.dial",
       "annotation_name": "",
       "annotation": ""
@@ -48,7 +48,7 @@
       "maxclass": "live.dial",
       "presentation": 1,
       "varname": "live.dial[4]",
-      "parameter_longname": "live.dial[4]",
+      "parameter_longname": "Exposure",
       "parameter_shortname": "live.dial",
       "annotation_name": "",
       "annotation": ""
@@ -58,7 +58,7 @@
       "maxclass": "live.dial",
       "presentation": 1,
       "varname": "live.dial[3]",
-      "parameter_longname": "live.dial[3]",
+      "parameter_longname": "Temperature",
       "parameter_shortname": "live.dial",
       "annotation_name": "",
       "annotation": ""
@@ -68,7 +68,7 @@
       "maxclass": "live.dial",
       "presentation": 1,
       "varname": "live.dial[2]",
-      "parameter_longname": "live.dial[2]",
+      "parameter_longname": "Contrast",
       "parameter_shortname": "live.dial",
       "annotation_name": "",
       "annotation": ""
@@ -78,7 +78,7 @@
       "maxclass": "live.dial",
       "presentation": 1,
       "varname": "live.dial[1]",
-      "parameter_longname": "live.dial[1]",
+      "parameter_longname": "Saturation",
       "parameter_shortname": "live.dial",
       "annotation_name": "",
       "annotation": ""
@@ -88,7 +88,7 @@
       "maxclass": "live.dial",
       "presentation": 1,
       "varname": "live.dial",
-      "parameter_longname": "live.dial",
+      "parameter_longname": "Brightness",
       "parameter_shortname": "live.dial",
       "annotation_name": "",
       "annotation": ""
