@@ -16,6 +16,7 @@
 - [ ] params scripts
 - [ ] shader labels
 - [ ] pixelization smoothing split
+- [ ] dry/wet modes capitalization
 
 ## Misc
 
