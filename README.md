@@ -14,7 +14,7 @@
     <a href="#fx-transform"><img src="./assets/devices/PX_FX_Transform_v1.webp" title="FX Transform" width="71"/></a>
     <a href="#fx-convert"><img src="./assets/devices/PX_FX_Convert_(convert_back)_v1.webp" title="FX Convert" width="71"/></a>
     <a href="#px-route-midi"><img src="./assets/devices/PX_Route_MIDI_(linked)_v1.webp" title="PX Route MIDI" width="57"/></a>
-    <a href="#gen-text"><img src="./assets/devices/PX_GEN_Text_(expanded)_v1.webp" title="PX GEN Text" width="137"/></a>
+    <a href="#gen-text"><img src="./assets/devices/PX_GEN_Text_(expanded)_v1.webp" title="GEN Text" width="137"/></a>
   </div>
   <div>
     <a href="#fx-pixelization"><img src="./assets/devices/PX_FX_Pixelization_v1.webp" title="FX Pixelization" width="139"/></a>
@@ -29,7 +29,7 @@
     <a href="#px-shader"><img src="./assets/devices/PX_Shader_v1.webp" title="PX Shader" width="244"/></a>
     <a href="#px-mix-dry"><img src="./assets/devices/PX_Mix_Dry_v1.webp" title="PX Mix Dry" width="71"/></a>
     <a href="#in-svg"><img src="./assets/devices/PX_IN_SVG_v1.webp" title="IN SVG" width="71"/></a>
-    <a href="#gen-text"><img src="./assets/devices/PX_GEN_Text_v1.webp" title="PX GEN Text" width="71"/></a>
+    <a href="#gen-text"><img src="./assets/devices/PX_GEN_Text_v1.webp" title="GEN Text" width="71"/></a>
     <a href="#fx-convert"><img src="./assets/devices/PX_FX_Convert_v1.webp" title="FX Convert" width="71"/></a>
     <a href="#px-world"><img src="./assets/devices/PX_World_(mad_world)_v1.webp" title="PX World" width="63"/></a>
     <a href="#fx-color"><img src="./assets/devices/PX_FX_Color_(gamma)_v1.webp" title="FX Color" width="159"/></a>
@@ -50,7 +50,7 @@
     <a href="#in-cam"><img src="./assets/devices/PX_IN_Cam_v1.webp" title="IN Cam" width="71"/></a>
     <a href="#fx-delay"><img src="./assets/devices/PX_FX_Delay_v1.webp" title="FX Delay" width="71"/></a>
     <a href="#px-world"><img src="./assets/devices/PX_World_v1.webp" title="PX World" width="63"/></a>
-    <a href="#gen-cos-pattern"><img src="./assets/devices/PX_GEN_Cos_Pattern_v1.webp" title="PX GEN Cos Pattern" width="166"/></a>
+    <a href="#gen-cos-pattern"><img src="./assets/devices/PX_GEN_Cos_Pattern_v1.webp" title="GEN Cos Pattern" width="166"/></a>
   </div>
 </div>
 

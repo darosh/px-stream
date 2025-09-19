@@ -31,6 +31,7 @@ function imgTitle (name) {
     .replaceAll('_', ' ')
     .replace(/^px in/i, 'IN')
     .replace(/^px fx/i, 'FX')
+    .replace(/^px gen/i, 'GEN')
 }
 
 async function createCollage () {
