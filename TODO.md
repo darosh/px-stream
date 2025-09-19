@@ -17,6 +17,7 @@
 - [ ] shader labels
 - [ ] pixelization smoothing split
 - [ ] dry/wet modes capitalization
+- [ ] dimension x format, abstraction
 
 ## Misc
 
