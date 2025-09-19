@@ -6,7 +6,7 @@ let D = -1
 
 const s1 = 114 + 14
 const s2 = 60
-const s3 = 48 * 2 + 24
+const s3 = 48 * 2 + 16
 const s4 = 2
 
 function val (v) {

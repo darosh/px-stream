@@ -1198,7 +1198,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 56.0, 360.0, 132.0, 22.0 ],
-					"text" : "setwithtruncation $1 66"
+					"text" : "setwithtruncation $1 58"
 				}
 
 			}
