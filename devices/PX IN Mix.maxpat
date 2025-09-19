@@ -342,7 +342,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 672.0, 352.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.0, 93.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 76.0, 97.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -376,7 +376,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 616.0, 352.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.0, 93.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 57.0, 97.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -410,7 +410,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 560.0, 352.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.0, 93.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 38.0, 97.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -444,7 +444,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 504.0, 352.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.0, 74.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 38.0, 78.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -478,7 +478,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 448.0, 352.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.0, 74.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 57.0, 78.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -512,7 +512,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 392.0, 352.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.0, 74.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 76.0, 78.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -546,7 +546,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 336.0, 352.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.0, 55.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 76.0, 59.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -580,7 +580,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 280.0, 352.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.0, 55.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 57.0, 59.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -614,7 +614,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 224.0, 352.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.0, 55.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 38.0, 59.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -691,7 +691,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 192.0, 52.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 38.0, 59.0, 18.0 ],
+					"presentation_rect" : [ 36.0, 42.0, 59.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_text_zombie"
@@ -716,7 +716,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 184.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 35.0, 65.0, 79.0 ],
+					"presentation_rect" : [ 32.0, 39.0, 65.0, 79.0 ],
 					"proportion" : 0.39,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
