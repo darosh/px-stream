@@ -18,7 +18,6 @@
 - [ ] dry/wet modes capitalization
 - [ ] dimension x format, abstraction
 - [ ] reset shader param
-- [ ] reset color grading
 
 ## Misc
 
@@ -150,6 +149,7 @@
 
 ## Done
 
+- [x] reset color grading
 - [x] pixelization smoothing split
 - [x] UI fl, consolidation
 - [x] shader menu
