@@ -13,8 +13,9 @@
 - [ ] sdk?
 - [ ] param doc / mass edit
 - [ ] FX preview, animation
-- [ ] UI faceli ft, consolidation
 - [ ] params scripts
+- [ ] shader labels
+- [ ] pixelization smoothing split
 
 ## Misc
 
@@ -146,6 +147,7 @@
 
 ## Done
 
+- [x] UI fl, consolidation
 - [x] shader menu
 - [x] cam/syphon indicator
 - [x] cam/syphon live bang only
