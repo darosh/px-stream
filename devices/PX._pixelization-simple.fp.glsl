@@ -348,6 +348,14 @@ void main() {
 
     // Work in pixel coordinates
     vec2 pixel_coord = texcoord0;// [0, texdim0.x] x [0, texdim0.y]
+
+    // Apply grid transformations to the input coordinates BEFORE grid computation
+    if (grid_rotation != 0.0) {
+        pixel_coord = rotate_around_center(pixel_coord, grid_center * texdim0, radians(-grid_rotation));// Note: negative rotation
+    }
+
+    pixel_coord -= vec2(grid_shift_x, grid_shift_y) * texdim0;// Apply shift (note: subtraction for intuitive direction)
+
     float res_x = resolution_x;
     float res_y = resolution_y;
 
@@ -382,20 +390,22 @@ void main() {
     // Compute grid
     vec3 grid = pixel_to_grid(uv, size);
 
-    // Apply grid rotation around center
+    // Apply INVERSE transformation to grid.xy for texture sampling
+    vec2 sample_coord = grid.xy;
+    sample_coord += vec2(grid_shift_x, grid_shift_y);// Add back the shift
+
     if (grid_rotation != 0.0) {
-        grid.xy *= texdim0;
-        grid.xy = rotate_around_center(grid.xy, grid_center * texdim0, radians(grid_rotation));
-        grid.xy /= texdim0;
+        sample_coord *= texdim0;
+        sample_coord = rotate_around_center(sample_coord, grid_center * texdim0, radians(grid_rotation));// Positive rotation (inverse)
+        sample_coord /= texdim0;
     }
 
-    // Apply grid shift
-    grid.xy += vec2(grid_shift_x, grid_shift_y);
+    grid.xy = sample_coord.xy;
 
     if (preview_mode == 1) {
         // Color: use grid.z to show shapes, color based on cell center or original texture
-        original = original.a != -1. ? original : texture2DRect(tex0, texcoord0);
-        vec3 color = grid.z > 0.5 ? vec3(grid.xy, 0.0) : original.rgb * 0.5;// Inside: show grid center; outside: dim texture
+        // original = original.a != -1. ? original : texture2DRect(tex0, texcoord0);
+        vec3 color = grid.z > 0.5 ? vec3(1.) : vec3(0.);
         gl_FragColor = vec4(color, 1.);
     } else {
         vec3 pixel_color;
@@ -431,15 +441,11 @@ void main() {
             float edge_dist = length(norm_pos_r);
             float edge_factor = smoothstep(0., .5, edge_dist);
 
-            vec3 edge_color = use_oklab == 1
-            ?mix_oklab(pixel_color * (1.0 + fade), pixel_color * (1.0 - fade), edge_factor)
-            :mix(pixel_color * (1.0 + fade), pixel_color * (1.0 - fade), edge_factor);
-
-            pixel_color = use_oklab == 1
-            ? mix_oklab(pixel_color, edge_color, fading)
-            : mix(pixel_color, edge_color, fading);
+            // oklab does not work here
+            vec3 edge_color = mix(pixel_color * (1.0 + fade), pixel_color * (1.0 - fade), edge_factor);
+            pixel_color = mix(pixel_color, edge_color, fading);
         }
-        
+
         vec4 color = grid.z > 0.5 ? vec4(pixel_color, 1.) : vec4(0.);
         gl_FragColor = color;
     }

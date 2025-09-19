@@ -145,6 +145,7 @@
 
 ## Done
 
+- [x] pixelization rotation fix
 - [x] reset shader param
 - [x] shader initial load fix
 - [x] shader labels
@@ -266,7 +267,7 @@
 - [x] osc pre render?
 - [x] parametrize audio images
 - [x] image params
-- [x] add vizualizer meta
+- [x] add visualizer meta
 - [x] syphon tabs
 - [x] load shaders dir
 - [x] categorize
