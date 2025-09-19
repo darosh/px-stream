@@ -14,8 +14,6 @@
 - [ ] param doc / mass edit
 - [ ] FX preview, animation
 - [ ] params scripts
-- [ ] reset shader param
-- [ ] shader initial load fix
 
 ## Misc
 
@@ -147,6 +145,8 @@
 
 ## Done
 
+- [x] reset shader param
+- [x] shader initial load fix
 - [x] shader labels
 - [x] dimension x format, abstraction
 - [x] dry/wet modes capitalization
