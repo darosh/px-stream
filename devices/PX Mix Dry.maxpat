@@ -21,6 +21,42 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-76",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 160.0, 400.0, 57.0, 22.0 ],
+					"text" : "tosymbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 160.0, 368.0, 96.0, 22.0 ],
+					"text" : "string.replace \" \""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 160.0, 336.0, 80.0, 22.0 ],
+					"text" : "string.tolower"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-71",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -740,12 +776,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 24.0, 408.0, 100.0, 15.0 ],
+					"patching_rect" : [ 160.0, 304.0, 100.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 134.0, 72.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "additive", "alphablend", "average", "brightlight", "burn", "darken", "difference", "dodge", "exclude", "freeze", "glow", "hardlight", "heat", "inverse", "lighten", "multiply", "negate", "normal", "overlay", "reflect", "screen", "softlight", "stamp", "subtractive" ],
+							"parameter_enum" : [ "Additive", "Alpha blend", "Average", "Bright light", "Burn", "Darken", "Difference", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Heat", "Inverse", "Lighten", "Multiply", "Negate", "Normal", "Overlay", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive" ],
 							"parameter_initial" : [ 17.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.menu",
@@ -1895,7 +1931,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
+					"destination" : [ "obj-72", 0 ],
 					"source" : [ "obj-25", 1 ]
 				}
 
@@ -2429,6 +2465,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
 					"source" : [ "obj-73", 0 ]
 				}
@@ -2438,6 +2481,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-77", 1 ],
 					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-76", 0 ]
 				}
 
 			}
