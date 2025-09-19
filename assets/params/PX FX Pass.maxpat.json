@@ -7,8 +7,8 @@
       "varname": "live.tab",
       "parameter_longname": "live.tab",
       "parameter_shortname": "live.tab",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-366",
@@ -17,8 +17,8 @@
       "varname": "Syphon",
       "parameter_longname": "Syphon",
       "parameter_shortname": "Syphon",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     }
   ]
 }

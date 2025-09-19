@@ -7,8 +7,8 @@
       "varname": "live.menu",
       "parameter_longname": "FPS",
       "parameter_shortname": "FPS",
-      "annotation": "Select target FPS. FPS 0 will use available maximum with displaylink turned on on Mac.",
-      "annotation_name": "FPS"
+      "annotation_name": "FPS",
+      "annotation": "Select target FPS. FPS 0 will use available maximum with displaylink turned on on Mac."
     },
     {
       "id": "obj-16",
@@ -18,8 +18,8 @@
       "varname": "live.text",
       "parameter_longname": "Enabled",
       "parameter_shortname": "Enabled",
-      "annotation": "Stop the world here. Disabling device will do the same.",
-      "annotation_name": "Enabled"
+      "annotation_name": "Enabled",
+      "annotation": "Stop the world here. Disabling device will do the same."
     }
   ]
 }

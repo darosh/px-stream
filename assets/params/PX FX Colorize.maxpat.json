@@ -7,8 +7,8 @@
       "varname": "live.numbox[16]",
       "parameter_longname": "live.numbox[27]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-117",
@@ -18,8 +18,8 @@
       "varname": "live.text[4]",
       "parameter_longname": "live.text[11]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-113",
@@ -28,8 +28,8 @@
       "varname": "live.numbox[20]",
       "parameter_longname": "live.numbox[25]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-116",
@@ -38,8 +38,8 @@
       "varname": "live.numbox[21]",
       "parameter_longname": "live.numbox[26]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-112",
@@ -48,8 +48,8 @@
       "varname": "live.menu",
       "parameter_longname": "live.menu",
       "parameter_shortname": "live.menu",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-111",
@@ -59,8 +59,8 @@
       "varname": "live.text[3]",
       "parameter_longname": "live.text[10]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-110",
@@ -70,8 +70,8 @@
       "varname": "live.text[2]",
       "parameter_longname": "live.text[9]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-107",
@@ -80,8 +80,8 @@
       "varname": "live.numbox[19]",
       "parameter_longname": "live.numbox[24]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-106",
@@ -90,8 +90,8 @@
       "varname": "live.numbox[18]",
       "parameter_longname": "live.numbox[23]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-105",
@@ -101,8 +101,8 @@
       "varname": "live.text[1]",
       "parameter_longname": "live.text[1]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-97",
@@ -111,8 +111,8 @@
       "varname": "live.numbox[14]",
       "parameter_longname": "live.numbox[19]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-100",
@@ -121,8 +121,8 @@
       "varname": "live.numbox[15]",
       "parameter_longname": "live.numbox[20]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-104",
@@ -131,8 +131,8 @@
       "varname": "live.numbox[17]",
       "parameter_longname": "live.numbox[22]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-91",
@@ -141,8 +141,8 @@
       "varname": "live.numbox[12]",
       "parameter_longname": "live.numbox[17]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-94",
@@ -151,8 +151,8 @@
       "varname": "live.numbox[13]",
       "parameter_longname": "live.numbox[18]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-90",
@@ -161,8 +161,8 @@
       "varname": "live.numbox[11]",
       "parameter_longname": "live.numbox[16]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-87",
@@ -172,8 +172,8 @@
       "varname": "live.text[13]",
       "parameter_longname": "live.text[8]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-83",
@@ -183,8 +183,8 @@
       "varname": "live.text",
       "parameter_longname": "live.text",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-82",
@@ -193,8 +193,8 @@
       "varname": "live.numbox[10]",
       "parameter_longname": "live.numbox[15]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-79",
@@ -203,8 +203,8 @@
       "varname": "live.numbox[9]",
       "parameter_longname": "live.numbox[14]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-68",
@@ -213,8 +213,8 @@
       "varname": "live.button[2]",
       "parameter_longname": "live.button[3]",
       "parameter_shortname": "live.button",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-73",
@@ -223,8 +223,8 @@
       "varname": "live.numbox[6]",
       "parameter_longname": "live.numbox[11]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-74",
@@ -233,8 +233,8 @@
       "varname": "live.numbox[7]",
       "parameter_longname": "live.numbox[12]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-75",
@@ -243,8 +243,8 @@
       "varname": "live.numbox[8]",
       "parameter_longname": "live.numbox[13]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-54",
@@ -253,8 +253,8 @@
       "varname": "live.button[1]",
       "parameter_longname": "live.button[2]",
       "parameter_shortname": "live.button",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-59",
@@ -263,8 +263,8 @@
       "varname": "live.numbox[3]",
       "parameter_longname": "live.numbox[8]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-60",
@@ -273,8 +273,8 @@
       "varname": "live.numbox[4]",
       "parameter_longname": "live.numbox[9]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-61",
@@ -283,8 +283,8 @@
       "varname": "live.numbox[5]",
       "parameter_longname": "live.numbox[10]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-33",
@@ -293,8 +293,8 @@
       "varname": "live.button",
       "parameter_longname": "live.button",
       "parameter_shortname": "live.button",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-14",
@@ -303,8 +303,8 @@
       "varname": "live.numbox[2]",
       "parameter_longname": "live.numbox[2]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-13",
@@ -313,8 +313,8 @@
       "varname": "live.numbox[1]",
       "parameter_longname": "live.numbox[1]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-4",
@@ -323,8 +323,8 @@
       "varname": "live.numbox",
       "parameter_longname": "live.numbox",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-366",
@@ -333,8 +333,8 @@
       "varname": "live.tab[1]",
       "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     }
   ]
 }

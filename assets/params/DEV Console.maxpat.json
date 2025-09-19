@@ -8,8 +8,8 @@
       "varname": "live.text",
       "parameter_longname": "Active",
       "parameter_shortname": "Active",
-      "annotation": "Activates Max console additional output. May affect performance. DO NOT USE IN PRODUCTION.",
-      "annotation_name": "Active"
+      "annotation_name": "Active",
+      "annotation": "Activates Max console additional output. May affect performance. DO NOT USE IN PRODUCTION."
     }
   ]
 }

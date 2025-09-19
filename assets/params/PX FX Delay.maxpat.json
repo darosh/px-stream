@@ -7,8 +7,8 @@
       "varname": "live.dial",
       "parameter_longname": "Delay Frames",
       "parameter_shortname": "Frames",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-366",
@@ -17,8 +17,8 @@
       "varname": "live.tab[1]",
       "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     }
   ]
 }

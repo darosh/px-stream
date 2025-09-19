@@ -8,8 +8,8 @@
       "varname": "Thru",
       "parameter_longname": "Send MIDI",
       "parameter_shortname": "Send MIDI",
-      "annotation": "Send MIDI on/off",
-      "annotation_name": "Send MIDI"
+      "annotation_name": "Send MIDI",
+      "annotation": "Send MIDI on/off"
     }
   ]
 }

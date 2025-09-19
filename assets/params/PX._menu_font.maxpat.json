@@ -7,8 +7,8 @@
       "varname": "Font",
       "parameter_longname": "Font Automation",
       "parameter_shortname": "Font",
-      "annotation": "Selected font",
-      "annotation_name": "Font"
+      "annotation_name": "Font",
+      "annotation": "Selected font"
     },
     {
       "id": "obj-76",
@@ -17,8 +17,8 @@
       "varname": "live.menu",
       "parameter_longname": "Font",
       "parameter_shortname": "Font",
-      "annotation": "Selected font",
-      "annotation_name": "Font"
+      "annotation_name": "Font",
+      "annotation": "Selected font"
     }
   ]
 }

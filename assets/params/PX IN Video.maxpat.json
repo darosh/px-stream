@@ -8,8 +8,8 @@
       "varname": "live.text[1]",
       "parameter_longname": "live.text[1]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-10",
@@ -18,8 +18,8 @@
       "varname": "live.numbox",
       "parameter_longname": "live.numbox",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-103",
@@ -29,8 +29,8 @@
       "varname": "live.text",
       "parameter_longname": "live.text",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-91",
@@ -39,8 +39,8 @@
       "varname": "live.menu",
       "parameter_longname": "live.menu",
       "parameter_shortname": "live.menu",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-361",
@@ -50,8 +50,8 @@
       "varname": "live.text[9]",
       "parameter_longname": "Reload[4]",
       "parameter_shortname": "Reload",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-360",
@@ -61,8 +61,8 @@
       "varname": "live.text[8]",
       "parameter_longname": "Reload[3]",
       "parameter_shortname": "Reload",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-151",
@@ -71,8 +71,8 @@
       "varname": "Dimensions",
       "parameter_longname": "Dimensions",
       "parameter_shortname": "Dimensions",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-366",
@@ -81,8 +81,8 @@
       "varname": "Syphon",
       "parameter_longname": "Syphon",
       "parameter_shortname": "Syphon",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-362",
@@ -92,8 +92,8 @@
       "varname": "live.text[10]",
       "parameter_longname": "Reload[5]",
       "parameter_shortname": "Reload",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     }
   ]
 }

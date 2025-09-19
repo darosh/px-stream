@@ -27,8 +27,8 @@ function getPatcherParams (obj, params = []) {
       id, maxclass, presentation, text, varname,
       parameter_longname: parameter_longname || '',
       parameter_shortname: parameter_shortname || '',
-      annotation: annotation || '',
-      annotation_name: annotation_name || ''
+      annotation_name: annotation_name || '',
+      annotation: annotation || ''
     })
   }
 
@@ -64,18 +64,18 @@ function update (obj, updated) {
       box.saved_attribute_attributes.valueof.parameter_shortname = u.parameter_shortname
     }
     
-    if (u.annotation) {
-      box.annotation = u.annotation
-      box.saved_attribute_attributes = box.saved_attribute_attributes || {}
-      box.saved_attribute_attributes.valueof = box.saved_attribute_attributes.valueof || {}
-      box.saved_attribute_attributes.valueof.parameter_info = u.annotation
-    }
-    
     if (u.annotation_name) {
       box.annotation_name = u.annotation_name
       box.saved_attribute_attributes = box.saved_attribute_attributes || {}
       box.saved_attribute_attributes.valueof = box.saved_attribute_attributes.valueof || {}
       box.saved_attribute_attributes.valueof.parameter_annotation_name = u.annotation_name
+    }
+
+    if (u.annotation) {
+      box.annotation = u.annotation
+      box.saved_attribute_attributes = box.saved_attribute_attributes || {}
+      box.saved_attribute_attributes.valueof = box.saved_attribute_attributes.valueof || {}
+      box.saved_attribute_attributes.valueof.parameter_info = u.annotation
     }
   }
 

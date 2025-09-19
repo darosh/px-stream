@@ -8,8 +8,8 @@
       "varname": "live.text[5]",
       "parameter_longname": "live.text[12]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-50",
@@ -18,8 +18,8 @@
       "varname": "live.numbox[6]",
       "parameter_longname": "live.numbox[4]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-51",
@@ -28,8 +28,8 @@
       "varname": "live.numbox[7]",
       "parameter_longname": "live.numbox[5]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-52",
@@ -38,8 +38,8 @@
       "varname": "live.numbox[8]",
       "parameter_longname": "live.numbox[6]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-53",
@@ -48,8 +48,8 @@
       "varname": "live.numbox[12]",
       "parameter_longname": "live.numbox[7]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-54",
@@ -58,8 +58,8 @@
       "varname": "live.numbox[13]",
       "parameter_longname": "live.numbox[29]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-37",
@@ -68,8 +68,8 @@
       "varname": "live.menu[3]",
       "parameter_longname": "live.menu[3]",
       "parameter_shortname": "live.menu[3]",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-36",
@@ -78,8 +78,8 @@
       "varname": "live.tab[4]",
       "parameter_longname": "Channel[3]",
       "parameter_shortname": "Channel",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-29",
@@ -88,8 +88,8 @@
       "varname": "live.menu[1]",
       "parameter_longname": "live.menu[1]",
       "parameter_shortname": "live.menu[1]",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-110",
@@ -99,8 +99,8 @@
       "varname": "live.text[2]",
       "parameter_longname": "live.text[9]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-106",
@@ -109,8 +109,8 @@
       "varname": "live.numbox[18]",
       "parameter_longname": "live.numbox[23]",
       "parameter_shortname": "live.numbox",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-87",
@@ -120,8 +120,8 @@
       "varname": "live.text[13]",
       "parameter_longname": "live.text[8]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-366",
@@ -130,8 +130,8 @@
       "varname": "live.tab[1]",
       "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     }
   ]
 }

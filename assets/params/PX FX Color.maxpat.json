@@ -8,8 +8,8 @@
       "varname": "live.text[2]",
       "parameter_longname": "live.text[2]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-40",
@@ -19,8 +19,8 @@
       "varname": "live.text[1]",
       "parameter_longname": "live.text[1]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-34",
@@ -30,8 +30,8 @@
       "varname": "live.text[13]",
       "parameter_longname": "live.text[8]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-31",
@@ -40,8 +40,8 @@
       "varname": "live.dial[5]",
       "parameter_longname": "live.dial[5]",
       "parameter_shortname": "live.dial",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-30",
@@ -50,8 +50,8 @@
       "varname": "live.dial[4]",
       "parameter_longname": "live.dial[4]",
       "parameter_shortname": "live.dial",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-29",
@@ -60,8 +60,8 @@
       "varname": "live.dial[3]",
       "parameter_longname": "live.dial[3]",
       "parameter_shortname": "live.dial",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-28",
@@ -70,8 +70,8 @@
       "varname": "live.dial[2]",
       "parameter_longname": "live.dial[2]",
       "parameter_shortname": "live.dial",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-26",
@@ -80,8 +80,8 @@
       "varname": "live.dial[1]",
       "parameter_longname": "live.dial[1]",
       "parameter_shortname": "live.dial",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-19",
@@ -90,8 +90,8 @@
       "varname": "live.dial",
       "parameter_longname": "live.dial",
       "parameter_shortname": "live.dial",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-366",
@@ -100,8 +100,8 @@
       "varname": "live.tab[1]",
       "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     }
   ]
 }

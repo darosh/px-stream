@@ -7,8 +7,8 @@
       "varname": "File",
       "parameter_longname": "File Automation",
       "parameter_shortname": "File",
-      "annotation": "Selected file",
-      "annotation_name": "File"
+      "annotation_name": "File",
+      "annotation": "Selected file"
     },
     {
       "id": "obj-76",
@@ -17,8 +17,8 @@
       "varname": "live.menu",
       "parameter_longname": "File",
       "parameter_shortname": "File",
-      "annotation": "Selected file",
-      "annotation_name": "File"
+      "annotation_name": "File",
+      "annotation": "Selected file"
     }
   ]
 }

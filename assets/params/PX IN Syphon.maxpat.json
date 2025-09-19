@@ -8,8 +8,8 @@
       "varname": "live.text[10]",
       "parameter_longname": "Reload[5]",
       "parameter_shortname": "Reload",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-366",
@@ -18,8 +18,8 @@
       "varname": "Syphon",
       "parameter_longname": "Syphon",
       "parameter_shortname": "Syphon",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     }
   ]
 }

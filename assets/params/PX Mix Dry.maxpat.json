@@ -7,8 +7,8 @@
       "varname": "live.tab",
       "parameter_longname": "live.tab",
       "parameter_shortname": "live.tab",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-50",
@@ -17,8 +17,8 @@
       "varname": "live.text[4]",
       "parameter_longname": "live.text[4]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-49",
@@ -28,8 +28,8 @@
       "varname": "live.text[3]",
       "parameter_longname": "live.text[3]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-48",
@@ -39,8 +39,8 @@
       "varname": "live.text[2]",
       "parameter_longname": "live.text[2]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-47",
@@ -50,8 +50,8 @@
       "varname": "live.text[1]",
       "parameter_longname": "live.text[1]",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-38",
@@ -61,8 +61,8 @@
       "varname": "live.text",
       "parameter_longname": "live.text",
       "parameter_shortname": "live.text",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-25",
@@ -71,8 +71,8 @@
       "varname": "live.menu",
       "parameter_longname": "live.menu",
       "parameter_shortname": "live.menu",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-24",
@@ -81,8 +81,8 @@
       "varname": "live.dial",
       "parameter_longname": "Dry / Wet",
       "parameter_shortname": "Dry / Wet",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     },
     {
       "id": "obj-366",
@@ -91,8 +91,8 @@
       "varname": "Syphon",
       "parameter_longname": "Syphon",
       "parameter_shortname": "Syphon",
-      "annotation": "",
-      "annotation_name": ""
+      "annotation_name": "",
+      "annotation": ""
     }
   ]
 }
