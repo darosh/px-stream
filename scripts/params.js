@@ -48,10 +48,15 @@ function update (obj, updated) {
       continue
     }
 
-    const { id, varname } = box
+    const { id } = box
 
-    const u = updated.find(v => v.id === id && v.varname === varname)
+    const u = updated.find(v => v.id === id)
 
+    if (!u) {
+      console.error('Not found', id, box)
+      process.exit()
+    }
+    
     if (u.parameter_longname) {
       box.saved_attribute_attributes = box.saved_attribute_attributes || {}
       box.saved_attribute_attributes.valueof = box.saved_attribute_attributes.valueof || {}

@@ -1,0 +1,44 @@
+{
+  "boxes": [
+    {
+      "id": "obj-68",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "live.tab",
+      "parameter_longname": "From",
+      "parameter_shortname": "From",
+      "annotation_name": "From",
+      "annotation": "Selects which of previous devices will be used as origin of the transition"
+    },
+    {
+      "id": "obj-25",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu",
+      "parameter_longname": "Transition",
+      "parameter_shortname": "Transition",
+      "annotation_name": "Transition",
+      "annotation": "Selects transition"
+    },
+    {
+      "id": "obj-24",
+      "maxclass": "live.dial",
+      "presentation": 1,
+      "varname": "live.dial",
+      "parameter_longname": "Progress",
+      "parameter_shortname": "Progress",
+      "annotation_name": "Progress",
+      "annotation": "Transition progress"
+    },
+    {
+      "id": "obj-366",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "Channel",
+      "parameter_longname": "Channel",
+      "parameter_shortname": "Channel",
+      "annotation_name": "Channel",
+      "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."
+    }
+  ]
+}

@@ -47,11 +47,11 @@
       "id": "obj-366",
       "maxclass": "live.tab",
       "presentation": 1,
-      "varname": "Syphon",
-      "parameter_longname": "Syphon",
-      "parameter_shortname": "Syphon",
-      "annotation_name": "",
-      "annotation": ""
+      "varname": "Channel",
+      "parameter_longname": "Channel",
+      "parameter_shortname": "Channel",
+      "annotation_name": "Channel",
+      "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."
     }
   ]
 }
