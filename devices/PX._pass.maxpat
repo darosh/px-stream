@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 58.0, 99.0, 662.0, 476.0 ],
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridsize" : [ 8.0, 8.0 ],
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -21,7 +21,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 78.0, 151.0, 30.0, 30.0 ]
+					"patching_rect" : [ 80.0, 152.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -34,7 +34,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 78.0, 58.0, 30.0, 30.0 ]
+					"patching_rect" : [ 80.0, 56.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -46,7 +46,8 @@
 				}
 
 			}
- ]
+ ],
+		"gridsnaponopen" : 2
 	}
 
 }

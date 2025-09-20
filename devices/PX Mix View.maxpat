@@ -5672,7 +5672,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 1500.0, 150.0, 64.0, 64.0 ],
+									"patching_rect" : [ 1504.0, 152.0, 64.0, 64.0 ],
 									"sync" : 1,
 									"usesrcrect" : 1,
 									"varname" : "popw"
@@ -9192,7 +9192,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 520.0, 760.0, 80.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 300.444444444444457, 169.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 169.0 ],
 					"sync" : 1,
 					"varname" : "pwin_static"
 				}

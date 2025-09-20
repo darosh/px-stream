@@ -156,7 +156,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1068.0, 920.0, 30.0, 22.0 ],
+					"patching_rect" : [ 1072.0, 920.0, 30.0, 22.0 ],
 					"text" : "t l l"
 				}
 
@@ -240,7 +240,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1076.0, 1016.0, 47.0, 22.0 ],
+					"patching_rect" : [ 1080.0, 1016.0, 47.0, 22.0 ],
 					"text" : "pack f f"
 				}
 
@@ -252,7 +252,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1022.0, 968.0, 72.0, 22.0 ],
+					"patching_rect" : [ 1024.0, 968.0, 72.0, 22.0 ],
 					"text" : "expr $f3/$f1"
 				}
 
@@ -276,7 +276,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1076.0, 1064.0, 59.0, 22.0 ],
+					"patching_rect" : [ 1080.0, 1064.0, 59.0, 22.0 ],
 					"text" : "0 0 $1 $2"
 				}
 
@@ -288,7 +288,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 330.0, 792.0, 30.0, 22.0 ],
+					"patching_rect" : [ 328.0, 792.0, 30.0, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -300,7 +300,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 330.0, 840.0, 42.0, 22.0 ],
+					"patching_rect" : [ 328.0, 840.0, 42.0, 22.0 ],
 					"text" : "gate 3"
 				}
 
@@ -312,7 +312,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 330.0, 752.0, 30.0, 22.0 ],
+					"patching_rect" : [ 328.0, 752.0, 30.0, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -351,7 +351,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 616.0, 1079.0, 72.0, 22.0 ],
+					"patching_rect" : [ 616.0, 1080.0, 72.0, 22.0 ],
 					"text" : "$1 $2 $3 $4"
 				}
 
@@ -423,7 +423,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 739.0, 920.0, 146.0, 22.0 ],
+					"patching_rect" : [ 736.0, 920.0, 146.0, 22.0 ],
 					"text" : "expr max($f3/$f1\\, $f4/$f2)"
 				}
 
@@ -1123,7 +1123,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 711.0, 75.0, 22.0 ],
+					"patching_rect" : [ 144.0, 712.0, 75.0, 22.0 ],
 					"text" : "r ---svg_size"
 				}
 
@@ -1135,7 +1135,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.0, 760.0, 47.0, 22.0 ],
+					"patching_rect" : [ 264.0, 760.0, 47.0, 22.0 ],
 					"text" : "r ---dim"
 				}
 

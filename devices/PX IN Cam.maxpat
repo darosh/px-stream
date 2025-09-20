@@ -315,7 +315,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 144.0, 711.0, 84.0, 23.0 ],
+					"patching_rect" : [ 144.0, 712.0, 84.0, 23.0 ],
 					"text" : "t getvdevlist 1"
 				}
 

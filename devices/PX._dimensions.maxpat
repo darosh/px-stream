@@ -13,7 +13,7 @@
 		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openrect" : [ 0.0, 0.0, 72.0, 17.0 ],
 		"openinpresentation" : 1,
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridsize" : [ 8.0, 8.0 ],
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -23,7 +23,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 29.0, 184.0, 30.0, 30.0 ]
+					"patching_rect" : [ 32.0, 184.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -34,7 +34,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 133.0, 76.0, 22.0 ],
+					"patching_rect" : [ 32.0, 136.0, 76.0, 22.0 ],
 					"text" : "string.tolist ×"
 				}
 
@@ -48,7 +48,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 48.0, 30.0, 30.0 ]
+					"patching_rect" : [ 32.0, 48.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -60,7 +60,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 29.0, 97.0, 100.0, 15.0 ],
+					"patching_rect" : [ 32.0, 96.0, 100.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 68.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -103,7 +103,8 @@
 				}
 
 			}
- ]
+ ],
+		"gridsnaponopen" : 2
 	}
 
 }
