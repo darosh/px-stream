@@ -117,6 +117,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"annotation_name" : "Show hue",
 					"fontsize" : 7.0,
 					"id" : "obj-21",
 					"maxclass" : "live.text",
@@ -133,13 +134,14 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Show hue",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "Show hue",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Show hue",
 							"parameter_type" : 2
 						}
 
@@ -409,6 +411,7 @@
 									"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 									"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 									"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+									"annotation_name" : "Reset shadow",
 									"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 									"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 									"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -465,12 +468,13 @@
 										}
 ,
 										"valueof" : 										{
+											"parameter_annotation_name" : "Reset shadow",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_invisible" : 2,
-											"parameter_longname" : "live.text[5]",
+											"parameter_longname" : "Reset shadow",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_shortname" : "live.text",
+											"parameter_shortname" : "Reset shadow",
 											"parameter_type" : 2
 										}
 
@@ -489,6 +493,7 @@
 									"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 									"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 									"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+									"annotation_name" : "Reset light",
 									"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 									"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 									"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -545,12 +550,13 @@
 										}
 ,
 										"valueof" : 										{
+											"parameter_annotation_name" : "Reset light",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_invisible" : 2,
-											"parameter_longname" : "live.text[4]",
+											"parameter_longname" : "Reset light",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_shortname" : "live.text",
+											"parameter_shortname" : "Reset light",
 											"parameter_type" : 2
 										}
 
@@ -569,6 +575,7 @@
 									"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 									"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 									"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+									"annotation_name" : "Reset global",
 									"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 									"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 									"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -625,12 +632,13 @@
 										}
 ,
 										"valueof" : 										{
+											"parameter_annotation_name" : "Reset global",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_invisible" : 2,
-											"parameter_longname" : "live.text[3]",
+											"parameter_longname" : "Reset global",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_shortname" : "live.text",
+											"parameter_shortname" : "Reset global",
 											"parameter_type" : 2
 										}
 
@@ -649,6 +657,7 @@
 									"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 									"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 									"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+									"annotation_name" : "Reset dark",
 									"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 									"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 									"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -705,12 +714,13 @@
 										}
 ,
 										"valueof" : 										{
+											"parameter_annotation_name" : "Reset dark",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_invisible" : 2,
-											"parameter_longname" : "live.text",
+											"parameter_longname" : "Reset dark",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_shortname" : "live.text",
+											"parameter_shortname" : "Reset dark",
 											"parameter_type" : 2
 										}
 
@@ -1002,6 +1012,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Global Lum",
 									"id" : "obj-102",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1013,9 +1024,10 @@
 									"presentation_rect" : [ 24.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Global Lum",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[35]",
+											"parameter_longname" : "Global Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1033,6 +1045,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Global Sat",
 									"id" : "obj-103",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1044,9 +1057,10 @@
 									"presentation_rect" : [ 0.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Global Sat",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[36]",
+											"parameter_longname" : "Global Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Global Sat",
@@ -1063,6 +1077,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Global Hue",
 									"id" : "obj-104",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1075,9 +1090,10 @@
 									"presentation_rect" : [ 0.0, 424.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Global Hue",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[37]",
+											"parameter_longname" : "Global Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1199,6 +1215,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Y Lum",
 									"id" : "obj-82",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1210,9 +1227,10 @@
 									"presentation_rect" : [ 312.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Y Lum",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[32]",
+											"parameter_longname" : "Y Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1230,6 +1248,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Y Sat",
 									"id" : "obj-83",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1241,9 +1260,10 @@
 									"presentation_rect" : [ 288.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Y Sat",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[33]",
+											"parameter_longname" : "Y Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Y Sat",
@@ -1260,6 +1280,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Y Hue",
 									"id" : "obj-91",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1272,9 +1293,10 @@
 									"presentation_rect" : [ 288.0, 424.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Y Hue",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[34]",
+											"parameter_longname" : "Y Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1306,6 +1328,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "M Lum",
 									"id" : "obj-78",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1317,9 +1340,10 @@
 									"presentation_rect" : [ 264.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "M Lum",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[29]",
+											"parameter_longname" : "M Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1337,6 +1361,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "M Sat",
 									"id" : "obj-79",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1348,9 +1373,10 @@
 									"presentation_rect" : [ 240.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "M Sat",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[30]",
+											"parameter_longname" : "M Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "M Sat",
@@ -1367,6 +1393,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "M Hue",
 									"id" : "obj-80",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1379,9 +1406,10 @@
 									"presentation_rect" : [ 240.0, 424.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "M Hue",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[31]",
+											"parameter_longname" : "M Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1413,6 +1441,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "C Lum",
 									"id" : "obj-72",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1424,9 +1453,10 @@
 									"presentation_rect" : [ 216.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "C Lum",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[20]",
+											"parameter_longname" : "C Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1444,6 +1474,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "C Sat",
 									"id" : "obj-75",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1455,9 +1486,10 @@
 									"presentation_rect" : [ 192.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "C Sat",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[27]",
+											"parameter_longname" : "C Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "C Sat",
@@ -1474,6 +1506,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "C Hue",
 									"id" : "obj-76",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1486,9 +1519,10 @@
 									"presentation_rect" : [ 192.0, 424.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "C Hue",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[28]",
+											"parameter_longname" : "C Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1520,6 +1554,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "B Lum",
 									"id" : "obj-66",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1531,9 +1566,10 @@
 									"presentation_rect" : [ 168.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "B Lum",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[24]",
+											"parameter_longname" : "B Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1551,6 +1587,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "B Sat",
 									"id" : "obj-67",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1562,9 +1599,10 @@
 									"presentation_rect" : [ 144.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "B Sat",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[25]",
+											"parameter_longname" : "B Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "B Sat",
@@ -1581,6 +1619,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "B Hue",
 									"id" : "obj-68",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1593,9 +1632,10 @@
 									"presentation_rect" : [ 144.0, 424.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "B Hue",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[26]",
+											"parameter_longname" : "B Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1627,6 +1667,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "G Lum",
 									"id" : "obj-62",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1638,9 +1679,10 @@
 									"presentation_rect" : [ 120.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "G Lum",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[21]",
+											"parameter_longname" : "G Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1658,6 +1700,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "G Sat",
 									"id" : "obj-63",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1669,9 +1712,10 @@
 									"presentation_rect" : [ 96.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "G Sat",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[22]",
+											"parameter_longname" : "G Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "G Sat",
@@ -1688,6 +1732,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "G Hue",
 									"id" : "obj-64",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1700,9 +1745,10 @@
 									"presentation_rect" : [ 96.0, 424.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "G Hue",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[23]",
+											"parameter_longname" : "G Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1734,6 +1780,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "R Lum",
 									"id" : "obj-50",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1745,9 +1792,10 @@
 									"presentation_rect" : [ 72.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "R Lum",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[19]",
+											"parameter_longname" : "R Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1765,6 +1813,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "R Sat",
 									"id" : "obj-46",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1776,9 +1825,10 @@
 									"presentation_rect" : [ 48.0, 463.0, 18.0, 104.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "R Sat",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[18]",
+											"parameter_longname" : "R Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "R Sat",
@@ -1795,6 +1845,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "R Hue",
 									"id" : "obj-26",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1807,9 +1858,10 @@
 									"presentation_rect" : [ 48.0, 424.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "R Hue",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[17]",
+											"parameter_longname" : "R Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -1970,6 +2022,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "B Lift",
 									"id" : "obj-40",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -1982,13 +2035,14 @@
 									"presentation_rect" : [ 112.0, 336.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "B Lift",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[14]",
+											"parameter_longname" : "B Lift",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "G Lift",
+											"parameter_shortname" : "B Lift",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
 										}
@@ -2002,6 +2056,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "G Lift",
 									"id" : "obj-42",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -2014,9 +2069,10 @@
 									"presentation_rect" : [ 112.0, 280.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "G Lift",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[15]",
+											"parameter_longname" : "G Lift",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -2034,6 +2090,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "R Lift",
 									"id" : "obj-45",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -2046,9 +2103,10 @@
 									"presentation_rect" : [ 112.0, 224.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "R Lift",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[16]",
+											"parameter_longname" : "R Lift",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -2066,6 +2124,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "B Gain",
 									"id" : "obj-31",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -2078,9 +2137,10 @@
 									"presentation_rect" : [ 16.0, 336.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "B Gain",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[12]",
+											"parameter_longname" : "B Gain",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "B Gain",
@@ -2097,6 +2157,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "G Gamma",
 									"id" : "obj-34",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -2109,9 +2170,10 @@
 									"presentation_rect" : [ 64.0, 280.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "G Gamma",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[9]",
+											"parameter_longname" : "G Gamma",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "G Gamma",
@@ -2128,6 +2190,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "R Gamma",
 									"id" : "obj-39",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -2140,9 +2203,10 @@
 									"presentation_rect" : [ 64.0, 224.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "R Gamma",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[13]",
+											"parameter_longname" : "R Gamma",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "R Gamma",
@@ -2159,6 +2223,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "B Gamma",
 									"id" : "obj-30",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -2171,9 +2236,10 @@
 									"presentation_rect" : [ 64.0, 336.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "B Gamma",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[11]",
+											"parameter_longname" : "B Gamma",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "B Gamma",
@@ -2190,6 +2256,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "G Gain",
 									"id" : "obj-29",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -2202,9 +2269,10 @@
 									"presentation_rect" : [ 16.0, 280.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "G Gain",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[8]",
+											"parameter_longname" : "G Gain",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "G Gain",
@@ -2221,6 +2289,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "R Gain",
 									"id" : "obj-28",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -2233,9 +2302,10 @@
 									"presentation_rect" : [ 16.0, 224.0, 50.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "R Gain",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[10]",
+											"parameter_longname" : "R Gain",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "R Gain",
@@ -3194,6 +3264,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Shadow luminance",
 									"id" : "obj-43",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -3205,13 +3276,14 @@
 									"presentation_rect" : [ 64.0, 96.0, 18.0, 68.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Shadow luminance",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[4]",
+											"parameter_longname" : "Shadow luminance",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.slider",
+											"parameter_shortname" : "Shadow luminance",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
 										}
@@ -3226,6 +3298,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Dark luminance",
 									"id" : "obj-44",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -3237,13 +3310,14 @@
 									"presentation_rect" : [ 64.0, 15.0, 18.0, 68.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Dark luminance",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[5]",
+											"parameter_longname" : "Dark luminance",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.slider",
+											"parameter_shortname" : "Dark luminance",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
 										}
@@ -3258,6 +3332,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Global luminance",
 									"id" : "obj-41",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -3269,13 +3344,14 @@
 									"presentation_rect" : [ 156.0, 97.0, 18.0, 68.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Global luminance",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[6]",
+											"parameter_longname" : "Global luminance",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.slider",
+											"parameter_shortname" : "Global luminance",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
 										}
@@ -3304,6 +3380,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "Click the label for reset to default value.",
 									"annotation_name" : "Global",
 									"bottomvalue" : -100,
 									"color" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
@@ -3331,12 +3408,13 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Global",
+											"parameter_info" : "Click the label for reset to default value.",
 											"parameter_initial" : [ -1, -1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 1,
-											"parameter_longname" : "pictslider[4]",
+											"parameter_longname" : "Global",
 											"parameter_modmode" : 0,
-											"parameter_shortname" : "pictslider[2]",
+											"parameter_shortname" : "Global",
 											"parameter_type" : 3
 										}
 
@@ -3377,6 +3455,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "Click the label for reset to default value.",
 									"annotation_name" : "Light",
 									"bottomvalue" : -100,
 									"color" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
@@ -3404,12 +3483,13 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Light",
+											"parameter_info" : "Click the label for reset to default value.",
 											"parameter_initial" : [ -1, -1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 1,
-											"parameter_longname" : "pictslider[5]",
+											"parameter_longname" : "Light",
 											"parameter_modmode" : 0,
-											"parameter_shortname" : "pictslider[1]",
+											"parameter_shortname" : "Light",
 											"parameter_type" : 3
 										}
 
@@ -3450,6 +3530,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "Click the label for reset to default value.",
 									"annotation_name" : "Shadow",
 									"bottomvalue" : -100,
 									"color" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
@@ -3477,12 +3558,13 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Shadow",
+											"parameter_info" : "Click the label for reset to default value.",
 											"parameter_initial" : [ -1, -1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 1,
-											"parameter_longname" : "pictslider[6]",
+											"parameter_longname" : "Shadow",
 											"parameter_modmode" : 0,
-											"parameter_shortname" : "pictslider[3]",
+											"parameter_shortname" : "Shadow",
 											"parameter_type" : 3
 										}
 
@@ -3555,9 +3637,9 @@
 											"parameter_initial" : [ -1, -1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 1,
-											"parameter_longname" : "pictslider[7]",
+											"parameter_longname" : "Dark",
 											"parameter_modmode" : 0,
-											"parameter_shortname" : "pictslider",
+											"parameter_shortname" : "Dark",
 											"parameter_type" : 3
 										}
 
@@ -3584,6 +3666,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Light luminance",
 									"id" : "obj-38",
 									"maxclass" : "live.slider",
 									"numinlets" : 1,
@@ -3595,13 +3678,14 @@
 									"presentation_rect" : [ 156.0, 15.0, 18.0, 68.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Light luminance",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.slider[7]",
+											"parameter_longname" : "Light luminance",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.slider",
+											"parameter_shortname" : "Light luminance",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
 										}
@@ -4415,6 +4499,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"annotation_name" : "Show gamma",
 					"fontsize" : 7.0,
 					"id" : "obj-40",
 					"maxclass" : "live.text",
@@ -4431,13 +4516,14 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Show gamma",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "Show gamma",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Show gamma",
 							"parameter_type" : 2
 						}
 
@@ -4536,6 +4622,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"annotation_name" : "Show color",
 					"fontsize" : 7.0,
 					"id" : "obj-34",
 					"maxclass" : "live.text",
@@ -4552,13 +4639,14 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Show color",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[8]",
+							"parameter_longname" : "Show color",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Show color",
 							"parameter_type" : 2
 						}
 
@@ -4572,6 +4660,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation_name" : "Tint",
 					"appearance" : 1,
 					"id" : "obj-31",
 					"maxclass" : "live.dial",
@@ -4584,13 +4673,14 @@
 					"presentation_rect" : [ 67.0, 116.0, 25.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Tint",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Tint",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "live.dial",
+							"parameter_shortname" : "Tint",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -4604,6 +4694,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation_name" : "Exposure",
 					"appearance" : 1,
 					"id" : "obj-30",
 					"maxclass" : "live.dial",
@@ -4616,13 +4707,14 @@
 					"presentation_rect" : [ 3.0, 116.0, 25.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Exposure",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Exposure",
 							"parameter_mmax" : 3.0,
 							"parameter_mmin" : -3.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "live.dial",
+							"parameter_shortname" : "Exposure",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -4636,6 +4728,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation_name" : "Temperature",
 					"appearance" : 1,
 					"id" : "obj-29",
 					"maxclass" : "live.dial",
@@ -4648,13 +4741,14 @@
 					"presentation_rect" : [ 67.0, 68.0, 25.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Temperature",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Temperature",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "live.dial",
+							"parameter_shortname" : "Temperature",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -4668,6 +4762,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation_name" : "Contrast",
 					"appearance" : 1,
 					"id" : "obj-28",
 					"maxclass" : "live.dial",
@@ -4680,12 +4775,13 @@
 					"presentation_rect" : [ 3.0, 68.0, 25.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Contrast",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Contrast",
 							"parameter_mmax" : 3.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "live.dial",
+							"parameter_shortname" : "Contrast",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -4699,6 +4795,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation_name" : "Saturation",
 					"appearance" : 1,
 					"id" : "obj-26",
 					"maxclass" : "live.dial",
@@ -4711,12 +4808,13 @@
 					"presentation_rect" : [ 67.0, 20.0, 25.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Saturation",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Saturation",
 							"parameter_mmax" : 2.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "live.dial",
+							"parameter_shortname" : "Saturation",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -4730,6 +4828,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation_name" : "Brightness",
 					"appearance" : 1,
 					"id" : "obj-19",
 					"maxclass" : "live.dial",
@@ -4742,13 +4841,14 @@
 					"presentation_rect" : [ 3.0, 20.0, 25.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Brightness",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Brightness",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "live.dial",
+							"parameter_shortname" : "Brightness",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -5667,58 +5767,58 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-19" : [ "Brightness", "live.dial", 0 ],
-			"obj-21" : [ "live.text[2]", "live.text", 0 ],
-			"obj-26" : [ "Saturation", "live.dial", 0 ],
-			"obj-28" : [ "Contrast", "live.dial", 0 ],
-			"obj-29" : [ "Temperature", "live.dial", 0 ],
-			"obj-30" : [ "Exposure", "live.dial", 0 ],
-			"obj-31" : [ "Tint", "live.dial", 0 ],
-			"obj-34" : [ "live.text[8]", "live.text", 0 ],
+			"obj-19" : [ "Brightness", "Brightness", 0 ],
+			"obj-21" : [ "Show hue", "Show hue", 0 ],
+			"obj-26" : [ "Saturation", "Saturation", 0 ],
+			"obj-28" : [ "Contrast", "Contrast", 0 ],
+			"obj-29" : [ "Temperature", "Temperature", 0 ],
+			"obj-30" : [ "Exposure", "Exposure", 0 ],
+			"obj-31" : [ "Tint", "Tint", 0 ],
+			"obj-34" : [ "Show color", "Show color", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
-			"obj-40" : [ "live.text[1]", "live.text", 0 ],
-			"obj-51::obj-102" : [ "live.slider[35]", "Global Lum", 0 ],
-			"obj-51::obj-103" : [ "live.slider[36]", "Global Sat", 0 ],
-			"obj-51::obj-104" : [ "live.slider[37]", "Global Hue", 0 ],
-			"obj-51::obj-21" : [ "pictslider[7]", "pictslider", 0 ],
-			"obj-51::obj-24" : [ "pictslider[6]", "pictslider[3]", 0 ],
-			"obj-51::obj-26" : [ "live.slider[17]", "R Hue", 0 ],
-			"obj-51::obj-28" : [ "live.slider[10]", "R Gain", 0 ],
-			"obj-51::obj-29" : [ "live.slider[8]", "G Gain", 0 ],
-			"obj-51::obj-30" : [ "live.slider[11]", "B Gamma", 0 ],
-			"obj-51::obj-31" : [ "live.slider[12]", "B Gain", 0 ],
-			"obj-51::obj-32" : [ "pictslider[5]", "pictslider[1]", 0 ],
-			"obj-51::obj-34" : [ "live.slider[9]", "G Gamma", 0 ],
-			"obj-51::obj-36" : [ "pictslider[4]", "pictslider[2]", 0 ],
-			"obj-51::obj-38" : [ "live.slider[7]", "live.slider", 0 ],
-			"obj-51::obj-39" : [ "live.slider[13]", "R Gamma", 0 ],
-			"obj-51::obj-40" : [ "live.slider[14]", "G Lift", 0 ],
-			"obj-51::obj-41" : [ "live.slider[6]", "live.slider", 0 ],
-			"obj-51::obj-42" : [ "live.slider[15]", "G Lift", 0 ],
-			"obj-51::obj-43" : [ "live.slider[4]", "live.slider", 0 ],
-			"obj-51::obj-44" : [ "live.slider[5]", "live.slider", 0 ],
-			"obj-51::obj-45" : [ "live.slider[16]", "R Lift", 0 ],
-			"obj-51::obj-46" : [ "live.slider[18]", "R Sat", 0 ],
-			"obj-51::obj-50" : [ "live.slider[19]", "R Lum", 0 ],
-			"obj-51::obj-51" : [ "live.text[3]", "live.text", 0 ],
-			"obj-51::obj-52" : [ "live.text[4]", "live.text", 0 ],
-			"obj-51::obj-56" : [ "live.text[5]", "live.text", 0 ],
-			"obj-51::obj-62" : [ "live.slider[21]", "G Lum", 0 ],
-			"obj-51::obj-63" : [ "live.slider[22]", "G Sat", 0 ],
-			"obj-51::obj-64" : [ "live.slider[23]", "G Hue", 0 ],
-			"obj-51::obj-66" : [ "live.slider[24]", "B Lum", 0 ],
-			"obj-51::obj-67" : [ "live.slider[25]", "B Sat", 0 ],
-			"obj-51::obj-68" : [ "live.slider[26]", "B Hue", 0 ],
-			"obj-51::obj-7" : [ "live.text", "live.text", 0 ],
-			"obj-51::obj-72" : [ "live.slider[20]", "C Lum", 0 ],
-			"obj-51::obj-75" : [ "live.slider[27]", "C Sat", 0 ],
-			"obj-51::obj-76" : [ "live.slider[28]", "C Hue", 0 ],
-			"obj-51::obj-78" : [ "live.slider[29]", "M Lum", 0 ],
-			"obj-51::obj-79" : [ "live.slider[30]", "M Sat", 0 ],
-			"obj-51::obj-80" : [ "live.slider[31]", "M Hue", 0 ],
-			"obj-51::obj-82" : [ "live.slider[32]", "Y Lum", 0 ],
-			"obj-51::obj-83" : [ "live.slider[33]", "Y Sat", 0 ],
-			"obj-51::obj-91" : [ "live.slider[34]", "Y Hue", 0 ],
+			"obj-40" : [ "Show gamma", "Show gamma", 0 ],
+			"obj-51::obj-102" : [ "Global Lum", "Global Lum", 0 ],
+			"obj-51::obj-103" : [ "Global Sat", "Global Sat", 0 ],
+			"obj-51::obj-104" : [ "Global Hue", "Global Hue", 0 ],
+			"obj-51::obj-21" : [ "Dark", "Dark", 0 ],
+			"obj-51::obj-24" : [ "Shadow", "Shadow", 0 ],
+			"obj-51::obj-26" : [ "R Hue", "R Hue", 0 ],
+			"obj-51::obj-28" : [ "R Gain", "R Gain", 0 ],
+			"obj-51::obj-29" : [ "G Gain", "G Gain", 0 ],
+			"obj-51::obj-30" : [ "B Gamma", "B Gamma", 0 ],
+			"obj-51::obj-31" : [ "B Gain", "B Gain", 0 ],
+			"obj-51::obj-32" : [ "Light", "Light", 0 ],
+			"obj-51::obj-34" : [ "G Gamma", "G Gamma", 0 ],
+			"obj-51::obj-36" : [ "Global", "Global", 0 ],
+			"obj-51::obj-38" : [ "Light luminance", "Light luminance", 0 ],
+			"obj-51::obj-39" : [ "R Gamma", "R Gamma", 0 ],
+			"obj-51::obj-40" : [ "B Lift", "B Lift", 0 ],
+			"obj-51::obj-41" : [ "Global luminance", "Global luminance", 0 ],
+			"obj-51::obj-42" : [ "G Lift", "G Lift", 0 ],
+			"obj-51::obj-43" : [ "Shadow luminance", "Shadow luminance", 0 ],
+			"obj-51::obj-44" : [ "Dark luminance", "Dark luminance", 0 ],
+			"obj-51::obj-45" : [ "R Lift", "R Lift", 0 ],
+			"obj-51::obj-46" : [ "R Sat", "R Sat", 0 ],
+			"obj-51::obj-50" : [ "R Lum", "R Lum", 0 ],
+			"obj-51::obj-51" : [ "Reset global", "Reset global", 0 ],
+			"obj-51::obj-52" : [ "Reset light", "Reset light", 0 ],
+			"obj-51::obj-56" : [ "Reset shadow", "Reset shadow", 0 ],
+			"obj-51::obj-62" : [ "G Lum", "G Lum", 0 ],
+			"obj-51::obj-63" : [ "G Sat", "G Sat", 0 ],
+			"obj-51::obj-64" : [ "G Hue", "G Hue", 0 ],
+			"obj-51::obj-66" : [ "B Lum", "B Lum", 0 ],
+			"obj-51::obj-67" : [ "B Sat", "B Sat", 0 ],
+			"obj-51::obj-68" : [ "B Hue", "B Hue", 0 ],
+			"obj-51::obj-7" : [ "Reset dark", "Reset dark", 0 ],
+			"obj-51::obj-72" : [ "C Lum", "C Lum", 0 ],
+			"obj-51::obj-75" : [ "C Sat", "C Sat", 0 ],
+			"obj-51::obj-76" : [ "C Hue", "C Hue", 0 ],
+			"obj-51::obj-78" : [ "M Lum", "M Lum", 0 ],
+			"obj-51::obj-79" : [ "M Sat", "M Sat", 0 ],
+			"obj-51::obj-80" : [ "M Hue", "M Hue", 0 ],
+			"obj-51::obj-82" : [ "Y Lum", "Y Lum", 0 ],
+			"obj-51::obj-83" : [ "Y Sat", "Y Sat", 0 ],
+			"obj-51::obj-91" : [ "Y Hue", "Y Hue", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
