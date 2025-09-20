@@ -5,9 +5,9 @@
       "maxclass": "live.tab",
       "presentation": 1,
       "varname": "live.tab",
-      "parameter_longname": "Blur",
-      "parameter_shortname": "Blur",
-      "annotation_name": "",
+      "parameter_longname": "Conversion",
+      "parameter_shortname": "Conversion",
+      "annotation_name": "Conversion",
       "annotation": ""
     },
     {

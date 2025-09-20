@@ -8,7 +8,7 @@
       "varname": "Thru",
       "parameter_longname": "Thru",
       "parameter_shortname": "Thru",
-      "annotation_name": "",
+      "annotation_name": "Thru",
       "annotation": "Enables/disables audio thru."
     },
     {

@@ -23,13 +23,23 @@ function getPatcherParams (obj, params = []) {
     const { id, maxclass, presentation, varname, text, annotation, annotation_name } = box
     const { parameter_longname, parameter_shortname } = box.saved_attribute_attributes.valueof
 
-    params.push({
+    const obj = {
       id, maxclass, presentation, text, varname,
       parameter_longname: parameter_longname || '',
       parameter_shortname: parameter_shortname || '',
       annotation_name: annotation_name || '',
       annotation: annotation || ''
-    })
+    }
+    
+    // if (!obj.annotation_name 
+    //   && obj.parameter_longname
+    //   && !obj.parameter_longname.includes('.')
+    //   && (obj.parameter_longname[0] === obj.parameter_longname[0].toUpperCase())
+    //   && (obj.parameter_longname === obj.parameter_shortname)) {
+    //   obj.annotation_name = obj.parameter_longname
+    // }
+    
+    params.push(obj)
   }
 
   return params

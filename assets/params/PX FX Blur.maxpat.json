@@ -7,7 +7,7 @@
       "varname": "live.tab",
       "parameter_longname": "Blur",
       "parameter_shortname": "Blur",
-      "annotation_name": "",
+      "annotation_name": "Blur",
       "annotation": ""
     },
     {
@@ -27,7 +27,7 @@
       "varname": "live.dial[3]",
       "parameter_longname": "Sharpen Width",
       "parameter_shortname": "Sharpen Width",
-      "annotation_name": "",
+      "annotation_name": "Sharpen Width",
       "annotation": ""
     },
     {
@@ -37,7 +37,7 @@
       "varname": "live.dial",
       "parameter_longname": "Blur Width",
       "parameter_shortname": "Blur Width",
-      "annotation_name": "",
+      "annotation_name": "Blur Width",
       "annotation": ""
     },
     {
@@ -47,7 +47,7 @@
       "varname": "live.numbox[13]",
       "parameter_longname": "Y",
       "parameter_shortname": "Y",
-      "annotation_name": "",
+      "annotation_name": "Y",
       "annotation": ""
     },
     {
@@ -57,7 +57,7 @@
       "varname": "live.numbox[17]",
       "parameter_longname": "X",
       "parameter_shortname": "X",
-      "annotation_name": "",
+      "annotation_name": "X",
       "annotation": ""
     },
     {
@@ -67,7 +67,7 @@
       "varname": "live.dial[1]",
       "parameter_longname": "Gaussian Width",
       "parameter_shortname": "Gaussian Width",
-      "annotation_name": "",
+      "annotation_name": "Gaussian Width",
       "annotation": ""
     },
     {
@@ -77,7 +77,7 @@
       "varname": "live.dial[2]",
       "parameter_longname": "Radial Width",
       "parameter_shortname": "Radial Width",
-      "annotation_name": "",
+      "annotation_name": "Radial Width",
       "annotation": ""
     }
   ]

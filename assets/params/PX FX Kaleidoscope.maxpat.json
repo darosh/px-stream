@@ -78,7 +78,7 @@
       "varname": "live.dial[1]",
       "parameter_longname": "Rotation",
       "parameter_shortname": "Rotation",
-      "annotation_name": "",
+      "annotation_name": "Rotation",
       "annotation": ""
     },
     {
@@ -99,7 +99,7 @@
       "varname": "live.dial",
       "parameter_longname": "Divisions",
       "parameter_shortname": "Divisions",
-      "annotation_name": "",
+      "annotation_name": "Divisions",
       "annotation": ""
     },
     {
