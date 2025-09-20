@@ -212,8 +212,8 @@
       "presentation": 1,
       "varname": "live.button[2]",
       "parameter_longname": "Color 3",
-      "parameter_shortname": "live.button",
-      "annotation_name": "",
+      "parameter_shortname": "Color 3",
+      "annotation_name": "Color 3",
       "annotation": ""
     },
     {
@@ -252,8 +252,8 @@
       "presentation": 1,
       "varname": "live.button[1]",
       "parameter_longname": "Color 2",
-      "parameter_shortname": "live.button",
-      "annotation_name": "",
+      "parameter_shortname": "Color 2",
+      "annotation_name": "Color 2",
       "annotation": ""
     },
     {
@@ -292,8 +292,8 @@
       "presentation": 1,
       "varname": "live.button",
       "parameter_longname": "Color 1",
-      "parameter_shortname": "live.button",
-      "annotation_name": "",
+      "parameter_shortname": "Color 1",
+      "annotation_name": "Color 1",
       "annotation": ""
     },
     {

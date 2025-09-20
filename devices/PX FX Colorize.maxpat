@@ -985,11 +985,13 @@
               "parameter_longname": "Color 3",
               "parameter_mmax": 1,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.button",
-              "parameter_type": 2
+              "parameter_shortname": "Color 3",
+              "parameter_type": 2,
+              "parameter_annotation_name": "Color 3"
             }
           },
-          "varname": "live.button[2]"
+          "varname": "live.button[2]",
+          "annotation_name": "Color 3"
         }
       },
       {
@@ -1207,11 +1209,13 @@
               "parameter_longname": "Color 2",
               "parameter_mmax": 1,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.button",
-              "parameter_type": 2
+              "parameter_shortname": "Color 2",
+              "parameter_type": 2,
+              "parameter_annotation_name": "Color 2"
             }
           },
-          "varname": "live.button[1]"
+          "varname": "live.button[1]",
+          "annotation_name": "Color 2"
         }
       },
       {
@@ -1429,11 +1433,13 @@
               "parameter_longname": "Color 1",
               "parameter_mmax": 1,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.button",
-              "parameter_type": 2
+              "parameter_shortname": "Color 1",
+              "parameter_type": 2,
+              "parameter_annotation_name": "Color 1"
             }
           },
-          "varname": "live.button"
+          "varname": "live.button",
+          "annotation_name": "Color 1"
         }
       },
       {
