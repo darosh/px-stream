@@ -6,7 +6,7 @@
       "presentation": 1,
       "text": "Cutoff",
       "varname": "live.text[5]",
-      "parameter_longname": "live.text[12]",
+      "parameter_longname": "Cutoff",
       "parameter_shortname": "live.text",
       "annotation_name": "",
       "annotation": ""
@@ -16,7 +16,7 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[6]",
-      "parameter_longname": "live.numbox[4]",
+      "parameter_longname": "Multiply",
       "parameter_shortname": "live.numbox",
       "annotation_name": "",
       "annotation": ""
@@ -26,7 +26,7 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[7]",
-      "parameter_longname": "live.numbox[5]",
+      "parameter_longname": "Threshold",
       "parameter_shortname": "live.numbox",
       "annotation_name": "",
       "annotation": ""
@@ -36,7 +36,7 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[8]",
-      "parameter_longname": "live.numbox[6]",
+      "parameter_longname": "Smooth",
       "parameter_shortname": "live.numbox",
       "annotation_name": "",
       "annotation": ""
@@ -46,7 +46,7 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[12]",
-      "parameter_longname": "live.numbox[7]",
+      "parameter_longname": "Quantize",
       "parameter_shortname": "live.numbox",
       "annotation_name": "",
       "annotation": ""
@@ -56,7 +56,7 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[13]",
-      "parameter_longname": "live.numbox[29]",
+      "parameter_longname": "Gamma",
       "parameter_shortname": "live.numbox",
       "annotation_name": "",
       "annotation": ""
@@ -66,7 +66,7 @@
       "maxclass": "live.menu",
       "presentation": 1,
       "varname": "live.menu[3]",
-      "parameter_longname": "live.menu[3]",
+      "parameter_longname": "Preview",
       "parameter_shortname": "live.menu[3]",
       "annotation_name": "",
       "annotation": ""
@@ -76,8 +76,8 @@
       "maxclass": "live.tab",
       "presentation": 1,
       "varname": "live.tab[4]",
-      "parameter_longname": "Channel[3]",
-      "parameter_shortname": "Channel",
+      "parameter_longname": "Mode",
+      "parameter_shortname": "Mode",
       "annotation_name": "",
       "annotation": ""
     },
@@ -86,7 +86,7 @@
       "maxclass": "live.menu",
       "presentation": 1,
       "varname": "live.menu[1]",
-      "parameter_longname": "live.menu[1]",
+      "parameter_longname": "Blend",
       "parameter_shortname": "live.menu[1]",
       "annotation_name": "",
       "annotation": ""
@@ -97,7 +97,7 @@
       "presentation": 1,
       "text": "Invert",
       "varname": "live.text[2]",
-      "parameter_longname": "live.text[9]",
+      "parameter_longname": "Invert",
       "parameter_shortname": "live.text",
       "annotation_name": "",
       "annotation": ""
@@ -107,7 +107,7 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[18]",
-      "parameter_longname": "live.numbox[23]",
+      "parameter_longname": "Mix",
       "parameter_shortname": "live.numbox",
       "annotation_name": "",
       "annotation": ""
@@ -118,7 +118,7 @@
       "presentation": 1,
       "text": "...",
       "varname": "live.text[13]",
-      "parameter_longname": "live.text[8]",
+      "parameter_longname": "More",
       "parameter_shortname": "live.text",
       "annotation_name": "",
       "annotation": ""
