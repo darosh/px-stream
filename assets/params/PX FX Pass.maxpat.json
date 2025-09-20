@@ -19,6 +19,306 @@
       "parameter_shortname": "Channel",
       "annotation_name": "Channel",
       "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."
+    },
+    {
+      "id": "obj-213",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[19]",
+      "parameter_longname": "live.numbox[27]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-191",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[34]",
+      "parameter_longname": "live.numbox[41]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-192",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[35]",
+      "parameter_longname": "live.numbox[48]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-193",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[36]",
+      "parameter_longname": "live.numbox[52]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-194",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[37]",
+      "parameter_longname": "live.numbox[28]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-195",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[38]",
+      "parameter_longname": "live.numbox[42]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-196",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[39]",
+      "parameter_longname": "live.numbox[53]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-170",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[29]",
+      "parameter_longname": "live.numbox[50]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-172",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[31]",
+      "parameter_longname": "live.numbox[40]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-173",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[32]",
+      "parameter_longname": "live.numbox[47]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-72",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[21]",
+      "parameter_longname": "live.numbox[22]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-73",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[22]",
+      "parameter_longname": "live.numbox[23]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-74",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[23]",
+      "parameter_longname": "live.numbox[24]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-75",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[24]",
+      "parameter_longname": "live.numbox[25]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-76",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[25]",
+      "parameter_longname": "live.numbox[26]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-23",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[1]",
+      "parameter_longname": "live.numbox[10]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-26",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[10]",
+      "parameter_longname": "live.numbox[11]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-27",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[11]",
+      "parameter_longname": "live.numbox[14]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-28",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[13]",
+      "parameter_longname": "live.numbox[18]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-42",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[14]",
+      "parameter_longname": "live.numbox[15]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-47",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[17]",
+      "parameter_longname": "live.numbox[19]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-51",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[18]",
+      "parameter_longname": "live.numbox[20]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-46",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[9]",
+      "parameter_longname": "live.numbox[9]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-44",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[8]",
+      "parameter_longname": "live.numbox[8]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-41",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[7]",
+      "parameter_longname": "live.numbox[7]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-39",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[6]",
+      "parameter_longname": "live.numbox[6]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-36",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[5]",
+      "parameter_longname": "live.numbox[5]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-34",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[4]",
+      "parameter_longname": "live.numbox[4]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-32",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[3]",
+      "parameter_longname": "live.numbox[3]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-29",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[2]",
+      "parameter_longname": "live.numbox[2]",
+      "parameter_shortname": "live.numbox[2]",
+      "annotation_name": "",
+      "annotation": ""
     }
   ]
 }

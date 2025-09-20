@@ -7,8 +7,8 @@
       "varname": "Dimensions",
       "parameter_longname": "Dimensions",
       "parameter_shortname": "Dimensions",
-      "annotation_name": "",
-      "annotation": ""
+      "annotation_name": "Dimensions",
+      "annotation": "Dimensions of rendered texture in pixels"
     }
   ]
 }

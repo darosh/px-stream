@@ -12,6 +12,430 @@
       "annotation": ""
     },
     {
+      "id": "obj-56",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "",
+      "varname": "live.text[3]",
+      "parameter_longname": "live.text[5]",
+      "parameter_shortname": "live.text",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-52",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "",
+      "varname": "live.text[2]",
+      "parameter_longname": "live.text[4]",
+      "parameter_shortname": "live.text",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-51",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "",
+      "varname": "live.text[1]",
+      "parameter_longname": "live.text[3]",
+      "parameter_shortname": "live.text",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-7",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "",
+      "varname": "live.text",
+      "parameter_longname": "live.text",
+      "parameter_shortname": "live.text",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-102",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[31]",
+      "parameter_longname": "live.slider[35]",
+      "parameter_shortname": "Global Lum",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-103",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[32]",
+      "parameter_longname": "live.slider[36]",
+      "parameter_shortname": "Global Sat",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-104",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[33]",
+      "parameter_longname": "live.slider[37]",
+      "parameter_shortname": "Global Hue",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-82",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[28]",
+      "parameter_longname": "live.slider[32]",
+      "parameter_shortname": "Y Lum",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-83",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[29]",
+      "parameter_longname": "live.slider[33]",
+      "parameter_shortname": "Y Sat",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-91",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[30]",
+      "parameter_longname": "live.slider[34]",
+      "parameter_shortname": "Y Hue",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-78",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[25]",
+      "parameter_longname": "live.slider[29]",
+      "parameter_shortname": "M Lum",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-79",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[26]",
+      "parameter_longname": "live.slider[30]",
+      "parameter_shortname": "M Sat",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-80",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[27]",
+      "parameter_longname": "live.slider[31]",
+      "parameter_shortname": "M Hue",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-72",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[22]",
+      "parameter_longname": "live.slider[20]",
+      "parameter_shortname": "C Lum",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-75",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[23]",
+      "parameter_longname": "live.slider[27]",
+      "parameter_shortname": "C Sat",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-76",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[24]",
+      "parameter_longname": "live.slider[28]",
+      "parameter_shortname": "C Hue",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-66",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[19]",
+      "parameter_longname": "live.slider[24]",
+      "parameter_shortname": "B Lum",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-67",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[20]",
+      "parameter_longname": "live.slider[25]",
+      "parameter_shortname": "B Sat",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-68",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[21]",
+      "parameter_longname": "live.slider[26]",
+      "parameter_shortname": "B Hue",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-62",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[16]",
+      "parameter_longname": "live.slider[21]",
+      "parameter_shortname": "G Lum",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-63",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[17]",
+      "parameter_longname": "live.slider[22]",
+      "parameter_shortname": "G Sat",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-64",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[18]",
+      "parameter_longname": "live.slider[23]",
+      "parameter_shortname": "G Hue",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-50",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[15]",
+      "parameter_longname": "live.slider[19]",
+      "parameter_shortname": "R Lum",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-46",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[14]",
+      "parameter_longname": "live.slider[18]",
+      "parameter_shortname": "R Sat",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-26",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[13]",
+      "parameter_longname": "live.slider[17]",
+      "parameter_shortname": "R Hue",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-40",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[10]",
+      "parameter_longname": "live.slider[14]",
+      "parameter_shortname": "G Lift",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-42",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[11]",
+      "parameter_longname": "live.slider[15]",
+      "parameter_shortname": "G Lift",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-45",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[12]",
+      "parameter_longname": "live.slider[16]",
+      "parameter_shortname": "R Lift",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-31",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[7]",
+      "parameter_longname": "live.slider[12]",
+      "parameter_shortname": "B Gain",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-34",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[8]",
+      "parameter_longname": "live.slider[9]",
+      "parameter_shortname": "G Gamma",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-39",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[9]",
+      "parameter_longname": "live.slider[13]",
+      "parameter_shortname": "R Gamma",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-30",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[5]",
+      "parameter_longname": "live.slider[11]",
+      "parameter_shortname": "B Gamma",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-29",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[4]",
+      "parameter_longname": "live.slider[8]",
+      "parameter_shortname": "G Gain",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-28",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[6]",
+      "parameter_longname": "live.slider[10]",
+      "parameter_shortname": "R Gain",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-43",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[2]",
+      "parameter_longname": "live.slider[4]",
+      "parameter_shortname": "live.slider",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-44",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[3]",
+      "parameter_longname": "live.slider[5]",
+      "parameter_shortname": "live.slider",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-41",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider[1]",
+      "parameter_longname": "live.slider[6]",
+      "parameter_shortname": "live.slider",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-36",
+      "maxclass": "pictslider",
+      "presentation": 1,
+      "varname": "pictslider[2]",
+      "parameter_longname": "pictslider[4]",
+      "parameter_shortname": "pictslider[2]",
+      "annotation_name": "Global",
+      "annotation": ""
+    },
+    {
+      "id": "obj-32",
+      "maxclass": "pictslider",
+      "presentation": 1,
+      "varname": "pictslider[1]",
+      "parameter_longname": "pictslider[5]",
+      "parameter_shortname": "pictslider[1]",
+      "annotation_name": "Light",
+      "annotation": ""
+    },
+    {
+      "id": "obj-24",
+      "maxclass": "pictslider",
+      "presentation": 1,
+      "varname": "pictslider[3]",
+      "parameter_longname": "pictslider[6]",
+      "parameter_shortname": "pictslider[3]",
+      "annotation_name": "Shadow",
+      "annotation": ""
+    },
+    {
+      "id": "obj-21",
+      "maxclass": "pictslider",
+      "presentation": 1,
+      "varname": "pictslider",
+      "parameter_longname": "pictslider[7]",
+      "parameter_shortname": "pictslider",
+      "annotation_name": "Dark",
+      "annotation": "Click the label for reset to default value."
+    },
+    {
+      "id": "obj-38",
+      "maxclass": "live.slider",
+      "presentation": 1,
+      "varname": "live.slider",
+      "parameter_longname": "live.slider[7]",
+      "parameter_shortname": "live.slider",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
       "id": "obj-40",
       "maxclass": "live.text",
       "presentation": 1,

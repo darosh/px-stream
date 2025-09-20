@@ -1,6 +1,16 @@
 {
   "boxes": [
     {
+      "id": "obj-116",
+      "maxclass": "textedit",
+      "presentation": 1,
+      "varname": "textedit",
+      "parameter_longname": "textedit",
+      "parameter_shortname": "textedit",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
       "id": "obj-13",
       "maxclass": "live.tab",
       "presentation": 1,

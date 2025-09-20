@@ -19,6 +19,66 @@
       "parameter_shortname": "Channel",
       "annotation_name": "Channel",
       "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."
+    },
+    {
+      "id": "obj-10",
+      "maxclass": "live.dial",
+      "presentation": 1,
+      "varname": "live.dial[3]",
+      "parameter_longname": "Sharpen Width",
+      "parameter_shortname": "Sharpen Width",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-9",
+      "maxclass": "live.dial",
+      "presentation": 1,
+      "varname": "live.dial",
+      "parameter_longname": "Blur Width",
+      "parameter_shortname": "Blur Width",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-28",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[13]",
+      "parameter_longname": "Y",
+      "parameter_shortname": "Y",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-47",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[17]",
+      "parameter_longname": "X",
+      "parameter_shortname": "X",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-13",
+      "maxclass": "live.dial",
+      "presentation": 1,
+      "varname": "live.dial[1]",
+      "parameter_longname": "Gaussian Width",
+      "parameter_shortname": "Gaussian Width",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-15",
+      "maxclass": "live.dial",
+      "presentation": 1,
+      "varname": "live.dial[2]",
+      "parameter_longname": "Radial Width",
+      "parameter_shortname": "Radial Width",
+      "annotation_name": "",
+      "annotation": ""
     }
   ]
 }

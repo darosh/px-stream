@@ -9,8 +9,8 @@ async function loadMaxpat (file) {
 
 function getPatcherParams (obj, params = []) {
   for (const { box } of obj.boxes) {
-    if (box.boxes) {
-      getPatcherParams(box, params)
+    if (box?.patcher?.boxes) {
+      getPatcherParams(box.patcher, params)
 
       continue
     }
@@ -37,8 +37,8 @@ function getPatcherParams (obj, params = []) {
 
 function update (obj, updated) {
   for (const { box } of obj.boxes) {
-    if (box.boxes) {
-      update(obj, updated)
+    if (box?.patcher?.boxes) {
+      update(box.patcher, updated)
 
       continue
     }

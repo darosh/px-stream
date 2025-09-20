@@ -410,11 +410,13 @@
                       "parameter_longname": "Distance color",
                       "parameter_mmax": 1,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "live.button",
-                      "parameter_type": 2
+                      "parameter_shortname": "Distance color",
+                      "parameter_type": 2,
+                      "parameter_annotation_name": "Distance color"
                     }
                   },
-                  "varname": "live.button[1]"
+                  "varname": "live.button[1]",
+                  "annotation_name": "Distance color"
                 }
               },
               {
@@ -479,13 +481,15 @@
                       "parameter_longname": "Distance B",
                       "parameter_mmax": 255,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Distance B",
                       "parameter_type": 1,
                       "parameter_units": "B",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Distance B"
                     }
                   },
-                  "varname": "live.numbox[7]"
+                  "varname": "live.numbox[7]",
+                  "annotation_name": "Distance B"
                 }
               },
               {
@@ -506,13 +510,15 @@
                       "parameter_longname": "Distance G",
                       "parameter_mmax": 255,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Distance G",
                       "parameter_type": 1,
                       "parameter_units": "G",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Distance G"
                     }
                   },
-                  "varname": "live.numbox[8]"
+                  "varname": "live.numbox[8]",
+                  "annotation_name": "Distance G"
                 }
               },
               {
@@ -533,13 +539,15 @@
                       "parameter_longname": "Distance R",
                       "parameter_mmax": 255,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Distance R",
                       "parameter_type": 1,
                       "parameter_units": "R",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Distance R"
                     }
                   },
-                  "varname": "live.numbox[12]"
+                  "varname": "live.numbox[12]",
+                  "annotation_name": "Distance R"
                 }
               },
               {
@@ -581,12 +589,14 @@
                       "parameter_longname": "Distance fade",
                       "parameter_mmax": 0.5,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Distance fade",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1
+                      "parameter_unitstyle": 1,
+                      "parameter_annotation_name": "Distance fade"
                     }
                   },
-                  "varname": "live.numbox[6]"
+                  "varname": "live.numbox[6]",
+                  "annotation_name": "Distance fade"
                 }
               },
               {
@@ -607,12 +617,14 @@
                       "parameter_longname": "Distance threshold",
                       "parameter_mmax": 1,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Distance threshold",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1
+                      "parameter_unitstyle": 1,
+                      "parameter_annotation_name": "Distance threshold"
                     }
                   },
-                  "varname": "live.numbox[13]"
+                  "varname": "live.numbox[13]",
+                  "annotation_name": "Distance threshold"
                 }
               },
               {
@@ -660,13 +672,15 @@
                       "parameter_longname": "Invert mapping",
                       "parameter_mmax": 1,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "live.text",
-                      "parameter_type": 2
+                      "parameter_shortname": "Invert mapping",
+                      "parameter_type": 2,
+                      "parameter_annotation_name": "Invert mapping"
                     }
                   },
                   "text": "Invert",
                   "texton": "Invert",
-                  "varname": "live.text[2]"
+                  "varname": "live.text[2]",
+                  "annotation_name": "Invert mapping"
                 }
               },
               {
@@ -699,13 +713,15 @@
                       "parameter_longname": "Color channel",
                       "parameter_mmax": 3,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "Channel",
+                      "parameter_shortname": "Color channel",
                       "parameter_type": 2,
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Color channel"
                     }
                   },
                   "spacing_x": 3,
-                  "varname": "live.tab[2]"
+                  "varname": "live.tab[2]",
+                  "annotation_name": "Color channel"
                 }
               },
               {
@@ -724,16 +740,18 @@
                   "saved_attribute_attributes": {
                     "valueof": {
                       "parameter_enum": ["0", "1"],
-                      "parameter_longname": "Luminance Invert",
+                      "parameter_longname": "Luminance invert",
                       "parameter_mmax": 1,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "live.text",
-                      "parameter_type": 2
+                      "parameter_shortname": "Luminance invert",
+                      "parameter_type": 2,
+                      "parameter_annotation_name": "Luminance invert"
                     }
                   },
                   "text": "Invert",
                   "texton": "Invert",
-                  "varname": "live.text[3]"
+                  "varname": "live.text[3]",
+                  "annotation_name": "Luminance invert"
                 }
               },
               {
@@ -754,12 +772,14 @@
                       "parameter_longname": "Fade",
                       "parameter_mmax": 0.5,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Fade",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1
+                      "parameter_unitstyle": 1,
+                      "parameter_annotation_name": "Fade"
                     }
                   },
-                  "varname": "live.numbox[5]"
+                  "varname": "live.numbox[5]",
+                  "annotation_name": "Fade"
                 }
               },
               {
@@ -780,12 +800,14 @@
                       "parameter_longname": "Global",
                       "parameter_mmax": 3,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Global",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1
+                      "parameter_unitstyle": 1,
+                      "parameter_annotation_name": "Global"
                     }
                   },
-                  "varname": "live.numbox[4]"
+                  "varname": "live.numbox[4]",
+                  "annotation_name": "Global"
                 }
               },
               {
@@ -806,12 +828,14 @@
                       "parameter_longname": "Hue",
                       "parameter_mmax": 1,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Hue",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1
+                      "parameter_unitstyle": 1,
+                      "parameter_annotation_name": "Hue"
                     }
                   },
-                  "varname": "live.numbox[3]"
+                  "varname": "live.numbox[3]",
+                  "annotation_name": "Hue"
                 }
               },
               {
@@ -981,15 +1005,17 @@
                     "valueof": {
                       "parameter_initial": [0.5],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "Luminance Threshold",
+                      "parameter_longname": "Luminance threshold",
                       "parameter_mmax": 1,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Luminance threshold",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1
+                      "parameter_unitstyle": 1,
+                      "parameter_annotation_name": "Luminance threshold"
                     }
                   },
-                  "varname": "live.numbox[16]"
+                  "varname": "live.numbox[16]",
+                  "annotation_name": "Luminance threshold"
                 }
               },
               {
@@ -1013,14 +1039,16 @@
                       "parameter_longname": "Mirror",
                       "parameter_mmax": 1,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "live.text",
+                      "parameter_shortname": "Mirror",
                       "parameter_type": 1,
-                      "parameter_unitstyle": 0
+                      "parameter_unitstyle": 0,
+                      "parameter_annotation_name": "Mirror"
                     }
                   },
                   "text": "Mirror",
                   "texton": "Mirror",
-                  "varname": "live.text[4]"
+                  "varname": "live.text[4]",
+                  "annotation_name": "Mirror"
                 }
               },
               {
@@ -1042,12 +1070,14 @@
                       "parameter_mmax": 16,
                       "parameter_mmin": 0.1,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Scale",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1
+                      "parameter_unitstyle": 1,
+                      "parameter_annotation_name": "Scale"
                     }
                   },
-                  "varname": "live.numbox[21]"
+                  "varname": "live.numbox[21]",
+                  "annotation_name": "Scale"
                 }
               },
               {
@@ -1078,11 +1108,13 @@
                       "parameter_longname": "Mapping",
                       "parameter_mmax": 7,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "live.menu",
-                      "parameter_type": 2
+                      "parameter_shortname": "Mapping",
+                      "parameter_type": 2,
+                      "parameter_annotation_name": "Mapping"
                     }
                   },
-                  "varname": "live.menu"
+                  "varname": "live.menu",
+                  "annotation_name": "Mapping"
                 }
               },
               {
@@ -1106,13 +1138,15 @@
                       "parameter_longname": "OKLAB",
                       "parameter_mmax": 1,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "live.text",
-                      "parameter_type": 2
+                      "parameter_shortname": "OKLAB",
+                      "parameter_type": 2,
+                      "parameter_annotation_name": "OKLAB"
                     }
                   },
                   "text": "RGB",
                   "texton": "OKLAB",
-                  "varname": "live.text[1]"
+                  "varname": "live.text[1]",
+                  "annotation_name": "OKLAB"
                 }
               },
               {
@@ -1133,12 +1167,14 @@
                       "parameter_longname": "Max",
                       "parameter_mmax": 1,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Max",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1
+                      "parameter_unitstyle": 1,
+                      "parameter_annotation_name": "Max"
                     }
                   },
-                  "varname": "live.numbox[14]"
+                  "varname": "live.numbox[14]",
+                  "annotation_name": "Max"
                 }
               },
               {
@@ -1159,12 +1195,14 @@
                       "parameter_longname": "Min",
                       "parameter_mmax": 1,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Min",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1
+                      "parameter_unitstyle": 1,
+                      "parameter_annotation_name": "Min"
                     }
                   },
-                  "varname": "live.numbox[15]"
+                  "varname": "live.numbox[15]",
+                  "annotation_name": "Min"
                 }
               },
               {
@@ -1185,12 +1223,14 @@
                       "parameter_longname": "Phase",
                       "parameter_mmax": 1,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Phase",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1
+                      "parameter_unitstyle": 1,
+                      "parameter_annotation_name": "Phase"
                     }
                   },
-                  "varname": "live.numbox[17]"
+                  "varname": "live.numbox[17]",
+                  "annotation_name": "Phase"
                 }
               },
               {
@@ -1211,12 +1251,14 @@
                       "parameter_longname": "Luminance Fade",
                       "parameter_mmax": 0.5,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Luminance Fade",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1
+                      "parameter_unitstyle": 1,
+                      "parameter_annotation_name": "Luminance Fade"
                     }
                   },
-                  "varname": "live.numbox[11]"
+                  "varname": "live.numbox[11]",
+                  "annotation_name": "Luminance Fade"
                 }
               },
               {
@@ -1237,12 +1279,14 @@
                       "parameter_longname": "Lightness",
                       "parameter_mmax": 1,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Lightness",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1
+                      "parameter_unitstyle": 1,
+                      "parameter_annotation_name": "Lightness"
                     }
                   },
-                  "varname": "live.numbox[10]"
+                  "varname": "live.numbox[10]",
+                  "annotation_name": "Lightness"
                 }
               },
               {
@@ -1263,12 +1307,14 @@
                       "parameter_longname": "Chroma",
                       "parameter_mmax": 1,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Chroma",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1
+                      "parameter_unitstyle": 1,
+                      "parameter_annotation_name": "Chroma"
                     }
                   },
-                  "varname": "live.numbox[9]"
+                  "varname": "live.numbox[9]",
+                  "annotation_name": "Chroma"
                 }
               },
               {
@@ -1356,11 +1402,13 @@
                       "parameter_longname": "Chroma color",
                       "parameter_mmax": 1,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "live.button",
-                      "parameter_type": 2
+                      "parameter_shortname": "Chroma color",
+                      "parameter_type": 2,
+                      "parameter_annotation_name": "Chroma color"
                     }
                   },
-                  "varname": "live.button"
+                  "varname": "live.button",
+                  "annotation_name": "Chroma color"
                 }
               },
               {
@@ -1425,13 +1473,15 @@
                       "parameter_longname": "Chroma B",
                       "parameter_mmax": 255,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Chroma B",
                       "parameter_type": 1,
                       "parameter_units": "B",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Chroma B"
                     }
                   },
-                  "varname": "live.numbox[2]"
+                  "varname": "live.numbox[2]",
+                  "annotation_name": "Chroma B"
                 }
               },
               {
@@ -1452,13 +1502,15 @@
                       "parameter_longname": "Chroma G",
                       "parameter_mmax": 255,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Chroma G",
                       "parameter_type": 1,
                       "parameter_units": "G",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Chroma G"
                     }
                   },
-                  "varname": "live.numbox[1]"
+                  "varname": "live.numbox[1]",
+                  "annotation_name": "Chroma G"
                 }
               },
               {
@@ -1479,13 +1531,15 @@
                       "parameter_longname": "Chroma R",
                       "parameter_mmax": 255,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Chroma R",
                       "parameter_type": 1,
                       "parameter_units": "R",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Chroma R"
                     }
                   },
-                  "varname": "live.numbox"
+                  "varname": "live.numbox",
+                  "annotation_name": "Chroma R"
                 }
               },
               {
@@ -2412,19 +2466,19 @@
               ],
               "parameter_initial": [0],
               "parameter_initial_enable": 1,
-              "parameter_longname": "Mode",
+              "parameter_longname": "Distance R",
               "parameter_mmax": 4,
               "parameter_modmode": 0,
-              "parameter_shortname": "Mode",
+              "parameter_shortname": "Distance R",
               "parameter_type": 2,
               "parameter_unitstyle": 9,
-              "parameter_annotation_name": "Mode"
+              "parameter_annotation_name": "Distance R"
             }
           },
           "spacing_x": 3,
           "spacing_y": 3,
           "varname": "live.tab[4]",
-          "annotation_name": "Mode"
+          "annotation_name": "Distance R"
         }
       },
       {
@@ -2443,16 +2497,16 @@
               "parameter_enum": ["Replace", "Multiply", "Add", "Subtract"],
               "parameter_initial": [0],
               "parameter_initial_enable": 1,
-              "parameter_longname": "Blend",
+              "parameter_longname": "Distance B",
               "parameter_mmax": 3,
               "parameter_modmode": 0,
-              "parameter_shortname": "Blend",
+              "parameter_shortname": "Distance B",
               "parameter_type": 2,
-              "parameter_annotation_name": "Blend"
+              "parameter_annotation_name": "Distance B"
             }
           },
           "varname": "live.menu[1]",
-          "annotation_name": "Blend"
+          "annotation_name": "Distance B"
         }
       },
       {

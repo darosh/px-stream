@@ -1,6 +1,76 @@
 {
   "boxes": [
     {
+      "id": "obj-25",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[12]",
+      "parameter_longname": "live.numbox[8]",
+      "parameter_shortname": "live.numbox",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-23",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[10]",
+      "parameter_longname": "live.numbox[7]",
+      "parameter_shortname": "live.numbox",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-24",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[11]",
+      "parameter_longname": "live.numbox[13]",
+      "parameter_shortname": "live.numbox",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-20",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[4]",
+      "parameter_longname": "live.numbox[12]",
+      "parameter_shortname": "live.numbox",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-22",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[9]",
+      "parameter_longname": "live.numbox[4]",
+      "parameter_shortname": "live.numbox",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-18",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[3]",
+      "parameter_longname": "live.numbox[11]",
+      "parameter_shortname": "live.numbox",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
+      "id": "obj-2",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[8]",
+      "parameter_longname": "live.numbox[10]",
+      "parameter_shortname": "live.numbox",
+      "annotation_name": "",
+      "annotation": ""
+    },
+    {
       "id": "obj-96",
       "maxclass": "live.text",
       "presentation": 1,

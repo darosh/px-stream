@@ -1,6 +1,280 @@
 {
   "boxes": [
     {
+      "id": "obj-15",
+      "maxclass": "live.button",
+      "presentation": 1,
+      "varname": "live.button[1]",
+      "parameter_longname": "Distance color",
+      "parameter_shortname": "Distance color",
+      "annotation_name": "Distance color",
+      "annotation": ""
+    },
+    {
+      "id": "obj-29",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[7]",
+      "parameter_longname": "Distance B",
+      "parameter_shortname": "Distance B",
+      "annotation_name": "Distance B",
+      "annotation": ""
+    },
+    {
+      "id": "obj-34",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[8]",
+      "parameter_longname": "Distance G",
+      "parameter_shortname": "Distance G",
+      "annotation_name": "Distance G",
+      "annotation": ""
+    },
+    {
+      "id": "obj-36",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[12]",
+      "parameter_longname": "Distance R",
+      "parameter_shortname": "Distance R",
+      "annotation_name": "Distance R",
+      "annotation": ""
+    },
+    {
+      "id": "obj-12",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[6]",
+      "parameter_longname": "Distance fade",
+      "parameter_shortname": "Distance fade",
+      "annotation_name": "Distance fade",
+      "annotation": ""
+    },
+    {
+      "id": "obj-24",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[13]",
+      "parameter_longname": "Distance threshold",
+      "parameter_shortname": "Distance threshold",
+      "annotation_name": "Distance threshold",
+      "annotation": ""
+    },
+    {
+      "id": "obj-10",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Invert",
+      "varname": "live.text[2]",
+      "parameter_longname": "Invert mapping",
+      "parameter_shortname": "Invert mapping",
+      "annotation_name": "Invert mapping",
+      "annotation": ""
+    },
+    {
+      "id": "obj-25",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "live.tab[2]",
+      "parameter_longname": "Color channel",
+      "parameter_shortname": "Color channel",
+      "annotation_name": "Color channel",
+      "annotation": ""
+    },
+    {
+      "id": "obj-22",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Invert",
+      "varname": "live.text[3]",
+      "parameter_longname": "Luminance invert",
+      "parameter_shortname": "Luminance invert",
+      "annotation_name": "Luminance invert",
+      "annotation": ""
+    },
+    {
+      "id": "obj-20",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[5]",
+      "parameter_longname": "Fade",
+      "parameter_shortname": "Fade",
+      "annotation_name": "Fade",
+      "annotation": ""
+    },
+    {
+      "id": "obj-18",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[4]",
+      "parameter_longname": "Global",
+      "parameter_shortname": "Global",
+      "annotation_name": "Global",
+      "annotation": ""
+    },
+    {
+      "id": "obj-7",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[3]",
+      "parameter_longname": "Hue",
+      "parameter_shortname": "Hue",
+      "annotation_name": "Hue",
+      "annotation": ""
+    },
+    {
+      "id": "obj-118",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[16]",
+      "parameter_longname": "Luminance threshold",
+      "parameter_shortname": "Luminance threshold",
+      "annotation_name": "Luminance threshold",
+      "annotation": ""
+    },
+    {
+      "id": "obj-117",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Mirror",
+      "varname": "live.text[4]",
+      "parameter_longname": "Mirror",
+      "parameter_shortname": "Mirror",
+      "annotation_name": "Mirror",
+      "annotation": ""
+    },
+    {
+      "id": "obj-116",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[21]",
+      "parameter_longname": "Scale",
+      "parameter_shortname": "Scale",
+      "annotation_name": "Scale",
+      "annotation": ""
+    },
+    {
+      "id": "obj-112",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu",
+      "parameter_longname": "Mapping",
+      "parameter_shortname": "Mapping",
+      "annotation_name": "Mapping",
+      "annotation": ""
+    },
+    {
+      "id": "obj-105",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "RGB",
+      "varname": "live.text[1]",
+      "parameter_longname": "OKLAB",
+      "parameter_shortname": "OKLAB",
+      "annotation_name": "OKLAB",
+      "annotation": ""
+    },
+    {
+      "id": "obj-97",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[14]",
+      "parameter_longname": "Max",
+      "parameter_shortname": "Max",
+      "annotation_name": "Max",
+      "annotation": ""
+    },
+    {
+      "id": "obj-100",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[15]",
+      "parameter_longname": "Min",
+      "parameter_shortname": "Min",
+      "annotation_name": "Min",
+      "annotation": ""
+    },
+    {
+      "id": "obj-104",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[17]",
+      "parameter_longname": "Phase",
+      "parameter_shortname": "Phase",
+      "annotation_name": "Phase",
+      "annotation": ""
+    },
+    {
+      "id": "obj-90",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[11]",
+      "parameter_longname": "Luminance Fade",
+      "parameter_shortname": "Luminance Fade",
+      "annotation_name": "Luminance Fade",
+      "annotation": ""
+    },
+    {
+      "id": "obj-82",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[10]",
+      "parameter_longname": "Lightness",
+      "parameter_shortname": "Lightness",
+      "annotation_name": "Lightness",
+      "annotation": ""
+    },
+    {
+      "id": "obj-79",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[9]",
+      "parameter_longname": "Chroma",
+      "parameter_shortname": "Chroma",
+      "annotation_name": "Chroma",
+      "annotation": ""
+    },
+    {
+      "id": "obj-33",
+      "maxclass": "live.button",
+      "presentation": 1,
+      "varname": "live.button",
+      "parameter_longname": "Chroma color",
+      "parameter_shortname": "Chroma color",
+      "annotation_name": "Chroma color",
+      "annotation": ""
+    },
+    {
+      "id": "obj-14",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[2]",
+      "parameter_longname": "Chroma B",
+      "parameter_shortname": "Chroma B",
+      "annotation_name": "Chroma B",
+      "annotation": ""
+    },
+    {
+      "id": "obj-13",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[1]",
+      "parameter_longname": "Chroma G",
+      "parameter_shortname": "Chroma G",
+      "annotation_name": "Chroma G",
+      "annotation": ""
+    },
+    {
+      "id": "obj-4",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox",
+      "parameter_longname": "Chroma R",
+      "parameter_shortname": "Chroma R",
+      "annotation_name": "Chroma R",
+      "annotation": ""
+    },
+    {
       "id": "obj-56",
       "maxclass": "live.text",
       "presentation": 1,
