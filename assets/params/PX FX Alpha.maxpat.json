@@ -7,8 +7,8 @@
       "text": "Cutoff",
       "varname": "live.text[5]",
       "parameter_longname": "Cutoff",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_shortname": "Cutoff",
+      "annotation_name": "Cutoff",
       "annotation": ""
     },
     {
@@ -17,8 +17,8 @@
       "presentation": 1,
       "varname": "live.numbox[6]",
       "parameter_longname": "Multiply",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_shortname": "Multiply",
+      "annotation_name": "Multiply",
       "annotation": ""
     },
     {
@@ -27,8 +27,8 @@
       "presentation": 1,
       "varname": "live.numbox[7]",
       "parameter_longname": "Threshold",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_shortname": "Threshold",
+      "annotation_name": "Threshold",
       "annotation": ""
     },
     {
@@ -37,8 +37,8 @@
       "presentation": 1,
       "varname": "live.numbox[8]",
       "parameter_longname": "Smooth",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_shortname": "Smooth",
+      "annotation_name": "Smooth",
       "annotation": ""
     },
     {
@@ -47,8 +47,8 @@
       "presentation": 1,
       "varname": "live.numbox[12]",
       "parameter_longname": "Quantize",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_shortname": "Quantize",
+      "annotation_name": "Quantize",
       "annotation": ""
     },
     {
@@ -57,8 +57,8 @@
       "presentation": 1,
       "varname": "live.numbox[13]",
       "parameter_longname": "Gamma",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_shortname": "Gamma",
+      "annotation_name": "Gamma",
       "annotation": ""
     },
     {
@@ -67,8 +67,8 @@
       "presentation": 1,
       "varname": "live.menu[3]",
       "parameter_longname": "Preview",
-      "parameter_shortname": "live.menu[3]",
-      "annotation_name": "",
+      "parameter_shortname": "Preview",
+      "annotation_name": "Preview",
       "annotation": ""
     },
     {
@@ -78,7 +78,7 @@
       "varname": "live.tab[4]",
       "parameter_longname": "Mode",
       "parameter_shortname": "Mode",
-      "annotation_name": "",
+      "annotation_name": "Mode",
       "annotation": ""
     },
     {
@@ -87,8 +87,8 @@
       "presentation": 1,
       "varname": "live.menu[1]",
       "parameter_longname": "Blend",
-      "parameter_shortname": "live.menu[1]",
-      "annotation_name": "",
+      "parameter_shortname": "Blend",
+      "annotation_name": "Blend",
       "annotation": ""
     },
     {
@@ -98,8 +98,8 @@
       "text": "Invert",
       "varname": "live.text[2]",
       "parameter_longname": "Invert",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_shortname": "Invert",
+      "annotation_name": "Invert",
       "annotation": ""
     },
     {
@@ -108,8 +108,8 @@
       "presentation": 1,
       "varname": "live.numbox[18]",
       "parameter_longname": "Mix",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_shortname": "Mix",
+      "annotation_name": "Mix",
       "annotation": ""
     },
     {
@@ -119,8 +119,8 @@
       "text": "...",
       "varname": "live.text[13]",
       "parameter_longname": "More",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_shortname": "More",
+      "annotation_name": "More",
       "annotation": ""
     },
     {
@@ -130,8 +130,8 @@
       "varname": "live.tab[1]",
       "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
-      "annotation_name": "",
-      "annotation": ""
+      "annotation_name": "Channel",
+      "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."
     }
   ]
 }

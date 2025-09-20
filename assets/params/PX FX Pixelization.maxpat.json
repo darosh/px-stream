@@ -281,8 +281,8 @@
       "varname": "live.tab[1]",
       "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
-      "annotation_name": "",
-      "annotation": ""
+      "annotation_name": "Channel",
+      "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."
     }
   ]
 }
