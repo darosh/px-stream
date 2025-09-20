@@ -42,7 +42,7 @@ export default defineConfig([{
       include: [
         'live.dial', 'live.slider', 'live.button', 'live.toggle',
         'live.text', 'live.menu', 'live.tab', 'live.numbox',
-        'umenu',
+        'umenu', 'pictslider'
       ]
     }],
 
