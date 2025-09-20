@@ -15,6 +15,7 @@
   "scripts": {
     "amxd:freeze": "rm -f ./devices/frozen/*.amxd && osascript ./scripts/freeze.scpt \"$(pwd)/devices\" \"$(pwd)/devices/frozen\"",
     "amxd:resave": "osascript ./scripts/resave.scpt \"$(pwd)/devices\"",
+    "maxpat:resave": "osascript ./scripts/resave-maxpat.scpt \"$(pwd)/devices\"",
     "doc": "node ./scripts/doc.js",
     "format:shader": "node ./scripts/format-shader.js",
     "lint:maxpat": "eslint ./devices/*.maxpat --rule={\"maxpat/ui/annotation-info\":\"off\"}",

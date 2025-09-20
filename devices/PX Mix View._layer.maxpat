@@ -12,6 +12,8 @@
 		"classnamespace" : "box",
 		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"gridsize" : [ 8.0, 8.0 ],
+		"gridsnaponopen" : 2,
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-15",
@@ -348,11 +350,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-207",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 40.0, 32.0, 30.0, 30.0 ]
 				}
 
@@ -361,7 +363,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-208",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -374,7 +376,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-209",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -387,7 +389,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-211",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -719,8 +721,8 @@
 
 			}
  ],
-		"gridsnaponopen" : 2,
-		"integercoordinates" : 1
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

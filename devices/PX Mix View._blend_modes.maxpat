@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 555.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 555.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
@@ -125,7 +125,8 @@
 						}
 
 					}
-
+,
+					"varname" : "live.menu"
 				}
 
 			}

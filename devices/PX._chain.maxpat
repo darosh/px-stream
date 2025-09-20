@@ -140,6 +140,7 @@
 										"classnamespace" : "box",
 										"rect" : [ 55.0, 100.0, 662.0, 476.0 ],
 										"gridsize" : [ 8.0, 8.0 ],
+										"gridsnaponopen" : 2,
 										"integercoordinates" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
@@ -258,8 +259,7 @@
 												}
 
 											}
- ],
-		"gridsnaponopen" : 2
+ ]
 									}
 ,
 									"patching_rect" : [ 112.0, 336.0, 70.0, 22.0 ],
@@ -740,6 +740,7 @@
 										"classnamespace" : "box",
 										"rect" : [ 55.0, 100.0, 662.0, 476.0 ],
 										"gridsize" : [ 8.0, 8.0 ],
+										"gridsnaponopen" : 2,
 										"integercoordinates" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
@@ -858,8 +859,7 @@
 												}
 
 											}
- ],
-		"gridsnaponopen" : 2
+ ]
 									}
 ,
 									"patching_rect" : [ 112.0, 336.0, 70.0, 22.0 ],
@@ -1438,7 +1438,7 @@
 				"box" : 				{
 					"comment" : "midi",
 					"id" : "obj-30",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1534,7 +1534,7 @@
 				"box" : 				{
 					"comment" : "midi",
 					"id" : "obj-3",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2028,7 +2028,7 @@
 				"box" : 				{
 					"comment" : "to next",
 					"id" : "obj-62",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2041,7 +2041,7 @@
 				"box" : 				{
 					"comment" : "initial bang",
 					"id" : "obj-63",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2054,7 +2054,7 @@
 				"box" : 				{
 					"comment" : "from previous",
 					"id" : "obj-65",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2066,7 +2066,7 @@
 				"box" : 				{
 					"comment" : "next info",
 					"id" : "obj-66",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2078,7 +2078,7 @@
 				"box" : 				{
 					"comment" : "this info",
 					"id" : "obj-67",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2630,7 +2630,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "PX._chain.js",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
