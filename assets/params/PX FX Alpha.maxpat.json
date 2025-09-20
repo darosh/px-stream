@@ -351,8 +351,8 @@
       "presentation": 1,
       "varname": "live.tab[4]",
       "parameter_longname": "Mode",
-      "parameter_shortname": "Distance R",
-      "annotation_name": "Distance R",
+      "parameter_shortname": "Mode",
+      "annotation_name": "Mode",
       "annotation": ""
     },
     {
@@ -361,8 +361,8 @@
       "presentation": 1,
       "varname": "live.menu[1]",
       "parameter_longname": "Blend",
-      "parameter_shortname": "Distance B",
-      "annotation_name": "Distance B",
+      "parameter_shortname": "Blend",
+      "annotation_name": "Blend",
       "annotation": ""
     },
     {

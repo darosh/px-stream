@@ -48,9 +48,9 @@ function update (obj, updated) {
       continue
     }
 
-    const { id } = box
+    const { id, varname } = box
 
-    const u = updated.find(v => v.id === id)
+    const u = updated.find(v => v.id === id && v.varname === varname)
 
     if (!u) {
       console.error('Not found', id, box)
