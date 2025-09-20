@@ -147,7 +147,7 @@ async function createCollage () {
   html.push(`<div>`)
 
   layout.forEach((row, rowIndex) => {
-    html.push(`  <div>`)
+    // html.push(`  <div>`)
     row.forEach((img, i) => {
       const scaledWidth = Math.round(img.width * scaleFactor)
       const title = imgTitle(img.name)
@@ -155,7 +155,7 @@ async function createCollage () {
         `    <a href="#${imgSection(img.name)}"><img src="./${path.join('assets', 'devices', img.name)}" title="${title}" width="${scaledWidth}"/></a>`
       )
     })
-    html.push('  </div>')
+    // html.push('  </div>')
   })
   html.push('</div>')
 

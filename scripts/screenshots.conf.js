@@ -40,7 +40,8 @@ export default {
     [5, 'PX GEN Text (expanded)', 536],
     [5, 'PX FX Alpha', 452],
     [6, 'PX FX Pixelization', 544],
-    [6, 'PX IN Image', 276]
+    [6, 'PX IN Image', 276],
+    [6, 'PX Mix Transition', 276]
   ].map(([src, name, x1, animated]) => {
     WIDTHS[src] = WIDTHS[src] || 14
     const r = [src, name, WIDTHS[src], x1, animated]
