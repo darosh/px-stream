@@ -34,7 +34,7 @@ function getPatcherParams (obj, params = []) {
     }
     
     if (propagate) {
-      const generic = ['live.text', 'live.numbox', 'live.dial', 'live.menu', 'live.button']
+      const generic = ['live.text', 'live.numbox', 'live.dial', 'live.menu', 'live.button', 'live.tab']
 
       if ((!obj.parameter_shortname || generic.includes(obj.parameter_shortname))
         && obj.parameter_longname

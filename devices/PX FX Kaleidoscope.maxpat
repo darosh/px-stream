@@ -9,7 +9,7 @@
       "modernui": 1
     },
     "classnamespace": "box",
-    "rect": [133, 71, 571, 508],
+    "rect": [133, 71, 261, 508],
     "openinpresentation": 1,
     "gridonopen": 2,
     "gridsize": [8, 8],
@@ -233,7 +233,7 @@
               "modernui": 1
             },
             "classnamespace": "box",
-            "rect": [33, 71, 562, 508],
+            "rect": [33, 82, 562, 498],
             "openinpresentation": 1,
             "gridonopen": 2,
             "gridsize": [8, 8],
@@ -447,16 +447,18 @@
                       "parameter_enum": ["val1", "val2"],
                       "parameter_initial": [1],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.text[6]",
+                      "parameter_longname": "Keep Ratio",
                       "parameter_mmax": 1,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "live.text",
-                      "parameter_type": 1
+                      "parameter_shortname": "Keep Ratio",
+                      "parameter_type": 1,
+                      "parameter_annotation_name": "Keep Ratio"
                     }
                   },
                   "text": "x=y",
                   "texton": "x=y",
-                  "varname": "live.text[1]"
+                  "varname": "live.text[1]",
+                  "annotation_name": "Keep Ratio"
                 }
               },
               {
@@ -513,18 +515,20 @@
                     "valueof": {
                       "parameter_initial": [1],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[12]",
+                      "parameter_longname": "Scale Y",
                       "parameter_mmax": 10,
                       "parameter_mmin": -10,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Scale Y",
                       "parameter_steps": 1001,
                       "parameter_type": 0,
                       "parameter_units": "y",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Scale Y"
                     }
                   },
-                  "varname": "live.numbox[10]"
+                  "varname": "live.numbox[10]",
+                  "annotation_name": "Scale Y"
                 }
               },
               {
@@ -542,18 +546,20 @@
                     "valueof": {
                       "parameter_initial": [1],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[15]",
+                      "parameter_longname": "Scale X",
                       "parameter_mmax": 10,
                       "parameter_mmin": -10,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Scale X",
                       "parameter_steps": 1001,
                       "parameter_type": 0,
                       "parameter_units": "x",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Scale X"
                     }
                   },
-                  "varname": "live.numbox[11]"
+                  "varname": "live.numbox[11]",
+                  "annotation_name": "Scale X"
                 }
               },
               {
@@ -571,18 +577,20 @@
                     "valueof": {
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[17]",
+                      "parameter_longname": "Origin Y",
                       "parameter_mmax": 2000,
                       "parameter_mmin": -2000,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Origin Y",
                       "parameter_steps": 1001,
                       "parameter_type": 0,
                       "parameter_units": "y",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Origin Y"
                     }
                   },
-                  "varname": "live.numbox[12]"
+                  "varname": "live.numbox[12]",
+                  "annotation_name": "Origin Y"
                 }
               },
               {
@@ -600,18 +608,20 @@
                     "valueof": {
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[18]",
+                      "parameter_longname": "Origin X",
                       "parameter_mmax": 2000,
                       "parameter_mmin": -2000,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Origin X",
                       "parameter_steps": 1001,
                       "parameter_type": 0,
                       "parameter_units": "x",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Origin X"
                     }
                   },
-                  "varname": "live.numbox[13]"
+                  "varname": "live.numbox[13]",
+                  "annotation_name": "Origin X"
                 }
               },
               {
@@ -629,18 +639,20 @@
                     "valueof": {
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[13]",
+                      "parameter_longname": "Offset Y",
                       "parameter_mmax": 1,
                       "parameter_mmin": -1,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Offset Y",
                       "parameter_steps": 1001,
                       "parameter_type": 0,
                       "parameter_units": "y",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Offset Y"
                     }
                   },
-                  "varname": "live.numbox[14]"
+                  "varname": "live.numbox[14]",
+                  "annotation_name": "Offset Y"
                 }
               },
               {
@@ -658,22 +670,25 @@
                     "valueof": {
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[16]",
+                      "parameter_longname": "Offset X",
                       "parameter_mmax": 1,
                       "parameter_mmin": -1,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Offset X",
                       "parameter_steps": 1001,
                       "parameter_type": 0,
                       "parameter_units": "x",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Offset X"
                     }
                   },
-                  "varname": "live.numbox[15]"
+                  "varname": "live.numbox[15]",
+                  "annotation_name": "Offset X"
                 }
               },
               {
                 "box": {
+                  "annotation_name": "Rotation",
                   "appearance": 3,
                   "id": "obj-11",
                   "maxclass": "live.dial",
@@ -686,6 +701,7 @@
                   "presentation_rect": [62, 132, 50, 63],
                   "saved_attribute_attributes": {
                     "valueof": {
+                      "parameter_annotation_name": "Rotation",
                       "parameter_initial": [180],
                       "parameter_initial_enable": 1,
                       "parameter_longname": "Rotation",
@@ -693,12 +709,10 @@
                       "parameter_modmode": 3,
                       "parameter_shortname": "Rotation",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1,
-                      "parameter_annotation_name": "Rotation"
+                      "parameter_unitstyle": 1
                     }
                   },
-                  "varname": "live.dial[1]",
-                  "annotation_name": "Rotation"
+                  "varname": "live.dial[1]"
                 }
               },
               {
@@ -730,16 +744,18 @@
                       "parameter_enum": ["val1", "val2"],
                       "parameter_initial": [1],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.text[5]",
+                      "parameter_longname": "Keep Ratio Split",
                       "parameter_mmax": 1,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "live.text",
-                      "parameter_type": 1
+                      "parameter_shortname": "Keep Ratio Split",
+                      "parameter_type": 1,
+                      "parameter_annotation_name": "Keep Ratio Split"
                     }
                   },
                   "text": "x=y",
                   "texton": "x=y",
-                  "varname": "live.text[5]"
+                  "varname": "live.text[5]",
+                  "annotation_name": "Keep Ratio Split"
                 }
               },
               {
@@ -783,6 +799,7 @@
               },
               {
                 "box": {
+                  "annotation_name": "Divisions",
                   "appearance": 3,
                   "id": "obj-6",
                   "maxclass": "live.dial",
@@ -795,18 +812,17 @@
                   "presentation_rect": [38, 4, 50, 63],
                   "saved_attribute_attributes": {
                     "valueof": {
+                      "parameter_annotation_name": "Divisions",
                       "parameter_initial": [12],
                       "parameter_initial_enable": 1,
                       "parameter_longname": "Divisions",
                       "parameter_modmode": 3,
                       "parameter_shortname": "Divisions",
                       "parameter_type": 0,
-                      "parameter_unitstyle": 1,
-                      "parameter_annotation_name": "Divisions"
+                      "parameter_unitstyle": 1
                     }
                   },
-                  "varname": "live.dial",
-                  "annotation_name": "Divisions"
+                  "varname": "live.dial"
                 }
               },
               {
@@ -835,17 +851,19 @@
                     "valueof": {
                       "parameter_initial": [0.8],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[11]",
+                      "parameter_longname": "Brightness",
                       "parameter_mmax": 1,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Brightness",
                       "parameter_steps": 1001,
                       "parameter_type": 0,
                       "parameter_units": "bri",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Brightness"
                     }
                   },
-                  "varname": "live.numbox[9]"
+                  "varname": "live.numbox[9]",
+                  "annotation_name": "Brightness"
                 }
               },
               {
@@ -896,17 +914,19 @@
                     "valueof": {
                       "parameter_initial": [1],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[9]",
+                      "parameter_longname": "Mirror blend",
                       "parameter_mmax": 1,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Mirror blend",
                       "parameter_steps": 1025,
                       "parameter_type": 0,
                       "parameter_units": "ble",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Mirror blend"
                     }
                   },
-                  "varname": "live.numbox[7]"
+                  "varname": "live.numbox[7]",
+                  "annotation_name": "Mirror blend"
                 }
               },
               {
@@ -924,17 +944,19 @@
                     "valueof": {
                       "parameter_initial": [0.02],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[10]",
+                      "parameter_longname": "Softness",
                       "parameter_mmax": 1,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Softness",
                       "parameter_steps": 1281,
                       "parameter_type": 0,
                       "parameter_units": "soft",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Softness"
                     }
                   },
-                  "varname": "live.numbox[8]"
+                  "varname": "live.numbox[8]",
+                  "annotation_name": "Softness"
                 }
               },
               {
@@ -1007,18 +1029,20 @@
                     "valueof": {
                       "parameter_initial": [1],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[5]",
+                      "parameter_longname": "Scale Y Split",
                       "parameter_mmax": 10,
                       "parameter_mmin": -10,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Scale Y Split",
                       "parameter_steps": 1001,
                       "parameter_type": 0,
                       "parameter_units": "y",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Scale Y Split"
                     }
                   },
-                  "varname": "live.numbox[5]"
+                  "varname": "live.numbox[5]",
+                  "annotation_name": "Scale Y Split"
                 }
               },
               {
@@ -1036,18 +1060,20 @@
                     "valueof": {
                       "parameter_initial": [1],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[6]",
+                      "parameter_longname": "Scale X Split",
                       "parameter_mmax": 10,
                       "parameter_mmin": -10,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Scale X Split",
                       "parameter_steps": 1001,
                       "parameter_type": 0,
                       "parameter_units": "x",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Scale X Split"
                     }
                   },
-                  "varname": "live.numbox[6]"
+                  "varname": "live.numbox[6]",
+                  "annotation_name": "Scale X Split"
                 }
               },
               {
@@ -1065,18 +1091,20 @@
                     "valueof": {
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[3]",
+                      "parameter_longname": "Origin Y Split",
                       "parameter_mmax": 2000,
                       "parameter_mmin": -2000,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Origin Y Split",
                       "parameter_steps": 1001,
                       "parameter_type": 0,
                       "parameter_units": "y",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Origin Y Split"
                     }
                   },
-                  "varname": "live.numbox[3]"
+                  "varname": "live.numbox[3]",
+                  "annotation_name": "Origin Y Split"
                 }
               },
               {
@@ -1094,18 +1122,20 @@
                     "valueof": {
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[4]",
+                      "parameter_longname": "Origin X Split",
                       "parameter_mmax": 2000,
                       "parameter_mmin": -2000,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Origin X Split",
                       "parameter_steps": 1001,
                       "parameter_type": 0,
                       "parameter_units": "x",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Origin X Split"
                     }
                   },
-                  "varname": "live.numbox[4]"
+                  "varname": "live.numbox[4]",
+                  "annotation_name": "Origin X Split"
                 }
               },
               {
@@ -1123,18 +1153,20 @@
                     "valueof": {
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[2]",
+                      "parameter_longname": "Offset Y Split",
                       "parameter_mmax": 1,
                       "parameter_mmin": -1,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Offset Y Split",
                       "parameter_steps": 1001,
                       "parameter_type": 0,
                       "parameter_units": "y",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Offset Y Split"
                     }
                   },
-                  "varname": "live.numbox[2]"
+                  "varname": "live.numbox[2]",
+                  "annotation_name": "Offset Y Split"
                 }
               },
               {
@@ -1152,18 +1184,20 @@
                     "valueof": {
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[1]",
+                      "parameter_longname": "Offset X Split",
                       "parameter_mmax": 1,
                       "parameter_mmin": -1,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Offset X Split",
                       "parameter_steps": 1001,
                       "parameter_type": 0,
                       "parameter_units": "x",
-                      "parameter_unitstyle": 9
+                      "parameter_unitstyle": 9,
+                      "parameter_annotation_name": "Offset X Split"
                     }
                   },
-                  "varname": "live.numbox[1]"
+                  "varname": "live.numbox[1]",
+                  "annotation_name": "Offset X Split"
                 }
               },
               {
@@ -1659,17 +1693,19 @@
             "focusbordercolor": {"expression": ""},
             "valueof": {
               "parameter_enum": ["S", "A", "3", "4", "5", "6", "8", "12"],
-              "parameter_longname": "live.tab",
+              "parameter_longname": "Type",
               "parameter_mmax": 7,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.tab",
+              "parameter_shortname": "Type",
               "parameter_type": 2,
-              "parameter_unitstyle": 9
+              "parameter_unitstyle": 9,
+              "parameter_annotation_name": "Type"
             }
           },
           "spacing_x": 3,
           "spacing_y": 3,
-          "varname": "live.tab"
+          "varname": "live.tab",
+          "annotation_name": "Type"
         }
       },
       {
@@ -2180,7 +2216,7 @@
               "parameter_info": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
               "parameter_initial": [8],
               "parameter_initial_enable": 1,
-              "parameter_longname": "Syphon",
+              "parameter_longname": "Channel",
               "parameter_mmax": 8,
               "parameter_modmode": 0,
               "parameter_shortname": "Channel",
@@ -2324,27 +2360,27 @@
       {"patchline": {"destination": ["obj-6", 0], "source": ["obj-9", 0]}}
     ],
     "parameters": {
-      "obj-20": ["live.tab", "live.tab", 0],
-      "obj-28::obj-1": ["live.numbox[9]", "live.numbox", 0],
+      "obj-20": ["Type", "live.tab", 0],
+      "obj-28::obj-1": ["Mirror blend", "live.numbox", 0],
       "obj-28::obj-11": ["Rotation", "Rotation", 0],
-      "obj-28::obj-14": ["live.numbox[11]", "live.numbox", 0],
-      "obj-28::obj-2": ["live.numbox[10]", "live.numbox", 0],
-      "obj-28::obj-30": ["live.text[6]", "live.text", 0],
-      "obj-28::obj-31": ["live.numbox[1]", "live.numbox", 0],
-      "obj-28::obj-32": ["live.numbox[2]", "live.numbox", 0],
-      "obj-28::obj-36": ["live.numbox[12]", "live.numbox", 0],
-      "obj-28::obj-37": ["live.numbox[15]", "live.numbox", 0],
-      "obj-28::obj-38": ["live.numbox[17]", "live.numbox", 0],
-      "obj-28::obj-39": ["live.numbox[18]", "live.numbox", 0],
-      "obj-28::obj-40": ["live.numbox[13]", "live.numbox", 0],
-      "obj-28::obj-41": ["live.numbox[16]", "live.numbox", 0],
-      "obj-28::obj-56": ["live.numbox[3]", "live.numbox", 0],
-      "obj-28::obj-59": ["live.numbox[4]", "live.numbox", 0],
+      "obj-28::obj-14": ["Brightness", "live.numbox", 0],
+      "obj-28::obj-2": ["Softness", "live.numbox", 0],
+      "obj-28::obj-30": ["Keep Ratio", "live.text", 0],
+      "obj-28::obj-31": ["Offset X Split", "live.numbox", 0],
+      "obj-28::obj-32": ["Offset Y Split", "live.numbox", 0],
+      "obj-28::obj-36": ["Scale Y", "live.numbox", 0],
+      "obj-28::obj-37": ["Scale X", "live.numbox", 0],
+      "obj-28::obj-38": ["Origin Y", "live.numbox", 0],
+      "obj-28::obj-39": ["Origin X", "live.numbox", 0],
+      "obj-28::obj-40": ["Offset Y", "live.numbox", 0],
+      "obj-28::obj-41": ["Offset X", "live.numbox", 0],
+      "obj-28::obj-56": ["Origin Y Split", "live.numbox", 0],
+      "obj-28::obj-59": ["Origin X Split", "live.numbox", 0],
       "obj-28::obj-6": ["Divisions", "Divisions", 0],
-      "obj-28::obj-62": ["live.numbox[5]", "live.numbox", 0],
-      "obj-28::obj-63": ["live.numbox[6]", "live.numbox", 0],
-      "obj-28::obj-96": ["live.text[5]", "live.text", 0],
-      "obj-366": ["Syphon", "Channel", 0],
+      "obj-28::obj-62": ["Scale Y Split", "live.numbox", 0],
+      "obj-28::obj-63": ["Scale X Split", "live.numbox", 0],
+      "obj-28::obj-96": ["Keep Ratio Split", "live.text", 0],
+      "obj-366": ["Channel", "Channel", 0],
       "parameterbanks": {
         "0": {
           "index": 0,

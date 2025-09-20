@@ -6,9 +6,9 @@
       "presentation": 1,
       "text": "x=y",
       "varname": "live.text[1]",
-      "parameter_longname": "live.text[6]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Keep Ratio",
+      "parameter_shortname": "Keep Ratio",
+      "annotation_name": "Keep Ratio",
       "annotation": ""
     },
     {
@@ -16,9 +16,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[10]",
-      "parameter_longname": "live.numbox[12]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Scale Y",
+      "parameter_shortname": "Scale Y",
+      "annotation_name": "Scale Y",
       "annotation": ""
     },
     {
@@ -26,9 +26,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[11]",
-      "parameter_longname": "live.numbox[15]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Scale X",
+      "parameter_shortname": "Scale X",
+      "annotation_name": "Scale X",
       "annotation": ""
     },
     {
@@ -36,9 +36,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[12]",
-      "parameter_longname": "live.numbox[17]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Origin Y",
+      "parameter_shortname": "Origin Y",
+      "annotation_name": "Origin Y",
       "annotation": ""
     },
     {
@@ -46,9 +46,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[13]",
-      "parameter_longname": "live.numbox[18]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Origin X",
+      "parameter_shortname": "Origin X",
+      "annotation_name": "Origin X",
       "annotation": ""
     },
     {
@@ -56,9 +56,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[14]",
-      "parameter_longname": "live.numbox[13]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Offset Y",
+      "parameter_shortname": "Offset Y",
+      "annotation_name": "Offset Y",
       "annotation": ""
     },
     {
@@ -66,9 +66,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[15]",
-      "parameter_longname": "live.numbox[16]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Offset X",
+      "parameter_shortname": "Offset X",
+      "annotation_name": "Offset X",
       "annotation": ""
     },
     {
@@ -87,9 +87,9 @@
       "presentation": 1,
       "text": "x=y",
       "varname": "live.text[5]",
-      "parameter_longname": "live.text[5]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Keep Ratio Split",
+      "parameter_shortname": "Keep Ratio Split",
+      "annotation_name": "Keep Ratio Split",
       "annotation": ""
     },
     {
@@ -107,9 +107,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[9]",
-      "parameter_longname": "live.numbox[11]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Brightness",
+      "parameter_shortname": "Brightness",
+      "annotation_name": "Brightness",
       "annotation": ""
     },
     {
@@ -117,9 +117,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[7]",
-      "parameter_longname": "live.numbox[9]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Mirror blend",
+      "parameter_shortname": "Mirror blend",
+      "annotation_name": "Mirror blend",
       "annotation": ""
     },
     {
@@ -127,9 +127,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[8]",
-      "parameter_longname": "live.numbox[10]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Softness",
+      "parameter_shortname": "Softness",
+      "annotation_name": "Softness",
       "annotation": ""
     },
     {
@@ -137,9 +137,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[5]",
-      "parameter_longname": "live.numbox[5]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Scale Y Split",
+      "parameter_shortname": "Scale Y Split",
+      "annotation_name": "Scale Y Split",
       "annotation": ""
     },
     {
@@ -147,9 +147,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[6]",
-      "parameter_longname": "live.numbox[6]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Scale X Split",
+      "parameter_shortname": "Scale X Split",
+      "annotation_name": "Scale X Split",
       "annotation": ""
     },
     {
@@ -157,9 +157,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[3]",
-      "parameter_longname": "live.numbox[3]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Origin Y Split",
+      "parameter_shortname": "Origin Y Split",
+      "annotation_name": "Origin Y Split",
       "annotation": ""
     },
     {
@@ -167,9 +167,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[4]",
-      "parameter_longname": "live.numbox[4]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Origin X Split",
+      "parameter_shortname": "Origin X Split",
+      "annotation_name": "Origin X Split",
       "annotation": ""
     },
     {
@@ -177,9 +177,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[2]",
-      "parameter_longname": "live.numbox[2]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Offset Y Split",
+      "parameter_shortname": "Offset Y Split",
+      "annotation_name": "Offset Y Split",
       "annotation": ""
     },
     {
@@ -187,9 +187,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[1]",
-      "parameter_longname": "live.numbox[1]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Offset X Split",
+      "parameter_shortname": "Offset X Split",
+      "annotation_name": "Offset X Split",
       "annotation": ""
     },
     {
@@ -197,9 +197,9 @@
       "maxclass": "live.tab",
       "presentation": 1,
       "varname": "live.tab",
-      "parameter_longname": "live.tab",
-      "parameter_shortname": "live.tab",
-      "annotation_name": "",
+      "parameter_longname": "Type",
+      "parameter_shortname": "Type",
+      "annotation_name": "Type",
       "annotation": ""
     },
     {
@@ -207,7 +207,7 @@
       "maxclass": "live.tab",
       "presentation": 1,
       "varname": "Syphon",
-      "parameter_longname": "Syphon",
+      "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
       "annotation_name": "Channel",
       "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."
