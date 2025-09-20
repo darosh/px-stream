@@ -5,7 +5,7 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "File",
-      "parameter_longname": "File Automation",
+      "parameter_longname": "File",
       "parameter_shortname": "File",
       "annotation_name": "File",
       "annotation": "Selected file"
@@ -15,7 +15,7 @@
       "maxclass": "live.menu",
       "presentation": 1,
       "varname": "live.menu",
-      "parameter_longname": "File",
+      "parameter_longname": "live.menu[1]",
       "parameter_shortname": "File",
       "annotation_name": "File",
       "annotation": "Selected file"

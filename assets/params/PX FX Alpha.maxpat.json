@@ -87,7 +87,7 @@
       "presentation": 1,
       "text": "Invert",
       "varname": "live.text[3]",
-      "parameter_longname": "Luminance invert",
+      "parameter_longname": "Luminance Invert",
       "parameter_shortname": "Luminance invert",
       "annotation_name": "Luminance invert",
       "annotation": ""
@@ -127,7 +127,7 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[16]",
-      "parameter_longname": "Luminance threshold",
+      "parameter_longname": "Luminance Threshold",
       "parameter_shortname": "Luminance threshold",
       "annotation_name": "Luminance threshold",
       "annotation": ""
@@ -351,8 +351,8 @@
       "presentation": 1,
       "varname": "live.tab[4]",
       "parameter_longname": "Mode",
-      "parameter_shortname": "Mode",
-      "annotation_name": "Mode",
+      "parameter_shortname": "Distance R",
+      "annotation_name": "Distance R",
       "annotation": ""
     },
     {
@@ -361,8 +361,8 @@
       "presentation": 1,
       "varname": "live.menu[1]",
       "parameter_longname": "Blend",
-      "parameter_shortname": "Blend",
-      "annotation_name": "Blend",
+      "parameter_shortname": "Distance B",
+      "annotation_name": "Distance B",
       "annotation": ""
     },
     {

@@ -4,6 +4,7 @@
       "id": "obj-2",
       "maxclass": "live.menu",
       "presentation": 1,
+      "varname": "live.menu",
       "parameter_longname": "Blend Mode",
       "parameter_shortname": "Blend",
       "annotation_name": "Blend Mode",
