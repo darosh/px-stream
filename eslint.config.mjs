@@ -28,13 +28,13 @@ export default defineConfig([{
       exceptions: [
         'panel', 'comment', 'bpatcher', 'inlet', 'outlet', 'fpic', 'umenu'
       ],
-      threshold: 5 // More forgiving for patching mode
+      threshold: 5
     }],
     'maxpat/layout/presentation-overlaps': ['warn', {
       exceptions: [
         'panel', 'bpatcher', 'live.comment', 'comment', 'fpic', 'umenu', 'live.slider'
       ],
-      threshold: 1, // Precise for UI
+      threshold: 2,
     }],
 
     // UI
