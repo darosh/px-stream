@@ -5,9 +5,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[16]",
-      "parameter_longname": "live.numbox[27]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Levels",
+      "parameter_shortname": "Levels",
+      "annotation_name": "Levels",
       "annotation": ""
     },
     {
@@ -16,9 +16,9 @@
       "presentation": 1,
       "text": "Mirror",
       "varname": "live.text[4]",
-      "parameter_longname": "live.text[11]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Mirror",
+      "parameter_shortname": "Mirror",
+      "annotation_name": "Mirror",
       "annotation": ""
     },
     {
@@ -26,9 +26,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[20]",
-      "parameter_longname": "live.numbox[25]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Phase",
+      "parameter_shortname": "Phase",
+      "annotation_name": "Phase",
       "annotation": ""
     },
     {
@@ -36,9 +36,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[21]",
-      "parameter_longname": "live.numbox[26]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Scale",
+      "parameter_shortname": "Scale",
+      "annotation_name": "Scale",
       "annotation": ""
     },
     {
@@ -46,9 +46,9 @@
       "maxclass": "live.menu",
       "presentation": 1,
       "varname": "live.menu",
-      "parameter_longname": "live.menu",
-      "parameter_shortname": "live.menu",
-      "annotation_name": "",
+      "parameter_longname": "Mapping",
+      "parameter_shortname": "Mapping",
+      "annotation_name": "Mapping",
       "annotation": ""
     },
     {
@@ -57,9 +57,9 @@
       "presentation": 1,
       "text": "Blend",
       "varname": "live.text[3]",
-      "parameter_longname": "live.text[10]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Blend",
+      "parameter_shortname": "Blend",
+      "annotation_name": "Blend",
       "annotation": ""
     },
     {
@@ -68,9 +68,9 @@
       "presentation": 1,
       "text": "Invert",
       "varname": "live.text[2]",
-      "parameter_longname": "live.text[9]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Invert",
+      "parameter_shortname": "Invert",
+      "annotation_name": "Invert",
       "annotation": ""
     },
     {
@@ -78,9 +78,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[19]",
-      "parameter_longname": "live.numbox[24]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Luminosity",
+      "parameter_shortname": "Luminosity",
+      "annotation_name": "Luminosity",
       "annotation": ""
     },
     {
@@ -88,9 +88,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[18]",
-      "parameter_longname": "live.numbox[23]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Mix",
+      "parameter_shortname": "Mix",
+      "annotation_name": "Mix",
       "annotation": ""
     },
     {
@@ -99,9 +99,9 @@
       "presentation": 1,
       "text": "RGB",
       "varname": "live.text[1]",
-      "parameter_longname": "live.text[1]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "OKLAB",
+      "parameter_shortname": "OKLAB",
+      "annotation_name": "OKLAB",
       "annotation": ""
     },
     {
@@ -109,9 +109,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[14]",
-      "parameter_longname": "live.numbox[19]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Max",
+      "parameter_shortname": "Max",
+      "annotation_name": "Max",
       "annotation": ""
     },
     {
@@ -119,9 +119,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[15]",
-      "parameter_longname": "live.numbox[20]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Min",
+      "parameter_shortname": "Min",
+      "annotation_name": "Min",
       "annotation": ""
     },
     {
@@ -129,9 +129,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[17]",
-      "parameter_longname": "live.numbox[22]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Falloff",
+      "parameter_shortname": "Falloff",
+      "annotation_name": "Falloff",
       "annotation": ""
     },
     {
@@ -139,9 +139,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[12]",
-      "parameter_longname": "live.numbox[17]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Curve",
+      "parameter_shortname": "Curve",
+      "annotation_name": "Curve",
       "annotation": ""
     },
     {
@@ -149,9 +149,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[13]",
-      "parameter_longname": "live.numbox[18]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Offset",
+      "parameter_shortname": "Offset",
+      "annotation_name": "Offset",
       "annotation": ""
     },
     {
@@ -159,9 +159,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[11]",
-      "parameter_longname": "live.numbox[16]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Smoothing",
+      "parameter_shortname": "Smoothing",
+      "annotation_name": "Smoothing",
       "annotation": ""
     },
     {
@@ -170,9 +170,9 @@
       "presentation": 1,
       "text": "...",
       "varname": "live.text[13]",
-      "parameter_longname": "live.text[8]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "More",
+      "parameter_shortname": "More",
+      "annotation_name": "More",
       "annotation": ""
     },
     {
@@ -181,9 +181,9 @@
       "presentation": 1,
       "text": "2",
       "varname": "live.text",
-      "parameter_longname": "live.text",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "3 Colors",
+      "parameter_shortname": "3 Colors",
+      "annotation_name": "3 Colors",
       "annotation": ""
     },
     {
@@ -191,9 +191,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[10]",
-      "parameter_longname": "live.numbox[15]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Width",
+      "parameter_shortname": "Width",
+      "annotation_name": "Width",
       "annotation": ""
     },
     {
@@ -201,9 +201,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[9]",
-      "parameter_longname": "live.numbox[14]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Position",
+      "parameter_shortname": "Position",
+      "annotation_name": "Position",
       "annotation": ""
     },
     {
@@ -211,7 +211,7 @@
       "maxclass": "live.button",
       "presentation": 1,
       "varname": "live.button[2]",
-      "parameter_longname": "live.button[3]",
+      "parameter_longname": "Color 3",
       "parameter_shortname": "live.button",
       "annotation_name": "",
       "annotation": ""
@@ -221,9 +221,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[6]",
-      "parameter_longname": "live.numbox[11]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Color 3B",
+      "parameter_shortname": "Color 3B",
+      "annotation_name": "Color 3B",
       "annotation": ""
     },
     {
@@ -231,9 +231,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[7]",
-      "parameter_longname": "live.numbox[12]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Color 3G",
+      "parameter_shortname": "Color 3G",
+      "annotation_name": "Color 3G",
       "annotation": ""
     },
     {
@@ -241,9 +241,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[8]",
-      "parameter_longname": "live.numbox[13]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Color 3R",
+      "parameter_shortname": "Color 3R",
+      "annotation_name": "Color 3R",
       "annotation": ""
     },
     {
@@ -251,7 +251,7 @@
       "maxclass": "live.button",
       "presentation": 1,
       "varname": "live.button[1]",
-      "parameter_longname": "live.button[2]",
+      "parameter_longname": "Color 2",
       "parameter_shortname": "live.button",
       "annotation_name": "",
       "annotation": ""
@@ -261,9 +261,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[3]",
-      "parameter_longname": "live.numbox[8]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Color 2B",
+      "parameter_shortname": "Color 2B",
+      "annotation_name": "Color 2B",
       "annotation": ""
     },
     {
@@ -271,9 +271,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[4]",
-      "parameter_longname": "live.numbox[9]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Color 2G",
+      "parameter_shortname": "Color 2G",
+      "annotation_name": "Color 2G",
       "annotation": ""
     },
     {
@@ -281,9 +281,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[5]",
-      "parameter_longname": "live.numbox[10]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Color 2R",
+      "parameter_shortname": "Color 2R",
+      "annotation_name": "Color 2R",
       "annotation": ""
     },
     {
@@ -291,7 +291,7 @@
       "maxclass": "live.button",
       "presentation": 1,
       "varname": "live.button",
-      "parameter_longname": "live.button",
+      "parameter_longname": "Color 1",
       "parameter_shortname": "live.button",
       "annotation_name": "",
       "annotation": ""
@@ -301,9 +301,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[2]",
-      "parameter_longname": "live.numbox[2]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Color 1B",
+      "parameter_shortname": "Color 1B",
+      "annotation_name": "Color 1B",
       "annotation": ""
     },
     {
@@ -311,9 +311,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[1]",
-      "parameter_longname": "live.numbox[1]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Color 1G",
+      "parameter_shortname": "Color 1G",
+      "annotation_name": "Color 1G",
       "annotation": ""
     },
     {
@@ -321,9 +321,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox",
-      "parameter_longname": "live.numbox",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Color 1R",
+      "parameter_shortname": "Color 1R",
+      "annotation_name": "Color 1R",
       "annotation": ""
     },
     {

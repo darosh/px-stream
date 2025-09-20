@@ -7,6 +7,8 @@ async function loadMaxpat (file) {
   return JSON.parse(await readFile(file, 'utf8'))
 }
 
+let propagate = false
+
 function getPatcherParams (obj, params = []) {
   for (const { box } of obj.boxes) {
     if (box?.patcher?.boxes) {
@@ -31,14 +33,25 @@ function getPatcherParams (obj, params = []) {
       annotation: annotation || ''
     }
     
-    // if (!obj.annotation_name 
-    //   && obj.parameter_longname
-    //   && !obj.parameter_longname.includes('.')
-    //   && (obj.parameter_longname[0] === obj.parameter_longname[0].toUpperCase())
-    //   && (obj.parameter_longname === obj.parameter_shortname)) {
-    //   obj.annotation_name = obj.parameter_longname
-    // }
-    
+    if (propagate) {
+      const generic = ['live.text', 'live.numbox', 'live.dial', 'live.menu']
+
+      if ((!obj.parameter_shortname || generic.includes(obj.parameter_shortname))
+        && obj.parameter_longname
+        && !obj.parameter_longname.includes('.')
+        && (obj.parameter_longname[0] === obj.parameter_longname[0].toUpperCase())) {
+        obj.parameter_shortname = obj.parameter_longname
+      }
+
+      if (!obj.annotation_name
+        && obj.parameter_longname
+        && !obj.parameter_longname.includes('.')
+        && (obj.parameter_longname[0] === obj.parameter_longname[0].toUpperCase())
+        && (obj.parameter_longname === obj.parameter_shortname)) {
+        obj.annotation_name = obj.parameter_longname
+      }
+    }
+
     params.push(obj)
   }
 
@@ -66,7 +79,7 @@ function update (obj, updated) {
       console.error('Not found', id, box)
       process.exit()
     }
-    
+
     if (u.parameter_longname) {
       box.saved_attribute_attributes = box.saved_attribute_attributes || {}
       box.saved_attribute_attributes.valueof = box.saved_attribute_attributes.valueof || {}
@@ -128,6 +141,7 @@ async function read (path, save) {
 }
 
 if (process.argv[2] === 'collect') {
+  propagate = true
   const params = await collect(process.argv[3])
   const save = process.argv[4]
 
