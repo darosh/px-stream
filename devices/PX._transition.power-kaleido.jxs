@@ -1,0 +1,107 @@
+<jittershader name="power-kaleido">
+  <description>Power kaleido</description>
+  <param name="tex0" type="int" default="0"/>
+  <param name="tex1" type="int" default="1"/>
+  <param name="progress" type="float" default="0.5"/>
+  <param name="scale" type="float" default="2"/>
+  <param name="z" type="float" default="1.5"/>
+  <param name="speed" type="float" default="5"/>
+  <language name="glsl" version="1.0">
+    <bind param="tex0" program="fp"/>
+    <bind param="tex1" program="fp"/>
+    <bind param="progress" program="fp"/>
+    <bind param="scale" program="fp"/>
+    <bind param="z" program="fp"/>
+    <bind param="speed" program="fp"/>
+    <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+varying vec2 texcoord1;
+varying vec2 texdim1;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+    texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+    texdim1 = vec2 (abs(gl_TextureMatrix[1][0][0]),abs(gl_TextureMatrix[1][1][1]));
+}
+]]>
+    </program>
+    <program name="fp" type="fragment">
+<![CDATA[
+//precision highp float;
+varying vec2 texcoord0;
+varying vec2 texdim0, texdim1;
+uniform sampler2DRect tex0, tex1;
+uniform float progress;
+
+float ratio = texdim0.x / texdim0.y;
+
+vec4 getFromColor(vec2 uv){return texture2DRect(tex0, uv*texdim0);}
+
+vec4 getToColor(vec2 uv){return texture2DRect(tex1, uv*texdim1);}
+
+// Name: Power Kaleido
+// Author: Boundless
+// License: MIT
+uniform float scale;// = 2.0;
+uniform float z;// = 1.5;
+uniform float speed;// = 5.;
+
+#define PI 3.14159265358979
+
+const float rad = 120.;// change this value to get different mirror effects
+const float deg = rad / 180. * PI;
+
+float dist = scale / 10.;
+
+vec2 refl(vec2 p, vec2 o, vec2 n)
+{
+    return 2.0*o+2.0*n*dot(p-o, n)-p;
+}
+
+vec2 rot(vec2 p, vec2 o, float a)
+{
+    float s = sin(a);
+    float c = cos(a);
+    return o + mat2(c, -s, s, c) * (p - o);
+}
+
+vec4 transition(vec2 uv)
+{
+    vec2 uv0 = uv;
+    uv -= 0.5;
+    uv.x *= ratio;
+    uv *= z;
+    uv = rot(uv, vec2(0.0), progress*speed);
+    // uv.x = fract(uv.x/l/3.0)*l*3.0;
+    float theta = progress*6.+PI/.5;
+    for (int iter = 0; iter < 10; iter++) {
+        for (float i = 0.; i < 2. * PI; i+=deg) {
+            float ts = sign(asin(cos(i))) == 1.0 ? 1.0 : 0.0;
+            if (((ts == 1.0) && (uv.y-dist*cos(i) > tan(i)*(uv.x+dist*sin(i)))) || ((ts == 0.0) && (uv.y-dist*cos(i) < tan(i)*(uv.x+dist*sin(i))))) {
+                uv = refl(vec2(uv.x+sin(i)*dist*2., uv.y-cos(i)*dist*2.), vec2(0., 0.), vec2(cos(i), sin(i)));
+            }
+        }
+    }
+    uv += 0.5;
+    uv = rot(uv, vec2(0.5), progress*-speed);
+    uv -= 0.5;
+    uv.x /= ratio;
+    uv += 0.5;
+    uv = 2.*abs(uv/2.-floor(uv/2.+0.5));
+    vec2 uvMix = mix(uv, uv0, cos(progress*PI*2.)/2.+0.5);
+    vec4 color = mix(getFromColor(uvMix), getToColor(uvMix), cos((progress-1.)*PI)/2.+0.5);
+
+    return color;
+}
+
+
+void main(){gl_FragColor=transition(texcoord0/texdim0);}
+]]>
+    </program>
+  </language>
+</jittershader>

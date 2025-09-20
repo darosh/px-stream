@@ -1,0 +1,75 @@
+<jittershader name="rectangle-crop">
+  <description>Rectangle crop</description>
+  <param name="tex0" type="int" default="0"/>
+  <param name="tex1" type="int" default="1"/>
+  <param name="progress" type="float" default="0.5"/>
+  <param name="bgcolor" type="vec4" default="0 0 0 1"/>
+  <language name="glsl" version="1.0">
+    <bind param="tex0" program="fp"/>
+    <bind param="tex1" program="fp"/>
+    <bind param="progress" program="fp"/>
+    <bind param="bgcolor" program="fp"/>
+    <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+varying vec2 texcoord1;
+varying vec2 texdim1;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+    texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+    texdim1 = vec2 (abs(gl_TextureMatrix[1][0][0]),abs(gl_TextureMatrix[1][1][1]));
+}
+]]>
+    </program>
+    <program name="fp" type="fragment">
+<![CDATA[
+//precision highp float;
+varying vec2 texcoord0;
+varying vec2 texdim0, texdim1;
+uniform sampler2DRect tex0, tex1;
+uniform float progress;
+
+float ratio = texdim0.x / texdim0.y;
+
+vec4 getFromColor(vec2 uv){return texture2DRect(tex0, uv*texdim0);}
+
+vec4 getToColor(vec2 uv){return texture2DRect(tex1, uv*texdim1);}
+
+// License: MIT
+// Author: martiniti
+
+uniform vec4 bgcolor; // = vec4(0.0, 0.0, 0.0, 1.0)
+
+vec4 transition(vec2 uv) {
+  
+  float s = pow(2.0 * abs(progress - 0.5), 3.0);
+              
+  vec2 q = uv.xy / vec2(1.0).xy;
+  
+  // bottom-left
+  vec2 bl = step(vec2(1.0 - 2.0*abs(progress - 0.5)), q + 0.25);
+  
+  // top-right
+  vec2 tr = step(vec2(1.0 - 2.0*abs(progress - 0.5)), 1.25 - q);
+  
+  float dist = length(1.0 - bl.x * bl.y * tr.x * tr.y);
+  
+  return mix(
+    progress < 0.5 ? getFromColor(uv) : getToColor(uv),
+    bgcolor,
+    step(s, dist)
+  );
+  
+}
+
+
+void main(){gl_FragColor=transition(texcoord0/texdim0);}
+]]>
+    </program>
+  </language>
+</jittershader>

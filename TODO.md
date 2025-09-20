@@ -145,6 +145,7 @@
 
 ## Done
 
+- [x] transitions? ~~isf?~~
 - [x] pixelization rotation fix
 - [x] reset shader param
 - [x] shader initial load fix

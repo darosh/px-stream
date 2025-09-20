@@ -1,0 +1,65 @@
+<jittershader name="morph">
+  <description>Morph</description>
+  <param name="tex0" type="int" default="0"/>
+  <param name="tex1" type="int" default="1"/>
+  <param name="progress" type="float" default="0.5"/>
+  <param name="strength" type="float" default="0.1"/>
+  <language name="glsl" version="1.0">
+    <bind param="tex0" program="fp"/>
+    <bind param="tex1" program="fp"/>
+    <bind param="progress" program="fp"/>
+    <bind param="strength" program="fp"/>
+    <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+varying vec2 texcoord1;
+varying vec2 texdim1;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+    texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+    texdim1 = vec2 (abs(gl_TextureMatrix[1][0][0]),abs(gl_TextureMatrix[1][1][1]));
+}
+]]>
+    </program>
+    <program name="fp" type="fragment">
+<![CDATA[
+//precision highp float;
+varying vec2 texcoord0;
+varying vec2 texdim0, texdim1;
+uniform sampler2DRect tex0, tex1;
+uniform float progress;
+
+float ratio = texdim0.x / texdim0.y;
+
+vec4 getFromColor(vec2 uv){return texture2DRect(tex0, uv*texdim0);}
+
+vec4 getToColor(vec2 uv){return texture2DRect(tex1, uv*texdim1);}
+
+// Author: paniq
+// License: MIT
+uniform float strength; // = 0.1
+
+vec4 transition(vec2 p) {
+  vec4 ca = getFromColor(p);
+  vec4 cb = getToColor(p);
+  
+  vec2 oa = (((ca.rg+ca.b)*0.5)*2.0-1.0);
+  vec2 ob = (((cb.rg+cb.b)*0.5)*2.0-1.0);
+  vec2 oc = mix(oa,ob,0.5)*strength;
+  
+  float w0 = progress;
+  float w1 = 1.0-w0;
+  return mix(getFromColor(p+oc*w0), getToColor(p-oc*w1), progress);
+}
+
+
+void main(){gl_FragColor=transition(texcoord0/texdim0);}
+]]>
+    </program>
+  </language>
+</jittershader>

@@ -6,7 +6,10 @@
     "eslint-plugin-maxpat": "github:darosh/eslint-plugin-maxpat",
     "glob": "^11.0.3",
     "json-stringify-pretty-compact": "^4.0.0",
-    "sharp": "^0.34.3"
+    "sharp": "^0.34.3",
+    "commander": "^14.0.1",
+    "glsl-tokenizer": "^2.1.5",
+    "glsl-parser": "^2.0.1"
   },
   "private": true,
   "scripts": {
@@ -23,7 +26,10 @@
     "screenshots": "rm -f ./assets/devices/*.webp && node ./scripts/screenshots.js",
     "screenshots:animated": "node ./scripts/screenshots.animated.js",
     "params:collect": "node scripts/params.js collect './devices/*.maxpat' './assets/params/'",
-    "params:update": "node scripts/params.js update './devices/*.maxpat' './assets/params/*.maxpat.json'"
+    "params:update": "node scripts/params.js update './devices/*.maxpat' './assets/params/*.maxpat.json'",
+    "transitions": "npm run transitions:prepare && npm run transitions:make",
+    "transitions:prepare": "node scripts/transitions/gl-transition-transform.js -d ./scripts/transitions/glsl -o ./scripts/transitions/glsl.json",
+    "transitions:make": "node scripts/transitions/make-jxs.js"
   },
   "type": "module"
 }

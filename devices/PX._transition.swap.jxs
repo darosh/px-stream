@@ -1,0 +1,112 @@
+<jittershader name="swap">
+  <description>Swap</description>
+  <param name="tex0" type="int" default="0"/>
+  <param name="tex1" type="int" default="1"/>
+  <param name="progress" type="float" default="0.5"/>
+  <param name="reflection" type="float" default="0.4"/>
+  <param name="perspective" type="float" default="0.2"/>
+  <param name="depth" type="float" default="3"/>
+  <language name="glsl" version="1.0">
+    <bind param="tex0" program="fp"/>
+    <bind param="tex1" program="fp"/>
+    <bind param="progress" program="fp"/>
+    <bind param="reflection" program="fp"/>
+    <bind param="perspective" program="fp"/>
+    <bind param="depth" program="fp"/>
+    <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+varying vec2 texcoord1;
+varying vec2 texdim1;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+    texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+    texdim1 = vec2 (abs(gl_TextureMatrix[1][0][0]),abs(gl_TextureMatrix[1][1][1]));
+}
+]]>
+    </program>
+    <program name="fp" type="fragment">
+<![CDATA[
+//precision highp float;
+varying vec2 texcoord0;
+varying vec2 texdim0, texdim1;
+uniform sampler2DRect tex0, tex1;
+uniform float progress;
+
+float ratio = texdim0.x / texdim0.y;
+
+vec4 getFromColor(vec2 uv){return texture2DRect(tex0, uv*texdim0);}
+
+vec4 getToColor(vec2 uv){return texture2DRect(tex1, uv*texdim1);}
+
+// Author: gre
+// License: MIT
+// General parameters
+uniform float reflection; // = 0.4
+uniform float perspective; // = 0.2
+uniform float depth; // = 3.0
+ 
+const vec4 black = vec4(0.0, 0.0, 0.0, 1.0);
+const vec2 boundMin = vec2(0.0, 0.0);
+const vec2 boundMax = vec2(1.0, 1.0);
+ 
+bool inBounds (vec2 p) {
+  return all(lessThan(boundMin, p)) && all(lessThan(p, boundMax));
+}
+ 
+vec2 project (vec2 p) {
+  return p * vec2(1.0, -1.2) + vec2(0.0, -0.02);
+}
+ 
+vec4 bgColor (vec2 p, vec2 pfr, vec2 pto) {
+  vec4 c = black;
+  pfr = project(pfr);
+  if (inBounds(pfr)) {
+    c += mix(black, getFromColor(pfr), reflection * mix(1.0, 0.0, pfr.y));
+  }
+  pto = project(pto);
+  if (inBounds(pto)) {
+    c += mix(black, getToColor(pto), reflection * mix(1.0, 0.0, pto.y));
+  }
+  return c;
+}
+ 
+vec4 transition(vec2 p) {
+  vec2 pfr, pto = vec2(-1.);
+ 
+  float size = mix(1.0, depth, progress);
+  float persp = perspective * progress;
+  pfr = (p + vec2(-0.0, -0.5)) * vec2(size/(1.0-perspective*progress), size/(1.0-size*persp*p.x)) + vec2(0.0, 0.5);
+ 
+  size = mix(1.0, depth, 1.-progress);
+  persp = perspective * (1.-progress);
+  pto = (p + vec2(-1.0, -0.5)) * vec2(size/(1.0-perspective*(1.0-progress)), size/(1.0-size*persp*(0.5-p.x))) + vec2(1.0, 0.5);
+
+  if (progress < 0.5) {
+    if (inBounds(pfr)) {
+      return getFromColor(pfr);
+    }
+    if (inBounds(pto)) {
+      return getToColor(pto);
+    }  
+  }
+  if (inBounds(pto)) {
+    return getToColor(pto);
+  }
+  if (inBounds(pfr)) {
+    return getFromColor(pfr);
+  }
+  return bgColor(p, pfr, pto);
+}
+
+
+void main(){gl_FragColor=transition(texcoord0/texdim0);}
+]]>
+    </program>
+  </language>
+</jittershader>

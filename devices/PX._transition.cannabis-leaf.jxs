@@ -1,0 +1,62 @@
+<jittershader name="cannabis-leaf">
+  <description>Cannabis leaf</description>
+  <param name="tex0" type="int" default="0"/>
+  <param name="tex1" type="int" default="1"/>
+  <param name="progress" type="float" default="0.5"/>
+  <language name="glsl" version="1.0">
+    <bind param="tex0" program="fp"/>
+    <bind param="tex1" program="fp"/>
+    <bind param="progress" program="fp"/>
+    <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+varying vec2 texcoord1;
+varying vec2 texdim1;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+    texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+    texdim1 = vec2 (abs(gl_TextureMatrix[1][0][0]),abs(gl_TextureMatrix[1][1][1]));
+}
+]]>
+    </program>
+    <program name="fp" type="fragment">
+<![CDATA[
+//precision highp float;
+varying vec2 texcoord0;
+varying vec2 texdim0, texdim1;
+uniform sampler2DRect tex0, tex1;
+uniform float progress;
+
+float ratio = texdim0.x / texdim0.y;
+
+vec4 getFromColor(vec2 uv){return texture2DRect(tex0, uv*texdim0);}
+
+vec4 getToColor(vec2 uv){return texture2DRect(tex1, uv*texdim1);}
+
+// Author: @Flexi23
+// License: MIT
+
+// inspired by http://www.wolframalpha.com/input/?i=cannabis+curve
+
+vec4 transition (vec2 uv) {
+  if(progress == 0.0){
+    return getFromColor(uv);
+  }
+  vec2 leaf_uv = (uv - vec2(0.5))/10./pow(progress,3.5);
+	leaf_uv.y += 0.35;
+	float r = 0.18;
+	float o = atan(leaf_uv.y, leaf_uv.x);
+  return mix(getFromColor(uv), getToColor(uv), 1.-step(1. - length(leaf_uv)+r*(1.+sin(o))*(1.+0.9 * cos(8.*o))*(1.+0.1*cos(24.*o))*(0.9+0.05*cos(200.*o)), 1.));
+}
+
+
+void main(){gl_FragColor=transition(texcoord0/texdim0);}
+]]>
+    </program>
+  </language>
+</jittershader>

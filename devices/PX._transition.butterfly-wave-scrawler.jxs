@@ -1,0 +1,81 @@
+<jittershader name="butterfly-wave-scrawler">
+  <description>Butterfly wave scrawler</description>
+  <param name="tex0" type="int" default="0"/>
+  <param name="tex1" type="int" default="1"/>
+  <param name="progress" type="float" default="0.5"/>
+  <param name="amplitude" type="float" default="1"/>
+  <param name="waves" type="float" default="30"/>
+  <param name="colorSeparation" type="float" default="0.3"/>
+  <language name="glsl" version="1.0">
+    <bind param="tex0" program="fp"/>
+    <bind param="tex1" program="fp"/>
+    <bind param="progress" program="fp"/>
+    <bind param="amplitude" program="fp"/>
+    <bind param="waves" program="fp"/>
+    <bind param="colorSeparation" program="fp"/>
+    <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+varying vec2 texcoord1;
+varying vec2 texdim1;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+    texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+    texdim1 = vec2 (abs(gl_TextureMatrix[1][0][0]),abs(gl_TextureMatrix[1][1][1]));
+}
+]]>
+    </program>
+    <program name="fp" type="fragment">
+<![CDATA[
+//precision highp float;
+varying vec2 texcoord0;
+varying vec2 texdim0, texdim1;
+uniform sampler2DRect tex0, tex1;
+uniform float progress;
+
+float ratio = texdim0.x / texdim0.y;
+
+vec4 getFromColor(vec2 uv){return texture2DRect(tex0, uv*texdim0);}
+
+vec4 getToColor(vec2 uv){return texture2DRect(tex1, uv*texdim1);}
+
+// Author: mandubian
+// License: MIT
+uniform float amplitude; // = 1.0
+uniform float waves; // = 30.0
+uniform float colorSeparation; // = 0.3
+float PI = 3.14159265358979323846264;
+float compute(vec2 p, float progress, vec2 center) {
+vec2 o = p*sin(progress * amplitude)-center;
+// horizontal vector
+vec2 h = vec2(1., 0.);
+// butterfly polar function (don't ask me why this one :))
+float theta = acos(dot(o, h)) * waves;
+return (exp(cos(theta)) - 2.*cos(4.*theta) + pow(sin((2.*theta - PI) / 24.), 5.)) / 10.;
+}
+vec4 transition(vec2 uv) {
+  vec2 p = uv.xy / vec2(1.0).xy;
+  float inv = 1. - progress;
+  vec2 dir = p - vec2(.5);
+  float dist = length(dir);
+  float disp = compute(p, progress, vec2(0.5, 0.5)) ;
+  vec4 texTo = getToColor(p + inv*disp);
+  vec4 texFrom = vec4(
+  getFromColor(p + progress*disp*(1.0 - colorSeparation)).r,
+  getFromColor(p + progress*disp).g,
+  getFromColor(p + progress*disp*(1.0 + colorSeparation)).b,
+  1.0);
+  return texTo*progress + texFrom*inv;
+}
+
+
+void main(){gl_FragColor=transition(texcoord0/texdim0);}
+]]>
+    </program>
+  </language>
+</jittershader>
