@@ -13,7 +13,9 @@
 - [ ] sdk?
 - [ ] param doc / mass edit
 - [ ] FX preview, animation
-- [ ] params scripts
+- [ ] capitalize params
+- [ ] guide
+- [ ] multiline descriptions
 
 ## Misc
 
@@ -145,6 +147,7 @@
 
 ## Done
 
+- [x] params scripts
 - [x] transitions? ~~isf?~~
 - [x] pixelization rotation fix
 - [x] reset shader param
