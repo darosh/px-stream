@@ -248,13 +248,18 @@ function replaceLines (lines, slug, replace) {
   ]
 }
 
+function updateDeviceInfo (lines, devices) {
+  return lines
+}
+
 async function updateReadme (htmlCollage) {
   const outputFile = './README.md'
   const rm = readFile(outputFile, 'utf8')
-  const lines = (await rm).split('\n')
-  const updatedLines = replaceLines(lines, 'collage', htmlCollage)
-
-  await writeFile(outputFile, updatedLines.join('\n'))
+  let lines = (await rm).split('\n')
+  lines = replaceLines(lines, 'collage', htmlCollage)
+  const devices = JSON.parse(await readFile('./assets/devices.json', 'utf8'))
+  lines = updateDeviceInfo(lines, devices)
+  await writeFile(outputFile, lines.join('\n'))
   console.log('README.md updated', outputFile)
 }
 

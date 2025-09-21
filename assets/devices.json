@@ -1,0 +1,89 @@
+{
+  "DEV Console": {
+    "description": "Enables additional Max console output. DO NOT USE IN PRODUCTION."
+  }, 
+  "DEV Info": {
+    "description": "Displays texture info"
+  }, 
+  "PX FX Alpha": {
+    "description": "Various Alpha channel manipulation like Chroma keying, mapping, inverting, smoothing, removing, etc. "
+  }, 
+  "PX FX Blur": {
+    "description": "Four blur Max/Jitter stock blur shaders"
+  }, 
+  "PX FX Color": {
+    "description": "Various color grading and adjustments"
+  }, 
+  "PX FX Colorize": {
+    "description": "Two/tri tone colorization with various mapping methods"
+  }, 
+  "PX FX Convert": {
+    "description": "Texture format conversion, including OKLAB and normalized OKLAB aka NOKLAB"
+  }, 
+  "PX FX Delay": {
+    "description": "Texture delay in frames. You can mix it with dry signal using [Mix Dry](#px-mix-dry) device for ghostly trace effect"
+  }, 
+  "PX FX Kaleidoscope": {
+    "description": "Various emulation attempts of kaleidoscope layouts [suggested by Brewster](https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster) plus one stock Max/Jitter shader"
+  }, 
+  "PX FX Pass": {
+    "description": ""
+  }, 
+  "PX FX Pixelization": {
+    "description": ""
+  }, 
+  "PX FX Transform": {
+    "description": ""
+  }, 
+  "PX GEN Cos Pattern": {
+    "description": ""
+  }, 
+  "PX GEN Text": {
+    "description": ""
+  }, 
+  "PX IN Cam": {
+    "description": ""
+  }, 
+  "PX IN Channel": {
+    "description": ""
+  }, 
+  "PX IN Image": {
+    "description": ""
+  }, 
+  "PX IN Mix": {
+    "description": ""
+  }, 
+  "PX IN SVG": {
+    "description": ""
+  }, 
+  "PX IN Syphon": {
+    "description": ""
+  }, 
+  "PX IN Video": {
+    "description": ""
+  }, 
+  "PX Mix Channel": {
+    "description": ""
+  }, 
+  "PX Mix Dry": {
+    "description": ""
+  }, 
+  "PX Mix Transition": {
+    "description": ""
+  }, 
+  "PX Mix View": {
+    "description": ""
+  }, 
+  "PX Route Audio": {
+    "description": ""
+  }, 
+  "PX Route MIDI": {
+    "description": ""
+  }, 
+  "PX Shader": {
+    "description": ""
+  }, 
+  "PX World": {
+    "description": ""
+  }
+}
