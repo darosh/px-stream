@@ -36,7 +36,7 @@ function getPatcherParams (obj, params = []) {
     if (propagate) {
       const generic = ['live.text', 'live.numbox', 'live.dial', 'live.menu', 'live.button', 'live.tab']
 
-      if ((!obj.parameter_shortname || generic.includes(obj.parameter_shortname))
+      if ((!obj.parameter_shortname || generic.includes(obj.parameter_shortname.replace(/\[\d+\]$/, '')))
         && obj.parameter_longname
         && !obj.parameter_longname.includes('.')
         && (obj.parameter_longname[0] === obj.parameter_longname[0].toUpperCase())) {

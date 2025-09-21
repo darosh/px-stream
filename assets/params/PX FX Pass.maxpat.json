@@ -5,9 +5,9 @@
       "maxclass": "live.tab",
       "presentation": 1,
       "varname": "live.tab",
-      "parameter_longname": "live.tab",
-      "parameter_shortname": "live.tab",
-      "annotation_name": "",
+      "parameter_longname": "Pass",
+      "parameter_shortname": "Pass",
+      "annotation_name": "Pass",
       "annotation": ""
     },
     {
@@ -15,7 +15,7 @@
       "maxclass": "live.tab",
       "presentation": 1,
       "varname": "Syphon",
-      "parameter_longname": "Syphon",
+      "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
       "annotation_name": "Channel",
       "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."
@@ -25,9 +25,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[19]",
-      "parameter_longname": "live.numbox[27]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Falloff",
+      "parameter_shortname": "Falloff",
+      "annotation_name": "Falloff",
       "annotation": ""
     },
     {
@@ -35,9 +35,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[34]",
-      "parameter_longname": "live.numbox[41]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Exposure",
+      "parameter_shortname": "Exposure",
+      "annotation_name": "Exposure",
       "annotation": ""
     },
     {
@@ -45,9 +45,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[35]",
-      "parameter_longname": "live.numbox[48]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Expand",
+      "parameter_shortname": "Expand",
+      "annotation_name": "Expand",
       "annotation": ""
     },
     {
@@ -55,9 +55,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[36]",
-      "parameter_longname": "live.numbox[52]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "X",
+      "parameter_shortname": "X",
+      "annotation_name": "X",
       "annotation": ""
     },
     {
@@ -65,9 +65,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[37]",
-      "parameter_longname": "live.numbox[28]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Y",
+      "parameter_shortname": "Y",
+      "annotation_name": "Y",
       "annotation": ""
     },
     {
@@ -75,9 +75,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[38]",
-      "parameter_longname": "live.numbox[42]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Bars",
+      "parameter_shortname": "Bars",
+      "annotation_name": "Bars",
       "annotation": ""
     },
     {
@@ -85,9 +85,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[39]",
-      "parameter_longname": "live.numbox[53]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Anamorphic",
+      "parameter_shortname": "Anamorphic",
+      "annotation_name": "Anamorphic",
       "annotation": ""
     },
     {
@@ -95,9 +95,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[29]",
-      "parameter_longname": "live.numbox[50]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "White",
+      "parameter_shortname": "White",
+      "annotation_name": "White",
       "annotation": ""
     },
     {
@@ -105,9 +105,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[31]",
-      "parameter_longname": "live.numbox[40]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Invert Gamma",
+      "parameter_shortname": "Invert Gamma",
+      "annotation_name": "Invert Gamma",
       "annotation": ""
     },
     {
@@ -115,9 +115,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[32]",
-      "parameter_longname": "live.numbox[47]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Tonemap Exposure",
+      "parameter_shortname": "Tonemap Exposure",
+      "annotation_name": "Tonemap Exposure",
       "annotation": ""
     },
     {
@@ -125,9 +125,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[21]",
-      "parameter_longname": "live.numbox[22]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Luma",
+      "parameter_shortname": "Luma",
+      "annotation_name": "Luma",
       "annotation": ""
     },
     {
@@ -135,9 +135,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[22]",
-      "parameter_longname": "live.numbox[23]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Amount",
+      "parameter_shortname": "Amount",
+      "annotation_name": "Amount",
       "annotation": ""
     },
     {
@@ -145,9 +145,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[23]",
-      "parameter_longname": "live.numbox[24]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Size",
+      "parameter_shortname": "Size",
+      "annotation_name": "Size",
       "annotation": ""
     },
     {
@@ -155,9 +155,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[24]",
-      "parameter_longname": "live.numbox[25]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Colored",
+      "parameter_shortname": "Colored",
+      "annotation_name": "Colored",
       "annotation": ""
     },
     {
@@ -165,9 +165,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[25]",
-      "parameter_longname": "live.numbox[26]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Tint",
+      "parameter_shortname": "Tint",
+      "annotation_name": "Tint",
       "annotation": ""
     },
     {
@@ -175,9 +175,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[1]",
-      "parameter_longname": "live.numbox[10]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Tonemapping",
+      "parameter_shortname": "Tonemapping",
+      "annotation_name": "Tonemapping",
       "annotation": ""
     },
     {
@@ -185,9 +185,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[10]",
-      "parameter_longname": "live.numbox[11]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Show Clipped",
+      "parameter_shortname": "Show Clipped",
+      "annotation_name": "Show Clipped",
       "annotation": ""
     },
     {
@@ -195,9 +195,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[11]",
-      "parameter_longname": "live.numbox[14]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Max White",
+      "parameter_shortname": "Max White",
+      "annotation_name": "Max White",
       "annotation": ""
     },
     {
@@ -205,9 +205,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[13]",
-      "parameter_longname": "live.numbox[18]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Gamma Exposure",
+      "parameter_shortname": "Gamma Exposure",
+      "annotation_name": "Gamma Exposure",
       "annotation": ""
     },
     {
@@ -215,9 +215,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[14]",
-      "parameter_longname": "live.numbox[15]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Gamma Correction",
+      "parameter_shortname": "Gamma Correction",
+      "annotation_name": "Gamma Correction",
       "annotation": ""
     },
     {
@@ -225,9 +225,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[17]",
-      "parameter_longname": "live.numbox[19]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Dithering",
+      "parameter_shortname": "Dithering",
+      "annotation_name": "Dithering",
       "annotation": ""
     },
     {
@@ -235,9 +235,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[18]",
-      "parameter_longname": "live.numbox[20]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Colors",
+      "parameter_shortname": "Colors",
+      "annotation_name": "Colors",
       "annotation": ""
     },
     {
@@ -245,9 +245,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[9]",
-      "parameter_longname": "live.numbox[9]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Bloom White",
+      "parameter_shortname": "Bloom White",
+      "annotation_name": "Bloom White",
       "annotation": ""
     },
     {
@@ -255,9 +255,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[8]",
-      "parameter_longname": "live.numbox[8]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Upsample",
+      "parameter_shortname": "Upsample",
+      "annotation_name": "Upsample",
       "annotation": ""
     },
     {
@@ -265,9 +265,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[7]",
-      "parameter_longname": "live.numbox[7]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Bloom Tonemapping",
+      "parameter_shortname": "Bloom Tonemapping",
+      "annotation_name": "Bloom Tonemapping",
       "annotation": ""
     },
     {
@@ -275,9 +275,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[6]",
-      "parameter_longname": "live.numbox[6]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Threshold",
+      "parameter_shortname": "Threshold",
+      "annotation_name": "Threshold",
       "annotation": ""
     },
     {
@@ -285,9 +285,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[5]",
-      "parameter_longname": "live.numbox[5]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Gamma",
+      "parameter_shortname": "Gamma",
+      "annotation_name": "Gamma",
       "annotation": ""
     },
     {
@@ -295,9 +295,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[4]",
-      "parameter_longname": "live.numbox[4]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Bloom Gamma Correction",
+      "parameter_shortname": "Bloom Gamma Correction",
+      "annotation_name": "Bloom Gamma Correction",
       "annotation": ""
     },
     {
@@ -305,9 +305,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[3]",
-      "parameter_longname": "live.numbox[3]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Bloom Exposure",
+      "parameter_shortname": "Bloom Exposure",
+      "annotation_name": "Bloom Exposure",
       "annotation": ""
     },
     {
@@ -315,9 +315,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[2]",
-      "parameter_longname": "live.numbox[2]",
-      "parameter_shortname": "live.numbox[2]",
-      "annotation_name": "",
+      "parameter_longname": "Bloom",
+      "parameter_shortname": "Bloom",
+      "annotation_name": "Bloom",
       "annotation": ""
     }
   ]

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 567.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -225,6 +225,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation_name" : "Pass",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
 					"fontsize" : 9.0,
 					"id" : "obj-25",
@@ -245,11 +246,12 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Pass",
 							"parameter_enum" : [ "Bloom HQ", "FXAA", "Gamma", "Grain", "Tonemap", "Vignette" ],
-							"parameter_longname" : "live.tab",
+							"parameter_longname" : "Pass",
 							"parameter_mmax" : 5,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.tab",
+							"parameter_shortname" : "Pass",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
 						}
@@ -519,7 +521,7 @@
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Syphon",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -597,7 +599,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 79.0, 567.0, 498.0 ],
+						"rect" : [ 33.0, 82.0, 567.0, 498.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 8.0, 8.0 ],
@@ -606,6 +608,7 @@
 						"integercoordinates" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"annotation_name" : "Falloff",
 									"id" : "obj-213",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -617,12 +620,13 @@
 									"presentation_rect" : [ 2.0, 743.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Falloff",
 											"parameter_initial" : [ 2 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[27]",
+											"parameter_longname" : "Falloff",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Falloff",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -672,6 +676,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Exposure",
 									"id" : "obj-191",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -683,12 +688,13 @@
 									"presentation_rect" : [ 58.0, 714.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Exposure",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[41]",
+											"parameter_longname" : "Exposure",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Exposure",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -702,6 +708,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Expand",
 									"id" : "obj-192",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -713,12 +720,13 @@
 									"presentation_rect" : [ 2.0, 714.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Expand",
 											"parameter_initial" : [ 2 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[48]",
+											"parameter_longname" : "Expand",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Expand",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -732,6 +740,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "X",
 									"id" : "obj-193",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -743,12 +752,13 @@
 									"presentation_rect" : [ 2.0, 685.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "X",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[52]",
+											"parameter_longname" : "X",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "X",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -762,6 +772,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Y",
 									"id" : "obj-194",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -773,12 +784,13 @@
 									"presentation_rect" : [ 58.0, 685.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Y",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[28]",
+											"parameter_longname" : "Y",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Y",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -792,6 +804,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Bars",
 									"id" : "obj-195",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -803,12 +816,13 @@
 									"presentation_rect" : [ 2.0, 656.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Bars",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[42]",
+											"parameter_longname" : "Bars",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Bars",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -822,6 +836,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Anamorphic",
 									"id" : "obj-196",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -833,12 +848,13 @@
 									"presentation_rect" : [ 58.0, 656.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Anamorphic",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[53]",
+											"parameter_longname" : "Anamorphic",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 4,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Anamorphic",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1020,6 +1036,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "White",
 									"id" : "obj-170",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1031,12 +1048,13 @@
 									"presentation_rect" : [ 2.0, 557.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "White",
 											"parameter_initial" : [ 11.199999999999999 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[50]",
+											"parameter_longname" : "White",
 											"parameter_mmax" : 100.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "White",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1050,6 +1068,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Invert Gamma",
 									"id" : "obj-172",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1061,12 +1080,13 @@
 									"presentation_rect" : [ 58.0, 528.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Invert Gamma",
 											"parameter_initial" : [ 0.555555 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[40]",
+											"parameter_longname" : "Invert Gamma",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Invert Gamma",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1080,6 +1100,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Tonemap Exposure",
 									"id" : "obj-173",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1091,12 +1112,13 @@
 									"presentation_rect" : [ 2.0, 528.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Tonemap Exposure",
 											"parameter_initial" : [ 2 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[47]",
+											"parameter_longname" : "Tonemap Exposure",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 4,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Tonemap Exposure",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1212,6 +1234,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Luma",
 									"id" : "obj-72",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1223,12 +1246,13 @@
 									"presentation_rect" : [ 2.0, 458.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Luma",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[22]",
+											"parameter_longname" : "Luma",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Luma",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1242,6 +1266,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Amount",
 									"id" : "obj-73",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1253,12 +1278,13 @@
 									"presentation_rect" : [ 2.0, 429.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Amount",
 											"parameter_initial" : [ 0.25 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[23]",
+											"parameter_longname" : "Amount",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Amount",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1272,6 +1298,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Size",
 									"id" : "obj-74",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1283,12 +1310,13 @@
 									"presentation_rect" : [ 58.0, 429.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Size",
 											"parameter_initial" : [ 2.5 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[24]",
+											"parameter_longname" : "Size",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Size",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1302,6 +1330,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Colored",
 									"id" : "obj-75",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1313,12 +1342,13 @@
 									"presentation_rect" : [ 58.0, 400.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Colored",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[25]",
+											"parameter_longname" : "Colored",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Colored",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1332,6 +1362,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Tint",
 									"id" : "obj-76",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1343,12 +1374,13 @@
 									"presentation_rect" : [ 2.0, 400.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Tint",
 											"parameter_initial" : [ 0.7 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[26]",
+											"parameter_longname" : "Tint",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 4,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Tint",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1516,6 +1548,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Tonemapping",
 									"id" : "obj-23",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1527,12 +1560,13 @@
 									"presentation_rect" : [ 2.0, 359.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Tonemapping",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[10]",
+											"parameter_longname" : "Tonemapping",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Tonemapping",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1546,6 +1580,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Show Clipped",
 									"id" : "obj-26",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1557,12 +1592,13 @@
 									"presentation_rect" : [ 58.0, 330.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Show Clipped",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[11]",
+											"parameter_longname" : "Show Clipped",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Show Clipped",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1576,6 +1612,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Max White",
 									"id" : "obj-27",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1587,12 +1624,13 @@
 									"presentation_rect" : [ 2.0, 330.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Max White",
 											"parameter_initial" : [ 3 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[14]",
+											"parameter_longname" : "Max White",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Max White",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1606,6 +1644,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Gamma Exposure",
 									"id" : "obj-28",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1617,12 +1656,13 @@
 									"presentation_rect" : [ 2.0, 301.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Gamma Exposure",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[18]",
+											"parameter_longname" : "Gamma Exposure",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Gamma Exposure",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1636,6 +1676,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Gamma Correction",
 									"id" : "obj-42",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1647,12 +1688,13 @@
 									"presentation_rect" : [ 58.0, 301.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Gamma Correction",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[15]",
+											"parameter_longname" : "Gamma Correction",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Gamma Correction",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1666,6 +1708,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Dithering",
 									"id" : "obj-47",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1677,12 +1720,13 @@
 									"presentation_rect" : [ 58.0, 272.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Dithering",
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[19]",
+											"parameter_longname" : "Dithering",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Dithering",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1696,6 +1740,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Colors",
 									"id" : "obj-51",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1707,12 +1752,13 @@
 									"presentation_rect" : [ 2.0, 272.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Colors",
 											"parameter_initial" : [ 256 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[20]",
+											"parameter_longname" : "Colors",
 											"parameter_mmax" : 256.0,
 											"parameter_modmode" : 4,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Colors",
 											"parameter_steps" : 257,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 0
@@ -1732,8 +1778,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 176.0, 1416.0, 150.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 0.0, 343.0, 64.0, 29.0 ],
+									"presentation_rect" : [ 0.0, 343.0, 72.0, 18.0 ],
 									"text" : "Tonemapping",
 									"textjustification" : 0
 								}
@@ -1762,7 +1807,7 @@
 									"patching_rect" : [ 176.0, 1264.0, 150.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 314.0, 56.0, 18.0 ],
-									"text" : "max white",
+									"text" : "Max white",
 									"textjustification" : 0
 								}
 
@@ -1971,6 +2016,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Bloom White",
 									"id" : "obj-46",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -1982,12 +2028,13 @@
 									"presentation_rect" : [ 58.0, 103.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Bloom White",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[9]",
+											"parameter_longname" : "Bloom White",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Bloom White",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -2001,6 +2048,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Upsample",
 									"id" : "obj-44",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -2012,12 +2060,13 @@
 									"presentation_rect" : [ 2.0, 103.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Upsample",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[8]",
+											"parameter_longname" : "Upsample",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Upsample",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -2031,6 +2080,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Bloom Tonemapping",
 									"id" : "obj-41",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -2042,12 +2092,13 @@
 									"presentation_rect" : [ 58.0, 74.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Bloom Tonemapping",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[7]",
+											"parameter_longname" : "Bloom Tonemapping",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Bloom Tonemapping",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -2061,6 +2112,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Threshold",
 									"id" : "obj-39",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -2072,12 +2124,13 @@
 									"presentation_rect" : [ 2.0, 74.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Threshold",
 											"parameter_initial" : [ 0.99 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[6]",
+											"parameter_longname" : "Threshold",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Threshold",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -2091,6 +2144,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Gamma",
 									"id" : "obj-36",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -2102,12 +2156,13 @@
 									"presentation_rect" : [ 2.0, 45.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Gamma",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[5]",
+											"parameter_longname" : "Gamma",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Gamma",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -2121,6 +2176,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Bloom Gamma Correction",
 									"id" : "obj-34",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -2132,12 +2188,13 @@
 									"presentation_rect" : [ 58.0, 45.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Bloom Gamma Correction",
 											"parameter_initial" : [ 0.8 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[4]",
+											"parameter_longname" : "Bloom Gamma Correction",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Bloom Gamma Correction",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -2151,6 +2208,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Bloom Exposure",
 									"id" : "obj-32",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -2162,12 +2220,13 @@
 									"presentation_rect" : [ 58.0, 16.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Bloom Exposure",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[3]",
+											"parameter_longname" : "Bloom Exposure",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Bloom Exposure",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -2181,6 +2240,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation_name" : "Bloom",
 									"id" : "obj-29",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -2192,12 +2252,13 @@
 									"presentation_rect" : [ 2.0, 16.0, 44.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_annotation_name" : "Bloom",
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.numbox[2]",
+											"parameter_longname" : "Bloom",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "live.numbox[2]",
+											"parameter_shortname" : "Bloom",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -2246,8 +2307,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 200.0, 432.0, 150.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 56.0, 58.0, 64.0, 29.0 ],
+									"presentation_rect" : [ 56.0, 58.0, 72.0, 18.0 ],
 									"text" : "Tonemapping",
 									"textjustification" : 0
 								}
@@ -3548,38 +3608,38 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-25" : [ "live.tab", "live.tab", 0 ],
-			"obj-26::obj-170" : [ "live.numbox[50]", "live.numbox[2]", 0 ],
-			"obj-26::obj-172" : [ "live.numbox[40]", "live.numbox[2]", 0 ],
-			"obj-26::obj-173" : [ "live.numbox[47]", "live.numbox[2]", 0 ],
-			"obj-26::obj-191" : [ "live.numbox[41]", "live.numbox[2]", 0 ],
-			"obj-26::obj-192" : [ "live.numbox[48]", "live.numbox[2]", 0 ],
-			"obj-26::obj-193" : [ "live.numbox[52]", "live.numbox[2]", 0 ],
-			"obj-26::obj-194" : [ "live.numbox[28]", "live.numbox[2]", 0 ],
-			"obj-26::obj-195" : [ "live.numbox[42]", "live.numbox[2]", 0 ],
-			"obj-26::obj-196" : [ "live.numbox[53]", "live.numbox[2]", 0 ],
-			"obj-26::obj-213" : [ "live.numbox[27]", "live.numbox[2]", 0 ],
-			"obj-26::obj-23" : [ "live.numbox[10]", "live.numbox[2]", 0 ],
-			"obj-26::obj-26" : [ "live.numbox[11]", "live.numbox[2]", 0 ],
-			"obj-26::obj-27" : [ "live.numbox[14]", "live.numbox[2]", 0 ],
-			"obj-26::obj-28" : [ "live.numbox[18]", "live.numbox[2]", 0 ],
-			"obj-26::obj-29" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
-			"obj-26::obj-32" : [ "live.numbox[3]", "live.numbox[2]", 0 ],
-			"obj-26::obj-34" : [ "live.numbox[4]", "live.numbox[2]", 0 ],
-			"obj-26::obj-36" : [ "live.numbox[5]", "live.numbox[2]", 0 ],
-			"obj-26::obj-39" : [ "live.numbox[6]", "live.numbox[2]", 0 ],
-			"obj-26::obj-41" : [ "live.numbox[7]", "live.numbox[2]", 0 ],
-			"obj-26::obj-42" : [ "live.numbox[15]", "live.numbox[2]", 0 ],
-			"obj-26::obj-44" : [ "live.numbox[8]", "live.numbox[2]", 0 ],
-			"obj-26::obj-46" : [ "live.numbox[9]", "live.numbox[2]", 0 ],
-			"obj-26::obj-47" : [ "live.numbox[19]", "live.numbox[2]", 0 ],
-			"obj-26::obj-51" : [ "live.numbox[20]", "live.numbox[2]", 0 ],
-			"obj-26::obj-72" : [ "live.numbox[22]", "live.numbox[2]", 0 ],
-			"obj-26::obj-73" : [ "live.numbox[23]", "live.numbox[2]", 0 ],
-			"obj-26::obj-74" : [ "live.numbox[24]", "live.numbox[2]", 0 ],
-			"obj-26::obj-75" : [ "live.numbox[25]", "live.numbox[2]", 0 ],
-			"obj-26::obj-76" : [ "live.numbox[26]", "live.numbox[2]", 0 ],
-			"obj-366" : [ "Syphon", "Channel", 0 ],
+			"obj-25" : [ "Pass", "Pass", 0 ],
+			"obj-26::obj-170" : [ "White", "White", 0 ],
+			"obj-26::obj-172" : [ "Invert Gamma", "Invert Gamma", 0 ],
+			"obj-26::obj-173" : [ "Tonemap Exposure", "Tonemap Exposure", 0 ],
+			"obj-26::obj-191" : [ "Exposure", "Exposure", 0 ],
+			"obj-26::obj-192" : [ "Expand", "Expand", 0 ],
+			"obj-26::obj-193" : [ "X", "X", 0 ],
+			"obj-26::obj-194" : [ "Y", "Y", 0 ],
+			"obj-26::obj-195" : [ "Bars", "Bars", 0 ],
+			"obj-26::obj-196" : [ "Anamorphic", "Anamorphic", 0 ],
+			"obj-26::obj-213" : [ "Falloff", "Falloff", 0 ],
+			"obj-26::obj-23" : [ "Tonemapping", "Tonemapping", 0 ],
+			"obj-26::obj-26" : [ "Show Clipped", "Show Clipped", 0 ],
+			"obj-26::obj-27" : [ "Max White", "Max White", 0 ],
+			"obj-26::obj-28" : [ "Gamma Exposure", "Gamma Exposure", 0 ],
+			"obj-26::obj-29" : [ "Bloom", "Bloom", 0 ],
+			"obj-26::obj-32" : [ "Bloom Exposure", "Bloom Exposure", 0 ],
+			"obj-26::obj-34" : [ "Bloom Gamma Correction", "Bloom Gamma Correction", 0 ],
+			"obj-26::obj-36" : [ "Gamma", "Gamma", 0 ],
+			"obj-26::obj-39" : [ "Threshold", "Threshold", 0 ],
+			"obj-26::obj-41" : [ "Bloom Tonemapping", "Bloom Tonemapping", 0 ],
+			"obj-26::obj-42" : [ "Gamma Correction", "Gamma Correction", 0 ],
+			"obj-26::obj-44" : [ "Upsample", "Upsample", 0 ],
+			"obj-26::obj-46" : [ "Bloom White", "Bloom White", 0 ],
+			"obj-26::obj-47" : [ "Dithering", "Dithering", 0 ],
+			"obj-26::obj-51" : [ "Colors", "Colors", 0 ],
+			"obj-26::obj-72" : [ "Luma", "Luma", 0 ],
+			"obj-26::obj-73" : [ "Amount", "Amount", 0 ],
+			"obj-26::obj-74" : [ "Size", "Size", 0 ],
+			"obj-26::obj-75" : [ "Colored", "Colored", 0 ],
+			"obj-26::obj-76" : [ "Tint", "Tint", 0 ],
+			"obj-366" : [ "Channel", "Channel", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

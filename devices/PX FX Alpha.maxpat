@@ -393,7 +393,7 @@
               {
                 "box": {
                   "activebgcolor": [0, 0, 0, 1],
-                  "annotation_name": "Distance color",
+                  "annotation_name": "Distance Color",
                   "id": "obj-15",
                   "maxclass": "live.button",
                   "numinlets": 1,
@@ -406,13 +406,13 @@
                   "saved_attribute_attributes": {
                     "activebgcolor": {"expression": ""},
                     "valueof": {
-                      "parameter_annotation_name": "Distance color",
+                      "parameter_annotation_name": "Distance Color",
                       "parameter_enum": ["off", "on"],
                       "parameter_invisible": 2,
-                      "parameter_longname": "Distance color",
+                      "parameter_longname": "Distance Color",
                       "parameter_mmax": 1,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "Distance color",
+                      "parameter_shortname": "Distance Color",
                       "parameter_type": 2
                     }
                   },
@@ -573,7 +573,7 @@
               },
               {
                 "box": {
-                  "annotation_name": "Distance fade",
+                  "annotation_name": "Distance Fade",
                   "id": "obj-12",
                   "maxclass": "live.numbox",
                   "numinlets": 1,
@@ -585,13 +585,13 @@
                   "presentation_rect": [88, 391, 40, 15],
                   "saved_attribute_attributes": {
                     "valueof": {
-                      "parameter_annotation_name": "Distance fade",
+                      "parameter_annotation_name": "Distance Fade",
                       "parameter_initial": [0.1],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "Distance fade",
+                      "parameter_longname": "Distance Fade",
                       "parameter_mmax": 0.5,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "Distance fade",
+                      "parameter_shortname": "Distance Fade",
                       "parameter_type": 0,
                       "parameter_unitstyle": 1
                     }
@@ -601,7 +601,7 @@
               },
               {
                 "box": {
-                  "annotation_name": "Distance threshold",
+                  "annotation_name": "Distance Threshold",
                   "id": "obj-24",
                   "maxclass": "live.numbox",
                   "numinlets": 1,
@@ -613,13 +613,13 @@
                   "presentation_rect": [88, 407, 40, 15],
                   "saved_attribute_attributes": {
                     "valueof": {
-                      "parameter_annotation_name": "Distance threshold",
+                      "parameter_annotation_name": "Distance Threshold",
                       "parameter_initial": [0.1],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "Distance threshold",
+                      "parameter_longname": "Distance Threshold",
                       "parameter_mmax": 1,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "Distance threshold",
+                      "parameter_shortname": "Distance Threshold",
                       "parameter_type": 0,
                       "parameter_unitstyle": 1
                     }
@@ -655,7 +655,7 @@
               },
               {
                 "box": {
-                  "annotation_name": "Invert mapping",
+                  "annotation_name": "Invert Mapping",
                   "automation": "0",
                   "automationon": "1",
                   "id": "obj-10",
@@ -669,12 +669,12 @@
                   "presentation_rect": [88, 168, 40, 15],
                   "saved_attribute_attributes": {
                     "valueof": {
-                      "parameter_annotation_name": "Invert mapping",
+                      "parameter_annotation_name": "Invert Mapping",
                       "parameter_enum": ["0", "1"],
-                      "parameter_longname": "Invert mapping",
+                      "parameter_longname": "Invert Mapping",
                       "parameter_mmax": 1,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "Invert mapping",
+                      "parameter_shortname": "Invert Mapping",
                       "parameter_type": 2
                     }
                   },
@@ -685,7 +685,7 @@
               },
               {
                 "box": {
-                  "annotation_name": "Color channel",
+                  "annotation_name": "Color Channel",
                   "focusbordercolor": [
                     0.752941176470588,
                     0.752941176470588,
@@ -708,14 +708,14 @@
                   "saved_attribute_attributes": {
                     "focusbordercolor": {"expression": ""},
                     "valueof": {
-                      "parameter_annotation_name": "Color channel",
+                      "parameter_annotation_name": "Color Channel",
                       "parameter_enum": ["R", "G", "B", "A"],
                       "parameter_initial": [3],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "Color channel",
+                      "parameter_longname": "Color Channel",
                       "parameter_mmax": 3,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "Color channel",
+                      "parameter_shortname": "Color Channel",
                       "parameter_type": 2,
                       "parameter_unitstyle": 9
                     }
@@ -726,7 +726,7 @@
               },
               {
                 "box": {
-                  "annotation_name": "Luminance invert",
+                  "annotation_name": "Luminance Invert",
                   "automation": "0",
                   "automationon": "1",
                   "id": "obj-22",
@@ -740,12 +740,12 @@
                   "presentation_rect": [52, 295, 40, 15],
                   "saved_attribute_attributes": {
                     "valueof": {
-                      "parameter_annotation_name": "Luminance invert",
+                      "parameter_annotation_name": "Luminance Invert",
                       "parameter_enum": ["0", "1"],
                       "parameter_longname": "Luminance Invert",
                       "parameter_mmax": 1,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "Luminance invert",
+                      "parameter_shortname": "Luminance Invert",
                       "parameter_type": 2
                     }
                   },
@@ -992,7 +992,7 @@
               },
               {
                 "box": {
-                  "annotation_name": "Luminance threshold",
+                  "annotation_name": "Luminance Threshold",
                   "id": "obj-118",
                   "maxclass": "live.numbox",
                   "numinlets": 1,
@@ -1004,13 +1004,13 @@
                   "presentation_rect": [52, 263, 40, 15],
                   "saved_attribute_attributes": {
                     "valueof": {
-                      "parameter_annotation_name": "Luminance threshold",
+                      "parameter_annotation_name": "Luminance Threshold",
                       "parameter_initial": [0.5],
                       "parameter_initial_enable": 1,
                       "parameter_longname": "Luminance Threshold",
                       "parameter_mmax": 1,
                       "parameter_modmode": 4,
-                      "parameter_shortname": "Luminance threshold",
+                      "parameter_shortname": "Luminance Threshold",
                       "parameter_type": 0,
                       "parameter_unitstyle": 1
                     }
@@ -1385,7 +1385,7 @@
               {
                 "box": {
                   "activebgcolor": [0, 0, 0, 1],
-                  "annotation_name": "Chroma color",
+                  "annotation_name": "Chroma Color",
                   "id": "obj-33",
                   "maxclass": "live.button",
                   "numinlets": 1,
@@ -1398,13 +1398,13 @@
                   "saved_attribute_attributes": {
                     "activebgcolor": {"expression": ""},
                     "valueof": {
-                      "parameter_annotation_name": "Chroma color",
+                      "parameter_annotation_name": "Chroma Color",
                       "parameter_enum": ["off", "on"],
                       "parameter_invisible": 2,
-                      "parameter_longname": "Chroma color",
+                      "parameter_longname": "Chroma Color",
                       "parameter_mmax": 1,
                       "parameter_modmode": 0,
-                      "parameter_shortname": "Chroma color",
+                      "parameter_shortname": "Chroma Color",
                       "parameter_type": 2
                     }
                   },
@@ -3021,7 +3021,7 @@
     "parameters": {
       "obj-106": ["Mix", "Mix", 0],
       "obj-110": ["Invert", "Invert", 0],
-      "obj-23::obj-10": ["Invert mapping", "Invert mapping", 0],
+      "obj-23::obj-10": ["Invert Mapping", "Invert Mapping", 0],
       "obj-23::obj-100": ["Min", "Min", 0],
       "obj-23::obj-104": ["Phase", "Phase", 0],
       "obj-23::obj-105": ["OKLAB", "OKLAB", 0],
@@ -3029,17 +3029,17 @@
       "obj-23::obj-116": ["Scale", "Scale", 0],
       "obj-23::obj-117": ["Mirror", "Mirror", 0],
       "obj-23::obj-118": ["Luminance Threshold", "Luminance threshold", 0],
-      "obj-23::obj-12": ["Distance fade", "Distance fade", 0],
+      "obj-23::obj-12": ["Distance Fade", "Distance Fade", 0],
       "obj-23::obj-13": ["Chroma G", "Chroma G", 0],
       "obj-23::obj-14": ["Chroma B", "Chroma B", 0],
-      "obj-23::obj-15": ["Distance color", "Distance color", 0],
+      "obj-23::obj-15": ["Distance Color", "Distance Color", 0],
       "obj-23::obj-18": ["Global", "Global", 0],
       "obj-23::obj-20": ["Fade", "Fade", 0],
       "obj-23::obj-22": ["Luminance Invert", "Luminance invert", 0],
-      "obj-23::obj-24": ["Distance threshold", "Distance threshold", 0],
-      "obj-23::obj-25": ["Color channel", "Color channel", 0],
+      "obj-23::obj-24": ["Distance Threshold", "Distance Threshold", 0],
+      "obj-23::obj-25": ["Color Channel", "Color Channel", 0],
       "obj-23::obj-29": ["Distance B", "Distance B", 0],
-      "obj-23::obj-33": ["Chroma color", "Chroma color", 0],
+      "obj-23::obj-33": ["Chroma Color", "Chroma Color", 0],
       "obj-23::obj-34": ["Distance G", "Distance G", 0],
       "obj-23::obj-36": ["Distance R", "Distance R", 0],
       "obj-23::obj-4": ["Chroma R", "Chroma R", 0],
@@ -3048,8 +3048,8 @@
       "obj-23::obj-82": ["Lightness", "Lightness", 0],
       "obj-23::obj-90": ["Luminance Fade", "Luminance Fade", 0],
       "obj-23::obj-97": ["Max", "Max", 0],
-      "obj-29": ["Blend", "Distance B", 0],
-      "obj-36": ["Mode", "Distance R", 0],
+      "obj-29": ["Blend", "Blend", 0],
+      "obj-36": ["Mode", "Mode", 0],
       "obj-366": ["Channel", "Channel", 0],
       "obj-37": ["Preview", "Preview", 0],
       "obj-50": ["Multiply", "Multiply", 0],

@@ -5,9 +5,9 @@
       "maxclass": "live.button",
       "presentation": 1,
       "varname": "live.button[1]",
-      "parameter_longname": "Distance color",
-      "parameter_shortname": "Distance color",
-      "annotation_name": "Distance color",
+      "parameter_longname": "Distance Color",
+      "parameter_shortname": "Distance Color",
+      "annotation_name": "Distance Color",
       "annotation": ""
     },
     {
@@ -45,9 +45,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[6]",
-      "parameter_longname": "Distance fade",
-      "parameter_shortname": "Distance fade",
-      "annotation_name": "Distance fade",
+      "parameter_longname": "Distance Fade",
+      "parameter_shortname": "Distance Fade",
+      "annotation_name": "Distance Fade",
       "annotation": ""
     },
     {
@@ -55,9 +55,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[13]",
-      "parameter_longname": "Distance threshold",
-      "parameter_shortname": "Distance threshold",
-      "annotation_name": "Distance threshold",
+      "parameter_longname": "Distance Threshold",
+      "parameter_shortname": "Distance Threshold",
+      "annotation_name": "Distance Threshold",
       "annotation": ""
     },
     {
@@ -66,9 +66,9 @@
       "presentation": 1,
       "text": "Invert",
       "varname": "live.text[2]",
-      "parameter_longname": "Invert mapping",
-      "parameter_shortname": "Invert mapping",
-      "annotation_name": "Invert mapping",
+      "parameter_longname": "Invert Mapping",
+      "parameter_shortname": "Invert Mapping",
+      "annotation_name": "Invert Mapping",
       "annotation": ""
     },
     {
@@ -76,9 +76,9 @@
       "maxclass": "live.tab",
       "presentation": 1,
       "varname": "live.tab[2]",
-      "parameter_longname": "Color channel",
-      "parameter_shortname": "Color channel",
-      "annotation_name": "Color channel",
+      "parameter_longname": "Color Channel",
+      "parameter_shortname": "Color Channel",
+      "annotation_name": "Color Channel",
       "annotation": ""
     },
     {
@@ -88,8 +88,8 @@
       "text": "Invert",
       "varname": "live.text[3]",
       "parameter_longname": "Luminance Invert",
-      "parameter_shortname": "Luminance invert",
-      "annotation_name": "Luminance invert",
+      "parameter_shortname": "Luminance Invert",
+      "annotation_name": "Luminance Invert",
       "annotation": ""
     },
     {
@@ -128,8 +128,8 @@
       "presentation": 1,
       "varname": "live.numbox[16]",
       "parameter_longname": "Luminance Threshold",
-      "parameter_shortname": "Luminance threshold",
-      "annotation_name": "Luminance threshold",
+      "parameter_shortname": "Luminance Threshold",
+      "annotation_name": "Luminance Threshold",
       "annotation": ""
     },
     {
@@ -239,9 +239,9 @@
       "maxclass": "live.button",
       "presentation": 1,
       "varname": "live.button",
-      "parameter_longname": "Chroma color",
-      "parameter_shortname": "Chroma color",
-      "annotation_name": "Chroma color",
+      "parameter_longname": "Chroma Color",
+      "parameter_shortname": "Chroma Color",
+      "annotation_name": "Chroma Color",
       "annotation": ""
     },
     {

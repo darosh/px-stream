@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 574.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 264.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -347,7 +347,7 @@
 							"parameter_info" : "Automatically update texture info",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text",
+							"parameter_longname" : "Auto",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Auto",
@@ -1077,7 +1077,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-28" : [ "live.text", "Auto", 0 ],
+			"obj-28" : [ "Auto", "Auto", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

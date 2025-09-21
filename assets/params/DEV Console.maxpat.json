@@ -6,7 +6,7 @@
       "presentation": 1,
       "text": "Active",
       "varname": "live.text",
-      "parameter_longname": "live.text",
+      "parameter_longname": "Active",
       "parameter_shortname": "Active",
       "annotation_name": "Active",
       "annotation": "Activates Max console additional output. May affect performance. DO NOT USE IN PRODUCTION."

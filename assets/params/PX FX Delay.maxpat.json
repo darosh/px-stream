@@ -6,8 +6,8 @@
       "presentation": 1,
       "varname": "live.dial",
       "parameter_longname": "Delay Frames",
-      "parameter_shortname": "Frames",
-      "annotation_name": "",
+      "parameter_shortname": "Delay",
+      "annotation_name": "Delay Frames",
       "annotation": ""
     },
     {

@@ -6,7 +6,7 @@
       "presentation": 1,
       "text": "Auto",
       "varname": "live.text",
-      "parameter_longname": "live.text",
+      "parameter_longname": "Auto",
       "parameter_shortname": "Auto",
       "annotation_name": "Auto",
       "annotation": "Automatically update texture info"

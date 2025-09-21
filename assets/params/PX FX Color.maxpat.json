@@ -6,9 +6,9 @@
       "presentation": 1,
       "text": "Hue",
       "varname": "live.text[2]",
-      "parameter_longname": "Show hue",
-      "parameter_shortname": "Show hue",
-      "annotation_name": "Show hue",
+      "parameter_longname": "Show Hue",
+      "parameter_shortname": "Show Hue",
+      "annotation_name": "Show Hue",
       "annotation": ""
     },
     {
@@ -17,9 +17,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[3]",
-      "parameter_longname": "Reset shadow",
-      "parameter_shortname": "Reset shadow",
-      "annotation_name": "Reset shadow",
+      "parameter_longname": "Reset Shadow",
+      "parameter_shortname": "Reset Shadow",
+      "annotation_name": "Reset Shadow",
       "annotation": ""
     },
     {
@@ -28,9 +28,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[2]",
-      "parameter_longname": "Reset light",
-      "parameter_shortname": "Reset light",
-      "annotation_name": "Reset light",
+      "parameter_longname": "Reset Light",
+      "parameter_shortname": "Reset Light",
+      "annotation_name": "Reset Light",
       "annotation": ""
     },
     {
@@ -39,9 +39,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[1]",
-      "parameter_longname": "Reset global",
-      "parameter_shortname": "Reset global",
-      "annotation_name": "Reset global",
+      "parameter_longname": "Reset Global",
+      "parameter_shortname": "Reset Global",
+      "annotation_name": "Reset Global",
       "annotation": ""
     },
     {
@@ -50,9 +50,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text",
-      "parameter_longname": "Reset dark",
-      "parameter_shortname": "Reset dark",
-      "annotation_name": "Reset dark",
+      "parameter_longname": "Reset Dark",
+      "parameter_shortname": "Reset Dark",
+      "annotation_name": "Reset Dark",
       "annotation": ""
     },
     {
@@ -360,9 +360,9 @@
       "maxclass": "live.slider",
       "presentation": 1,
       "varname": "live.slider[2]",
-      "parameter_longname": "Shadow luminance",
-      "parameter_shortname": "Shadow luminance",
-      "annotation_name": "Shadow luminance",
+      "parameter_longname": "Shadow Luminance",
+      "parameter_shortname": "Shadow Luminance",
+      "annotation_name": "Shadow Luminance",
       "annotation": ""
     },
     {
@@ -370,9 +370,9 @@
       "maxclass": "live.slider",
       "presentation": 1,
       "varname": "live.slider[3]",
-      "parameter_longname": "Dark luminance",
-      "parameter_shortname": "Dark luminance",
-      "annotation_name": "Dark luminance",
+      "parameter_longname": "Dark Luminance",
+      "parameter_shortname": "Dark Luminance",
+      "annotation_name": "Dark Luminance",
       "annotation": ""
     },
     {
@@ -380,9 +380,9 @@
       "maxclass": "live.slider",
       "presentation": 1,
       "varname": "live.slider[1]",
-      "parameter_longname": "Global luminance",
-      "parameter_shortname": "Global luminance",
-      "annotation_name": "Global luminance",
+      "parameter_longname": "Global Luminance",
+      "parameter_shortname": "Global Luminance",
+      "annotation_name": "Global Luminance",
       "annotation": ""
     },
     {
@@ -430,9 +430,9 @@
       "maxclass": "live.slider",
       "presentation": 1,
       "varname": "live.slider",
-      "parameter_longname": "Light luminance",
-      "parameter_shortname": "Light luminance",
-      "annotation_name": "Light luminance",
+      "parameter_longname": "Light Luminance",
+      "parameter_shortname": "Light Luminance",
+      "annotation_name": "Light Luminance",
       "annotation": ""
     },
     {
@@ -441,9 +441,9 @@
       "presentation": 1,
       "text": "Gamma",
       "varname": "live.text[1]",
-      "parameter_longname": "Show gamma",
-      "parameter_shortname": "Show gamma",
-      "annotation_name": "Show gamma",
+      "parameter_longname": "Show Gamma",
+      "parameter_shortname": "Show Gamma",
+      "annotation_name": "Show Gamma",
       "annotation": ""
     },
     {
@@ -452,9 +452,9 @@
       "presentation": 1,
       "text": "Color",
       "varname": "live.text[13]",
-      "parameter_longname": "Show color",
-      "parameter_shortname": "Show color",
-      "annotation_name": "Show color",
+      "parameter_longname": "Show Color",
+      "parameter_shortname": "Show Color",
+      "annotation_name": "Show Color",
       "annotation": ""
     },
     {

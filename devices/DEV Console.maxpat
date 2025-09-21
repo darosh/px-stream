@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 571.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 567.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -146,7 +146,7 @@
 							"parameter_info" : "Activates Max console additional output. May affect performance. DO NOT USE IN PRODUCTION.",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text",
+							"parameter_longname" : "Active",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Active",
@@ -499,7 +499,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "live.text", "Active", 0 ],
+			"obj-1" : [ "Active", "Active", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

@@ -117,9 +117,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[7]",
-      "parameter_longname": "Mirror blend",
-      "parameter_shortname": "Mirror blend",
-      "annotation_name": "Mirror blend",
+      "parameter_longname": "Mirror Blend",
+      "parameter_shortname": "Mirror Blend",
+      "annotation_name": "Mirror Blend",
       "annotation": ""
     },
     {
