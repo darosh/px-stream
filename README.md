@@ -187,13 +187,19 @@
 
 ### FX Alpha
 
+Various Alpha channel manipulation like Chroma keying, mapping, inverting, smoothing, removing, etc. 
+
 ![PX FX Alpha](assets/devices/PX_FX_Alpha_v1.webp)
 
 ### FX Blur
 
+Four blur Max/Jitter stock blur shaders
+
 ![PX FX Blur](assets/devices/PX_FX_Blur_v1.webp)
 
 ### FX Color
+
+Various color grading and adjustments
 
 ![PX FX Color](assets/devices/PX_FX_Color_v1.webp)
 ![PX FX Color](assets/devices/PX_FX_Color_(gamma)_v1.webp)
@@ -201,18 +207,26 @@
 
 ### FX Colorize
 
+Two/tri tone colorization with various mapping methods
+
 ![PX FX Colorize](assets/devices/PX_FX_Colorize_v1.webp)
 
 ### FX Convert
+
+Texture format conversion, including OKLAB and normalized OKLAB aka NOKLAB
 
 ![PX FX Convert](assets/devices/PX_FX_Convert_v1.webp)
 ![PX FX Convert](assets/devices/PX_FX_Convert_(convert_back)_v1.webp)
 
 ### FX Delay
 
+Texture delay in frames. You can mix it with dry signal using [Mix Dry](#px-mix-dry) device for ghostly trace effect
+
 ![PX FX Delay](assets/devices/PX_FX_Delay_v1.webp)
 
 ### FX Kaleidoscope
+
+Various emulation attempts of kaleidoscope layouts [suggested by Brewster](https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster) plus one stock Max/Jitter shader
 
 ![PX FX Kaleidoscope](assets/devices/PX_FX_Kaleidoscope_v1.webp)
 
@@ -232,9 +246,13 @@
 
 ### DEV Info
 
+Displays texture info
+
 ![Dev Info](assets/devices/DEV_Info_v1.webp)
 
 ### DEV Console
+
+Enables additional Max console output. DO NOT USE IN PRODUCTION.
 
 ![Dev Console](assets/devices/DEV_Console_v1.webp)
 

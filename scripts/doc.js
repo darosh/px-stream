@@ -248,8 +248,43 @@ function replaceLines (lines, slug, replace) {
   ]
 }
 
+function updateDescription (lines, device, description) {
+  const title = imgTitle(device)
+
+  const start = lines.indexOf(`### ${title}`)
+
+  if (start === -1) {
+    console.error(`Mising ${device}`)
+    process.exit()
+  }
+
+  let end = start
+
+  while (lines[end][0] !== '!') {
+    end++
+  }
+
+  return [
+    ...lines.slice(0, start + 1),
+    '',
+    ...Array.isArray(description) ? description : description.split('\n'),
+    '',
+    ...lines.slice(end)
+  ]
+}
+
 function updateDeviceInfo (lines, devices) {
-  return lines
+  let updated = lines
+
+  for (const [device, { description }] of Object.entries(devices)) {
+    if (!description) {
+      continue
+    }
+
+    updated = updateDescription(updated, device, description)
+  }
+
+  return updated
 }
 
 async function updateReadme (htmlCollage) {
