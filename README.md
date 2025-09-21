@@ -105,21 +105,31 @@
 
 ### PX World
 
+Essential rendering context. You need exactly one per Live set. More would be problematic. Sets target FPS. FPS 0 will use available maximum with displaylink turned on on Mac.
+
 <img src="./assets/devices/PX_World_v1.webp" height="231" title="PX World" /> <img src="./assets/devices/PX_World_(mad_world)_v1.webp" height="231" title="PX World (mad world)" />
 
 ### PX Mix View
+
+Multi-channel mixing and preview. Mix output selected in expanded section can be consumed by [IN Mix](#px-in-mix) device and [Syphon](https://syphon.info/) clients. Click preview for floating window, <kbd>ESC</kbd> for fullscreen on/off.
 
 <img src="./assets/devices/PX_Mix_View_v1.webp" height="231" title="PX Mix View" /> <img src="./assets/devices/PX_Mix_View_(expanded)_v1.webp" height="231" title="PX Mix View (expanded)" />
 
 ### PX Mix Channel
 
+Send texture to selected channel. Alternative to individual channel selectors on each device.
+
 <img src="./assets/devices/PX_Mix_Channel_v1.webp" height="231" title="PX Mix Channel" />
 
 ### PX Mix Dry
 
+Dry/wet mix from two previous devices. Select which (-1 to -4) for dry signal. Multiple blend modes and signal swap. Swap has no effect on [commutative](https://en.wikipedia.org/wiki/Commutative_property) blending methods.
+
 <img src="./assets/devices/PX_Mix_Dry_v1.webp" height="231" title="PX Mix Dry" />
 
 ### PX Mix Transition
+
+Transition between two previous devices. Channel selection same as Mix Dry. Uses 90+ transitions from [gl-transitions.com](https://gl-transitions.com/).
 
 <img src="./assets/devices/PX_Mix_Transition_v1.webp" height="231" title="PX Mix Transition" />
 
@@ -127,9 +137,13 @@
 
 ### PX Route Audio
 
+Route audio from any track in your Live set
+
 <img src="./assets/devices/PX_Route_Audio_v1.webp" height="231" title="PX Route Audio" />
 
 ### PX Route MIDI
+
+Send MIDI from selected track to next device. Works with [PX Shader](#px-shader) device and MIDI-enabled shaders.
 
 <img src="./assets/devices/PX_Route_MIDI_(linked)_v1.webp" height="231" title="PX Route MIDI (linked)" />
 
@@ -137,35 +151,51 @@
 
 ### PX Shader
 
+Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects. Up to 32 dynamic parameters and various audio rendering options.
+
 <img src="./assets/devices/PX_Shader_v1.webp" height="231" title="PX Shader" /> <img src="./assets/devices/PX_Shader_(types)_v1.webp" height="231" title="PX Shader (types)" />
 
 ---
 
 ### IN Cam
 
+Live input from connected video devices
+
 <img src="./assets/devices/PX_IN_Cam_v1.webp" height="231" title="PX IN Cam" />
 
 ### IN Syphon
+
+[Syphon](https://syphon.info/) input for sharing visuals between applications. Mac only.
 
 <img src="./assets/devices/PX_IN_Syphon_v1.webp" height="231" title="PX IN Syphon" />
 
 ### IN Image
 
+Static image input. Supports JPG, WEBP and PNG formats.
+
 <img src="./assets/devices/PX_IN_Image_v1.webp" height="231" title="PX IN Image" />
 
 ### IN SVG
+
+Vector graphics input with resolution-independent scaling SVG file formal
 
 <img src="./assets/devices/PX_IN_SVG_v1.webp" height="231" title="PX IN SVG" />
 
 ### IN Video
 
+Video playback. Supports MP4, AVI, MOV (including[HAP codecs](https://hap.video/)).
+
 <img src="./assets/devices/PX_IN_Video_v1.webp" height="231" title="PX IN Video" />
 
 ### IN Channel
 
+Use texture from [Mix Channel](#px-mix-channel) as input. Creates feedback when combined with [Mix Dry](#px-mix-dry) on same channel.
+
 <img src="./assets/devices/PX_IN_Channel_v1.webp" height="231" title="PX IN Channel" />
 
 ### IN Mix
+
+Use channel mix from [Mix View](#px-mix-view) device as input texture.
 
 <img src="./assets/devices/PX_IN_Mix_v1.webp" height="231" title="PX IN Mix" />
 
@@ -173,9 +203,13 @@
 
 ### GEN Cos Pattern
 
+Procedural patterns with cosine palettes [popularized](https://iquilezles.org/articles/palettes/) by Inigo Quilez
+
 <img src="./assets/devices/PX_GEN_Cos_Pattern_v1.webp" height="231" title="PX GEN Cos Pattern" />
 
 ### GEN Text
+
+Text generation from session/clip names, custom text, or dynamic musical data (beat, bar.beat, time)
 
 <img src="./assets/devices/PX_GEN_Text_v1.webp" height="231" title="PX GEN Text" /> <img src="./assets/devices/PX_GEN_Text_(expanded)_v1.webp" height="231" title="PX GEN Text (expanded)" />
 
@@ -183,55 +217,61 @@
 
 ### FX Alpha
 
-Various Alpha channel manipulation like Chroma keying, mapping, inverting, smoothing, removing, etc. 
+Alpha channel tools: chroma key, mapping, inversion, smoothing, removal, etc.
 
 <img src="./assets/devices/PX_FX_Alpha_v1.webp" height="231" title="PX FX Alpha" />
 
 ### FX Blur
 
-Four blur Max/Jitter stock blur shaders
+Four blur shaders from Max/Jitter stock collection
 
 <img src="./assets/devices/PX_FX_Blur_v1.webp" height="231" title="PX FX Blur" />
 
 ### FX Color
 
-Various color grading and adjustments
+Color grading and adjustment tools
 
 <img src="./assets/devices/PX_FX_Color_v1.webp" height="231" title="PX FX Color" /> <img src="./assets/devices/PX_FX_Color_(gamma)_v1.webp" height="231" title="PX FX Color (gamma)" /> <img src="./assets/devices/PX_FX_Color_(hue)_v1.webp" height="231" title="PX FX Color (hue)" />
 
 ### FX Colorize
 
-Two/tri tone colorization with various mapping methods
+Two/tri tone colorization with multiple mapping methods
 
 <img src="./assets/devices/PX_FX_Colorize_v1.webp" height="231" title="PX FX Colorize" />
 
 ### FX Convert
 
-Texture format conversion, including OKLAB and normalized OKLAB aka NOKLAB
+Texture format conversion including OKLAB and normalized OKLAB aka NOKLAB
 
 <img src="./assets/devices/PX_FX_Convert_v1.webp" height="231" title="PX FX Convert" /> <img src="./assets/devices/PX_FX_Convert_(convert_back)_v1.webp" height="231" title="PX FX Convert (convert back)" />
 
 ### FX Delay
 
-Texture delay in frames. You can mix it with dry signal using [Mix Dry](#px-mix-dry) device for ghostly trace effect
+Frame-based texture delay. Combine with Mix Dry device for ghost trail effects.
 
 <img src="./assets/devices/PX_FX_Delay_v1.webp" height="231" title="PX FX Delay" />
 
 ### FX Kaleidoscope
 
-Various emulation attempts of kaleidoscope layouts [suggested by Brewster](https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster) plus one stock Max/Jitter shader
+Kaleidoscope patterns based on [Brewster designs]((https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster)) plus Max/Jitter shader
 
 <img src="./assets/devices/PX_FX_Kaleidoscope_v1.webp" height="231" title="PX FX Kaleidoscope" />
 
 ### FX Pass
 
+Postprocessing shaders from Max/Jitter stock library. See [Max documentation](https://docs.cycling74.com/reference/jit.gl.pass).
+
 <img src="./assets/devices/PX_FX_Pass_v1.webp" height="231" title="PX FX Pass" />
 
 ### FX Pixelization
 
+Multi-shape pixelization: rectangular, circular, honeycomb, hexagonal, triangular grids
+
 <img src="./assets/devices/PX_FX_Pixelization_v1.webp" height="231" title="PX FX Pixelization" />
 
 ### FX Transform
+
+Geometric transformations: scale, shift, rotation (around axis or vector)
 
 <img src="./assets/devices/PX_FX_Transform_v1.webp" height="231" title="PX FX Transform" />
 
@@ -239,13 +279,13 @@ Various emulation attempts of kaleidoscope layouts [suggested by Brewster](https
 
 ### DEV Info
 
-Displays texture info
+Shows texture info for development purposes
 
 <img src="./assets/devices/DEV_Info_v1.webp" height="231" title="DEV Info" />
 
 ### DEV Console
 
-Enables additional Max console output. DO NOT USE IN PRODUCTION.
+Enables detailed Max console output for development and debugging. DO NOT USE IN PRODUCTION.
 
 <img src="./assets/devices/DEV_Console_v1.webp" height="231" title="DEV Console" />
 

@@ -1,89 +1,89 @@
 {
   "DEV Console": {
-    "description": "Enables additional Max console output. DO NOT USE IN PRODUCTION."
-  }, 
+    "description": "Enables detailed Max console output for development and debugging. DO NOT USE IN PRODUCTION."
+  },
   "DEV Info": {
-    "description": "Displays texture info"
-  }, 
+    "description": "Shows texture info for development purposes"
+  },
   "PX FX Alpha": {
-    "description": "Various alpha channel manipulation like chroma keying, mapping, inverting, smoothing, removing, etc. "
-  }, 
+    "description": "Alpha channel tools: chroma key, mapping, inversion, smoothing, removal, etc."
+  },
   "PX FX Blur": {
-    "description": "Four blur  Max/Jitter stock shaders"
-  }, 
+    "description": "Four blur shaders from Max/Jitter stock collection"
+  },
   "PX FX Color": {
-    "description": "Various color grading and adjustments"
-  }, 
+    "description": "Color grading and adjustment tools"
+  },
   "PX FX Colorize": {
-    "description": "Two/tri tone colorization with various mapping methods"
-  }, 
+    "description": "Two/tri tone colorization with multiple mapping methods"
+  },
   "PX FX Convert": {
-    "description": "Texture format conversion, including OKLAB and *normalized OKLAB* aka NOKLAB"
-  }, 
+    "description": "Texture format conversion including OKLAB and normalized OKLAB aka NOKLAB"
+  },
   "PX FX Delay": {
-    "description": "Texture delay in frames. You can mix it with dry signal using [Mix Dry](#px-mix-dry) device for ghostly trace effect."
-  }, 
+    "description": "Frame-based texture delay. Combine with Mix Dry device for ghost trail effects."
+  },
   "PX FX Kaleidoscope": {
-    "description": "Various emulation attempts of kaleidoscope layouts [suggested by Brewster](https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster) plus one stock Max/Jitter shader"
-  }, 
+    "description": "Kaleidoscope patterns based on [Brewster designs]((https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster)) plus Max/Jitter shader"
+  },
   "PX FX Pass": {
-    "description": "Various postprocessing stock Max/Jitter shaders. Learn more in [Max documentation](https://docs.cycling74.com/reference/jit.gl.pass)."
-  }, 
+    "description": "Postprocessing shaders from Max/Jitter stock library. See [Max documentation](https://docs.cycling74.com/reference/jit.gl.pass)."
+  },
   "PX FX Pixelization": {
-    "description": "Feature rich pixelization with multiple grid shapes (rectangular, circular, circular honeycomb, hexagonal, triangular)"
-  }, 
+    "description": "Multi-shape pixelization: rectangular, circular, honeycomb, hexagonal, triangular grids"
+  },
   "PX FX Transform": {
-    "description": "Traditional geometric transformations: scale, shift and two rotation modes (around axe or vector)"
-  }, 
+    "description": "Geometric transformations: scale, shift, rotation (around axis or vector)"
+  },
   "PX GEN Cos Pattern": {
-    "description": "Various procedural patterns colored with cosine palette [popularized](https://iquilezles.org/articles/palettes/) by Inigo Quilez"
-  }, 
+    "description": "Procedural patterns with cosine palettes [popularized](https://iquilezles.org/articles/palettes/) by Inigo Quilez"
+  },
   "PX GEN Text": {
-    "description": "Text generation based session or arrangement clip names, user entered static text or dynamic: beat, bar.beat or time"
-  }, 
+    "description": "Text generation from session/clip names, custom text, or dynamic musical data (beat, bar.beat, time)"
+  },
   "PX IN Cam": {
-    "description": "Video digitizer input like webcam"
-  }, 
+    "description": "Live input from connected video devices"
+  },
   "PX IN Channel": {
-    "description": "Use texture sent to [Mix Channel](#px-mix-channel) as input. Works also as feedback when used with [Mix Dry](#px-mix-dry) device on same channel number."
-  }, 
+    "description": "Use texture from [Mix Channel](#px-mix-channel) as input. Creates feedback when combined with [Mix Dry](#px-mix-dry) on same channel."
+  },
   "PX IN Image": {
-    "description": "Image file as input texture. Supported file types: JPG, WEBP and PNG."
-  }, 
+    "description": "Static image input. Supports JPG, WEBP and PNG formats."
+  },
   "PX IN Mix": {
-    "description": "Use channels combined in [Mix View](#px-mix-view) device as input texture."
-  }, 
+    "description": "Use channel mix from [Mix View](#px-mix-view) device as input texture."
+  },
   "PX IN SVG": {
-    "description": "SVG image input texture"
-  }, 
+    "description": "Vector graphics input with resolution-independent scaling SVG file formal"
+  },
   "PX IN Syphon": {
-    "description": "[Syphon](https://syphon.info/) input. Mac only."
-  }, 
+    "description": "[Syphon](https://syphon.info/) input for sharing visuals between applications. Mac only."
+  },
   "PX IN Video": {
-    "description": "Video input. Supported file types: MP4, AVI, MOV (including [HAP codecs](https://hap.video/))."
-  }, 
+    "description": "Video playback. Supports MP4, AVI, MOV (including[HAP codecs](https://hap.video/))."
+  },
   "PX Mix Channel": {
-    "description": "Sends the texture to selected channel. Alternative to to channel selector on each texture input and processing device."
-  }, 
+    "description": "Send texture to selected channel. Alternative to individual channel selectors on each device."
+  },
   "PX Mix Dry": {
-    "description": "Dry/wet mix of textures from two previous devices. Select which (-1 to -4) is used as the dry signal and create complex non-linear processing structures in one device row. Supports various blending methods and dry/wet signal swap. Swap has no effect on [commutative](https://en.wikipedia.org/wiki/Commutative_property) blending methods."
-  }, 
+    "description": "Dry/wet mix from two previous devices. Select which (-1 to -4) for dry signal. Multiple blend modes and signal swap. Swap has no effect on [commutative](https://en.wikipedia.org/wiki/Commutative_property) blending methods."
+  },
   "PX Mix Transition": {
-    "description": "Transition between two previous devices. Channel selection is same as in [#px-mix-dry](Mix Dry) device. Powered by 90+ transitions from [https://gl-transitions.com/](gl-transitions.com)."
-  }, 
+    "description": "Transition between two previous devices. Channel selection same as Mix Dry. Uses 90+ transitions from [gl-transitions.com](https://gl-transitions.com/)."
+  },
   "PX Mix View": {
-    "description": "Channel mixing and viewing device. Mix selected in expanded view can be consumed by [IN Mix](#px-in-mix) and/or by [Syphon](https://syphon.info/) client. Click on preview area opens floating window. Click on floating window resizes the window to fit the selected size or show/hide channel mixing buttons, <kbd>ESC</kbd> enters/escapes full screen. "
-  }, 
+    "description": "Multi-channel mixing and preview. Mix output selected in expanded section can be consumed by [IN Mix](#px-in-mix) device and [Syphon](https://syphon.info/) clients. Click preview for floating window, <kbd>ESC</kbd> for fullscreen on/off."
+  },
   "PX Route Audio": {
-    "description": "Route audio from different track"
-  }, 
+    "description": "Route audio from any track in your Live set"
+  },
   "PX Route MIDI": {
-    "description": "Sends MIDI from selected track to next device. Works with [PX Shader](#px-shader) and shader supporting midi input."
-  }, 
+    "description": "Send MIDI from selected track to next device. Works with [PX Shader](#px-shader) device and MIDI-enabled shaders."
+  },
   "PX Shader": {
-    "description": "Interactive Shader Format ([ISF](https://isf.video/)) universal device may work as texture generator or effect. Up to 32 dynamic parameters."
-  }, 
+    "description": "Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects. Up to 32 dynamic parameters and various audio rendering options."
+  },
   "PX World": {
-    "description": "You need one. Just one. More would be mad."
+    "description": "Essential rendering context. You need exactly one per Live set. More would be problematic. Sets target FPS. FPS 0 will use available maximum with displaylink turned on on Mac."
   }
 }
