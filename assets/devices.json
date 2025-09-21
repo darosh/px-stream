@@ -6,10 +6,10 @@
     "description": "Displays texture info"
   }, 
   "PX FX Alpha": {
-    "description": "Various Alpha channel manipulation like Chroma keying, mapping, inverting, smoothing, removing, etc. "
+    "description": "Various alpha channel manipulation like chroma keying, mapping, inverting, smoothing, removing, etc. "
   }, 
   "PX FX Blur": {
-    "description": "Four blur Max/Jitter stock blur shaders"
+    "description": "Four blur  Max/Jitter stock shaders"
   }, 
   "PX FX Color": {
     "description": "Various color grading and adjustments"
@@ -18,72 +18,72 @@
     "description": "Two/tri tone colorization with various mapping methods"
   }, 
   "PX FX Convert": {
-    "description": "Texture format conversion, including OKLAB and normalized OKLAB aka NOKLAB"
+    "description": "Texture format conversion, including OKLAB and *normalized OKLAB* aka NOKLAB"
   }, 
   "PX FX Delay": {
-    "description": "Texture delay in frames. You can mix it with dry signal using [Mix Dry](#px-mix-dry) device for ghostly trace effect"
+    "description": "Texture delay in frames. You can mix it with dry signal using [Mix Dry](#px-mix-dry) device for ghostly trace effect."
   }, 
   "PX FX Kaleidoscope": {
     "description": "Various emulation attempts of kaleidoscope layouts [suggested by Brewster](https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster) plus one stock Max/Jitter shader"
   }, 
   "PX FX Pass": {
-    "description": ""
+    "description": "Various postprocessing stock Max/Jitter shaders. Learn more in [Max documentation](https://docs.cycling74.com/reference/jit.gl.pass)."
   }, 
   "PX FX Pixelization": {
-    "description": ""
+    "description": "Feature rich pixelization with multiple grid shapes (rectangular, circular, circular honeycomb, hexagonal, triangular)"
   }, 
   "PX FX Transform": {
-    "description": ""
+    "description": "Traditional geometric transformations: scale, shift and two rotation modes (around axe or vector)"
   }, 
   "PX GEN Cos Pattern": {
-    "description": ""
+    "description": "Various procedural patterns colored with cosine palette [popularized](https://iquilezles.org/articles/palettes/) by Inigo Quilez"
   }, 
   "PX GEN Text": {
-    "description": ""
+    "description": "Text generation based session or arrangement clip names, user entered static text or dynamic: beat, bar.beat or time"
   }, 
   "PX IN Cam": {
-    "description": ""
+    "description": "Video digitizer input like webcam"
   }, 
   "PX IN Channel": {
-    "description": ""
+    "description": "Use texture sent to [Mix Channel](#px-mix-channel) as input. Works also as feedback when used with [Mix Dry](#px-mix-dry) device on same channel number."
   }, 
   "PX IN Image": {
-    "description": ""
+    "description": "Image file as input texture. Supported file types: JPG, WEBP and PNG."
   }, 
   "PX IN Mix": {
-    "description": ""
+    "description": "Use channels combined in [Mix View](#px-mix-view) device as input texture."
   }, 
   "PX IN SVG": {
-    "description": ""
+    "description": "SVG image input texture"
   }, 
   "PX IN Syphon": {
-    "description": ""
+    "description": "[Syphon](https://syphon.info/) input. Mac only."
   }, 
   "PX IN Video": {
-    "description": ""
+    "description": "Video input. Supported file types: MP4, AVI, MOV (including [HAP codecs](https://hap.video/))."
   }, 
   "PX Mix Channel": {
-    "description": ""
+    "description": "Sends the texture to selected channel. Alternative to to channel selector on each texture input and processing device."
   }, 
   "PX Mix Dry": {
-    "description": ""
+    "description": "Dry/wet mix of textures from two previous devices. Select which (-1 to -4) is used as the dry signal and create complex non-linear processing structures in one device row. Supports various blending methods and dry/wet signal swap. Swap has no effect on [commutative](https://en.wikipedia.org/wiki/Commutative_property) blending methods."
   }, 
   "PX Mix Transition": {
-    "description": ""
+    "description": "Transition between two previous devices. Channel selection is same as in [#px-mix-dry](Mix Dry) device. Powered by 90+ transitions from [https://gl-transitions.com/](gl-transitions.com)."
   }, 
   "PX Mix View": {
-    "description": ""
+    "description": "Channel mixing and viewing device. Mix selected in expanded view can be consumed by [IN Mix](#px-in-mix) and/or by [Syphon](https://syphon.info/) client. Click on preview area opens floating window. Click on floating window resizes the window to fit the selected size or show/hide channel mixing buttons, <kbd>ESC</kbd> enters/escapes full screen. "
   }, 
   "PX Route Audio": {
-    "description": ""
+    "description": "Route audio from different track"
   }, 
   "PX Route MIDI": {
-    "description": ""
+    "description": "Sends MIDI from selected track to next device. Works with [PX Shader](#px-shader) and shader supporting midi input."
   }, 
   "PX Shader": {
-    "description": ""
+    "description": "Interactive Shader Format ([ISF](https://isf.video/)) universal device may work as texture generator or effect. Up to 32 dynamic parameters."
   }, 
   "PX World": {
-    "description": ""
+    "description": "You need one. Just one. More would be mad."
   }
 }
