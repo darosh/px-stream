@@ -2,6 +2,8 @@
   "name": "px-stream",
   "version": "0.0.0",
   "devDependencies": {
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
     "commander": "^14.0.1",
     "eslint": "^9.34.0",
     "eslint-plugin-maxpat": "github:darosh/eslint-plugin-maxpat",
@@ -28,6 +30,7 @@
     "osascript:amxd:resave": "osascript ./scripts/resave.scpt \"$(pwd)/devices\"",
     "osascript:maxpat:resave": "osascript ./scripts/resave-maxpat.scpt \"$(pwd)/devices\"",
     "params:collect": "node scripts/params.js collect './devices/*.maxpat' './assets/params/'",
+    "params:info": "node scripts/params.js info './devices/*.maxpat'",
     "params:update": "node scripts/params.js update './devices/*.maxpat' './assets/params/*.maxpat.json'",
     "transitions": "npm run transitions:prepare && npm run transitions:make",
     "transitions:make": "node scripts/transitions/make-jxs.js",

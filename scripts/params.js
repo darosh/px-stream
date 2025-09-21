@@ -2,6 +2,8 @@ import { glob } from 'glob'
 import { readFile, writeFile } from 'fs/promises'
 import stringify from 'json-stringify-pretty-compact'
 import { basename, dirname } from 'path'
+import Table from 'cli-table3'
+import chalk from 'chalk'
 
 async function loadMaxpat (file) {
   return JSON.parse(await readFile(file, 'utf8'))
@@ -32,7 +34,7 @@ function getPatcherParams (obj, params = []) {
       annotation_name: annotation_name || '',
       annotation: annotation || ''
     }
-    
+
     if (propagate) {
       const generic = ['live.text', 'live.numbox', 'live.dial', 'live.menu', 'live.button', 'live.tab']
 
@@ -116,7 +118,7 @@ async function collect (path) {
 
   for (const file of files) {
     console.log(`Reading ${file}`)
-    
+
     const obj = await loadMaxpat(file)
     const params = getPatcherParams(obj.patcher)
 
@@ -124,6 +126,56 @@ async function collect (path) {
   }
 
   return data
+}
+
+async function info (path) {
+  const files = glob.sync(path)
+  const data = {}
+
+  for (const file of files) {
+    console.log(`Reading ${file}`)
+
+    const obj = await loadMaxpat(file)
+    let params = obj.patcher.parameters
+
+    console.log(`\n${chalk.gray('File:')} ${file}`)
+
+    if (!params) {
+      continue
+    }
+    
+    params = Object.values(params).filter(v => Array.isArray(v))
+
+    const table = new Table({
+      head: ['Param', 'Param'].map((h) =>
+        chalk.gray(h)
+      ),
+      style: {
+        head: [], // handled manually
+        border: ['grey'],
+      },
+      wordWrap: true,
+    })
+
+    params.forEach(([a, b]) => {
+      const formatCell = (val) => {
+        if (!val) {
+          return { content: chalk.red('?'), hAlign: 'center' }
+        }
+
+        return val
+      }
+
+      const formatted = [
+        formatCell(a),
+        formatCell(b),
+      ]
+
+      table.push(formatted)
+    })
+
+    console.log(table.toString())
+  }
 }
 
 async function read (path, save) {
@@ -176,4 +228,6 @@ if (process.argv[2] === 'collect') {
 
     await writeFile(file, stringify(obj))
   })
+} else if (process.argv[2] === 'info') {
+  const params = await info(process.argv[3])
 }
