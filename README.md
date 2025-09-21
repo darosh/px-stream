@@ -4,6 +4,10 @@
 > featuring audio-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals,
 > text rendering and [Syphon](https://syphon.info/) output streaming
 
+- [Devices](#devices)
+- [Development](#development)
+- [Alternatives](#alternatives)
+
 ## Devices
 
 <!-- begin: collage -->
