@@ -60,7 +60,7 @@
     "description": "[Syphon](https://syphon.info/) input for sharing visuals between applications. Mac only."
   },
   "PX IN Video": {
-    "description": "Video playback. Supports MP4, AVI, MOV (including[HAP codecs](https://hap.video/))."
+    "description": "Video playback. Supports MP4, AVI, MOV (including [HAP codecs](https://hap.video/))."
   },
   "PX Mix Channel": {
     "description": "Send texture to selected channel. Alternative to individual channel selectors on each device."

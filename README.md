@@ -218,7 +218,7 @@ Vector graphics input with resolution-independent scaling SVG file formal
 
 ### IN Video
 
-Video playback. Supports MP4, AVI, MOV (including[HAP codecs](https://hap.video/)).
+Video playback. Supports MP4, AVI, MOV (including [HAP codecs](https://hap.video/)).
 
 <img src="./assets/devices/PX_IN_Video_v1.webp" height="231" title="PX IN Video" />
 
