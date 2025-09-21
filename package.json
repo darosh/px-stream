@@ -2,21 +2,21 @@
   "name": "px-stream",
   "version": "0.0.0",
   "devDependencies": {
+    "commander": "^14.0.1",
     "eslint": "^9.34.0",
     "eslint-plugin-maxpat": "github:darosh/eslint-plugin-maxpat",
     "glob": "^11.0.3",
-    "json-stringify-pretty-compact": "^4.0.0",
-    "sharp": "^0.34.3",
-    "commander": "^14.0.1",
+    "glsl-parser": "^2.0.1",
     "glsl-tokenizer": "^2.1.5",
-    "glsl-parser": "^2.0.1"
+    "json-stringify-pretty-compact": "^4.0.0",
+    "sharp": "^0.34.3"
   },
   "private": true,
   "scripts": {
-    "amxd:freeze": "rm -f ./devices/frozen/*.amxd && osascript ./scripts/freeze.scpt \"$(pwd)/devices\" \"$(pwd)/devices/frozen\"",
-    "amxd:resave": "osascript ./scripts/resave.scpt \"$(pwd)/devices\"",
-    "maxpat:resave": "osascript ./scripts/resave-maxpat.scpt \"$(pwd)/devices\"",
-    "doc": "node ./scripts/doc.js",
+    "doc": "npm run doc:screenshots && npm run doc:readme",
+    "doc:readme": "node ./scripts/doc.js",
+    "doc:screenshots": "rm -f ./assets/devices/*.webp && node ./scripts/screenshots.js",
+    "doc:screenshots:animated": "node ./scripts/screenshots.animated.js",
     "format:shader": "node ./scripts/format-shader.js",
     "lint:maxpat": "eslint ./devices/*.maxpat --rule={\"maxpat/ui/annotation-info\":\"off\"}",
     "lint:maxpat:fix": "eslint ./devices/*.maxpat --fix --rule={\"maxpat/ui/annotation-info\":\"off\"}",
@@ -24,13 +24,14 @@
     "lint:maxpat:fix:layout": "eslint ./devices/*.maxpat --fix --fix-type layout",
     "lint:maxpat:info": "eslint ./devices/*.maxpat --format node_modules/eslint-plugin-maxpat/lib/formatter.js",
     "measure": "node ./scripts/meausures.js",
-    "screenshots": "rm -f ./assets/devices/*.webp && node ./scripts/screenshots.js",
-    "screenshots:animated": "node ./scripts/screenshots.animated.js",
+    "osascript:amxd:freeze": "rm -f ./devices/frozen/*.amxd && osascript ./scripts/freeze.scpt \"$(pwd)/devices\" \"$(pwd)/devices/frozen\"",
+    "osascript:amxd:resave": "osascript ./scripts/resave.scpt \"$(pwd)/devices\"",
+    "osascript:maxpat:resave": "osascript ./scripts/resave-maxpat.scpt \"$(pwd)/devices\"",
     "params:collect": "node scripts/params.js collect './devices/*.maxpat' './assets/params/'",
     "params:update": "node scripts/params.js update './devices/*.maxpat' './assets/params/*.maxpat.json'",
     "transitions": "npm run transitions:prepare && npm run transitions:make",
-    "transitions:prepare": "node scripts/transitions/gl-transition-transform.js -d ./scripts/transitions/glsl -o ./scripts/transitions/glsl.json",
-    "transitions:make": "node scripts/transitions/make-jxs.js"
+    "transitions:make": "node scripts/transitions/make-jxs.js",
+    "transitions:prepare": "node scripts/transitions/gl-transition-transform.js -d ./scripts/transitions/glsl -o ./scripts/transitions/glsl.json"
   },
   "type": "module"
 }
