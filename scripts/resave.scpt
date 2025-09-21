@@ -20,6 +20,10 @@ on run argv
         tell application "System Events"
             tell process "Max"
                 keystroke "e" using command down
+                keystroke "a" using command down
+                keystroke "x" using command down
+                keystroke "s" using command down
+                keystroke "v" using command down
                 keystroke "s" using command down
                 keystroke "w" using command down
             end tell

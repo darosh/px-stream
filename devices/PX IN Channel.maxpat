@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 80.0, 567.0, 423.0 ],
+		"rect" : [ 128.0, 80.0, 257.0, 423.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -258,18 +258,17 @@
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 7 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Syphon[1]",
+							"parameter_longname" : "Channel In",
 							"parameter_mmax" : 7,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Syphon",
+							"parameter_shortname" : "Channel In",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
 						}
 
 					}
 ,
-					"spacing_x" : 3.0,
-					"varname" : "Syphon[1]"
+					"spacing_x" : 3.0
 				}
 
 			}
@@ -483,7 +482,7 @@
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Syphon",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -493,8 +492,7 @@
 
 					}
 ,
-					"spacing_x" : 3.0,
-					"varname" : "Syphon"
+					"spacing_x" : 3.0
 				}
 
 			}
@@ -803,66 +801,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-366" : [ "Syphon", "Channel", 0 ],
-			"obj-7" : [ "Syphon[1]", "Syphon", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "PX FX Delay._vps.texlut.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "PX FX Delay._vps.texset.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "PX._chain.js",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "PX._chain.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "PX._channel.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "PX._frame.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
