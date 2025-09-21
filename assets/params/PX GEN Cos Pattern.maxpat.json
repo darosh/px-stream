@@ -5,19 +5,19 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[24]",
-      "parameter_longname": "live.numbox[24]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Shift Hue",
+      "parameter_shortname": "Shift Hue",
+      "annotation_name": "Shift Hue",
       "annotation": ""
     },
     {
       "id": "obj-60",
       "maxclass": "live.tab",
       "presentation": 1,
-      "varname": "Syphon[1]",
-      "parameter_longname": "Syphon[1]",
-      "parameter_shortname": "Syphon",
-      "annotation_name": "",
+      "varname": "live.tab",
+      "parameter_longname": "Color Preset",
+      "parameter_shortname": "Color Preset",
+      "annotation_name": "Color Preset",
       "annotation": ""
     },
     {
@@ -25,9 +25,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[23]",
-      "parameter_longname": "live.numbox[23]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Value",
+      "parameter_shortname": "Value",
+      "annotation_name": "Value",
       "annotation": ""
     },
     {
@@ -35,10 +35,9 @@
       "maxclass": "live.text",
       "presentation": 1,
       "text": "x=y",
-      "varname": "live.text[5]",
-      "parameter_longname": "live.text[5]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Keep Scale Ratio",
+      "parameter_shortname": "Keep Scale Ratio",
+      "annotation_name": "Keep Scale Ratio",
       "annotation": ""
     },
     {
@@ -47,9 +46,9 @@
       "presentation": 1,
       "text": "B",
       "varname": "live.text[4]",
-      "parameter_longname": "live.text[4]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "B",
+      "parameter_shortname": "B",
+      "annotation_name": "B",
       "annotation": ""
     },
     {
@@ -58,9 +57,9 @@
       "presentation": 1,
       "text": "G",
       "varname": "live.text[3]",
-      "parameter_longname": "live.text[3]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "G",
+      "parameter_shortname": "G",
+      "annotation_name": "G",
       "annotation": ""
     },
     {
@@ -69,9 +68,9 @@
       "presentation": 1,
       "text": "R",
       "varname": "live.text[2]",
-      "parameter_longname": "live.text[2]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "R",
+      "parameter_shortname": "R",
+      "annotation_name": "R",
       "annotation": ""
     },
     {
@@ -79,9 +78,9 @@
       "maxclass": "live.text",
       "presentation": 1,
       "varname": "live.text[1]",
-      "parameter_longname": "live.text[1]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "A",
+      "parameter_shortname": "A",
+      "annotation_name": "A",
       "annotation": ""
     },
     {
@@ -89,9 +88,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[22]",
-      "parameter_longname": "live.numbox[22]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Steps",
+      "parameter_shortname": "Steps",
+      "annotation_name": "Steps",
       "annotation": ""
     },
     {
@@ -99,9 +98,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[20]",
-      "parameter_longname": "live.numbox[20]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Shift Y",
+      "parameter_shortname": "Shift Y",
+      "annotation_name": "Shift Y",
       "annotation": ""
     },
     {
@@ -109,9 +108,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[21]",
-      "parameter_longname": "live.numbox[21]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Shift X",
+      "parameter_shortname": "Shift X",
+      "annotation_name": "Shift X",
       "annotation": ""
     },
     {
@@ -119,9 +118,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[19]",
-      "parameter_longname": "live.numbox[19]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Scale Y",
+      "parameter_shortname": "Scale Y",
+      "annotation_name": "Scale Y",
       "annotation": ""
     },
     {
@@ -129,9 +128,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[18]",
-      "parameter_longname": "live.numbox[18]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Scale X",
+      "parameter_shortname": "Scale X",
+      "annotation_name": "Scale X",
       "annotation": ""
     },
     {
@@ -139,9 +138,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[14]",
-      "parameter_longname": "live.numbox[14]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Phase A",
+      "parameter_shortname": "Phase A",
+      "annotation_name": "Phase A",
       "annotation": ""
     },
     {
@@ -149,9 +148,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[15]",
-      "parameter_longname": "live.numbox[15]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Frequency A",
+      "parameter_shortname": "Frequency A",
+      "annotation_name": "Frequency A",
       "annotation": ""
     },
     {
@@ -159,9 +158,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[16]",
-      "parameter_longname": "live.numbox[16]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Amplitude A",
+      "parameter_shortname": "Amplitude A",
+      "annotation_name": "Amplitude A",
       "annotation": ""
     },
     {
@@ -169,9 +168,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[17]",
-      "parameter_longname": "live.numbox[17]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Offset A",
+      "parameter_shortname": "Offset A",
+      "annotation_name": "Offset A",
       "annotation": ""
     },
     {
@@ -179,9 +178,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[10]",
-      "parameter_longname": "live.numbox[10]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Phase B",
+      "parameter_shortname": "Phase B",
+      "annotation_name": "Phase B",
       "annotation": ""
     },
     {
@@ -189,9 +188,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[11]",
-      "parameter_longname": "live.numbox[11]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Phase G",
+      "parameter_shortname": "Phase G",
+      "annotation_name": "Phase G",
       "annotation": ""
     },
     {
@@ -199,9 +198,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[12]",
-      "parameter_longname": "live.numbox[12]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Phase R",
+      "parameter_shortname": "Phase R",
+      "annotation_name": "Phase R",
       "annotation": ""
     },
     {
@@ -209,9 +208,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[7]",
-      "parameter_longname": "live.numbox[7]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Frequency B",
+      "parameter_shortname": "Frequency B",
+      "annotation_name": "Frequency B",
       "annotation": ""
     },
     {
@@ -219,9 +218,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[8]",
-      "parameter_longname": "live.numbox[8]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Frequency G",
+      "parameter_shortname": "Frequency G",
+      "annotation_name": "Frequency G",
       "annotation": ""
     },
     {
@@ -229,9 +228,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[9]",
-      "parameter_longname": "live.numbox[9]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Frequency R",
+      "parameter_shortname": "Frequency R",
+      "annotation_name": "Frequency R",
       "annotation": ""
     },
     {
@@ -239,9 +238,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[4]",
-      "parameter_longname": "live.numbox[4]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Amplitude B",
+      "parameter_shortname": "Amplitude B",
+      "annotation_name": "Amplitude B",
       "annotation": ""
     },
     {
@@ -249,9 +248,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[5]",
-      "parameter_longname": "live.numbox[5]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Amplitude G",
+      "parameter_shortname": "Amplitude G",
+      "annotation_name": "Amplitude G",
       "annotation": ""
     },
     {
@@ -259,9 +258,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[6]",
-      "parameter_longname": "live.numbox[6]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Amplitude R",
+      "parameter_shortname": "Amplitude R",
+      "annotation_name": "Amplitude R",
       "annotation": ""
     },
     {
@@ -269,9 +268,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[3]",
-      "parameter_longname": "live.numbox[3]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Offset B",
+      "parameter_shortname": "Offset B",
+      "annotation_name": "Offset B",
       "annotation": ""
     },
     {
@@ -279,9 +278,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[2]",
-      "parameter_longname": "live.numbox[2]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Offset G",
+      "parameter_shortname": "Offset G",
+      "annotation_name": "Offset G",
       "annotation": ""
     },
     {
@@ -289,9 +288,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[1]",
-      "parameter_longname": "live.numbox[1]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Offset R",
+      "parameter_shortname": "Offset R",
+      "annotation_name": "Offset R",
       "annotation": ""
     },
     {
@@ -300,9 +299,9 @@
       "presentation": 1,
       "text": "Keep ratio",
       "varname": "live.text",
-      "parameter_longname": "live.text",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Keep Ratio",
+      "parameter_shortname": "Keep Ratio",
+      "annotation_name": "Keep Ratio",
       "annotation": ""
     },
     {
@@ -310,9 +309,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[13]",
-      "parameter_longname": "live.numbox[13]",
-      "parameter_shortname": "live.numbox[1]",
-      "annotation_name": "",
+      "parameter_longname": "Density",
+      "parameter_shortname": "Density",
+      "annotation_name": "Density",
       "annotation": ""
     },
     {
@@ -320,27 +319,27 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox",
-      "parameter_longname": "live.numbox",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Angle",
+      "parameter_shortname": "Angle",
+      "annotation_name": "Angle",
       "annotation": ""
     },
     {
       "id": "obj-4",
       "maxclass": "live.tab",
       "presentation": 1,
-      "varname": "live.tab",
-      "parameter_longname": "live.tab",
-      "parameter_shortname": "live.tab",
-      "annotation_name": "",
+      "varname": "live.tab[1]",
+      "parameter_longname": "Pattern",
+      "parameter_shortname": "Pattern",
+      "annotation_name": "Pattern",
       "annotation": ""
     },
     {
       "id": "obj-366",
       "maxclass": "live.tab",
       "presentation": 1,
-      "varname": "Syphon",
-      "parameter_longname": "Syphon",
+      "varname": "live.tab[2]",
+      "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
       "annotation_name": "Channel",
       "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."
