@@ -265,7 +265,7 @@ function updateDescription (lines, device, description, images) {
   }
 
   const imagesHtml = images.map(i => {
-    return `<img src="${imageToFile(i, screenshots.v)}" height="289" />`
+    return `<img src="${imageToFile(i, screenshots.v)}" height="192" title="${i}" />`
   })
 
   let descLines = Array.isArray(description) ? description : description.split('\n')
@@ -276,7 +276,7 @@ function updateDescription (lines, device, description, images) {
     ...lines.slice(0, start + 1),
     ...descLines,
     '',
-    ...imagesHtml,
+    imagesHtml.join(''),
     '',
     ...lines.slice(end)
   ]
