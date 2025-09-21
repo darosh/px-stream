@@ -105,83 +105,83 @@
 
 ### PX World
 
-![PX World](assets/devices/PX_World_v1.webp) ![PX World](assets/devices/PX_World_(mad_world)_v1.webp)
+<img src="./assets/devices/PX_World_v1.webp" height="289" />
+<img src="./assets/devices/PX_World_(mad_world)_v1.webp" height="289" />
 
 ### PX Mix View
 
-![PX Mix View](assets/devices/PX_Mix_View_v1.webp)
-![PX Mix View](assets/devices/PX_Mix_View_(expanded)_v1.webp)
+<img src="./assets/devices/PX_Mix_View_v1.webp" height="289" />
+<img src="./assets/devices/PX_Mix_View_(expanded)_v1.webp" height="289" />
 
 ### PX Mix Channel
 
-![PX Mix Channel](assets/devices/PX_Mix_Channel_v1.webp)
+<img src="./assets/devices/PX_Mix_Channel_v1.webp" height="289" />
 
 ### PX Mix Dry
 
-![PX Mix Dry](assets/devices/PX_Mix_Dry_v1.webp)
+<img src="./assets/devices/PX_Mix_Dry_v1.webp" height="289" />
 
 ### PX Mix Transition
 
-![PX Mix Transition](assets/devices/PX_Mix_Transition_v1.webp)
+<img src="./assets/devices/PX_Mix_Transition_v1.webp" height="289" />
 
 ---
 
 ### PX Route Audio
 
-![PX Route Audio](assets/devices/PX_Route_Audio_v1.webp)
+<img src="./assets/devices/PX_Route_Audio_v1.webp" height="289" />
 
 ### PX Route MIDI
 
-![PX_Route_MIDI](assets/devices/PX_Route_MIDI_(linked)_v1.webp)
-![PX Shader](assets/devices/PX_Shader_(types)_v1.webp)
+<img src="./assets/devices/PX_Route_MIDI_(linked)_v1.webp" height="289" />
 
 ---
 
 ### PX Shader
 
-![PX Shader](assets/devices/PX_Shader_v1.webp)
-![PX Shader](assets/devices/PX_Shader_(types)_v1.webp)
+<img src="./assets/devices/PX_Shader_v1.webp" height="289" />
+<img src="./assets/devices/PX_Shader_(types)_v1.webp" height="289" />
 
 ---
 
 ### IN Cam
 
-![PX IN Cam](assets/devices/PX_IN_Cam_v1.webp)
+<img src="./assets/devices/PX_IN_Cam_v1.webp" height="289" />
 
 ### IN Syphon
 
-![PX IN Syphon](assets/devices/PX_IN_Syphon_v1.webp)
+<img src="./assets/devices/PX_IN_Syphon_v1.webp" height="289" />
 
 ### IN Image
 
-![PX IN Image](assets/devices/PX_IN_Image_v1.webp)
+<img src="./assets/devices/PX_IN_Image_v1.webp" height="289" />
 
 ### IN SVG
 
-![PX IN SVG](assets/devices/PX_IN_SVG_v1.webp)
+<img src="./assets/devices/PX_IN_SVG_v1.webp" height="289" />
 
 ### IN Video
 
-![PX IN Video](assets/devices/PX_IN_Video_v1.webp)
+<img src="./assets/devices/PX_IN_Video_v1.webp" height="289" />
 
 ### IN Channel
 
-![PX IN Channel](assets/devices/PX_IN_Channel_v1.webp)
+<img src="./assets/devices/PX_IN_Channel_v1.webp" height="289" />
 
 ### IN Mix
 
-![PX IN Mix](assets/devices/PX_IN_Mix_v1.webp)
+<img src="./assets/devices/PX_IN_Mix_v1.webp" height="289" />
 
 ---
 
 ### GEN Cos Pattern
 
-![PX GEN Cos Pattern](assets/devices/PX_GEN_Cos_Pattern_v1.webp)
+<img src="./assets/devices/PX_GEN_Cos_Pattern_v1.webp" height="289" />
 
 ### GEN Text
 
-![PX GEN Text](assets/devices/PX_GEN_Text_v1.webp)
-![PX GEN Text](assets/devices/PX_GEN_Text_(expanded)_v1.webp)
+<img src="./assets/devices/PX_GEN_Text_v1.webp" height="289" />
+<img src="./assets/devices/PX_GEN_Text_(expanded)_v1.webp" height="289" />
 
 ---
 
@@ -189,58 +189,58 @@
 
 Various Alpha channel manipulation like Chroma keying, mapping, inverting, smoothing, removing, etc. 
 
-![PX FX Alpha](assets/devices/PX_FX_Alpha_v1.webp)
+<img src="./assets/devices/PX_FX_Alpha_v1.webp" height="289" />
 
 ### FX Blur
 
 Four blur Max/Jitter stock blur shaders
 
-![PX FX Blur](assets/devices/PX_FX_Blur_v1.webp)
+<img src="./assets/devices/PX_FX_Blur_v1.webp" height="289" />
 
 ### FX Color
 
 Various color grading and adjustments
 
-![PX FX Color](assets/devices/PX_FX_Color_v1.webp)
-![PX FX Color](assets/devices/PX_FX_Color_(gamma)_v1.webp)
-![PX FX Color](assets/devices/PX_FX_Color_(hue)_v1.webp)
+<img src="./assets/devices/PX_FX_Color_v1.webp" height="289" />
+<img src="./assets/devices/PX_FX_Color_(gamma)_v1.webp" height="289" />
+<img src="./assets/devices/PX_FX_Color_(hue)_v1.webp" height="289" />
 
 ### FX Colorize
 
 Two/tri tone colorization with various mapping methods
 
-![PX FX Colorize](assets/devices/PX_FX_Colorize_v1.webp)
+<img src="./assets/devices/PX_FX_Colorize_v1.webp" height="289" />
 
 ### FX Convert
 
 Texture format conversion, including OKLAB and normalized OKLAB aka NOKLAB
 
-![PX FX Convert](assets/devices/PX_FX_Convert_v1.webp)
-![PX FX Convert](assets/devices/PX_FX_Convert_(convert_back)_v1.webp)
+<img src="./assets/devices/PX_FX_Convert_v1.webp" height="289" />
+<img src="./assets/devices/PX_FX_Convert_(convert_back)_v1.webp" height="289" />
 
 ### FX Delay
 
 Texture delay in frames. You can mix it with dry signal using [Mix Dry](#px-mix-dry) device for ghostly trace effect
 
-![PX FX Delay](assets/devices/PX_FX_Delay_v1.webp)
+<img src="./assets/devices/PX_FX_Delay_v1.webp" height="289" />
 
 ### FX Kaleidoscope
 
 Various emulation attempts of kaleidoscope layouts [suggested by Brewster](https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster) plus one stock Max/Jitter shader
 
-![PX FX Kaleidoscope](assets/devices/PX_FX_Kaleidoscope_v1.webp)
+<img src="./assets/devices/PX_FX_Kaleidoscope_v1.webp" height="289" />
 
 ### FX Pass
 
-![PX FX Pass](assets/devices/PX_FX_Pass_v1.webp)
+<img src="./assets/devices/PX_FX_Pass_v1.webp" height="289" />
 
 ### FX Pixelization
 
-![PX FX Pixelization](assets/devices/PX_FX_Pixelization_v1.webp)
+<img src="./assets/devices/PX_FX_Pixelization_v1.webp" height="289" />
 
 ### FX Transform
 
-![PX FX Transform](assets/devices/PX_FX_Transform_v1.webp)
+<img src="./assets/devices/PX_FX_Transform_v1.webp" height="289" />
 
 ---
 
@@ -248,13 +248,13 @@ Various emulation attempts of kaleidoscope layouts [suggested by Brewster](https
 
 Displays texture info
 
-![Dev Info](assets/devices/DEV_Info_v1.webp)
+<img src="./assets/devices/DEV_Info_v1.webp" height="289" />
 
 ### DEV Console
 
 Enables additional Max console output. DO NOT USE IN PRODUCTION.
 
-![Dev Console](assets/devices/DEV_Console_v1.webp)
+<img src="./assets/devices/DEV_Console_v1.webp" height="289" />
 
 ## Development
 

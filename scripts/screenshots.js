@@ -1,14 +1,14 @@
 import sharp from 'sharp'
 import { glob } from 'glob'
 
-import config from './screenshots.conf.js'
+import config, { imageToFile } from './screenshots.conf.js'
 
 async function processScreenshots () {
   const screenshots = glob.sync('./assets/Screenshot 2*.png').sort().slice(-6)
 
   for (const device of config.devices) {
     const [src, name, x0, x1] = device
-    const outputFile = `./assets/devices/${name.replace(/\s+/g, '_')}_v${config.v}.webp`
+    const outputFile = imageToFile(name, config.v)
     const inputFile = `./${screenshots[src - 1]}`
 
     await sharp(inputFile)

@@ -1,8 +1,8 @@
-import fs from 'fs'
 import path from 'path'
 import { glob } from 'glob'
 import sharp from 'sharp'
 import { readFile, writeFile } from 'fs/promises'
+import screenshots, { imageToFile } from './screenshots.conf.js'
 
 // === CONFIGURATION ===
 const inputPattern = './assets/devices/*.webp' // adjust to your folder
@@ -248,7 +248,7 @@ function replaceLines (lines, slug, replace) {
   ]
 }
 
-function updateDescription (lines, device, description) {
+function updateDescription (lines, device, description, images) {
   const title = imgTitle(device)
 
   const start = lines.indexOf(`### ${title}`)
@@ -258,16 +258,25 @@ function updateDescription (lines, device, description) {
     process.exit()
   }
 
-  let end = start
+  let end = start + 1
 
-  while (lines[end][0] !== '!') {
+  while (!(lines[end][0] === '#' || lines[end] === '---')) {
     end++
   }
 
+  const imagesHtml = images.map(i => {
+    return `<img src="${imageToFile(i, screenshots.v)}" height="289" />`
+  })
+
+  let descLines = Array.isArray(description) ? description : description.split('\n')
+
+  descLines = !descLines.join('').trim() ? [] : ['', ...descLines]
+
   return [
     ...lines.slice(0, start + 1),
+    ...descLines,
     '',
-    ...Array.isArray(description) ? description : description.split('\n'),
+    ...imagesHtml,
     '',
     ...lines.slice(end)
   ]
@@ -277,11 +286,13 @@ function updateDeviceInfo (lines, devices) {
   let updated = lines
 
   for (const [device, { description }] of Object.entries(devices)) {
-    if (!description) {
-      continue
-    }
+    const images = screenshots.devices
+      .filter(([_id, name]) => {
+        return name.replace(/ \(.+\)/, '') === device
+      })
+      .map(([_id, name]) => name)
 
-    updated = updateDescription(updated, device, description)
+    updated = updateDescription(updated, device, description, images)
   }
 
   return updated
