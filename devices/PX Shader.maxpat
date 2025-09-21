@@ -2314,7 +2314,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
-					"annotation_name" : "Reset",
+					"annotation_name" : "Reset P05",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2371,13 +2371,13 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_annotation_name" : "Reset",
+							"parameter_annotation_name" : "Reset P05",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[11]",
+							"parameter_longname" : "Reset P05",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Reset",
+							"parameter_shortname" : "Reset P05",
 							"parameter_type" : 2
 						}
 
@@ -2385,8 +2385,7 @@
 ,
 					"text" : "",
 					"textcolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 0.0 ],
-					"textoffcolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
-					"varname" : "Reset"
+					"textoffcolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ]
 				}
 
 			}
@@ -21294,7 +21293,7 @@
 			"obj-362" : [ "Reload", "Reload", 0 ],
 			"obj-363" : [ "P26", "P26", 0 ],
 			"obj-364" : [ "MIDI", "MIDI", 0 ],
-			"obj-365" : [ "live.text[11]", "Reset", 0 ],
+			"obj-365" : [ "Reset P05", "Reset P05", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
 			"obj-371" : [ "P07", "P07", 0 ],
 			"obj-386" : [ "Reset P06", "Reset P06", 0 ],

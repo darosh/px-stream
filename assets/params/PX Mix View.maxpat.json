@@ -5,9 +5,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[7]",
-      "parameter_longname": "live.numbox[7]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Mix 8",
+      "parameter_shortname": "Mix 8",
+      "annotation_name": "Mix 8",
       "annotation": ""
     },
     {
@@ -15,9 +15,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[6]",
-      "parameter_longname": "live.numbox[6]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Mix 7",
+      "parameter_shortname": "Mix 7",
+      "annotation_name": "Mix 7",
       "annotation": ""
     },
     {
@@ -25,9 +25,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[5]",
-      "parameter_longname": "live.numbox[5]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Mix 6",
+      "parameter_shortname": "Mix 6",
+      "annotation_name": "Mix 6",
       "annotation": ""
     },
     {
@@ -35,9 +35,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[4]",
-      "parameter_longname": "live.numbox[4]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Mix 5",
+      "parameter_shortname": "Mix 5",
+      "annotation_name": "Mix 5",
       "annotation": ""
     },
     {
@@ -45,9 +45,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[3]",
-      "parameter_longname": "live.numbox[3]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Mix 4",
+      "parameter_shortname": "Mix 4",
+      "annotation_name": "Mix 4",
       "annotation": ""
     },
     {
@@ -55,9 +55,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[2]",
-      "parameter_longname": "live.numbox[2]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Mix 3",
+      "parameter_shortname": "Mix 3",
+      "annotation_name": "Mix 3",
       "annotation": ""
     },
     {
@@ -65,9 +65,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[1]",
-      "parameter_longname": "live.numbox[1]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Mix 2",
+      "parameter_shortname": "Mix 2",
+      "annotation_name": "Mix 2",
       "annotation": ""
     },
     {
@@ -75,9 +75,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox",
-      "parameter_longname": "live.numbox",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Mix 1",
+      "parameter_shortname": "Mix 1",
+      "annotation_name": "Mix 1",
       "annotation": ""
     },
     {
@@ -86,9 +86,9 @@
       "presentation": 1,
       "text": "FPS",
       "varname": "live.text[18]",
-      "parameter_longname": "live.text[18]",
-      "parameter_shortname": "live.text[18]",
-      "annotation_name": "",
+      "parameter_longname": "FPS",
+      "parameter_shortname": "FPS",
+      "annotation_name": "FPS",
       "annotation": ""
     },
     {
@@ -97,9 +97,9 @@
       "presentation": 1,
       "text": "9",
       "varname": "live.text[17]",
-      "parameter_longname": "live.text[17]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Out 9",
+      "parameter_shortname": "Out 9",
+      "annotation_name": "Out 9",
       "annotation": ""
     },
     {
@@ -108,9 +108,9 @@
       "presentation": 1,
       "text": "8",
       "varname": "live.text[9]",
-      "parameter_longname": "live.text[9]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Out 8",
+      "parameter_shortname": "Out 8",
+      "annotation_name": "Out 8",
       "annotation": ""
     },
     {
@@ -119,9 +119,9 @@
       "presentation": 1,
       "text": "7",
       "varname": "live.text[10]",
-      "parameter_longname": "live.text[10]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Out 7",
+      "parameter_shortname": "Out 7",
+      "annotation_name": "Out 7",
       "annotation": ""
     },
     {
@@ -130,9 +130,9 @@
       "presentation": 1,
       "text": "6",
       "varname": "live.text[11]",
-      "parameter_longname": "live.text[11]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Out 6",
+      "parameter_shortname": "Out 6",
+      "annotation_name": "Out 6",
       "annotation": ""
     },
     {
@@ -141,9 +141,9 @@
       "presentation": 1,
       "text": "5",
       "varname": "live.text[12]",
-      "parameter_longname": "live.text[12]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Out 5",
+      "parameter_shortname": "Out 5",
+      "annotation_name": "Out 5",
       "annotation": ""
     },
     {
@@ -152,9 +152,9 @@
       "presentation": 1,
       "text": "4",
       "varname": "live.text[13]",
-      "parameter_longname": "live.text[13]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Out 4",
+      "parameter_shortname": "Out 4",
+      "annotation_name": "Out 4",
       "annotation": ""
     },
     {
@@ -163,9 +163,9 @@
       "presentation": 1,
       "text": "3",
       "varname": "live.text[14]",
-      "parameter_longname": "live.text[14]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Out 3",
+      "parameter_shortname": "Out 3",
+      "annotation_name": "Out 3",
       "annotation": ""
     },
     {
@@ -174,9 +174,9 @@
       "presentation": 1,
       "text": "2",
       "varname": "live.text[15]",
-      "parameter_longname": "live.text[15]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Out 2",
+      "parameter_shortname": "Out 2",
+      "annotation_name": "Out 2",
       "annotation": ""
     },
     {
@@ -185,9 +185,9 @@
       "presentation": 1,
       "text": "1",
       "varname": "live.text[16]",
-      "parameter_longname": "live.text[16]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Out 1",
+      "parameter_shortname": "Out 1",
+      "annotation_name": "Out 1",
       "annotation": ""
     },
     {
@@ -196,9 +196,9 @@
       "presentation": 1,
       "text": "...",
       "varname": "live.text[8]",
-      "parameter_longname": "live.text[8]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "More",
+      "parameter_shortname": "More",
+      "annotation_name": "More",
       "annotation": ""
     },
     {
@@ -207,9 +207,9 @@
       "presentation": 1,
       "text": "8",
       "varname": "live.text[7]",
-      "parameter_longname": "live.text[7]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "8",
+      "parameter_shortname": "8",
+      "annotation_name": "8",
       "annotation": ""
     },
     {
@@ -218,9 +218,9 @@
       "presentation": 1,
       "text": "7",
       "varname": "live.text[6]",
-      "parameter_longname": "live.text[6]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "7",
+      "parameter_shortname": "7",
+      "annotation_name": "7",
       "annotation": ""
     },
     {
@@ -229,9 +229,9 @@
       "presentation": 1,
       "text": "6",
       "varname": "live.text[5]",
-      "parameter_longname": "live.text[5]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "6",
+      "parameter_shortname": "6",
+      "annotation_name": "6",
       "annotation": ""
     },
     {
@@ -240,9 +240,9 @@
       "presentation": 1,
       "text": "5",
       "varname": "live.text[4]",
-      "parameter_longname": "live.text[4]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "5",
+      "parameter_shortname": "5",
+      "annotation_name": "5",
       "annotation": ""
     },
     {
@@ -251,9 +251,9 @@
       "presentation": 1,
       "text": "4",
       "varname": "live.text[3]",
-      "parameter_longname": "live.text[3]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "4",
+      "parameter_shortname": "4",
+      "annotation_name": "4",
       "annotation": ""
     },
     {
@@ -262,9 +262,9 @@
       "presentation": 1,
       "text": "3",
       "varname": "live.text[2]",
-      "parameter_longname": "live.text[2]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "3",
+      "parameter_shortname": "3",
+      "annotation_name": "3",
       "annotation": ""
     },
     {
@@ -273,9 +273,9 @@
       "presentation": 1,
       "text": "2",
       "varname": "live.text[1]",
-      "parameter_longname": "live.text[1]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "2",
+      "parameter_shortname": "2",
+      "annotation_name": "2",
       "annotation": ""
     },
     {
@@ -284,9 +284,9 @@
       "presentation": 1,
       "text": "1",
       "varname": "live.text",
-      "parameter_longname": "live.text",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "1",
+      "parameter_shortname": "1",
+      "annotation_name": "1",
       "annotation": ""
     }
   ]

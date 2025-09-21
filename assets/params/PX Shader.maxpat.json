@@ -302,10 +302,9 @@
       "maxclass": "live.text",
       "presentation": 1,
       "text": "",
-      "varname": "Reset",
-      "parameter_longname": "live.text[11]",
-      "parameter_shortname": "Reset",
-      "annotation_name": "Reset",
+      "parameter_longname": "Reset P05",
+      "parameter_shortname": "Reset P05",
+      "annotation_name": "Reset P05",
       "annotation": ""
     },
     {

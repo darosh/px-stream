@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 567.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 567.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -203,7 +203,7 @@
 							"parameter_info" : "Selects which of previous devices will be used as origin of the transition",
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.tab",
+							"parameter_longname" : "From",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "From",
@@ -275,7 +275,7 @@
 							"parameter_info" : "Selects transition",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.menu",
+							"parameter_longname" : "Transition",
 							"parameter_mmax" : 98,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Transition",
@@ -1188,7 +1188,7 @@
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Syphon",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -1198,8 +1198,7 @@
 
 					}
 ,
-					"spacing_x" : 3.0,
-					"varname" : "Syphon"
+					"spacing_x" : 3.0
 				}
 
 			}
@@ -1630,9 +1629,9 @@
  ],
 		"parameters" : 		{
 			"obj-24" : [ "Progress", "Progress", 0 ],
-			"obj-25" : [ "live.menu", "Transition", 0 ],
-			"obj-366" : [ "Syphon", "Channel", 0 ],
-			"obj-68" : [ "live.tab", "From", 0 ],
+			"obj-25" : [ "Transition", "Transition", 0 ],
+			"obj-366" : [ "Channel", "Channel", 0 ],
+			"obj-68" : [ "From", "From", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
