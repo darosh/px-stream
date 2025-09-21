@@ -5,9 +5,9 @@
       "maxclass": "textedit",
       "presentation": 1,
       "varname": "textedit",
-      "parameter_longname": "textedit",
-      "parameter_shortname": "textedit",
-      "annotation_name": "",
+      "parameter_longname": "Text",
+      "parameter_shortname": "Text",
+      "annotation_name": "Text",
       "annotation": ""
     },
     {
@@ -15,9 +15,9 @@
       "maxclass": "live.tab",
       "presentation": 1,
       "varname": "live.tab[1]",
-      "parameter_longname": "live.tab[1]",
-      "parameter_shortname": "live.tab",
-      "annotation_name": "",
+      "parameter_longname": "Text Type",
+      "parameter_shortname": "Text Type",
+      "annotation_name": "Text Type",
       "annotation": ""
     },
     {
@@ -25,9 +25,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[10]",
-      "parameter_longname": "live.numbox[10]",
-      "parameter_shortname": "live.numbox[8]",
-      "annotation_name": "",
+      "parameter_longname": "Line Length",
+      "parameter_shortname": "Line Length",
+      "annotation_name": "Line Length",
       "annotation": ""
     },
     {
@@ -35,9 +35,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[9]",
-      "parameter_longname": "live.numbox[9]",
-      "parameter_shortname": "live.numbox[8]",
-      "annotation_name": "",
+      "parameter_longname": "Lead Scale",
+      "parameter_shortname": "Lead Scale",
+      "annotation_name": "Lead Scale",
       "annotation": ""
     },
     {
@@ -45,9 +45,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[8]",
-      "parameter_longname": "live.numbox[8]",
-      "parameter_shortname": "live.numbox[8]",
-      "annotation_name": "",
+      "parameter_longname": "Tracking",
+      "parameter_shortname": "Tracking",
+      "annotation_name": "Tracking",
       "annotation": ""
     },
     {
@@ -56,9 +56,9 @@
       "presentation": 1,
       "text": "I",
       "varname": "live.text[1]",
-      "parameter_longname": "live.text[1]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Italic",
+      "parameter_shortname": "Italic",
+      "annotation_name": "Italic",
       "annotation": ""
     },
     {
@@ -67,9 +67,9 @@
       "presentation": 1,
       "text": "B",
       "varname": "live.text",
-      "parameter_longname": "live.text",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Bold",
+      "parameter_shortname": "Bold",
+      "annotation_name": "Bold",
       "annotation": ""
     },
     {
@@ -77,9 +77,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[7]",
-      "parameter_longname": "live.numbox[7]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Track",
+      "parameter_shortname": "Track",
+      "annotation_name": "Track",
       "annotation": ""
     },
     {
@@ -87,9 +87,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[5]",
-      "parameter_longname": "live.numbox[5]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Y",
+      "parameter_shortname": "Y",
+      "annotation_name": "Y",
       "annotation": ""
     },
     {
@@ -97,9 +97,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[6]",
-      "parameter_longname": "live.numbox[6]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "X",
+      "parameter_shortname": "X",
+      "annotation_name": "X",
       "annotation": ""
     },
     {
@@ -107,9 +107,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[3]",
-      "parameter_longname": "live.numbox[3]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "G",
+      "parameter_shortname": "G",
+      "annotation_name": "G",
       "annotation": ""
     },
     {
@@ -117,9 +117,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[4]",
-      "parameter_longname": "live.numbox[4]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "R",
+      "parameter_shortname": "R",
+      "annotation_name": "R",
       "annotation": ""
     },
     {
@@ -127,9 +127,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[2]",
-      "parameter_longname": "live.numbox[2]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "A",
+      "parameter_shortname": "A",
+      "annotation_name": "A",
       "annotation": ""
     },
     {
@@ -137,9 +137,9 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox[1]",
-      "parameter_longname": "live.numbox[1]",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "B",
+      "parameter_shortname": "B",
+      "annotation_name": "B",
       "annotation": ""
     },
     {
@@ -147,27 +147,27 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "live.numbox",
-      "parameter_longname": "live.numbox",
-      "parameter_shortname": "live.numbox",
-      "annotation_name": "",
+      "parameter_longname": "Font Size",
+      "parameter_shortname": "Font Size",
+      "annotation_name": "Font Size",
       "annotation": ""
     },
     {
       "id": "obj-36",
       "maxclass": "live.menu",
       "presentation": 1,
-      "varname": "Dimensions[1]",
-      "parameter_longname": "Dimensions[1]",
-      "parameter_shortname": "Dimensions",
-      "annotation_name": "",
+      "varname": "live.menu",
+      "parameter_longname": "Alignment",
+      "parameter_shortname": "Alignment",
+      "annotation_name": "Alignment",
       "annotation": ""
     },
     {
       "id": "obj-366",
       "maxclass": "live.tab",
       "presentation": 1,
-      "varname": "Syphon",
-      "parameter_longname": "Syphon",
+      "varname": "live.tab",
+      "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
       "annotation_name": "Channel",
       "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."
@@ -176,10 +176,10 @@
       "id": "obj-42",
       "maxclass": "live.tab",
       "presentation": 1,
-      "varname": "live.tab",
-      "parameter_longname": "live.tab",
-      "parameter_shortname": "live.tab",
-      "annotation_name": "",
+      "varname": "live.tab[2]",
+      "parameter_longname": "Clip Type",
+      "parameter_shortname": "Clip Type",
+      "annotation_name": "Clip Type",
       "annotation": ""
     }
   ]
