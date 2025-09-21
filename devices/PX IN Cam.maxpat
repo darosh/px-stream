@@ -9,7 +9,7 @@
       "modernui": 1
     },
     "classnamespace": "box",
-    "rect": [33, 71, 567, 508],
+    "rect": [133, 80, 257, 423],
     "openinpresentation": 1,
     "gridonopen": 2,
     "gridsize": [8, 8],
@@ -131,16 +131,18 @@
             "valueof": {
               "parameter_enum": ["val1", "val2"],
               "parameter_invisible": 2,
-              "parameter_longname": "Reload[5]",
+              "parameter_longname": "Reload",
               "parameter_mmax": 1,
               "parameter_modmode": 0,
               "parameter_shortname": "Reload",
-              "parameter_type": 2
+              "parameter_type": 2,
+              "parameter_annotation_name": "Reload"
             }
           },
           "text": "Reload",
           "usesvgviewbox": 1,
-          "varname": "live.text[10]"
+          "varname": "live.text[10]",
+          "annotation_name": "Reload"
         }
       },
       {
@@ -159,7 +161,21 @@
           "allowdrag": 0,
           "hint": "",
           "id": "obj-22",
-          "items": "<empty>",
+          "items": [
+            "NV12 - 420YpCbCr8BiPlanar - 1920 x 1080",
+            ",",
+            "NV12 - 420YpCbCr8BiPlanar - 1280 x 720",
+            ",",
+            "NV12 - 420YpCbCr8BiPlanar - 1080 x 1920",
+            ",",
+            "NV12 - 420YpCbCr8BiPlanar - 1760 x 1328",
+            ",",
+            "NV12 - 420YpCbCr8BiPlanar - 640 x 480",
+            ",",
+            "NV12 - 420YpCbCr8BiPlanar - 1328 x 1760",
+            ",",
+            "NV12 - 420YpCbCr8BiPlanar - 1552 x 1552"
+          ],
           "maxclass": "umenu",
           "numinlets": 1,
           "numoutlets": 3,
@@ -177,7 +193,13 @@
           "allowdrag": 0,
           "hint": "",
           "id": "obj-51",
-          "items": "<empty>",
+          "items": [
+            "FaceTime HD Camera",
+            ",",
+            "OBS Virtual Camera",
+            ",",
+            "Elgato Virtual Camera"
+          ],
           "maxclass": "umenu",
           "numinlets": 1,
           "numoutlets": 3,
@@ -259,17 +281,19 @@
             "focusbordercolor": {"expression": ""},
             "valueof": {
               "parameter_enum": ["Stop", "Pause", "Play"],
-              "parameter_longname": "live.tab",
+              "parameter_longname": "Play",
               "parameter_mmax": 2,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.tab",
+              "parameter_shortname": "Play",
               "parameter_type": 2,
-              "parameter_unitstyle": 9
+              "parameter_unitstyle": 9,
+              "parameter_annotation_name": "Play"
             }
           },
           "spacing_x": 3,
           "spacing_y": 3,
-          "varname": "live.tab"
+          "varname": "live.tab",
+          "annotation_name": "Play"
         }
       },
       {
@@ -492,7 +516,7 @@
               "parameter_info": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
               "parameter_initial": [8],
               "parameter_initial_enable": 1,
-              "parameter_longname": "Syphon",
+              "parameter_longname": "Channel",
               "parameter_mmax": 8,
               "parameter_modmode": 0,
               "parameter_shortname": "Channel",
@@ -500,8 +524,7 @@
               "parameter_unitstyle": 9
             }
           },
-          "spacing_x": 3,
-          "varname": "Syphon"
+          "spacing_x": 3
         }
       },
       {
@@ -1152,11 +1175,11 @@
       "obj-14": ["formatnum[1]", "formatnum[1]", 0],
       "obj-18": ["vdevnum", "vdevnum", 0],
       "obj-29": ["formatnum", "formatnum", 10],
-      "obj-362": ["Reload[5]", "Reload", 0],
-      "obj-366": ["Syphon", "Channel", 0],
+      "obj-362": ["Reload", "Reload", 0],
+      "obj-366": ["Channel", "Channel", 0],
       "obj-40": ["vdevnum[1]", "vdevnum[1]", 0],
       "obj-51": ["Available devices", "Available devices", 0],
-      "obj-54": ["live.tab", "live.tab", 0],
+      "obj-54": ["Play", "live.tab", 0],
       "parameterbanks": {
         "0": {
           "index": 0,

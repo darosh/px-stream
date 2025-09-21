@@ -5,9 +5,9 @@
       "maxclass": "live.menu",
       "presentation": 1,
       "varname": "live.menu",
-      "parameter_longname": "live.menu",
-      "parameter_shortname": "live.menu",
-      "annotation_name": "",
+      "parameter_longname": "View",
+      "parameter_shortname": "View",
+      "annotation_name": "View",
       "annotation": ""
     },
     {
@@ -16,9 +16,9 @@
       "presentation": 1,
       "text": "Folder",
       "varname": "live.text[9]",
-      "parameter_longname": "Reload[4]",
-      "parameter_shortname": "Reload",
-      "annotation_name": "",
+      "parameter_longname": "Folder",
+      "parameter_shortname": "Folder",
+      "annotation_name": "Folder",
       "annotation": ""
     },
     {
@@ -27,9 +27,9 @@
       "presentation": 1,
       "text": "Edit",
       "varname": "live.text[8]",
-      "parameter_longname": "Reload[3]",
-      "parameter_shortname": "Reload",
-      "annotation_name": "",
+      "parameter_longname": "Edit",
+      "parameter_shortname": "Edit",
+      "annotation_name": "Edit",
       "annotation": ""
     },
     {
@@ -38,17 +38,16 @@
       "presentation": 1,
       "text": "Reload",
       "varname": "live.text[10]",
-      "parameter_longname": "Reload[5]",
+      "parameter_longname": "Reload",
       "parameter_shortname": "Reload",
-      "annotation_name": "",
+      "annotation_name": "Reload",
       "annotation": ""
     },
     {
       "id": "obj-366",
       "maxclass": "live.tab",
       "presentation": 1,
-      "varname": "Syphon",
-      "parameter_longname": "Syphon",
+      "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
       "annotation_name": "Channel",
       "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."
