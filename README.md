@@ -115,7 +115,7 @@ Essential rendering context. You need exactly one per Live set. More would be pr
 
 ### PX Mix View
 
-Multi-channel mixing and preview. Mix output selected in expanded section can be consumed by [IN Mix](#px-in-mix) device and [Syphon](https://syphon.info/) clients. Click preview for floating window, <kbd>ESC</kbd> for fullscreen on/off.
+Multi-channel mixing and preview. Mix output selected in expanded section can be consumed by [IN Mix](#in-mix) device and [Syphon](https://syphon.info/) clients. Click preview for floating window, <kbd>ESC</kbd> for fullscreen on/off.
 
 <img src="./assets/devices/PX_Mix_View_v1.webp" height="231" title="PX Mix View" /> <img src="./assets/devices/PX_Mix_View_(expanded)_v1.webp" height="231" title="PX Mix View (expanded)" />
 
@@ -202,6 +202,8 @@ Live input from connected video devices
 
 <img src="./assets/devices/PX_IN_Syphon_v1.webp" height="231" title="PX IN Syphon" />
 
+---
+
 ### IN Image
 
 Static image input. Supports JPG, WEBP and PNG formats.
@@ -219,6 +221,8 @@ Vector graphics input with resolution-independent scaling SVG file formal
 Video playback. Supports MP4, AVI, MOV (including[HAP codecs](https://hap.video/)).
 
 <img src="./assets/devices/PX_IN_Video_v1.webp" height="231" title="PX IN Video" />
+
+---
 
 ### IN Channel
 
