@@ -57,7 +57,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_invisible" : 1,
-							"parameter_longname" : "live.toggle",
+							"parameter_longname" : "Initialized",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.toggle",
@@ -100,6 +100,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P32",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -156,12 +157,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P32",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[38]",
+							"parameter_longname" : "Reset P32",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P32",
 							"parameter_type" : 2
 						}
 
@@ -180,6 +182,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P31",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -236,12 +239,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P31",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[37]",
+							"parameter_longname" : "Reset P31",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P31",
 							"parameter_type" : 2
 						}
 
@@ -260,6 +264,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P30",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -316,12 +321,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P30",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[36]",
+							"parameter_longname" : "Reset P30",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P30",
 							"parameter_type" : 2
 						}
 
@@ -340,6 +346,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P29",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -396,12 +403,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P29",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[35]",
+							"parameter_longname" : "Reset P29",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P29",
 							"parameter_type" : 2
 						}
 
@@ -420,6 +428,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P28",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -476,12 +485,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P28",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[34]",
+							"parameter_longname" : "Reset P28",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P28",
 							"parameter_type" : 2
 						}
 
@@ -500,6 +510,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P27",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -556,12 +567,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P27",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[33]",
+							"parameter_longname" : "Reset P27",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P27",
 							"parameter_type" : 2
 						}
 
@@ -580,6 +592,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P26",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -636,12 +649,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P26",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[32]",
+							"parameter_longname" : "Reset P26",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P26",
 							"parameter_type" : 2
 						}
 
@@ -660,6 +674,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P25",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -716,12 +731,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P25",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[31]",
+							"parameter_longname" : "Reset P25",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P25",
 							"parameter_type" : 2
 						}
 
@@ -740,6 +756,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P24",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -796,12 +813,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P24",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[30]",
+							"parameter_longname" : "Reset P24",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P24",
 							"parameter_type" : 2
 						}
 
@@ -820,6 +838,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P23",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -876,12 +895,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P23",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[29]",
+							"parameter_longname" : "Reset P23",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P23",
 							"parameter_type" : 2
 						}
 
@@ -900,6 +920,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P22",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -956,12 +977,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P22",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[28]",
+							"parameter_longname" : "Reset P22",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P22",
 							"parameter_type" : 2
 						}
 
@@ -980,6 +1002,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P21",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1036,12 +1059,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P21",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[27]",
+							"parameter_longname" : "Reset P21",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P21",
 							"parameter_type" : 2
 						}
 
@@ -1060,6 +1084,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P20",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1116,12 +1141,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P20",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[26]",
+							"parameter_longname" : "Reset P20",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P20",
 							"parameter_type" : 2
 						}
 
@@ -1140,6 +1166,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P19",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1196,12 +1223,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P19",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[25]",
+							"parameter_longname" : "Reset P19",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P19",
 							"parameter_type" : 2
 						}
 
@@ -1220,6 +1248,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P18",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1276,12 +1305,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P18",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[24]",
+							"parameter_longname" : "Reset P18",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P18",
 							"parameter_type" : 2
 						}
 
@@ -1300,6 +1330,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P17",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1356,12 +1387,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P17",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[23]",
+							"parameter_longname" : "Reset P17",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P17",
 							"parameter_type" : 2
 						}
 
@@ -1380,6 +1412,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P16",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1436,12 +1469,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P16",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[22]",
+							"parameter_longname" : "Reset P16",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P16",
 							"parameter_type" : 2
 						}
 
@@ -1460,6 +1494,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P15",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1516,12 +1551,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P15",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[21]",
+							"parameter_longname" : "Reset P15",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P15",
 							"parameter_type" : 2
 						}
 
@@ -1540,6 +1576,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P14",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1596,12 +1633,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P14",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[20]",
+							"parameter_longname" : "Reset P14",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P14",
 							"parameter_type" : 2
 						}
 
@@ -1620,6 +1658,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P13",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1676,12 +1715,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P13",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "Reset P13",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P13",
 							"parameter_type" : 2
 						}
 
@@ -1700,6 +1740,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P12",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1756,12 +1797,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P12",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[18]",
+							"parameter_longname" : "Reset P12",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P12",
 							"parameter_type" : 2
 						}
 
@@ -1780,6 +1822,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P11",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1836,12 +1879,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P11",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[17]",
+							"parameter_longname" : "Reset P11",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P11",
 							"parameter_type" : 2
 						}
 
@@ -1860,6 +1904,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P10",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1916,12 +1961,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P10",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[16]",
+							"parameter_longname" : "Reset P10",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P10",
 							"parameter_type" : 2
 						}
 
@@ -1940,6 +1986,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P09",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1996,12 +2043,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P09",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[15]",
+							"parameter_longname" : "Reset P09",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P09",
 							"parameter_type" : 2
 						}
 
@@ -2020,6 +2068,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P08",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2076,12 +2125,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P08",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[14]",
+							"parameter_longname" : "Reset P08",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P08",
 							"parameter_type" : 2
 						}
 
@@ -2100,6 +2150,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P07",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2156,12 +2207,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P07",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[13]",
+							"parameter_longname" : "Reset P07",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P07",
 							"parameter_type" : 2
 						}
 
@@ -2180,6 +2232,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P06",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2236,12 +2289,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P06",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[12]",
+							"parameter_longname" : "Reset P06",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P06",
 							"parameter_type" : 2
 						}
 
@@ -2260,6 +2314,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2316,12 +2371,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "live.text[11]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset",
 							"parameter_type" : 2
 						}
 
@@ -2330,7 +2386,7 @@
 					"text" : "",
 					"textcolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 0.0 ],
 					"textoffcolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
-					"varname" : "live.text[4]"
+					"varname" : "Reset"
 				}
 
 			}
@@ -2340,6 +2396,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P04",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2396,12 +2453,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P04",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[10]",
+							"parameter_longname" : "Reset P04",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P04",
 							"parameter_type" : 2
 						}
 
@@ -2420,6 +2478,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P03",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2476,12 +2535,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P03",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[9]",
+							"parameter_longname" : "Reset P03",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P03",
 							"parameter_type" : 2
 						}
 
@@ -2500,6 +2560,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P02",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2556,12 +2617,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P02",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "Reset P02",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P02",
 							"parameter_type" : 2
 						}
 
@@ -2580,6 +2642,7 @@
 					"activebgoncolor" : [ 0.901960784313726, 0.650980392156863, 0.050980392156863, 0.0 ],
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"annotation_name" : "Reset P01",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2636,12 +2699,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reset P01",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text",
+							"parameter_longname" : "Reset P01",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Reset P01",
 							"parameter_type" : 2
 						}
 
@@ -5691,7 +5755,7 @@
 					"activebgcolor" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
 					"activeslidercolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"annotation" : "Click the label for reset to default value.",
-					"annotation_name" : "Shader parameter",
+					"annotation_name" : "P01",
 					"appearance" : 2,
 					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-12",
@@ -5721,7 +5785,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_annotation_name" : "Shader parameter",
+							"parameter_annotation_name" : "P01",
 							"parameter_info" : "Click the label for reset to default value.",
 							"parameter_longname" : "P01",
 							"parameter_mmax" : 2048.0,
@@ -5854,6 +5918,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"annotation_name" : "IN",
 					"appearance" : 1,
 					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
@@ -5887,12 +5952,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "IN",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "fftImage[8]",
+							"parameter_longname" : "IN",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "fftImage",
+							"parameter_shortname" : "IN",
 							"parameter_type" : 1
 						}
 
@@ -6082,6 +6148,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"annotation_name" : "Show Type",
 					"id" : "obj-195",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -6097,13 +6164,14 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Show Type",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "Show Type",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Show Type",
 							"parameter_type" : 2
 						}
 
@@ -6118,6 +6186,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"annotation_name" : "Show Parameters",
 					"id" : "obj-4",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -6133,13 +6202,14 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Show Parameters",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.text[8]",
+							"parameter_longname" : "Show Parameters",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "Show Parameters",
 							"parameter_type" : 2
 						}
 
@@ -7013,6 +7083,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"annotation_name" : "XYE",
 					"appearance" : 1,
 					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
@@ -7046,12 +7117,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "XYE",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "fftImage[7]",
+							"parameter_longname" : "XYE",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "fftImage",
+							"parameter_shortname" : "XYE",
 							"parameter_type" : 1
 						}
 
@@ -8064,6 +8136,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"annotation_name" : "XYD",
 					"appearance" : 1,
 					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
@@ -8097,12 +8170,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "XYD",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "fftImage[6]",
+							"parameter_longname" : "XYD",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "fftImage",
+							"parameter_shortname" : "XYD",
 							"parameter_type" : 1
 						}
 
@@ -8117,6 +8191,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"annotation_name" : "XYC",
 					"appearance" : 1,
 					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
@@ -8150,12 +8225,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "XYC",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "fftImage[5]",
+							"parameter_longname" : "XYC",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "fftImage",
+							"parameter_shortname" : "XYC",
 							"parameter_type" : 1
 						}
 
@@ -8170,6 +8246,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"annotation_name" : "XY",
 					"appearance" : 1,
 					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
@@ -8203,12 +8280,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "XY",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "fftImage[4]",
+							"parameter_longname" : "XY",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "fftImage",
+							"parameter_shortname" : "XY",
 							"parameter_type" : 1
 						}
 
@@ -10620,6 +10698,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"annotation_name" : "MIDI",
 					"appearance" : 1,
 					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
@@ -10653,12 +10732,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "MIDI",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "fftImage[2]",
+							"parameter_longname" : "MIDI",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "fftImage",
+							"parameter_shortname" : "MIDI",
 							"parameter_type" : 1
 						}
 
@@ -10672,6 +10752,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation_name" : "Reload",
 					"fontsize" : 8.0,
 					"id" : "obj-362",
 					"maxclass" : "live.text",
@@ -10687,9 +10768,10 @@
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Reload",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Reload[5]",
+							"parameter_longname" : "Reload",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reload",
@@ -10706,6 +10788,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation_name" : "Open Folder",
 					"fontsize" : 8.0,
 					"id" : "obj-361",
 					"maxclass" : "live.text",
@@ -10721,12 +10804,13 @@
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Open Folder",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Reload[4]",
+							"parameter_longname" : "Open Folder",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Reload",
+							"parameter_shortname" : "Open Folder",
 							"parameter_type" : 2
 						}
 
@@ -10740,6 +10824,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation_name" : "Edit",
 					"fontsize" : 8.0,
 					"id" : "obj-360",
 					"maxclass" : "live.text",
@@ -10755,12 +10840,13 @@
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Edit",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Reload[3]",
+							"parameter_longname" : "Edit",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Reload",
+							"parameter_shortname" : "Edit",
 							"parameter_type" : 2
 						}
 
@@ -11838,6 +11924,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"annotation_name" : "FFTU",
 					"appearance" : 1,
 					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
@@ -11871,12 +11958,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "FFTU",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "fftImage[1]",
+							"parameter_longname" : "FFTU",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "fftImage",
+							"parameter_shortname" : "FFTU",
 							"parameter_type" : 1
 						}
 
@@ -11938,6 +12026,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"annotation_name" : "WAVU",
 					"appearance" : 1,
 					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
@@ -11971,12 +12060,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "WAVU",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "waveImage[1]",
+							"parameter_longname" : "WAVU",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "waveImage",
+							"parameter_shortname" : "WAVU",
 							"parameter_type" : 1
 						}
 
@@ -14628,6 +14718,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"annotation_name" : "WAVE",
 					"appearance" : 1,
 					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
@@ -14661,12 +14752,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "WAVE",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "waveImage",
+							"parameter_longname" : "WAVE",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "waveImage",
+							"parameter_shortname" : "WAVE",
 							"parameter_type" : 1
 						}
 
@@ -14681,6 +14773,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"annotation_name" : "FFT",
 					"appearance" : 1,
 					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
@@ -14714,12 +14807,13 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "FFT",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "fftImage",
+							"parameter_longname" : "FFT",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "fftImage",
+							"parameter_shortname" : "FFT",
 							"parameter_type" : 1
 						}
 
@@ -16338,7 +16432,7 @@
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Syphon",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -16349,7 +16443,7 @@
 					}
 ,
 					"spacing_x" : 3.0,
-					"varname" : "Syphon"
+					"varname" : "live.tab"
 				}
 
 			}
@@ -21174,13 +21268,13 @@
 			"obj-112::obj-6" : [ "File", "File", 0 ],
 			"obj-112::obj-76" : [ "live.menu[1]", "File", 0 ],
 			"obj-12" : [ "P01", "P01", 0 ],
-			"obj-138" : [ "fftImage[1]", "fftImage", 0 ],
-			"obj-15" : [ "fftImage[5]", "fftImage", 0 ],
-			"obj-151" : [ "live.text", "live.text", 0 ],
+			"obj-138" : [ "FFTU", "FFTU", 0 ],
+			"obj-15" : [ "XYC", "XYC", 0 ],
+			"obj-151" : [ "Reset P01", "Reset P01", 0 ],
 			"obj-153" : [ "P04", "P04", 0 ],
 			"obj-170" : [ "Engine", "Engine", 0 ],
-			"obj-195" : [ "live.text[1]", "live.text", 0 ],
-			"obj-24" : [ "fftImage[6]", "fftImage", 0 ],
+			"obj-195" : [ "Show Type", "Show Type", 0 ],
+			"obj-24" : [ "XYD", "XYD", 0 ],
 			"obj-267" : [ "P32", "P32", 0 ],
 			"obj-269" : [ "P31", "P31", 0 ],
 			"obj-271" : [ "P30", "P30", 0 ],
@@ -21189,73 +21283,73 @@
 			"obj-294" : [ "P05", "P05", 0 ],
 			"obj-296::obj-151" : [ "Dimensions[1]", "Dimensions", 0 ],
 			"obj-303" : [ "P27", "P27", 0 ],
-			"obj-308" : [ "fftImage[8]", "fftImage", 0 ],
+			"obj-308" : [ "IN", "IN", 0 ],
 			"obj-311" : [ "P06", "P06", 0 ],
-			"obj-317" : [ "waveImage[1]", "waveImage", 0 ],
-			"obj-354" : [ "live.text[2]", "live.text", 0 ],
-			"obj-355" : [ "live.text[9]", "live.text", 0 ],
-			"obj-356" : [ "live.text[10]", "live.text", 0 ],
-			"obj-360" : [ "Reload[3]", "Reload", 0 ],
-			"obj-361" : [ "Reload[4]", "Reload", 0 ],
-			"obj-362" : [ "Reload[5]", "Reload", 0 ],
+			"obj-317" : [ "WAVU", "WAVU", 0 ],
+			"obj-354" : [ "Reset P02", "Reset P02", 0 ],
+			"obj-355" : [ "Reset P03", "Reset P03", 0 ],
+			"obj-356" : [ "Reset P04", "Reset P04", 0 ],
+			"obj-360" : [ "Edit", "Edit", 0 ],
+			"obj-361" : [ "Open Folder", "Open Folder", 0 ],
+			"obj-362" : [ "Reload", "Reload", 0 ],
 			"obj-363" : [ "P26", "P26", 0 ],
-			"obj-364" : [ "fftImage[2]", "fftImage", 0 ],
-			"obj-365" : [ "live.text[11]", "live.text", 0 ],
-			"obj-366" : [ "Syphon", "Channel", 0 ],
+			"obj-364" : [ "MIDI", "MIDI", 0 ],
+			"obj-365" : [ "live.text[11]", "Reset", 0 ],
+			"obj-366" : [ "Channel", "Channel", 0 ],
 			"obj-371" : [ "P07", "P07", 0 ],
-			"obj-386" : [ "live.text[12]", "live.text", 0 ],
+			"obj-386" : [ "Reset P06", "Reset P06", 0 ],
 			"obj-390" : [ "P25", "P25", 0 ],
-			"obj-4" : [ "live.text[8]", "live.text", 0 ],
+			"obj-4" : [ "Show Parameters", "Show Parameters", 0 ],
 			"obj-40" : [ "P02", "P02", 0 ],
-			"obj-427" : [ "fftImage[7]", "fftImage", 0 ],
+			"obj-427" : [ "XYE", "XYE", 0 ],
 			"obj-439" : [ "P08", "P08", 0 ],
-			"obj-444" : [ "live.text[13]", "live.text", 0 ],
+			"obj-444" : [ "Reset P07", "Reset P07", 0 ],
 			"obj-449" : [ "P16", "P16", 0 ],
 			"obj-451" : [ "P15", "P15", 0 ],
 			"obj-453" : [ "P14", "P14", 0 ],
 			"obj-455" : [ "P13", "P13", 0 ],
 			"obj-457" : [ "P12", "P12", 0 ],
 			"obj-459" : [ "P11", "P11", 0 ],
-			"obj-461" : [ "live.text[14]", "live.text", 0 ],
-			"obj-462" : [ "live.text[15]", "live.text", 0 ],
+			"obj-461" : [ "Reset P08", "Reset P08", 0 ],
+			"obj-462" : [ "Reset P09", "Reset P09", 0 ],
 			"obj-463" : [ "P10", "P10", 0 ],
-			"obj-466" : [ "live.text[16]", "live.text", 0 ],
-			"obj-467" : [ "live.text[17]", "live.text", 0 ],
-			"obj-468" : [ "live.text[18]", "live.text", 0 ],
-			"obj-470" : [ "live.text[19]", "live.text", 0 ],
-			"obj-471" : [ "live.text[20]", "live.text", 0 ],
-			"obj-472" : [ "live.text[21]", "live.text", 0 ],
-			"obj-473" : [ "live.text[22]", "live.text", 0 ],
+			"obj-466" : [ "Reset P10", "Reset P10", 0 ],
+			"obj-467" : [ "Reset P11", "Reset P11", 0 ],
+			"obj-468" : [ "Reset P12", "Reset P12", 0 ],
+			"obj-470" : [ "Reset P13", "Reset P13", 0 ],
+			"obj-471" : [ "Reset P14", "Reset P14", 0 ],
+			"obj-472" : [ "Reset P15", "Reset P15", 0 ],
+			"obj-473" : [ "Reset P16", "Reset P16", 0 ],
 			"obj-474" : [ "P09", "P09", 0 ],
-			"obj-475" : [ "live.text[23]", "live.text", 0 ],
-			"obj-476" : [ "live.text[24]", "live.text", 0 ],
-			"obj-477" : [ "live.text[25]", "live.text", 0 ],
+			"obj-475" : [ "Reset P17", "Reset P17", 0 ],
+			"obj-476" : [ "Reset P18", "Reset P18", 0 ],
+			"obj-477" : [ "Reset P19", "Reset P19", 0 ],
 			"obj-478" : [ "P24", "P24", 0 ],
-			"obj-479" : [ "live.text[26]", "live.text", 0 ],
+			"obj-479" : [ "Reset P20", "Reset P20", 0 ],
 			"obj-480" : [ "P23", "P23", 0 ],
-			"obj-482" : [ "live.text[27]", "live.text", 0 ],
+			"obj-482" : [ "Reset P21", "Reset P21", 0 ],
 			"obj-483" : [ "P22", "P22", 0 ],
-			"obj-484" : [ "live.text[28]", "live.text", 0 ],
+			"obj-484" : [ "Reset P22", "Reset P22", 0 ],
 			"obj-485" : [ "P21", "P21", 0 ],
 			"obj-487" : [ "P20", "P20", 0 ],
 			"obj-489" : [ "P19", "P19", 0 ],
 			"obj-491" : [ "P18", "P18", 0 ],
-			"obj-492" : [ "live.text[29]", "live.text", 0 ],
+			"obj-492" : [ "Reset P23", "Reset P23", 0 ],
 			"obj-493" : [ "P17", "P17", 0 ],
-			"obj-494" : [ "live.text[30]", "live.text", 0 ],
-			"obj-495" : [ "live.text[31]", "live.text", 0 ],
-			"obj-496" : [ "live.text[32]", "live.text", 0 ],
-			"obj-497" : [ "live.text[33]", "live.text", 0 ],
-			"obj-498" : [ "live.text[34]", "live.text", 0 ],
-			"obj-499" : [ "live.text[35]", "live.text", 0 ],
-			"obj-5" : [ "fftImage[4]", "fftImage", 0 ],
-			"obj-500" : [ "live.text[36]", "live.text", 0 ],
-			"obj-501" : [ "live.text[37]", "live.text", 0 ],
-			"obj-502" : [ "live.text[38]", "live.text", 0 ],
-			"obj-511" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-494" : [ "Reset P24", "Reset P24", 0 ],
+			"obj-495" : [ "Reset P25", "Reset P25", 0 ],
+			"obj-496" : [ "Reset P26", "Reset P26", 0 ],
+			"obj-497" : [ "Reset P27", "Reset P27", 0 ],
+			"obj-498" : [ "Reset P28", "Reset P28", 0 ],
+			"obj-499" : [ "Reset P29", "Reset P29", 0 ],
+			"obj-5" : [ "XY", "XY", 0 ],
+			"obj-500" : [ "Reset P30", "Reset P30", 0 ],
+			"obj-501" : [ "Reset P31", "Reset P31", 0 ],
+			"obj-502" : [ "Reset P32", "Reset P32", 0 ],
+			"obj-511" : [ "Initialized", "live.toggle", 0 ],
 			"obj-78" : [ "P03", "P03", 0 ],
-			"obj-8" : [ "fftImage", "fftImage", 0 ],
-			"obj-9" : [ "waveImage", "waveImage", 0 ],
+			"obj-8" : [ "FFT", "FFT", 0 ],
+			"obj-9" : [ "WAVE", "WAVE", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

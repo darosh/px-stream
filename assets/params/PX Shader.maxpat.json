@@ -6,9 +6,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[36]",
-      "parameter_longname": "live.text[38]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P32",
+      "parameter_shortname": "Reset P32",
+      "annotation_name": "Reset P32",
       "annotation": ""
     },
     {
@@ -17,9 +17,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[35]",
-      "parameter_longname": "live.text[37]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P31",
+      "parameter_shortname": "Reset P31",
+      "annotation_name": "Reset P31",
       "annotation": ""
     },
     {
@@ -28,9 +28,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[34]",
-      "parameter_longname": "live.text[36]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P30",
+      "parameter_shortname": "Reset P30",
+      "annotation_name": "Reset P30",
       "annotation": ""
     },
     {
@@ -39,9 +39,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[33]",
-      "parameter_longname": "live.text[35]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P29",
+      "parameter_shortname": "Reset P29",
+      "annotation_name": "Reset P29",
       "annotation": ""
     },
     {
@@ -50,9 +50,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[32]",
-      "parameter_longname": "live.text[34]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P28",
+      "parameter_shortname": "Reset P28",
+      "annotation_name": "Reset P28",
       "annotation": ""
     },
     {
@@ -61,9 +61,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[31]",
-      "parameter_longname": "live.text[33]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P27",
+      "parameter_shortname": "Reset P27",
+      "annotation_name": "Reset P27",
       "annotation": ""
     },
     {
@@ -72,9 +72,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[30]",
-      "parameter_longname": "live.text[32]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P26",
+      "parameter_shortname": "Reset P26",
+      "annotation_name": "Reset P26",
       "annotation": ""
     },
     {
@@ -83,9 +83,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[29]",
-      "parameter_longname": "live.text[31]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P25",
+      "parameter_shortname": "Reset P25",
+      "annotation_name": "Reset P25",
       "annotation": ""
     },
     {
@@ -94,9 +94,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[28]",
-      "parameter_longname": "live.text[30]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P24",
+      "parameter_shortname": "Reset P24",
+      "annotation_name": "Reset P24",
       "annotation": ""
     },
     {
@@ -105,9 +105,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[27]",
-      "parameter_longname": "live.text[29]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P23",
+      "parameter_shortname": "Reset P23",
+      "annotation_name": "Reset P23",
       "annotation": ""
     },
     {
@@ -116,9 +116,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[26]",
-      "parameter_longname": "live.text[28]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P22",
+      "parameter_shortname": "Reset P22",
+      "annotation_name": "Reset P22",
       "annotation": ""
     },
     {
@@ -127,9 +127,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[25]",
-      "parameter_longname": "live.text[27]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P21",
+      "parameter_shortname": "Reset P21",
+      "annotation_name": "Reset P21",
       "annotation": ""
     },
     {
@@ -138,9 +138,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[24]",
-      "parameter_longname": "live.text[26]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P20",
+      "parameter_shortname": "Reset P20",
+      "annotation_name": "Reset P20",
       "annotation": ""
     },
     {
@@ -149,9 +149,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[23]",
-      "parameter_longname": "live.text[25]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P19",
+      "parameter_shortname": "Reset P19",
+      "annotation_name": "Reset P19",
       "annotation": ""
     },
     {
@@ -160,9 +160,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[22]",
-      "parameter_longname": "live.text[24]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P18",
+      "parameter_shortname": "Reset P18",
+      "annotation_name": "Reset P18",
       "annotation": ""
     },
     {
@@ -171,9 +171,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[21]",
-      "parameter_longname": "live.text[23]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P17",
+      "parameter_shortname": "Reset P17",
+      "annotation_name": "Reset P17",
       "annotation": ""
     },
     {
@@ -182,9 +182,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[20]",
-      "parameter_longname": "live.text[22]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P16",
+      "parameter_shortname": "Reset P16",
+      "annotation_name": "Reset P16",
       "annotation": ""
     },
     {
@@ -193,9 +193,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[19]",
-      "parameter_longname": "live.text[21]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P15",
+      "parameter_shortname": "Reset P15",
+      "annotation_name": "Reset P15",
       "annotation": ""
     },
     {
@@ -204,9 +204,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[18]",
-      "parameter_longname": "live.text[20]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P14",
+      "parameter_shortname": "Reset P14",
+      "annotation_name": "Reset P14",
       "annotation": ""
     },
     {
@@ -215,9 +215,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[17]",
-      "parameter_longname": "live.text[19]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P13",
+      "parameter_shortname": "Reset P13",
+      "annotation_name": "Reset P13",
       "annotation": ""
     },
     {
@@ -226,9 +226,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[16]",
-      "parameter_longname": "live.text[18]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P12",
+      "parameter_shortname": "Reset P12",
+      "annotation_name": "Reset P12",
       "annotation": ""
     },
     {
@@ -237,9 +237,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[15]",
-      "parameter_longname": "live.text[17]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P11",
+      "parameter_shortname": "Reset P11",
+      "annotation_name": "Reset P11",
       "annotation": ""
     },
     {
@@ -248,9 +248,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[12]",
-      "parameter_longname": "live.text[16]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P10",
+      "parameter_shortname": "Reset P10",
+      "annotation_name": "Reset P10",
       "annotation": ""
     },
     {
@@ -259,9 +259,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[11]",
-      "parameter_longname": "live.text[15]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P09",
+      "parameter_shortname": "Reset P09",
+      "annotation_name": "Reset P09",
       "annotation": ""
     },
     {
@@ -270,9 +270,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[7]",
-      "parameter_longname": "live.text[14]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P08",
+      "parameter_shortname": "Reset P08",
+      "annotation_name": "Reset P08",
       "annotation": ""
     },
     {
@@ -281,9 +281,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[6]",
-      "parameter_longname": "live.text[13]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P07",
+      "parameter_shortname": "Reset P07",
+      "annotation_name": "Reset P07",
       "annotation": ""
     },
     {
@@ -292,9 +292,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[5]",
-      "parameter_longname": "live.text[12]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P06",
+      "parameter_shortname": "Reset P06",
+      "annotation_name": "Reset P06",
       "annotation": ""
     },
     {
@@ -302,10 +302,10 @@
       "maxclass": "live.text",
       "presentation": 1,
       "text": "",
-      "varname": "live.text[4]",
+      "varname": "Reset",
       "parameter_longname": "live.text[11]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_shortname": "Reset",
+      "annotation_name": "Reset",
       "annotation": ""
     },
     {
@@ -314,9 +314,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[3]",
-      "parameter_longname": "live.text[10]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P04",
+      "parameter_shortname": "Reset P04",
+      "annotation_name": "Reset P04",
       "annotation": ""
     },
     {
@@ -325,9 +325,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[2]",
-      "parameter_longname": "live.text[9]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P03",
+      "parameter_shortname": "Reset P03",
+      "annotation_name": "Reset P03",
       "annotation": ""
     },
     {
@@ -336,9 +336,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text[1]",
-      "parameter_longname": "live.text[2]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P02",
+      "parameter_shortname": "Reset P02",
+      "annotation_name": "Reset P02",
       "annotation": ""
     },
     {
@@ -347,9 +347,9 @@
       "presentation": 1,
       "text": "",
       "varname": "live.text",
-      "parameter_longname": "live.text",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Reset P01",
+      "parameter_shortname": "Reset P01",
+      "annotation_name": "Reset P01",
       "annotation": ""
     },
     {
@@ -669,7 +669,7 @@
       "varname": "live.numbox",
       "parameter_longname": "P01",
       "parameter_shortname": "P01",
-      "annotation_name": "Shader parameter",
+      "annotation_name": "P01",
       "annotation": "Click the label for reset to default value."
     },
     {
@@ -678,9 +678,9 @@
       "presentation": 1,
       "text": "IN",
       "varname": "typeLed[10]",
-      "parameter_longname": "fftImage[8]",
-      "parameter_shortname": "fftImage",
-      "annotation_name": "",
+      "parameter_longname": "IN",
+      "parameter_shortname": "IN",
+      "annotation_name": "IN",
       "annotation": ""
     },
     {
@@ -689,9 +689,9 @@
       "presentation": 1,
       "text": "Type",
       "varname": "live.text[14]",
-      "parameter_longname": "live.text[1]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Show Type",
+      "parameter_shortname": "Show Type",
+      "annotation_name": "Show Type",
       "annotation": ""
     },
     {
@@ -700,9 +700,9 @@
       "presentation": 1,
       "text": "...",
       "varname": "live.text[13]",
-      "parameter_longname": "live.text[8]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Show Parameters",
+      "parameter_shortname": "Show Parameters",
+      "annotation_name": "Show Parameters",
       "annotation": ""
     },
     {
@@ -711,9 +711,9 @@
       "presentation": 1,
       "text": "XYE",
       "varname": "typeLed[7]",
-      "parameter_longname": "fftImage[7]",
-      "parameter_shortname": "fftImage",
-      "annotation_name": "",
+      "parameter_longname": "XYE",
+      "parameter_shortname": "XYE",
+      "annotation_name": "XYE",
       "annotation": ""
     },
     {
@@ -722,9 +722,9 @@
       "presentation": 1,
       "text": "XYD",
       "varname": "typeLed[5]",
-      "parameter_longname": "fftImage[6]",
-      "parameter_shortname": "fftImage",
-      "annotation_name": "",
+      "parameter_longname": "XYD",
+      "parameter_shortname": "XYD",
+      "annotation_name": "XYD",
       "annotation": ""
     },
     {
@@ -733,9 +733,9 @@
       "presentation": 1,
       "text": "XYC",
       "varname": "typeLed[6]",
-      "parameter_longname": "fftImage[5]",
-      "parameter_shortname": "fftImage",
-      "annotation_name": "",
+      "parameter_longname": "XYC",
+      "parameter_shortname": "XYC",
+      "annotation_name": "XYC",
       "annotation": ""
     },
     {
@@ -744,9 +744,9 @@
       "presentation": 1,
       "text": "XY",
       "varname": "typeLed[4]",
-      "parameter_longname": "fftImage[4]",
-      "parameter_shortname": "fftImage",
-      "annotation_name": "",
+      "parameter_longname": "XY",
+      "parameter_shortname": "XY",
+      "annotation_name": "XY",
       "annotation": ""
     },
     {
@@ -755,9 +755,9 @@
       "presentation": 1,
       "text": "MIDI",
       "varname": "typeLed[8]",
-      "parameter_longname": "fftImage[2]",
-      "parameter_shortname": "fftImage",
-      "annotation_name": "",
+      "parameter_longname": "MIDI",
+      "parameter_shortname": "MIDI",
+      "annotation_name": "MIDI",
       "annotation": ""
     },
     {
@@ -766,9 +766,9 @@
       "presentation": 1,
       "text": "Reload",
       "varname": "live.text[10]",
-      "parameter_longname": "Reload[5]",
+      "parameter_longname": "Reload",
       "parameter_shortname": "Reload",
-      "annotation_name": "",
+      "annotation_name": "Reload",
       "annotation": ""
     },
     {
@@ -777,9 +777,9 @@
       "presentation": 1,
       "text": "Folder",
       "varname": "live.text[9]",
-      "parameter_longname": "Reload[4]",
-      "parameter_shortname": "Reload",
-      "annotation_name": "",
+      "parameter_longname": "Open Folder",
+      "parameter_shortname": "Open Folder",
+      "annotation_name": "Open Folder",
       "annotation": ""
     },
     {
@@ -788,9 +788,9 @@
       "presentation": 1,
       "text": "Edit",
       "varname": "live.text[8]",
-      "parameter_longname": "Reload[3]",
-      "parameter_shortname": "Reload",
-      "annotation_name": "",
+      "parameter_longname": "Edit",
+      "parameter_shortname": "Edit",
+      "annotation_name": "Edit",
       "annotation": ""
     },
     {
@@ -799,9 +799,9 @@
       "presentation": 1,
       "text": "FFTU",
       "varname": "typeLed",
-      "parameter_longname": "fftImage[1]",
-      "parameter_shortname": "fftImage",
-      "annotation_name": "",
+      "parameter_longname": "FFTU",
+      "parameter_shortname": "FFTU",
+      "annotation_name": "FFTU",
       "annotation": ""
     },
     {
@@ -810,9 +810,9 @@
       "presentation": 1,
       "text": "WAVU",
       "varname": "typeLed[2]",
-      "parameter_longname": "waveImage[1]",
-      "parameter_shortname": "waveImage",
-      "annotation_name": "",
+      "parameter_longname": "WAVU",
+      "parameter_shortname": "WAVU",
+      "annotation_name": "WAVU",
       "annotation": ""
     },
     {
@@ -821,9 +821,9 @@
       "presentation": 1,
       "text": "WAVE",
       "varname": "typeLed[3]",
-      "parameter_longname": "waveImage",
-      "parameter_shortname": "waveImage",
-      "annotation_name": "",
+      "parameter_longname": "WAVE",
+      "parameter_shortname": "WAVE",
+      "annotation_name": "WAVE",
       "annotation": ""
     },
     {
@@ -832,17 +832,17 @@
       "presentation": 1,
       "text": "FFT",
       "varname": "typeLed[1]",
-      "parameter_longname": "fftImage",
-      "parameter_shortname": "fftImage",
-      "annotation_name": "",
+      "parameter_longname": "FFT",
+      "parameter_shortname": "FFT",
+      "annotation_name": "FFT",
       "annotation": ""
     },
     {
       "id": "obj-366",
       "maxclass": "live.tab",
       "presentation": 1,
-      "varname": "Syphon",
-      "parameter_longname": "Syphon",
+      "varname": "live.tab",
+      "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
       "annotation_name": "Channel",
       "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."
