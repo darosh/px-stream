@@ -21,18 +21,6 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-139",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 3216.0, 248.0, 126.0, 22.0 ],
-					"text" : "qmetro 222 @active 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-513",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -5785,7 +5773,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 3128.0, 272.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 174.0, 302.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 174.0, 302.5, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"blinkcolor" : 						{
 							"expression" : "themecolor.live_display_handle_two"
@@ -17427,13 +17415,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"source" : [ "obj-137", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-469", 0 ],
-					"source" : [ "obj-139", 0 ]
 				}
 
 			}
