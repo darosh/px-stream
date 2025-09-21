@@ -9,7 +9,7 @@
       "modernui": 1
     },
     "classnamespace": "box",
-    "rect": [33, 71, 877, 508],
+    "rect": [133, 71, 257, 508],
     "openinpresentation": 1,
     "gridonopen": 2,
     "gridsize": [8, 8],
@@ -178,7 +178,7 @@
               "modernui": 1
             },
             "classnamespace": "box",
-            "rect": [45, 99, 340, 476],
+            "rect": [33, 71, 567, 508],
             "openinpresentation": 1,
             "gridonopen": 2,
             "gridsize": [8, 8],
@@ -245,6 +245,7 @@
               },
               {
                 "box": {
+                  "annotation_name": "Rotate Z",
                   "id": "obj-25",
                   "maxclass": "live.numbox",
                   "numinlets": 1,
@@ -256,13 +257,14 @@
                   "presentation_rect": [87, 2, 41, 15],
                   "saved_attribute_attributes": {
                     "valueof": {
+                      "parameter_annotation_name": "Rotate Z",
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[8]",
+                      "parameter_longname": "Rotate Z",
                       "parameter_mmax": 360,
                       "parameter_mmin": -360,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Rotate Z",
                       "parameter_steps": 721,
                       "parameter_type": 0,
                       "parameter_units": "rz",
@@ -274,6 +276,7 @@
               },
               {
                 "box": {
+                  "annotation_name": "Rotate Y",
                   "id": "obj-23",
                   "maxclass": "live.numbox",
                   "numinlets": 1,
@@ -285,13 +288,14 @@
                   "presentation_rect": [45, 2, 40, 15],
                   "saved_attribute_attributes": {
                     "valueof": {
+                      "parameter_annotation_name": "Rotate Y",
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[7]",
+                      "parameter_longname": "Rotate Y",
                       "parameter_mmax": 360,
                       "parameter_mmin": -360,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Rotate Y",
                       "parameter_steps": 721,
                       "parameter_type": 0,
                       "parameter_units": "ry",
@@ -303,6 +307,7 @@
               },
               {
                 "box": {
+                  "annotation_name": "Rotate X",
                   "id": "obj-24",
                   "maxclass": "live.numbox",
                   "numinlets": 1,
@@ -314,13 +319,14 @@
                   "presentation_rect": [2, 2, 41, 15],
                   "saved_attribute_attributes": {
                     "valueof": {
+                      "parameter_annotation_name": "Rotate X",
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[13]",
+                      "parameter_longname": "Rotate X",
                       "parameter_mmax": 360,
                       "parameter_mmin": -360,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Rotate X",
                       "parameter_steps": 721,
                       "parameter_type": 0,
                       "parameter_units": "rx",
@@ -332,6 +338,7 @@
               },
               {
                 "box": {
+                  "annotation_name": "Vector Z",
                   "id": "obj-20",
                   "maxclass": "live.numbox",
                   "numinlets": 1,
@@ -343,13 +350,14 @@
                   "presentation_rect": [66, 89, 62, 15],
                   "saved_attribute_attributes": {
                     "valueof": {
+                      "parameter_annotation_name": "Vector Z",
                       "parameter_initial": [1],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[12]",
+                      "parameter_longname": "Vector Z",
                       "parameter_mmax": 100,
                       "parameter_mmin": -100,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Vector Z",
                       "parameter_steps": 2001,
                       "parameter_type": 0,
                       "parameter_units": "vz",
@@ -361,6 +369,7 @@
               },
               {
                 "box": {
+                  "annotation_name": "Vector Y",
                   "id": "obj-22",
                   "maxclass": "live.numbox",
                   "numinlets": 1,
@@ -372,13 +381,14 @@
                   "presentation_rect": [2, 89, 62, 15],
                   "saved_attribute_attributes": {
                     "valueof": {
+                      "parameter_annotation_name": "Vector Y",
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[4]",
+                      "parameter_longname": "Vector Y",
                       "parameter_mmax": 100,
                       "parameter_mmin": -100,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Vector Y",
                       "parameter_steps": 2001,
                       "parameter_type": 0,
                       "parameter_units": "vy",
@@ -390,6 +400,7 @@
               },
               {
                 "box": {
+                  "annotation_name": "Vector X",
                   "id": "obj-18",
                   "maxclass": "live.numbox",
                   "numinlets": 1,
@@ -401,13 +412,14 @@
                   "presentation_rect": [66, 72, 62, 15],
                   "saved_attribute_attributes": {
                     "valueof": {
+                      "parameter_annotation_name": "Vector X",
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[11]",
+                      "parameter_longname": "Vector X",
                       "parameter_mmax": 100,
                       "parameter_mmin": -100,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Vector X",
                       "parameter_steps": 2001,
                       "parameter_type": 0,
                       "parameter_units": "vx",
@@ -441,6 +453,7 @@
               },
               {
                 "box": {
+                  "annotation_name": "Rotate",
                   "id": "obj-2",
                   "maxclass": "live.numbox",
                   "numinlets": 1,
@@ -452,13 +465,14 @@
                   "presentation_rect": [2, 72, 62, 15],
                   "saved_attribute_attributes": {
                     "valueof": {
+                      "parameter_annotation_name": "Rotate",
                       "parameter_initial": [0],
                       "parameter_initial_enable": 1,
-                      "parameter_longname": "live.numbox[10]",
+                      "parameter_longname": "Rotate",
                       "parameter_mmax": 360,
                       "parameter_mmin": -360,
                       "parameter_modmode": 3,
-                      "parameter_shortname": "live.numbox",
+                      "parameter_shortname": "Rotate",
                       "parameter_steps": 721,
                       "parameter_type": 0,
                       "parameter_units": "a",
@@ -604,6 +618,7 @@
       },
       {
         "box": {
+          "annotation_name": "Keep Ratio",
           "appearance": 1,
           "fontsize": 8,
           "id": "obj-96",
@@ -617,19 +632,20 @@
           "presentation_rect": [87, 48, 32, 15],
           "saved_attribute_attributes": {
             "valueof": {
+              "parameter_annotation_name": "Keep Ratio",
               "parameter_enum": ["val1", "val2"],
               "parameter_initial": [1],
               "parameter_initial_enable": 1,
-              "parameter_longname": "live.text[5]",
+              "parameter_longname": "Keep Ratio",
               "parameter_mmax": 1,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.text",
+              "parameter_shortname": "Keep Ratio",
               "parameter_type": 1
             }
           },
           "text": "x=y",
           "texton": "x=y",
-          "varname": "live.text[5]"
+          "varname": "live.text"
         }
       },
       {
@@ -778,6 +794,7 @@
       },
       {
         "box": {
+          "annotation_name": "Scale Y",
           "id": "obj-62",
           "maxclass": "live.numbox",
           "numinlets": 1,
@@ -789,13 +806,14 @@
           "presentation_rect": [45, 48, 40, 15],
           "saved_attribute_attributes": {
             "valueof": {
+              "parameter_annotation_name": "Scale Y",
               "parameter_initial": [1],
               "parameter_initial_enable": 1,
-              "parameter_longname": "live.numbox[5]",
+              "parameter_longname": "Scale Y",
               "parameter_mmax": 10,
               "parameter_mmin": -10,
               "parameter_modmode": 3,
-              "parameter_shortname": "live.numbox",
+              "parameter_shortname": "Scale Y",
               "parameter_steps": 1001,
               "parameter_type": 0,
               "parameter_units": "sy",
@@ -807,6 +825,7 @@
       },
       {
         "box": {
+          "annotation_name": "Scale X",
           "id": "obj-63",
           "maxclass": "live.numbox",
           "numinlets": 1,
@@ -818,6 +837,7 @@
           "presentation_rect": [2, 48, 41, 15],
           "saved_attribute_attributes": {
             "valueof": {
+              "parameter_annotation_name": "Scale X",
               "parameter_initial": [1],
               "parameter_initial_enable": 1,
               "parameter_longname": "Scale X",
@@ -828,16 +848,15 @@
               "parameter_steps": 1001,
               "parameter_type": 0,
               "parameter_units": "sx",
-              "parameter_unitstyle": 9,
-              "parameter_annotation_name": "Scale X"
+              "parameter_unitstyle": 9
             }
           },
-          "varname": "live.numbox",
-          "annotation_name": "Scale X"
+          "varname": "live.numbox"
         }
       },
       {
         "box": {
+          "annotation_name": "Offset Y",
           "id": "obj-32",
           "maxclass": "live.numbox",
           "numinlets": 1,
@@ -849,13 +868,14 @@
           "presentation_rect": [66, 16, 62, 15],
           "saved_attribute_attributes": {
             "valueof": {
+              "parameter_annotation_name": "Offset Y",
               "parameter_initial": [0],
               "parameter_initial_enable": 1,
-              "parameter_longname": "live.numbox[2]",
+              "parameter_longname": "Offset Y",
               "parameter_mmax": 10,
               "parameter_mmin": -10,
               "parameter_modmode": 3,
-              "parameter_shortname": "live.numbox",
+              "parameter_shortname": "Offset Y",
               "parameter_steps": 1001,
               "parameter_type": 0,
               "parameter_units": "y",
@@ -867,6 +887,7 @@
       },
       {
         "box": {
+          "annotation_name": "Offset X",
           "id": "obj-31",
           "maxclass": "live.numbox",
           "numinlets": 1,
@@ -878,13 +899,14 @@
           "presentation_rect": [2, 16, 62, 15],
           "saved_attribute_attributes": {
             "valueof": {
+              "parameter_annotation_name": "Offset X",
               "parameter_initial": [0],
               "parameter_initial_enable": 1,
-              "parameter_longname": "live.numbox[1]",
+              "parameter_longname": "Offset X",
               "parameter_mmax": 10,
               "parameter_mmin": -10,
               "parameter_modmode": 3,
-              "parameter_shortname": "live.numbox",
+              "parameter_shortname": "Offset X",
               "parameter_steps": 1001,
               "parameter_type": 0,
               "parameter_units": "x",
@@ -1116,17 +1138,19 @@
             "focusbordercolor": {"expression": ""},
             "valueof": {
               "parameter_enum": ["Axis", "Vector"],
-              "parameter_longname": "live.tab[1]",
+              "parameter_longname": "Rotation Mode",
               "parameter_mmax": 1,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.tab[1]",
+              "parameter_shortname": "Rotation Mode",
               "parameter_type": 2,
-              "parameter_unitstyle": 9
+              "parameter_unitstyle": 9,
+              "parameter_annotation_name": "Rotation Mode"
             }
           },
           "spacing_x": 3,
           "spacing_y": 3,
-          "varname": "live.tab[1]"
+          "varname": "live.tab[1]",
+          "annotation_name": "Rotation Mode"
         }
       }
     ],
@@ -1235,20 +1259,20 @@
       {"patchline": {"destination": ["obj-98", 0], "source": ["obj-99", 0]}}
     ],
     "parameters": {
-      "obj-31": ["live.numbox[1]", "live.numbox", 0],
-      "obj-32": ["live.numbox[2]", "live.numbox", 0],
+      "obj-31": ["Offset X", "Offset X", 0],
+      "obj-32": ["Offset Y", "Offset Y", 0],
       "obj-366": ["Channel", "Channel", 0],
-      "obj-43": ["live.tab[1]", "live.tab[1]", 0],
-      "obj-47::obj-18": ["live.numbox[11]", "live.numbox", 0],
-      "obj-47::obj-2": ["live.numbox[10]", "live.numbox", 0],
-      "obj-47::obj-20": ["live.numbox[12]", "live.numbox", 0],
-      "obj-47::obj-22": ["live.numbox[4]", "live.numbox", 0],
-      "obj-47::obj-23": ["live.numbox[7]", "live.numbox", 0],
-      "obj-47::obj-24": ["live.numbox[13]", "live.numbox", 0],
-      "obj-47::obj-25": ["live.numbox[8]", "live.numbox", 0],
-      "obj-62": ["live.numbox[5]", "live.numbox", 0],
+      "obj-43": ["Rotation Mode", "live.tab[1]", 0],
+      "obj-47::obj-18": ["Vector X", "Vector X", 0],
+      "obj-47::obj-2": ["Rotate", "Rotate", 0],
+      "obj-47::obj-20": ["Vector Z", "Vector Z", 0],
+      "obj-47::obj-22": ["Vector Y", "Vector Y", 0],
+      "obj-47::obj-23": ["Rotate Y", "Rotate Y", 0],
+      "obj-47::obj-24": ["Rotate X", "Rotate X", 0],
+      "obj-47::obj-25": ["Rotate Z", "Rotate Z", 0],
+      "obj-62": ["Scale Y", "Scale Y", 0],
       "obj-63": ["Scale X", "Scale X", 0],
-      "obj-96": ["live.text[5]", "live.text", 0],
+      "obj-96": ["Keep Ratio", "Keep Ratio", 0],
       "parameterbanks": {
         "0": {
           "index": 0,
