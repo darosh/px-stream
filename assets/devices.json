@@ -81,7 +81,7 @@
     "description": "Send MIDI from selected track to next device. Works with [PX Shader](#px-shader) device and MIDI-enabled shaders."
   },
   "PX Shader": {
-    "description": "Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects. Up to 32 dynamic parameters and various audio rendering options."
+    "description": "Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects. Up to 32 dynamic parameters and various audio rendering options with our custom audio types."
   },
   "PX World": {
     "description": "Essential rendering context. You need exactly one per Live set. More would be problematic. Sets target FPS. FPS 0 will use available maximum with displaylink turned on on Mac."
