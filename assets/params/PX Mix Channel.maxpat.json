@@ -9,14 +9,13 @@
       "parameter_longname": "Thru",
       "parameter_shortname": "Thru",
       "annotation_name": "Thru",
-      "annotation": "Enables/disables audio thru."
+      "annotation": "Enables/disables texture thru."
     },
     {
       "id": "obj-366",
       "maxclass": "live.tab",
       "presentation": 1,
-      "varname": "Syphon",
-      "parameter_longname": "Syphon",
+      "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
       "annotation_name": "Channel",
       "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."

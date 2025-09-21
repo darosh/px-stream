@@ -6,9 +6,9 @@
       "presentation": 1,
       "text": "9",
       "varname": "live.text[17]",
-      "parameter_longname": "live.text[17]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "9",
+      "parameter_shortname": "9",
+      "annotation_name": "9",
       "annotation": ""
     },
     {
@@ -17,9 +17,9 @@
       "presentation": 1,
       "text": "8",
       "varname": "live.text[9]",
-      "parameter_longname": "live.text[9]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "8",
+      "parameter_shortname": "8",
+      "annotation_name": "8",
       "annotation": ""
     },
     {
@@ -28,9 +28,9 @@
       "presentation": 1,
       "text": "7",
       "varname": "live.text[10]",
-      "parameter_longname": "live.text[10]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "7",
+      "parameter_shortname": "7",
+      "annotation_name": "7",
       "annotation": ""
     },
     {
@@ -39,9 +39,9 @@
       "presentation": 1,
       "text": "6",
       "varname": "live.text[11]",
-      "parameter_longname": "live.text[11]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "6",
+      "parameter_shortname": "6",
+      "annotation_name": "6",
       "annotation": ""
     },
     {
@@ -50,9 +50,9 @@
       "presentation": 1,
       "text": "5",
       "varname": "live.text[12]",
-      "parameter_longname": "live.text[12]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "5",
+      "parameter_shortname": "5",
+      "annotation_name": "5",
       "annotation": ""
     },
     {
@@ -61,9 +61,9 @@
       "presentation": 1,
       "text": "4",
       "varname": "live.text[13]",
-      "parameter_longname": "live.text[13]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "4",
+      "parameter_shortname": "4",
+      "annotation_name": "4",
       "annotation": ""
     },
     {
@@ -72,9 +72,9 @@
       "presentation": 1,
       "text": "3",
       "varname": "live.text[14]",
-      "parameter_longname": "live.text[14]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "3",
+      "parameter_shortname": "3",
+      "annotation_name": "3",
       "annotation": ""
     },
     {
@@ -83,9 +83,9 @@
       "presentation": 1,
       "text": "2",
       "varname": "live.text[15]",
-      "parameter_longname": "live.text[15]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "2",
+      "parameter_shortname": "2",
+      "annotation_name": "2",
       "annotation": ""
     },
     {
@@ -94,17 +94,16 @@
       "presentation": 1,
       "text": "1",
       "varname": "live.text[16]",
-      "parameter_longname": "live.text[16]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "1",
+      "parameter_shortname": "1",
+      "annotation_name": "1",
       "annotation": ""
     },
     {
       "id": "obj-366",
       "maxclass": "live.tab",
       "presentation": 1,
-      "varname": "Syphon",
-      "parameter_longname": "Syphon",
+      "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
       "annotation_name": "Channel",
       "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."

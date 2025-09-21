@@ -5,9 +5,9 @@
       "maxclass": "live.tab",
       "presentation": 1,
       "varname": "live.tab",
-      "parameter_longname": "live.tab",
-      "parameter_shortname": "live.tab",
-      "annotation_name": "",
+      "parameter_longname": "Dry",
+      "parameter_shortname": "Dry",
+      "annotation_name": "Dry",
       "annotation": ""
     },
     {
@@ -15,9 +15,9 @@
       "maxclass": "live.text",
       "presentation": 1,
       "varname": "live.text[4]",
-      "parameter_longname": "live.text[4]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "A",
+      "parameter_shortname": "A",
+      "annotation_name": "A",
       "annotation": ""
     },
     {
@@ -26,9 +26,9 @@
       "presentation": 1,
       "text": "B",
       "varname": "live.text[3]",
-      "parameter_longname": "live.text[3]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "B",
+      "parameter_shortname": "B",
+      "annotation_name": "B",
       "annotation": ""
     },
     {
@@ -37,9 +37,9 @@
       "presentation": 1,
       "text": "G",
       "varname": "live.text[2]",
-      "parameter_longname": "live.text[2]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "G",
+      "parameter_shortname": "G",
+      "annotation_name": "G",
       "annotation": ""
     },
     {
@@ -48,9 +48,9 @@
       "presentation": 1,
       "text": "R",
       "varname": "live.text[1]",
-      "parameter_longname": "live.text[1]",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "R",
+      "parameter_shortname": "R",
+      "annotation_name": "R",
       "annotation": ""
     },
     {
@@ -59,9 +59,9 @@
       "presentation": 1,
       "text": "Swap",
       "varname": "live.text",
-      "parameter_longname": "live.text",
-      "parameter_shortname": "live.text",
-      "annotation_name": "",
+      "parameter_longname": "Swap",
+      "parameter_shortname": "Swap",
+      "annotation_name": "Swap",
       "annotation": ""
     },
     {
@@ -69,9 +69,9 @@
       "maxclass": "live.menu",
       "presentation": 1,
       "varname": "live.menu",
-      "parameter_longname": "live.menu",
-      "parameter_shortname": "live.menu",
-      "annotation_name": "",
+      "parameter_longname": "Blend",
+      "parameter_shortname": "Blend",
+      "annotation_name": "Blend",
       "annotation": ""
     },
     {
@@ -88,8 +88,7 @@
       "id": "obj-366",
       "maxclass": "live.tab",
       "presentation": 1,
-      "varname": "Syphon",
-      "parameter_longname": "Syphon",
+      "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
       "annotation_name": "Channel",
       "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."

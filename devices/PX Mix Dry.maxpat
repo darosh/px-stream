@@ -9,7 +9,7 @@
       "modernui": 1
     },
     "classnamespace": "box",
-    "rect": [33, 71, 877, 508],
+    "rect": [33, 71, 567, 508],
     "openinpresentation": 1,
     "gridonopen": 2,
     "gridsize": [8, 8],
@@ -179,17 +179,19 @@
               "parameter_enum": ["−4", "−3", "−2", "−1"],
               "parameter_initial": [3],
               "parameter_initial_enable": 1,
-              "parameter_longname": "live.tab",
+              "parameter_longname": "Dry",
               "parameter_mmax": 3,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.tab",
+              "parameter_shortname": "Dry",
               "parameter_type": 2,
-              "parameter_unitstyle": 9
+              "parameter_unitstyle": 9,
+              "parameter_annotation_name": "Dry"
             }
           },
           "spacing_x": 3,
           "spacing_y": 3,
-          "varname": "live.tab"
+          "varname": "live.tab",
+          "annotation_name": "Dry"
         }
       },
       {
@@ -469,15 +471,17 @@
               "parameter_enum": ["val1", "val2"],
               "parameter_initial": [1],
               "parameter_initial_enable": 1,
-              "parameter_longname": "live.text[4]",
+              "parameter_longname": "A",
               "parameter_mmax": 1,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.text",
-              "parameter_type": 1
+              "parameter_shortname": "A",
+              "parameter_type": 1,
+              "parameter_annotation_name": "A"
             }
           },
           "texton": "A",
-          "varname": "live.text[4]"
+          "varname": "live.text[4]",
+          "annotation_name": "A"
         }
       },
       {
@@ -504,15 +508,17 @@
               "parameter_enum": ["val1", "val2"],
               "parameter_initial": [1],
               "parameter_initial_enable": 1,
-              "parameter_longname": "live.text[3]",
+              "parameter_longname": "B",
               "parameter_mmax": 1,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.text",
-              "parameter_type": 1
+              "parameter_shortname": "B",
+              "parameter_type": 1,
+              "parameter_annotation_name": "B"
             }
           },
           "text": "B",
-          "varname": "live.text[3]"
+          "varname": "live.text[3]",
+          "annotation_name": "B"
         }
       },
       {
@@ -539,16 +545,18 @@
               "parameter_enum": ["val1", "val2"],
               "parameter_initial": [1],
               "parameter_initial_enable": 1,
-              "parameter_longname": "live.text[2]",
+              "parameter_longname": "G",
               "parameter_mmax": 1,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.text",
-              "parameter_type": 1
+              "parameter_shortname": "G",
+              "parameter_type": 1,
+              "parameter_annotation_name": "G"
             }
           },
           "text": "G",
           "texton": "G",
-          "varname": "live.text[2]"
+          "varname": "live.text[2]",
+          "annotation_name": "G"
         }
       },
       {
@@ -575,16 +583,18 @@
               "parameter_enum": ["val1", "val2"],
               "parameter_initial": [1],
               "parameter_initial_enable": 1,
-              "parameter_longname": "live.text[1]",
+              "parameter_longname": "R",
               "parameter_mmax": 1,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.text",
-              "parameter_type": 1
+              "parameter_shortname": "R",
+              "parameter_type": 1,
+              "parameter_annotation_name": "R"
             }
           },
           "text": "R",
           "texton": "R",
-          "varname": "live.text[1]"
+          "varname": "live.text[1]",
+          "annotation_name": "R"
         }
       },
       {
@@ -631,16 +641,18 @@
             "activebgoncolor": {"expression": "themecolor.live_value_arc"},
             "valueof": {
               "parameter_enum": ["val1", "val2"],
-              "parameter_longname": "live.text",
+              "parameter_longname": "Swap",
               "parameter_mmax": 1,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.text",
-              "parameter_type": 2
+              "parameter_shortname": "Swap",
+              "parameter_type": 2,
+              "parameter_annotation_name": "Swap"
             }
           },
           "text": "Swap",
           "texton": "Swap",
-          "varname": "live.text"
+          "varname": "live.text",
+          "annotation_name": "Swap"
         }
       },
       {
@@ -761,14 +773,16 @@
               ],
               "parameter_initial": [17],
               "parameter_initial_enable": 1,
-              "parameter_longname": "live.menu",
+              "parameter_longname": "Blend",
               "parameter_mmax": 23,
               "parameter_modmode": 0,
-              "parameter_shortname": "live.menu",
-              "parameter_type": 2
+              "parameter_shortname": "Blend",
+              "parameter_type": 2,
+              "parameter_annotation_name": "Blend"
             }
           },
-          "varname": "live.menu"
+          "varname": "live.menu",
+          "annotation_name": "Blend"
         }
       },
       {
@@ -806,6 +820,7 @@
       },
       {
         "box": {
+          "annotation_name": "Dry / Wet",
           "appearance": 3,
           "id": "obj-24",
           "maxclass": "live.dial",
@@ -818,6 +833,7 @@
           "presentation_rect": [40, 32, 50, 63],
           "saved_attribute_attributes": {
             "valueof": {
+              "parameter_annotation_name": "Dry / Wet",
               "parameter_initial": [50],
               "parameter_initial_enable": 1,
               "parameter_longname": "Dry / Wet",
@@ -826,12 +842,10 @@
               "parameter_shortname": "Dry / Wet",
               "parameter_steps": 1001,
               "parameter_type": 0,
-              "parameter_unitstyle": 5,
-              "parameter_annotation_name": "Dry / Wet"
+              "parameter_unitstyle": 5
             }
           },
-          "varname": "live.dial",
-          "annotation_name": "Dry / Wet"
+          "varname": "live.dial"
         }
       },
       {
@@ -1639,7 +1653,7 @@
               "parameter_info": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
               "parameter_initial": [8],
               "parameter_initial_enable": 1,
-              "parameter_longname": "Syphon",
+              "parameter_longname": "Channel",
               "parameter_mmax": 8,
               "parameter_modmode": 0,
               "parameter_shortname": "Channel",
@@ -1647,8 +1661,7 @@
               "parameter_unitstyle": 9
             }
           },
-          "spacing_x": 3,
-          "varname": "Syphon"
+          "spacing_x": 3
         }
       },
       {
@@ -1857,14 +1870,14 @@
     ],
     "parameters": {
       "obj-24": ["Dry / Wet", "Dry / Wet", 0],
-      "obj-25": ["live.menu", "live.menu", 0],
-      "obj-366": ["Syphon", "Channel", 0],
-      "obj-38": ["live.text", "live.text", 0],
-      "obj-47": ["live.text[1]", "live.text", 0],
-      "obj-48": ["live.text[2]", "live.text", 0],
-      "obj-49": ["live.text[3]", "live.text", 0],
-      "obj-50": ["live.text[4]", "live.text", 0],
-      "obj-68": ["live.tab", "live.tab", 0],
+      "obj-25": ["Blend", "live.menu", 0],
+      "obj-366": ["Channel", "Channel", 0],
+      "obj-38": ["Swap", "live.text", 0],
+      "obj-47": ["R", "live.text", 0],
+      "obj-48": ["G", "live.text", 0],
+      "obj-49": ["B", "live.text", 0],
+      "obj-50": ["A", "live.text", 0],
+      "obj-68": ["Dry", "live.tab", 0],
       "parameterbanks": {
         "0": {
           "index": 0,
