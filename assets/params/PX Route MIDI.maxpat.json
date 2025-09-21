@@ -5,8 +5,8 @@
       "maxclass": "live.text",
       "presentation": 1,
       "text": "Send MIDI",
-      "varname": "Thru",
-      "parameter_longname": "Thru",
+      "varname": "Send MIDI",
+      "parameter_longname": "Send MIDI",
       "parameter_shortname": "Send MIDI",
       "annotation_name": "Send MIDI",
       "annotation": "Send MIDI on/off"

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 567.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -3737,7 +3737,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Thru",
+							"parameter_longname" : "Send MIDI",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Send MIDI",
@@ -3749,7 +3749,7 @@
 ,
 					"text" : "Send MIDI",
 					"texton" : "Send MIDI",
-					"varname" : "Thru"
+					"varname" : "Send MIDI"
 				}
 
 			}
@@ -4120,7 +4120,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2" : [ "Thru", "Send MIDI", 0 ],
+			"obj-2" : [ "Send MIDI", "Send MIDI", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

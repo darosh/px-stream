@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 153.0, 98.0, 18.0 ],
+		"rect" : [ 33.0, 71.0, 567.0, 508.0 ],
 		"openrect" : [ 0.0, 0.0, 98.0, 19.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
@@ -226,7 +226,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Font",
 							"parameter_info" : "Selected font",
-							"parameter_longname" : "Font",
+							"parameter_longname" : "Font Automation",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Font",
@@ -285,7 +285,7 @@
 							"parameter_enum" : [ "Loading...", " " ],
 							"parameter_info" : "Selected font",
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.menu[1]",
+							"parameter_longname" : "Font",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Font",
@@ -1243,8 +1243,8 @@
  ],
 		"parameters" : 		{
 			"obj-4" : [ "FileName", "FileName", 0 ],
-			"obj-6" : [ "Font", "Font", 0 ],
-			"obj-76" : [ "live.menu[1]", "Font", 0 ],
+			"obj-6" : [ "Font Automation", "Font", 0 ],
+			"obj-76" : [ "Font", "Font", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

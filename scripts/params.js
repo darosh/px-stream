@@ -115,6 +115,8 @@ async function collect (path) {
   const data = {}
 
   for (const file of files) {
+    console.log(`Reading ${file}`)
+    
     const obj = await loadMaxpat(file)
     const params = getPatcherParams(obj.patcher)
 

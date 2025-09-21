@@ -5,7 +5,7 @@
       "maxclass": "live.numbox",
       "presentation": 1,
       "varname": "Font",
-      "parameter_longname": "Font",
+      "parameter_longname": "Font Automation",
       "parameter_shortname": "Font",
       "annotation_name": "Font",
       "annotation": "Selected font"
@@ -15,7 +15,7 @@
       "maxclass": "live.menu",
       "presentation": 1,
       "varname": "live.menu",
-      "parameter_longname": "live.menu[1]",
+      "parameter_longname": "Font",
       "parameter_shortname": "Font",
       "annotation_name": "Font",
       "annotation": "Selected font"
