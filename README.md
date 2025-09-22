@@ -48,24 +48,47 @@
 <br>
 
 - [Guides](#guides)
+    - [Install](#install)
+    - [Minimal patch](#minimal-patch)
+    - [Concept basics: Chain, Channel, Mix](#concept-basics-chain-channel-mix)
+    - [Extending patch](#extending-patch)
+    - [Dry/Wet](#drywet)
+    - [Transitions](#transitions)
+    - [Automation](#automation)
 - [Devices](#devices)
 - [Alternatives](#alternatives)
+
+<br>
 
 ## Guides
 
 ### Install
 
+TBD
+
 ### Minimal patch
+
+TBD
 
 ### Concept basics: Chain, Channel, Mix
 
+TBD
+
 ### Extending patch
+
+TBD
 
 ### Dry/Wet
 
+TBD
+
 ### Transitions
 
+TBD
+
 ### Automation
+
+TBD
 
 ## Devices
 
