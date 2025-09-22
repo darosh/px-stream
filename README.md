@@ -353,9 +353,14 @@ Do not use keywords (like `size`, `float`, `int`, ...) in ISF `NAME` property
 
 ## Alternatives
 
+Max for Live
 - [VIZZable 2](https://github.com/zealtv/VIZZable-2) (free)
 - [Geometrum 02](https://artekniks.gumroad.com/l/geometrum) (free)
-- [Videosync 2](https://videosync.showsync.com/)
-- [EboSuite](https://www.ebosuite.com/)
-- [VS - Visual Synthesizer](https://www.imaginando.pt/products/vs-visual-synthesizer)
 - [Zwobot](https://www.zwobotmax.com/)
+- [EboSuite](https://www.ebosuite.com/)
+
+Max for Live + App
+- [Videosync 2](https://videosync.showsync.com/)
+
+VST
+- [VS - Visual Synthesizer](https://www.imaginando.pt/products/vs-visual-synthesizer)
