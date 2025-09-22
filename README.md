@@ -45,6 +45,8 @@
 </div>
 <!-- end: collage -->
 
+<br>
+
 - [Guides](#guides)
 - [Devices](#devices)
 - [Alternatives](#alternatives)
