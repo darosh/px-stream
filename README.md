@@ -4,12 +4,6 @@
 > featuring audio-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals,
 > text rendering and [Syphon](https://syphon.info/) output streaming
 
-- [Devices](#devices)
-- [Development](#development)
-- [Alternatives](#alternatives)
-
-## Devices
-
 <!-- begin: collage -->
 <div>
     <a href="#px-mix-view"><img src="./assets/devices/PX_Mix_View_(expanded)_v1.webp" title="PX Mix View" width="273"/></a>
@@ -51,7 +45,27 @@
 </div>
 <!-- end: collage -->
 
-<br>
+- [Guides](#guides)
+- [Devices](#devices)
+- [Alternatives](#alternatives)
+
+## Guides
+
+### Install
+
+### Minimal patch
+
+### Concept basics: Chain, Channel, Mix
+
+### Extending patch
+
+### Dry/Wet
+
+### Transitions
+
+### Automation
+
+## Devices
 
 <table>
   <tr>
@@ -334,31 +348,6 @@ Shows texture info for development purposes
 Enables detailed Max console output for development and debugging. DO NOT USE IN PRODUCTION.
 
 <img src="./assets/devices/DEV_Console_v1.webp" height="231" title="DEV Console" />
-
-## Development
-
-### Prerequisites
-
-- install __"ISF by Vidvox"__ in Max `File > Show Package Manager`
-- configure [maxdiff](https://github.com/Ableton/maxdevtools/tree/main/maxdiff)
-
-### Diff
-
-```bash
-git --no-pager diff "./*.amxd" "./*.maxpat"
-```
-
-### Batch freezing
-
-Requires preparation, see [scripts/freeze.scpt](./scripts/freeze.scpt)
-
-```shell
-npm script freeze
-```
-
-### Shaders
-
-Do not use keywords (like `size`, `float`, `int`, ...) in ISF `NAME` property
 
 ## Alternatives
 

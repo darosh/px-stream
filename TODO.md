@@ -13,7 +13,6 @@
 - [ ] sdk?
 - [ ] param doc / mass edit
 - [ ] FX preview, animation
-- [ ] capitalize params
 - [ ] guide
 - [ ] multiline descriptions
 
@@ -67,13 +66,8 @@
 
 #### PX FX Color.amxd
 
-- [ ] add to doc
 
 #### PX FX Colorize.amxd
-
-- [ ] add to doc
-- [ ] add presets
-- [ ] test on color/bw videos
 
 ### IN
 
@@ -103,9 +97,6 @@
 
 #### PX IN Text.amxd
 
-- [ ] text: beat, time, frame, direct
-- [ ] text font automation + ref, store by string
-
 ### PX
 
 #### PX Mix Channel.amxd
@@ -126,12 +117,10 @@
 #### PX Shader.amxd
 
 - [ ] hsv mode?
-- [ ] shader stored as name
 - [ ] beat param?
 - [ ] tempo param? BEAT? BAR?
 - [ ] replace bpatchers
 - [ ] scrollable bpatcher to isf info
-- [ ] reset dials on empty inputs
 
 #### PX Transform.amxd
 
@@ -147,6 +136,15 @@
 
 ## Done
 
+- [x] shader stored as name
+- [x] Color: add to doc
+- [x] Colorize: add to doc
+- [x] ~~Colorize: add presets~~
+- [x] Colorize: test on color/bw videos
+- [x] text: beat, time, frame, direct
+- [x] text font automation + ref, store by string
+- [x] shader: reset dials on empty inputs
+- [X] capitalize params
 - [x] params scripts
 - [x] transitions? ~~isf?~~
 - [x] pixelization rotation fix
