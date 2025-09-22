@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 567.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 567.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -28,18 +28,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 168.0, 1040.0, 30.0, 22.0 ],
 					"text" : "+ 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-71",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 720.0, 141.0, 22.0 ],
-					"text" : "\"MiniMeters: MiniMeters\""
 				}
 
 			}
@@ -1654,13 +1642,6 @@
 					"destination" : [ "obj-8", 0 ],
 					"order" : 1,
 					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"source" : [ "obj-71", 0 ]
 				}
 
 			}
