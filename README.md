@@ -109,13 +109,15 @@
 
 ### PX World
 
-Essential rendering context. You need exactly one per Live set. More would be problematic. Sets target FPS. FPS 0 will use available maximum with displaylink turned on on Mac.
+Essential rendering context. You need exactly one per Live set. More would be problematic. Sets target FPS. FPS 0 will
+use available maximum with displaylink turned on on Mac.
 
 <img src="./assets/devices/PX_World_v1.webp" height="231" title="PX World" /> <img src="./assets/devices/PX_World_(mad_world)_v1.webp" height="231" title="PX World (mad world)" />
 
 ### PX Mix View
 
-Multi-channel mixing and preview. Mix output selected in expanded section can be consumed by [IN Mix](#in-mix) device and [Syphon](https://syphon.info/) clients. Click preview for floating window, <kbd>ESC</kbd> for fullscreen on/off.
+Multi-channel mixing and preview. Mix output selected in expanded section can be consumed by [IN Mix](#in-mix) device
+and [Syphon](https://syphon.info/) clients. Click preview for floating window, <kbd>ESC</kbd> for fullscreen on/off.
 
 <img src="./assets/devices/PX_Mix_View_v1.webp" height="231" title="PX Mix View" /> <img src="./assets/devices/PX_Mix_View_(expanded)_v1.webp" height="231" title="PX Mix View (expanded)" />
 
@@ -127,13 +129,15 @@ Send texture to selected channel. Alternative to individual channel selectors on
 
 ### PX Mix Dry
 
-Dry/wet mix from two previous devices. Select which (-1 to -4) for dry signal. Multiple blend modes and signal swap. Swap has no effect on [commutative](https://en.wikipedia.org/wiki/Commutative_property) blending methods.
+Dry/wet mix from two previous devices. Select which (-1 to -4) for dry signal. Multiple blend modes and signal swap.
+Swap has no effect on [commutative](https://en.wikipedia.org/wiki/Commutative_property) blending methods.
 
 <img src="./assets/devices/PX_Mix_Dry_v1.webp" height="231" title="PX Mix Dry" />
 
 ### PX Mix Transition
 
-Transition between two previous devices. Channel selection same as Mix Dry. Uses 90+ transitions from [gl-transitions.com](https://gl-transitions.com/).
+Transition between two previous devices. Channel selection same as Mix Dry. Uses 90+ transitions
+from [gl-transitions.com](https://gl-transitions.com/).
 
 <img src="./assets/devices/PX_Mix_Transition_v1.webp" height="231" title="PX Mix Transition" />
 
@@ -155,7 +159,8 @@ Send MIDI from selected track to next device. Works with [PX Shader](#px-shader)
 
 ### PX Shader
 
-Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects. Up to 32 dynamic parameters and various audio rendering options with our custom audio types.
+Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects. Up to 32 dynamic parameters and
+various audio rendering options with our custom audio types.
 
 <img src="./assets/devices/PX_Shader_v1.webp" height="231" title="PX Shader" /> <img src="./assets/devices/PX_Shader_(types)_v1.webp" height="231" title="PX Shader (types)" />
 
@@ -226,7 +231,8 @@ Video playback. Supports MP4, AVI, MOV (including [HAP codecs](https://hap.video
 
 ### IN Channel
 
-Use texture from [Mix Channel](#px-mix-channel) as input. Creates feedback when combined with [Mix Dry](#px-mix-dry) on same channel.
+Use texture from [Mix Channel](#px-mix-channel) as input. Creates feedback when combined with [Mix Dry](#px-mix-dry) on
+same channel.
 
 <img src="./assets/devices/PX_IN_Channel_v1.webp" height="231" title="PX IN Channel" />
 
@@ -290,13 +296,16 @@ Frame-based texture delay. Combine with Mix Dry device for ghost trail effects.
 
 ### FX Kaleidoscope
 
-Kaleidoscope patterns based on [Brewster designs]((https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster)) plus Max/Jitter shader
+Kaleidoscope patterns based
+on [Brewster designs]((https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster)) plus
+Max/Jitter shader
 
 <img src="./assets/devices/PX_FX_Kaleidoscope_v1.webp" height="231" title="PX FX Kaleidoscope" />
 
 ### FX Pass
 
-Postprocessing shaders from Max/Jitter stock library. See [Max documentation](https://docs.cycling74.com/reference/jit.gl.pass).
+Postprocessing shaders from Max/Jitter stock library.
+See [Max documentation](https://docs.cycling74.com/reference/jit.gl.pass).
 
 <img src="./assets/devices/PX_FX_Pass_v1.webp" height="231" title="PX FX Pass" />
 
@@ -354,13 +363,16 @@ Do not use keywords (like `size`, `float`, `int`, ...) in ISF `NAME` property
 ## Alternatives
 
 Max for Live
+
 - [VIZZable 2](https://github.com/zealtv/VIZZable-2) (free)
 - [Geometrum 02](https://artekniks.gumroad.com/l/geometrum) (free)
 - [Zwobot](https://www.zwobotmax.com/)
 - [EboSuite](https://www.ebosuite.com/)
 
 Max for Live + App
+
 - [Videosync 2](https://videosync.showsync.com/)
 
 VST
+
 - [VS - Visual Synthesizer](https://www.imaginando.pt/products/vs-visual-synthesizer)
