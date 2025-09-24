@@ -1,0 +1,2 @@
+$=[],t=0,draw=_=>t++?strokeWeight(2)+background(0,14)+($=[...$.slice(-5e3),...[...'#つぶやきProcessing'].map(random3D)]).map(_=>stroke(255,96).point((_.x+=sin(r=((_.x*2*(k=_.x*4+2^_.y*4|2+_.z*4)^_.y*k+t/299)&1)*2-1)/99*_.z)*109+270,(_.y+=cos(r)/99*_.z)*109+270)):createCanvas(540,540)
+// https://x.com/yuruyurau/status/1719632742269514103
