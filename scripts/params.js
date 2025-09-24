@@ -131,6 +131,7 @@ async function collect (path) {
 async function info (path) {
   const files = glob.sync(path)
   const data = {}
+  let total = 0 
 
   for (const file of files) {
     console.log(`Reading ${file}`)
@@ -174,8 +175,11 @@ async function info (path) {
       table.push(formatted)
     })
 
+    total += params.length
     console.log(table.toString())
   }
+  
+  console.log(`Total ${total} parameters.`)
 }
 
 async function read (path, save) {

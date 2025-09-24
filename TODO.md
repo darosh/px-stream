@@ -15,6 +15,7 @@
 - [ ] FX preview, animation
 - [ ] guide
 - [ ] multiline descriptions
+- [ ] check params:info
 
 ## Misc
 
