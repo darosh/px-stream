@@ -8,6 +8,7 @@ ISF Audio DEBUG.amxd
 .drawing.*.svg
 .TEST*.amxd
 .TEST*.maxpat
+.data-dir/
 devices/images/
 devices/video/
 devices/video/*.avi
