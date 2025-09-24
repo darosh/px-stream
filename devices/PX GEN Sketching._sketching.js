@@ -1,4 +1,4 @@
-outlets = 2
+outlets = 3
 
 let DELAY = 10
 let DISABLE = 50
@@ -29,7 +29,8 @@ let _maxSkip = 0
 
 let _function
 let _last_bang
-let _disabled
+let _disabled = false
+let _disabled_out = false
 let _play = 1
 
 let _plan = []
@@ -94,6 +95,15 @@ function _FORCE () {
 
 }
 
+function _DISABLED (d) {
+  _disabled = d
+
+  if (_disabled_out !== _disabled) {
+    _disabled_out = _disabled
+    outlet(2, _disabled ? 1 : 0)
+  }
+}
+
 function dim (x, y) {
   _dimX = x
   _dimY = y
@@ -103,7 +113,7 @@ function set_play (x) {
   _play = x
 
   if (x) {
-    _disabled = false
+    _DISABLED(false)
   }
 }
 
@@ -125,7 +135,7 @@ function set_disable (x) {
   DISABLE = x
 
   if (x) {
-    _disabled = false
+    _DISABLED(false)
   }
 }
 
@@ -412,7 +422,7 @@ function load (fn) {
     flushPlan()
     frameCount++
 
-    _disabled = (start + DISABLE) < Date.now()
+    _DISABLED((start + DISABLE) < Date.now())
   } catch (e) {
     _function = undefined
     post(e + '\n')
@@ -480,7 +490,7 @@ function bang () {
     _function()
     flushPlan()
     frameCount++
-    _disabled = (start + DISABLE) < Date.now()
+    _DISABLED((start + DISABLE) < Date.now())
     _last_bang = Date.now()
   }
 
