@@ -38,6 +38,9 @@
   "PX GEN Cos Pattern": {
     "description": "Procedural patterns with cosine palettes [popularized](https://iquilezles.org/articles/palettes/) by Inigo Quilez"
   },
+  "PX GEN Sketching": {
+    "description": "Custom OpenGL primitives scripting with JavaScript, slightly compatible with [openprocessing.org](https://openprocessing.org/)"
+  },
   "PX GEN Text": {
     "description": "Text generation from session/clip names, custom text, or dynamic musical data (beat, bar.beat, time)"
   },
