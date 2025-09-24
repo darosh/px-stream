@@ -2,6 +2,7 @@
   "name": "px-stream",
   "version": "0.0.0",
   "devDependencies": {
+    "canvas": "^3.2.0",
     "chalk": "^5.6.2",
     "cli-table3": "^0.6.5",
     "commander": "^14.0.1",
@@ -11,6 +12,7 @@
     "glsl-parser": "^2.0.1",
     "glsl-tokenizer": "^2.1.5",
     "json-stringify-pretty-compact": "^4.0.0",
+    "puppeteer": "^24.22.0",
     "sharp": "^0.34.3"
   },
   "private": true,
