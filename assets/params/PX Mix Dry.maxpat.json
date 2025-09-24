@@ -88,6 +88,7 @@
       "id": "obj-366",
       "maxclass": "live.tab",
       "presentation": 1,
+      "varname": "live.tab[1]",
       "parameter_longname": "Channel",
       "parameter_shortname": "Channel",
       "annotation_name": "Channel",

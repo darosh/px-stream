@@ -156,6 +156,7 @@
       "maxclass": "live.text",
       "presentation": 1,
       "text": "Invert",
+      "varname": "live.text",
       "parameter_longname": "Invert",
       "parameter_shortname": "Invert",
       "annotation_name": "Invert",

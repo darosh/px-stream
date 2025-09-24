@@ -1,0 +1,169 @@
+{
+  "boxes": [
+    {
+      "id": "obj-66",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu",
+      "parameter_longname": "Max Skip",
+      "parameter_shortname": "Max Skip",
+      "annotation_name": "Max Skip",
+      "annotation": ""
+    },
+    {
+      "id": "obj-42",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[8]",
+      "parameter_longname": "Max Circles",
+      "parameter_shortname": "Max Circles",
+      "annotation_name": "Max Circles",
+      "annotation": ""
+    },
+    {
+      "id": "obj-40",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[7]",
+      "parameter_longname": "Max Rectangles",
+      "parameter_shortname": "Max Rectangles",
+      "annotation_name": "Max Rectangles",
+      "annotation": ""
+    },
+    {
+      "id": "obj-38",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[6]",
+      "parameter_longname": "Max Triangles",
+      "parameter_shortname": "Max Triangles",
+      "annotation_name": "Max Triangles",
+      "annotation": ""
+    },
+    {
+      "id": "obj-36",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[5]",
+      "parameter_longname": "Max Lines",
+      "parameter_shortname": "Max Lines",
+      "annotation_name": "Max Lines",
+      "annotation": ""
+    },
+    {
+      "id": "obj-32",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[4]",
+      "parameter_longname": "Max Points",
+      "parameter_shortname": "Max Points",
+      "annotation_name": "Max Points",
+      "annotation": ""
+    },
+    {
+      "id": "obj-31",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Stop",
+      "varname": "live.text",
+      "parameter_longname": "Play / Stop",
+      "parameter_shortname": "Play / Stop",
+      "annotation_name": "Play / Stop",
+      "annotation": ""
+    },
+    {
+      "id": "obj-28",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[3]",
+      "parameter_longname": "Max Run",
+      "parameter_shortname": "Max Run",
+      "annotation_name": "Max Run",
+      "annotation": ""
+    },
+    {
+      "id": "obj-24",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[2]",
+      "parameter_longname": "Delay",
+      "parameter_shortname": "Delay",
+      "annotation_name": "Delay",
+      "annotation": ""
+    },
+    {
+      "id": "obj-21",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox[1]",
+      "parameter_longname": "Line Size",
+      "parameter_shortname": "Line Size",
+      "annotation_name": "Line Size",
+      "annotation": ""
+    },
+    {
+      "id": "obj-16",
+      "maxclass": "live.numbox",
+      "presentation": 1,
+      "varname": "live.numbox",
+      "parameter_longname": "Point Size",
+      "parameter_shortname": "Point Size",
+      "annotation_name": "Point Size",
+      "annotation": ""
+    },
+    {
+      "id": "obj-4",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "...",
+      "varname": "live.text[13]",
+      "parameter_longname": "Show Parameters",
+      "parameter_shortname": "Show Parameters",
+      "annotation_name": "Show Parameters",
+      "annotation": ""
+    },
+    {
+      "id": "obj-362",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Reload",
+      "varname": "live.text[10]",
+      "parameter_longname": "Reload",
+      "parameter_shortname": "Reload",
+      "annotation_name": "Reload",
+      "annotation": ""
+    },
+    {
+      "id": "obj-361",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Folder",
+      "varname": "live.text[9]",
+      "parameter_longname": "Open Folder",
+      "parameter_shortname": "Open Folder",
+      "annotation_name": "Open Folder",
+      "annotation": ""
+    },
+    {
+      "id": "obj-360",
+      "maxclass": "live.text",
+      "presentation": 1,
+      "text": "Edit",
+      "varname": "live.text[8]",
+      "parameter_longname": "Edit",
+      "parameter_shortname": "Edit",
+      "annotation_name": "Edit",
+      "annotation": ""
+    },
+    {
+      "id": "obj-366",
+      "maxclass": "live.tab",
+      "presentation": 1,
+      "varname": "live.tab",
+      "parameter_longname": "Channel",
+      "parameter_shortname": "Channel",
+      "annotation_name": "Channel",
+      "annotation": "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device."
+    }
+  ]
+}

@@ -1,6 +1,96 @@
 {
   "boxes": [
     {
+      "id": "obj-175",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu[8]",
+      "parameter_longname": "Blend",
+      "parameter_shortname": "Blend",
+      "annotation_name": "Blend",
+      "annotation": "Determines how two layers are blended with each other"
+    },
+    {
+      "id": "obj-174",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu[7]",
+      "parameter_longname": "Blend 8",
+      "parameter_shortname": "Blend 8",
+      "annotation_name": "Blend 8",
+      "annotation": "Determines how two layers are blended with each other"
+    },
+    {
+      "id": "obj-173",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu[6]",
+      "parameter_longname": "Blend 7",
+      "parameter_shortname": "Blend 7",
+      "annotation_name": "Blend 7",
+      "annotation": "Determines how two layers are blended with each other"
+    },
+    {
+      "id": "obj-169",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu[5]",
+      "parameter_longname": "Blend 6",
+      "parameter_shortname": "Blend 6",
+      "annotation_name": "Blend 6",
+      "annotation": "Determines how two layers are blended with each other"
+    },
+    {
+      "id": "obj-168",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu[4]",
+      "parameter_longname": "Blend 5",
+      "parameter_shortname": "Blend 5",
+      "annotation_name": "Blend 5",
+      "annotation": "Determines how two layers are blended with each other"
+    },
+    {
+      "id": "obj-166",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu[3]",
+      "parameter_longname": "Blend 4",
+      "parameter_shortname": "Blend 4",
+      "annotation_name": "Blend 4",
+      "annotation": "Determines how two layers are blended with each other"
+    },
+    {
+      "id": "obj-162",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu[2]",
+      "parameter_longname": "Blend 3",
+      "parameter_shortname": "Blend 3",
+      "annotation_name": "Blend 3",
+      "annotation": "Determines how two layers are blended with each other"
+    },
+    {
+      "id": "obj-151",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu[1]",
+      "parameter_longname": "Blend 2",
+      "parameter_shortname": "Blend 2",
+      "annotation_name": "Blend 2",
+      "annotation": "Determines how two layers are blended with each other"
+    },
+    {
+      "id": "obj-60",
+      "maxclass": "live.menu",
+      "presentation": 1,
+      "varname": "live.menu",
+      "parameter_longname": "Blend 1",
+      "parameter_shortname": "Blend 1",
+      "annotation_name": "Blend 1",
+      "annotation": "Determines how two layers are blended with each other"
+    },
+    {
       "id": "obj-157",
       "maxclass": "live.numbox",
       "presentation": 1,
