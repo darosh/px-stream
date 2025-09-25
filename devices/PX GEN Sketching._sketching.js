@@ -1,4 +1,4 @@
-outlets = 3
+outlets = 4
 
 let DELAY = 10
 let DISABLE = 50
@@ -425,7 +425,10 @@ function load (fn) {
     _DISABLED((start + DISABLE) < Date.now())
   } catch (e) {
     _function = undefined
-    post(e + '\n')
+    const msg = `${e.name}:\n${e.message}`
+    // error(msg)
+    error(e.stack + '\n')
+    outlet(3, msg)
   }
 }
 
