@@ -27,6 +27,9 @@
 - [ ] restore session params and automation
 - [ ] disable dynamic live.menu automation
 - [ ] disable irrelevant params
+- [ ] check int params! "parameter_type" : 1
+- [ ] file automation item change only
+- [ ] re-enable passed channel on change
 
 ## Devices
 
