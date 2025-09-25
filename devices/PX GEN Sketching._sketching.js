@@ -423,6 +423,7 @@ function load (fn) {
     frameCount++
 
     _DISABLED((start + DISABLE) < Date.now())
+    outlet(3, 0)
   } catch (e) {
     _function = undefined
     const msg = `${e.name}:\n${e.message}`
