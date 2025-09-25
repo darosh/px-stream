@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 80.0, 567.0, 423.0 ],
+		"rect" : [ 33.0, 71.0, 500.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -586,7 +586,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Mix",
-							"parameter_type" : 1,
+							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
 						}
 
@@ -821,7 +821,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "More",
 					"id" : "obj-87",
 					"maxclass" : "live.text",
@@ -1150,7 +1150,7 @@
 							"parameter_mmax" : 255.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Color 3B",
-							"parameter_type" : 1,
+							"parameter_type" : 0,
 							"parameter_units" : "B",
 							"parameter_unitstyle" : 9
 						}
@@ -1182,7 +1182,7 @@
 							"parameter_mmax" : 255.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Color 3G",
-							"parameter_type" : 1,
+							"parameter_type" : 0,
 							"parameter_units" : "G",
 							"parameter_unitstyle" : 9
 						}
@@ -1214,7 +1214,7 @@
 							"parameter_mmax" : 255.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Color 3R",
-							"parameter_type" : 1,
+							"parameter_type" : 0,
 							"parameter_units" : "R",
 							"parameter_unitstyle" : 9
 						}
@@ -1399,7 +1399,7 @@
 							"parameter_mmax" : 255.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Color 2B",
-							"parameter_type" : 1,
+							"parameter_type" : 0,
 							"parameter_units" : "B",
 							"parameter_unitstyle" : 9
 						}
@@ -1431,7 +1431,7 @@
 							"parameter_mmax" : 255.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Color 2G",
-							"parameter_type" : 1,
+							"parameter_type" : 0,
 							"parameter_units" : "G",
 							"parameter_unitstyle" : 9
 						}
@@ -1463,7 +1463,7 @@
 							"parameter_mmax" : 255.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Color 2R",
-							"parameter_type" : 1,
+							"parameter_type" : 0,
 							"parameter_units" : "R",
 							"parameter_unitstyle" : 9
 						}
@@ -1648,7 +1648,7 @@
 							"parameter_mmax" : 255.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Color 1B",
-							"parameter_type" : 1,
+							"parameter_type" : 0,
 							"parameter_units" : "B",
 							"parameter_unitstyle" : 9
 						}
@@ -1680,7 +1680,7 @@
 							"parameter_mmax" : 255.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Color 1G",
-							"parameter_type" : 1,
+							"parameter_type" : 0,
 							"parameter_units" : "G",
 							"parameter_unitstyle" : 9
 						}
@@ -1712,7 +1712,7 @@
 							"parameter_mmax" : 255.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Color 1R",
-							"parameter_type" : 1,
+							"parameter_type" : 0,
 							"parameter_units" : "R",
 							"parameter_unitstyle" : 9
 						}
@@ -1920,7 +1920,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -3092,15 +3092,6 @@
 			"obj-91" : [ "Curve", "Curve", 0 ],
 			"obj-94" : [ "Offset", "Offset", 0 ],
 			"obj-97" : [ "Max", "Max", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
