@@ -30,6 +30,10 @@
 - [ ] check int params! "parameter_type" : 1
 - [ ] file automation item change only
 - [ ] re-enable passed channel on change
+- [ ] fix default cos pattern
+- [ ] device images link to doc
+- [ ] replace readme WIP with notice for clean #px-stream hash
+- [ ] move info to bpatcher + add version
 
 ## Devices
 
