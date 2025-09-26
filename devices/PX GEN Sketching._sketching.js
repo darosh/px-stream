@@ -166,17 +166,21 @@ function _REPL (type, cmd) {
   item.item = cmd
 }
 
-function _REPLS (type, cmds) {
+function _REPLS (type, cmds, repl = true) {
   let item
 
   if (_plan.at(-1)?.type === type) {
     item = _plan.at(-1)
   } else {
-    item = { type: type }
+    item = { type: type, items: [] }
     _plan.push(item)
   }
 
-  item.items = cmds
+  if (repl) {
+    item.items = [cmds]
+  } else {
+    item.items.push(cmds)
+  }
 }
 
 function _FORCE () {
@@ -354,16 +358,26 @@ function load (fn) {
   }
 
   function stroke (r, g, b, a) {
+    const t = _plan.at(-1)?.type
+    
+    if (t === POINTS) {
+      return fill(r, g, b, a, POINTS)
+    }
+    
     return fill(r, g, b, a)
   }
 
-  function fill (r, g, b, a) {
+  function fill (r, g, b, a, type = undefined) {
     const _r = r
     const _g = b === undefined ? r : (g ?? r)
     const _b = b ?? r
     const _a = ((b === undefined) && (g !== undefined)) ? g : (a ?? 255)
 
-    _REPL('fill', ['glcolor', _r / 255, _g / 255, _b / 255, _a / 255])
+    if (!type) {
+      _REPL('fill', ['glcolor', _r / 255, _g / 255, _b / 255, _a / 255])
+    } else {
+      _REPLS(type, [['glcolor', _r / 255, _g / 255, _b / 255, _a / 255]], false)
+    }
 
     return _all
   }
@@ -392,7 +406,7 @@ function load (fn) {
     return arr
   }
 
-  function circle (x, y, r) {
+  function circle (x, y, r = 1) {
     let _circles
 
     if (_plan.at(-1)?.type === CIRCLES) {
@@ -486,7 +500,19 @@ function load (fn) {
     return _all
   }
 
-  _all = { randomSeed, stroke, noFill, point, triangle }
+  _all = {
+    random,
+    randomSeed,
+    strokeWeight,
+    stroke,
+    fill,
+    noFill,
+    point,
+    line,
+    triangle,
+    circle,
+    rect
+  }
 
   const PI = Math.PI
   const TAU = Math.PI * 2
