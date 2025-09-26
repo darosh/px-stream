@@ -44,7 +44,7 @@ let _HALF_SHORT = 1
 let _function
 let _last_bang
 let _disabled = false
-let _disabled_out = false
+let _disabled_out = null
 let _play = 1
 
 let _plan = []
