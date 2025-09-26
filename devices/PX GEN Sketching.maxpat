@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 500.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -811,7 +811,7 @@
 							"parameter_initial" : [ 1000 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Max Triangles",
-							"parameter_mmax" : 99999.0,
+							"parameter_mmax" : 9999.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Max Triangles",
@@ -857,7 +857,7 @@
 							"parameter_initial" : [ 4000 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Max Points",
-							"parameter_mmax" : 99999.0,
+							"parameter_mmax" : 9999.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Max Points",
@@ -3171,6 +3171,16 @@
 			"obj-66" : [ "Max Skip", "Max Skip", 0 ],
 			"obj-91" : [ "Param Y", "Param Y", 0 ],
 			"obj-93" : [ "Param X", "Param X", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-112::obj-76" : 				{
 					"parameter_invisible" : 2,
