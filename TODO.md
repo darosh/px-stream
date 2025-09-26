@@ -34,6 +34,9 @@
 - [ ] device images link to doc
 - [ ] replace readme WIP with notice for clean #px-stream hash
 - [ ] move info to bpatcher + add version
+- [ ] sketching point scaling
+- [ ] fl primitives sketch
+- [ ] try primitives in block color/sizing
 
 ## Devices
 
