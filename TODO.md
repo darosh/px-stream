@@ -37,6 +37,8 @@
 - [ ] sketching point scaling
 - [ ] fl primitives sketch
 - [ ] try primitives in block color/sizing
+- [ ] sketch max limit should count only glvertex
+- [ ] sketch point spiral
 
 ## Devices
 
