@@ -9,8 +9,8 @@ let spiralRadii = []
 let spiralAngles = []
 
 const D = 3 // density multiplier
-const T = 8 // motion scale
-const SPIRAL_RADIUS = 30
+const T = 2 // motion scale
+const SPIRAL_RADIUS = 20
 const FALL_CHANCE = 0.001
 const RETURN_SPEED = 0.5
 
@@ -21,15 +21,15 @@ let t = 0
 
 function setup () {
 
-  createCanvas(200, 100)
+  createCanvas(100, 100)
 
   // Initialize arrays for each point layer
   for (let layer = 0; layer < D; layer++) {
     for (let i = 0; i < p.length; i += 2) {
       // Base logo position (centered and scaled)
       base.push([
-        (p[i % p.length] - 50) * 4 + 107,
-        (p[i % p.length + 1] - 50) * 2 + 54
+        p[i % p.length],
+        p[i % p.length + 1] + 3
       ])
 
       // Missile spiral parameters

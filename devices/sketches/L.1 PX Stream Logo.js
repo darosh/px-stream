@@ -12,13 +12,13 @@ T = 3
 t = 0
 draw = _ => {
   if (!t) {
-    createCanvas(200,100)
+    createCanvas(100,100)
 
     // init arrays
     for (let i = 0; i < p.length * D; i += 2) {
       base.push([
-        (p[i % p.length] - 50) * 4 + 107,
-        (p[i % p.length + 1] - 50) * 2 + 54
+        p[i % p.length],
+        p[i % p.length + 1] + 3
       ])
       phases.push(random(TAU))        // random phase
       speeds.push(random(0.005, 0.02)) // different speeds
