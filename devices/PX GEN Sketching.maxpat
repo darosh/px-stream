@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 500.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,139 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"annotation_name" : "View",
+					"id" : "obj-40",
+					"maxclass" : "live.menu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 920.0, 1000.0, 100.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 180.0, 118.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_annotation_name" : "View",
+							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
+							"parameter_longname" : "View",
+							"parameter_mmax" : 2,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "View",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "live.menu[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "live.comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 840.0, 1000.0, 71.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 178.0, 103.0, 56.0, 18.0 ],
+					"text" : "View",
+					"textjustification" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation_name" : "Param Y",
+					"id" : "obj-91",
+					"maxclass" : "live.numbox",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 896.0, 1080.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 180.0, 153.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_annotation_name" : "Param Y",
+							"parameter_initial" : [ 0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "Param Y",
+							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 4,
+							"parameter_shortname" : "Param Y",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
+						}
+
+					}
+,
+					"varname" : "live.numbox[7]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-92",
+					"maxclass" : "live.comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 840.0, 1080.0, 71.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 178.0, 138.0, 54.0, 18.0 ],
+					"text" : "Param Y",
+					"textjustification" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation_name" : "Param X",
+					"id" : "obj-93",
+					"maxclass" : "live.numbox",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 896.0, 1120.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 132.0, 153.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_annotation_name" : "Param X",
+							"parameter_initial" : [ 0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "Param X",
+							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "Param X",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
+						}
+
+					}
+,
+					"varname" : "live.numbox[8]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"maxclass" : "live.comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 840.0, 1120.0, 71.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 130.0, 138.0, 56.0, 18.0 ],
+					"text" : "Param X",
+					"textjustification" : 0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-100",
 					"maxclass" : "newobj",
@@ -331,7 +464,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1288.0, 968.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 132.0, 153.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 180.0, 83.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Max Skip",
@@ -357,7 +490,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1288.0, 936.0, 71.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 130.0, 138.0, 56.0, 18.0 ],
+					"presentation_rect" : [ 178.0, 68.0, 56.0, 18.0 ],
 					"text" : "Max skip",
 					"textjustification" : 0
 				}
@@ -441,8 +574,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1024.0, 1112.0, 119.0, 22.0 ],
-					"text" : "prepend max_circles"
+					"patching_rect" : [ 1024.0, 1112.0, 103.0, 22.0 ],
+					"text" : "prepend param_y"
 				}
 
 			}
@@ -453,8 +586,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1024.0, 1072.0, 141.0, 22.0 ],
-					"text" : "prepend max_rectangles"
+					"patching_rect" : [ 1024.0, 1072.0, 103.0, 22.0 ],
+					"text" : "prepend param_x"
 				}
 
 			}
@@ -465,8 +598,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1024.0, 1032.0, 131.0, 22.0 ],
-					"text" : "prepend max_triangles"
+					"patching_rect" : [ 1024.0, 1032.0, 113.0, 22.0 ],
+					"text" : "prepend max_polys"
 				}
 
 			}
@@ -477,8 +610,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1024.0, 992.0, 110.0, 22.0 ],
-					"text" : "prepend max_lines"
+					"patching_rect" : [ 1024.0, 992.0, 109.0, 22.0 ],
+					"text" : "prepend set_mode"
 				}
 
 			}
@@ -603,98 +736,6 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation_name" : "Max Circles",
-					"id" : "obj-42",
-					"maxclass" : "live.numbox",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 896.0, 1112.0, 44.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 153.0, 44.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_annotation_name" : "Max Circles",
-							"parameter_initial" : [ 1000 ],
-							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Max Circles",
-							"parameter_mmax" : 99999.0,
-							"parameter_mmin" : 1.0,
-							"parameter_modmode" : 4,
-							"parameter_shortname" : "Max Circles",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
-						}
-
-					}
-,
-					"varname" : "live.numbox[8]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-43",
-					"maxclass" : "live.comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 840.0, 1112.0, 71.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 138.0, 56.0, 18.0 ],
-					"text" : "Max circs",
-					"textjustification" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation_name" : "Max Rectangles",
-					"id" : "obj-40",
-					"maxclass" : "live.numbox",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 888.0, 1072.0, 44.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 118.0, 44.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_annotation_name" : "Max Rectangles",
-							"parameter_initial" : [ 1000 ],
-							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Max Rectangles",
-							"parameter_mmax" : 99999.0,
-							"parameter_mmin" : 1.0,
-							"parameter_modmode" : 4,
-							"parameter_shortname" : "Max Rectangles",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
-						}
-
-					}
-,
-					"varname" : "live.numbox[7]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "live.comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 840.0, 1072.0, 71.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 103.0, 56.0, 18.0 ],
-					"text" : "Max rects",
-					"textjustification" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"annotation_name" : "Max Triangles",
 					"id" : "obj-38",
 					"maxclass" : "live.numbox",
@@ -704,7 +745,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 896.0, 1032.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 83.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 180.0, 49.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Max Triangles",
@@ -733,54 +774,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 840.0, 1032.0, 71.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 68.0, 48.0, 18.0 ],
-					"text" : "Max tris",
-					"textjustification" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation_name" : "Max Lines",
-					"id" : "obj-36",
-					"maxclass" : "live.numbox",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 896.0, 992.0, 44.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 49.0, 44.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_annotation_name" : "Max Lines",
-							"parameter_initial" : [ 2000 ],
-							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Max Lines",
-							"parameter_mmax" : 99999.0,
-							"parameter_mmin" : 1.0,
-							"parameter_modmode" : 4,
-							"parameter_shortname" : "Max Lines",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
-						}
-
-					}
-,
-					"varname" : "live.numbox[5]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-37",
-					"maxclass" : "live.comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 840.0, 992.0, 71.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 35.0, 48.0, 18.0 ],
-					"text" : "Max lines",
+					"presentation_rect" : [ 178.0, 34.0, 54.0, 18.0 ],
+					"text" : "Max objs",
 					"textjustification" : 0
 				}
 
@@ -1032,7 +1027,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Parameters",
 					"id" : "obj-4",
 					"maxclass" : "live.text",
@@ -1950,7 +1945,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -2034,7 +2029,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"id" : "obj-369",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -2463,13 +2458,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-59", 0 ],
-					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-342", 0 ],
 					"source" : [ "obj-360", 0 ]
 				}
@@ -2526,15 +2514,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
+					"destination" : [ "obj-59", 0 ],
 					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -2934,6 +2915,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"source" : [ "obj-91", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-96", 0 ],
 					"source" : [ "obj-95", 0 ]
 				}
@@ -2972,21 +2967,21 @@
 			"obj-31" : [ "Play / Stop", "Play / Stop", 0 ],
 			"obj-32" : [ "Max Points", "Max Points", 0 ],
 			"obj-35::obj-151" : [ "Dimensions[2]", "Dimensions", 0 ],
-			"obj-36" : [ "Max Lines", "Max Lines", 0 ],
 			"obj-360" : [ "Edit", "Edit", 0 ],
 			"obj-361" : [ "Open Folder", "Open Folder", 0 ],
 			"obj-362" : [ "Reload", "Reload", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
 			"obj-38" : [ "Max Triangles", "Max Triangles", 0 ],
 			"obj-4" : [ "Show Parameters", "Show Parameters", 0 ],
-			"obj-40" : [ "Max Rectangles", "Max Rectangles", 0 ],
-			"obj-42" : [ "Max Circles", "Max Circles", 0 ],
+			"obj-40" : [ "View", "View", 0 ],
 			"obj-66" : [ "Max Skip", "Max Skip", 0 ],
+			"obj-91" : [ "Param Y", "Param Y", 0 ],
+			"obj-93" : [ "Param X", "Param X", 0 ],
 			"parameter_overrides" : 			{
 				"obj-112::obj-76" : 				{
 					"parameter_invisible" : 2,
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "L.1 PX Stream Logo", "L.2 PX Stream Logo", "T. yuruyurau-1719632742269514103", "T. yuruyurau-1855984865080234183", "T. yuruyurau-1860706643874611597", "T. yuruyurau-1873400073255800891", "T. yuruyurau-1875565755254894621", "T. yuruyurau-1890052776312688933", "T. yuruyurau-1890751857116532978", "T. yuruyurau-1927373647125119025", "T. yuruyurau-1928466594105016656", "T. yuruyurau-1933625860462162098", "T. yuruyurau-1933629116575855091", "T. yuruyurau-1942231466446057727", "T. yuruyurau-1943684973199819135", "T. yuruyurau-1949120251335241902", "T. yuruyurau-1966891530729541865", "T. yuruyurau-1966893753479950721", "T. yuruyurau-1967250402409394661", "T. yuruyurau-1969263738193674589", "T. yuruyurau-1969417048146264405", "T. yuruyurau-1970144173438435426", "X.1 Primitives Test" ],
+					"parameter_range" : [ "Loading...", " " ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}

@@ -9,23 +9,37 @@ const TRIANGLES = 'triangles'
 const CIRCLES = 'circles'
 const QUADS = 'quads'
 
+const MODE_FIT = 0
+const MODE_FILL = 1
+const MODE_STRETCH = 2
+
+let PARAM_X = 0
+let PARAM_Y = 0
+let MODE = 0
+
 const MAX_DEFAULT = 10
 const MAX = {
   [POINTS]: 5000,
-  [LINES]: 2000,
+  [LINES]: 1000,
   [TRIANGLES]: 1000,
   [QUADS]: 1000,
   [CIRCLES]: 1000
 }
 
-let _canvasX
-let _canvasY
+let _canvasX = 100
+let _canvasY = 100
 let _dimX = 512
 let _dimY = 512
 let _pointScale = .5
 let _lineScale = .5
 let _lastStrokeWeight = 1
 let _maxSkip = 0
+let _TRANS_OX = 0
+let _TRANS_OY = 0
+let _TRANS_SX = 1
+let _TRANS_SY = 1
+let _TRANS_SHORT = 1
+let _HALF_SHORT = 1
 
 let _function
 let _last_bang
@@ -39,16 +53,65 @@ let frameCount = 0
 let setup
 let draw
 
+function log (msg) {
+  post(JSON.stringify(msg) + '\n')
+}
+
+function _updateScale () {
+  const t = _getTransform(MODE)
+
+  _TRANS_OX = t.offsetX
+  _TRANS_OY = t.offsetY
+  _TRANS_SX = t.scaleX
+  _TRANS_SY = t.scaleY
+  
+  const short = Math.min(_dimX, _dimY)
+  
+  _TRANS_SHORT = (short === _dimX ? _TRANS_SX : _TRANS_SY) * 2
+
+  _HALF_SHORT = short / 2
+}
+
+// compute per-mode scale and offsets (offsets are in canvas pixels)
+function _getTransform (mode = MODE_FIT) {
+  if (_dimX <= 0 || _dimY <= 0 || _canvasX <= 0 || _canvasY <= 0) {
+    throw new Error('invalid dimensions')
+  }
+
+  const sx = _canvasX / _dimX // canvas pixels per frame unit (X)
+  const sy = _canvasY / _dimY // canvas pixels per frame unit (Y)
+
+  let scaleX, scaleY, offsetX = 0, offsetY = 0
+
+  if (mode === MODE_FIT) {
+    const s = Math.max(sx, sy)
+    scaleX = scaleY = s
+    offsetX = (_canvasX - _dimX * s) / 2
+    offsetY = (_canvasY - _dimY * s) / 2
+  } else if (mode === MODE_FILL) {
+    const s = Math.min(sx, sy)
+    scaleX = scaleY = s
+    offsetX = (_canvasX - _dimX * s) / 2
+    offsetY = (_canvasY - _dimY * s) / 2
+  } else if (mode === MODE_STRETCH) {
+    // independent axis scale, no offset
+    scaleX = sx
+    scaleY = sy
+  }
+
+  return { scaleX, scaleY, offsetX, offsetY }
+}
+
 function _SX (x) {
-  return x / (_canvasX / 2) - 1
+  return ((x - _TRANS_OX) / _TRANS_SX - _dimX / 2) / _HALF_SHORT
 }
 
 function _SY (y) {
-  return -y / (_canvasY / 2) + 1
+  return (_dimY / 2 - (y - _TRANS_OY) / _TRANS_SY) / _HALF_SHORT
 }
 
 function _SR (r) {
-  return r / _canvasY
+  return r / _TRANS_SHORT / _HALF_SHORT
 }
 
 function _SP (r) {
@@ -57,6 +120,37 @@ function _SP (r) {
 
 function _SL (r) {
   return Math.min(_lineScale * r * (_dimY / _canvasY), 128) / 2
+}
+
+const _C_6 = _CPTS(6)
+const _C_12 = _CPTS(12)
+const _C_18 = _CPTS(18)
+const _C_24 = _CPTS(24)
+const _C_30 = _CPTS(30)
+const _C_36 = _CPTS(36)
+
+function _CPTS (n) {
+  const p = []
+
+  for (let i = 0; i < n; i++) {
+    const a = i * Math.PI / (n / 2)
+    p.push({ x: Math.cos(a), y: Math.sin(a) })
+  }
+
+  return p
+}
+
+function _SC (x, y, r) {
+  const sr = _SR(r)
+  const sx = _SX(x)
+  const sy = _SY(y)
+
+  return (sr < 0.04 ? _C_6 : sr < 0.08 ? _C_12 : sr < .16 ? _C_18 : sr < .32 ? _C_24 : sr < .48 ? _C_30 : _C_36)
+    .map(({ x, y }) => [
+      'glvertex',
+      x * sr + sx,
+      y * sr + sy
+    ])
 }
 
 function _REPL (type, cmd) {
@@ -107,6 +201,8 @@ function _DISABLED (d) {
 function dim (x, y) {
   _dimX = x
   _dimY = y
+  
+  _updateScale()
 }
 
 function set_play (x) {
@@ -115,6 +211,12 @@ function set_play (x) {
   if (x) {
     _DISABLED(false)
   }
+}
+
+function set_mode (x) {
+  MODE = x
+  
+  _updateScale()
 }
 
 function point_scale (x) {
@@ -143,24 +245,23 @@ function max_points (x) {
   MAX[POINTS] = x
 }
 
-function max_lines (x) {
+function max_polys (x) {
   MAX[LINES] = x
-}
-
-function max_triangles (x) {
   MAX[TRIANGLES] = x
-}
-
-function max_rectangles (x) {
   MAX[QUADS] = x
-}
-
-function max_circles (x) {
   MAX[CIRCLES] = x
 }
 
 function max_skip (x) {
   _maxSkip = x
+}
+
+function param_x (x) {
+  PARAM_X = x
+}
+
+function param_y (x) {
+  PARAM_Y = x
 }
 
 function load (fn) {
@@ -231,6 +332,8 @@ function load (fn) {
     _canvasX = x
     _canvasY = y
 
+    _updateScale()
+
     return _all
   }
 
@@ -299,8 +402,11 @@ function load (fn) {
       _plan.push(_circles)
     }
 
-    _circles.items.push([['moveto', _SX(x), _SY(y)],
-      ['circle', _SR(r)]])
+    _circles.items.push([
+      ['glbegin', 'polygon'],
+      ..._SC(x, y, r),
+      ['glend'],
+    ])
   }
 
   function line (a, b, c, d, e, f) {
@@ -309,7 +415,7 @@ function load (fn) {
     if (_plan.at(-1)?.type === LINES) {
       _lines = _plan.at(-1)
     } else {
-      _lines = { type: LINES, items: [] }
+      _lines = { type: LINES, wrap: LINES, items: [] }
       _plan.push(_lines)
     }
 
@@ -334,7 +440,7 @@ function load (fn) {
     if (_plan.at(-1)?.type === TRIANGLES) {
       _triangles = _plan.at(-1)
     } else {
-      _triangles = { type: TRIANGLES, items: [] }
+      _triangles = { type: TRIANGLES, wrap: TRIANGLES, items: [] }
       _plan.push(_triangles)
     }
 
@@ -351,7 +457,7 @@ function load (fn) {
     if (_plan.at(-1)?.type === QUADS) {
       _rects = _plan.at(-1)
     } else {
-      _rects = { type: QUADS, items: [] }
+      _rects = { type: QUADS, wrap: QUADS, items: [] }
       _plan.push(_rects)
     }
 
@@ -366,20 +472,12 @@ function load (fn) {
   }
 
   function point (x, y) {
-    // if (x < 0 || x > _canvasX) {
-    //   return
-    // }
-    //
-    // if (y < 0 || y > _canvasY) {
-    //   return
-    // }
-
     let _points
 
     if (_plan.at(-1)?.type === POINTS) {
       _points = _plan.at(-1)
     } else {
-      _points = { type: POINTS, items: [] }
+      _points = { type: POINTS, wrap: POINTS, items: [] }
       _plan.push(_points)
     }
 
@@ -389,11 +487,13 @@ function load (fn) {
   }
 
   _all = { randomSeed, stroke, noFill, point, triangle }
+
   const PI = Math.PI
   const TAU = Math.PI * 2
 
   _canvasX = 100
   _canvasY = 100
+  _updateScale()
   _function = undefined
   setup = undefined
   draw = undefined
@@ -433,12 +533,14 @@ function load (fn) {
   }
 }
 
-function flushArray (arr, type = 'points', limit = 100) {
+function flushArray (arr, type = 'points', wrap, limit = 100) {
   if (!arr.length) {
     return
   }
 
-  outlet(0, 'glbegin', type)
+  if (wrap) {
+    outlet(0, 'glbegin', wrap)
+  }
 
   if (!_maxSkip) {
     const step = arr.length / limit // spacing between processed items
@@ -465,13 +567,15 @@ function flushArray (arr, type = 'points', limit = 100) {
     }
   }
 
-  outlet(0, 'glend')
+  if (wrap) {
+    outlet(0, 'glend')
+  }
 }
 
 function flushPlan () {
   for (const set of _plan) {
     if (set.items) {
-      flushArray(set.items, set.type, MAX[set.type] ?? MAX_DEFAULT)
+      flushArray(set.items, set.type, set.wrap, MAX[set.type] ?? MAX_DEFAULT)
     } else {
       outlet(0, set.item)
     }
