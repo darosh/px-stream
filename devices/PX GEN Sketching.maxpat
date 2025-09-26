@@ -21,6 +21,18 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-103",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1376.0, 168.0, 101.0, 22.0 ],
+					"text" : "r ---bang_params"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -495,7 +507,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1288.0, 1000.0, 107.0, 22.0 ],
+					"patching_rect" : [ 1288.0, 1008.0, 107.0, 22.0 ],
 					"text" : "prepend max_skip"
 				}
 
@@ -2158,6 +2170,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-103", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-104", 0 ]
 				}
@@ -3152,16 +3171,6 @@
 			"obj-66" : [ "Max Skip", "Max Skip", 0 ],
 			"obj-91" : [ "Param Y", "Param Y", 0 ],
 			"obj-93" : [ "Param X", "Param X", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-112::obj-76" : 				{
 					"parameter_invisible" : 2,
