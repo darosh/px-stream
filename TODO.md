@@ -28,7 +28,6 @@
 - [ ] disable irrelevant params
 - [ ] re-enable passed channel on change
 - [ ] sketch max limit should count only glvertex
-- [ ] sketch point spiral
 
 ## Devices
 
@@ -139,6 +138,7 @@
 
 ## Done
 
+- [x] sketch point spiral
 - [x] replace readme WIP with notice for clean #px-stream hash
 - [x] device images link to doc
 - [x] sketching point scaling
