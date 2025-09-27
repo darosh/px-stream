@@ -1,4 +1,4 @@
-outlets = 4
+outlets = 5
 
 let DELAY = 10
 let DISABLE = 50
@@ -19,11 +19,7 @@ let MODE = 0
 
 const MAX_DEFAULT = 10
 const MAX = {
-  [POINTS]: 5000,
-  [LINES]: 1000,
-  [TRIANGLES]: 1000,
-  [QUADS]: 1000,
-  [CIRCLES]: 1000
+  [POINTS]: 5000, [LINES]: 1000, [TRIANGLES]: 1000, [QUADS]: 1000, [CIRCLES]: 1000
 }
 
 let _canvasX = 100
@@ -53,6 +49,10 @@ let frameCount = 0
 let setup
 let draw
 
+let MATRIX
+let ARRAY
+let IND = 0
+
 function log (msg) {
   post(JSON.stringify(msg) + '\n')
 }
@@ -64,9 +64,9 @@ function _updateScale () {
   _TRANS_OY = t.offsetY
   _TRANS_SX = t.scaleX
   _TRANS_SY = t.scaleY
-  
+
   const short = Math.min(_dimX, _dimY)
-  
+
   _TRANS_SHORT = (short === _dimX ? _TRANS_SX : _TRANS_SY) * 2
 
   _HALF_SHORT = short / 2
@@ -146,20 +146,16 @@ function _SC (x, y, r) {
   const sy = _SY(y)
 
   return (sr < 0.04 ? _C_6 : sr < 0.08 ? _C_12 : sr < .16 ? _C_18 : sr < .32 ? _C_24 : sr < .48 ? _C_30 : _C_36)
-    .map(({ x, y }) => [
-      'glvertex',
-      x * sr + sx,
-      y * sr + sy
-    ])
+    .map(({ x, y }) => ['glvertex', x * sr + sx, y * sr + sy])
 }
 
-function _REPL (type, cmd) {
+function _REPL (type, mesh, cmd) {
   let item
 
   if (_plan.at(-1)?.type === type) {
     item = _plan.at(-1)
   } else {
-    item = { type: type }
+    item = { type: type, mesh }
     _plan.push(item)
   }
 
@@ -186,8 +182,8 @@ function _REPLS (type, cmds, repl = true) {
 function _FORCE () {
   const backup_plan = _plan
   _plan = []
-  _REPL('point_size', ['point_size', _SP(_lastStrokeWeight)])
-  _REPL('line_width', ['line_width', _SL(_lastStrokeWeight)])
+  _REPL('point_size', true, ['point_size', _SP(_lastStrokeWeight)])
+  _REPL('line_width', false, ['line_width', _SL(_lastStrokeWeight)])
   flushPlan()
   _plan = backup_plan
 
@@ -205,7 +201,7 @@ function _DISABLED (d) {
 function dim (x, y) {
   _dimX = x
   _dimY = y
-  
+
   _updateScale()
 }
 
@@ -219,7 +215,7 @@ function set_play (x) {
 
 function set_mode (x) {
   MODE = x
-  
+
   _updateScale()
 }
 
@@ -348,7 +344,7 @@ function load (fn) {
     const _a = ((b === undefined) && (g !== undefined)) ? g : (a ?? 255)
 
     outlet(1, 'erase_color', _r / 255, _g / 255, _b / 255, _a / 255)
-    _REPL('background', ['reset'])
+    _REPL('background', false, ['reset'])
 
     return _all
   }
@@ -359,11 +355,11 @@ function load (fn) {
 
   function stroke (r, g, b, a) {
     const t = _plan.at(-1)?.type
-    
+
     if (t === POINTS) {
       return fill(r, g, b, a, POINTS)
     }
-    
+
     return fill(r, g, b, a)
   }
 
@@ -374,7 +370,8 @@ function load (fn) {
     const _a = ((b === undefined) && (g !== undefined)) ? g : (a ?? 255)
 
     if (!type) {
-      _REPL('fill', ['glcolor', _r / 255, _g / 255, _b / 255, _a / 255])
+      _REPL('fill', false, ['glcolor', _r / 255, _g / 255, _b / 255, _a / 255])
+      _REPL('fill_mesh', 1, ['gl_color', _r / 255, _g / 255, _b / 255, _a / 255])
     } else {
       _REPLS(type, [['glcolor', _r / 255, _g / 255, _b / 255, _a / 255]], false)
     }
@@ -385,8 +382,8 @@ function load (fn) {
   function strokeWeight (x) {
     _lastStrokeWeight = x
 
-    _REPL('point_size', ['point_size', _SP(x)])
-    _REPL('line_width', ['line_width', _SL(x)])
+    _REPL('point_size', true, ['point_size', _SP(x)])
+    _REPL('line_width', false, ['line_width', _SL(x)])
 
     return _all
   }
@@ -416,11 +413,7 @@ function load (fn) {
       _plan.push(_circles)
     }
 
-    _circles.items.push([
-      ['glbegin', 'polygon'],
-      ..._SC(x, y, r),
-      ['glend'],
-    ])
+    _circles.items.push([['glbegin', 'polygon'], ..._SC(x, y, r), ['glend'],])
   }
 
   function line (a, b, c, d, e, f) {
@@ -434,15 +427,9 @@ function load (fn) {
     }
 
     if (e === undefined) {
-      _lines.items.push([
-        ['glvertex', _SX(a), _SY(b)],
-        ['glvertex', _SX(c), _SY(d)]
-      ])
+      _lines.items.push([['glvertex', _SX(a), _SY(b)], ['glvertex', _SX(c), _SY(d)]])
     } else {
-      _lines.items.push([
-        ['glvertex', _SX(a), _SY(b), _SX(c)],
-        ['glvertex', _SX(d), _SY(e), _SX(f)]
-      ])
+      _lines.items.push([['glvertex', _SX(a), _SY(b), _SX(c)], ['glvertex', _SX(d), _SY(e), _SX(f)]])
     }
 
     return _all
@@ -458,9 +445,7 @@ function load (fn) {
       _plan.push(_triangles)
     }
 
-    _triangles.items.push([['glvertex', _SX(x1), _SY(y1)],
-      ['glvertex', _SX(x2), _SY(y2)],
-      ['glvertex', _SX(x3), _SY(y3)]])
+    _triangles.items.push([['glvertex', _SX(x1), _SY(y1)], ['glvertex', _SX(x2), _SY(y2)], ['glvertex', _SX(x3), _SY(y3)]])
 
     return _all
   }
@@ -475,17 +460,12 @@ function load (fn) {
       _plan.push(_rects)
     }
 
-    _rects.items.push([
-      ['glvertex', _SX(x1), _SY(y1)],
-      ['glvertex', _SX(x1), _SY(y1 + (y2 ?? x2))],
-      ['glvertex', _SX(x1 + x2), _SY(y1 + (y2 ?? x2))],
-      ['glvertex', _SX(x1 + x2), _SY(y1)]
-    ])
+    _rects.items.push([['glvertex', _SX(x1), _SY(y1)], ['glvertex', _SX(x1), _SY(y1 + (y2 ?? x2))], ['glvertex', _SX(x1 + x2), _SY(y1 + (y2 ?? x2))], ['glvertex', _SX(x1 + x2), _SY(y1)]])
 
     return _all
   }
 
-  function point (x, y) {
+  let point = function point (x, y) {
     let _points
 
     if (_plan.at(-1)?.type === POINTS) {
@@ -500,18 +480,30 @@ function load (fn) {
     return _all
   }
 
+  function mesh (length) {
+    if (MATRIX?.dim?.[0] !== length) {
+      MATRIX = new JitterMatrix(3, 'float32', length, 1)
+      ARRAY = new Float32Array(MATRIX.dim[0] * 3)
+    }
+
+    point = mesh_point
+    outlet(4, 'enable', 1)
+  }
+
+  function mesh_point (x, y) {
+    if (IND > ARRAY.length) {
+      return
+    }
+
+    ARRAY[IND++] = _SX(x)
+    ARRAY[IND++] = _SY(y)
+    ARRAY[IND++] = 0
+
+    return _all
+  }
+
   _all = {
-    random,
-    randomSeed,
-    strokeWeight,
-    stroke,
-    fill,
-    noFill,
-    point,
-    line,
-    triangle,
-    circle,
-    rect
+    random, randomSeed, strokeWeight, stroke, fill, noFill, point, line, triangle, circle, rect, mesh
   }
 
   const PI = Math.PI
@@ -532,6 +524,7 @@ function load (fn) {
   }
 
   _function = draw
+  outlet(4, 'enable', 0)
 
   try {
     const start = Date.now()
@@ -603,11 +596,23 @@ function flushPlan () {
     if (set.items) {
       flushArray(set.items, set.type, set.wrap, MAX[set.type] ?? MAX_DEFAULT)
     } else {
-      outlet(0, set.item)
+      if (set.mesh !== 1) {
+        outlet(0, set.item)
+      }
+
+      if (IND && set.mesh) {
+        outlet(4, set.item)
+      }
     }
   }
 
   _plan = []
+
+  if (IND) {
+    MATRIX.copyarraytomatrix(ARRAY)
+    outlet(4, 'jit_matrix', MATRIX.name)
+    IND = 0
+  }
 }
 
 function bang () {

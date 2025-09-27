@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 500.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,32 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-106",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 344.0, 456.0, 100.0, 49.0 ],
+					"text" : "routepass point_size gl_color"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-105",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 9,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 504.0, 480.0, 256.0, 62.0 ],
+					"text" : "jit.gl.mesh px-stream @drawto ---sketch @draw_mode points @point_size 1 @transform_reset 1 @blend_enable 1 @enable 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-103",
 					"maxclass" : "newobj",
@@ -73,7 +99,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "compile" ],
-					"patching_rect" : [ 264.0, 264.0, 73.0, 22.0 ],
+					"patching_rect" : [ 264.0, 248.0, 73.0, 22.0 ],
 					"text" : "t l b compile"
 				}
 
@@ -1194,15 +1220,15 @@
 								"box" : 								{
 									"fontname" : "Ableton Sans Light",
 									"id" : "obj-1",
-									"linecount" : 35,
+									"linecount" : 8,
 									"maxclass" : "live.comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 80.0, 112.0, 151.0, 406.0 ],
+									"patching_rect" : [ 80.0, 112.0, 151.0, 109.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 36,
-									"presentation_rect" : [ 2.0, 0.0, 122.0, 417.0 ],
-									"text" : "function setup () {\n  createCanvas(400, 400)\n}\n\nfunction draw () {\n  noStroke()\n  background(56)\n  fill(255, 255, 255)\n  circle(200, 200, 100)\n  fill(255, 0, 0)\n  circle(100, 100, 100)\n  fill(0, 255, 0)\n  circle(300, 300, 100)\n  fill(0, 0, 255)\n  rect(300, 300, 25)\n  fill(255, 255, 255, 127)\n  triangle(0, 0, 400, 400, 0, 400)\n  stroke(255, 255, 0)\n  strokeWeight(10)\n  line(0, 400, 400, 0)\n  stroke(0, 255, 0)\n  point(350, 200)\n  stroke(0, 255, 255)\n  strokeWeight(5)\n  line(10, 20, 40, 40)\n  line(40, 40, 90, 20)\n  line(110, 120, 100, 140, 140, 100)\n  line(140, 140, 100, 190, 110, 100)\n}\n\n// https://openprocessing.org/sketch/2733675",
+									"presentation_linecount" : 8,
+									"presentation_rect" : [ 2.0, 0.0, 122.0, 109.0 ],
+									"text" : "function setup () {\n  // You should see ReferenceError rendered\n  JabberWrocky()\n}\n\nfunction draw () {\n}\n",
 									"textjustification" : 0
 								}
 
@@ -1730,8 +1756,8 @@
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 264.0, 320.0, 207.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
@@ -2179,6 +2205,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"source" : [ "obj-106", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"source" : [ "obj-106", 0 ]
 				}
 
 			}
@@ -2750,6 +2790,21 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"source" : [ "obj-5", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"order" : 1,
+					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -2758,6 +2813,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
+					"order" : 0,
 					"source" : [ "obj-5", 1 ]
 				}
 
