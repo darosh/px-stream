@@ -15,7 +15,8 @@
 - [ ] FX preview, animation
 - [ ] guide
 - [ ] multiline descriptions
-- [ ] check params:info
+- [ ] replace readme WIP with notice for clean #px-stream hash
+- [ ] device images link to doc
 
 ## Misc
 
@@ -28,11 +29,6 @@
 - [ ] disable dynamic live.menu automation
 - [ ] disable irrelevant params
 - [ ] re-enable passed channel on change
-- [ ] device images link to doc
-- [ ] replace readme WIP with notice for clean #px-stream hash
-- [ ] sketching point scaling
-- [ ] fl primitives sketch
-- [ ] try primitives in block color/sizing
 - [ ] sketch max limit should count only glvertex
 - [ ] sketch point spiral
 
@@ -145,6 +141,10 @@
 
 ## Done
 
+- [x] sketching point scaling
+- [x] fl primitives sketch
+- [x] try primitives in block color/sizing
+- [x] check params:info
 - [x] check int params! "parameter_type" : 1
 - [x] file automation item change only
 - [x] fix default cos pattern
