@@ -1,4 +1,6 @@
-# PX Stream [WIP]
+# PX Stream
+
+⚠️ Work in progress. Not ready for use. Stay tuned.
 
 > PX Stream is a visual performance toolkit for [Max for Live](https://www.ableton.com/en/live/max-for-live/),
 > featuring audio-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals,
