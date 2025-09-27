@@ -307,6 +307,10 @@ function load (fn) {
     return Math.atan2(x, y)
   }
 
+  function mix (x, y, a) {
+    return x * (1 - a) + y * a
+  }
+
   function random (x, y) {
     if (x === undefined) {
       return Math.random()
