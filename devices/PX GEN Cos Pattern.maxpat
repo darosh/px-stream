@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 80.0, 567.0, 423.0 ],
+		"rect" : [ 33.0, 71.0, 500.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,38 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-111",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 80.0, 112.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-110",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "PX._legend.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 8.0, 8.0, 351.0, 47.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -292,8 +324,6 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Color Preset",
 							"parameter_enum" : [ "A", "B", "C", "D", "E", "F", "G", "H" ],
-							"parameter_initial" : [ 8 ],
-							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Color Preset",
 							"parameter_mmax" : 7,
 							"parameter_modmode" : 0,
@@ -542,7 +572,7 @@
 							"parameter_longname" : "Steps",
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Steps",
-							"parameter_type" : 1,
+							"parameter_type" : 0,
 							"parameter_units" : "steps",
 							"parameter_unitstyle" : 9
 						}
@@ -555,7 +585,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active1" : [ 1.0, 0.67843137254902, 0.337254901960784, 1.0 ],
+					"active1" : [ 0.9, 0.65, 0.05, 1.0 ],
 					"bubblesize" : 12,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.0,
@@ -564,7 +594,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 40.0, 176.0, 136.0, 24.0 ],
+					"patching_rect" : [ 48.0, 176.0, 136.0, 24.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "obj-8", "live.numbox", "float", 0.5, 5, "obj-10", "live.numbox", "float", 1, 5, "obj-17", "live.numbox", "float", 0.5, 5, "obj-14", "live.numbox", "float", 0.5, 5, "obj-33", "live.numbox", "float", 0.5, 5, "obj-30", "live.numbox", "float", 1, 5, "obj-26", "live.numbox", "float", 0.5, 5, "obj-27", "live.numbox", "float", 0.5, 5, "obj-34", "live.numbox", "float", 0.5, 5, "obj-31", "live.numbox", "float", 1, 5, "obj-28", "live.numbox", "float", 0.5, 5, "obj-25", "live.numbox", "float", 0.5, 5, "obj-35", "live.numbox", "float", 0.5, 5, "obj-32", "live.numbox", "float", 1, 5, "obj-29", "live.numbox", "float", 0.5, 5, "obj-24", "live.numbox", "float", 0.5 ]
@@ -1949,26 +1979,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 18.0,
-					"id" : "obj-167",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 8.0, 322.0, 47.0 ],
-					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
-					"text" : "PX Stream by darosh\nhttps://github.com/darosh/px-stream"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-83",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1984,7 +1994,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 80.0, 120.0, 82.0, 22.0 ],
+					"patching_rect" : [ 80.0, 136.0, 82.0, 22.0 ],
 					"text" : "s ---this_bang"
 				}
 
@@ -2106,7 +2116,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -2317,6 +2327,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-85", 3 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-111", 0 ]
 				}
 
 			}
@@ -3007,8 +3024,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"source" : [ "obj-9", 0 ]
+					"destination" : [ "obj-111", 0 ],
+					"source" : [ "obj-9", 1 ]
 				}
 
 			}
@@ -3139,7 +3156,8 @@
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}
@@ -3177,6 +3195,13 @@
 			}
 , 			{
 				"name" : "PX._dimensions.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._legend.maxpat",
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

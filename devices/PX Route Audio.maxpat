@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 80.0, 777.0, 423.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -21,21 +21,21 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontsize" : 18.0,
-					"id" : "obj-167",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-84",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "PX._legend.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 8.0, 8.0, 351.0, 47.0 ],
-					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
-					"text" : "PX Stream by darosh\nhttps://github.com/darosh/px-stream"
+					"viewvisibility" : 1
 				}
 
 			}
@@ -53,16 +53,16 @@
 			}
 , 			{
 				"box" : 				{
-					"coldcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"coldcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"display_range" : [ -70.0, 24.0 ],
-					"hotcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"hotcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"orientation" : 1,
 					"outlettype" : [ "float", "int" ],
-					"overloadcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"overloadcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"patching_rect" : [ 184.0, 224.0, 30.0, 10.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 143.0, 94.0, 2.0 ],
@@ -85,23 +85,23 @@
 
 					}
 ,
-					"slidercolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
-					"warmcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ]
+					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
+					"warmcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"coldcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"coldcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"display_range" : [ -70.0, 24.0 ],
-					"hotcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"hotcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"id" : "obj-29",
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"orientation" : 1,
 					"outlettype" : [ "float", "int" ],
-					"overloadcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"overloadcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"patching_rect" : [ 120.0, 224.0, 30.0, 10.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 139.0, 94.0, 2.0 ],
@@ -124,8 +124,8 @@
 
 					}
 ,
-					"slidercolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
-					"warmcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ]
+					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
+					"warmcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ]
 				}
 
 			}
@@ -246,16 +246,16 @@
 			}
 , 			{
 				"box" : 				{
-					"coldcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"coldcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"display_range" : [ -70.0, 24.0 ],
-					"hotcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"hotcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"id" : "obj-8",
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"orientation" : 1,
 					"outlettype" : [ "float", "int" ],
-					"overloadcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"overloadcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"patching_rect" : [ 304.0, 248.0, 30.0, 10.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 66.0, 94.0, 2.0 ],
@@ -278,23 +278,23 @@
 
 					}
 ,
-					"slidercolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
-					"warmcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ]
+					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
+					"warmcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"coldcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"coldcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"display_range" : [ -70.0, 24.0 ],
-					"hotcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"hotcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"id" : "obj-3",
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"orientation" : 1,
 					"outlettype" : [ "float", "int" ],
-					"overloadcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"overloadcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"patching_rect" : [ 240.0, 248.0, 30.0, 10.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 62.0, 94.0, 2.0 ],
@@ -317,8 +317,8 @@
 
 					}
 ,
-					"slidercolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
-					"warmcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ]
+					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
+					"warmcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ]
 				}
 
 			}
@@ -338,7 +338,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Enables/disables audio thru.",
 					"annotation_name" : "Thru",
 					"appearance" : 1,
@@ -431,7 +431,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation" : "Enables/disables remote audio.",
 					"annotation_name" : "Receive",
 					"appearance" : 1,
@@ -772,15 +772,6 @@
 			"obj-11" : [ "Thru", "Thru", 0 ],
 			"obj-27" : [ "Thru Gain", "Thru Gain", 0 ],
 			"obj-4" : [ "Receive Gain", "Receive Gain", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
@@ -793,6 +784,13 @@
 			}
 , 			{
 				"name" : "PX._gain2~.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._legend.maxpat",
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

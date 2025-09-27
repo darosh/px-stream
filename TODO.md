@@ -27,13 +27,9 @@
 - [ ] restore session params and automation
 - [ ] disable dynamic live.menu automation
 - [ ] disable irrelevant params
-- [ ] check int params! "parameter_type" : 1
-- [ ] file automation item change only
 - [ ] re-enable passed channel on change
-- [ ] fix default cos pattern
 - [ ] device images link to doc
 - [ ] replace readme WIP with notice for clean #px-stream hash
-- [ ] move info to bpatcher + add version
 - [ ] sketching point scaling
 - [ ] fl primitives sketch
 - [ ] try primitives in block color/sizing
@@ -149,6 +145,10 @@
 
 ## Done
 
+- [x] check int params! "parameter_type" : 1
+- [x] file automation item change only
+- [x] fix default cos pattern
+- [x] move info to bpatcher + add version
 - [x] shader stored as name
 - [x] Color: add to doc
 - [x] Colorize: add to doc

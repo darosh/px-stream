@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 567.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,26 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-86",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "PX._legend.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 8.0, 8.0, 351.0, 47.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-100",
 					"maxclass" : "newobj",
@@ -910,7 +930,7 @@
 					"allowdrag" : 0,
 					"hint" : "",
 					"id" : "obj-51",
-					"items" : "<empty>",
+					"items" : [ " ", ",", "<separator>", ",", "FaceTime HD Camera", ",", "Elgato Virtual Camera", ",", "OBS Virtual Camera" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1080,26 +1100,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.0, 168.0, 82.0, 22.0 ],
 					"text" : "s ---this_bang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 18.0,
-					"id" : "obj-167",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 8.0, 351.0, 47.0 ],
-					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
-					"text" : "PX Stream by darosh\nhttps://github.com/darosh/px-stream"
 				}
 
 			}
@@ -2468,15 +2468,6 @@
 			"obj-54" : [ "Play", "Play", 0 ],
 			"obj-64" : [ "Device", "Device", 0 ],
 			"obj-66" : [ "Format", "Format", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
@@ -2503,6 +2494,13 @@
 			}
 , 			{
 				"name" : "PX._channel.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._legend.maxpat",
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

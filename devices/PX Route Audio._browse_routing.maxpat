@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 80.0, 555.0, 423.0 ],
+		"rect" : [ 33.0, 71.0, 500.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -219,13 +219,13 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"color" : [ 0.690196078431373, 0.866666666666667, 0.92156862745098, 1.0 ],
-					"elementcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"color" : [ 0.269595890603871, 0.408853959740371, 0.595943257030903, 1.0 ],
+					"elementcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"fontname" : "Ableton Sans Medium Regular",
 					"fontsize" : 9.5,
 					"hint" : "",
 					"id" : "obj-115",
-					"items" : [ "Ext. In", ",", "1-Audio", ",", "2-Audio", ",", "A-Reverb", ",", "B-Delay", ",", "Main", ",", "No Input" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -249,7 +249,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.882352941176471, 0.882352941176471, 0.882352941176471, 1.0 ]
+					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 				}
 
 			}
@@ -265,13 +265,13 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"color" : [ 0.690196078431373, 0.866666666666667, 0.92156862745098, 1.0 ],
-					"elementcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"color" : [ 0.269595890603871, 0.408853959740371, 0.595943257030903, 1.0 ],
+					"elementcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"fontname" : "Ableton Sans Medium Regular",
 					"fontsize" : 9.5,
 					"hint" : "",
 					"id" : "obj-27",
-					"items" : "<none>",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -295,7 +295,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.882352941176471, 0.882352941176471, 0.882352941176471, 1.0 ]
+					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 				}
 
 			}
@@ -303,9 +303,9 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"annotation" : "",
-					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.090196078431373, 0.090196078431373, 0.090196078431373, 1.0 ],
+					"bordercolor" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
 					"id" : "obj-28",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -334,9 +334,9 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"annotation" : "",
-					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.090196078431373, 0.090196078431373, 0.090196078431373, 1.0 ],
+					"bordercolor" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
 					"id" : "obj-113",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -449,15 +449,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "PX._routing_objects.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.631373 ]
 	}
 

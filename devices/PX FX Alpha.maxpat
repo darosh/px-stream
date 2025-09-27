@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 80.0, 567.0, 423.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,38 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 280.0, 96.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-84",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "PX._legend.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 8.0, 8.0, 351.0, 47.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-27",
 					"maxclass" : "newobj",
@@ -243,7 +275,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -525,7 +557,7 @@
 											"parameter_mmax" : 255.0,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "Distance B",
-											"parameter_type" : 1,
+											"parameter_type" : 0,
 											"parameter_units" : "B",
 											"parameter_unitstyle" : 9
 										}
@@ -557,7 +589,7 @@
 											"parameter_mmax" : 255.0,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "Distance G",
-											"parameter_type" : 1,
+											"parameter_type" : 0,
 											"parameter_units" : "G",
 											"parameter_unitstyle" : 9
 										}
@@ -589,7 +621,7 @@
 											"parameter_mmax" : 255.0,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "Distance R",
-											"parameter_type" : 1,
+											"parameter_type" : 0,
 											"parameter_units" : "R",
 											"parameter_unitstyle" : 9
 										}
@@ -1606,7 +1638,7 @@
 											"parameter_mmax" : 255.0,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "Chroma B",
-											"parameter_type" : 1,
+											"parameter_type" : 0,
 											"parameter_units" : "B",
 											"parameter_unitstyle" : 9
 										}
@@ -1638,7 +1670,7 @@
 											"parameter_mmax" : 255.0,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "Chroma G",
-											"parameter_type" : 1,
+											"parameter_type" : 0,
 											"parameter_units" : "G",
 											"parameter_unitstyle" : 9
 										}
@@ -1670,7 +1702,7 @@
 											"parameter_mmax" : 255.0,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "Chroma R",
-											"parameter_type" : 1,
+											"parameter_type" : 0,
 											"parameter_units" : "R",
 											"parameter_unitstyle" : 9
 										}
@@ -2864,7 +2896,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Mix",
-							"parameter_type" : 1,
+							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
 						}
 
@@ -2876,7 +2908,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "More",
 					"id" : "obj-87",
 					"maxclass" : "live.text",
@@ -3028,26 +3060,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 18.0,
-					"id" : "obj-167",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 8.0, 351.0, 47.0 ],
-					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
-					"text" : "PX Stream by darosh\nhttps://github.com/darosh/px-stream"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -3129,7 +3141,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -3181,7 +3193,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "int", "int" ],
-					"patching_rect" : [ 280.0, 80.0, 100.0, 22.0 ],
+					"patching_rect" : [ 280.0, 64.0, 100.0, 22.0 ],
 					"text" : "live.thisdevice"
 				}
 
@@ -3432,6 +3444,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"order" : 0,
 					"source" : [ "obj-36", 0 ]
@@ -3574,8 +3593,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-9", 0 ]
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-9", 1 ]
 				}
 
 			}
@@ -3621,15 +3640,6 @@
 			"obj-54" : [ "Gamma", "Gamma", 0 ],
 			"obj-56" : [ "Cutoff", "Cutoff", 0 ],
 			"obj-87" : [ "More", "More", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
@@ -3649,6 +3659,13 @@
 			}
 , 			{
 				"name" : "PX._channel.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._legend.maxpat",
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

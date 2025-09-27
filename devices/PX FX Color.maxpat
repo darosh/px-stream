@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 80.0, 567.0, 423.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,38 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 280.0, 128.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-84",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "PX._legend.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 8.0, 8.0, 351.0, 47.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-55",
 					"maxclass" : "newobj",
@@ -116,7 +148,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Hue",
 					"fontsize" : 7.0,
 					"id" : "obj-21",
@@ -344,7 +376,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2410,7 +2442,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 8,
+											"revision" : 9,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2599,7 +2631,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 8,
+											"revision" : 9,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2788,7 +2820,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 8,
+											"revision" : 9,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2977,7 +3009,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 8,
+											"revision" : 9,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3383,8 +3415,8 @@
 									"annotation" : "Click the label for reset to default value.",
 									"annotation_name" : "Global",
 									"bottomvalue" : -100,
-									"color" : [ 0.090196078431373, 0.090196078431373, 0.090196078431373, 1.0 ],
-									"elementcolor" : [ 0.494117647058824, 0.494117647058824, 0.494117647058824, 1.0 ],
+									"color" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
+									"elementcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 									"id" : "obj-36",
 									"invisiblebkgnd" : 1,
 									"leftvalue" : -100,
@@ -3458,8 +3490,8 @@
 									"annotation" : "Click the label for reset to default value.",
 									"annotation_name" : "Light",
 									"bottomvalue" : -100,
-									"color" : [ 0.090196078431373, 0.090196078431373, 0.090196078431373, 1.0 ],
-									"elementcolor" : [ 0.494117647058824, 0.494117647058824, 0.494117647058824, 1.0 ],
+									"color" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
+									"elementcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 									"id" : "obj-32",
 									"invisiblebkgnd" : 1,
 									"leftvalue" : -100,
@@ -3533,8 +3565,8 @@
 									"annotation" : "Click the label for reset to default value.",
 									"annotation_name" : "Shadow",
 									"bottomvalue" : -100,
-									"color" : [ 0.090196078431373, 0.090196078431373, 0.090196078431373, 1.0 ],
-									"elementcolor" : [ 0.494117647058824, 0.494117647058824, 0.494117647058824, 1.0 ],
+									"color" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
+									"elementcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 									"id" : "obj-24",
 									"invisiblebkgnd" : 1,
 									"leftvalue" : -100,
@@ -3608,8 +3640,8 @@
 									"annotation" : "Click the label for reset to default value.",
 									"annotation_name" : "Dark",
 									"bottomvalue" : -100,
-									"color" : [ 0.090196078431373, 0.090196078431373, 0.090196078431373, 1.0 ],
-									"elementcolor" : [ 0.494117647058824, 0.494117647058824, 0.494117647058824, 1.0 ],
+									"color" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
+									"elementcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 									"id" : "obj-21",
 									"invisiblebkgnd" : 1,
 									"leftvalue" : -100,
@@ -4498,7 +4530,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Gamma",
 					"fontsize" : 7.0,
 					"id" : "obj-40",
@@ -4621,7 +4653,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Color",
 					"fontsize" : 7.0,
 					"id" : "obj-34",
@@ -5063,28 +5095,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.0, 128.0, 82.0, 22.0 ],
+					"patching_rect" : [ 280.0, 160.0, 82.0, 22.0 ],
 					"text" : "s ---this_bang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 18.0,
-					"id" : "obj-167",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 8.0, 351.0, 47.0 ],
-					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
-					"text" : "PX Stream by darosh\nhttps://github.com/darosh/px-stream"
 				}
 
 			}
@@ -5171,7 +5183,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -5711,6 +5723,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-59", 0 ]
 				}
@@ -5760,8 +5779,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-9", 0 ]
+					"destination" : [ "obj-56", 0 ],
+					"source" : [ "obj-9", 1 ]
 				}
 
 			}
@@ -5819,15 +5838,6 @@
 			"obj-51::obj-82" : [ "Y Lum", "Y Lum", 0 ],
 			"obj-51::obj-83" : [ "Y Sat", "Y Sat", 0 ],
 			"obj-51::obj-91" : [ "Y Hue", "Y Hue", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
@@ -5864,6 +5874,13 @@
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._legend.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

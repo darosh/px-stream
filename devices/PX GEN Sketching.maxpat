@@ -21,6 +21,50 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-108",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1344.0, 576.0, 29.5, 22.0 ],
+					"text" : "set "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-107",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1344.0, 528.0, 54.0, 22.0 ],
+					"text" : "r ---reset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-102",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "PX._legend.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 8.0, 8.0, 351.0, 47.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-106",
 					"linecount" : 3,
 					"maxclass" : "newobj",
@@ -1220,15 +1264,12 @@
 								"box" : 								{
 									"fontname" : "Ableton Sans Light",
 									"id" : "obj-1",
-									"linecount" : 8,
 									"maxclass" : "live.comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 80.0, 112.0, 151.0, 109.0 ],
+									"patching_rect" : [ 80.0, 112.0, 151.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 8,
-									"presentation_rect" : [ 2.0, 0.0, 122.0, 109.0 ],
-									"text" : "function setup () {\n  // You should see ReferenceError rendered\n  JabberWrocky()\n}\n\nfunction draw () {\n}\n",
+									"presentation_rect" : [ 2.0, 0.0, 122.0, 18.0 ],
 									"textjustification" : 0
 								}
 
@@ -1858,26 +1899,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 18.0,
-					"id" : "obj-167",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 0.0, 351.0, 47.0 ],
-					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
-					"text" : "PX Text by darosh\nhttps://github.com/darosh/px-stream"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-55",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2219,6 +2240,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-105", 0 ],
 					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"source" : [ "obj-107", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-108", 0 ]
 				}
 
 			}
@@ -3209,14 +3244,14 @@
 		"parameters" : 		{
 			"obj-112::obj-4" : [ "FileName", "FileName", 0 ],
 			"obj-112::obj-6" : [ "File Automation", "File", 0 ],
-			"obj-112::obj-76" : [ "File[", "File", 0 ],
+			"obj-112::obj-76" : [ "File", "File", 0 ],
 			"obj-16" : [ "Point Size", "Point Size", 0 ],
 			"obj-21" : [ "Line Size", "Line Size", 0 ],
 			"obj-24" : [ "Delay", "Delay", 0 ],
 			"obj-28" : [ "Max Run", "Max Run", 0 ],
 			"obj-31" : [ "Play / Stop", "Play / Stop", 0 ],
 			"obj-32" : [ "Max Points", "Max Points", 0 ],
-			"obj-35::obj-151" : [ "Dimensions[2]", "Dimensions", 0 ],
+			"obj-35::obj-151" : [ "Dimensions", "Dimensions", 0 ],
 			"obj-360" : [ "Edit", "Edit", 0 ],
 			"obj-361" : [ "Open Folder", "Open Folder", 0 ],
 			"obj-362" : [ "Reload", "Reload", 0 ],
@@ -3240,6 +3275,7 @@
 			"parameter_overrides" : 			{
 				"obj-112::obj-76" : 				{
 					"parameter_invisible" : 2,
+					"parameter_longname" : "File",
 					"parameter_modmode" : 0,
 					"parameter_range" : [ "Loading...", " " ],
 					"parameter_type" : 2,
@@ -3247,7 +3283,7 @@
 				}
 ,
 				"obj-35::obj-151" : 				{
-					"parameter_longname" : "Dimensions[2]"
+					"parameter_longname" : "Dimensions"
 				}
 
 			}
@@ -3285,6 +3321,13 @@
 			}
 , 			{
 				"name" : "PX._dimensions.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._legend.maxpat",
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
