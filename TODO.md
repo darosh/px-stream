@@ -27,7 +27,6 @@
 - [ ] disable dynamic live.menu automation
 - [ ] disable irrelevant params
 - [ ] re-enable passed channel on change
-- [ ] sketch max limit should count only glvertex
 
 ## Devices
 
@@ -138,6 +137,7 @@
 
 ## Done
 
+- [x] ~~sketch max limit should count only glvertex~~
 - [x] sketch point spiral
 - [x] replace readme WIP with notice for clean #px-stream hash
 - [x] device images link to doc
