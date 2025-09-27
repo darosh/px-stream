@@ -15,8 +15,6 @@
 - [ ] FX preview, animation
 - [ ] guide
 - [ ] multiline descriptions
-- [ ] replace readme WIP with notice for clean #px-stream hash
-- [ ] device images link to doc
 
 ## Misc
 
@@ -141,6 +139,8 @@
 
 ## Done
 
+- [x] replace readme WIP with notice for clean #px-stream hash
+- [x] device images link to doc
 - [x] sketching point scaling
 - [x] fl primitives sketch
 - [x] try primitives in block color/sizing
