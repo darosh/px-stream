@@ -26,7 +26,9 @@ export function fixUninitializedLoopVars (glslCode) {
   const fixes = []
 
   // Skip whitespace tokens for pattern matching
-  const nonWhitespace = tokens.filter(t => t.type !== 'whitespace' && t.type !== 'line-comment')
+  const nonWhitespace = tokens.filter(t => t.type !== 'whitespace'
+    && t.type !== 'preprocessor'
+    && t.type !== 'line-comment')
 
   for (let i = 0; i < nonWhitespace.length - 6; i++) {
     const t = nonWhitespace
@@ -81,21 +83,25 @@ export function fixUninitializedVars (glslCode) {
   const fixes = []
 
   // Skip whitespace tokens for pattern matching
-  const nonWhitespace = tokens.filter(t => t.type !== 'whitespace' && t.type !== 'line-comment')
+  const nonWhitespace = tokens.filter(t => t.type !== 'whitespace'
+    && t.type !== 'preprocessor'
+    && t.type !== 'line-comment')
 
-  for (let i = 0; i < tokens.length - 2; i++) {
-    const current = tokens[i]
-    const next = tokens[i + 1]
+  for (let i = 0; i < nonWhitespace.length - 2; i++) {
+    const t = nonWhitespace;
 
-    // Look for: type keyword followed eventually by variable declarations
-    if (current.type === 'keyword' && defaultValues.hasOwnProperty(current.data)) {
-      const varType = current.data
-      const initValue = defaultValues[varType]
+    // ONLY look for actual variable declarations
+    if (t[i].type === 'keyword' && defaultValues.hasOwnProperty(t[i].data)) {
+      const varType = t[i].data;
+      const initValue = defaultValues[varType];
 
-      if (!initValue) continue
+      if (!initValue) continue;
 
-      // Skip if this doesn't look like a declaration context
-      const prevToken = i > 0 ? tokens[i - 1] : null
+      // Check if this is actually a declaration context
+      // Look for patterns that indicate declaration vs usage:
+
+      // 1. Skip if previous token suggests this is NOT a declaration
+      const prevToken = i > 0 ? t[i - 1] : null;
       if (prevToken && (
         prevToken.data === '.' ||
         prevToken.data === '(' ||
@@ -103,52 +109,55 @@ export function fixUninitializedVars (glslCode) {
         prevToken.type === 'ident' ||
         prevToken.type === 'builtin'
       )) {
-        continue
+        continue;
       }
 
-      // Find all variables in this declaration (until semicolon)
-      let pos = i + 1
-      let parenDepth = 0
+      // 2. This should be at statement beginning or after certain tokens
+      if (prevToken && !(
+        prevToken.data === ';' ||           // end of previous statement
+        prevToken.data === '{' ||           // start of block
+        prevToken.data === ',' ||           // multiple declarations
+        prevToken.type === 'keyword'        // after storage qualifier like 'const'
+      )) {
+        continue;
+      }
 
-      while (pos < tokens.length) {
-        const token = tokens[pos]
+      // 3. Look ahead to confirm this looks like a declaration
+      let pos = i + 1;
+      let foundValidDeclaration = false;
 
-        if (token.data === ';') break // End of declaration
+      while (pos < nonWhitespace.length && t[pos].data !== ';') {
+        if (t[pos].type === 'ident') {
+          // This should be followed by =, [, , or ;
+          const nextToken = pos + 1 < nonWhitespace.length ? t[pos + 1] : null;
+          if (nextToken && (
+            nextToken.data === '=' ||
+            nextToken.data === '[' ||
+            nextToken.data === ',' ||
+            nextToken.data === ';'
+          )) {
+            foundValidDeclaration = true;
 
-        // Track parentheses to avoid function arguments
-        if (token.data === '(') parenDepth++
-        if (token.data === ')') parenDepth--
-
-        // Look for identifier at parentheses depth 0
-        if (token.type === 'ident' && parenDepth === 0) {
-          // Check what immediately follows (skip whitespace)
-          let nextPos = pos + 1
-          while (nextPos < tokens.length && tokens[nextPos].type === 'whitespace') {
-            nextPos++
-          }
-
-          const followingToken = nextPos < tokens.length ? tokens[nextPos] : null
-
-          // Add initialization if followed by comma or semicolon (but not = or [)
-          if (followingToken &&
-            (followingToken.data === ',' || followingToken.data === ';') &&
-            followingToken.data !== '=' &&
-            followingToken.data !== '[') {
-
-            fixes.push({
-              position: token.position + token.data.length,
-              insert: initValue,
-              variable: token.data,
-              type: varType
-            })
+            // Only add fix if not already initialized
+            if (nextToken.data !== '=' && nextToken.data !== '[') {
+              const varToken = t[pos];
+              fixes.push({
+                position: varToken.position + varToken.data.length,
+                insert: initValue,
+                variable: varToken.data,
+                type: varType
+              });
+            }
+          } else {
+            // This doesn't look like a declaration
+            break;
           }
         }
-
-        pos++
+        pos++;
       }
     }
   }
-  
+
   // Apply fixes from end to start to maintain positions
   let fixedCode = glslCode
 
