@@ -136,6 +136,8 @@
 
 ## Done
 
+- [x] fix world UI
+- [x] logo mouse over
 - [x] re-enable passed channel on change
 - [x] ~~sketch max limit should count only glvertex~~
 - [x] sketch point spiral
