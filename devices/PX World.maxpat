@@ -72,7 +72,7 @@
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
-					"clickthrough" : 0,
+					"clickthrough" : 1,
 					"embed" : 1,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
@@ -94,7 +94,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 43.0, 99.0, 285.0, 476.0 ],
+						"rect" : [ 383.0, 79.0, 285.0, 476.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 8.0, 8.0 ],
@@ -181,7 +181,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 336.0, 26.0, 88.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 14.0, 266.0, 88.0, 29.0 ],
+									"presentation_rect" : [ 24.0, 274.0, 65.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "val1", "val2" ],
@@ -194,7 +194,7 @@
 
 									}
 ,
-									"text" : "Documentation",
+									"text" : "Help",
 									"texton" : "Documentation",
 									"varname" : "live.text"
 								}
@@ -686,7 +686,7 @@
 					}
 ,
 					"text" : "FPS Limit",
-					"textcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -1008,7 +1008,7 @@
 					}
 ,
 					"text" : "FPS: ",
-					"textcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -1030,7 +1030,7 @@
 					}
 ,
 					"text" : "World: ",
-					"textcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -1038,7 +1038,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"id" : "obj-9",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1569,16 +1569,6 @@
 			"obj-16" : [ "Enabled", "Enabled", 0 ],
 			"obj-23" : [ "FPS", "FPS", 0 ],
 			"obj-65::obj-1" : [ "live.text", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
