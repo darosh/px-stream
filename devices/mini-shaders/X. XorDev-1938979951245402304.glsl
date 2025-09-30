@@ -1,0 +1,2 @@
+vec3 p,a;for(float z,d,i;i++<4e1;o.rgb+=(cos(i*.2+vec3(0,1,2))*a+1.)/d*i)p=z*normalize(FC.rgb*2.-r.xyy),a=normalize(cos(vec3(0,11,1)+t)),p.z+=6.,a=abs(a*dot(a,p)-cross(a,p)),z+=d=.5*(dot(max(a,2.-a.yzx),a/a)-4.);o.rgb=fwidth(a*r.x/5e1);
+// https://x.com/XorDev/status/1938979951245402304

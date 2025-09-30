@@ -113,10 +113,31 @@ function fixUninitializedVars (glslCode) {
       if (prevToken && !(
         prevToken.data === ';' ||
         prevToken.data === '{' ||
+        prevToken.data === '}' ||
         prevToken.data === ',' ||
         prevToken.type === 'keyword'
       )) {
         continue
+      }
+
+      // At this point, t[i].type === 'keyword' and defaultValues.hasOwnProperty(t[i].data)
+      if (i + 2 < nonWhitespace.length &&
+        t[i + 1].type === 'ident' &&
+        t[i + 2].data === '(') {
+        // post(t[i + 1].data + t[i + 2].data + '\n') 
+        // This is a function declaration (type identifier '('), skip it
+        let pos = i + 2 // Start at '('
+        let paren = 1 // Track nested parentheses
+        while (pos < nonWhitespace.length && paren > 0) {
+          pos++
+          if (pos < nonWhitespace.length) {
+            if (t[pos].data === '(') paren++
+            if (t[pos].data === ')') paren--
+          }
+        }
+        // post(i + ':' + pos + '\n')
+        i = pos // Move past the closing ')'
+        continue // Skip to next iteration
       }
 
       // Process potential variable declarations
@@ -183,7 +204,6 @@ function fixUninitializedVars (glslCode) {
       if (foundValidDeclaration) {
         i = pos - 1 // Move to the last processed token
       }
-    } else {
     }
   }
 
@@ -205,7 +225,7 @@ function fixUninitializedVars (glslCode) {
 // Based on https://github.com/doxas/twigl/blob/master/src/fragmen.js
 
 const noise = `//
-// Description : Ar_ay and textureless GLSL 2D simplex noise function.
+// Description : Array and textureless GLSL 2D simplex noise function.
 //      Author : Ian McEwan, Ashima Arts.
 //  Maintainer : stegu
 //     Lastmod : 20110822 (ijm)
@@ -214,19 +234,32 @@ const noise = `//
 //               https://github.com/ashima/webgl-noise
 //               https://github.com/stegu/webgl-noise
 //
-
 // (sqrt(5) - 1)/4 = F4, used once below
-#define F4 0.309016994374947451
-float mod289(float x){return x - floor(x * (1.0 / 289.0)) * 289.0;}
+`
+
+const UTILS = {
+  F4: {
+    code: `#define F4 0.309016994374947451`
+  },
+  mod289: {
+    code: `float mod289(float x){return x - floor(x * (1.0 / 289.0)) * 289.0;}
 vec2  mod289(vec2 x) {return x - floor(x * (1.0 / 289.0)) * 289.0;}
 vec3  mod289(vec3 x) {return x - floor(x * (1.0 / 289.0)) * 289.0;}
-vec4  mod289(vec4 x) {return x - floor(x * (1.0 / 289.0)) * 289.0;}
-float permute(float x){return mod289(((x*34.0)+1.0)*x);}
+vec4  mod289(vec4 x) {return x - floor(x * (1.0 / 289.0)) * 289.0;}`
+  },
+  permute: {
+    deps: ['mod289'],
+    code: `float permute(float x){return mod289(((x*34.0)+1.0)*x);}
 vec3  permute(vec3 x) {return mod289(((x*34.0)+1.0)*x);}
-vec4  permute(vec4 x) {return mod289(((x*34.0)+1.0)*x);}
-float taylorInvSqrt(float r_){return 1.79284291400159 - 0.85373472095314 * r_;}
-vec4  taylorInvSqrt(vec4 r_) {return 1.79284291400159 - 0.85373472095314 * r_;}
-float snoise2D(vec2 v){
+vec4  permute(vec4 x) {return mod289(((x*34.0)+1.0)*x);}`
+  },
+  taylorInvSqrt: {
+    code: `float taylorInvSqrt(float r_){return 1.79284291400159 - 0.85373472095314 * r_;}
+vec4  taylorInvSqrt(vec4 r_) {return 1.79284291400159 - 0.85373472095314 * r_;}`
+  },
+  snoise2D: {
+    deps: ['mod289', 'permute'],
+    code: `float snoise2D(vec2 v){
   const vec4 C = vec4(0.211324865405187,  // (3.0-sqrt(3.0))/6.0
                       0.366025403784439,  // 0.5*(sqrt(3.0)-1.0)
                      -0.577350269189626,  // -1.0 + 2.0 * C.x
@@ -270,8 +303,11 @@ float snoise2D(vec2 v){
   g.x  = a0.x  * x0.x  + h.x  * x0.y;
   g.yz = a0.yz * x12.xz + h.yz * x12.yw;
   return 130.0 * dot(m, g);
-}
-float snoise3D(vec3 v){
+}`
+  },
+  snoise3D: {
+    deps: ['mod289', 'permute', 'taylorInvSqrt'],
+    code: `float snoise3D(vec3 v){
   const vec2 C = vec2(1.0 / 6.0, 1.0 / 3.0);
   const vec4 D = vec4(0.0, 0.5, 1.0, 2.0);
 
@@ -342,8 +378,10 @@ float snoise3D(vec3 v){
   vec4 m = max(0.6 - vec4(dot(x0,x0), dot(x1,x1), dot(x2,x2), dot(x3,x3)), 0.0);
   m = m * m;
   return 42.0 * dot( m*m, vec4( dot(p0,x0), dot(p1,x1), dot(p2,x2), dot(p3,x3) ) );
-}
-vec4 grad4(float j, vec4 ip){
+}`
+  },
+  grad4: {
+    code: `vec4 grad4(float j, vec4 ip){
   const vec4 ones = vec4(1.0, 1.0, 1.0, -1.0);
   vec4 p,s;
 
@@ -353,8 +391,11 @@ vec4 grad4(float j, vec4 ip){
   p.xyz = p.xyz + (s.xyz*2.0 - 1.0) * s.www;
 
   return p;
-}
-float snoise4D(vec4 v){
+}`
+  },
+  snoise4D: {
+    deps: ['F4', 'mod289', 'permute', 'taylorInvSqrt', 'grad4'],
+    code: `float snoise4D(vec4 v){
   const vec4  C = vec4( 0.138196601125011,  // (5 - sqrt(5))/20  G4
                         0.276393202250021,  // 2 * G4
                         0.414589803375032,  // 3 * G4
@@ -428,18 +469,28 @@ float snoise4D(vec4 v){
   m1 = m1 * m1;
   return 49.0 * ( dot(m0*m0, vec3( dot( p0, x0 ), dot( p1, x1 ), dot( p2, x2 )))
                 + dot(m1*m1, vec2( dot( p3, x3 ), dot( p4, x4 ) ) ) ) ;
-}
-float fsnoise      (vec2 c){return fract(sin(dot(c, vec2(12.9898, 78.233))) * 43758.5453);}
-float fsnoiseDigits(vec2 c){return fract(sin(dot(c, vec2(0.129898, 0.78233))) * 437.585453);}
-vec3 hsv(float h, float s, float v){
+}`
+  },
+  fsnoise: {
+    code: `float fsnoise (vec2 c){return fract(sin(dot(c, vec2(12.9898, 78.233))) * 43758.5453);}`
+  },
+  fsnoiseDigits: {
+    code: `float fsnoiseDigits(vec2 c){return fract(sin(dot(c, vec2(0.129898, 0.78233))) * 437.585453);}`
+  },
+  hsv: {
+    code: `vec3 hsv(float h, float s, float v){
     vec4 t = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);
     vec3 p = abs(fract(vec3(h) + t.xyz) * 6.0 - vec3(t.w));
     return v * mix(vec3(t.x), clamp(p - vec3(t.x), 0.0, 1.0), s);
-}
-mat2 rotate2D(float r_){
+}`
+  },
+  rotate2D: {
+    code: `mat2 rotate2D(float r_){
     return mat2(cos(r_), sin(r_), -sin(r_), cos(r_));
-}
-mat3 rotate3D(float angle, vec3 axis){
+}`
+  },
+  rotate3D: {
+    code: `mat3 rotate3D(float angle, vec3 axis){
     vec3 a = normalize(axis);
     float s = sin(angle);
     float c = cos(angle);
@@ -455,11 +506,19 @@ mat3 rotate3D(float angle, vec3 axis){
         a.y * a.z * r_ - a.x * s,
         a.z * a.z * r_ + c
     );
+}`
+  },
+  PI: {
+    code: 'const float PI = 3.141592653589793;'
+  },
+  PI2: {
+    deps: ['PI'],
+    code: 'const float PI2 = PI * 2.0;'
+  },
+  tanh: {
+    code: `#define tanh(x) tanh(clamp(x, -10.,10.))`
+  }
 }
-const float PI = 3.141592653589793;
-const float PI2 = PI * 2.0;
-
-`
 
 class Fragmen {
   static get MODE_GEEKEST_300 () {return 7}
@@ -469,7 +528,7 @@ class Fragmen {
   static get GEEKEST_CHUNK () {
     return `#define FC gl_FragCoord
 precision highp float;uniform vec2 r;uniform vec2 m;uniform float t;uniform float f;uniform float s;uniform sampler2D b;
-${noise}\n`
+`
   }
 
   static get GEEKEST_OUT_CHUNK () {return 'out vec4 o = vec4(0.);\n'}
@@ -478,7 +537,7 @@ ${noise}\n`
     this.mode = Fragmen.MODE_GEEKEST_300
   }
 
-  preprocessFragmentCode (code) {
+  preprocessFragmentCode (code, noise) {
     let chunk300 = ''
     let chunkOut = ''
     let chunkMain = ''
@@ -486,7 +545,12 @@ ${noise}\n`
     switch (this.mode) {
       case Fragmen.MODE_GEEKEST_300:
         chunk300 = Fragmen.ES_300_CHUNK
-        chunkOut = Fragmen.GEEKEST_CHUNK.substr(0, Fragmen.GEEKEST_CHUNK.length - 1) + Fragmen.GEEKEST_OUT_CHUNK
+        chunkOut = Fragmen.GEEKEST_CHUNK
+          //.substr(0, Fragmen.GEEKEST_CHUNK.length - 1)
+          + noise
+          + '\n'
+          + Fragmen.GEEKEST_OUT_CHUNK
+
         if (code.match(/void\s+main\s*\(/) == null) {
           chunkMain = 'void main(){\n'
           chunkClose = '\n}'
@@ -538,12 +602,49 @@ ${fs}
 </jittershader>`
 }
 
+function getIdents (tokens) {
+  return {
+    text: tokens.filter(t => t.type === 'preprocessor').map(t => t.data),
+    idents: tokens.filter(t => t.type === 'ident').map(t => t.data)
+  }
+}
+
+function addUtil(u, list) {
+  if (!list.includes(u)) {
+    list.push(u)
+  }
+  
+  const deps = UTILS[u].deps || []
+  
+  for (const dep of deps) {
+    addUtil(dep, list)
+  }
+}
+
+function getUtils (tokens) {
+  const { text, idents } = getIdents(tokens)
+  
+  const used = Object.keys(UTILS).filter(key => text.filter(t => t.includes(key)).length || idents.includes(key))
+  // post(JSON.stringify({used}) + '\n')
+  
+  const list = [...used]
+  
+  for (const u of used) {
+    addUtil(u, list)
+  }
+  
+  return Object.entries(UTILS)
+    .filter(([k, v]) => list.includes(k))
+    .map(([k,v]) => v.code)
+    .join('\n')
+}
+
 const fs = new Fragmen()
 
 function convert (original, preview, adjust) {
   const adjustCode = `
   o = (o + .1)/1.2;`
-  
+
   const previewCode = `
   float red = 0., gre = 0., blu = 0.;
   if (o.r > 1 || o.g > 1 || o.b > 1) {
@@ -557,9 +658,10 @@ function convert (original, preview, adjust) {
   const fixedLoops = fixUninitializedLoopVars(original)
   const fixedVars = fixUninitializedVars(fixedLoops.fixed)
   const code = fs.preprocessFragmentCode(
-    fixedVars.fixed 
+    fixedVars.fixed
     + (adjust ? adjustCode : '')
-    + (preview ? previewCode : ''))
+    + (preview ? previewCode : ''),
+    getUtils(fixedVars.tokens))
 
   return toJxs(code)
 }
@@ -592,7 +694,7 @@ function load_file (original) {
   f.position = 0
   f.writestring(jxs)
   f.close()
-  
+
   outlet(0, 'jxs', 'file', path)
 }
 

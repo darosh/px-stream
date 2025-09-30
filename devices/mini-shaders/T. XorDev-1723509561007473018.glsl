@@ -1,0 +1,2 @@
+vec2 p=FC.xy*2.-r;for(float i;i++<t/.1;o+=(cos(i+vec4(6,1,2,3))+1.)*r.y/1e2/pow(t,.6)/length(p+.8*r*(abs(mod(vec2(.2,F4)*(t/.1-i)*.4,4.)-2.)-1.)));o*=o;
+// https://x.com/XorDev/status/1723509561007473018

@@ -9,10 +9,17 @@ ISF Audio DEBUG.amxd
 .TEST*.amxd
 .TEST*.maxpat
 .data-dir/
+devices/*.min.js
 devices/images/
 devices/video/
 devices/video/*.avi
 devices/video/*.mp4
+devices/mini-shaders/.broken
+devices/mini-shaders/.dupl
+devices/mini-shaders/.slow
+devices/mini-shaders/.unknown
+devices/mini-shaders/.temp.jxs
+devices/mini-shaders/.temp-*.jxs
 assets/screenshot-*.png
 assets/Screenshot 2*.png
 assets/screenshot-*.mov

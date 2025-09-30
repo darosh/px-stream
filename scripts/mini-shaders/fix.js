@@ -1,5 +1,7 @@
 import tokenize from 'glsl-tokenizer'
 
+const log = () => {}
+
 // Define default values for different types
 const defaultValues = {
   'int': '=0',
@@ -88,20 +90,18 @@ export function fixUninitializedVars (glslCode) {
     && t.type !== 'line-comment')
 
   for (let i = 0; i < nonWhitespace.length - 2; i++) {
-    const t = nonWhitespace;
+    const t = nonWhitespace
 
-    // ONLY look for actual variable declarations
+    // Only look for actual variable declarations
     if (t[i].type === 'keyword' && defaultValues.hasOwnProperty(t[i].data)) {
-      const varType = t[i].data;
-      const initValue = defaultValues[varType];
+      log('IN', t[i].data, t[i].position)
+      const varType = t[i].data
+      const initValue = defaultValues[varType]
 
-      if (!initValue) continue;
+      if (!initValue) continue
 
-      // Check if this is actually a declaration context
-      // Look for patterns that indicate declaration vs usage:
-
-      // 1. Skip if previous token suggests this is NOT a declaration
-      const prevToken = i > 0 ? t[i - 1] : null;
+      // Skip if previous token suggests this is NOT a declaration
+      const prevToken = i > 0 ? t[i - 1] : null
       if (prevToken && (
         prevToken.data === '.' ||
         prevToken.data === '(' ||
@@ -109,52 +109,85 @@ export function fixUninitializedVars (glslCode) {
         prevToken.type === 'ident' ||
         prevToken.type === 'builtin'
       )) {
-        continue;
+        continue
       }
 
-      // 2. This should be at statement beginning or after certain tokens
+      // Check if this is at statement beginning or after certain tokens
       if (prevToken && !(
-        prevToken.data === ';' ||           // end of previous statement
-        prevToken.data === '{' ||           // start of block
-        prevToken.data === ',' ||           // multiple declarations
-        prevToken.type === 'keyword'        // after storage qualifier like 'const'
+        prevToken.data === ';' ||
+        prevToken.data === '{' ||
+        prevToken.data === ',' ||
+        prevToken.type === 'keyword'
       )) {
-        continue;
+        continue
       }
 
-      // 3. Look ahead to confirm this looks like a declaration
-      let pos = i + 1;
-      let foundValidDeclaration = false;
+      // Process potential variable declarations
+      let pos = i + 1
+      let foundValidDeclaration = false
 
       while (pos < nonWhitespace.length && t[pos].data !== ';') {
         if (t[pos].type === 'ident') {
-          // This should be followed by =, [, , or ;
-          const nextToken = pos + 1 < nonWhitespace.length ? t[pos + 1] : null;
+          const varToken = t[pos]
+          const nextToken = pos + 1 < nonWhitespace.length ? t[pos + 1] : null
+
+          // Check if this is a variable declaration
           if (nextToken && (
             nextToken.data === '=' ||
             nextToken.data === '[' ||
             nextToken.data === ',' ||
             nextToken.data === ';'
           )) {
-            foundValidDeclaration = true;
+            foundValidDeclaration = true
 
-            // Only add fix if not already initialized
+            // Only add fix if not initialized (no '=' or '[' follows)
             if (nextToken.data !== '=' && nextToken.data !== '[') {
-              const varToken = t[pos];
               fixes.push({
                 position: varToken.position + varToken.data.length,
                 insert: initValue,
                 variable: varToken.data,
                 type: varType
-              });
+              })
+            }
+
+            // If followed by '=', skip the initialization expression
+            if (nextToken.data === '=') {
+              pos++
+              let paren = 0
+              while (pos < nonWhitespace.length && (paren > 0 || (t[pos].data !== ',' && t[pos].data !== ';'))) {
+                if (t[pos].data === '(') paren++
+                if (t[pos].data === ')') paren--
+                pos++
+              }
+              // If we stopped at a comma, continue to process next variable
+              if (pos < nonWhitespace.length && t[pos].data === ',') pos++
+              continue
             }
           } else {
-            // This doesn't look like a declaration
-            break;
+            // Invalid declaration pattern, break
+            break
           }
         }
-        pos++;
+
+        // Move to next token, but skip parentheses correctly
+        if (t[pos].data === '(') {
+          let paren = 1
+          pos++
+          while (pos < nonWhitespace.length && paren > 0) {
+            if (t[pos].data === '(') paren++
+            if (t[pos].data === ')') paren--
+            pos++
+          }
+        } else {
+          pos++
+        }
       }
+
+      if (foundValidDeclaration) {
+        i = pos - 1 // Move to the last processed token
+      }
+    } else {
+      log('OUT', t[i].data, t[i].position)
     }
   }
 

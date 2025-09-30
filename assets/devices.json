@@ -38,6 +38,9 @@
   "PX GEN Cos Pattern": {
     "description": "Procedural patterns with cosine palettes [popularized](https://iquilezles.org/articles/palettes/) by Inigo Quilez"
   },
+  "GEN Mini Shader": {
+    "description": "https://tympanus.net/codrops/2025/06/23/modeling-the-world-in-280-characters/"
+  },
   "PX GEN Sketching": {
     "description": "Custom OpenGL primitives scripting with JavaScript, slightly compatible with [openprocessing.org](https://openprocessing.org/)"
   },

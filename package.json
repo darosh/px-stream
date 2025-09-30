@@ -17,6 +17,7 @@
   },
   "private": true,
   "scripts": {
+    "build": " npx esbuild ./devices/PX\\ GEN\\ Mini\\ Shader._convert.js --format=cjs --bundle --keep-names --outfile=./devices/PX\\ GEN\\ Mini\\ Shader._convert.min.js",
     "doc": "npm run doc:screenshots && npm run doc:readme",
     "doc:readme": "node ./scripts/doc.js",
     "doc:screenshots": "rm -f ./assets/devices/*.webp && node ./scripts/screenshots.js",
