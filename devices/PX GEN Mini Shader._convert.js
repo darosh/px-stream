@@ -124,7 +124,6 @@ function fixUninitializedVars (glslCode) {
       if (i + 2 < nonWhitespace.length &&
         t[i + 1].type === 'ident' &&
         t[i + 2].data === '(') {
-        // post(t[i + 1].data + t[i + 2].data + '\n') 
         // This is a function declaration (type identifier '('), skip it
         let pos = i + 2 // Start at '('
         let paren = 1 // Track nested parentheses
@@ -135,7 +134,7 @@ function fixUninitializedVars (glslCode) {
             if (t[pos].data === ')') paren--
           }
         }
-        // post(i + ':' + pos + '\n')
+
         i = pos // Move past the closing ')'
         continue // Skip to next iteration
       }
@@ -623,10 +622,7 @@ function addUtil(u, list) {
 
 function getUtils (tokens) {
   const { text, idents } = getIdents(tokens)
-  
   const used = Object.keys(UTILS).filter(key => text.filter(t => t.includes(key)).length || idents.includes(key))
-  // post(JSON.stringify({used}) + '\n')
-  
   const list = [...used]
   
   for (const u of used) {
@@ -641,27 +637,10 @@ function getUtils (tokens) {
 
 const fs = new Fragmen()
 
-function convert (original, preview, adjust) {
-  const adjustCode = `
-  o = (o + .1)/1.2;`
-
-  const previewCode = `
-  float red = 0., gre = 0., blu = 0.;
-  if (o.r > 1 || o.g > 1 || o.b > 1) {
-    red = 1.;
-  }
-  if (o.r < 0 || o.g < 0 || o.b < 0) {
-    blu = 1.;
-  }
-  o.rgb = vec3(red, gre, blu);
-  `
+function convert (original) {
   const fixedLoops = fixUninitializedLoopVars(original)
   const fixedVars = fixUninitializedVars(fixedLoops.fixed)
-  const code = fs.preprocessFragmentCode(
-    fixedVars.fixed
-    + (adjust ? adjustCode : '')
-    + (preview ? previewCode : ''),
-    getUtils(fixedVars.tokens))
+  const code = fs.preprocessFragmentCode(fixedVars.fixed, getUtils(fixedVars.tokens))
 
   return toJxs(code)
 }
@@ -672,15 +651,12 @@ function temp_folder (f) {
   folder = f
 }
 
-let originals
-
 function load_file (original) {
   if (!original) {
     return
   }
 
-  const jxs = convert(original, false, false)
-  // const path = `${folder}/${Date.now()}.jxs`
+  const jxs = convert(original)
   const path = `${folder}/.temp.jxs`
   const f = new File(path, 'readwrite')
 
