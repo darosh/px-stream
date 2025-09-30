@@ -26,6 +26,9 @@
 - [ ] restore session params and automation
 - [ ] disable dynamic live.menu automation
 - [ ] disable irrelevant params
+- [ ] make transitions dynamic
+- [ ] explore bundle folder structure
+- [ ] mini shader: device id based temp path
 
 ## Devices
 
