@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 579.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,82 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"embed" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 1,
+					"id" : "obj-73",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 9,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 33.0, 82.0, 567.0, 498.0 ],
+						"openinpresentation" : 1,
+						"gridsize" : [ 8.0, 8.0 ],
+						"gridsnaponopen" : 2,
+						"integercoordinates" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-2",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 152.0, 48.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Ableton Sans Light",
+									"id" : "obj-1",
+									"maxclass" : "live.comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 80.0, 112.0, 151.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 2.0, 0.0, 122.0, 18.0 ],
+									"textjustification" : 0
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 896.0, 1008.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.0, 40.0, 126.0, 86.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-506",
 					"maxclass" : "newobj",
@@ -8603,7 +8679,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 896.0, 944.0, 96.0, 22.0 ],
-					"text" : "prepend append"
+					"text" : "prepend set"
 				}
 
 			}
@@ -8628,45 +8704,6 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 896.0, 792.0, 130.0, 22.0 ],
 					"text" : "route credit description"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bangmode" : 1,
-					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
-					"border" : 0.0,
-					"bordercolor" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
-					"id" : "obj-397",
-					"maxclass" : "textedit",
-					"nosymquotes" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 896.0, 984.0, 144.0, 56.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 42.0, 120.0, 86.0 ],
-					"readonly" : 1,
-					"rounded" : 10.0,
-					"saved_attribute_attributes" : 					{
-						"bgcolor" : 						{
-							"expression" : "themecolor.live_control_text_bg"
-						}
-,
-						"bordercolor" : 						{
-							"expression" : "themecolor.live_contrast_frame"
-						}
-,
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
-					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 				}
 
 			}
@@ -16348,7 +16385,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 712.0, 960.0, 35.0, 22.0 ],
-					"text" : "clear"
+					"text" : "set "
 				}
 
 			}
@@ -19601,14 +19638,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-397", 0 ],
+					"destination" : [ "obj-73", 0 ],
 					"source" : [ "obj-401", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-397", 0 ],
+					"destination" : [ "obj-73", 0 ],
 					"source" : [ "obj-402", 0 ]
 				}
 
@@ -21303,16 +21340,6 @@
 			"obj-78" : [ "P03", "P03", 0 ],
 			"obj-8" : [ "FFT", "FFT", 0 ],
 			"obj-9" : [ "WAVE", "WAVE", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-112::obj-6" : 				{
 					"parameter_longname" : "File Automation"
