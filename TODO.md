@@ -14,120 +14,32 @@
 - [ ] param doc / mass edit
 - [ ] FX preview, animation
 - [ ] guide
-- [ ] multiline descriptions
 
 ## Misc
 
-- [ ] disable unused chains?
 - [ ] If parameter automation causes high CPU load, try enabling Defer Automation Output in the object Inspector,
   or try higher values for the Update Limit.
-- [ ] check texture float 32
-- [ ] check fx (pass) quality param
-- [ ] restore session params and automation
-- [ ] disable dynamic live.menu automation
-- [ ] disable irrelevant params
-- [ ] make transitions dynamic
 - [ ] explore bundle folder structure
-- [ ] mini shader: device id based temp path
+- [ ] disable irrelevant params
 
 ## Devices
 
 - [ ] video in? loop on/off per clip, speed control, in/out points
-- [ ] JPEG
-
-- [ ] reactive geometry device?
-  - [ ] /Applications/Max.app/Contents/Resources/C74/media/demos/max9-geom-demo.maxpat
-- [ ] inline preview device
-- [ ] oklab blend? color adjustment?
-- [ ] sky box?
-
-### DEV
-
-#### DEV Console.amxd
-
-#### DEV Info.amxd
-
-### FX
-
-#### PX FX Blur.amxd
-
-- [ ] find optimal ranges
-
-#### PX FX Delay.amxd
-
-- [ ] make max frames dynamic
-- [ ] https://cycling74.com/tutorials/max-and-opengl-gl-texture-delay
-- [ ] https://www.youtube.com/watch?v=PomKrUNqdAk
-
-#### PX FX Kaleidoscope.amxd
-
-- [ ] find optimal ranges
-
-#### PX FX Pass.amxd
-
-- [ ] find optimal ranges
-
-#### PX FX Color.amxd
-
-
-#### PX FX Colorize.amxd
-
-### IN
-
-#### PX IN Cam.amxd
-
-- [ ] no webcam selected on load
-- [ ] webcam stored as name
-
-#### PX IN Channel.amxd
-
-#### PX IN Cos Pattern.amxd
-
-#### PX IN Mix.amxd
+- [ ] inline preview device?
 
 #### PX IN SVG.amxd
 
 - [ ] powered by logo
-- [ ] fix svg automation
-- [ ] fix svg resolution switch
-- [ ] cache svg texture
-- [ ] fit vs fill
-
-#### PX IN Syphon.amxd
-
-- [ ] syphon persistence?
-- [ ] fix jit.gl.syphonclient: doesn't understand "<separator>"
-
-#### PX IN Text.amxd
-
-### PX
-
-#### PX Mix Channel.amxd
-
-#### PX Mix Dry.amxd
-
-- [ ] fix dry swap dims?
 
 #### PX Mix View.amxd
 
 - [ ] optimize mix (jxs?)
 - [ ] mix: takes screenshot
 
-#### PX Route Audio.amxd
-
-#### PX Route MIDI.amxd
-
 #### PX Shader.amxd
 
-- [ ] hsv mode?
 - [ ] beat param?
 - [ ] tempo param? BEAT? BAR?
-- [ ] replace bpatchers
-- [ ] scrollable bpatcher to isf info
-
-#### PX Transform.amxd
-
-#### PX World.amxd
 
 ## IFS
 
@@ -139,6 +51,37 @@
 
 ## Done
 
+- [x] ~~delay: make max frames dynamic~~
+- [x] https://cycling74.com/tutorials/max-and-opengl-gl-texture-delay
+- [x] https://www.youtube.com/watch?v=PomKrUNqdAk
+- [x] JPEG
+- [x] ~~reactive geometry device?~~
+- [x] ~~/Applications/Max.app/Contents/Resources/C74/media/demos/max9-geom-demo.maxpat~~
+- [x] ~~oklab blend? color adjustment?~~
+- [x] ~~sky box?~~
+- [x] ~~blur: find optimal ranges~~
+- [x] ~~kaleido: find optimal ranges~~
+- [x] pass:find optimal ranges
+- [x] no webcam selected on load
+- [x] webcam stored as name
+- [x] fix svg automation
+- [x] fix svg resolution switch
+- [x] ~~cache svg texture~~
+- [x] fit vs fill
+- [x] ~~fix dry swap dims?~~
+- [x] shader: scrollable bpatcher to isf info
+- [x] ~~shader:replace bpatchers~~
+- [x] ~~hsv mode?~~
+- [x] syphon persistence?
+- [x] fix jit.gl.syphonclient: doesn't understand "<separator>"
+- [x] check texture float 32
+- [x] ~~check fx (pass) quality param~~
+- [x] ~~disable unused chains?~~
+- [x] multiline descriptions
+- [x] restore session params and automation
+- [x] disable dynamic live.menu automation
+- [x] make transitions dynamic
+- [x] ~~mini shader: device id based temp path~~
 - [x] fix world UI
 - [x] logo mouse over
 - [x] re-enable passed channel on change
