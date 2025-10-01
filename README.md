@@ -317,8 +317,8 @@ Learn more about the [Modeling the World in 280 Characters](https://tympanus.net
 | r    | vec2      | resolution   |
 | m    | vec2      | mouse        |
 | t    | float     | time         |
-| s    | float     |              |
-| b    | sampler2D |              |
+| f    | float     | frame        |
+| b    | sampler2D | backbuffer   |
 | o    | vec4      | output       |
 
 #### Utilities
@@ -341,6 +341,8 @@ Included when needed.
 - PI
 - PI2
 - tanh (`#define tanh(x) tanh(clamp(x, -10.,10.))`)
+
+Learn more in [twigl documentation](https://github.com/doxas/twigl#twigl).
 
 ### GEN Sketching
 
