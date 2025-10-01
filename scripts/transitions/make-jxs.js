@@ -62,6 +62,7 @@ void main() {
 
   jxs.push(`    <program name="fp" type="fragment">`)
   jxs.push(`<![CDATA[`)
+  jxs.push('// Adapted from https://github.com/gl-transitions/gl-transitions')
   jxs.push(shader)
   jxs.push(`]]>`)
   jxs.push(`    </program>`)
@@ -69,5 +70,5 @@ void main() {
   jxs.push(`</jittershader>`)
   jxs.push('')
 
-  await writeFile(`./devices/PX._transition.${slug}.jxs`, jxs.join('\n'))
+  await writeFile(`./devices/transitions/${readableName}.jxs`, jxs.join('\n'))
 }

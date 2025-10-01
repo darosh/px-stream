@@ -1,0 +1,88 @@
+<jittershader name="rotate-scale-fade">
+  <description>Rotate scale fade</description>
+  <param name="tex0" type="int" default="0"/>
+  <param name="tex1" type="int" default="1"/>
+  <param name="progress" type="float" default="0.5"/>
+  <param name="center" type="vec2" default="0.5 0.5"/>
+  <param name="rotations" type="float" default="1"/>
+  <param name="scale" type="float" default="8"/>
+  <param name="backColor" type="vec4" default="0.15 0.15 0.15 1"/>
+  <language name="glsl" version="1.0">
+    <bind param="tex0" program="fp"/>
+    <bind param="tex1" program="fp"/>
+    <bind param="progress" program="fp"/>
+    <bind param="center" program="fp"/>
+    <bind param="rotations" program="fp"/>
+    <bind param="scale" program="fp"/>
+    <bind param="backColor" program="fp"/>
+    <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+varying vec2 texcoord1;
+varying vec2 texdim1;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+    texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+    texdim1 = vec2 (abs(gl_TextureMatrix[1][0][0]),abs(gl_TextureMatrix[1][1][1]));
+}
+]]>
+    </program>
+    <program name="fp" type="fragment">
+<![CDATA[
+// Adapted from https://github.com/gl-transitions/gl-transitions
+//precision highp float;
+varying vec2 texcoord0;
+varying vec2 texdim0, texdim1;
+uniform sampler2DRect tex0, tex1;
+uniform float progress;
+
+float ratio = texdim0.x / texdim0.y;
+
+vec4 getFromColor(vec2 uv){return texture2DRect(tex0, uv*texdim0);}
+
+vec4 getToColor(vec2 uv){return texture2DRect(tex1, uv*texdim1);}
+
+// Author: Fernando Kuteken
+// License: MIT
+
+#define PI 3.14159265359
+
+uniform vec2 center; // = vec2(0.5, 0.5);
+uniform float rotations; // = 1;
+uniform float scale; // = 8;
+uniform vec4 backColor; // = vec4(0.15, 0.15, 0.15, 1.0);
+
+vec4 transition (vec2 uv) {
+  
+  vec2 difference = uv - center;
+  vec2 dir = normalize(difference);
+  float dist = length(difference);
+  
+  float angle = 2.0 * PI * rotations * progress;
+  
+  float c = cos(angle);
+  float s = sin(angle);
+  
+  float currentScale = mix(scale, 1.0, 2.0 * abs(progress - 0.5));
+  
+  vec2 rotatedDir = vec2(dir.x  * c - dir.y * s, dir.x * s + dir.y * c);
+  vec2 rotatedUv = center + rotatedDir * dist / currentScale;
+  
+  if (rotatedUv.x < 0.0 || rotatedUv.x > 1.0 ||
+      rotatedUv.y < 0.0 || rotatedUv.y > 1.0)
+    return backColor;
+    
+  return mix(getFromColor(rotatedUv), getToColor(rotatedUv), progress);
+}
+
+
+void main(){gl_FragColor=transition(texcoord0/texdim0);}
+]]>
+    </program>
+  </language>
+</jittershader>

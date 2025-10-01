@@ -1,0 +1,74 @@
+<jittershader name="squares-wire">
+  <description>Squares wire</description>
+  <param name="tex0" type="int" default="0"/>
+  <param name="tex1" type="int" default="1"/>
+  <param name="progress" type="float" default="0.5"/>
+  <param name="squares" type="ivec2" default="10 10"/>
+  <param name="direction" type="vec2" default="1 -0.5"/>
+  <param name="smoothness" type="float" default="1.6"/>
+  <language name="glsl" version="1.0">
+    <bind param="tex0" program="fp"/>
+    <bind param="tex1" program="fp"/>
+    <bind param="progress" program="fp"/>
+    <bind param="squares" program="fp"/>
+    <bind param="direction" program="fp"/>
+    <bind param="smoothness" program="fp"/>
+    <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+varying vec2 texcoord1;
+varying vec2 texdim1;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+    texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+    texdim1 = vec2 (abs(gl_TextureMatrix[1][0][0]),abs(gl_TextureMatrix[1][1][1]));
+}
+]]>
+    </program>
+    <program name="fp" type="fragment">
+<![CDATA[
+// Adapted from https://github.com/gl-transitions/gl-transitions
+//precision highp float;
+varying vec2 texcoord0;
+varying vec2 texdim0, texdim1;
+uniform sampler2DRect tex0, tex1;
+uniform float progress;
+
+float ratio = texdim0.x / texdim0.y;
+
+vec4 getFromColor(vec2 uv){return texture2DRect(tex0, uv*texdim0);}
+
+vec4 getToColor(vec2 uv){return texture2DRect(tex1, uv*texdim1);}
+
+// Author: gre
+// License: MIT
+ 
+uniform ivec2 squares;// = ivec2(10,10)
+uniform vec2 direction;// = vec2(1.0, -0.5)
+uniform float smoothness; // = 1.6
+
+const vec2 center = vec2(0.5, 0.5);
+vec4 transition (vec2 p) {
+  vec2 v = normalize(direction);
+  v /= abs(v.x)+abs(v.y);
+  float d = v.x * center.x + v.y * center.y;
+  float offset = smoothness;
+  float pr = smoothstep(-offset, 0.0, v.x * p.x + v.y * p.y - (d-0.5+progress*(1.+offset)));
+  vec2 squarep = fract(p*vec2(squares));
+  vec2 squaremin = vec2(pr/2.0);
+  vec2 squaremax = vec2(1.0 - pr/2.0);
+  float a = (1.0 - step(progress, 0.0)) * step(squaremin.x, squarep.x) * step(squaremin.y, squarep.y) * step(squarep.x, squaremax.x) * step(squarep.y, squaremax.y);
+  return mix(getFromColor(p), getToColor(p), a);
+}
+
+
+void main(){gl_FragColor=transition(texcoord0/texdim0);}
+]]>
+    </program>
+  </language>
+</jittershader>

@@ -1,0 +1,92 @@
+<jittershader name="dreamy-zoom">
+  <description>Dreamy zoom</description>
+  <param name="tex0" type="int" default="0"/>
+  <param name="tex1" type="int" default="1"/>
+  <param name="progress" type="float" default="0.5"/>
+  <param name="rotation" type="float" default="6"/>
+  <param name="scale" type="float" default="1.2"/>
+  <language name="glsl" version="1.0">
+    <bind param="tex0" program="fp"/>
+    <bind param="tex1" program="fp"/>
+    <bind param="progress" program="fp"/>
+    <bind param="rotation" program="fp"/>
+    <bind param="scale" program="fp"/>
+    <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+varying vec2 texcoord1;
+varying vec2 texdim1;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+    texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+    texdim1 = vec2 (abs(gl_TextureMatrix[1][0][0]),abs(gl_TextureMatrix[1][1][1]));
+}
+]]>
+    </program>
+    <program name="fp" type="fragment">
+<![CDATA[
+// Adapted from https://github.com/gl-transitions/gl-transitions
+//precision highp float;
+varying vec2 texcoord0;
+varying vec2 texdim0, texdim1;
+uniform sampler2DRect tex0, tex1;
+uniform float progress;
+
+float ratio = texdim0.x / texdim0.y;
+
+vec4 getFromColor(vec2 uv){return texture2DRect(tex0, uv*texdim0);}
+
+vec4 getToColor(vec2 uv){return texture2DRect(tex1, uv*texdim1);}
+
+// Author: Zeh Fernando
+// License: MIT
+
+// Definitions --------
+#define DEG2RAD 0.03926990816987241548078304229099 // 1/180*PI
+
+
+// Transition parameters --------
+
+// In degrees
+uniform float rotation; // = 6
+
+// Multiplier
+uniform float scale; // = 1.2
+
+
+// The code proper --------
+
+vec4 transition(vec2 uv) {
+  // Massage parameters
+  float phase = progress < 0.5 ? progress * 2.0 : (progress - 0.5) * 2.0;
+  float angleOffset = progress < 0.5 ? mix(0.0, rotation * DEG2RAD, phase) : mix(-rotation * DEG2RAD, 0.0, phase);
+  float newScale = progress < 0.5 ? mix(1.0, scale, phase) : mix(scale, 1.0, phase);
+  
+  vec2 center = vec2(0, 0);
+
+  // Calculate the source point
+  vec2 assumedCenter = vec2(0.5, 0.5);
+  vec2 p = (uv.xy - vec2(0.5, 0.5)) / newScale * vec2(ratio, 1.0);
+
+  // This can probably be optimized (with distance())
+  float angle = atan(p.y, p.x) + angleOffset;
+  float dist = distance(center, p);
+  p.x = cos(angle) * dist / ratio + 0.5;
+  p.y = sin(angle) * dist + 0.5;
+  vec4 c = progress < 0.5 ? getFromColor(p) : getToColor(p);
+
+  // Finally, apply the color
+  return c + (progress < 0.5 ? mix(0.0, 1.0, phase) : mix(1.0, 0.0, phase));
+}
+
+
+void main(){gl_FragColor=transition(texcoord0/texdim0);}
+]]>
+    </program>
+  </language>
+</jittershader>

@@ -1,0 +1,89 @@
+<jittershader name="slides">
+  <description>Slides</description>
+  <param name="tex0" type="int" default="0"/>
+  <param name="tex1" type="int" default="1"/>
+  <param name="progress" type="float" default="0.5"/>
+  <param name="type" type="int" default="0"/>
+  <param name="In" type="bool" default="false"/>
+  <language name="glsl" version="1.0">
+    <bind param="tex0" program="fp"/>
+    <bind param="tex1" program="fp"/>
+    <bind param="progress" program="fp"/>
+    <bind param="type" program="fp"/>
+    <bind param="In" program="fp"/>
+    <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+varying vec2 texcoord1;
+varying vec2 texdim1;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+    texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+    texdim1 = vec2 (abs(gl_TextureMatrix[1][0][0]),abs(gl_TextureMatrix[1][1][1]));
+}
+]]>
+    </program>
+    <program name="fp" type="fragment">
+<![CDATA[
+// Adapted from https://github.com/gl-transitions/gl-transitions
+//precision highp float;
+varying vec2 texcoord0;
+varying vec2 texdim0, texdim1;
+uniform sampler2DRect tex0, tex1;
+uniform float progress;
+
+float ratio = texdim0.x / texdim0.y;
+
+vec4 getFromColor(vec2 uv){return texture2DRect(tex0, uv*texdim0);}
+
+vec4 getToColor(vec2 uv){return texture2DRect(tex1, uv*texdim1);}
+
+// Author: Mark Craig
+// mrmcsoftware on github and youtube ( http://www.youtube.com/MrMcSoftware )
+// License: MIT
+
+// Slides Transition by Mark Craig (Copyright © 2022)
+
+uniform int type; // = 0
+uniform bool In; // = false
+// type: slide to/from which edge, which corner, or center
+// In: if true slide new image in, otherwise slide old image out
+
+#define rad2 rad / 2.0
+
+vec4 transition(vec2 uv)
+{
+vec2 uv0 = uv;
+float rad = In ? progress : 1.0 - progress;
+float xc1, yc1;
+// I used if/else instead of switch in case it's an old GPU
+if (type == 0) { xc1 = .5 - rad2; yc1 = 0.0; }
+else if (type == 1) { xc1 = 1.0 - rad; yc1 = .5 - rad2; }
+else if (type == 2) { xc1 = .5 - rad2; yc1 = 1.0 - rad; }
+else if (type == 3) { xc1 = 0.0; yc1 = .5 - rad2; }
+else if (type == 4) { xc1 = 1.0 - rad; yc1 = 0.0; }
+else if (type == 5) { xc1 = 1.0 - rad; yc1 = 1.0 - rad; }
+else if (type == 6) { xc1 = 0.0; yc1 = 1.0 - rad; }
+else if (type == 7) { xc1 = 0.0; yc1 = 0.0; }
+else if (type == 8) { xc1 = .5 - rad2; yc1 = .5 - rad2; }
+uv.y = 1.0 - uv.y;
+vec2 uv2;
+if ((uv.x >= xc1) && (uv.x <= xc1 + rad) && (uv.y >= yc1) && (uv.y <= yc1 + rad))
+	{
+	uv2 = vec2((uv.x - xc1) / rad, 1.0 - (uv.y - yc1) / rad);
+	return(In ? getToColor(uv2) : getFromColor(uv2));
+	}
+return(In ? getFromColor(uv0) : getToColor(uv0));
+}
+
+
+void main(){gl_FragColor=transition(texcoord0/texdim0);}
+]]>
+    </program>
+  </language>
+</jittershader>

@@ -1,0 +1,71 @@
+<jittershader name="flyeye">
+  <description>Flyeye</description>
+  <param name="tex0" type="int" default="0"/>
+  <param name="tex1" type="int" default="1"/>
+  <param name="progress" type="float" default="0.5"/>
+  <param name="size" type="float" default="0.04"/>
+  <param name="zoom" type="float" default="50"/>
+  <param name="colorSeparation" type="float" default="0.3"/>
+  <language name="glsl" version="1.0">
+    <bind param="tex0" program="fp"/>
+    <bind param="tex1" program="fp"/>
+    <bind param="progress" program="fp"/>
+    <bind param="size" program="fp"/>
+    <bind param="zoom" program="fp"/>
+    <bind param="colorSeparation" program="fp"/>
+    <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+varying vec2 texcoord1;
+varying vec2 texdim1;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+    texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+    texdim1 = vec2 (abs(gl_TextureMatrix[1][0][0]),abs(gl_TextureMatrix[1][1][1]));
+}
+]]>
+    </program>
+    <program name="fp" type="fragment">
+<![CDATA[
+// Adapted from https://github.com/gl-transitions/gl-transitions
+//precision highp float;
+varying vec2 texcoord0;
+varying vec2 texdim0, texdim1;
+uniform sampler2DRect tex0, tex1;
+uniform float progress;
+
+float ratio = texdim0.x / texdim0.y;
+
+vec4 getFromColor(vec2 uv){return texture2DRect(tex0, uv*texdim0);}
+
+vec4 getToColor(vec2 uv){return texture2DRect(tex1, uv*texdim1);}
+
+// Author: gre
+// License: MIT
+uniform float size; // = 0.04
+uniform float zoom; // = 50.0
+uniform float colorSeparation; // = 0.3
+
+vec4 transition(vec2 p) {
+  float inv = 1. - progress;
+  vec2 disp = size*vec2(cos(zoom*p.x), sin(zoom*p.y));
+  vec4 texTo = getToColor(p + inv*disp);
+  vec4 texFrom = vec4(
+    getFromColor(p + progress*disp*(1.0 - colorSeparation)).r,
+    getFromColor(p + progress*disp).g,
+    getFromColor(p + progress*disp*(1.0 + colorSeparation)).b,
+    1.0);
+  return texTo*progress + texFrom*inv;
+}
+
+
+void main(){gl_FragColor=transition(texcoord0/texdim0);}
+]]>
+    </program>
+  </language>
+</jittershader>

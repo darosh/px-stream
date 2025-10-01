@@ -1,0 +1,121 @@
+<jittershader name="film-burn">
+  <description>Film burn</description>
+  <param name="tex0" type="int" default="0"/>
+  <param name="tex1" type="int" default="1"/>
+  <param name="progress" type="float" default="0.5"/>
+  <param name="seed" type="float" default="2.31"/>
+  <language name="glsl" version="1.0">
+    <bind param="tex0" program="fp"/>
+    <bind param="tex1" program="fp"/>
+    <bind param="progress" program="fp"/>
+    <bind param="seed" program="fp"/>
+    <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+varying vec2 texcoord1;
+varying vec2 texdim1;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+    texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+    texdim1 = vec2 (abs(gl_TextureMatrix[1][0][0]),abs(gl_TextureMatrix[1][1][1]));
+}
+]]>
+    </program>
+    <program name="fp" type="fragment">
+<![CDATA[
+// Adapted from https://github.com/gl-transitions/gl-transitions
+//precision highp float;
+varying vec2 texcoord0;
+varying vec2 texdim0, texdim1;
+uniform sampler2DRect tex0, tex1;
+uniform float progress;
+
+float ratio = texdim0.x / texdim0.y;
+
+vec4 getFromColor(vec2 uv){return texture2DRect(tex0, uv*texdim0);}
+
+vec4 getToColor(vec2 uv){return texture2DRect(tex1, uv*texdim1);}
+
+// author: Anastasia Dunbar
+// license: MIT
+
+uniform float seed;// = 2.31
+
+#define pi 3.14159265358979323
+#define repeats 50.
+
+
+float sigmoid(float x, float a) {
+    float b = pow(x*2., a)/2.;
+    if (x > .5) {
+        b = 1.-pow(2.-(x*2.), a)/2.;
+    }
+    return b;
+}
+
+float rand1(float co){
+    return fract(sin((co*24.9898)+seed)*43758.5453);
+}
+
+float rand1(vec2 co){
+    return fract(sin(dot(co.xy, vec2(12.9898, 78.233))) * 43758.5453);
+}
+
+float apow(float a, float b) { return pow(abs(a), b)*sign(b); }
+
+vec3 pow3(vec3 a, vec3 b) { return vec3(apow(a.r, b.r), apow(a.g, b.g), apow(a.b, b.b)); }
+
+float smooth_mix(float a, float b, float c) { return mix(a, b, sigmoid(c, 2.)); }
+
+float random2s(vec2 co, float shft){
+    co += 10.;
+    return smooth_mix(fract(sin(dot(co.xy, vec2(12.9898+(floor(shft)*.5), 78.233+seed))) * 43758.5453), fract(sin(dot(co.xy, vec2(12.9898+(floor(shft+1.)*.5), 78.233+seed))) * 43758.5453), fract(shft));
+}
+
+float smooth_random(vec2 co, float shft) {
+    return smooth_mix(smooth_mix(random2s(floor(co), shft), random2s(floor(co+vec2(1., 0.)), shft), fract(co.x)), smooth_mix(random2s(floor(co+vec2(0., 1.)), shft), random2s(floor(co+vec2(1., 1.)), shft), fract(co.x)), fract(co.y));
+}
+
+vec4 progress_txt(vec2 p) {
+    return mix(getFromColor(p), getToColor(p), sigmoid(progress, 10.));
+}
+
+vec4 transition(vec2 p) {
+    vec3 f = vec3(0.);
+    for (float i = 0.; i < 13.; i++) {
+        f += sin(((p.x*rand1(i)*6.)+(progress*8.))+rand1(i+1.43))*sin(((p.y*rand1(i+4.4)*6.)+(progress*6.))+rand1(i+2.4));
+        f += 1.-clamp(length(p-vec2(smooth_random(vec2(progress*1.3), i+1.), smooth_random(vec2(progress*.5), i+6.25)))*mix(20., 70., rand1(i)), 0., 1.);
+    }
+    f += 4.;
+    f /= 11.;
+    f = pow3(f*vec3(1., 0.7, 0.6), vec3(1., 2.-sin(progress*pi), 1.3));
+    f *= sin(progress*pi);
+
+    p -= .5;
+    p *= 1.+(smooth_random(vec2(progress*5.), 6.3)*sin(progress*pi)*.05);
+    p += .5;
+
+    vec4 blurred_image = vec4(0.);
+    float bluramount = sin(progress*pi)*.03;
+
+    for (float i = 0.; i < repeats; i++) {
+        vec2 q = vec2(cos(degrees((i/repeats)*360.)), sin(degrees((i/repeats)*360.))) *  (rand1(vec2(i, p.x+p.y))+bluramount);
+        vec2 uv2 = p+(q*bluramount);
+        blurred_image += progress_txt(uv2);
+    }
+    blurred_image /= repeats;
+
+    return blurred_image+vec4(f, 0.);
+}
+
+
+void main(){gl_FragColor=transition(texcoord0/texdim0);}
+]]>
+    </program>
+  </language>
+</jittershader>

@@ -1,0 +1,76 @@
+<jittershader name="linear-blur">
+  <description>Linear blur</description>
+  <param name="tex0" type="int" default="0"/>
+  <param name="tex1" type="int" default="1"/>
+  <param name="progress" type="float" default="0.5"/>
+  <param name="intensity" type="float" default="0.1"/>
+  <language name="glsl" version="1.0">
+    <bind param="tex0" program="fp"/>
+    <bind param="tex1" program="fp"/>
+    <bind param="progress" program="fp"/>
+    <bind param="intensity" program="fp"/>
+    <program name="vp" type="vertex">
+            <![CDATA[
+varying vec2 texcoord0;
+varying vec2 texdim0;
+
+varying vec2 texcoord1;
+varying vec2 texdim1;
+
+void main() {
+    gl_Position = ftransform();
+    texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+    texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+    texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+    texdim1 = vec2 (abs(gl_TextureMatrix[1][0][0]),abs(gl_TextureMatrix[1][1][1]));
+}
+]]>
+    </program>
+    <program name="fp" type="fragment">
+<![CDATA[
+// Adapted from https://github.com/gl-transitions/gl-transitions
+//precision highp float;
+varying vec2 texcoord0;
+varying vec2 texdim0, texdim1;
+uniform sampler2DRect tex0, tex1;
+uniform float progress;
+
+float ratio = texdim0.x / texdim0.y;
+
+vec4 getFromColor(vec2 uv){return texture2DRect(tex0, uv*texdim0);}
+
+vec4 getToColor(vec2 uv){return texture2DRect(tex1, uv*texdim1);}
+
+// author: gre
+// license: MIT
+uniform float intensity; // = 0.1
+const int passes = 6;
+
+vec4 transition(vec2 uv) {
+    vec4 c1 = vec4(0.0);
+    vec4 c2 = vec4(0.0);
+
+    float disp = intensity*(0.5-distance(0.5, progress));
+    for (int xi=0; xi<passes; xi++)
+    {
+        float x = float(xi) / float(passes) - 0.5;
+        for (int yi=0; yi<passes; yi++)
+        {
+            float y = float(yi) / float(passes) - 0.5;
+            vec2 v = vec2(x,y);
+            float d = disp;
+            c1 += getFromColor( uv + d*v);
+            c2 += getToColor( uv + d*v);
+        }
+    }
+    c1 /= float(passes*passes);
+    c2 /= float(passes*passes);
+    return mix(c1, c2, progress);
+}
+
+
+void main(){gl_FragColor=transition(texcoord0/texdim0);}
+]]>
+    </program>
+  </language>
+</jittershader>
