@@ -1,6 +1,7 @@
 import path from 'path'
 import { glob } from 'glob'
 import sharp from 'sharp'
+import JSON5 from 'json5'
 import { readFile, writeFile } from 'fs/promises'
 import screenshots, { imageToFile } from './screenshots.conf.js'
 
@@ -142,7 +143,7 @@ async function createCollage () {
 
   // console.log({ rowWidths })
 
-  const { rowImages: refinedImages, rowWidths: refinedWidths } = refineRows(rowImages, rowWidths, rowOptimalWidth)
+  let { rowImages: refinedImages, rowWidths: refinedWidths } = refineRows(rowImages, rowWidths, rowOptimalWidth)
   rowImages = refinedImages
 
   // console.log({ refinedWidths })
@@ -156,11 +157,19 @@ async function createCollage () {
 
   const totalHeight = rows * rowHeight + (rows - 1) * spacing
 
-  for (let rowIndex = 1; rowIndex < rowImages.length; rowIndex += 2) {
-    const t = rowImages[rowIndex]
-    rowImages[rowIndex] = rowImages[rowIndex + 1]
-    rowImages[rowIndex + 1] = t
-  }
+  rowImages = [
+    rowImages[2],
+    rowImages[1],
+    rowImages[3],
+    rowImages[4].reverse(),
+    rowImages[0]
+  ]
+
+  // for (let rowIndex = 1; rowIndex < rowImages.length; rowIndex += 2) {
+  //   const t = rowImages[rowIndex]
+  //   rowImages[rowIndex] = rowImages[rowIndex + 1]
+  //   rowImages[rowIndex + 1] = t
+  // }
 
   for (const row of rowImages) {
     let indexOf = rowImages.indexOf(row)
@@ -303,7 +312,7 @@ async function updateReadme (htmlCollage) {
   const rm = readFile(outputFile, 'utf8')
   let lines = (await rm).split('\n')
   lines = replaceLines(lines, 'collage', htmlCollage)
-  const devices = JSON.parse(await readFile('./assets/devices.json', 'utf8'))
+  const devices = JSON5.parse(await readFile('./assets/devices.json5', 'utf8'))
   lines = updateDeviceInfo(lines, devices)
   await writeFile(outputFile, lines.join('\n'))
   console.log('README.md updated', outputFile)

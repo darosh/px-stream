@@ -11,6 +11,7 @@
     "glob": "^11.0.3",
     "glsl-parser": "^2.0.1",
     "glsl-tokenizer": "^2.1.5",
+    "json5": "^2.2.3",
     "json-stringify-pretty-compact": "^4.0.0",
     "puppeteer": "^24.22.0",
     "sharp": "^0.34.3"

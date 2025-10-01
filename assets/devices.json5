@@ -1,0 +1,106 @@
+{
+  "DEV Console": {
+    description: "Enables detailed Max console output for development and debugging. DO NOT USE IN PRODUCTION."
+  },
+  "DEV Info": {
+    description: "Shows texture info for development purposes"
+  },
+  "PX FX Alpha": {
+    description: "Alpha channel tools: chroma key, mapping, inversion, smoothing, removal, etc."
+  },
+  "PX FX Blur": {
+    description: "Four blur shaders from Max/Jitter stock collection"
+  },
+  "PX FX Color": {
+    description: "Color grading and adjustment tools"
+  },
+  "PX FX Colorize": {
+    description: "Two/tri tone colorization with multiple mapping methods"
+  },
+  "PX FX Convert": {
+    description: "Texture format conversion including OKLAB and normalized OKLAB aka NOKLAB"
+  },
+  "PX FX Delay": {
+    description: "Frame-based texture delay. Combine with Mix Dry device for ghost trail effects."
+  },
+  "PX FX Kaleidoscope": {
+    description: "Kaleidoscope patterns based on [Brewster designs]((https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster)) plus Max/Jitter shader"
+  },
+  "PX FX Pass": {
+    description: "Postprocessing shaders from Max/Jitter stock library. See [Max documentation](https://docs.cycling74.com/reference/jit.gl.pass)."
+  },
+  "PX FX Pixelization": {
+    description: "Multi-shape pixelization: rectangular, circular, honeycomb, hexagonal, triangular grids"
+  },
+  "PX FX Transform": {
+    description: "Geometric transformations: scale, shift, rotation (around axis or vector)"
+  },
+  "PX GEN Cos Pattern": {
+    description: "Procedural patterns with cosine palettes [popularized](https://iquilezles.org/articles/palettes/) by Inigo Quilez"
+  },
+  "GEN Mini Shader": {
+    description: [
+      "Shaders in [twigl.app](https://twigl.app/) geekest 300 es format.",
+      "Files are stored in `data/mini-shaders` folder.",
+      "",
+      "| Type | Description |",
+      "|---|---|",
+      "|B.| Shaders from Blue Sky, assume [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) or ask the author of the post |",
+      "|T.| Shaders from Twitter, assume [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) or ask the author of the post |",
+      "|X.| Examples |",
+      "",
+      "Learn more about the [Modeling the World in 280 Characters](https://tympanus.net/codrops/2025/06/23/modeling-the-world-in-280-characters/).",
+    ]
+  },
+  "PX GEN Sketching": {
+    description: "Custom OpenGL primitives scripting with JavaScript, slightly compatible with [openprocessing.org](https://openprocessing.org/)"
+  },
+  "PX GEN Text": {
+    description: "Text generation from session/clip names, custom text, or dynamic musical data (beat, bar.beat, time)"
+  },
+  "PX IN Cam": {
+    description: "Live input from connected video devices"
+  },
+  "PX IN Channel": {
+    description: "Use texture from [Mix Channel](#px-mix-channel) as input. Creates feedback when combined with [Mix Dry](#px-mix-dry) on same channel."
+  },
+  "PX IN Image": {
+    description: "Static image input. Supports JPG, WEBP and PNG formats."
+  },
+  "PX IN Mix": {
+    description: "Use channel mix from [Mix View](#px-mix-view) device as input texture."
+  },
+  "PX IN SVG": {
+    description: "Vector graphics input with resolution-independent scaling SVG file formal"
+  },
+  "PX IN Syphon": {
+    description: "[Syphon](https://syphon.info/) input for sharing visuals between applications. Mac only."
+  },
+  "PX IN Video": {
+    description: "Video playback. Supports MP4, AVI, MOV (including [HAP codecs](https://hap.video/))."
+  },
+  "PX Mix Channel": {
+    description: "Send texture to selected channel. Alternative to individual channel selectors on each device."
+  },
+  "PX Mix Dry": {
+    description: "Dry/wet mix from two previous devices. Select which (-1 to -4) for dry signal. Multiple blend modes and signal swap. Swap has no effect on [commutative](https://en.wikipedia.org/wiki/Commutative_property) blending methods."
+  },
+  "PX Mix Transition": {
+    description: "Transition between two previous devices. Channel selection same as Mix Dry. Uses 90+ transitions from [gl-transitions.com](https://gl-transitions.com/)."
+  },
+  "PX Mix View": {
+    description: "Multi-channel mixing and preview. Mix output selected in expanded section can be consumed by [IN Mix](#in-mix) device and [Syphon](https://syphon.info/) clients. Click preview for floating window, <kbd>ESC</kbd> for fullscreen on/off."
+  },
+  "PX Route Audio": {
+    description: "Route audio from any track in your Live set"
+  },
+  "PX Route MIDI": {
+    description: "Send MIDI from selected track to next device. Works with [PX Shader](#px-shader) device and MIDI-enabled shaders."
+  },
+  "PX Shader": {
+    description: "Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects. Up to 32 dynamic parameters and various audio rendering options with our custom audio types."
+  },
+  "PX World": {
+    description: "Essential rendering context. You need exactly one per Live set. More would be problematic. Sets target FPS. FPS 0 will use available maximum with displaylink turned on on Mac."
+  }
+}
