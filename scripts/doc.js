@@ -273,20 +273,39 @@ function updateDescription (lines, device, description, images) {
     end++
   }
 
-  const imagesHtml = images.map(i => {
+  let imagesHtml = images.map(i => {
     return `<img src="${imageToFile(i, screenshots.v)}" height="231" title="${i}" />`
   })
 
   let descLines = Array.isArray(description) ? description : description.split('\n')
 
-  descLines = !descLines.join('').trim() ? [] : ['', ...descLines]
+  // descLines = !descLines.join('').trim() ? [] : ['', ...descLines]
 
+  const r = [
+    '',
+    descLines.shift(),
+    '',
+  ]
+
+  if (!descLines.length) {
+    r.push(imagesHtml.join(' '))
+    r.push('')
+    imagesHtml = []
+  } else {
+    r.push(imagesHtml.shift())
+    r.push('')
+    r.push(...descLines)
+    r.push('')
+  }
+  
+  if (imagesHtml.length) {
+    r.push(imagesHtml.join(' '))
+    r.push('')
+  }
+  
   return [
     ...lines.slice(0, start + 1),
-    ...descLines,
-    '',
-    imagesHtml.join(' '),
-    '',
+    ...r,
     ...lines.slice(end)
   ]
 }

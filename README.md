@@ -292,17 +292,55 @@ Procedural patterns with cosine palettes [popularized](https://iquilezles.org/ar
 ### GEN Mini Shader
 
 Shaders in [twigl.app](https://twigl.app/) geekest 300 es format.
-Files are stored in `data/mini-shaders` folder.
 
-| Type | Description |
-|---|---|
-|B.| Shaders from Blue Sky, assume [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) or ask the author of the post |
-|T.| Shaders from Twitter, assume [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) or ask the author of the post |
-|X.| Examples |
+<img src="./assets/devices/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" />
+
+#### Shader files
+
+`GLSL` files are stored in `data/mini-shaders` folder. Temporary JXS files is stored under `data/mini-shaders/.temp.jxs`.
+
+#### Shader categories
+
+| Type | Description                                                                                                                       |
+|------|-----------------------------------------------------------------------------------------------------------------------------------|
+| B.   | Shaders from Blue Sky, assume [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) or ask the author of the post |
+| T.   | Shaders from Twitter, assume [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) or ask the author of the post  |
+| X.   | Examples                                                                                                                          |
 
 Learn more about the [Modeling the World in 280 Characters](https://tympanus.net/codrops/2025/06/23/modeling-the-world-in-280-characters/).
 
-<img src="./assets/devices/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" />
+#### Variables
+
+| Name | Type      | Description  |
+|------|-----------|--------------|
+| FC   | vec4      | gl_FragCoord |
+| r    | vec2      | resolution   |
+| m    | vec2      | mouse        |
+| t    | float     | time         |
+| s    | float     |              |
+| b    | sampler2D |              |
+| o    | vec4      | output       |
+
+#### Utilities
+
+Included when needed.
+
+- F4
+- mod289
+- permute
+- taylorInvSqrt
+- snoise2D
+- snoise3D
+- grad4
+- snoise4D
+- fsnoise
+- fsnoiseDigits
+- hsv
+- rotate2D
+- rotate3D
+- PI
+- PI2
+- tanh (`#define tanh(x) tanh(clamp(x, -10.,10.))`)
 
 ### GEN Sketching
 

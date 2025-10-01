@@ -38,18 +38,9 @@
   "PX GEN Cos Pattern": {
     description: "Procedural patterns with cosine palettes [popularized](https://iquilezles.org/articles/palettes/) by Inigo Quilez"
   },
-  "GEN Mini Shader": {
+  "PX GEN Mini Shader": {
     description: [
-      "Shaders in [twigl.app](https://twigl.app/) geekest 300 es format.",
-      "Files are stored in `data/mini-shaders` folder.",
-      "",
-      "| Type | Description |",
-      "|---|---|",
-      "|B.| Shaders from Blue Sky, assume [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) or ask the author of the post |",
-      "|T.| Shaders from Twitter, assume [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) or ask the author of the post |",
-      "|X.| Examples |",
-      "",
-      "Learn more about the [Modeling the World in 280 Characters](https://tympanus.net/codrops/2025/06/23/modeling-the-world-in-280-characters/).",
+      "Shaders in [twigl.app](https://twigl.app/) `geekest (300 es)` format."
     ]
   },
   "PX GEN Sketching": {
