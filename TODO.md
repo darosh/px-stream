@@ -14,6 +14,7 @@
 - [ ] param doc / mass edit
 - [ ] FX preview, animation
 - [ ] guide
+- [ ] screenshot shortcuts
 
 ## Misc
 
@@ -21,11 +22,13 @@
   or try higher values for the Update Limit.
 - [ ] explore bundle folder structure
 - [ ] disable irrelevant params
+- [ ] white square instead of black?
 
 ## Devices
 
 - [ ] video in? loop on/off per clip, speed control, in/out points
 - [ ] inline preview device?
+- [ ] record device?
 
 #### PX IN SVG.amxd
 
@@ -34,7 +37,6 @@
 #### PX Mix View.amxd
 
 - [ ] optimize mix (jxs?)
-- [ ] mix: takes screenshot
 
 #### PX Shader.amxd
 
@@ -51,6 +53,7 @@
 
 ## Done
 
+- [x] mix: takes screenshot
 - [x] ~~delay: make max frames dynamic~~
 - [x] https://cycling74.com/tutorials/max-and-opengl-gl-texture-delay
 - [x] https://www.youtube.com/watch?v=PomKrUNqdAk
