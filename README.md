@@ -291,7 +291,7 @@ Procedural patterns with cosine palettes [popularized](https://iquilezles.org/ar
 
 ### GEN Mini Shader
 
-Shaders in [twigl.app](https://twigl.app/) geekest 300 es format.
+Shaders in [twigl.app](https://twigl.app/) `geekest (300 es)` format.
 
 <img src="./assets/devices/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" />
 
