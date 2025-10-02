@@ -4,17 +4,29 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 80.0, 777.0, 423.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.0, 368.0, 80.0, 22.0 ],
+					"text" : "$1 $1 $1 $1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
@@ -105,7 +117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 464.0, 496.0, 58.0, 22.0 ],
+					"patching_rect" : [ 504.0, 136.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -117,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 536.0, 144.0, 22.0 ],
+					"patching_rect" : [ 504.0, 176.0, 144.0, 22.0 ],
 					"text" : "jit_gl_texture PX_EMPTY"
 				}
 
@@ -129,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 440.0, 61.0, 22.0 ],
+					"patching_rect" : [ 96.0, 464.0, 61.0, 22.0 ],
 					"text" : "enable $1"
 				}
 
@@ -141,7 +153,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 40.0, 432.0, 22.0, 22.0 ],
+					"patching_rect" : [ 40.0, 456.0, 22.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -297,23 +309,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 384.0, 133.0, 22.0 ],
+					"patching_rect" : [ 40.0, 408.0, 133.0, 22.0 ],
 					"text" : "prepend param amount"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"filename" : "co.normal.jxs",
+					"filename" : "PX._mix.jxs",
 					"id" : "obj-143",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 264.0, 608.0, 217.0, 22.0 ],
-					"text" : "jit.gl.slab px-stream @file co.normal.jxs",
+					"patching_rect" : [ 272.0, 608.0, 217.0, 22.0 ],
+					"text" : "jit.gl.slab px-stream @file PX._mix.jxs",
 					"textfile" : 					{
-						"filename" : "co.normal.jxs",
+						"filename" : "PX._mix.jxs",
 						"flags" : 0,
 						"embed" : 0,
 						"autowatch" : 1
@@ -350,11 +362,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-207",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 40.0, 32.0, 30.0, 30.0 ]
 				}
 
@@ -363,7 +375,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-208",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -376,7 +388,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-209",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -389,7 +401,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-211",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -472,7 +484,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-146", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-148", 0 ]
 				}
 
@@ -488,6 +500,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-15", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-146", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -574,15 +593,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-143", 1 ],
-					"order" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -720,9 +730,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

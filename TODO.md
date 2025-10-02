@@ -23,10 +23,6 @@
 - [ ] disable irrelevant params
 - [ ] white square instead of black?
 
-#### PX Mix View.amxd
-
-- [ ] optimize mix (jxs?)
-
 ## IFS
 
 - [ ] tempo param? BEAT? BAR?
@@ -38,6 +34,7 @@
 
 ## Done
 
+- [x] mix view: optimize mix (jxs?)
 - [x] param doc / mass edit
 - [x] reorg repo: data=>assets, assets/devices=>docs/media/devices, assets/? => scripts/?, assets/?? => tests/fixtures
 - [x] video in? ~~loop on/off per clip~~, speed control, ~~in/out points~~
