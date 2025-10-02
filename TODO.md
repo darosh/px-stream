@@ -11,7 +11,6 @@
 - [ ] doc console font, brew install --cask font-cascadia-code
 - [ ] doc https://syphon.info/recorder.html
 - [ ] sdk?
-- [ ] param doc / mass edit
 - [ ] FX preview, animation
 - [ ] guide
 - [ ] screenshot shortcuts
@@ -23,28 +22,14 @@
 - [ ] explore bundle folder structure
 - [ ] disable irrelevant params
 - [ ] white square instead of black?
-- [ ] reorg repo: data=>assets, assets/devices=>docs/media/devices, assets/? => scripts/?, assets/?? => tests/fixtures
-
-## Devices
-
-- [ ] video in? loop on/off per clip, speed control, in/out points
-- [ ] inline preview device?
-- [ ] record device?
-
-#### PX IN SVG.amxd
-
-- [ ] powered by logo
 
 #### PX Mix View.amxd
 
 - [ ] optimize mix (jxs?)
 
-#### PX Shader.amxd
-
-- [ ] tempo param? BEAT? BAR?
-
 ## IFS
 
+- [ ] tempo param? BEAT? BAR?
 - [ ] frameSkip should be time based
 - [ ] more shaders
 - [ ] better midi shader
@@ -53,6 +38,12 @@
 
 ## Done
 
+- [x] param doc / mass edit
+- [x] reorg repo: data=>assets, assets/devices=>docs/media/devices, assets/? => scripts/?, assets/?? => tests/fixtures
+- [x] video in? ~~loop on/off per clip~~, speed control, ~~in/out points~~
+- [x] ~~inline preview device?~~
+- [x] record device?
+- [x] ~~powered by logo~~
 - [x] light theme fix
 - [x] mix: takes screenshot
 - [x] ~~delay: make max frames dynamic~~
