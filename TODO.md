@@ -7,17 +7,19 @@
 - [ ] doc world enabled automation
 - [ ] doc FS display link and fps 0, and multi fs limitation
 - [ ] doc exclusive rotation
-- [ ] FX preview, animation
 - [ ] guide
 - [ ] screenshot shortcuts
+- [ ] FX preview, animation
+- [ ] assets licence
+- [ ] dual licence?
 
 ## Misc
 
 - [ ] If parameter automation causes high CPU load, try enabling Defer Automation Output in the object Inspector,
   or try higher values for the Update Limit.
 - [ ] explore bundle folder structure
+- [ ] assets org
 - [ ] disable irrelevant params
-- [ ] white square instead of black?
 
 ## IFS
 
@@ -30,6 +32,7 @@
 
 ## Done
 
+- [x] white square instead of black?
 - [x] ~~doc update banner~~
 - [x] ~~doc console font, brew install --cask font-cascadia-code~~
 - [x] ~~doc https://syphon.info/recorder.html~~
