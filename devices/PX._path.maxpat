@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 579.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
@@ -73,7 +73,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -85,11 +85,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 107.0, 38.0, 30.0, 30.0 ]
 				}
 
@@ -131,12 +131,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-192",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.0, 472.0, 126.0, 22.0 ],
-					"text" : "sprintf \\\"%s/data/%s/\\\""
+					"patching_rect" : [ 108.0, 472.0, 126.0, 35.0 ],
+					"text" : "sprintf \\\"%s/assets/%s/\\\""
 				}
 
 			}
@@ -250,7 +251,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
