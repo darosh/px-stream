@@ -23,6 +23,7 @@
 - [ ] explore bundle folder structure
 - [ ] disable irrelevant params
 - [ ] white square instead of black?
+- [ ] reorg repo: data=>assets, assets/devices=>docs/media/devices, assets/? => scripts/?, assets/?? => tests/fixtures
 
 ## Devices
 
@@ -40,7 +41,6 @@
 
 #### PX Shader.amxd
 
-- [ ] beat param?
 - [ ] tempo param? BEAT? BAR?
 
 ## IFS
