@@ -3,24 +3,23 @@ frozen/
 shaders/~.*
 .shaders/
 node_modules/
-ISF Audio DEBUG.amxd
 .drawing.svg
 .drawing.*.svg
 .TEST*.amxd
 .TEST*.maxpat
 .data-dir/
 devices/*.min.js
-data/images/
-data/video/
-data/video/*.avi
-data/video/*.mp4
-data/mini-shaders/.broken
-data/mini-shaders/.dupl
-data/mini-shaders/.slow
-data/mini-shaders/.unknown
-data/mini-shaders/.temp.jxs
-data/mini-shaders/.temp-*.jxs
-assets/screenshot-*.png
-assets/Screenshot 2*.png
-assets/screenshot-*.mov
-assets/Screenshots Project/Backup/
+assets/images/
+assets/video/
+assets/video/*.avi
+assets/video/*.mp4
+assets/mini-shaders/.broken
+assets/mini-shaders/.dupl
+assets/mini-shaders/.slow
+assets/mini-shaders/.unknown
+assets/mini-shaders/.temp.jxs
+assets/mini-shaders/.temp-*.jxs
+docs/media/temp/screenshot-*.png
+docs/media/temp/Screenshot 2*.png
+docs/media/temp/screenshot-*.mov
+tests/fixtures/Screenshots Project/Backup/
