@@ -82,6 +82,9 @@
   "PX Mix View": {
     description: "Multi-channel mixing and preview. Mix output selected in expanded section can be consumed by [IN Mix](#in-mix) device and [Syphon](https://syphon.info/) clients. Click preview for floating window, <kbd>ESC</kbd> for fullscreen on/off."
   },
+  "PX Rec": {
+    description: "Video recording and screenshotting"
+  },
   "PX Route Audio": {
     description: "Route audio from any track in your Live set"
   },

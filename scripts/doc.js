@@ -159,10 +159,10 @@ async function createCollage () {
 
   rowImages = [
     rowImages[2],
+    rowImages[0],
     rowImages[1],
-    rowImages[3],
-    rowImages[4].reverse(),
-    rowImages[0]
+    rowImages[4],
+    rowImages[3]
   ]
 
   // for (let rowIndex = 1; rowIndex < rowImages.length; rowIndex += 2) {
@@ -180,6 +180,8 @@ async function createCollage () {
     row.splice(index, 1)
     row.push(pick)
   }
+
+  rowImages[4].reverse()
 
   // Prepare sharp composites and layout data for HTML
   const composites = []

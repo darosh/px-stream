@@ -282,11 +282,21 @@
                      </rdf:Bag>
                   </ablFR:colors>
                </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <ablFR:filePath>PX Rec.amxd</ablFR:filePath>
+                  <ablFR:colors>
+                     <rdf:Bag>
+                        <rdf:li>1</rdf:li>
+                        <rdf:li>3</rdf:li>
+                        <rdf:li>5</rdf:li>
+                     </rdf:Bag>
+                  </ablFR:colors>
+               </rdf:li>
             </rdf:Bag>
          </ablFR:items>
          <xmp:CreatorTool>Updated by Ableton Index 12.2.5</xmp:CreatorTool>
          <xmp:CreateDate>2025-08-29T20:56:33+02:00</xmp:CreateDate>
-         <xmp:MetadataDate>2025-10-01T18:02:38+02:00</xmp:MetadataDate>
+         <xmp:MetadataDate>2025-10-01T23:46:52+02:00</xmp:MetadataDate>
       </rdf:Description>
    </rdf:RDF>
 </x:xmpmeta>
