@@ -14,6 +14,8 @@ const align = 'justify' // "left" | "center" | "justify"
 const spacing = 16 // minimal distance between images
 const margin = 24 // outer margin around the whole collage
 const targetWidth = 830 // target max width for GH rendering
+// const BG = { r: 130, g: 130, b: 130, alpha: 1 }
+const BG = { r: 56, g: 56, b: 56, alpha: 1 }
 
 function imgSection (name) {
   return path.parse(name).name
@@ -236,7 +238,7 @@ async function createCollage () {
       width: maxRowWidth + margin * 2,
       height: totalHeight + margin * 2,
       channels: 4,
-      background: { r: 56, g: 56, b: 56, alpha: 1 },
+      background: BG,
     },
   })
     .composite(composites)
