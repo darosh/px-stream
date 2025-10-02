@@ -5,12 +5,8 @@
 - [ ] doc
 - [ ] doc demo
 - [ ] doc world enabled automation
-- [ ] doc update banner
 - [ ] doc FS display link and fps 0, and multi fs limitation
 - [ ] doc exclusive rotation
-- [ ] doc console font, brew install --cask font-cascadia-code
-- [ ] doc https://syphon.info/recorder.html
-- [ ] sdk?
 - [ ] FX preview, animation
 - [ ] guide
 - [ ] screenshot shortcuts
@@ -34,6 +30,10 @@
 
 ## Done
 
+- [x] ~~doc update banner~~
+- [x] ~~doc console font, brew install --cask font-cascadia-code~~
+- [x] ~~doc https://syphon.info/recorder.html~~
+- [x] ~~sdk?~~
 - [x] mix view: optimize mix (jxs?)
 - [x] param doc / mass edit
 - [x] reorg repo: data=>assets, assets/devices=>docs/media/devices, assets/? => scripts/?, assets/?? => tests/fixtures
