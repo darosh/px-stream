@@ -301,12 +301,12 @@ function updateDescription (lines, device, description, images) {
     r.push(...descLines)
     r.push('')
   }
-  
+
   if (imagesHtml.length) {
     r.push(imagesHtml.join(' '))
     r.push('')
   }
-  
+
   return [
     ...lines.slice(0, start + 1),
     ...r,
@@ -341,6 +341,52 @@ async function updateReadme (htmlCollage) {
   console.log('README.md updated', outputFile)
 }
 
+async function mergeDiagonal (imgAPath, imgBPath, outPath) {
+  const direction = 'slash'
+
+  // Use imgA as target size
+  const meta = await sharp(imgAPath).metadata()
+  const width = meta.width || 800
+  const height = meta.height || 800
+
+  // Load & resize both images to same size (fit: cover avoids distortion)
+  const imgABuf = await sharp(imgAPath).resize({ width, height, fit: 'cover' }).png().toBuffer()
+  const imgBBuf = await sharp(imgBPath).resize({ width, height, fit: 'cover' }).png().toBuffer()
+
+  const points =
+    direction === 'backslash'
+      ? `${width},0 ${width},${height} 0,0`
+      : `0,0 ${width * .8},0 ${width * .2},${height} 0,${height}`
+
+  const svgMask = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">
+      <rect width="100%" height="100%" fill="transparent"/>
+      <polygon points="${points}" fill="white" />
+    </svg>
+  `
+
+  // Apply mask to imgA (dest-in keeps destination where source alpha > 0)
+  const imgAMasked = await sharp(imgABuf)
+    .composite([{ input: Buffer.from(svgMask), blend: 'dest-in' }])
+    .png()
+    .toBuffer()
+
+  // Composite masked imgA over imgB
+  await sharp(imgBBuf)
+    .composite([{ input: imgAMasked, blend: 'over' }])
+    .png()
+    .toFile(outPath)
+
+  return outPath
+}
+
 const { maxRowWidth, layout } = await createCollage().catch(console.error)
 const htmlCollage = await createHtmlCollage(maxRowWidth, layout)
 await updateReadme(htmlCollage)
+
+mergeDiagonal(
+  'docs/media/devices.webp',
+  'docs/media/devices-light.webp',
+  'docs/media/devices-dark-light.webp')
+  .then(() => console.log('Merged saved as docs/media/devices-dark-light.webp'))
+  .catch(console.error)

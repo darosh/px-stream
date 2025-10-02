@@ -8,45 +8,45 @@
 
 <!-- begin: collage -->
 <div>
-    <a href="#px-mix-view"><img src="./assets/devices/PX_Mix_View_(expanded)_v1.webp" title="PX Mix View" width="253"/></a>
-    <a href="#fx-colorize"><img src="./assets/devices/PX_FX_Colorize_v1.webp" title="FX Colorize" width="109"/></a>
-    <a href="#in-syphon"><img src="./assets/devices/PX_IN_Syphon_v1.webp" title="IN Syphon" width="66"/></a>
-    <a href="#in-channel"><img src="./assets/devices/PX_IN_Channel_v1.webp" title="IN Channel" width="66"/></a>
-    <a href="#fx-kaleidoscope"><img src="./assets/devices/PX_FX_Kaleidoscope_v1.webp" title="FX Kaleidoscope" width="66"/></a>
-    <a href="#dev-console"><img src="./assets/devices/DEV_Console_v1.webp" title="DEV Console" width="66"/></a>
-    <a href="#px-shader"><img src="./assets/devices/PX_Shader_(types)_v1.webp" title="PX Shader" width="150"/></a>
-    <a href="#fx-pixelization"><img src="./assets/devices/PX_FX_Pixelization_v1.webp" title="FX Pixelization" width="131"/></a>
-    <a href="#fx-alpha"><img src="./assets/devices/PX_FX_Alpha_v1.webp" title="FX Alpha" width="109"/></a>
-    <a href="#px-route-audio"><img src="./assets/devices/PX_Route_Audio_v1.webp" title="PX Route Audio" width="54"/></a>
-    <a href="#in-cam"><img src="./assets/devices/PX_IN_Cam_v1.webp" title="IN Cam" width="66"/></a>
-    <a href="#fx-delay"><img src="./assets/devices/PX_FX_Delay_v1.webp" title="FX Delay" width="66"/></a>
-    <a href="#px-world"><img src="./assets/devices/PX_World_(mad_world)_v1.webp" title="PX World" width="60"/></a>
-    <a href="#px-rec"><img src="./assets/devices/PX_Rec_v1.webp" title="PX Rec" width="54"/></a>
-    <a href="#px-shader"><img src="./assets/devices/PX_Shader_v1.webp" title="PX Shader" width="229"/></a>
-    <a href="#fx-color"><img src="./assets/devices/PX_FX_Color_(hue)_v1.webp" title="FX Color" width="234"/></a>
-    <a href="#gen-mini-shader"><img src="./assets/devices/PX_GEN_Mini_Shader_v1.webp" title="GEN Mini Shader" width="113"/></a>
-    <a href="#px-world"><img src="./assets/devices/PX_World_v1.webp" title="PX World" width="60"/></a>
-    <a href="#px-route-midi"><img src="./assets/devices/PX_Route_MIDI_(linked)_v1.webp" title="PX Route MIDI" width="54"/></a>
-    <a href="#fx-pass"><img src="./assets/devices/PX_FX_Pass_v1.webp" title="FX Pass" width="66"/></a>
-    <a href="#fx-blur"><img src="./assets/devices/PX_FX_Blur_v1.webp" title="FX Blur" width="66"/></a>
-    <a href="#in-video"><img src="./assets/devices/PX_IN_Video_v1.webp" title="IN Video" width="66"/></a>
-    <a href="#gen-sketching"><img src="./assets/devices/PX_GEN_Sketching_v1.webp" title="GEN Sketching" width="113"/></a>
-    <a href="#fx-color"><img src="./assets/devices/PX_FX_Color_v1.webp" title="FX Color" width="156"/></a>
-    <a href="#gen-text"><img src="./assets/devices/PX_GEN_Text_(expanded)_v1.webp" title="GEN Text" width="129"/></a>
-    <a href="#px-mix-dry"><img src="./assets/devices/PX_Mix_Dry_v1.webp" title="PX Mix Dry" width="66"/></a>
-    <a href="#in-mix"><img src="./assets/devices/PX_IN_Mix_v1.webp" title="IN Mix" width="66"/></a>
-    <a href="#fx-transform"><img src="./assets/devices/PX_FX_Transform_v1.webp" title="FX Transform" width="66"/></a>
-    <a href="#fx-convert"><img src="./assets/devices/PX_FX_Convert_(convert_back)_v1.webp" title="FX Convert" width="66"/></a>
-    <a href="#in-image"><img src="./assets/devices/PX_IN_Image_v1.webp" title="IN Image" width="66"/></a>
-    <a href="#gen-cos-pattern"><img src="./assets/devices/PX_GEN_Cos_Pattern_v1.webp" title="GEN Cos Pattern" width="155"/></a>
-    <a href="#fx-color"><img src="./assets/devices/PX_FX_Color_(gamma)_v1.webp" title="FX Color" width="149"/></a>
-    <a href="#px-mix-channel"><img src="./assets/devices/PX_Mix_Channel_v1.webp" title="PX Mix Channel" width="66"/></a>
-    <a href="#fx-convert"><img src="./assets/devices/PX_FX_Convert_v1.webp" title="FX Convert" width="66"/></a>
-    <a href="#gen-text"><img src="./assets/devices/PX_GEN_Text_v1.webp" title="GEN Text" width="66"/></a>
-    <a href="#in-svg"><img src="./assets/devices/PX_IN_SVG_v1.webp" title="IN SVG" width="66"/></a>
-    <a href="#px-mix-transition"><img src="./assets/devices/PX_Mix_Transition_v1.webp" title="PX Mix Transition" width="66"/></a>
-    <a href="#dev-info"><img src="./assets/devices/DEV_Info_v1.webp" title="DEV Info" width="127"/></a>
-    <a href="#px-mix-view"><img src="./assets/devices/PX_Mix_View_v1.webp" title="PX Mix View" width="163"/></a>
+    <a href="#px-mix-view"><img src="./docs/media/devices/PX_Mix_View_(expanded)_v1.webp" title="PX Mix View" width="253"/></a>
+    <a href="#fx-colorize"><img src="./docs/media/devices/PX_FX_Colorize_v1.webp" title="FX Colorize" width="109"/></a>
+    <a href="#in-syphon"><img src="./docs/media/devices/PX_IN_Syphon_v1.webp" title="IN Syphon" width="66"/></a>
+    <a href="#in-channel"><img src="./docs/media/devices/PX_IN_Channel_v1.webp" title="IN Channel" width="66"/></a>
+    <a href="#fx-kaleidoscope"><img src="./docs/media/devices/PX_FX_Kaleidoscope_v1.webp" title="FX Kaleidoscope" width="66"/></a>
+    <a href="#dev-console"><img src="./docs/media/devices/DEV_Console_v1.webp" title="DEV Console" width="66"/></a>
+    <a href="#px-shader"><img src="./docs/media/devices/PX_Shader_(types)_v1.webp" title="PX Shader" width="150"/></a>
+    <a href="#fx-pixelization"><img src="./docs/media/devices/PX_FX_Pixelization_v1.webp" title="FX Pixelization" width="131"/></a>
+    <a href="#fx-alpha"><img src="./docs/media/devices/PX_FX_Alpha_v1.webp" title="FX Alpha" width="109"/></a>
+    <a href="#px-route-audio"><img src="./docs/media/devices/PX_Route_Audio_v1.webp" title="PX Route Audio" width="54"/></a>
+    <a href="#in-cam"><img src="./docs/media/devices/PX_IN_Cam_v1.webp" title="IN Cam" width="66"/></a>
+    <a href="#fx-delay"><img src="./docs/media/devices/PX_FX_Delay_v1.webp" title="FX Delay" width="66"/></a>
+    <a href="#px-world"><img src="./docs/media/devices/PX_World_(mad_world)_v1.webp" title="PX World" width="60"/></a>
+    <a href="#px-rec"><img src="./docs/media/devices/PX_Rec_v1.webp" title="PX Rec" width="54"/></a>
+    <a href="#px-shader"><img src="./docs/media/devices/PX_Shader_v1.webp" title="PX Shader" width="229"/></a>
+    <a href="#fx-color"><img src="./docs/media/devices/PX_FX_Color_(hue)_v1.webp" title="FX Color" width="234"/></a>
+    <a href="#gen-mini-shader"><img src="./docs/media/devices/PX_GEN_Mini_Shader_v1.webp" title="GEN Mini Shader" width="113"/></a>
+    <a href="#px-world"><img src="./docs/media/devices/PX_World_v1.webp" title="PX World" width="60"/></a>
+    <a href="#px-route-midi"><img src="./docs/media/devices/PX_Route_MIDI_(linked)_v1.webp" title="PX Route MIDI" width="54"/></a>
+    <a href="#fx-pass"><img src="./docs/media/devices/PX_FX_Pass_v1.webp" title="FX Pass" width="66"/></a>
+    <a href="#fx-blur"><img src="./docs/media/devices/PX_FX_Blur_v1.webp" title="FX Blur" width="66"/></a>
+    <a href="#in-video"><img src="./docs/media/devices/PX_IN_Video_v1.webp" title="IN Video" width="66"/></a>
+    <a href="#gen-sketching"><img src="./docs/media/devices/PX_GEN_Sketching_v1.webp" title="GEN Sketching" width="113"/></a>
+    <a href="#fx-color"><img src="./docs/media/devices/PX_FX_Color_v1.webp" title="FX Color" width="156"/></a>
+    <a href="#gen-text"><img src="./docs/media/devices/PX_GEN_Text_(expanded)_v1.webp" title="GEN Text" width="129"/></a>
+    <a href="#px-mix-dry"><img src="./docs/media/devices/PX_Mix_Dry_v1.webp" title="PX Mix Dry" width="66"/></a>
+    <a href="#in-mix"><img src="./docs/media/devices/PX_IN_Mix_v1.webp" title="IN Mix" width="66"/></a>
+    <a href="#fx-transform"><img src="./docs/media/devices/PX_FX_Transform_v1.webp" title="FX Transform" width="66"/></a>
+    <a href="#fx-convert"><img src="./docs/media/devices/PX_FX_Convert_(convert_back)_v1.webp" title="FX Convert" width="66"/></a>
+    <a href="#in-image"><img src="./docs/media/devices/PX_IN_Image_v1.webp" title="IN Image" width="66"/></a>
+    <a href="#gen-cos-pattern"><img src="./docs/media/devices/PX_GEN_Cos_Pattern_v1.webp" title="GEN Cos Pattern" width="155"/></a>
+    <a href="#fx-color"><img src="./docs/media/devices/PX_FX_Color_(gamma)_v1.webp" title="FX Color" width="149"/></a>
+    <a href="#px-mix-channel"><img src="./docs/media/devices/PX_Mix_Channel_v1.webp" title="PX Mix Channel" width="66"/></a>
+    <a href="#fx-convert"><img src="./docs/media/devices/PX_FX_Convert_v1.webp" title="FX Convert" width="66"/></a>
+    <a href="#gen-text"><img src="./docs/media/devices/PX_GEN_Text_v1.webp" title="GEN Text" width="66"/></a>
+    <a href="#in-svg"><img src="./docs/media/devices/PX_IN_SVG_v1.webp" title="IN SVG" width="66"/></a>
+    <a href="#px-mix-transition"><img src="./docs/media/devices/PX_Mix_Transition_v1.webp" title="PX Mix Transition" width="66"/></a>
+    <a href="#dev-info"><img src="./docs/media/devices/DEV_Info_v1.webp" title="DEV Info" width="127"/></a>
+    <a href="#px-mix-view"><img src="./docs/media/devices/PX_Mix_View_v1.webp" title="PX Mix View" width="163"/></a>
 </div>
 <!-- end: collage -->
 
@@ -158,37 +158,37 @@ TBD
 
 Essential rendering context. You need exactly one per Live set. More would be problematic. Sets target FPS. FPS 0 will use available maximum with displaylink turned on on Mac.
 
-<img src="./assets/devices/PX_World_v1.webp" height="231" title="PX World" /> <img src="./assets/devices/PX_World_(mad_world)_v1.webp" height="231" title="PX World (mad world)" />
+<img src="./docs/media/devices/PX_World_v1.webp" height="231" title="PX World" /> <img src="./docs/media/devices/PX_World_(mad_world)_v1.webp" height="231" title="PX World (mad world)" />
 
 ### PX Mix View
 
 Multi-channel mixing and preview. Mix output selected in expanded section can be consumed by [IN Mix](#in-mix) device and [Syphon](https://syphon.info/) clients. Click preview for floating window, <kbd>ESC</kbd> for fullscreen on/off.
 
-<img src="./assets/devices/PX_Mix_View_v1.webp" height="231" title="PX Mix View" /> <img src="./assets/devices/PX_Mix_View_(expanded)_v1.webp" height="231" title="PX Mix View (expanded)" />
+<img src="./docs/media/devices/PX_Mix_View_v1.webp" height="231" title="PX Mix View" /> <img src="./docs/media/devices/PX_Mix_View_(expanded)_v1.webp" height="231" title="PX Mix View (expanded)" />
 
 ### PX Mix Channel
 
 Send texture to selected channel. Alternative to individual channel selectors on each device.
 
-<img src="./assets/devices/PX_Mix_Channel_v1.webp" height="231" title="PX Mix Channel" />
+<img src="./docs/media/devices/PX_Mix_Channel_v1.webp" height="231" title="PX Mix Channel" />
 
 ### PX Mix Dry
 
 Dry/wet mix from two previous devices. Select which (-1 to -4) for dry signal. Multiple blend modes and signal swap. Swap has no effect on [commutative](https://en.wikipedia.org/wiki/Commutative_property) blending methods.
 
-<img src="./assets/devices/PX_Mix_Dry_v1.webp" height="231" title="PX Mix Dry" />
+<img src="./docs/media/devices/PX_Mix_Dry_v1.webp" height="231" title="PX Mix Dry" />
 
 ### PX Mix Transition
 
 Transition between two previous devices. Channel selection same as Mix Dry. Uses 90+ transitions from [gl-transitions.com](https://gl-transitions.com/).
 
-<img src="./assets/devices/PX_Mix_Transition_v1.webp" height="231" title="PX Mix Transition" />
+<img src="./docs/media/devices/PX_Mix_Transition_v1.webp" height="231" title="PX Mix Transition" />
 
 ### PX Rec
 
 Video recording and screenshotting
 
-<img src="./assets/devices/PX_Rec_v1.webp" height="231" title="PX Rec" />
+<img src="./docs/media/devices/PX_Rec_v1.webp" height="231" title="PX Rec" />
 
 ---
 
@@ -196,13 +196,13 @@ Video recording and screenshotting
 
 Route audio from any track in your Live set
 
-<img src="./assets/devices/PX_Route_Audio_v1.webp" height="231" title="PX Route Audio" />
+<img src="./docs/media/devices/PX_Route_Audio_v1.webp" height="231" title="PX Route Audio" />
 
 ### PX Route MIDI
 
 Send MIDI from selected track to next device. Works with [PX Shader](#px-shader) device and MIDI-enabled shaders.
 
-<img src="./assets/devices/PX_Route_MIDI_(linked)_v1.webp" height="231" title="PX Route MIDI (linked)" />
+<img src="./docs/media/devices/PX_Route_MIDI_(linked)_v1.webp" height="231" title="PX Route MIDI (linked)" />
 
 ---
 
@@ -210,7 +210,7 @@ Send MIDI from selected track to next device. Works with [PX Shader](#px-shader)
 
 Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects. Up to 32 dynamic parameters and various audio rendering options with our custom audio types.
 
-<img src="./assets/devices/PX_Shader_v1.webp" height="231" title="PX Shader" /> <img src="./assets/devices/PX_Shader_(types)_v1.webp" height="231" title="PX Shader (types)" />
+<img src="./docs/media/devices/PX_Shader_v1.webp" height="231" title="PX Shader" /> <img src="./docs/media/devices/PX_Shader_(types)_v1.webp" height="231" title="PX Shader (types)" />
 
 #### Audio types
 
@@ -247,13 +247,13 @@ Interactive Shader Format ([ISF](https://isf.video/)) host for generators and ef
 
 Live input from connected video devices
 
-<img src="./assets/devices/PX_IN_Cam_v1.webp" height="231" title="PX IN Cam" />
+<img src="./docs/media/devices/PX_IN_Cam_v1.webp" height="231" title="PX IN Cam" />
 
 ### IN Syphon
 
 [Syphon](https://syphon.info/) input for sharing visuals between applications. Mac only.
 
-<img src="./assets/devices/PX_IN_Syphon_v1.webp" height="231" title="PX IN Syphon" />
+<img src="./docs/media/devices/PX_IN_Syphon_v1.webp" height="231" title="PX IN Syphon" />
 
 ---
 
@@ -261,19 +261,19 @@ Live input from connected video devices
 
 Static image input. Supports JPG, WEBP and PNG formats.
 
-<img src="./assets/devices/PX_IN_Image_v1.webp" height="231" title="PX IN Image" />
+<img src="./docs/media/devices/PX_IN_Image_v1.webp" height="231" title="PX IN Image" />
 
 ### IN SVG
 
 Vector graphics input with resolution-independent scaling SVG file formal
 
-<img src="./assets/devices/PX_IN_SVG_v1.webp" height="231" title="PX IN SVG" />
+<img src="./docs/media/devices/PX_IN_SVG_v1.webp" height="231" title="PX IN SVG" />
 
 ### IN Video
 
 Video playback. Supports MP4, AVI, MOV (including [HAP codecs](https://hap.video/)).
 
-<img src="./assets/devices/PX_IN_Video_v1.webp" height="231" title="PX IN Video" />
+<img src="./docs/media/devices/PX_IN_Video_v1.webp" height="231" title="PX IN Video" />
 
 ---
 
@@ -281,13 +281,13 @@ Video playback. Supports MP4, AVI, MOV (including [HAP codecs](https://hap.video
 
 Use texture from [Mix Channel](#px-mix-channel) as input. Creates feedback when combined with [Mix Dry](#px-mix-dry) on same channel.
 
-<img src="./assets/devices/PX_IN_Channel_v1.webp" height="231" title="PX IN Channel" />
+<img src="./docs/media/devices/PX_IN_Channel_v1.webp" height="231" title="PX IN Channel" />
 
 ### IN Mix
 
 Use channel mix from [Mix View](#px-mix-view) device as input texture.
 
-<img src="./assets/devices/PX_IN_Mix_v1.webp" height="231" title="PX IN Mix" />
+<img src="./docs/media/devices/PX_IN_Mix_v1.webp" height="231" title="PX IN Mix" />
 
 ---
 
@@ -295,13 +295,13 @@ Use channel mix from [Mix View](#px-mix-view) device as input texture.
 
 Procedural patterns with cosine palettes [popularized](https://iquilezles.org/articles/palettes/) by Inigo Quilez
 
-<img src="./assets/devices/PX_GEN_Cos_Pattern_v1.webp" height="231" title="PX GEN Cos Pattern" />
+<img src="./docs/media/devices/PX_GEN_Cos_Pattern_v1.webp" height="231" title="PX GEN Cos Pattern" />
 
 ### GEN Mini Shader
 
 Shaders in [twigl.app](https://twigl.app/) `geekest (300 es)` format.
 
-<img src="./assets/devices/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" />
+<img src="./docs/media/devices/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" />
 
 #### Shader files
 
@@ -356,13 +356,13 @@ Learn more in [twigl documentation](https://github.com/doxas/twigl#twigl).
 
 Custom OpenGL primitives scripting with JavaScript, slightly compatible with [openprocessing.org](https://openprocessing.org/)
 
-<img src="./assets/devices/PX_GEN_Sketching_v1.webp" height="231" title="PX GEN Sketching" />
+<img src="./docs/media/devices/PX_GEN_Sketching_v1.webp" height="231" title="PX GEN Sketching" />
 
 ### GEN Text
 
 Text generation from session/clip names, custom text, or dynamic musical data (beat, bar.beat, time)
 
-<img src="./assets/devices/PX_GEN_Text_v1.webp" height="231" title="PX GEN Text" /> <img src="./assets/devices/PX_GEN_Text_(expanded)_v1.webp" height="231" title="PX GEN Text (expanded)" />
+<img src="./docs/media/devices/PX_GEN_Text_v1.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/devices/PX_GEN_Text_(expanded)_v1.webp" height="231" title="PX GEN Text (expanded)" />
 
 ---
 
@@ -370,61 +370,61 @@ Text generation from session/clip names, custom text, or dynamic musical data (b
 
 Alpha channel tools: chroma key, mapping, inversion, smoothing, removal, etc.
 
-<img src="./assets/devices/PX_FX_Alpha_v1.webp" height="231" title="PX FX Alpha" />
+<img src="./docs/media/devices/PX_FX_Alpha_v1.webp" height="231" title="PX FX Alpha" />
 
 ### FX Blur
 
 Four blur shaders from Max/Jitter stock collection
 
-<img src="./assets/devices/PX_FX_Blur_v1.webp" height="231" title="PX FX Blur" />
+<img src="./docs/media/devices/PX_FX_Blur_v1.webp" height="231" title="PX FX Blur" />
 
 ### FX Color
 
 Color grading and adjustment tools
 
-<img src="./assets/devices/PX_FX_Color_v1.webp" height="231" title="PX FX Color" /> <img src="./assets/devices/PX_FX_Color_(gamma)_v1.webp" height="231" title="PX FX Color (gamma)" /> <img src="./assets/devices/PX_FX_Color_(hue)_v1.webp" height="231" title="PX FX Color (hue)" />
+<img src="./docs/media/devices/PX_FX_Color_v1.webp" height="231" title="PX FX Color" /> <img src="./docs/media/devices/PX_FX_Color_(gamma)_v1.webp" height="231" title="PX FX Color (gamma)" /> <img src="./docs/media/devices/PX_FX_Color_(hue)_v1.webp" height="231" title="PX FX Color (hue)" />
 
 ### FX Colorize
 
 Two/tri tone colorization with multiple mapping methods
 
-<img src="./assets/devices/PX_FX_Colorize_v1.webp" height="231" title="PX FX Colorize" />
+<img src="./docs/media/devices/PX_FX_Colorize_v1.webp" height="231" title="PX FX Colorize" />
 
 ### FX Convert
 
 Texture format conversion including OKLAB and normalized OKLAB aka NOKLAB
 
-<img src="./assets/devices/PX_FX_Convert_v1.webp" height="231" title="PX FX Convert" /> <img src="./assets/devices/PX_FX_Convert_(convert_back)_v1.webp" height="231" title="PX FX Convert (convert back)" />
+<img src="./docs/media/devices/PX_FX_Convert_v1.webp" height="231" title="PX FX Convert" /> <img src="./docs/media/devices/PX_FX_Convert_(convert_back)_v1.webp" height="231" title="PX FX Convert (convert back)" />
 
 ### FX Delay
 
 Frame-based texture delay. Combine with Mix Dry device for ghost trail effects.
 
-<img src="./assets/devices/PX_FX_Delay_v1.webp" height="231" title="PX FX Delay" />
+<img src="./docs/media/devices/PX_FX_Delay_v1.webp" height="231" title="PX FX Delay" />
 
 ### FX Kaleidoscope
 
 Kaleidoscope patterns based on [Brewster designs]((https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster)) plus Max/Jitter shader
 
-<img src="./assets/devices/PX_FX_Kaleidoscope_v1.webp" height="231" title="PX FX Kaleidoscope" />
+<img src="./docs/media/devices/PX_FX_Kaleidoscope_v1.webp" height="231" title="PX FX Kaleidoscope" />
 
 ### FX Pass
 
 Postprocessing shaders from Max/Jitter stock library. See [Max documentation](https://docs.cycling74.com/reference/jit.gl.pass).
 
-<img src="./assets/devices/PX_FX_Pass_v1.webp" height="231" title="PX FX Pass" />
+<img src="./docs/media/devices/PX_FX_Pass_v1.webp" height="231" title="PX FX Pass" />
 
 ### FX Pixelization
 
 Multi-shape pixelization: rectangular, circular, honeycomb, hexagonal, triangular grids
 
-<img src="./assets/devices/PX_FX_Pixelization_v1.webp" height="231" title="PX FX Pixelization" />
+<img src="./docs/media/devices/PX_FX_Pixelization_v1.webp" height="231" title="PX FX Pixelization" />
 
 ### FX Transform
 
 Geometric transformations: scale, shift, rotation (around axis or vector)
 
-<img src="./assets/devices/PX_FX_Transform_v1.webp" height="231" title="PX FX Transform" />
+<img src="./docs/media/devices/PX_FX_Transform_v1.webp" height="231" title="PX FX Transform" />
 
 ---
 
@@ -432,13 +432,13 @@ Geometric transformations: scale, shift, rotation (around axis or vector)
 
 Shows texture info for development purposes
 
-<img src="./assets/devices/DEV_Info_v1.webp" height="231" title="DEV Info" />
+<img src="./docs/media/devices/DEV_Info_v1.webp" height="231" title="DEV Info" />
 
 ### DEV Console
 
 Enables detailed Max console output for development and debugging. DO NOT USE IN PRODUCTION.
 
-<img src="./assets/devices/DEV_Console_v1.webp" height="231" title="DEV Console" />
+<img src="./docs/media/devices/DEV_Console_v1.webp" height="231" title="DEV Console" />
 
 ## Alternatives
 
