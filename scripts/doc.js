@@ -6,9 +6,9 @@ import { readFile, writeFile } from 'fs/promises'
 import screenshots, { imageToFile } from './screenshots.conf.js'
 
 // === CONFIGURATION ===
-const inputPattern = './assets/devices/*.webp' // adjust to your folder
-const outputFile = './assets/devices.webp'
-const htmlOutput = './assets/devices.html' // HTML snippet for GH README
+const inputPattern = './docs/media/devices/*.webp' // adjust to your folder
+const outputFile = './docs/media/devices.webp'
+const htmlOutput = './docs/media/temp/devices.html' // HTML snippet for GH README
 const rows = 5 // number of rows
 const align = 'justify' // "left" | "center" | "justify"
 const spacing = 16 // minimal distance between images
@@ -98,15 +98,15 @@ async function createHtmlCollage (maxRowWidth, layout) {
       const scaledWidth = Math.round(img.width * scaleFactor)
       const title = imgTitle(img.name)
       html.push(
-        `    <a href="#${imgSection(img.name)}"><img src="./${path.join('assets', 'devices', img.name)}" title="${title}" width="${scaledWidth}"/></a>`
+        `    <a href="#${imgSection(img.name)}"><img src="./${path.join('docs/media', 'devices', img.name)}" title="${title}" width="${scaledWidth}"/></a>`
       )
     })
     // html.push('  </div>')
   })
   html.push('</div>')
 
-  await writeFile(htmlOutput, html.join('\n'), 'utf-8')
-  console.log('HTML snippet saved to', htmlOutput)
+  // await writeFile(htmlOutput, html.join('\n'), 'utf-8')
+  // console.log('HTML snippet saved to', htmlOutput)
 
   return html
 }
@@ -335,7 +335,7 @@ async function updateReadme (htmlCollage) {
   const rm = readFile(outputFile, 'utf8')
   let lines = (await rm).split('\n')
   lines = replaceLines(lines, 'collage', htmlCollage)
-  const devices = JSON5.parse(await readFile('./assets/devices.json5', 'utf8'))
+  const devices = JSON5.parse(await readFile('./scripts/doc-devices.json5', 'utf8'))
   lines = updateDeviceInfo(lines, devices)
   await writeFile(outputFile, lines.join('\n'))
   console.log('README.md updated', outputFile)

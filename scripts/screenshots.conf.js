@@ -55,6 +55,6 @@ export default {
 
 export function imageToFile (name, v) {
   return v
-    ? `./assets/devices/${name.replace(/\s+/g, '_')}_v${v}.webp`
-    : `./assets/devices/${name.replace(/\s+/g, '_')}.webp`
+    ? `./docs/media/devices/${name.replace(/\s+/g, '_')}_v${v}.webp`
+    : `./docs/media/devices/${name.replace(/\s+/g, '_')}.webp`
 }

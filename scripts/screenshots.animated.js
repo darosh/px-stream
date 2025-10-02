@@ -38,10 +38,10 @@ function makeAnimatedWebp (inputFile, outputFile, x, y, w, h) {
 async function processScreenshots () {
   for (const device of config.devices) {
     const [src, name, x0, x1, animated = false] = device
-    const outputFile = `./assets/devices/${name.replace(/\s+/g, '_')}_v${config.v}.webp`
+    const outputFile = `./docs/media/devices/${name.replace(/\s+/g, '_')}_v${config.v}.webp`
     const inputFile = animated
-      ? `./assets/screenshot-${src}.mov`   // animated source (video)
-      : `./assets/screenshot-${src}.png`   // static source (image)
+      ? `./docs/media/temp/screenshot-${src}.mov`   // animated source (video)
+      : `./docs/media/temp/screenshot-${src}.png`   // static source (image)
 
     const width = x1
     const height = config.y1

@@ -4,7 +4,7 @@ import { glob } from 'glob'
 import config, { imageToFile } from './screenshots.conf.js'
 
 async function processScreenshots () {
-  const screenshots = glob.sync('./assets/Screenshot 2*.png').sort().slice(-6)
+  const screenshots = glob.sync('./docs/media/temp/Screenshot 2*.png').sort().slice(-6)
 
   for (const device of config.devices) {
     const [src, name, x0, x1] = device
