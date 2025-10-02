@@ -53,6 +53,7 @@
 
 ## Done
 
+- [x] light theme fix
 - [x] mix: takes screenshot
 - [x] ~~delay: make max frames dynamic~~
 - [x] https://cycling74.com/tutorials/max-and-opengl-gl-texture-delay
