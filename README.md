@@ -159,7 +159,7 @@ TBD
 
 Essential rendering context. You need exactly one per Live set. More would be problematic. Sets target FPS. FPS 0 will use available maximum with displaylink turned on on Mac.
 
-<img src="./docs/media/devices/PX_World.webp" height="231" title="PX World" /> <img src="./docs/media/devices/PX_World_(mad_world).webp" height="231" title="PX World (mad world)" />
+<img src="./docs/media/automation/PX_World.webp" height="231" title="PX World" /> <img src="./docs/media/devices/PX_World_(mad_world).webp" height="231" title="PX World (mad world)" />
 
 ### PX Mix View
 
@@ -296,13 +296,13 @@ Use channel mix from [Mix View](#px-mix-view) device as input texture.
 
 Procedural patterns with cosine palettes [popularized](https://iquilezles.org/articles/palettes/) by Inigo Quilez
 
-<img src="./docs/media/previews/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" /> <img src="./docs/media/devices/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" />
+<img src="./docs/media/previews/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" /> <img src="./docs/media/automation/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" />
 
 ### GEN Mini Shader
 
 Shaders in [twigl.app](https://twigl.app/) `geekest (300 es)` format.
 
-<img src="./docs/media/previews/PX_GEN_Mini_Shader.webp" height="231" title="PX GEN Mini Shader" /> <img src="./docs/media/devices/PX_GEN_Mini_Shader.webp" height="231" title="PX GEN Mini Shader" />
+<img src="./docs/media/previews/PX_GEN_Mini_Shader.webp" height="231" title="PX GEN Mini Shader" /> <img src="./docs/media/automation/PX_GEN_Mini_Shader.webp" height="231" title="PX GEN Mini Shader" />
 
 #### Shader files
 
@@ -357,13 +357,13 @@ Learn more in [twigl documentation](https://github.com/doxas/twigl#twigl).
 
 Custom OpenGL primitives scripting with JavaScript, slightly compatible with [openprocessing.org](https://openprocessing.org/)
 
-<img src="./docs/media/previews/PX_GEN_Sketching.webp" height="231" title="PX GEN Sketching" /> <img src="./docs/media/devices/PX_GEN_Sketching.webp" height="231" title="PX GEN Sketching" />
+<img src="./docs/media/previews/PX_GEN_Sketching.webp" height="231" title="PX GEN Sketching" /> <img src="./docs/media/automation/PX_GEN_Sketching.webp" height="231" title="PX GEN Sketching" />
 
 ### GEN Text
 
 Text generation from session/clip names, custom text, or dynamic musical data (beat, bar.beat, time)
 
-<img src="./docs/media/previews/PX_GEN_Text.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/devices/PX_GEN_Text.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/devices/PX_GEN_Text_(expanded).webp" height="231" title="PX GEN Text (expanded)" />
+<img src="./docs/media/previews/PX_GEN_Text.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/automation/PX_GEN_Text.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/devices/PX_GEN_Text_(expanded).webp" height="231" title="PX GEN Text (expanded)" />
 
 ---
 

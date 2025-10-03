@@ -4,7 +4,7 @@ import sharp from 'sharp'
 import JSON5 from 'json5'
 import { readFile, writeFile } from 'fs/promises'
 import screenshots, { imageToFile } from './screenshots.conf.js'
-import screenshotsAnim, { previewToFile } from './screenshots.animated.conf.js'
+import screenshotsAnim, { automationToFile, previewToFile } from './screenshots.animated.conf.js'
 
 // === CONFIGURATION ===
 const inputPattern = './docs/media/devices/*.webp' // adjust to your folder
@@ -265,7 +265,7 @@ function replaceLines (lines, slug, replace) {
   ]
 }
 
-function updateDescription (lines, device, description, images, preview) {
+function updateDescription (lines, device, description, images, preview, auto) {
   const title = imgTitle(device)
 
   const start = lines.indexOf(`### ${title}`)
@@ -280,10 +280,17 @@ function updateDescription (lines, device, description, images, preview) {
   while (!(lines[end][0] === '#' || lines[end] === '---')) {
     end++
   }
-
+  
   let imagesHtml = images.map(i => {
     return `<img src="${imageToFile(i, screenshots.v)}" height="231" title="${i}" />`
   })
+
+  if (auto) {
+    imagesHtml = [
+      `<img src="${automationToFile(auto, screenshots.v)}" height="231" title="${auto}" />`, 
+      ...imagesHtml.slice(1)
+    ]
+  }
 
   if (preview) {
     imagesHtml[0] =
@@ -344,8 +351,17 @@ function updateDeviceInfo (lines, devices) {
       .filter((name) => {
         return name === device
       })
+    
+    const autos = screenshotsAnim.devices
+      .filter(([_id, name, _x, _y, arr]) => {
+        return !Array.isArray(arr)
+      })
+      .map(([_id, name]) => name)
+      .filter((name) => {
+        return name === device
+      })
 
-    updated = updateDescription(updated, device, description, images, previews?.[0])
+    updated = updateDescription(updated, device, description, images, previews?.[0], autos?.[0])
   }
 
   return updated
