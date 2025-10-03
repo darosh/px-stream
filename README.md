@@ -62,6 +62,7 @@
     - [Automation](#automation)
 - [Devices](#devices)
 - [Alternatives](#alternatives)
+- [License](#license)
 
 <br>
 
@@ -309,11 +310,11 @@ Shaders in [twigl.app](https://twigl.app/) `geekest (300 es)` format.
 
 #### Shader categories
 
-| Type | Description                                                                                                                       |
-|------|-----------------------------------------------------------------------------------------------------------------------------------|
-| B.   | Shaders from Blue Sky, assume [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) or ask the author of the post |
-| T.   | Shaders from Twitter, assume [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) or ask the author of the post  |
-| X.   | Examples                                                                                                                          |
+| Type | Description           |
+|------|-----------------------|
+| B.   | Shaders from Blue Sky |
+| T.   | Shaders from Twitter  |
+| X.   | Examples              |
 
 Learn more about the [Modeling the World in 280 Characters](https://tympanus.net/codrops/2025/06/23/modeling-the-world-in-280-characters/).
 
@@ -457,3 +458,11 @@ Max for Live + App
 VST
 
 - [VS - Visual Synthesizer](https://www.imaginando.pt/products/vs-visual-synthesizer)
+
+## License
+
+This project is dual-licensed under [MIT or CC-BY](./LICENSE) (your choice).
+
+You may use, modify, and distribute this work under either license.
+
+For dynamically loaded assets licensing see [assets/LICENSE.md](./assets/LICENSE.md)

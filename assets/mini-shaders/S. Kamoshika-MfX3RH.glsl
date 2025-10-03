@@ -100,3 +100,4 @@ void main() {
 }
 
 // https://www.shadertoy.com/view/MfX3RH
+// CC BY-NC-SA 3.0
