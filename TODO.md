@@ -19,7 +19,10 @@
   or try higher values for the Update Limit.
 - [ ] explore bundle folder structure
 - [ ] assets org
-- [ ] disable irrelevant params
+- [ ] disable irrelevant params: colorize
+- [ ] disable irrelevant params: alpha
+- [ ] disable irrelevant params: pixel
+- [ ] transition: 0 dry
 
 ## IFS
 
@@ -32,6 +35,8 @@
 
 ## Done
 
+- [x] disable irrelevant params: text
+- [x] text: track field label
 - [x] white square instead of black?
 - [x] ~~doc update banner~~
 - [x] ~~doc console font, brew install --cask font-cascadia-code~~
