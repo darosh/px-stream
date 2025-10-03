@@ -23,4 +23,4 @@ assets/svg/.unknown
 docs/media/temp/screenshot-*.png
 docs/media/temp/Screenshot 2*.png
 docs/media/temp/screenshot-*.mov
-tests/fixtures/Screenshots Project/Backup/
+tests/fixtures/* Project/Backup/
