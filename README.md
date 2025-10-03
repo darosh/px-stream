@@ -296,7 +296,7 @@ Use channel mix from [Mix View](#px-mix-view) device as input texture.
 
 Procedural patterns with cosine palettes [popularized](https://iquilezles.org/articles/palettes/) by Inigo Quilez
 
-<img src="./docs/media/previews/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" /> <img src="./docs/media/devices/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" />
+<img src="./docs/media/previews/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" /> <img src="./docs/media/automation/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" />
 
 ### GEN Mini Shader
 
