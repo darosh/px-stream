@@ -445,6 +445,7 @@ Enables detailed Max console output for development and debugging. DO NOT USE IN
 Max for Live
 
 - [VIZZable 2](https://github.com/zealtv/VIZZable-2) (free)
+- [V-Module](https://github.com/j74/V-Module-Max-for-Live-Video-Plugins) (free)
 - [Geometrum 02](https://artekniks.gumroad.com/l/geometrum) (free)
 - [Zwobot](https://www.zwobotmax.com/)
 - [EboSuite](https://www.ebosuite.com/)
