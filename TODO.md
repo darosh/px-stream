@@ -18,6 +18,8 @@
 - [ ] explore bundle folder structure
 - [ ] assets org
 - [ ] windows testing
+- [ ] double-check int params! "parameter_type" : 1
+- [ ] double-check generic val1 val2 enums
 
 ## IFS
 
