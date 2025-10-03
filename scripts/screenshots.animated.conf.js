@@ -1,8 +1,10 @@
 let WIDTHS = {}
 let x0 = 14
 
+const COL = 46
+
 export default {
-  offset: 0.125,
+  offset: [0.125, 0.750],
   time: 1.825,
   v: 0,
   frame: 2,
@@ -20,6 +22,20 @@ export default {
     [1, 'PX GEN Mini Shader', 468, 2],
     [1, 'PX GEN Sketching', 468, 4],
     [1, 'PX GEN Text', 276, 6],
+    [2, 'PX Mix View', 414, [
+      [0, 'PX FX Alpha'],
+      [2, 'PX FX Blur'],
+      [4, 'PX FX Colorize'],
+      [6, 'PX FX Delay']
+    ], [6, 35, 342, 342]],
+    [2, '_', COL],
+    [2, 'PX FX Alpha', 452, 0],
+    [2, '_', COL],
+    [2, 'PX FX Blur', 276, 2],
+    [2, '_', COL],
+    [2, 'PX FX Colorize', 452, 4],
+    [2, '_', COL],
+    [2, 'PX FX Delay', 276, 6],
   ].map(([src, name, x1, animated, slice]) => {
     WIDTHS[src] = WIDTHS[src] || 14
     const r = [src, name, WIDTHS[src], x1, animated, slice]

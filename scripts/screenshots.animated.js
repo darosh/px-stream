@@ -3,6 +3,8 @@ import { glob } from 'glob'
 import config, { automationToFile, previewToFile } from './screenshots.animated.conf.js'
 
 function makeAnimatedWebp (inputFile, outputFile, x, y, w, h, s, t) {
+  console.log({inputFile, outputFile, x, y, w, h, s, t})
+  
   return new Promise((resolve, reject) => {
     const args = [
       '-y',                // overwrite output
@@ -31,7 +33,7 @@ function makeAnimatedWebp (inputFile, outputFile, x, y, w, h, s, t) {
 }
 
 async function processScreenshots () {
-  const sources = glob.sync('./docs/media/temp/Screen Recording *.mov')
+  const sources = glob.sync('./docs/media/temp/Screen Recording *.mov').sort()
 
   for (const device of config.devices) {
     const [src, name, x0, x1, animated = false, slice] = device
@@ -45,7 +47,7 @@ async function processScreenshots () {
     console.log(`Processing "${name}" from ${inputFile}.`)
 
     if (typeof animated === 'number') {
-      await makeAnimatedWebp(inputFile, outputFile, x, y + 66, width, height, animated + config.offset, config.time)
+      await makeAnimatedWebp(inputFile, outputFile, x, y + 66, width, height, animated + config.offset[src - 1], config.time)
       console.log(`Saved animated ${outputFile}`)
     } else if (Array.isArray(animated)) {
       for (const [s, n] of animated) {
@@ -58,7 +60,8 @@ async function processScreenshots () {
           y + 66 + slice[1]  - config.frame,
           slice[2] + config.frame * 2,
           slice[3] + config.frame * 2,
-          s + config.offset, config.time
+          s + config.offset[src - 1], 
+          config.time
         )
         
         console.log(`Saved preview ${outputFiles}`)

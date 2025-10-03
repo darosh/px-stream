@@ -371,13 +371,13 @@ Text generation from session/clip names, custom text, or dynamic musical data (b
 
 Alpha channel tools: chroma key, mapping, inversion, smoothing, removal, etc.
 
-<img src="./docs/media/devices/PX_FX_Alpha.webp" height="231" title="PX FX Alpha" />
+<img src="./docs/media/previews/PX_FX_Alpha.webp" height="231" title="PX FX Alpha" /> <img src="./docs/media/automation/PX_FX_Alpha.webp" height="231" title="PX FX Alpha" />
 
 ### FX Blur
 
 Four blur shaders from Max/Jitter stock collection
 
-<img src="./docs/media/devices/PX_FX_Blur.webp" height="231" title="PX FX Blur" />
+<img src="./docs/media/previews/PX_FX_Blur.webp" height="231" title="PX FX Blur" /> <img src="./docs/media/automation/PX_FX_Blur.webp" height="231" title="PX FX Blur" />
 
 ### FX Color
 
@@ -389,7 +389,7 @@ Color grading and adjustment tools
 
 Two/tri tone colorization with multiple mapping methods
 
-<img src="./docs/media/devices/PX_FX_Colorize.webp" height="231" title="PX FX Colorize" />
+<img src="./docs/media/previews/PX_FX_Colorize.webp" height="231" title="PX FX Colorize" /> <img src="./docs/media/automation/PX_FX_Colorize.webp" height="231" title="PX FX Colorize" />
 
 ### FX Convert
 
@@ -401,7 +401,7 @@ Texture format conversion including OKLAB and normalized OKLAB aka NOKLAB
 
 Frame-based texture delay. Combine with Mix Dry device for ghost trail effects.
 
-<img src="./docs/media/devices/PX_FX_Delay.webp" height="231" title="PX FX Delay" />
+<img src="./docs/media/previews/PX_FX_Delay.webp" height="231" title="PX FX Delay" /> <img src="./docs/media/automation/PX_FX_Delay.webp" height="231" title="PX FX Delay" />
 
 ### FX Kaleidoscope
 
