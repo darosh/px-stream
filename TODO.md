@@ -9,9 +9,9 @@
 - [ ] doc exclusive rotation
 - [ ] guide
 - [ ] screenshot shortcuts
-- [ ] FX preview, animation
 - [ ] assets licence
 - [ ] dual licence?
+- [ ] FX preview, animation
 
 ## Misc
 
