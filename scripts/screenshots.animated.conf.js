@@ -4,16 +4,17 @@ let x0 = 14
 export default {
   offset: 0.125,
   time: 1.825,
-  v: 1,
+  v: 0,
+  frame: 2,
   y0: 1445,
   y1: 385,
   devices: [
     [1, 'PX World', 248],
     [1, 'PX Mix View', 414, [
-      [0, 'PX GEN Cos Pattern Preview'],
-      [2, 'PX GEN Mini Shader Preview'],
-      [4, 'PX GEN Sketching Preview'],
-      [6, 'PX GEN Text Preview']
+      [0, 'PX GEN Cos Pattern'],
+      [2, 'PX GEN Mini Shader'],
+      [4, 'PX GEN Sketching'],
+      [6, 'PX GEN Text']
     ], [6, 35, 342, 342]],
     [1, 'PX GEN Cos Pattern', 646, 0],
     [1, 'PX GEN Mini Shader', 468, 2],
@@ -27,8 +28,14 @@ export default {
   })
 }
 
-export function imageToFile (name, v) {
+export function previewToFile (name, v) {
   return v
-    ? `./docs/media/devices/${name.replace(/\s+/g, '_')}_v${v}.animated.webp`
-    : `./docs/media/devices/${name.replace(/\s+/g, '_')}.animated.webp`
+    ? `./docs/media/previews/${name.replace(/\s+/g, '_')}_v${v}.webp`
+    : `./docs/media/previews/${name.replace(/\s+/g, '_')}.webp`
+}
+
+export function automationToFile (name, v) {
+  return v
+    ? `./docs/media/automation/${name.replace(/\s+/g, '_')}_v${v}.webp`
+    : `./docs/media/automation/${name.replace(/\s+/g, '_')}.webp`
 }

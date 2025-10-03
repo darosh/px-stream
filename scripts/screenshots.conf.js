@@ -2,7 +2,7 @@ let WIDTHS = {}
 let x0 = 14
 
 export default {
-  v: 1,
+  v: 0,
   y0: 1445,
   y1: 385,
   devices: [

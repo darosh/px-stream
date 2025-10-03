@@ -1,6 +1,6 @@
 import { spawn } from 'child_process'
 import { glob } from 'glob'
-import config, { imageToFile } from './screenshots.animated.conf.js'
+import config, { automationToFile, previewToFile } from './screenshots.animated.conf.js'
 
 function makeAnimatedWebp (inputFile, outputFile, x, y, w, h, s, t) {
   return new Promise((resolve, reject) => {
@@ -35,7 +35,7 @@ async function processScreenshots () {
 
   for (const device of config.devices) {
     const [src, name, x0, x1, animated = false, slice] = device
-    const outputFile = imageToFile(name, config.v)
+    const outputFile = automationToFile(name, config.v)
     const inputFile = sources[src - 1]
     const width = x1
     const height = config.y1
@@ -49,8 +49,18 @@ async function processScreenshots () {
       console.log(`Saved animated ${outputFile}`)
     } else if (Array.isArray(animated)) {
       for (const [s, n] of animated) {
-        const outputFiles = imageToFile(n, config.v)
-        await makeAnimatedWebp(inputFile, outputFiles, x + slice[0], y + 66 + slice[1], slice[2], slice[3], s + config.offset, config.time)
+        const outputFiles = previewToFile(n, config.v)
+
+        await makeAnimatedWebp(
+          inputFile,
+          outputFiles,
+          x + slice[0] - config.frame,
+          y + 66 + slice[1]  - config.frame,
+          slice[2] + config.frame * 2,
+          slice[3] + config.frame * 2,
+          s + config.offset, config.time
+        )
+        
         console.log(`Saved preview ${outputFiles}`)
       }
     }
