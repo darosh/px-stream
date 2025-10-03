@@ -9,8 +9,6 @@
 - [ ] doc exclusive rotation
 - [ ] guide
 - [ ] screenshot shortcuts
-- [ ] assets licence
-- [ ] dual licence?
 - [ ] FX preview, animation
 
 ## Misc
@@ -32,6 +30,8 @@
 
 ## Done
 
+- [x] assets licence
+- [x] dual licence?
 - [x] disable irrelevant params: x=y
 - [x] disable irrelevant params: alpha
 - [x] disable irrelevant params: pixel
