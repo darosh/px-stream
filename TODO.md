@@ -20,7 +20,6 @@
 - [ ] explore bundle folder structure
 - [ ] assets org
 - [ ] windows testing
-- [ ] disable irrelevant params: x=y
 
 ## IFS
 
@@ -33,6 +32,7 @@
 
 ## Done
 
+- [x] disable irrelevant params: x=y
 - [x] disable irrelevant params: alpha
 - [x] disable irrelevant params: pixel
 - [x] disable irrelevant params: colorize
