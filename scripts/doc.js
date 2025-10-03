@@ -14,6 +14,9 @@ const align = 'justify' // "left" | "center" | "justify"
 const spacing = 16 // minimal distance between images
 const margin = 24 // outer margin around the whole collage
 const targetWidth = 830 // target max width for GH rendering
+const MAXFORLIVE_COM_RECOMMENDED = { w: 1170, h: 460 }
+const MAXFORLIVE_COM_THUMB = { w: 369, h: 300 }
+const MAXFORLIVE_COM_THUMB_XL = { w: 1350, h: 1080 }
 // const BG = { r: 130, g: 130, b: 130, alpha: 1 }
 const BG = { r: 56, g: 56, b: 56, alpha: 1 }
 
