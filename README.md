@@ -159,7 +159,7 @@ TBD
 
 Essential rendering context. You need exactly one per Live set. More would be problematic. Sets target FPS. FPS 0 will use available maximum with displaylink turned on on Mac.
 
-<img src="./docs/media/automation/PX_World.webp" height="231" title="PX World" /> <img src="./docs/media/devices/PX_World_(mad_world).webp" height="231" title="PX World (mad world)" />
+<img src="./docs/media/devices/PX_World.webp" height="231" title="PX World" /> <img src="./docs/media/devices/PX_World_(mad_world).webp" height="231" title="PX World (mad world)" />
 
 ### PX Mix View
 
@@ -296,7 +296,7 @@ Use channel mix from [Mix View](#px-mix-view) device as input texture.
 
 Procedural patterns with cosine palettes [popularized](https://iquilezles.org/articles/palettes/) by Inigo Quilez
 
-<img src="./docs/media/previews/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" /> <img src="./docs/media/automation/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" />
+<img src="./docs/media/previews/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" /> <img src="./docs/media/devices/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" />
 
 ### GEN Mini Shader
 

@@ -354,7 +354,7 @@ function updateDeviceInfo (lines, devices) {
     
     const autos = screenshotsAnim.devices
       .filter(([_id, name, _x, _y, arr]) => {
-        return !Array.isArray(arr)
+        return !Array.isArray(arr) && arr
       })
       .map(([_id, name]) => name)
       .filter((name) => {
