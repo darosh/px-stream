@@ -435,6 +435,8 @@
 				"box" : 				{
 					"annotation_name" : "Keep Scale Ratio",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-96",
 					"maxclass" : "live.text",
@@ -448,14 +450,14 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Keep Scale Ratio",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Keep Scale Ratio",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Keep Scale Ratio",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -470,6 +472,8 @@
 				"box" : 				{
 					"annotation_name" : "B",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-95",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -482,14 +486,14 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "B",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "B",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "B",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -503,6 +507,8 @@
 				"box" : 				{
 					"annotation_name" : "G",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-94",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -515,14 +521,14 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "G",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "G",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "G",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -537,6 +543,8 @@
 				"box" : 				{
 					"annotation_name" : "R",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-93",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -549,14 +557,14 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "R",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "R",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "R",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -571,6 +579,8 @@
 				"box" : 				{
 					"annotation_name" : "A",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-90",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -583,14 +593,14 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "A",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "A",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "A",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -1667,6 +1677,8 @@
 				"box" : 				{
 					"annotation_name" : "Keep Ratio",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-6",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1679,14 +1691,14 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Keep Ratio",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Keep Ratio",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Keep Ratio",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -3239,16 +3251,6 @@
 			"obj-95" : [ "B", "B", 0 ],
 			"obj-96" : [ "Keep Scale Ratio", "Keep Scale Ratio", 0 ],
 			"obj-97" : [ "Value", "Value", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-109::obj-151" : 				{
 					"parameter_longname" : "Dimensions[1]"

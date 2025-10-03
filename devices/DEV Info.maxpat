@@ -368,6 +368,8 @@
 					"annotation" : "Automatically update texture info",
 					"annotation_name" : "Auto",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-28",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -380,7 +382,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Auto",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Automatically update texture info",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
@@ -1143,16 +1145,6 @@
  ],
 		"parameters" : 		{
 			"obj-28" : [ "Auto", "Auto", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,

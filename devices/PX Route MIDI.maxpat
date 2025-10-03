@@ -3714,8 +3714,8 @@
 					"annotation" : "Send MIDI on/off",
 					"annotation_name" : "Send MIDI",
 					"appearance" : 1,
-					"automation" : "off",
-					"automationon" : "on",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-2",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -3732,7 +3732,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Send MIDI",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Send MIDI on/off",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
@@ -4121,6 +4121,16 @@
  ],
 		"parameters" : 		{
 			"obj-2" : [ "Send MIDI", "Send MIDI", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

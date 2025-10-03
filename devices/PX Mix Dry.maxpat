@@ -518,6 +518,8 @@
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "A",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-50",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -534,14 +536,14 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "A",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "A",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -556,6 +558,8 @@
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "B",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-49",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -572,14 +576,14 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "B",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "B",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -594,6 +598,8 @@
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "G",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-48",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -610,14 +616,14 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "G",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "G",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "G",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -633,6 +639,8 @@
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "R",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-47",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -649,14 +657,14 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "R",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "R",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "R",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -696,6 +704,8 @@
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Swap",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-38",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -712,7 +722,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Swap",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Swap",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -2606,6 +2616,16 @@
 			"obj-49" : [ "B", "B", 0 ],
 			"obj-50" : [ "A", "A", 0 ],
 			"obj-68" : [ "Dry", "Dry", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

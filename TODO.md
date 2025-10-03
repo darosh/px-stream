@@ -18,8 +18,6 @@
 - [ ] explore bundle folder structure
 - [ ] assets org
 - [ ] windows testing
-- [ ] double-check int params! "parameter_type" : 1
-- [ ] double-check generic val1 val2 enums
 
 ## IFS
 
@@ -32,6 +30,8 @@
 
 ## Done
 
+- [x] double-check int params! "parameter_type" : 1
+- [x] double-check generic val1 val2 enums
 - [x] assets licence
 - [x] dual licence?
 - [x] disable irrelevant params: x=y

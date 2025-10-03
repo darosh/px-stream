@@ -342,8 +342,8 @@
 					"annotation" : "Enables/disables audio thru.",
 					"annotation_name" : "Thru",
 					"appearance" : 1,
-					"automation" : "off",
-					"automationon" : "on",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-11",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -360,7 +360,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Thru",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Enables/disables audio thru.",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
@@ -435,8 +435,8 @@
 					"annotation" : "Enables/disables remote audio.",
 					"annotation_name" : "Receive",
 					"appearance" : 1,
-					"automation" : "off",
-					"automationon" : "on",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-10",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -453,7 +453,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Receive",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Enables/disables remote audio.",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
@@ -772,6 +772,16 @@
 			"obj-11" : [ "Thru", "Thru", 0 ],
 			"obj-27" : [ "Thru Gain", "Thru Gain", 0 ],
 			"obj-4" : [ "Receive Gain", "Receive Gain", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

@@ -571,6 +571,8 @@
 								"box" : 								{
 									"annotation_name" : "Keep Ratio",
 									"appearance" : 1,
+									"automation" : "Off",
+									"automationon" : "On",
 									"fontsize" : 8.0,
 									"id" : "obj-30",
 									"maxclass" : "live.text",
@@ -584,14 +586,14 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Keep Ratio",
-											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Keep Ratio",
-											"parameter_mmax" : 1.0,
+											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Keep Ratio",
-											"parameter_type" : 1
+											"parameter_type" : 2
 										}
 
 									}
@@ -896,6 +898,8 @@
 								"box" : 								{
 									"annotation_name" : "Keep Ratio Split",
 									"appearance" : 1,
+									"automation" : "Off",
+									"automationon" : "On",
 									"fontsize" : 8.0,
 									"id" : "obj-96",
 									"maxclass" : "live.text",
@@ -909,14 +913,14 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Keep Ratio Split",
-											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Keep Ratio Split",
-											"parameter_mmax" : 1.0,
+											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Keep Ratio Split",
-											"parameter_type" : 1
+											"parameter_type" : 2
 										}
 
 									}
@@ -2956,6 +2960,16 @@
 			"obj-28::obj-63" : [ "Scale X Split", "Scale X Split", 0 ],
 			"obj-28::obj-96" : [ "Keep Ratio Split", "Keep Ratio Split", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 579.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 579.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -39,7 +39,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 560.0, 122.0, 144.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"text" : "\"Text / Icon Off (Inactive)\""
 				}
 
@@ -2098,6 +2097,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Italic",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-3",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2110,7 +2111,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Italic",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Italic",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -2129,6 +2130,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Bold",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-1",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2141,7 +2144,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Bold",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Bold",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -6211,16 +6214,6 @@
 			"obj-81::obj-4" : [ "FileName", "FileName", 0 ],
 			"obj-81::obj-6" : [ "Font Automation", "Font", 0 ],
 			"obj-81::obj-76" : [ "Font", "Font", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-35::obj-151" : 				{
 					"parameter_longname" : "Dimensions"

@@ -533,7 +533,7 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Distance Color",
-											"parameter_enum" : [ "off", "on" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
 											"parameter_longname" : "Distance Color",
 											"parameter_mmax" : 1,
@@ -1206,8 +1206,8 @@
 , 							{
 								"box" : 								{
 									"annotation_name" : "Mirror",
-									"automation" : "0",
-									"automationon" : "1",
+									"automation" : "Off",
+									"automationon" : "On",
 									"id" : "obj-117",
 									"maxclass" : "live.text",
 									"numinlets" : 1,
@@ -1220,15 +1220,14 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Mirror",
-											"parameter_enum" : [ "0", "1" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Mirror",
-											"parameter_mmax" : 1.0,
+											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Mirror",
-											"parameter_type" : 1,
-											"parameter_unitstyle" : 0
+											"parameter_type" : 2
 										}
 
 									}
@@ -1614,7 +1613,7 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Chroma Color",
-											"parameter_enum" : [ "off", "on" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
 											"parameter_longname" : "Chroma Color",
 											"parameter_mmax" : 1,
@@ -2531,7 +2530,15 @@
 					"patching_rect" : [ 1320.0, 376.0, 64.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 174.0, 24.0, 48.0, 18.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg_off_zombie"
+						}
+
+					}
+,
 					"text" : "Thresh.",
+					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -2970,6 +2977,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "More",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-87",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2986,7 +2995,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "More",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "More",
@@ -3759,16 +3768,6 @@
 			"obj-54" : [ "Gamma", "Gamma", 0 ],
 			"obj-56" : [ "Cutoff", "Cutoff", 0 ],
 			"obj-87" : [ "More", "More", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,

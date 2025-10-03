@@ -1221,6 +1221,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Folder Images",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-7",
 					"maxclass" : "live.text",
@@ -1237,7 +1239,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Folder Images",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Folder Images",
 							"parameter_mmax" : 1,
@@ -1257,6 +1259,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Folder Video",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-361",
 					"maxclass" : "live.text",
@@ -1273,7 +1277,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Folder Video",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Folder Video",
 							"parameter_mmax" : 1,
@@ -2290,6 +2294,16 @@
 			"obj-3" : [ "Codec", "Codec", 0 ],
 			"obj-361" : [ "Folder Video", "Folder Video", 0 ],
 			"obj-7" : [ "Folder Images", "Folder Images", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

@@ -172,6 +172,8 @@
 							}
 , 							{
 								"box" : 								{
+									"automation" : "Off",
+									"automationon" : "On",
 									"id" : "obj-1",
 									"maxclass" : "live.text",
 									"mode" : 0,
@@ -184,11 +186,12 @@
 									"presentation_rect" : [ 24.0, 274.0, 65.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_longname" : "live.text",
+											"parameter_enum" : [ "Off", "On" ],
+											"parameter_invisible" : 2,
+											"parameter_longname" : "Help",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
-											"parameter_shortname" : "live.text",
+											"parameter_shortname" : "Help",
 											"parameter_type" : 2
 										}
 
@@ -696,8 +699,8 @@
 					"annotation" : "Stop the world here. Disabling device will do the same.",
 					"annotation_name" : "Enabled",
 					"appearance" : 1,
-					"automation" : "off",
-					"automationon" : "on",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-16",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -710,7 +713,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Enabled",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Stop the world here. Disabling device will do the same.",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
@@ -1568,7 +1571,17 @@
 			"obj-151" : [ "Dimensions", "Dimensions", 0 ],
 			"obj-16" : [ "Enabled", "Enabled", 0 ],
 			"obj-23" : [ "FPS", "FPS", 0 ],
-			"obj-65::obj-1" : [ "live.text", "live.text", 0 ],
+			"obj-65::obj-1" : [ "Help", "Help", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

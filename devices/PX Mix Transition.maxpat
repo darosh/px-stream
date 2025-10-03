@@ -46,6 +46,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Folder",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-361",
 					"maxclass" : "live.text",
@@ -62,7 +64,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Folder",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Folder",
 							"parameter_mmax" : 1,
@@ -82,6 +84,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Edit",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-360",
 					"maxclass" : "live.text",
@@ -98,7 +102,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Edit",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Edit",
 							"parameter_mmax" : 1,
@@ -418,6 +422,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Reload",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-362",
 					"maxclass" : "live.text",
@@ -434,7 +440,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reload",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reload",
 							"parameter_mmax" : 1,
@@ -2254,6 +2260,16 @@
 			"obj-362" : [ "Reload", "Reload", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
 			"obj-68" : [ "From", "From", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-28::obj-76" : 				{
 					"parameter_invisible" : 2,

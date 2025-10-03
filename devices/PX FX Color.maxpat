@@ -150,6 +150,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Hue",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 7.0,
 					"id" : "obj-21",
 					"maxclass" : "live.text",
@@ -167,7 +169,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Show Hue",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Show Hue",
@@ -444,6 +446,8 @@
 									"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 									"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 									"annotation_name" : "Reset Shadow",
+									"automation" : "Off",
+									"automationon" : "On",
 									"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 									"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 									"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -501,7 +505,7 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Reset Shadow",
-											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
 											"parameter_longname" : "Reset Shadow",
 											"parameter_mmax" : 1,
@@ -526,6 +530,8 @@
 									"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 									"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 									"annotation_name" : "Reset Light",
+									"automation" : "Off",
+									"automationon" : "On",
 									"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 									"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 									"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -583,7 +589,7 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Reset Light",
-											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
 											"parameter_longname" : "Reset Light",
 											"parameter_mmax" : 1,
@@ -608,6 +614,8 @@
 									"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 									"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 									"annotation_name" : "Reset Global",
+									"automation" : "Off",
+									"automationon" : "On",
 									"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 									"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 									"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -665,7 +673,7 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Reset Global",
-											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
 											"parameter_longname" : "Reset Global",
 											"parameter_mmax" : 1,
@@ -690,6 +698,8 @@
 									"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 									"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 									"annotation_name" : "Reset Dark",
+									"automation" : "Off",
+									"automationon" : "On",
 									"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 									"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 									"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -747,7 +757,7 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Reset Dark",
-											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
 											"parameter_longname" : "Reset Dark",
 											"parameter_mmax" : 1,
@@ -4532,6 +4542,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Gamma",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 7.0,
 					"id" : "obj-40",
 					"maxclass" : "live.text",
@@ -4549,7 +4561,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Show Gamma",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Show Gamma",
@@ -4655,6 +4667,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Color",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 7.0,
 					"id" : "obj-34",
 					"maxclass" : "live.text",
@@ -4672,7 +4686,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Show Color",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Show Color",
@@ -5838,6 +5852,16 @@
 			"obj-51::obj-82" : [ "Y Lum", "Y Lum", 0 ],
 			"obj-51::obj-83" : [ "Y Sat", "Y Sat", 0 ],
 			"obj-51::obj-91" : [ "Y Hue", "Y Hue", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

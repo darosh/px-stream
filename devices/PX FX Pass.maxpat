@@ -503,7 +503,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -633,6 +633,8 @@
 , 							{
 								"box" : 								{
 									"annotation_name" : "Anamorphic",
+									"automation" : "Off",
+									"automationon" : "On",
 									"id" : "obj-42",
 									"maxclass" : "live.text",
 									"numinlets" : 1,
@@ -645,14 +647,14 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Anamorphic",
-											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Anamorphic",
-											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "Colored",
-											"parameter_type" : 1
+											"parameter_type" : 2
 										}
 
 									}
@@ -666,6 +668,8 @@
 , 							{
 								"box" : 								{
 									"annotation_name" : "Colored",
+									"automation" : "Off",
+									"automationon" : "On",
 									"id" : "obj-37",
 									"maxclass" : "live.text",
 									"numinlets" : 1,
@@ -678,14 +682,14 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Colored",
-											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Colored",
-											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "Colored",
-											"parameter_type" : 1
+											"parameter_type" : 2
 										}
 
 									}
@@ -773,6 +777,8 @@
 , 							{
 								"box" : 								{
 									"annotation_name" : "Show Clipped",
+									"automation" : "Off",
+									"automationon" : "On",
 									"id" : "obj-10",
 									"maxclass" : "live.text",
 									"numinlets" : 1,
@@ -785,14 +791,14 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Show Clipped",
-											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Show Clipped",
-											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "Show Clipped",
-											"parameter_type" : 1
+											"parameter_type" : 2
 										}
 
 									}
@@ -806,6 +812,8 @@
 , 							{
 								"box" : 								{
 									"annotation_name" : "Bloom Gamma Correction",
+									"automation" : "Off",
+									"automationon" : "On",
 									"id" : "obj-9",
 									"maxclass" : "live.text",
 									"numinlets" : 1,
@@ -818,14 +826,14 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Bloom Gamma Correction",
-											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Bloom Gamma Correction",
-											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "Bloom Gamma Correction",
-											"parameter_type" : 1
+											"parameter_type" : 2
 										}
 
 									}
@@ -839,6 +847,8 @@
 , 							{
 								"box" : 								{
 									"annotation_name" : "Bloom Tonemapping",
+									"automation" : "Off",
+									"automationon" : "On",
 									"id" : "obj-8",
 									"maxclass" : "live.text",
 									"numinlets" : 1,
@@ -851,14 +861,14 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Bloom Tonemapping",
-											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Bloom Tonemapping",
-											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "Bloom Tonemapping",
-											"parameter_type" : 1
+											"parameter_type" : 2
 										}
 
 									}
@@ -3741,16 +3751,6 @@
 			"obj-26::obj-8" : [ "Bloom Tonemapping", "Bloom Tonemapping", 0 ],
 			"obj-26::obj-9" : [ "Bloom Gamma Correction", "Bloom Gamma Correction", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,

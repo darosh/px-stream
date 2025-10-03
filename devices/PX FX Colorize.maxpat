@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 579.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 579.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -480,8 +480,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Mirror",
-					"automation" : "0",
-					"automationon" : "1",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-117",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -494,15 +494,14 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mirror",
-							"parameter_enum" : [ "0", "1" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Mirror",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Mirror",
-							"parameter_type" : 1,
-							"parameter_unitstyle" : 0
+							"parameter_type" : 2
 						}
 
 					}
@@ -962,6 +961,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "More",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-87",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -978,7 +979,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "More",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "More",
@@ -999,6 +1000,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "3 Colors",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-83",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1011,7 +1014,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "3 Colors",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "3 Colors",
@@ -1206,7 +1209,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Color 3",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Color 3",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -1455,7 +1458,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Color 2",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Color 2",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -1704,7 +1707,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Color 1",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Color 1",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,

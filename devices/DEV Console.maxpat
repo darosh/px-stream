@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 579.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 579.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -126,7 +126,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"blinkcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"id" : "obj-7",
 					"ignoreclick" : 1,
@@ -134,7 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"outlinecolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 352.0, 264.0, 24.0, 24.0 ],
 					"presentation" : 1,
@@ -162,6 +162,8 @@
 					"annotation" : "Activates Max console additional output. May affect performance. DO NOT USE IN PRODUCTION.",
 					"annotation_name" : "Active",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-1",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -174,7 +176,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Active",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Activates Max console additional output. May affect performance. DO NOT USE IN PRODUCTION.",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
@@ -290,9 +292,9 @@
 , 							{
 								"box" : 								{
 									"angle" : 270.0,
-									"bgcolor" : [ 0.976470588235294, 0.976470588235294, 0.976470588235294, 1.0 ],
+									"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 									"border" : 1,
-									"bordercolor" : [ 0.976470588235294, 0.976470588235294, 0.976470588235294, 1.0 ],
+									"bordercolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 									"id" : "obj-4",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -516,7 +518,31 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-1" : [ "Active", "Active", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "PX._legend.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

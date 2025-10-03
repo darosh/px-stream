@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 579.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 579.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -174,7 +174,7 @@
 					"patching_rect" : [ 592.0, 368.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_invisible" : 1,
 							"parameter_longname" : "Initialized",
@@ -221,6 +221,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P32",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -278,7 +280,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P32",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P32",
 							"parameter_mmax" : 1,
@@ -303,6 +305,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P31",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -360,7 +364,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P31",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P31",
 							"parameter_mmax" : 1,
@@ -385,6 +389,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P30",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -442,7 +448,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P30",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P30",
 							"parameter_mmax" : 1,
@@ -467,6 +473,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P29",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -524,7 +532,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P29",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P29",
 							"parameter_mmax" : 1,
@@ -549,6 +557,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P28",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -606,7 +616,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P28",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P28",
 							"parameter_mmax" : 1,
@@ -631,6 +641,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P27",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -688,7 +700,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P27",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P27",
 							"parameter_mmax" : 1,
@@ -713,6 +725,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P26",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -770,7 +784,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P26",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P26",
 							"parameter_mmax" : 1,
@@ -795,6 +809,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P25",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -852,7 +868,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P25",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P25",
 							"parameter_mmax" : 1,
@@ -877,6 +893,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P24",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -934,7 +952,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P24",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P24",
 							"parameter_mmax" : 1,
@@ -959,6 +977,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P23",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1016,7 +1036,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P23",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P23",
 							"parameter_mmax" : 1,
@@ -1041,6 +1061,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P22",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1098,7 +1120,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P22",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P22",
 							"parameter_mmax" : 1,
@@ -1123,6 +1145,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P21",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1180,7 +1204,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P21",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P21",
 							"parameter_mmax" : 1,
@@ -1205,6 +1229,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P20",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1262,7 +1288,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P20",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P20",
 							"parameter_mmax" : 1,
@@ -1287,6 +1313,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P19",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1344,7 +1372,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P19",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P19",
 							"parameter_mmax" : 1,
@@ -1369,6 +1397,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P18",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1426,7 +1456,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P18",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P18",
 							"parameter_mmax" : 1,
@@ -1451,6 +1481,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P17",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1508,7 +1540,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P17",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P17",
 							"parameter_mmax" : 1,
@@ -1533,6 +1565,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P16",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1590,7 +1624,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P16",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P16",
 							"parameter_mmax" : 1,
@@ -1615,6 +1649,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P15",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1672,7 +1708,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P15",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P15",
 							"parameter_mmax" : 1,
@@ -1697,6 +1733,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P14",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1754,7 +1792,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P14",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P14",
 							"parameter_mmax" : 1,
@@ -1779,6 +1817,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P13",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1836,7 +1876,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P13",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P13",
 							"parameter_mmax" : 1,
@@ -1861,6 +1901,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P12",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -1918,7 +1960,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P12",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P12",
 							"parameter_mmax" : 1,
@@ -1943,6 +1985,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P11",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2000,7 +2044,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P11",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P11",
 							"parameter_mmax" : 1,
@@ -2025,6 +2069,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P10",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2082,7 +2128,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P10",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P10",
 							"parameter_mmax" : 1,
@@ -2107,6 +2153,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P09",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2164,7 +2212,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P09",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P09",
 							"parameter_mmax" : 1,
@@ -2189,6 +2237,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P08",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2246,7 +2296,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P08",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P08",
 							"parameter_mmax" : 1,
@@ -2271,6 +2321,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P07",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2328,7 +2380,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P07",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P07",
 							"parameter_mmax" : 1,
@@ -2353,6 +2405,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P06",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2410,7 +2464,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P06",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P06",
 							"parameter_mmax" : 1,
@@ -2435,6 +2489,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P05",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2492,7 +2548,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P05",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P05",
 							"parameter_mmax" : 1,
@@ -2517,6 +2573,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P04",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2574,7 +2632,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P04",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P04",
 							"parameter_mmax" : 1,
@@ -2599,6 +2657,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P03",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2656,7 +2716,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P03",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P03",
 							"parameter_mmax" : 1,
@@ -2681,6 +2741,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P02",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2738,7 +2800,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P02",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P02",
 							"parameter_mmax" : 1,
@@ -2763,6 +2825,8 @@
 					"activetextcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 0.0 ],
 					"activetextoncolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"annotation_name" : "Reset P01",
+					"automation" : "Off",
+					"automationon" : "On",
 					"bgcolor" : [ 0.262745098039216, 0.262745098039216, 0.262745098039216, 0.0 ],
 					"bgoncolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 0.0 ],
 					"bordercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 0.0 ],
@@ -2820,7 +2884,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P01",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reset P01",
 							"parameter_mmax" : 1,
@@ -3574,7 +3638,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P32",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-267",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3620,7 +3684,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P31",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-269",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3666,7 +3730,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P30",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-271",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3712,7 +3776,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P29",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-273",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3758,7 +3822,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P28",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-275",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3804,7 +3868,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P27",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-303",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3850,7 +3914,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P26",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-363",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3896,7 +3960,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P25",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-390",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4662,7 +4726,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P24",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-478",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4708,7 +4772,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P23",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-480",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4754,7 +4818,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P22",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-483",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4800,7 +4864,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P21",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-485",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4846,7 +4910,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P20",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-487",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4892,7 +4956,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P19",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-489",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4938,7 +5002,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P18",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-491",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4984,7 +5048,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P17",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-493",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5030,7 +5094,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P16",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-449",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5076,7 +5140,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P15",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-451",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5122,7 +5186,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P14",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-453",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5168,7 +5232,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P13",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-455",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5214,7 +5278,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P12",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-457",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5260,7 +5324,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P11",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-459",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5306,7 +5370,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P10",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-463",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5352,7 +5416,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P09",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-474",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5398,7 +5462,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P08",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-439",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5444,7 +5508,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P07",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-371",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5490,7 +5554,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P06",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-311",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5536,7 +5600,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P05",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-294",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5582,7 +5646,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P04",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-153",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5628,7 +5692,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P03",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-78",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5674,7 +5738,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P02",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-40",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5721,7 +5785,7 @@
 					"annotation" : "Click the label for reset to default value.",
 					"annotation_name" : "P01",
 					"appearance" : 2,
-					"bordercolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-12",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5877,14 +5941,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "IN",
 					"appearance" : 1,
-					"bgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
-					"bordercolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"automation" : "Off",
+					"automationon" : "On",
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-308",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -5913,13 +5979,13 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "IN",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "IN",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "IN",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -6107,8 +6173,10 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Type",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-195",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -6125,7 +6193,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Show Type",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Show Type",
@@ -6145,8 +6213,10 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Parameters",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-4",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -6163,7 +6233,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Show Parameters",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Show Parameters",
@@ -7042,14 +7112,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "XYE",
 					"appearance" : 1,
-					"bgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
-					"bordercolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"automation" : "Off",
+					"automationon" : "On",
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-427",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -7078,13 +7150,13 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "XYE",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "XYE",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "XYE",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -8075,14 +8147,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "XYD",
 					"appearance" : 1,
-					"bgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
-					"bordercolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"automation" : "Off",
+					"automationon" : "On",
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-24",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -8111,13 +8185,13 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "XYD",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "XYD",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "XYD",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -8130,14 +8204,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "XYC",
 					"appearance" : 1,
-					"bgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
-					"bordercolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"automation" : "Off",
+					"automationon" : "On",
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-15",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -8166,13 +8242,13 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "XYC",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "XYC",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "XYC",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -8185,14 +8261,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "XY",
 					"appearance" : 1,
-					"bgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
-					"bordercolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"automation" : "Off",
+					"automationon" : "On",
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -8221,13 +8299,13 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "XY",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "XY",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "XY",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -10598,14 +10676,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "MIDI",
 					"appearance" : 1,
-					"bgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
-					"bordercolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"automation" : "Off",
+					"automationon" : "On",
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-364",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -10634,13 +10714,13 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "MIDI",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "MIDI",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "MIDI",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -10654,6 +10734,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Reload",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-362",
 					"maxclass" : "live.text",
@@ -10670,7 +10752,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reload",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reload",
 							"parameter_mmax" : 1,
@@ -10690,6 +10772,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Open Folder",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-361",
 					"maxclass" : "live.text",
@@ -10706,7 +10790,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Open Folder",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Open Folder",
 							"parameter_mmax" : 1,
@@ -10726,6 +10810,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Edit",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-360",
 					"maxclass" : "live.text",
@@ -10742,7 +10828,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Edit",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Edit",
 							"parameter_mmax" : 1,
@@ -11813,14 +11899,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "FFTU",
 					"appearance" : 1,
-					"bgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
-					"bordercolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"automation" : "Off",
+					"automationon" : "On",
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-138",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -11849,13 +11937,13 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "FFTU",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "FFTU",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "FFTU",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -11915,14 +12003,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "WAVU",
 					"appearance" : 1,
-					"bgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
-					"bordercolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"automation" : "Off",
+					"automationon" : "On",
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-317",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -11951,13 +12041,13 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "WAVU",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "WAVU",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "WAVU",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -12692,7 +12782,7 @@
 					"patching_rect" : [ 880.0, 568.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Engine",
 							"parameter_mmax" : 1,
@@ -14570,14 +14660,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "WAVE",
 					"appearance" : 1,
-					"bgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
-					"bordercolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"automation" : "Off",
+					"automationon" : "On",
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-9",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -14606,13 +14698,13 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "WAVE",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "WAVE",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "WAVE",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -14625,14 +14717,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "FFT",
 					"appearance" : 1,
-					"bgoncolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
-					"bordercolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"automation" : "Off",
+					"automationon" : "On",
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-8",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.584313725490196, 0.584313725490196, 0.584313725490196, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -14661,13 +14755,13 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "FFT",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "FFT",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "FFT",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -16173,7 +16267,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.976470588235294, 0.976470588235294, 0.976470588235294, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"id" : "obj-369",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -21180,16 +21274,6 @@
 			"obj-78" : [ "P03", "P03", 0 ],
 			"obj-8" : [ "FFT", "FFT", 0 ],
 			"obj-9" : [ "WAVE", "WAVE", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-112::obj-6" : 				{
 					"parameter_longname" : "File Automation"

@@ -324,8 +324,8 @@
 					"annotation" : "Enables/disables texture thru.",
 					"annotation_name" : "Thru",
 					"appearance" : 1,
-					"automation" : "off",
-					"automationon" : "on",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-13",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -342,7 +342,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Thru",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Enables/disables texture thru.",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
@@ -1480,6 +1480,16 @@
 		"parameters" : 		{
 			"obj-13" : [ "Thru", "Thru", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

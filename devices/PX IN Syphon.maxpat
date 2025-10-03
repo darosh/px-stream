@@ -518,6 +518,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Reload",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-362",
 					"maxclass" : "live.text",
@@ -534,7 +536,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reload",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Reload",
 							"parameter_mmax" : 1,
@@ -1739,6 +1741,16 @@
 			"obj-32" : [ "ServerName", "ServerName", 0 ],
 			"obj-362" : [ "Reload", "Reload", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

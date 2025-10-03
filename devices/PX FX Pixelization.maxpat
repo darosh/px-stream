@@ -198,6 +198,8 @@
 				"box" : 				{
 					"annotation_name" : "Keep Ratio",
 					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-96",
 					"maxclass" : "live.text",
@@ -211,14 +213,14 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Keep Ratio",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Keep Ratio",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Keep Ratio",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -1860,6 +1862,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "More",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-87",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1876,7 +1880,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "More",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "More",

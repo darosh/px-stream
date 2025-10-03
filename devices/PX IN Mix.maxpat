@@ -367,6 +367,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "9",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-95",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -383,7 +385,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "9",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "9",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -403,6 +405,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "8",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-78",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -419,7 +423,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "8",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "8",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -439,6 +443,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "7",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-79",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -455,7 +461,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "7",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "7",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -475,6 +481,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "6",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-84",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -491,7 +499,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "6",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "6",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -511,6 +519,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "5",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-1",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -527,7 +537,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "5",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "5",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -547,6 +557,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "4",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-88",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -563,7 +575,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "4",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "4",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -583,6 +595,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "3",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-89",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -599,7 +613,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "3",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "3",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -619,6 +633,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "2",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-90",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -635,7 +651,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "2",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "2",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -655,6 +671,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "1",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-91",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -671,7 +689,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "1",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "1",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -1970,6 +1988,16 @@
 			"obj-90" : [ "2", "2", 0 ],
 			"obj-91" : [ "1", "1", 0 ],
 			"obj-95" : [ "9", "9", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

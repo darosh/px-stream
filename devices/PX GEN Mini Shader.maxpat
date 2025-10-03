@@ -987,6 +987,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Play / Stop",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-31",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -999,14 +1001,14 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Play / Stop",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Play / Stop",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Play / Stop",
-							"parameter_type" : 1
+							"parameter_type" : 2
 						}
 
 					}
@@ -1054,6 +1056,8 @@
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Parameters",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-4",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1070,7 +1074,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Show Parameters",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Show Parameters",
@@ -1331,6 +1335,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Reload",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-362",
 					"maxclass" : "live.text",
@@ -1347,7 +1353,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reload",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Reload",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -1473,6 +1479,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Open Folder",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-361",
 					"maxclass" : "live.text",
@@ -1489,7 +1497,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Open Folder",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Open Folder",
 							"parameter_mmax" : 1,
@@ -1509,6 +1517,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Edit",
+					"automation" : "Off",
+					"automationon" : "On",
 					"fontsize" : 8.0,
 					"id" : "obj-360",
 					"maxclass" : "live.text",
@@ -1525,7 +1535,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Edit",
-							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
 							"parameter_longname" : "Edit",
 							"parameter_mmax" : 1,
