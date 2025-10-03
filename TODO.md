@@ -19,7 +19,8 @@
   or try higher values for the Update Limit.
 - [ ] explore bundle folder structure
 - [ ] assets org
-- [ ] disable irrelevant params: alpha
+- [ ] windows testing
+- [ ] disable irrelevant params: x=y
 
 ## IFS
 
@@ -32,6 +33,7 @@
 
 ## Done
 
+- [x] disable irrelevant params: alpha
 - [x] disable irrelevant params: pixel
 - [x] disable irrelevant params: colorize
 - [x] ~~transition: 0 dry~~
