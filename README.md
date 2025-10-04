@@ -165,9 +165,13 @@ Essential rendering context. You need exactly one per Live set. More would be pr
 
 ### PX Mix View
 
-Multi-channel mixing and preview. Mix output selected in expanded section can be consumed by [IN Mix](#in-mix) device and [Syphon](https://syphon.info/) clients. Click preview for floating window, <kbd>ESC</kbd> for fullscreen on/off.
+Multichannel mixing and preview. Mix output selected in expanded section can be consumed by [IN Mix](#in-mix) device and [Syphon](https://syphon.info/) clients. Click preview for floating window, <kbd>ESC</kbd> for fullscreen on/off.
 
 <img src="./docs/media/devices/PX_Mix_View.webp" height="231" title="PX Mix View" /> <br><img src="./docs/media/devices/PX_Mix_View_(expanded).webp" height="148" title="PX Mix View (expanded)" />
+
+🎛️ `Hotkeys` 
+- <kbd>Shift+Click</kbd> for instant screenshot stored in `assets/images`, it will be available in [IN Image](#in-image) device
+- <kbd>Control+Click</kbd> for instant video recording (while holding the mouse button) stored in `assets/video`, it will be available in [IN Video](#in-video) device
 
 ---
 
@@ -201,6 +205,8 @@ Video recording and screenshotting
 
 <img src="./docs/media/devices/PX_Rec.webp" height="231" title="PX Rec" />
 
+Recorded files are stored under assets/video and directly available in [IN Video](#in-video) device
+
 ---
 
 ### PX Route Audio
@@ -224,6 +230,8 @@ Send MIDI from selected track to next device. Works with [PX Shader](#px-shader)
 Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects. Up to 32 dynamic parameters and various audio rendering options with our custom audio types.
 
 <img src="./docs/media/previews/PX_Shader_v1.webp" height="231" title="PX Shader" /> <img src="./docs/media/devices/PX_Shader.webp" height="231" title="PX Shader" /> <br><img src="./docs/media/devices/PX_Shader_(types).webp" height="148" title="PX Shader (types)" />
+
+🧲 `AUTOMATION` To automate selected shader file find `File` / `File Automation` parameter in automation lane
 
 #### PX Shader &mdash; Audio types
 
@@ -278,6 +286,8 @@ Static image input. Supports JPG, WEBP and PNG formats.
 
 <img src="./docs/media/previews/PX_IN_Image_v1.webp" height="231" title="PX IN Image" /> <img src="./docs/media/automation/PX_IN_Image_v1.webp" height="231" title="PX IN Image" />
 
+🧲 `AUTOMATION` To automate selected image file find `File` / `File Automation` parameter in automation lane
+
 ---
 
 ### IN SVG
@@ -286,6 +296,8 @@ Vector graphics input with resolution-independent scaling SVG file formal
 
 <img src="./docs/media/previews/PX_IN_SVG_v1.webp" height="231" title="PX IN SVG" /> <img src="./docs/media/automation/PX_IN_SVG_v1.webp" height="231" title="PX IN SVG" />
 
+🧲 `AUTOMATION` To automate selected SVG file find `File` / `File Automation` parameter in automation lane
+
 ---
 
 ### IN Video
@@ -293,6 +305,8 @@ Vector graphics input with resolution-independent scaling SVG file formal
 Video playback. Supports MP4, AVI, MOV (including [HAP codecs](https://hap.video/)).
 
 <img src="./docs/media/previews/PX_IN_Video_v1.webp" height="231" title="PX IN Video" /> <img src="./docs/media/automation/PX_IN_Video_v1.webp" height="231" title="PX IN Video" />
+
+🧲 `AUTOMATION` To automate selected video file find `File` / `File Automation` parameter in automation lane
 
 ---
 
@@ -325,6 +339,8 @@ Procedural patterns with cosine palettes [popularized](https://iquilezles.org/ar
 Shaders in [twigl.app](https://twigl.app/) `geekest (300 es)` format.
 
 <img src="./docs/media/previews/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" /> <img src="./docs/media/automation/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" />
+
+🧲 `AUTOMATION` To automate selected sketch find `File` / `File Automation` parameter in automation lane
 
 #### GEN Mini Shader &mdash; Shader files
 
@@ -372,11 +388,9 @@ Custom OpenGL primitives scripting with JavaScript, slightly compatible with [op
 
 <img src="./docs/media/previews/PX_GEN_Sketching_v1.webp" height="231" title="PX GEN Sketching" /> <img src="./docs/media/automation/PX_GEN_Sketching_v1.webp" height="231" title="PX GEN Sketching" />
 
-🧲 `AUTOMATION` TBD
+🧲 `AUTOMATION` To automate selected sketch find `File` / `File Automation` parameter in automation lane
 
-✨ `TIP` TBD
-
-🧪 `DEV_NOTE` TBD
+🧪 `DEV_NOTE` This device is very limited, and due to the underlying tech `JS`/`jit.gl.sketch` it will likely develop into its own thing rather than processing.js compatible environment 
 
 ---
 
@@ -385,6 +399,8 @@ Custom OpenGL primitives scripting with JavaScript, slightly compatible with [op
 Text generation from session/clip names, custom text, or dynamic musical data (beat, bar.beat, time)
 
 <img src="./docs/media/previews/PX_GEN_Text_v1.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/automation/PX_GEN_Text_v1.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/devices/PX_GEN_Text_(expanded).webp" height="231" title="PX GEN Text (expanded)" />
+
+🧲 `AUTOMATION` To automate selected font find `Font` / `Font Automation` parameter in automation lane
 
 ---
 
@@ -409,6 +425,10 @@ Four blur shaders from Max/Jitter stock collection
 Color grading and adjustment tools
 
 <img src="./docs/media/previews/PX_FX_Color_v1.webp" height="231" title="PX FX Color" /> <img src="./docs/media/automation/PX_FX_Color_v1.webp" height="231" title="PX FX Color" /> <br><img src="./docs/media/devices/PX_FX_Color_(gamma).webp" height="148" title="PX FX Color (gamma)" /> <img src="./docs/media/devices/PX_FX_Color_(hue).webp" height="148" title="PX FX Color (hue)" />
+
+🧲 `AUTOMATION` For color wheels automation find `Dark X`, `Dark Y`, `Light X`, ... parameters in automation lane 
+
+✨ `TIP` To reset color wheel to default value click its label `Dark`, `Light`, ...
 
 ---
 
