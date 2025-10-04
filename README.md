@@ -354,24 +354,13 @@ Learn more about the [Modeling the World in 280 Characters](https://tympanus.net
 
 #### GEN Mini Shader &mdash; Utilities
 
-Included when needed.
+Dynamically included when referenced in mini shader GLSL.
 
-- F4
-- mod289
-- permute
-- taylorInvSqrt
-- snoise2D
-- snoise3D
-- grad4
-- snoise4D
-- fsnoise
-- fsnoiseDigits
-- hsv
-- rotate2D
-- rotate3D
-- PI
-- PI2
-- tanh (`#define tanh(x) tanh(clamp(x, -10.,10.))`)
+- **Noise**: `F4`, `mod289`, `permute`, `taylorInvSqrt`, `snoise2D`, `snoise3D`, `grad4`, `snoise4D`, `fsnoise`, `fsnoiseDigits`
+- **Color**: `hsv`
+- **Rotation**: `rotate2D`, `rotate3D`
+- **Constants**: `PI`, `PI2`
+- **Compatibility**: `tanh` (`#define tanh(x) tanh(clamp(x, -10.,10.))`)
 
 Learn more in [twigl documentation](https://github.com/doxas/twigl#twigl).
 
