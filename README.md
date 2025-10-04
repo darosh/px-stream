@@ -205,7 +205,7 @@ Video recording and screenshotting
 
 <img src="./docs/media/devices/PX_Rec.webp" height="231" title="PX Rec" />
 
-✨ `TIP`  Recorded files are stored under assets/video and directly available in [IN Video](#in-video) device
+✨ `TIP`  Recorded files are stored under `assets/video` and directly available in [IN Video](#in-video) device and for screenshot it is `assets/images` and [IN Image](#in-image)
 
 ---
 
