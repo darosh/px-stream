@@ -21,6 +21,7 @@
 - [ ] explore bundle folder structure
 - [ ] assets org
 - [ ] windows testing
+- [ ] check previews undo history on automation
 
 ## IFS
 
