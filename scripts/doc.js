@@ -280,14 +280,39 @@ function updateDescription (lines, device, description, images, preview, auto) {
   while (!(lines[end][0] === '#' || lines[end] === '---')) {
     end++
   }
+
+  const fullH = 231
+  const smallH = 148
+  const realH = 255
+  const ratio = fullH/realH
+  const ratioSmall = smallH/fullH
+
+  let size = images[0] ? realH : 0
+  let br = ''
+  let hasBr = false
   
-  let imagesHtml = images.map(i => {
-    return `<img src="${imageToFile(i, screenshots.v)}" height="231" title="${i}" />`
+  let imagesHtml = images.map(({name, width}, index) => {
+    let h
+
+    if (!index) {
+      size += width
+      h =  fullH
+    } else if (size < 800) {
+      h = fullH
+      size += width
+    } else {
+      h = smallH
+      size += width * ratioSmall
+      br = !hasBr ? '<br>' : ''
+      hasBr = true
+    }
+    
+    return `${br}<img src="${imageToFile(name, screenshots.v)}" height="${h}" title="${name}" />`
   })
 
   if (auto) {
     imagesHtml = [
-      `<img src="${automationToFile(auto, screenshotsAnim.v)}" height="231" title="${auto}" />`, 
+      `<img src="${automationToFile(auto, screenshotsAnim.v)}" height="231" title="${auto}" />`,
       ...imagesHtml.slice(1)
     ]
   }
@@ -337,23 +362,24 @@ function updateDeviceInfo (lines, devices) {
 
   for (const [device, { description }] of Object.entries(devices)) {
     const images = screenshots.devices
-      .filter(([_id, name]) => {
-        return name.replace(/ \(.+\)/, '') === device
+      .filter(([_id, name, _x, _width, exclude]) => {
+        return (name.replace(/ \(.+\)/, '') === device)
+          && !exclude
       })
-      .map(([_id, name]) => name)
+      .map(([_id, name, _x, width]) => ({ name, width }))
 
     const previews = screenshotsAnim.devices
-      .filter(([_id, name, _x, _y, arr]) => {
+      .filter(([_id, _name, _x, _y, arr]) => {
         return Array.isArray(arr)
       })
-      .map(([_id, name, _x, _y, arr]) => arr.map(([, n]) => n))
+      .map(([_id, _name, _x, _y, arr]) => arr.map(([, n]) => n))
       .flat()
       .filter((name) => {
         return name === device
       })
-    
+
     const autos = screenshotsAnim.devices
-      .filter(([_id, name, _x, _y, arr]) => {
+      .filter(([_id, _name, _x, _y, arr]) => {
         return !Array.isArray(arr) && (arr !== undefined)
       })
       .map(([_id, name]) => name)

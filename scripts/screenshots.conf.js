@@ -7,7 +7,7 @@ export default {
   y1: 385,
   devices: [
     [1, 'PX World', 248],
-    [1, 'PX Mix View', 676, true],
+    [1, 'PX Mix View', 676],
     [1, 'PX Shader', 856 + 3 * 16 * 2],
     [1, 'PX Mix Channel', 276],
     [1, 'PX Mix Dry', 276],
@@ -28,7 +28,7 @@ export default {
     [3, 'DEV Info', 528],
     [3, 'DEV Console', 276],
     [3, 'PX FX Convert', 276],
-    [3, 'PX FX Convert (convert back)', 276],
+    [3, 'PX FX Convert (convert back)', 276, true],
     [3, 'PX World (mad world)', 248],
     [4, 'PX FX Color', 648],
     [4, 'PX FX Color (gamma)', 620],
@@ -45,9 +45,9 @@ export default {
     [6, 'PX GEN Sketching', 468],
     [6, 'PX GEN Mini Shader', 468],
     [6, 'PX Rec', 224]
-  ].map(([src, name, x1, animated]) => {
+  ].map(([src, name, x1, exclude]) => {
     WIDTHS[src] = WIDTHS[src] || 14
-    const r = [src, name, WIDTHS[src], x1, animated]
+    const r = [src, name, WIDTHS[src], x1, exclude]
     WIDTHS[src] = r[2] + r[3] + 10
     return r
   })
