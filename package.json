@@ -30,7 +30,7 @@
     "lint:maxpat:fix:layout": "eslint ./devices/*.maxpat --fix --fix-type layout",
     "lint:maxpat:info": "eslint ./devices/*.maxpat --format node_modules/eslint-plugin-maxpat/lib/formatter.js",
     "measure": "node ./scripts/meausures.js",
-    "osascript:amxd:freeze": "rm -f ./devices/frozen/*.amxd && osascript ./scripts/freeze.scpt \"$(pwd)/devices\" \"$(pwd)/devices/frozen\"",
+    "osascript:amxd:freeze": "rm -f ./devices/frozen/*.amxd && osascript ./scripts/freeze.scpt \"$(pwd)/devices\" \"$(pwd)/frozen\"",
     "osascript:amxd:resave": "osascript ./scripts/resave.scpt \"$(pwd)/devices\"",
     "osascript:maxpat:resave": "osascript ./scripts/resave-maxpat.scpt \"$(pwd)/devices\"",
     "params:collect": "node scripts/params.js collect './devices/*.maxpat' './scripts/params/'",
