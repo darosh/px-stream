@@ -372,6 +372,10 @@ Custom OpenGL primitives scripting with JavaScript, slightly compatible with [op
 
 <img src="./docs/media/previews/PX_GEN_Sketching_v1.webp" height="231" title="PX GEN Sketching" /> <img src="./docs/media/automation/PX_GEN_Sketching_v1.webp" height="231" title="PX GEN Sketching" />
 
+🧲 `AUTOMATION` TBD
+
+🧪 `DEV_NOTE` TBD
+
 ---
 
 ### GEN Text
