@@ -3,7 +3,7 @@ import { glob } from 'glob'
 import config, { automationToFile, previewToFile } from './screenshots.animated.conf.js'
 
 function makeAnimatedWebp (inputFile, outputFile, x, y, w, h, s, t) {
-  console.log({inputFile, outputFile, x, y, w, h, s, t})
+  // console.log({inputFile, outputFile, x, y, w, h, s, t})
   
   return new Promise((resolve, reject) => {
     const args = [
