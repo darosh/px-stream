@@ -9,7 +9,10 @@
 - [ ] doc exclusive rotation
 - [ ] guide
 - [ ] screenshot shortcuts
-- [ ] FX preview, animation
+- [ ] FX preview, animation, shader, color, kaleido, pass
+- [ ] remove second convert image
+- [ ] secondary images should be smaller?
+- [ ] doc tab layout? top/side,bottom note?
 
 ## Misc
 
@@ -18,6 +21,8 @@
 - [ ] explore bundle folder structure
 - [ ] assets org
 - [ ] windows testing
+- [ ] fix: transform rotation switch
+- [ ] fix: kaleidoscope type switch
 
 ## IFS
 
@@ -30,6 +35,10 @@
 
 ## Done
 
+- [x] disable value in cos pattern?
+- [x] color grade automation
+- [x] fix: video reset label
+- [x] fix: svg file switch
 - [x] double-check int params! "parameter_type" : 1
 - [x] double-check generic val1 val2 enums
 - [x] assets licence
@@ -240,3 +249,4 @@
 - [x] categorize
 - [x] fps
 - [x] unified wav
+    

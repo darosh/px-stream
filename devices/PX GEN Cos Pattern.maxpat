@@ -21,6 +21,30 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-114",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 56.0, 512.0, 64.0, 22.0 ],
+					"text" : "active $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 56.0, 480.0, 304.0, 22.0 ],
+					"text" : "expr $i1 == 4 || $i1 == 5 || $i1 == 6 || $i1 == 8 || $i1 == 9"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-122",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -176,7 +200,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 936.0, 135.0, 22.0 ],
+					"patching_rect" : [ 176.0, 560.0, 135.0, 22.0 ],
 					"text" : "prepend param value_1"
 				}
 
@@ -408,7 +432,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 392.0, 912.0, 44.0, 15.0 ],
+					"patching_rect" : [ 208.0, 536.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 249.0, 119.0, 64.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -655,7 +679,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active1" : [ 0.9, 0.65, 0.05, 1.0 ],
+					"active1" : [ 1.0, 0.67843137254902, 0.337254901960784, 1.0 ],
 					"bubblesize" : 12,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.0,
@@ -2013,7 +2037,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 24.0, 496.0, 304.0, 48.0 ],
+					"patching_rect" : [ 24.0, 408.0, 304.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 142.0, 126.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2190,7 +2214,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -2410,6 +2434,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-122", 0 ],
 					"source" : [ "obj-113", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-97", 0 ],
+					"source" : [ "obj-114", 0 ]
 				}
 
 			}
@@ -2668,6 +2699,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"order" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -2846,6 +2886,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-114", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -3251,6 +3298,16 @@
 			"obj-95" : [ "B", "B", 0 ],
 			"obj-96" : [ "Keep Scale Ratio", "Keep Scale Ratio", 0 ],
 			"obj-97" : [ "Value", "Value", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-109::obj-151" : 				{
 					"parameter_longname" : "Dimensions[1]"
