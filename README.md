@@ -446,7 +446,7 @@ Texture format conversion including OKLAB and normalized OKLAB aka NOKLAB
 
 <img src="./docs/media/previews/PX_FX_Convert_v1.webp" height="231" title="PX FX Convert" /> <img src="./docs/media/automation/PX_FX_Convert_v1.webp" height="231" title="PX FX Convert" />
 
-✨ `TIP` to get weird colors two sequential FX Convert with different format
+✨ `TIP` to get even weirder colors use two `FX Convert` devices with different format
 
 ---
 
