@@ -21,7 +21,6 @@
 - [ ] explore bundle folder structure
 - [ ] assets org
 - [ ] windows testing
-- [ ] fix: transform rotation switch
 - [ ] fix: kaleidoscope type switch
 
 ## IFS
@@ -35,6 +34,7 @@
 
 ## Done
 
+- [x] fix: transform rotation switch
 - [x] disable value in cos pattern?
 - [x] color grade automation
 - [x] fix: video reset label
