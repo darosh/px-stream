@@ -374,6 +374,10 @@ Custom OpenGL primitives scripting with JavaScript, slightly compatible with [op
 
 🧲 `AUTOMATION` TBD
 
+✨ `TIP` TBD
+
+💡 `TIP` TBD
+
 🧪 `DEV_NOTE` TBD
 
 ---
