@@ -340,7 +340,7 @@ Shaders in [twigl.app](https://twigl.app/) `geekest (300 es)` format.
 
 <img src="./docs/media/previews/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" /> <img src="./docs/media/automation/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" />
 
-🧲 `AUTOMATION` To automate selected sketch find `File` / `File Automation` parameter in automation lane
+🧲 `AUTOMATION` To automate selected mini shader find `File` / `File Automation` parameter in automation lane
 
 #### GEN Mini Shader &mdash; Shader files
 
@@ -446,6 +446,8 @@ Texture format conversion including OKLAB and normalized OKLAB aka NOKLAB
 
 <img src="./docs/media/previews/PX_FX_Convert_v1.webp" height="231" title="PX FX Convert" /> <img src="./docs/media/automation/PX_FX_Convert_v1.webp" height="231" title="PX FX Convert" />
 
+✨ `TIP` to get weird colors two sequential FX Convert with different format
+
 ---
 
 ### FX Delay
@@ -453,6 +455,8 @@ Texture format conversion including OKLAB and normalized OKLAB aka NOKLAB
 Frame-based texture delay. Combine with Mix Dry device for ghost trail effects.
 
 <img src="./docs/media/previews/PX_FX_Delay_v1.webp" height="231" title="PX FX Delay" /> <img src="./docs/media/automation/PX_FX_Delay_v1.webp" height="231" title="PX FX Delay" />
+
+✨ `TIP` To see the dry and delayed signal at same time put [Mix Dry](#px-mix-dry) device after the delay one
 
 ---
 
@@ -470,6 +474,10 @@ Postprocessing shaders from Max/Jitter stock library. See [Max documentation](ht
 
 <img src="./docs/media/previews/PX_FX_Pass_v1.webp" height="231" title="PX FX Pass" /> <img src="./docs/media/automation/PX_FX_Pass_v1.webp" height="231" title="PX FX Pass" />
 
+✨ `TIP` Everything looks better with Bloom effect, especially if you are into the neon glowing aesthetics.
+
+✨ `TIP` To adjust Bloom effect find the right `Threshold` first and then set the `Bloom` amount
+
 ---
 
 ### FX Pixelization
@@ -477,6 +485,12 @@ Postprocessing shaders from Max/Jitter stock library. See [Max documentation](ht
 Multi-shape pixelization: rectangular, circular, honeycomb, hexagonal, triangular grids
 
 <img src="./docs/media/previews/PX_FX_Pixelization_v1.webp" height="231" title="PX FX Pixelization" /> <img src="./docs/media/automation/PX_FX_Pixelization_v1.webp" height="231" title="PX FX Pixelization" />
+
+✨ `TIP` To make a gap between pixels lower the `Shape %` value
+
+✨ `TIP` To make image less pixelated adjust the `Smooth` parameter
+
+✨ `TIP` For LED like glowing effect use `Fading`
 
 ---
 
