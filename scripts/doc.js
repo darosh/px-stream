@@ -287,7 +287,7 @@ function updateDescription (lines, device, description, images, preview, auto) {
 
   if (auto) {
     imagesHtml = [
-      `<img src="${automationToFile(auto, screenshots.v)}" height="231" title="${auto}" />`, 
+      `<img src="${automationToFile(auto, screenshotsAnim.v)}" height="231" title="${auto}" />`, 
       ...imagesHtml.slice(1)
     ]
   }
