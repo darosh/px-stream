@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 579.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -89,7 +89,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.27843137254902, 0.27843137254902, 0.27843137254902, 0.0 ],
-					"blinkcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"blinkcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"id" : "obj-43",
 					"ignoreclick" : 1,
 					"maxclass" : "button",
@@ -126,8 +126,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Reset",
-					"automation" : "",
-					"automationon" : "Reset",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-14",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -141,7 +141,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset",
-							"parameter_enum" : [ "", "Reset" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Reset",
@@ -1155,7 +1155,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -1991,16 +1991,6 @@
 			"obj-4::obj-6" : [ "File Automation", "File", 0 ],
 			"obj-4::obj-76" : [ "File", "File", 0 ],
 			"obj-91" : [ "View", "View", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-17::obj-151" : 				{
 					"parameter_longname" : "Dimensions"
