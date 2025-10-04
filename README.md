@@ -177,13 +177,13 @@ Send texture to selected channel. Alternative to individual channel selectors on
 
 Dry/wet mix from two previous devices. Select which (-1 to -4) for dry signal. Multiple blend modes and signal swap. Swap has no effect on [commutative](https://en.wikipedia.org/wiki/Commutative_property) blending methods.
 
-<img src="./docs/media/previews/PX_Mix_Dry.webp" height="231" title="PX Mix Dry" /> <img src="./docs/media/automation/PX_Mix_Dry.webp" height="231" title="PX Mix Dry" />
+<img src="./docs/media/previews/PX_Mix_Dry_v1.webp" height="231" title="PX Mix Dry" /> <img src="./docs/media/automation/PX_Mix_Dry.webp" height="231" title="PX Mix Dry" />
 
 ### PX Mix Transition
 
 Transition between two previous devices. Channel selection same as Mix Dry. Uses 90+ transitions from [gl-transitions.com](https://gl-transitions.com/).
 
-<img src="./docs/media/previews/PX_Mix_Transition.webp" height="231" title="PX Mix Transition" /> <img src="./docs/media/automation/PX_Mix_Transition.webp" height="231" title="PX Mix Transition" />
+<img src="./docs/media/previews/PX_Mix_Transition_v1.webp" height="231" title="PX Mix Transition" /> <img src="./docs/media/automation/PX_Mix_Transition.webp" height="231" title="PX Mix Transition" />
 
 ### PX Rec
 
@@ -211,7 +211,7 @@ Send MIDI from selected track to next device. Works with [PX Shader](#px-shader)
 
 Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects. Up to 32 dynamic parameters and various audio rendering options with our custom audio types.
 
-<img src="./docs/media/previews/PX_Shader.webp" height="231" title="PX Shader" /> <img src="./docs/media/devices/PX_Shader.webp" height="231" title="PX Shader" /> <img src="./docs/media/devices/PX_Shader_(types).webp" height="231" title="PX Shader (types)" />
+<img src="./docs/media/previews/PX_Shader_v1.webp" height="231" title="PX Shader" /> <img src="./docs/media/devices/PX_Shader.webp" height="231" title="PX Shader" /> <img src="./docs/media/devices/PX_Shader_(types).webp" height="231" title="PX Shader (types)" />
 
 #### Audio types
 
@@ -262,19 +262,19 @@ Live input from connected video devices
 
 Static image input. Supports JPG, WEBP and PNG formats.
 
-<img src="./docs/media/previews/PX_IN_Image.webp" height="231" title="PX IN Image" /> <img src="./docs/media/automation/PX_IN_Image.webp" height="231" title="PX IN Image" />
+<img src="./docs/media/previews/PX_IN_Image_v1.webp" height="231" title="PX IN Image" /> <img src="./docs/media/automation/PX_IN_Image.webp" height="231" title="PX IN Image" />
 
 ### IN SVG
 
 Vector graphics input with resolution-independent scaling SVG file formal
 
-<img src="./docs/media/previews/PX_IN_SVG.webp" height="231" title="PX IN SVG" /> <img src="./docs/media/automation/PX_IN_SVG.webp" height="231" title="PX IN SVG" />
+<img src="./docs/media/previews/PX_IN_SVG_v1.webp" height="231" title="PX IN SVG" /> <img src="./docs/media/automation/PX_IN_SVG.webp" height="231" title="PX IN SVG" />
 
 ### IN Video
 
 Video playback. Supports MP4, AVI, MOV (including [HAP codecs](https://hap.video/)).
 
-<img src="./docs/media/previews/PX_IN_Video.webp" height="231" title="PX IN Video" /> <img src="./docs/media/automation/PX_IN_Video.webp" height="231" title="PX IN Video" />
+<img src="./docs/media/previews/PX_IN_Video_v1.webp" height="231" title="PX IN Video" /> <img src="./docs/media/automation/PX_IN_Video.webp" height="231" title="PX IN Video" />
 
 ---
 
@@ -296,13 +296,13 @@ Use channel mix from [Mix View](#px-mix-view) device as input texture.
 
 Procedural patterns with cosine palettes [popularized](https://iquilezles.org/articles/palettes/) by Inigo Quilez
 
-<img src="./docs/media/previews/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" /> <img src="./docs/media/automation/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" />
+<img src="./docs/media/previews/PX_GEN_Cos_Pattern_v1.webp" height="231" title="PX GEN Cos Pattern" /> <img src="./docs/media/automation/PX_GEN_Cos_Pattern.webp" height="231" title="PX GEN Cos Pattern" />
 
 ### GEN Mini Shader
 
 Shaders in [twigl.app](https://twigl.app/) `geekest (300 es)` format.
 
-<img src="./docs/media/previews/PX_GEN_Mini_Shader.webp" height="231" title="PX GEN Mini Shader" /> <img src="./docs/media/automation/PX_GEN_Mini_Shader.webp" height="231" title="PX GEN Mini Shader" />
+<img src="./docs/media/previews/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" /> <img src="./docs/media/automation/PX_GEN_Mini_Shader.webp" height="231" title="PX GEN Mini Shader" />
 
 #### Shader files
 
@@ -357,13 +357,13 @@ Learn more in [twigl documentation](https://github.com/doxas/twigl#twigl).
 
 Custom OpenGL primitives scripting with JavaScript, slightly compatible with [openprocessing.org](https://openprocessing.org/)
 
-<img src="./docs/media/previews/PX_GEN_Sketching.webp" height="231" title="PX GEN Sketching" /> <img src="./docs/media/automation/PX_GEN_Sketching.webp" height="231" title="PX GEN Sketching" />
+<img src="./docs/media/previews/PX_GEN_Sketching_v1.webp" height="231" title="PX GEN Sketching" /> <img src="./docs/media/automation/PX_GEN_Sketching.webp" height="231" title="PX GEN Sketching" />
 
 ### GEN Text
 
 Text generation from session/clip names, custom text, or dynamic musical data (beat, bar.beat, time)
 
-<img src="./docs/media/previews/PX_GEN_Text.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/automation/PX_GEN_Text.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/devices/PX_GEN_Text_(expanded).webp" height="231" title="PX GEN Text (expanded)" />
+<img src="./docs/media/previews/PX_GEN_Text_v1.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/automation/PX_GEN_Text.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/devices/PX_GEN_Text_(expanded).webp" height="231" title="PX GEN Text (expanded)" />
 
 ---
 
@@ -371,61 +371,61 @@ Text generation from session/clip names, custom text, or dynamic musical data (b
 
 Alpha channel tools: chroma key, mapping, inversion, smoothing, removal, etc.
 
-<img src="./docs/media/previews/PX_FX_Alpha.webp" height="231" title="PX FX Alpha" /> <img src="./docs/media/automation/PX_FX_Alpha.webp" height="231" title="PX FX Alpha" />
+<img src="./docs/media/previews/PX_FX_Alpha_v1.webp" height="231" title="PX FX Alpha" /> <img src="./docs/media/automation/PX_FX_Alpha.webp" height="231" title="PX FX Alpha" />
 
 ### FX Blur
 
 Four blur shaders from Max/Jitter stock collection
 
-<img src="./docs/media/previews/PX_FX_Blur.webp" height="231" title="PX FX Blur" /> <img src="./docs/media/automation/PX_FX_Blur.webp" height="231" title="PX FX Blur" />
+<img src="./docs/media/previews/PX_FX_Blur_v1.webp" height="231" title="PX FX Blur" /> <img src="./docs/media/automation/PX_FX_Blur.webp" height="231" title="PX FX Blur" />
 
 ### FX Color
 
 Color grading and adjustment tools
 
-<img src="./docs/media/previews/PX_FX_Color.webp" height="231" title="PX FX Color" /> <img src="./docs/media/automation/PX_FX_Color.webp" height="231" title="PX FX Color" /> <img src="./docs/media/devices/PX_FX_Color_(gamma).webp" height="231" title="PX FX Color (gamma)" /> <img src="./docs/media/devices/PX_FX_Color_(hue).webp" height="231" title="PX FX Color (hue)" />
+<img src="./docs/media/previews/PX_FX_Color_v1.webp" height="231" title="PX FX Color" /> <img src="./docs/media/automation/PX_FX_Color.webp" height="231" title="PX FX Color" /> <img src="./docs/media/devices/PX_FX_Color_(gamma).webp" height="231" title="PX FX Color (gamma)" /> <img src="./docs/media/devices/PX_FX_Color_(hue).webp" height="231" title="PX FX Color (hue)" />
 
 ### FX Colorize
 
 Two/tri tone colorization with multiple mapping methods
 
-<img src="./docs/media/previews/PX_FX_Colorize.webp" height="231" title="PX FX Colorize" /> <img src="./docs/media/automation/PX_FX_Colorize.webp" height="231" title="PX FX Colorize" />
+<img src="./docs/media/previews/PX_FX_Colorize_v1.webp" height="231" title="PX FX Colorize" /> <img src="./docs/media/automation/PX_FX_Colorize.webp" height="231" title="PX FX Colorize" />
 
 ### FX Convert
 
 Texture format conversion including OKLAB and normalized OKLAB aka NOKLAB
 
-<img src="./docs/media/previews/PX_FX_Convert.webp" height="231" title="PX FX Convert" /> <img src="./docs/media/automation/PX_FX_Convert.webp" height="231" title="PX FX Convert" /> <img src="./docs/media/devices/PX_FX_Convert_(convert_back).webp" height="231" title="PX FX Convert (convert back)" />
+<img src="./docs/media/previews/PX_FX_Convert_v1.webp" height="231" title="PX FX Convert" /> <img src="./docs/media/automation/PX_FX_Convert.webp" height="231" title="PX FX Convert" /> <img src="./docs/media/devices/PX_FX_Convert_(convert_back).webp" height="231" title="PX FX Convert (convert back)" />
 
 ### FX Delay
 
 Frame-based texture delay. Combine with Mix Dry device for ghost trail effects.
 
-<img src="./docs/media/previews/PX_FX_Delay.webp" height="231" title="PX FX Delay" /> <img src="./docs/media/automation/PX_FX_Delay.webp" height="231" title="PX FX Delay" />
+<img src="./docs/media/previews/PX_FX_Delay_v1.webp" height="231" title="PX FX Delay" /> <img src="./docs/media/automation/PX_FX_Delay.webp" height="231" title="PX FX Delay" />
 
 ### FX Kaleidoscope
 
 Kaleidoscope patterns based on [Brewster designs]((https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster)) plus Max/Jitter shader
 
-<img src="./docs/media/previews/PX_FX_Kaleidoscope.webp" height="231" title="PX FX Kaleidoscope" /> <img src="./docs/media/automation/PX_FX_Kaleidoscope.webp" height="231" title="PX FX Kaleidoscope" />
+<img src="./docs/media/previews/PX_FX_Kaleidoscope_v1.webp" height="231" title="PX FX Kaleidoscope" /> <img src="./docs/media/automation/PX_FX_Kaleidoscope.webp" height="231" title="PX FX Kaleidoscope" />
 
 ### FX Pass
 
 Postprocessing shaders from Max/Jitter stock library. See [Max documentation](https://docs.cycling74.com/reference/jit.gl.pass).
 
-<img src="./docs/media/previews/PX_FX_Pass.webp" height="231" title="PX FX Pass" /> <img src="./docs/media/automation/PX_FX_Pass.webp" height="231" title="PX FX Pass" />
+<img src="./docs/media/previews/PX_FX_Pass_v1.webp" height="231" title="PX FX Pass" /> <img src="./docs/media/automation/PX_FX_Pass.webp" height="231" title="PX FX Pass" />
 
 ### FX Pixelization
 
 Multi-shape pixelization: rectangular, circular, honeycomb, hexagonal, triangular grids
 
-<img src="./docs/media/previews/PX_FX_Pixelization.webp" height="231" title="PX FX Pixelization" /> <img src="./docs/media/automation/PX_FX_Pixelization.webp" height="231" title="PX FX Pixelization" />
+<img src="./docs/media/previews/PX_FX_Pixelization_v1.webp" height="231" title="PX FX Pixelization" /> <img src="./docs/media/automation/PX_FX_Pixelization.webp" height="231" title="PX FX Pixelization" />
 
 ### FX Transform
 
 Geometric transformations: scale, shift, rotation (around axis or vector)
 
-<img src="./docs/media/previews/PX_FX_Transform.webp" height="231" title="PX FX Transform" /> <img src="./docs/media/automation/PX_FX_Transform.webp" height="231" title="PX FX Transform" />
+<img src="./docs/media/previews/PX_FX_Transform_v1.webp" height="231" title="PX FX Transform" /> <img src="./docs/media/automation/PX_FX_Transform.webp" height="231" title="PX FX Transform" />
 
 ---
 

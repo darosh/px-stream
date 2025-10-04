@@ -6,7 +6,7 @@ const COL = 46
 export default {
   offset: [0.5, 0.75, 0.7, 0.5, 0.6],
   time: 1.825,
-  v: 0,
+  v: 1,
   frame: 2,
   y0: 1445,
   y1: 385,
