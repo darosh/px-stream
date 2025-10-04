@@ -1,6 +1,6 @@
 {
   "DEV Console": {
-    description: "Enables detailed Max console output for development and debugging. ⚠\uFE0F DO NOT USE IN PRODUCTION."
+    description: "Enables detailed Max console output for development and debugging. ⚠ DO NOT USE IN PRODUCTION!"
   },
   "DEV Info": {
     description: "Shows texture info for development purposes"

@@ -205,7 +205,7 @@ Video recording and screenshotting
 
 <img src="./docs/media/devices/PX_Rec.webp" height="231" title="PX Rec" />
 
-Recorded files are stored under assets/video and directly available in [IN Video](#in-video) device
+✨ `TIP`  Recorded files are stored under assets/video and directly available in [IN Video](#in-video) device
 
 ---
 
@@ -512,7 +512,7 @@ Shows texture info for development purposes
 
 ### DEV Console
 
-Enables detailed Max console output for development and debugging. DO NOT USE IN PRODUCTION.
+Enables detailed Max console output for development and debugging. ⚠ DO NOT USE IN PRODUCTION!
 
 <img src="./docs/media/devices/DEV_Console.webp" height="231" title="DEV Console" />
 
