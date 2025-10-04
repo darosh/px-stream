@@ -25,3 +25,4 @@ docs/media/temp/Screenshot 2*.png
 docs/media/temp/screenshot-*.mov
 docs/media/temp/Screen Recording *.mov
 tests/fixtures/* Project/Backup/
+tests/fixtures/PX Stream Project/
