@@ -21,6 +21,7 @@
   "private": true,
   "scripts": {
     "build": "run-s build:clean build:pre osascript:amxd:freeze build:assets build:devices build:post",
+    "build:onerror": "run-s osascript:amxd:freeze-post build:assets build:devices build:post",
     "build:assets": "rsync -av --exclude='*/.*' ./assets/ './scripts/packaging/PX Stream/Assets/'",
     "build:clean": "rm -rf './scripts/packaging/PX Stream/Assets' './scripts/packaging/PX Stream/Devices'",
     "build:devices": "mkdir -p './scripts/packaging/PX Stream/Devices' && mv ./frozen/*.amxd './scripts/packaging/PX Stream/Devices/'",
@@ -39,6 +40,7 @@
     "lint:maxpat:info": "eslint ./devices/*.maxpat --format node_modules/eslint-plugin-maxpat/lib/formatter.js",
     "measure": "node ./scripts/meausures.js",
     "osascript:amxd:freeze": "rm -f ./devices/frozen/*.amxd && osascript ./scripts/freeze.scpt \"$(pwd)/devices\" \"$(pwd)/frozen\"",
+    "osascript:amxd:freeze-post": "osascript ./scripts/freeze-post.scpt \"$(pwd)/devices\" \"$(pwd)/frozen\"",
     "osascript:amxd:resave": "osascript ./scripts/resave.scpt \"$(pwd)/devices\"",
     "osascript:maxpat:resave": "osascript ./scripts/resave-maxpat.scpt \"$(pwd)/devices\"",
     "params:collect": "node scripts/params.js collect './devices/*.maxpat' './scripts/params/'",
