@@ -123,7 +123,7 @@ Most of the 500+ parameters in the toolkit can be [automated in standard way](ht
 - **File and font menus** in devices loading dynamic assets operate on two ways
   1. when you only select single value without automation the session will restore the value based on selected name
   2. when you automate, for example `File / File Automation` parameter in [IN SVG](#in-svg) the automation is based on order of items and will break if you change the content of loaded folder, for example `assets/svg`
-- **Color wheels** in [FX Color](#fx-color) see 🧲 `AUTOMATION` note in the device documentation
+- **Color wheels** in [FX Color](#fx-color) &mdash; see  🧲 `AUTOMATION` note in the device documentation
 
 <br>
 
