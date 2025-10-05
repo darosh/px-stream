@@ -76,10 +76,14 @@
 1. Download latest [release](https://github.com/darosh/px-stream/releases)
 2. Follow official instructions on [Using third-party Packs](https://help.ableton.com/hc/en-us/articles/206471044-Using-third-party-Packs)
 
+<br>
+
 ## Troubleshooting and feedback
 
 - File an [issue](https://github.com/darosh/px-stream/issues) or vote on existing one
 - Join our [Discord server](https://discord.gg/de5txQSven)
+
+<br>
 
 ## Guides
 
@@ -167,6 +171,8 @@ TBD
     </td>
   </tr>
 </table>
+
+<br>
 
 ### PX World
 
@@ -529,6 +535,8 @@ Enables detailed Max console output for development and debugging. ⚠ DO NOT US
 
 <img src="./docs/media/devices/DEV_Console.webp" height="231" title="DEV Console" />
 
+<br>
+
 ## Alternatives
 
 Max for Live
@@ -546,6 +554,8 @@ Max for Live + App
 VST
 
 - [VS - Visual Synthesizer](https://www.imaginando.pt/products/vs-visual-synthesizer)
+
+<br>
 
 ## License
 
