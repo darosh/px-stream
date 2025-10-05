@@ -92,31 +92,38 @@
 1. Insert [PX World](#px-world) device
 2. Insert [PX Mix View](#px-mix-view) device
 3. Insert [GEN Mini Shader](#gen-mini-shader) device
-4. Select channel number 1 in `channel selector in the bottom of the last inserted device
+4. Select channel number **1** in `channel selector in the bottom of the last inserted device
 
-![Minimal patch](./docs/media/guide/Minimal_patch.webp)
+<img src="./docs/media/guide/Minimal_patch.webp" height="231" title="Minimal patch" />
 
 ✨ `TIP`  All devices start with PX so you can quickly select device with sequence <kbd>Command+F</kbd> + `px wo` + <kbd>Down</kbd> + <kbd>Enter</kbd>
 
-### Guides &mdash; Concept basics: Chain, Channel, Mix
+### Guides &mdash; Adding FX
 
-TBD
+1. Select **P** (Pass) in `channel selector` in the `GEN Mini Shader` device from previous guide
+2. Insert [FX Kaleidoscope](#fx-kaleidoscope) device
+3. Insert [PX Mix Channel](#px-mix-channel) device
+4. Select **1** in `channel selector in the bottom of the last inserted device
+5. Adjust FX Kaleidoscope parameters as you like
 
-### Guides &mdash; Extending patch
+<img src="./docs/media/guide/Adding_FX.webp" height="231" title="Adding FX" />
 
-TBD
+### Guides &mdash; Using Mix Dry
 
-### Guides &mdash; Dry/Wet
+1. Insert [IN SVG](#in-svg) device before `Mix Channel` device and select `PX Stream logo`
+2. Insert [PX Mix Dry](#px-mix-dry) before `Mix Channel` device
+3. Experiment with parameters in the `Mix Dry` device
 
-TBD
-
-### Guides &mdash; Transitions
-
-TBD
+<img src="./docs/media/guide/Using_Mix_Dry.webp" height="231" title="Using Mix Dry" />
 
 ### Guides &mdash; Automation
 
-TBD
+Most of the 500+ parameters in the toolkit can be [automated in standard way](https://www.ableton.com/en/manual/automation-and-editing-envelopes/) with few exceptions:
+
+- **File and font menus** in devices loading dynamic assets operate on two ways
+  1. when you only select single value without automation the session will restore the value based on selected name
+  2. when you automate, for example `File / File Automation` parameter in [IN SVG](#in-svg) the automation is based on order of items and will break if you change the content of loaded folder, for example `assets/svg`
+- **Color wheels** in [FX Color](#fx-color) see 🧲 `AUTOMATION` note in the device documentation
 
 <br>
 
