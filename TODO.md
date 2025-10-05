@@ -14,7 +14,11 @@
 - [ ] If parameter automation causes high CPU load, try enabling Defer Automation Output in the object Inspector,
   or try higher values for the Update Limit.
 - [ ] windows testing
+- [ ] sample presets
+- [ ] check grouping
+- [ ] check return and master
 - [ ] check previews undo history on automation
+- [ ] fix channel update on device remove
 
 ## IFS
 
