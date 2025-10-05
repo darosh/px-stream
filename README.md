@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](LICENSE)
 [![Discord](https://img.shields.io/discord/1329379539708805193?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/de5txQSven)
+[![Downloads](https://img.shields.io/github/downloads/darosh/px-stream/total?label=Downloads)](https://github.com/darosh/px-stream/releases)
 
 ⚠️ Work in progress. Not ready for use. Stay tuned.
 
