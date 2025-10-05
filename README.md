@@ -170,8 +170,8 @@ Multichannel mixing and preview. Mix output selected in expanded section can be 
 <img src="./docs/media/devices/PX_Mix_View.webp" height="231" title="PX Mix View" /> <br><img src="./docs/media/devices/PX_Mix_View_(expanded).webp" height="148" title="PX Mix View (expanded)" />
 
 🎛️ `Hotkeys` 
-- <kbd>Shift+Click</kbd> for instant screenshot stored in `assets/images`, it will be available in [IN Image](#in-image) device
-- <kbd>Control+Click</kbd> for instant video recording (while holding the mouse button) stored in `assets/video`, it will be available in [IN Video](#in-video) device
+- <kbd>Shift+Click</kbd> for instant screenshot stored in `assets/images`, it will be available in [IN Image](#in-image) device as PNG file
+- <kbd>Control+Click</kbd> for instant video recording (while holding the mouse button) stored in `assets/video`, it will be available in [IN Video](#in-video) device as MOV file. For more control and automation use [PX Rec](#px-rec) device instead.
 
 ---
 
@@ -205,7 +205,7 @@ Video recording and screenshotting
 
 <img src="./docs/media/devices/PX_Rec.webp" height="231" title="PX Rec" />
 
-✨ `TIP`  Recorded files are stored under `assets/video` and directly available in [IN Video](#in-video) device and for screenshot it is `assets/images` and [IN Image](#in-image)
+✨ `TIP`  Recorded files are stored under `assets/video` as MOV files and directly available in [IN Video](#in-video) device and for screenshot it is PNG files in `assets/images` and [IN Image](#in-image) device
 
 ---
 

@@ -7,19 +7,12 @@
 - [ ] doc world enabled automation
 - [ ] doc FS display link and fps 0, and multi fs limitation
 - [ ] doc exclusive rotation
-- [ ] guide
-- [ ] screenshot shortcuts
-- [ ] FX preview, animation, shader, color, kaleido, pass
-- [ ] remove second convert image
-- [ ] secondary images should be smaller?
-- [ ] doc tab layout? top/side,bottom note?
+- [ ] guide + screenshots
 
 ## Misc
 
 - [ ] If parameter automation causes high CPU load, try enabling Defer Automation Output in the object Inspector,
   or try higher values for the Update Limit.
-- [ ] explore bundle folder structure
-- [ ] assets org
 - [ ] windows testing
 - [ ] check previews undo history on automation
 
@@ -34,6 +27,13 @@
 
 ## Done
 
+- [x] screenshot shortcuts
+- [x] FX preview, animation, shader, color, kaleido, pass
+- [x] remove second convert image
+- [x] secondary images should be smaller?
+- [x] ~~doc tab layout? top/side,bottom note?~~
+- [x] explore bundle folder structure
+- [x] assets org
 - [x] fix: kaleidoscope switches, params
 - [x] fix: transform rotation switch
 - [x] disable value in cos pattern?
