@@ -34,3 +34,13 @@ chmod +x ./scripts/assets/images_download.sh
 chmod +x ./scripts/assets/images_convert.sh
 ./scripts/assets/images_convert.sh
 ```
+
+## Lessons 
+
+Does not work for user created packs? :()
+
+- [Add Your Own Lessons](https://forum.ableton.com/viewtopic.php?p=1222009#p1222009)
+
+Supports metadata but not packs :(
+
+- [kmontag/alpax](https://github.com/kmontag/alpax)
