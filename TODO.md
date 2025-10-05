@@ -31,6 +31,7 @@
 
 ## Done
 
+- [x] mini shader param y fix
 - [x] screenshot shortcuts
 - [x] FX preview, animation, shader, color, kaleido, pass
 - [x] remove second convert image

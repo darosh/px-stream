@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 579.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 579.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -230,7 +230,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 793.0, 1377.0, 39.0, 22.0 ],
+					"patching_rect" : [ 792.0, 1360.0, 39.0, 22.0 ],
 					"text" : "/ 127."
 				}
 
@@ -242,7 +242,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 720.0, 1377.0, 39.0, 22.0 ],
+					"patching_rect" : [ 688.0, 1360.0, 39.0, 22.0 ],
 					"text" : "/ 127."
 				}
 
@@ -636,7 +636,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 720.0, 1106.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 153.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 132.0, 153.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Param Y",
@@ -644,7 +644,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Param Y",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Param Y",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -653,20 +653,6 @@
 					}
 ,
 					"varname" : "live.numbox[7]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-92",
-					"maxclass" : "live.comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 720.0, 1073.0, 71.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 138.0, 54.0, 18.0 ],
-					"text" : "Param Y",
-					"textjustification" : 0
 				}
 
 			}
@@ -681,7 +667,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 776.0, 1106.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 132.0, 153.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 180.0, 153.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Param X",
@@ -707,7 +693,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 800.0, 1073.0, 71.0, 18.0 ],
+					"patching_rect" : [ 696.0, 1072.0, 71.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 130.0, 138.0, 56.0, 18.0 ],
 					"text" : "Param X",
@@ -2061,6 +2047,20 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"id" : "obj-92",
+					"maxclass" : "live.comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 776.0, 1072.0, 71.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 178.0, 138.0, 54.0, 18.0 ],
+					"text" : "Param Y",
+					"textjustification" : 0
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -3056,6 +3056,16 @@
 			"obj-4" : [ "Show Parameters", "Show Parameters", 0 ],
 			"obj-91" : [ "Param Y", "Param Y", 0 ],
 			"obj-93" : [ "Param X", "Param X", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-112::obj-76" : 				{
 					"parameter_invisible" : 2,
