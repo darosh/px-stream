@@ -91,7 +91,7 @@
 1. Insert [PX World](#px-world) device
 2. Insert [PX Mix View](#px-mix-view) device
 3. Insert [GEN Mini Shader](#gen-mini-shader) device
-4. Select channel number **1** in `channel selector in the bottom of the last inserted device
+4. Select channel number **1** in `channel selector` in the bottom of the last inserted device
 
 <img src="./docs/media/guide/Minimal_patch.webp" height="231" title="Minimal patch" />
 
