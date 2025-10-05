@@ -18,7 +18,20 @@
 - [ ] check duplication every device
 - [ ] check previews undo history on automation
 - [ ] fix channel update on device remove
-- [ ] fix colorwheel automation position
+- [ ] fix color wheel automation position / update screenshots
+- [ ] check Mix OUT not persistent
+
+## Licencing
+
+- [ ] check mini shaders licences
+  - [ ] https://bsky.app/profile/holtsetio.bsky.social/post/3lwyikurabc26
+  - [ ] https://bsky.app/profile/rangemarten.bsky.social/post/3losfvor4ws2y
+  - [ ] https://x.com/kamoshika_vrc/status/1684571232765882368
+  - [ ] https://x.com/XorDev/status/1601770313230209024
+  - [ ] https://x.com/YoheiNishitsuji/status/1796435007873151189
+- [ ] check processing licences
+  - [ ] https://x.com/SnowEsamosc/status/1971220103070130586
+  - [ ] https://x.com/yuruyurau/status/1719632742269514103
 
 ## IFS
 
