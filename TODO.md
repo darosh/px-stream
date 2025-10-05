@@ -50,38 +50,39 @@ Here is a checklist to recap the topics of this guide that can be tested, which 
 
 **General**
 
-- [ ] Error messages: There are no prints in the Max Console on load.
+- [x] Error messages: There are no prints in the Max Console on load.
 - [ ] Undo History: After adding the device, there is only one new undo.
 - [ ] Undo History: Live's undo menu is never ‘flooded’.
-- [ ] Freezing: The device is frozen if it contains dependencies.
+- [x] Freezing: The device is frozen if it contains dependencies.
 - [ ] Presets: The device comes with a collection of presets.
 
 **Audio and MIDI**
 
-- [ ] Clicks: There are no unintended audio clicks, when changing parameter values or otherwise.
-- [ ] Sample rate consistency: Everything continues to work and sound the same when changing the sample rate in Live's preferences.
-- [ ] Render consistency: The device sounds identical on playback, on a frozen track, and on rendering an audio file.
-- [ ] MPE: MIDI devices support MPE (`is_mpe` is set to active).
-- [ ] Latency: The device plays in sync with the rest of the Live Set.
-- [ ] MIDI Mapping: The main device parameters can be mapped to a MIDI controller.
-- [ ] MIDI Tools: Random number generators (e.g. `random` objects) in between `live.miditool.in` and `live.miditool.out` must be reset using a seed value before being triggered. The seed value used should only change as a result of user input. This ensures a deterministic output when `live.miditool.in` is repeatedly triggered by Live.
+- [x] Clicks: There are no unintended audio clicks, when changing parameter values or otherwise.
+- [x] Sample rate consistency: Everything continues to work and sound the same when changing the sample rate in Live's preferences.
+- [x] Render consistency: The device sounds identical on playback, on a frozen track, and on rendering an audio file.
+- [x] MPE: MIDI devices support MPE (`is_mpe` is set to active).
+- [x] Latency: The device plays in sync with the rest of the Live Set.
+- [x] MIDI Mapping: The main device parameters can be mapped to a MIDI controller.
+- [x] MIDI Tools: Random number generators (e.g. `random` objects) in between `live.miditool.in` and `live.miditool.out` must be reset using a seed value before being triggered. The seed value used should only change as a result of user input. This ensures a deterministic output when `live.miditool.in` is repeatedly triggered by Live.
 
 **UI**
 
-- [ ] Live themes: All UI objects have theme-following colors, checked with all color themes.
+- [x] Live themes: All UI objects have theme-following colors, checked with all color themes.
 - [ ] Disabling: The UI colors are correct when the device is disabled.
-- [ ] Positioning: The left-most element in presentation mode is as far from the left side of the device as the right-most element is from the right side.
-- [ ] Default initialization: Colors and texts that are changed dynamically are saved in their default state to prevent a color or content flash after loading a new instance of the device.
-- [ ] Font consistency: All UI fonts are set to Live's font.
-- [ ] Tab stops: Comments don't include any tab stops. The result will look different per OS.
-- [ ] Device width: The device does not take up too much of the horizontal space in the Device view.
-- [ ] Device width: If the device can dynamically change its size, make sure the device's custom width setting matches its initial width.
+- [x] Positioning: The left-most element in presentation mode is as far from the left side of the device as the right-most element is from the right side.
+- [x] Default initialization: Colors and texts that are changed dynamically are saved in their default state to prevent a color or content flash after loading a new instance of the device.
+- [x] Font consistency: All UI fonts are set to Live's font.
+- [x] Tab stops: Comments don't include any tab stops. The result will look different per OS.
+- [x] Device width: The device does not take up too much of the horizontal space in the Device view.
+- [x] Device width: If the device can dynamically change its size, make sure the device's custom width setting matches its initial width.
 
 **Parameters**
 
 Note: many of these things can be checked and changed in the View > Parameters window.
 
-- [ ] Info fields: All Info Title and Info fields are filled in.
+- [x] Info fields: All Info Title 
+- [ ] and Info fields are filled in.
 - [ ] Naming: All parameters have non-generic Long Name and Short Name fields. No names have auto-appended indexes, like `[1]`.
 - [ ] Automation: The parameter dropdown for a device contains all intended automatable parameters.
 - [ ] Value editing: Parameter Types and Units correspond to the kind of data being represented, taking into account that using the Int type gives users a tall grid automation lane.
