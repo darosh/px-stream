@@ -126,7 +126,12 @@ Most of the 500+ parameters in the toolkit can be [automated in standard way](ht
 
 ### Guides &mdash; Performance
 
-TBD
+- Devices and assets are designed to be mostly lightweight and run at 60 to 120 FPS on MacBook M1 Pro.
+- Power status, energy saving options and floating/fullscreen preview window status may affect real FPS.
+- Most of the processing is done with OpenGL on GPU so they should not affect Ableton CPU based sound processing.
+- Optimizing resources loaded from assets is recommended: smaller dimensions for images and smaller format (WEBP) and smaller dimensions and CPU friendly codec (HAP) for videos 
+
+✨ `TIP` To guess the impact of device on performance select 0 FPS in [PX World](#px-world) and turn on the `Show FPS` switch in extended (`[...]` button) [PX Mix View](#px-mix-view) device
 
 <br>
 
