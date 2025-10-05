@@ -16,7 +16,6 @@
 - [ ] windows testing
 - [ ] sample presets
 - [ ] check duplication every device
-- [ ] check frozen console errors
 - [ ] check previews undo history on automation
 - [ ] fix channel update on device remove
 
@@ -31,6 +30,7 @@
 
 ## Done
 
+- [x] check frozen console errors
 - [x] check return and master
 - [x] check grouping
 - [x] mini shader param y fix
