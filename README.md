@@ -62,6 +62,7 @@
     - [Minimal patch](#guides--minimal-patch)
     - [Adding FX](#guides--adding-fx)
     - [Using Mix Dry](#guides--using-mix-dry)
+    - [Syphon streaming](#guides--using-mix-dry)
     - [Automation](#guides--automation)
     - [Transitions](#guides--performance)
 - [Devices](#devices)
@@ -115,6 +116,15 @@
 
 <img src="./docs/media/guide/Using_Mix_Dry.webp" height="231" title="Using Mix Dry" />
 
+### Guides &mdash; Syphon streaming
+
+1. Expand the [PX Mix View](#px-mix-view) device using the `[...]` button
+2. Select Mix OUT channel number **1** &dash; this will allow you to select the stream in Syphon client as `[Live] PX Stream 1`
+
+<img src="./docs/media/guide/Syphon_streaming.webp" height="231" title="Syphon streaming" />
+
+📒 `NOTE` `Mix OUT` has dual purpose, not only it turns the Syphon output on, but it also can be consumed with the [IN Mix](#in-mix) device for further (post)processing
+
 ### Guides &mdash; Automation
 
 Most of the 500+ parameters in the toolkit can be [automated in standard way](https://www.ableton.com/en/manual/automation-and-editing-envelopes/) with few exceptions:
@@ -129,7 +139,8 @@ Most of the 500+ parameters in the toolkit can be [automated in standard way](ht
 - Devices and assets are designed to be mostly lightweight and run at 60 to 120 FPS on MacBook M1 Pro.
 - Power status, energy saving options and floating/fullscreen preview window status may affect real FPS.
 - Most of the processing is done with OpenGL on GPU so they should not affect Ableton CPU based sound processing.
-- Optimizing resources loaded from assets is recommended: smaller dimensions for images and smaller format (WEBP) and smaller dimensions and CPU friendly codec (HAP) for videos 
+- Optimizing resources loaded from assets is recommended: smaller dimensions for images and smaller format (WEBP) and smaller dimensions and CPU friendly codec (HAP) for videos
+- Some devices, especially the postprocessing ones like the [FX Pass](#fx-pass) is better to use only once &mdash; before the final output
 
 ✨ `TIP` To guess the impact of device on performance select 0 FPS in [PX World](#px-world) and turn on the `Show FPS` switch in extended (`[...]` button) [PX Mix View](#px-mix-view) device
 

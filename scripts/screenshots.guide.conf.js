@@ -9,6 +9,7 @@ export default {
     [1, 'Minimal patch', 248 + 676 + 468 + 2*10],
     [2, 'Adding FX', 248 + 676 + 468 + 276 + 276 + 4*10],
     [3, 'Using Mix Dry', 248 + 676 + 468 + 276 + 276 + 276 + 276 + 6*10],
+    [4, 'Syphon streaming', 1054],
   ].map(([src, name, x1, exclude]) => {
     WIDTHS[src] = WIDTHS[src] || 14
     const r = [src, name, WIDTHS[src], x1, exclude]
