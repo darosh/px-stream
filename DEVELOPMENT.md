@@ -22,3 +22,15 @@ npm script freeze
 ## Shaders
 
 Do not use keywords (like `size`, `float`, `int`, ...) in ISF `NAME` property
+
+## Assets
+
+```shell
+chmod +x ./scripts/assets/images_download.sh
+./scripts/assets/images_download.sh ./scripts/assets/images.tsv
+```
+
+```shell
+chmod +x ./scripts/assets/images_convert.sh
+./scripts/assets/images_convert.sh
+```
