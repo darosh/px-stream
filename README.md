@@ -59,12 +59,11 @@
 - [Install](#install)
 - [Troubleshooting and feedback](#troubleshooting-and-feedback)
 - [Guides](#guides)
-    - [Minimal patch](#minimal-patch)
-    - [Concept basics: Chain, Channel, Mix](#concept-basics-chain-channel-mix)
-    - [Extending patch](#extending-patch)
-    - [Dry/Wet](#drywet)
-    - [Transitions](#transitions)
-    - [Automation](#automation)
+    - [Minimal patch](#guides--minimal-patch)
+    - [Adding FX](#guides--adding-fx)
+    - [Using Mix Dry](#guides--using-mix-dry)
+    - [Automation](#guides--automation)
+    - [Transitions](#guides--performance)
 - [Devices](#devices)
 - [Alternatives](#alternatives)
 - [License](#license)
@@ -124,6 +123,10 @@ Most of the 500+ parameters in the toolkit can be [automated in standard way](ht
   1. when you only select single value without automation the session will restore the value based on selected name
   2. when you automate, for example `File / File Automation` parameter in [IN SVG](#in-svg) the automation is based on order of items and will break if you change the content of loaded folder, for example `assets/svg`
 - **Color wheels** in [FX Color](#fx-color) &mdash; see  🧲 `AUTOMATION` note in the device documentation
+
+### Guides &mdash; Performance
+
+TBD
 
 <br>
 
