@@ -2,6 +2,10 @@
 
 ⚠️ Work in progress. Not ready for use. Stay tuned.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](LICENSE)
+[![Discord](https://img.shields.io/discord/1329379539708805193?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/de5txQSven)
+
 > PX Stream is a visual performance toolkit for [Max for Live](https://www.ableton.com/en/live/max-for-live/),
 > featuring audio-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals,
 > text rendering and [Syphon](https://syphon.info/) output streaming
@@ -52,8 +56,9 @@
 
 <br>
 
+- [Install](#install)
+- [Troubleshooting and feedback](#troubleshooting-and-feedback)
 - [Guides](#guides)
-    - [Install](#install)
     - [Minimal patch](#minimal-patch)
     - [Concept basics: Chain, Channel, Mix](#concept-basics-chain-channel-mix)
     - [Extending patch](#extending-patch)
@@ -66,35 +71,43 @@
 
 <br>
 
+## Install
+
+1. Download latest [release](https://github.com/darosh/px-stream/releases)
+2. Follow official instructions on [Using third-party Packs](https://help.ableton.com/hc/en-us/articles/206471044-Using-third-party-Packs)
+
+## Troubleshooting and feedback
+
+- File an [issue](https://github.com/darosh/px-stream/issues) or vote on existing one
+- Join our [Discord server](https://discord.gg/de5txQSven)
+
 ## Guides
 
-### Install
+### Guides &mdash; Minimal patch
 
 TBD
 
-### Minimal patch
+### Guides &mdash; Concept basics: Chain, Channel, Mix
 
 TBD
 
-### Concept basics: Chain, Channel, Mix
+### Guides &mdash; Extending patch
 
 TBD
 
-### Extending patch
+### Guides &mdash; Dry/Wet
 
 TBD
 
-### Dry/Wet
+### Guides &mdash; Transitions
 
 TBD
 
-### Transitions
+### Guides &mdash; Automation
 
 TBD
 
-### Automation
-
-TBD
+<br>
 
 ## Devices
 
