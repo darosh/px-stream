@@ -1,10 +1,10 @@
 # PX Stream
 
-⚠️ Work in progress. Not ready for use. Stay tuned.
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](LICENSE)
 [![Discord](https://img.shields.io/discord/1329379539708805193?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/de5txQSven)
+
+⚠️ Work in progress. Not ready for use. Stay tuned.
 
 > PX Stream is a visual performance toolkit for [Max for Live](https://www.ableton.com/en/live/max-for-live/),
 > featuring audio-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals,
