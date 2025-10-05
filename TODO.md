@@ -42,6 +42,70 @@
 - [ ] vu shader?
 - [ ] rolling waveform shader?
 
+## Final Checklist
+
+From [m4l-production-guidelines](https://github.com/Ableton/maxdevtools/blob/main/m4l-production-guidelines/m4l-production-guidelines.md)
+
+Here is a checklist to recap the topics of this guide that can be tested, which you can use for **Quality Assurance** purposes for your device.
+
+**General**
+
+- [ ] Error messages: There are no prints in the Max Console on load.
+- [ ] Undo History: After adding the device, there is only one new undo.
+- [ ] Undo History: Live's undo menu is never ‘flooded’.
+- [ ] Freezing: The device is frozen if it contains dependencies.
+- [ ] Presets: The device comes with a collection of presets.
+
+**Audio and MIDI**
+
+- [ ] Clicks: There are no unintended audio clicks, when changing parameter values or otherwise.
+- [ ] Sample rate consistency: Everything continues to work and sound the same when changing the sample rate in Live's preferences.
+- [ ] Render consistency: The device sounds identical on playback, on a frozen track, and on rendering an audio file.
+- [ ] MPE: MIDI devices support MPE (`is_mpe` is set to active).
+- [ ] Latency: The device plays in sync with the rest of the Live Set.
+- [ ] MIDI Mapping: The main device parameters can be mapped to a MIDI controller.
+- [ ] MIDI Tools: Random number generators (e.g. `random` objects) in between `live.miditool.in` and `live.miditool.out` must be reset using a seed value before being triggered. The seed value used should only change as a result of user input. This ensures a deterministic output when `live.miditool.in` is repeatedly triggered by Live.
+
+**UI**
+
+- [ ] Live themes: All UI objects have theme-following colors, checked with all color themes.
+- [ ] Disabling: The UI colors are correct when the device is disabled.
+- [ ] Positioning: The left-most element in presentation mode is as far from the left side of the device as the right-most element is from the right side.
+- [ ] Default initialization: Colors and texts that are changed dynamically are saved in their default state to prevent a color or content flash after loading a new instance of the device.
+- [ ] Font consistency: All UI fonts are set to Live's font.
+- [ ] Tab stops: Comments don't include any tab stops. The result will look different per OS.
+- [ ] Device width: The device does not take up too much of the horizontal space in the Device view.
+- [ ] Device width: If the device can dynamically change its size, make sure the device's custom width setting matches its initial width.
+
+**Parameters**
+
+Note: many of these things can be checked and changed in the View > Parameters window.
+
+- [ ] Info fields: All Info Title and Info fields are filled in.
+- [ ] Naming: All parameters have non-generic Long Name and Short Name fields. No names have auto-appended indexes, like `[1]`.
+- [ ] Automation: The parameter dropdown for a device contains all intended automatable parameters.
+- [ ] Value editing: Parameter Types and Units correspond to the kind of data being represented, taking into account that using the Int type gives users a tall grid automation lane.
+- [ ] Enum labels: Unit / labels of automation for Enum parameters don't have generic values ("val1"/"val2" for buttons).
+- [ ] Modulation: All parameters have a modulation mode set. Bipolar for Float, Absolute for Int, or different if you prefer.
+- [ ] Defaults: All default parameter values are correct, i.e. the device works well after newly instantiating it.
+- [ ] Save and recall: All parameters are recalled correctly when opening a Live Set that contains the device with non-default values for all parameters.
+- [ ] Push: The parameters show up correctly on Push.
+
+**Robustness**
+
+- [ ] CPU Load: The device does not cause unexpectedly high CPU load in the context of a Live Set.
+- [ ] Version support: The device runs well with all Live and Max versions starting from the lowest versions set in the device.
+- [ ] Platform support: Ideally macOS, Windows and Push 3 Standalone all host the device well.
+- [ ] Independence: Multiple instances of the device run well simultaneously.
+- [ ] Testing: The device is tested by one or more people besides the device developer.
+
+**For new versions of existing devices**
+
+- [ ] Name consistency: The parameter names are the same as the old version.
+    - Take special care of auto-indexed names when there are parameters in abstractions (also in bpatchers) that are instantiated multiple times.
+- [ ] Value recall: Parameter values stored in a Live Set with an old version of the device are all recalled properly.
+- [ ] API ID recall: Persistent ids stored in a Live Set with an old version of the device are all recalled properly.
+
 ## Done
 
 - [x] check frozen console errors
