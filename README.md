@@ -92,9 +92,11 @@
 1. Insert [PX World](#px-world) device
 2. Insert [PX Mix View](#px-mix-view) device
 3. Insert [GEN Mini Shader](#gen-mini-shader) device
-4. Select channel number 1 in bottom of last inserted device
+4. Select channel number 1 in `channel selector in the bottom of the last inserted device
 
 ![Minimal patch](./docs/media/guide/Minimal_patch.webp)
+
+✨ `TIP`  All devices start with PX so you can quickly select device with sequence <kbd>Command+F</kbd> + `px wo` + <kbd>Down</kbd> + <kbd>Enter</kbd>
 
 ### Guides &mdash; Concept basics: Chain, Channel, Mix
 
