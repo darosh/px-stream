@@ -181,6 +181,7 @@ Essential rendering context. You need exactly one per Live set. More would be pr
 <img src="./docs/media/devices/PX_World.webp" height="231" title="PX World" /> <img src="./docs/media/devices/PX_World_(mad_world).webp" height="231" title="PX World (mad world)" />
 
 ---
+<br>
 
 ### PX Mix View
 
@@ -193,6 +194,7 @@ Multichannel mixing and preview. Mix output selected in expanded section can be 
 - <kbd>Control+Click</kbd> for instant video recording (while holding the mouse button) stored in `assets/video`, it will be available in [IN Video](#in-video) device as MOV file. For more control and automation use [PX Rec](#px-rec) device instead.
 
 ---
+<br>
 
 ### PX Mix Channel
 
@@ -201,6 +203,7 @@ Send texture to selected channel. Alternative to individual channel selectors on
 <img src="./docs/media/devices/PX_Mix_Channel.webp" height="231" title="PX Mix Channel" />
 
 ---
+<br>
 
 ### PX Mix Dry
 
@@ -209,6 +212,7 @@ Dry/wet mix from two previous devices. Select which (-1 to -4) for dry signal. M
 <img src="./docs/media/previews/PX_Mix_Dry_v1.webp" height="231" title="PX Mix Dry" /> <img src="./docs/media/automation/PX_Mix_Dry_v1.webp" height="231" title="PX Mix Dry" />
 
 ---
+<br>
 
 ### PX Mix Transition
 
@@ -217,6 +221,7 @@ Transition between two previous devices. Channel selection same as Mix Dry. Uses
 <img src="./docs/media/previews/PX_Mix_Transition_v1.webp" height="231" title="PX Mix Transition" /> <img src="./docs/media/automation/PX_Mix_Transition_v1.webp" height="231" title="PX Mix Transition" />
 
 ---
+<br>
 
 ### PX Rec
 
@@ -227,6 +232,7 @@ Video recording and screenshotting
 ✨ `TIP`  Recorded files are stored under `assets/video` as MOV files and directly available in [IN Video](#in-video) device and for screenshot it is PNG files in `assets/images` and [IN Image](#in-image) device
 
 ---
+<br>
 
 ### PX Route Audio
 
@@ -235,6 +241,7 @@ Route audio from any track in your Live set
 <img src="./docs/media/devices/PX_Route_Audio.webp" height="231" title="PX Route Audio" />
 
 ---
+<br>
 
 ### PX Route MIDI
 
@@ -243,6 +250,7 @@ Send MIDI from selected track to next device. Works with [PX Shader](#px-shader)
 <img src="./docs/media/devices/PX_Route_MIDI_(linked).webp" height="231" title="PX Route MIDI (linked)" />
 
 ---
+<br>
 
 ### PX Shader
 
@@ -282,6 +290,7 @@ Interactive Shader Format ([ISF](https://isf.video/)) host for generators and ef
 - ~. Test Shaders
 
 ---
+<br>
 
 ### IN Cam
 
@@ -290,6 +299,7 @@ Live input from connected video devices
 <img src="./docs/media/devices/PX_IN_Cam.webp" height="231" title="PX IN Cam" />
 
 ---
+<br>
 
 ### IN Syphon
 
@@ -298,6 +308,7 @@ Live input from connected video devices
 <img src="./docs/media/devices/PX_IN_Syphon.webp" height="231" title="PX IN Syphon" />
 
 ---
+<br>
 
 ### IN Image
 
@@ -308,6 +319,7 @@ Static image input. Supports JPG, WEBP and PNG formats.
 🧲 `AUTOMATION` To automate selected image file find `File` / `File Automation` parameter in automation lane
 
 ---
+<br>
 
 ### IN SVG
 
@@ -318,6 +330,7 @@ Vector graphics input with resolution-independent scaling SVG file formal
 🧲 `AUTOMATION` To automate selected SVG file find `File` / `File Automation` parameter in automation lane
 
 ---
+<br>
 
 ### IN Video
 
@@ -328,6 +341,7 @@ Video playback. Supports MP4, AVI, MOV (including [HAP codecs](https://hap.video
 🧲 `AUTOMATION` To automate selected video file find `File` / `File Automation` parameter in automation lane
 
 ---
+<br>
 
 ### IN Channel
 
@@ -336,6 +350,7 @@ Use texture from [Mix Channel](#px-mix-channel) as input. Creates feedback when 
 <img src="./docs/media/devices/PX_IN_Channel.webp" height="231" title="PX IN Channel" />
 
 ---
+<br>
 
 ### IN Mix
 
@@ -344,6 +359,7 @@ Use channel mix from [Mix View](#px-mix-view) device as input texture.
 <img src="./docs/media/devices/PX_IN_Mix.webp" height="231" title="PX IN Mix" />
 
 ---
+<br>
 
 ### GEN Cos Pattern
 
@@ -352,6 +368,7 @@ Procedural patterns with cosine palettes [popularized](https://iquilezles.org/ar
 <img src="./docs/media/previews/PX_GEN_Cos_Pattern_v1.webp" height="231" title="PX GEN Cos Pattern" /> <img src="./docs/media/automation/PX_GEN_Cos_Pattern_v1.webp" height="231" title="PX GEN Cos Pattern" />
 
 ---
+<br>
 
 ### GEN Mini Shader
 
@@ -400,6 +417,7 @@ Dynamically included when referenced in mini shader GLSL.
 Learn more in [twigl documentation](https://github.com/doxas/twigl#twigl).
 
 ---
+<br>
 
 ### GEN Sketching
 
@@ -412,6 +430,7 @@ Custom OpenGL primitives scripting with JavaScript, slightly compatible with [op
 🧪 `DEV_NOTE` This device is very limited, and due to the underlying tech `JS`/`jit.gl.sketch` it will likely develop into its own thing rather than processing.js compatible environment 
 
 ---
+<br>
 
 ### GEN Text
 
@@ -422,6 +441,7 @@ Text generation from session/clip names, custom text, or dynamic musical data (b
 🧲 `AUTOMATION` To automate selected font find `Font` / `Font Automation` parameter in automation lane
 
 ---
+<br>
 
 ### FX Alpha
 
@@ -430,6 +450,7 @@ Alpha channel tools: chroma key, mapping, inversion, smoothing, removal, etc.
 <img src="./docs/media/previews/PX_FX_Alpha_v1.webp" height="231" title="PX FX Alpha" /> <img src="./docs/media/automation/PX_FX_Alpha_v1.webp" height="231" title="PX FX Alpha" />
 
 ---
+<br>
 
 ### FX Blur
 
@@ -438,6 +459,7 @@ Four blur shaders from Max/Jitter stock collection
 <img src="./docs/media/previews/PX_FX_Blur_v1.webp" height="231" title="PX FX Blur" /> <img src="./docs/media/automation/PX_FX_Blur_v1.webp" height="231" title="PX FX Blur" />
 
 ---
+<br>
 
 ### FX Color
 
@@ -450,6 +472,7 @@ Color grading and adjustment tools
 ✨ `TIP` To reset color wheel to default value click its label `Dark`, `Light`, ...
 
 ---
+<br>
 
 ### FX Colorize
 
@@ -458,6 +481,7 @@ Two/tri tone colorization with multiple mapping methods
 <img src="./docs/media/previews/PX_FX_Colorize_v1.webp" height="231" title="PX FX Colorize" /> <img src="./docs/media/automation/PX_FX_Colorize_v1.webp" height="231" title="PX FX Colorize" />
 
 ---
+<br>
 
 ### FX Convert
 
@@ -468,6 +492,7 @@ Texture format conversion including OKLAB and normalized OKLAB aka NOKLAB
 ✨ `TIP` to get even weirder colors use two `FX Convert` devices with different format
 
 ---
+<br>
 
 ### FX Delay
 
@@ -478,6 +503,7 @@ Frame-based texture delay. Combine with Mix Dry device for ghost trail effects.
 ✨ `TIP` To see the dry and delayed signal at same time put [Mix Dry](#px-mix-dry) device after the delay one
 
 ---
+<br>
 
 ### FX Kaleidoscope
 
@@ -486,6 +512,7 @@ Kaleidoscope patterns based on [Brewster designs]((https://en.wikipedia.org/wiki
 <img src="./docs/media/previews/PX_FX_Kaleidoscope_v1.webp" height="231" title="PX FX Kaleidoscope" /> <img src="./docs/media/automation/PX_FX_Kaleidoscope_v1.webp" height="231" title="PX FX Kaleidoscope" />
 
 ---
+<br>
 
 ### FX Pass
 
@@ -498,6 +525,7 @@ Postprocessing shaders from Max/Jitter stock library. See [Max documentation](ht
 ✨ `TIP` To adjust Bloom effect find the right `Threshold` first and then set the `Bloom` amount
 
 ---
+<br>
 
 ### FX Pixelization
 
@@ -512,6 +540,7 @@ Multi-shape pixelization: rectangular, circular, honeycomb, hexagonal, triangula
 ✨ `TIP` For LED like glowing effect use `Fading`
 
 ---
+<br>
 
 ### FX Transform
 
@@ -520,6 +549,7 @@ Geometric transformations: scale, shift, rotation (around axis or vector)
 <img src="./docs/media/previews/PX_FX_Transform_v1.webp" height="231" title="PX FX Transform" /> <img src="./docs/media/automation/PX_FX_Transform_v1.webp" height="231" title="PX FX Transform" />
 
 ---
+<br>
 
 ### DEV Info
 
@@ -528,6 +558,7 @@ Shows texture info for development purposes
 <img src="./docs/media/devices/DEV_Info.webp" height="231" title="DEV Info" />
 
 ---
+<br>
 
 ### DEV Console
 
