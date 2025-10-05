@@ -15,8 +15,8 @@
   or try higher values for the Update Limit.
 - [ ] windows testing
 - [ ] sample presets
-- [ ] check grouping
-- [ ] check return and master
+- [ ] check duplication every device
+- [ ] check frozen console errors
 - [ ] check previews undo history on automation
 - [ ] fix channel update on device remove
 
@@ -31,6 +31,8 @@
 
 ## Done
 
+- [x] check return and master
+- [x] check grouping
 - [x] mini shader param y fix
 - [x] screenshot shortcuts
 - [x] FX preview, animation, shader, color, kaleido, pass
