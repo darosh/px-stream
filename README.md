@@ -94,9 +94,9 @@
 3. Insert [GEN Mini Shader](#gen-mini-shader) device
 4. Select channel number **1** in `channel selector` in the bottom of the last inserted device
 
-<img src="./docs/media/guide/Minimal_patch.webp" height="231" title="Minimal patch" />
-
 ✨ `TIP`  All devices start with PX so you can quickly select device with sequence <kbd>Command+F</kbd> + `px wo` + <kbd>Down</kbd> + <kbd>Enter</kbd>
+
+<img src="./docs/media/guide/Minimal_patch.webp" height="231" title="Minimal patch" />
 
 ### Guides &mdash; Adding FX
 
@@ -114,6 +114,11 @@
 2. Insert [PX Mix Dry](#px-mix-dry) before `Mix Channel` device
 3. Experiment with parameters in the `Mix Dry` device
 
+✨ `TIP`  `Dry` selector **-1** to **-4** in the `PX Mix Dry` device selects which of the previous devices is used as the _dry_ one
+
+✨ `TIP`  With [PX Mix Channel](#px-mix-channel) and [PX Mix Dry](#px-mix-dry) you can create complex multichannel non-linear processing structure in single track
+
+
 <img src="./docs/media/guide/Using_Mix_Dry.webp" height="231" title="Using Mix Dry" />
 
 ### Guides &mdash; Syphon streaming
@@ -121,9 +126,9 @@
 1. Expand the [PX Mix View](#px-mix-view) device using the `[...]` button
 2. Select Mix OUT channel number **1** &dash; this will allow you to select the stream in Syphon client as `[Live] PX Stream 1`
 
-<img src="./docs/media/guide/Syphon_streaming.webp" height="231" title="Syphon streaming" />
-
 📒 `NOTE` `Mix OUT` has dual purpose, not only it turns the Syphon output on, but it also can be consumed with the [IN Mix](#in-mix) device for further (post)processing
+
+<img src="./docs/media/guide/Syphon_streaming.webp" height="231" title="Syphon streaming" />
 
 ### Guides &mdash; Automation
 
