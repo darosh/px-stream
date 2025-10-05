@@ -89,7 +89,12 @@
 
 ### Guides &mdash; Minimal patch
 
-TBD
+1. Insert [PX World](#px-world) device
+2. Insert [PX Mix View](#px-mix-view) device
+3. Insert [GEN Mini Shader](#gen-mini-shader) device
+4. Select channel number 1 in bottom of last inserted device
+
+![Minimal patch](./docs/media/guide/Minimal_patch.webp)
 
 ### Guides &mdash; Concept basics: Chain, Channel, Mix
 
