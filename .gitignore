@@ -28,3 +28,6 @@ docs/media/temp/Screen Recording *.mov
 tests/fixtures/* Project/Backup/
 tests/fixtures/PX Stream/
 scripts/assets/.downloaded
+scripts/packaging/PX Stream/Icon
+scripts/packaging/PX Stream/Assets
+scripts/packaging/PX Stream/Devices

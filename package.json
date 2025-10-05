@@ -20,7 +20,9 @@
   },
   "private": true,
   "scripts": {
-    "build": "run-s build:pre osascript:amxd:freeze build:post",
+    "build": "run-s build:pre osascript:amxd:freeze build:assets build:devices build:post",
+    "build:assets": "rsync -av --exclude='*/.*' ./assets/ './scripts/packaging/PX Stream/Assets/'",
+    "build:devices": "mkdir -p './scripts/packaging/PX Stream/Devices' && mv ./frozen/*.amxd './scripts/packaging/PX Stream/Devices/'",
     "build:pre": "sed -i '' 's|/assets/|/Assets/|g' ./devices/PX._path.maxpat && sed -i '' 's|/assets/|/Assets/|g' ./devices/PX._path_alt.maxpat",
     "build:post": "sed -i '' 's|/Assets/|/assets/|g' ./devices/PX._path.maxpat && sed -i '' 's|/Assets/|/assets/|g' ./devices/PX._path_alt.maxpat",
     "build:v8": "esbuild ./devices/PX\\ GEN\\ Mini\\ Shader._convert.js --format=cjs --bundle --keep-names --outfile=./devices/PX\\ GEN\\ Mini\\ Shader._convert.min.js",
