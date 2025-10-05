@@ -58,13 +58,13 @@
 
 - [Install](#install)
 - [Troubleshooting and feedback](#troubleshooting-and-feedback)
-- [Guides](#guides)
-    - [Minimal patch](#guides--minimal-patch)
-    - [Adding FX](#guides--adding-fx)
-    - [Using Mix Dry](#guides--using-mix-dry)
-    - [Syphon streaming](#guides--using-mix-dry)
-    - [Automation](#guides--automation)
-    - [Transitions](#guides--performance)
+- [Guide](#guide)
+    - [Minimal patch](#guide--minimal-patch)
+    - [Adding FX](#guide--adding-fx)
+    - [Using Mix Dry](#guide--using-mix-dry)
+    - [Syphon streaming](#guide--using-mix-dry)
+    - [Automation](#guide--automation)
+    - [Transitions](#guide--performance)
 - [Devices](#devices)
 - [Alternatives](#alternatives)
 - [License](#license)
@@ -85,9 +85,9 @@
 
 <br>
 
-## Guides
+## Guide
 
-### Guides &mdash; Minimal patch
+### Guide &mdash; Minimal patch
 
 1. Insert [PX World](#px-world) device
 2. Insert [PX Mix View](#px-mix-view) device
@@ -98,7 +98,7 @@
 
 <img src="./docs/media/guide/Minimal_patch.webp" height="231" title="Minimal patch" />
 
-### Guides &mdash; Adding FX
+### Guide &mdash; Adding FX
 
 1. Select **P** (Pass) in `channel selector` in the `GEN Mini Shader` device from previous guide
 2. Insert [FX Kaleidoscope](#fx-kaleidoscope) device
@@ -108,7 +108,7 @@
 
 <img src="./docs/media/guide/Adding_FX.webp" height="231" title="Adding FX" />
 
-### Guides &mdash; Using Mix Dry
+### Guide &mdash; Using Mix Dry
 
 1. Insert [IN SVG](#in-svg) device before `Mix Channel` device and select `PX Stream logo`
 2. Insert [PX Mix Dry](#px-mix-dry) before `Mix Channel` device
@@ -121,7 +121,7 @@
 
 <img src="./docs/media/guide/Using_Mix_Dry.webp" height="231" title="Using Mix Dry" />
 
-### Guides &mdash; Syphon streaming
+### Guide &mdash; Syphon streaming
 
 1. Expand the [PX Mix View](#px-mix-view) device using the `[...]` button
 2. Select Mix OUT channel number **1** &dash; this will allow you to select the stream in Syphon client as `[Live] PX Stream 1`
@@ -130,7 +130,7 @@
 
 <img src="./docs/media/guide/Syphon_streaming.webp" height="231" title="Syphon streaming" />
 
-### Guides &mdash; Automation
+### Guide &mdash; Automation
 
 Most of the 500+ parameters in the toolkit can be [automated in standard way](https://www.ableton.com/en/manual/automation-and-editing-envelopes/) with few exceptions:
 
@@ -139,7 +139,7 @@ Most of the 500+ parameters in the toolkit can be [automated in standard way](ht
   2. when you automate, for example `File / File Automation` parameter in [IN SVG](#in-svg) the automation is based on order of items and will break if you change the content of loaded folder, for example `assets/svg`
 - **Color wheels** in [FX Color](#fx-color) &mdash; see  🧲 `AUTOMATION` note in the device documentation
 
-### Guides &mdash; Performance
+### Guide &mdash; Performance
 
 - Devices and assets are designed to be mostly lightweight and run at 60 to 120 FPS on MacBook M1 Pro.
 - Power status, energy saving options and floating/fullscreen preview window status may affect real FPS.
