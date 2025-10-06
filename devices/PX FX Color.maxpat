@@ -148,7 +148,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Hue",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -932,7 +932,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 272.0, 520.0, 44.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 82.0, 60.0, 15.0 ],
+									"presentation_rect" : [ 0.0, 100.0, 60.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
 											"expression" : ""
@@ -985,7 +985,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 336.0, 520.0, 44.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 82.0, 60.0, 15.0 ],
+									"presentation_rect" : [ 0.0, 100.0, 60.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
 											"expression" : ""
@@ -1062,7 +1062,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 88.0, 520.0, 44.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 92.0, 0.0, 60.0, 15.0 ],
+									"presentation_rect" : [ 92.0, 18.0, 60.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
 											"expression" : ""
@@ -1115,7 +1115,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 152.0, 520.0, 44.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 92.0, 0.0, 60.0, 15.0 ],
+									"presentation_rect" : [ 92.0, 18.0, 60.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
 											"expression" : ""
@@ -1192,7 +1192,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 280.0, 168.0, 44.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 92.0, 82.0, 60.0, 15.0 ],
+									"presentation_rect" : [ 92.0, 100.0, 60.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
 											"expression" : ""
@@ -1245,7 +1245,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 352.0, 168.0, 44.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 92.0, 82.0, 60.0, 15.0 ],
+									"presentation_rect" : [ 92.0, 100.0, 60.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"activebgcolor" : 										{
 											"expression" : ""
@@ -4145,8 +4145,8 @@
 									"annotation" : "Click the label for reset to default value.",
 									"annotation_name" : "Global",
 									"bottomvalue" : -100,
-									"color" : [ 0.090196078431373, 0.090196078431373, 0.090196078431373, 1.0 ],
-									"elementcolor" : [ 0.494117647058824, 0.494117647058824, 0.494117647058824, 1.0 ],
+									"color" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
+									"elementcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 									"id" : "obj-36",
 									"invisiblebkgnd" : 1,
 									"leftvalue" : -100,
@@ -4220,8 +4220,8 @@
 									"annotation" : "Click the label for reset to default value.",
 									"annotation_name" : "Light",
 									"bottomvalue" : -100,
-									"color" : [ 0.090196078431373, 0.090196078431373, 0.090196078431373, 1.0 ],
-									"elementcolor" : [ 0.494117647058824, 0.494117647058824, 0.494117647058824, 1.0 ],
+									"color" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
+									"elementcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 									"id" : "obj-32",
 									"invisiblebkgnd" : 1,
 									"leftvalue" : -100,
@@ -4295,8 +4295,8 @@
 									"annotation" : "Click the label for reset to default value.",
 									"annotation_name" : "Shadow",
 									"bottomvalue" : -100,
-									"color" : [ 0.090196078431373, 0.090196078431373, 0.090196078431373, 1.0 ],
-									"elementcolor" : [ 0.494117647058824, 0.494117647058824, 0.494117647058824, 1.0 ],
+									"color" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
+									"elementcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 									"id" : "obj-24",
 									"invisiblebkgnd" : 1,
 									"leftvalue" : -100,
@@ -4370,8 +4370,8 @@
 									"annotation" : "Click the label for reset to default value.",
 									"annotation_name" : "Dark",
 									"bottomvalue" : -100,
-									"color" : [ 0.090196078431373, 0.090196078431373, 0.090196078431373, 1.0 ],
-									"elementcolor" : [ 0.494117647058824, 0.494117647058824, 0.494117647058824, 1.0 ],
+									"color" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
+									"elementcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 									"id" : "obj-21",
 									"invisiblebkgnd" : 1,
 									"leftvalue" : -100,
@@ -5572,7 +5572,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Gamma",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -5697,7 +5697,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Color",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -6229,7 +6229,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -6892,16 +6892,6 @@
 			"obj-51::obj-91" : [ "Y Hue", "Y Hue", 0 ],
 			"obj-51::obj-95" : [ "Dark X", "Dark X", 0 ],
 			"obj-51::obj-96" : [ "Dark Y", "Dark Y", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
