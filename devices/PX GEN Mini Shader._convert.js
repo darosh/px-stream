@@ -530,7 +530,7 @@ precision highp float;uniform vec2 r;uniform vec2 m;uniform float t;uniform floa
 `
   }
 
-  static get GEEKEST_OUT_CHUNK () {return 'out vec4 o = vec4(0.);\n'}
+  static get GEEKEST_OUT_CHUNK () {return 'out vec4 o;\n'}
 
   constructor () {
     this.mode = Fragmen.MODE_GEEKEST_300
@@ -550,14 +550,19 @@ precision highp float;uniform vec2 r;uniform vec2 m;uniform float t;uniform floa
           + '\n'
           + Fragmen.GEEKEST_OUT_CHUNK
 
-        if (code.match(/void\s+main\s*\(/) == null) {
-          chunkMain = 'void main(){\n'
-          chunkClose = '\n}'
+        if (!/void\s+main\s*\(/.test(code)) {
+          code = `void main() {\no = vec4(0.);\n${code.trim()}\n}`
+        } else {
+          code = code.trim().replace(
+            /(void\s+main\s*\(\s*\)\s*\{)/,
+            `$1\no = vec4(0.);\n`
+          )
         }
         break
       default:
         throw new Error(`Invalid fragmen mode: ${this.mode} (it might be a string number?)`)
     }
+    
     return chunk300 + chunkOut + chunkMain + code + chunkClose
   }
 }
@@ -567,7 +572,6 @@ function toJxs (fs) {
     <param name="b" type="int" default="0" />
     <param name="position" type="vec3" state="POSITION" />
     <param name="textureMatrix0" type="mat4" state="TEXTURE0_MATRIX" />
-    <!--    <param name="r" type="vec2" state="TEXDIM0" />-->
     <param name="r" type="vec2" default="512 512" />
     <param name="m" type="vec2" default="0 0" />
     <param name="t" type="float" default="1" />
@@ -608,13 +612,13 @@ function getIdents (tokens) {
   }
 }
 
-function addUtil(u, list) {
+function addUtil (u, list) {
   if (!list.includes(u)) {
     list.push(u)
   }
-  
+
   const deps = UTILS[u].deps || []
-  
+
   for (const dep of deps) {
     addUtil(dep, list)
   }
@@ -624,14 +628,14 @@ function getUtils (tokens) {
   const { text, idents } = getIdents(tokens)
   const used = Object.keys(UTILS).filter(key => text.filter(t => t.includes(key)).length || idents.includes(key))
   const list = [...used]
-  
+
   for (const u of used) {
     addUtil(u, list)
   }
-  
+
   return Object.entries(UTILS)
     .filter(([k, v]) => list.includes(k))
-    .map(([k,v]) => v.code)
+    .map(([k, v]) => v.code)
     .join('\n')
 }
 
