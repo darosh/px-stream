@@ -19,7 +19,6 @@
 - [ ] check previews undo history on automation
 - [ ] fix channel update on device remove
 - [ ] fix color wheel automation position / update screenshots
-- [ ] check Mix OUT not persistent
 
 ## Licencing
 
@@ -109,6 +108,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] check Mix OUT not persistent
 - [x] check frozen console errors
 - [x] check return and master
 - [x] check grouping
