@@ -526,11 +526,19 @@ class Fragmen {
 
   static get GEEKEST_CHUNK () {
     return `#define FC gl_FragCoord
-precision highp float;uniform vec2 r;uniform vec2 m;uniform float t;uniform float f;uniform float s;uniform sampler2D b;
+
+precision highp float;
+
+uniform vec2 r;
+uniform vec2 m;
+uniform float t;
+uniform float f;
+uniform float s;
+uniform sampler2D b;
 `
   }
 
-  static get GEEKEST_OUT_CHUNK () {return 'out vec4 o;\n'}
+  static get GEEKEST_OUT_CHUNK () {return 'out vec4 o;\n\n'}
 
   constructor () {
     this.mode = Fragmen.MODE_GEEKEST_300
