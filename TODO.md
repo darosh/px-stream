@@ -7,7 +7,6 @@
 - [ ] doc world enabled automation
 - [ ] doc FS display link and fps 0, and multi fs limitation
 - [ ] doc exclusive rotation
-- [ ] guide + screenshots
 
 ## Misc
 
@@ -18,7 +17,6 @@
 - [ ] check duplication every device
 - [ ] check previews undo history on automation
 - [ ] fix channel update on device remove
-- [ ] fix color wheel automation position / update screenshots
 
 ## Licencing
 
@@ -108,6 +106,8 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] guide + screenshots
+- [x] fix color wheel automation position / update screenshots
 - [x] check Mix OUT not persistent
 - [x] check frozen console errors
 - [x] check return and master
