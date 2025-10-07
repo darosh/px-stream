@@ -46,6 +46,9 @@
 - [ ] FX pass diferent tab layout
 - [x] Mini Shader 
 - [ ] isf mxo?
+- [ ] jit.record codec diferences? 
+  - jpeg, h264, prores4444, prores422 
+  - jpeg, h264, gif
 - [ ] mix view broken popup
   - jit.gl.slab: GLSL shader error in program fp:
     ERROR: 2:4: 'FragUserData' : cannot initialize this type of qualifier
