@@ -76,6 +76,22 @@
 1. Download latest [release](https://github.com/darosh/px-stream/releases)
 2. Follow official instructions on [Using third-party Packs](https://help.ableton.com/hc/en-us/articles/206471044-Using-third-party-Packs)
 
+### Windows
+
+Windows users need to install two additional Max packages (VIDDLL and [ISF](https://cycling74.com/packages/isf)) in [package manager](https://docs.cycling74.com/userguide/package_manager/)
+
+Open the package manager:
+
+1. Open [...] menu on max device, for example `PX World` and click `Edit in Max`
+2. In Max > `File` menu click `Show Package Manager`
+
+In package manager:
+
+4. Select `Remote packages` and search for a package `VIDDLL`
+5. Open the package and click install
+6. Repeat step **4.** for `ISF` package
+7. Restart Live
+
 <br>
 
 ## Troubleshooting and feedback

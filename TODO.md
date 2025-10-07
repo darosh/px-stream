@@ -41,20 +41,22 @@
 
 ## Windows
 
-- [ ] VIDDLL needs to be installed
 - [ ] syphon error
+- [ ] spout support
 - [ ] FX pass diferent tab layout
-- [x] Mini Shader 
-- [ ] isf mxo?
-- [ ] jit.record codec diferences? 
-  - jpeg, h264, prores4444, prores422 
-  - jpeg, h264, gif
+- [ ] jit.record codec diferences?
+    - jpeg, h264, prores4444, prores422
+    - jpeg, h264, gif
 - [ ] mix view broken popup
+- [x] VIDDLL needs to be installed
+- [x] Mini Shader 
   - jit.gl.slab: GLSL shader error in program fp:
     ERROR: 2:4: 'FragUserData' : cannot initialize this type of qualifier
   - jit.gl.slab: jit.gl.shader: GLSL program failed to compile.
-- WIN: OpenGL Version 4.6.0 - Build 30.0.101.1218, GLSL Version 4.60 - Build 30.0.101.1218
-- MAC: OpenGL Version 4.1 Metal - 89.4, GLSL Version 4.10
+  - WIN: OpenGL Version 4.6.0 - Build 30.0.101.1218, GLSL Version 4.60 - Build 30.0.101.1218
+  - MAC: OpenGL Version 4.1 Metal - 89.4, GLSL Version 4.10
+- [x] isf mxo?
+- [x] ~~; max packagebrowser viddll~~ does not work in Live
 
 
 ## Final Checklist
