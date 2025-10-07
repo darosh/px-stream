@@ -125,15 +125,6 @@
                   </ablFR:colors>
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
-                  <ablFR:filePath>PX IN Syphon.amxd</ablFR:filePath>
-                  <ablFR:colors>
-                     <rdf:Bag>
-                        <rdf:li>4</rdf:li>
-                        <rdf:li>5</rdf:li>
-                     </rdf:Bag>
-                  </ablFR:colors>
-               </rdf:li>
-               <rdf:li rdf:parseType="Resource">
                   <ablFR:filePath>PX Route MIDI.amxd</ablFR:filePath>
                   <ablFR:colors>
                      <rdf:Bag>
@@ -296,7 +287,7 @@
          </ablFR:items>
          <xmp:CreatorTool>Updated by Ableton Index 12.2.5</xmp:CreatorTool>
          <xmp:CreateDate>2025-08-29T20:56:33+02:00</xmp:CreateDate>
-         <xmp:MetadataDate>2025-10-01T23:46:52+02:00</xmp:MetadataDate>
+         <xmp:MetadataDate>2025-10-07T22:18:09+02:00</xmp:MetadataDate>
       </rdf:Description>
    </rdf:RDF>
 </x:xmpmeta>
