@@ -252,6 +252,7 @@ Essential rendering context. You need exactly one per Live set. More would be pr
 <img src="./docs/media/devices/PX_World.webp" height="231" title="PX World" /> <img src="./docs/media/devices/PX_World_(mad_world).webp" height="231" title="PX World (mad world)" />
 
 <br>
+
 ---
 <br>
 
@@ -267,7 +268,6 @@ Multichannel mixing and preview. Mix output selected in expanded section can be 
 
 <br>
 
-<br>
 ---
 <br>
 
@@ -278,6 +278,7 @@ Send texture to selected channel. Alternative to individual channel selectors on
 <img src="./docs/media/devices/PX_Mix_Channel.webp" height="231" title="PX Mix Channel" />
 
 <br>
+
 ---
 <br>
 
@@ -288,6 +289,7 @@ Dry/wet mix from two previous devices. Select which (-1 to -4) for dry signal. M
 <img src="./docs/media/previews/PX_Mix_Dry_v1.webp" height="231" title="PX Mix Dry" /> <img src="./docs/media/automation/PX_Mix_Dry_v1.webp" height="231" title="PX Mix Dry" />
 
 <br>
+
 ---
 <br>
 
@@ -298,6 +300,7 @@ Transition between two previous devices. Channel selection same as Mix Dry. Uses
 <img src="./docs/media/previews/PX_Mix_Transition_v1.webp" height="231" title="PX Mix Transition" /> <img src="./docs/media/automation/PX_Mix_Transition_v1.webp" height="231" title="PX Mix Transition" />
 
 <br>
+
 ---
 <br>
 
@@ -311,7 +314,6 @@ Video recording and screenshotting
 
 <br>
 
-<br>
 ---
 <br>
 
@@ -322,6 +324,7 @@ Route audio from any track in your Live set
 <img src="./docs/media/devices/PX_Route_Audio.webp" height="231" title="PX Route Audio" />
 
 <br>
+
 ---
 <br>
 
@@ -332,6 +335,7 @@ Send MIDI from selected track to next device. Works with [PX Shader](#px-shader)
 <img src="./docs/media/devices/PX_Route_MIDI_(linked).webp" height="231" title="PX Route MIDI (linked)" />
 
 <br>
+
 ---
 <br>
 
@@ -374,7 +378,6 @@ Interactive Shader Format ([ISF](https://isf.video/)) host for generators and ef
 
 <br>
 
-<br>
 ---
 <br>
 
@@ -385,6 +388,7 @@ Live input from connected video devices
 <img src="./docs/media/devices/PX_IN_Cam.webp" height="231" title="PX IN Cam" />
 
 <br>
+
 ---
 <br>
 
@@ -395,6 +399,7 @@ Live input from connected video devices
 <img src="./docs/media/devices/PX_IN_Stream_(Spout).webp" height="231" title="PX IN Stream (Spout)" /> <img src="./docs/media/devices/PX_IN_Stream_(Syphon).webp" height="231" title="PX IN Stream (Syphon)" />
 
 <br>
+
 ---
 <br>
 
@@ -407,6 +412,7 @@ Static image input. Supports JPG, WEBP and PNG formats.
 🧲 `AUTOMATION` To automate selected image file find `File` / `File Automation` parameter in automation lane
 
 <br>
+
 ---
 <br>
 
@@ -420,7 +426,6 @@ Vector graphics input with resolution-independent scaling SVG file formal
 
 <br>
 
-<br>
 ---
 <br>
 
@@ -434,7 +439,6 @@ Video playback. Supports MP4, AVI, MOV (including [HAP codecs](https://hap.video
 
 <br>
 
-<br>
 ---
 <br>
 
@@ -445,6 +449,7 @@ Use texture from [Mix Channel](#px-mix-channel) as input. Creates feedback when 
 <img src="./docs/media/devices/PX_IN_Channel.webp" height="231" title="PX IN Channel" />
 
 <br>
+
 ---
 <br>
 
@@ -455,6 +460,7 @@ Use channel mix from [Mix View](#px-mix-view) device as input texture.
 <img src="./docs/media/devices/PX_IN_Mix.webp" height="231" title="PX IN Mix" />
 
 <br>
+
 ---
 <br>
 
@@ -465,6 +471,7 @@ Procedural patterns with cosine palettes [popularized](https://iquilezles.org/ar
 <img src="./docs/media/previews/PX_GEN_Cos_Pattern_v1.webp" height="231" title="PX GEN Cos Pattern" /> <img src="./docs/media/automation/PX_GEN_Cos_Pattern_v1.webp" height="231" title="PX GEN Cos Pattern" />
 
 <br>
+
 ---
 <br>
 
@@ -516,7 +523,6 @@ Learn more in [twigl documentation](https://github.com/doxas/twigl#twigl).
 
 <br>
 
-<br>
 ---
 <br>
 
@@ -532,7 +538,6 @@ Custom OpenGL primitives scripting with JavaScript, slightly compatible with [op
 
 <br>
 
-<br>
 ---
 <br>
 
@@ -546,7 +551,6 @@ Text generation from session/clip names, custom text, or dynamic musical data (b
 
 <br>
 
-<br>
 ---
 <br>
 
@@ -557,6 +561,7 @@ Alpha channel tools: chroma key, mapping, inversion, smoothing, removal, etc.
 <img src="./docs/media/previews/PX_FX_Alpha_v1.webp" height="231" title="PX FX Alpha" /> <img src="./docs/media/automation/PX_FX_Alpha_v1.webp" height="231" title="PX FX Alpha" />
 
 <br>
+
 ---
 <br>
 
@@ -567,6 +572,7 @@ Four blur shaders from Max/Jitter stock collection
 <img src="./docs/media/previews/PX_FX_Blur_v1.webp" height="231" title="PX FX Blur" /> <img src="./docs/media/automation/PX_FX_Blur_v1.webp" height="231" title="PX FX Blur" />
 
 <br>
+
 ---
 <br>
 
@@ -582,7 +588,6 @@ Color grading and adjustment tools
 
 <br>
 
-<br>
 ---
 <br>
 
@@ -593,6 +598,7 @@ Two/tri tone colorization with multiple mapping methods
 <img src="./docs/media/previews/PX_FX_Colorize_v1.webp" height="231" title="PX FX Colorize" /> <img src="./docs/media/automation/PX_FX_Colorize_v1.webp" height="231" title="PX FX Colorize" />
 
 <br>
+
 ---
 <br>
 
@@ -606,7 +612,6 @@ Texture format conversion including OKLAB and normalized OKLAB aka NOKLAB
 
 <br>
 
-<br>
 ---
 <br>
 
@@ -620,7 +625,6 @@ Frame-based texture delay. Combine with Mix Dry device for ghost trail effects.
 
 <br>
 
-<br>
 ---
 <br>
 
@@ -631,6 +635,7 @@ Kaleidoscope patterns based on [Brewster designs]((https://en.wikipedia.org/wiki
 <img src="./docs/media/previews/PX_FX_Kaleidoscope_v1.webp" height="231" title="PX FX Kaleidoscope" /> <img src="./docs/media/automation/PX_FX_Kaleidoscope_v1.webp" height="231" title="PX FX Kaleidoscope" />
 
 <br>
+
 ---
 <br>
 
@@ -646,7 +651,6 @@ Postprocessing shaders from Max/Jitter stock library. See [Max documentation](ht
 
 <br>
 
-<br>
 ---
 <br>
 
@@ -664,7 +668,6 @@ Multi-shape pixelization: rectangular, circular, honeycomb, hexagonal, triangula
 
 <br>
 
-<br>
 ---
 <br>
 
@@ -675,6 +678,7 @@ Geometric transformations: scale, shift, rotation (around axis or vector)
 <img src="./docs/media/previews/PX_FX_Transform_v1.webp" height="231" title="PX FX Transform" /> <img src="./docs/media/automation/PX_FX_Transform_v1.webp" height="231" title="PX FX Transform" />
 
 <br>
+
 ---
 <br>
 
@@ -685,6 +689,7 @@ Shows texture info for development purposes
 <img src="./docs/media/devices/DEV_Info.webp" height="231" title="DEV Info" />
 
 <br>
+
 ---
 <br>
 
