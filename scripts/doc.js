@@ -280,7 +280,7 @@ function updateDescription (lines, device, description, images, preview, auto) {
   let end = start + 1
 
   while (!(lines[end][0] === '#' 
-    || (lines[end] === '<br>' && lines[end + 1] === '---') 
+    || (lines[end] === '<br>' && lines[end + 1] === '' && lines[end + 2] === '---') 
     || lines[end] === '---' 
     || lines[end].charCodeAt(0) > 255)) {
     end++
