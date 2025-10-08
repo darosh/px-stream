@@ -296,6 +296,14 @@ function updateDescription (lines, device, description, images, preview, auto) {
   let br = ''
   let hasBr = false
   
+  images.sort((a, b) => {
+    if (b.name.includes('Windows') || a.name.includes('Mac')) {
+      return -1
+    } else {
+      return 0
+    }
+  })
+  
   let imagesHtml = images.map(({name, width}, index) => {
     let h
 

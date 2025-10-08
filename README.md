@@ -396,7 +396,7 @@ Live input from connected video devices
 
 [Syphon](https://syphon.info/) or [Spout](https://spout.zeal.co/) input for sharing visuals between applications.
 
-<img src="./docs/media/devices/PX_IN_Stream_(Windows__Spout).webp" height="231" title="PX IN Stream (Windows: Spout)" /> <img src="./docs/media/devices/PX_IN_Stream_(Mac__Syphon).webp" height="231" title="PX IN Stream (Mac: Syphon)" />
+<img src="./docs/media/devices/PX_IN_Stream_(Mac__Syphon).webp" height="231" title="PX IN Stream (Mac: Syphon)" /> <img src="./docs/media/devices/PX_IN_Stream_(Windows__Spout).webp" height="231" title="PX IN Stream (Windows: Spout)" />
 
 <br>
 
