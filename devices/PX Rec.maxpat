@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 560.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -1382,11 +1382,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Codec",
-							"parameter_enum" : [ "jpeg", "h264", "prores4444", "prores422" ],
-							"parameter_initial" : [ 3.0 ],
+							"parameter_enum" : [ "h264", "prores422", "prores4444" ],
+							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Codec",
-							"parameter_mmax" : 3,
+							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Codec",
 							"parameter_type" : 2
@@ -2294,16 +2294,6 @@
 			"obj-3" : [ "Codec", "Codec", 0 ],
 			"obj-361" : [ "Folder Video", "Folder Video", 0 ],
 			"obj-7" : [ "Folder Images", "Folder Images", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
