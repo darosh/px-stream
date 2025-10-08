@@ -12,7 +12,6 @@
 
 - [ ] If parameter automation causes high CPU load, try enabling Defer Automation Output in the object Inspector,
   or try higher values for the Update Limit.
-- [ ] windows testing
 - [ ] sample presets
 - [ ] check duplication every device
 - [ ] check previews undo history on automation
@@ -41,7 +40,7 @@
 
 ## Windows
 
-- [ ] mix view broken popup
+- [x] mix view broken popup
 - [x] FX pass diferent tab layout
 - [x] spout support
 - [x] jit.record codec diferences?
@@ -126,6 +125,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] windows testing
 - [x] guide + screenshots
 - [x] fix color wheel automation position / update screenshots
 - [x] check Mix OUT not persistent
