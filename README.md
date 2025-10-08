@@ -74,6 +74,7 @@
     - [Transitions](#guide--performance)
 - [Devices](#devices)
 - [Alternatives](#alternatives)
+- [Roadmap](#roadmap)
 - [License](#license)
 
 <br>
@@ -718,6 +719,21 @@ VST
 - [VS - Visual Synthesizer](https://www.imaginando.pt/products/vs-visual-synthesizer)
 
 <br>
+
+## Roadmap
+
+- alpha testing (volunteers)
+- more shaders
+- more presets
+- beta testing (public)
+- more shaders
+- more presets
+- 1.0 release 
+- more shaders
+- more presets
+- 2.0 ideas
+  - simple/instant audio/MIDI based modulation
+  - geometry/scene based devices
 
 ## License
 
