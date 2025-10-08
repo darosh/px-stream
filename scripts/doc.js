@@ -164,13 +164,13 @@ async function createCollage () {
   const totalHeight = rows * rowHeight + (rows - 1) * spacing
 
   // Reorder rows
-  // rowImages = [
-  //   rowImages[2],
-  //   rowImages[0],
-  //   rowImages[1],
-  //   rowImages[4],
-  //   rowImages[3]
-  // ]
+  rowImages = [
+    rowImages[2],
+    rowImages[0],
+    rowImages[1],
+    rowImages[4],
+    rowImages[3]
+  ]
 
   // for (let rowIndex = 1; rowIndex < rowImages.length; rowIndex += 2) {
   //   const t = rowImages[rowIndex]
