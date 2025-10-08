@@ -59,7 +59,6 @@
 - [x] isf mxo?
 - [x] ~~; max packagebrowser viddll~~ does not work in Live
 
-
 ## Final Checklist
 
 From [m4l-production-guidelines](https://github.com/Ableton/maxdevtools/blob/main/m4l-production-guidelines/m4l-production-guidelines.md)
