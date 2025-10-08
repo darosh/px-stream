@@ -121,6 +121,8 @@ In package manager:
 
 <img src="./docs/media/guide/Minimal_patch.webp" height="231" title="Minimal patch" />
 
+<br>
+
 ### Guide &mdash; Adding FX
 
 1. Select **P** (Pass) in `channel selector` in the `GEN Mini Shader` device from previous guide
@@ -130,6 +132,8 @@ In package manager:
 5. Adjust FX Kaleidoscope parameters as you like
 
 <img src="./docs/media/guide/Adding_FX.webp" height="231" title="Adding FX" />
+
+<br>
 
 ### Guide &mdash; Using Mix Dry
 
@@ -144,6 +148,8 @@ In package manager:
 
 <img src="./docs/media/guide/Using_Mix_Dry.webp" height="231" title="Using Mix Dry" />
 
+<br>
+
 ### Guide &mdash; Syphon streaming
 
 1. Expand the [PX Mix View](#px-mix-view) device using the `[...]` button
@@ -153,6 +159,8 @@ In package manager:
 
 <img src="./docs/media/guide/Syphon_streaming.webp" height="231" title="Syphon streaming" />
 
+<br>
+
 ### Guide &mdash; Automation
 
 Most of the 500+ parameters in the toolkit can be [automated in standard way](https://www.ableton.com/en/manual/automation-and-editing-envelopes/) with few exceptions:
@@ -161,6 +169,8 @@ Most of the 500+ parameters in the toolkit can be [automated in standard way](ht
   1. when you only select single value without automation the session will restore the value based on selected name
   2. when you automate, for example `File / File Automation` parameter in [IN SVG](#in-svg) the automation is based on order of items and will break if you change the content of loaded folder, for example `assets/svg`
 - **Color wheels** in [FX Color](#fx-color) &mdash; see  🧲 `AUTOMATION` note in the device documentation
+
+<br>
 
 ### Guide &mdash; Performance
 
