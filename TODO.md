@@ -41,13 +41,13 @@
 
 ## Windows
 
-- [ ] syphon error
 - [ ] spout support
 - [ ] FX pass diferent tab layout
 - [ ] jit.record codec diferences?
     - jpeg, h264, prores4444, prores422
     - jpeg, h264, gif
 - [ ] mix view broken popup
+- [x] syphon error
 - [x] VIDDLL needs to be installed
 - [x] Mini Shader 
   - jit.gl.slab: GLSL shader error in program fp:
