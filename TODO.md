@@ -41,12 +41,13 @@
 
 ## Windows
 
-- [ ] spout support
+- [ ] mix view broken popup
 - [ ] FX pass diferent tab layout
-- [ ] jit.record codec diferences?
+- [x] spout support
+- [x] jit.record codec diferences?
     - jpeg, h264, prores4444, prores422
     - jpeg, h264, gif
-- [ ] mix view broken popup
+    - use: h264, prores422, prores4444
 - [x] syphon error
 - [x] VIDDLL needs to be installed
 - [x] Mini Shader 
