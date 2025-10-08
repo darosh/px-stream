@@ -700,6 +700,8 @@ Enables detailed Max console output for development and debugging. ⚠ DO NOT US
 
 <img src="./docs/media/devices/DEV_Console.webp" height="231" title="DEV Console" />
 
+<br>
+
 ## Alternatives
 
 Max for Live
@@ -734,6 +736,8 @@ VST
 - 2.0 ideas
   - simple/instant audio/MIDI based modulation
   - geometry/scene based devices
+
+<br>
 
 ## License
 
