@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 560.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -262,7 +262,6 @@
 					"fontsize" : 9.0,
 					"id" : "obj-25",
 					"maxclass" : "live.tab",
-					"mode" : 1,
 					"num_lines_patching" : 1,
 					"num_lines_presentation" : 2,
 					"numinlets" : 1,
@@ -279,7 +278,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Pass",
-							"parameter_enum" : [ "Bloom HQ", "FXAA", "Gamma", "Grain", "Tonemap", "Vignette" ],
+							"parameter_enum" : [ "Bloom", "FXAA", "Gamma", "Grain", "Tonemap", "Vignette" ],
 							"parameter_longname" : "Pass",
 							"parameter_mmax" : 5,
 							"parameter_modmode" : 0,
@@ -3751,6 +3750,16 @@
 			"obj-26::obj-8" : [ "Bloom Tonemapping", "Bloom Tonemapping", 0 ],
 			"obj-26::obj-9" : [ "Bloom Gamma Correction", "Bloom Gamma Correction", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

@@ -42,7 +42,7 @@
 ## Windows
 
 - [ ] mix view broken popup
-- [ ] FX pass diferent tab layout
+- [x] FX pass diferent tab layout
 - [x] spout support
 - [x] jit.record codec diferences?
     - jpeg, h264, prores4444, prores422
