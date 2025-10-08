@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 134.0, 134.0, 477.0, 508.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
@@ -45,15 +45,15 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.929412, 0.360784, 0.866667, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-21",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 119.0, 238.0, 105.0, 22.0 ],
-					"text" : "jit.gl.spoutreceiver"
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 119.0, 238.0, 223.0, 22.0 ],
+					"text" : "jit.gl.spoutreceiver px-stream @enable 0"
 				}
 
 			}
@@ -90,6 +90,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-21", 1 ]
 				}
 
 			}
