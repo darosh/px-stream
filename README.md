@@ -267,6 +267,10 @@ Multichannel mixing and preview. Mix output selected in expanded section can be 
 - <kbd>Shift+Click</kbd> for instant screenshot stored in `assets/images`, it will be available in [IN Image](#in-image) device as PNG file
 - <kbd>Control+Click</kbd> for instant video recording (while holding the mouse button) stored in `assets/video`, it will be available in [IN Video](#in-video) device as MOV file. For more control and automation use [PX Rec](#px-rec) device instead.
 
+✨ `TIP` Click on preview opens floating window with fullscreen option and channel toggle buttons
+
+![Floating window menu](./docs/media/extra/PX_Mix_View_(floating_menu).png "Floating window menu")
+
 <br>
 
 ---
