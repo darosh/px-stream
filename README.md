@@ -195,7 +195,7 @@ Most of the 500+ parameters in the toolkit can be [automated in standard way](ht
     </td>
     <td valign="top">
         <a href="#in-cam">IN Cam</a><br>
-        <a href="#in-stream">IN Syphon</a><br>
+        <a href="#in-stream">IN Stream</a><br>
         <hr>
         <a href="#in-image">IN Image</a><br>
         <a href="#in-video">IN Video</a><br>
