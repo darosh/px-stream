@@ -269,7 +269,7 @@ Multichannel mixing and preview. Mix output selected in expanded section can be 
 
 ✨ `TIP` Click on preview opens floating window with fullscreen option and channel toggle buttons
 
-![Floating window menu](./docs/media/extra/PX_Mix_View_(floating_menu).png "Floating window menu")
+<img src="./docs/media/extra/PX_Mix_View_(floating_menu).png" title="Floating window menu" height="148" />
 
 <br>
 
