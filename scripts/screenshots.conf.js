@@ -6,7 +6,7 @@ export default {
   y0: 1445,
   y1: 385,
   devices: [
-    [0, 'PX IN Stream (Windows: Spout)', 276],
+    [0, 'PX IN Stream (Spout)', 276],
     [1, 'PX World', 248],
     [1, 'PX Mix View', 676],
     [1, 'PX Shader', 856 + 3 * 16 * 2],
@@ -15,7 +15,7 @@ export default {
     [1, 'PX FX Transform', 276],
     [2, 'PX Route Audio', 224],
     [2, 'PX GEN Text', 276],
-    [2, 'PX IN Stream (Mac: Syphon)', 276],
+    [2, 'PX IN Stream (Syphon)', 276],
     [2, 'PX IN SVG', 276],
     [2, 'PX IN Mix', 276],
     [2, 'PX IN Channel', 276],

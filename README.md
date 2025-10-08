@@ -21,7 +21,7 @@
 <div>
     <a href="#px-mix-view"><img src="./docs/media/devices/PX_Mix_View_(expanded).webp" title="PX Mix View" width="253"/></a>
     <a href="#fx-colorize"><img src="./docs/media/devices/PX_FX_Colorize.webp" title="FX Colorize" width="109"/></a>
-    <a href="#in-stream"><img src="./docs/media/devices/PX_IN_Stream_(Windows__Spout).webp" title="IN Stream" width="66"/></a>
+    <a href="#in-stream"><img src="./docs/media/devices/PX_IN_Stream_(Syphon).webp" title="IN Stream" width="66"/></a>
     <a href="#in-image"><img src="./docs/media/devices/PX_IN_Image.webp" title="IN Image" width="66"/></a>
     <a href="#fx-pass"><img src="./docs/media/devices/PX_FX_Pass.webp" title="FX Pass" width="66"/></a>
     <a href="#dev-console"><img src="./docs/media/devices/DEV_Console.webp" title="DEV Console" width="66"/></a>
@@ -54,7 +54,7 @@
     <a href="#px-mix-channel"><img src="./docs/media/devices/PX_Mix_Channel.webp" title="PX Mix Channel" width="66"/></a>
     <a href="#fx-delay"><img src="./docs/media/devices/PX_FX_Delay.webp" title="FX Delay" width="66"/></a>
     <a href="#in-cam"><img src="./docs/media/devices/PX_IN_Cam.webp" title="IN Cam" width="66"/></a>
-    <a href="#in-stream"><img src="./docs/media/devices/PX_IN_Stream_(Mac__Syphon).webp" title="IN Stream" width="66"/></a>
+    <a href="#in-stream"><img src="./docs/media/devices/PX_IN_Stream_(Spout).webp" title="IN Stream" width="66"/></a>
     <a href="#px-mix-transition"><img src="./docs/media/devices/PX_Mix_Transition.webp" title="PX Mix Transition" width="66"/></a>
     <a href="#dev-info"><img src="./docs/media/devices/DEV_Info.webp" title="DEV Info" width="127"/></a>
     <a href="#px-mix-view"><img src="./docs/media/devices/PX_Mix_View.webp" title="PX Mix View" width="163"/></a>
@@ -396,7 +396,7 @@ Live input from connected video devices
 
 [Syphon](https://syphon.info/) or [Spout](https://spout.zeal.co/) input for sharing visuals between applications.
 
-<img src="./docs/media/devices/PX_IN_Stream_(Mac__Syphon).webp" height="231" title="PX IN Stream (Mac: Syphon)" /> <img src="./docs/media/devices/PX_IN_Stream_(Windows__Spout).webp" height="231" title="PX IN Stream (Windows: Spout)" />
+<img src="./docs/media/devices/PX_IN_Stream_(Syphon).webp" height="231" title="PX IN Stream (Syphon)" /> <img src="./docs/media/devices/PX_IN_Stream_(Spout).webp" height="231" title="PX IN Stream (Spout)" />
 
 <br>
 

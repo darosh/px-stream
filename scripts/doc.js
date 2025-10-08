@@ -297,7 +297,7 @@ function updateDescription (lines, device, description, images, preview, auto) {
   let hasBr = false
   
   images.sort((a, b) => {
-    if (b.name.includes('Windows') || a.name.includes('Mac')) {
+    if (b.name.includes('Spout') || a.name.includes('Syphon')) {
       return -1
     } else {
       return 0
