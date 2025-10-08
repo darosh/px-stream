@@ -725,15 +725,12 @@ VST
 ## Roadmap
 
 - alpha testing (volunteers)
-- more shaders
-- more presets
+- more shaders, presets
 - beta testing (public)
-- more shaders
-- more presets
+- more shaders, presets
 - 1.0 release 
-- more shaders
-- more presets
-- 2.0 ideas
+- more shaders, presets
+- 2.0?
   - simple/instant audio/MIDI based modulation
   - geometry/scene based devices
 
