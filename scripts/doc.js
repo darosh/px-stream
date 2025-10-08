@@ -163,13 +163,14 @@ async function createCollage () {
 
   const totalHeight = rows * rowHeight + (rows - 1) * spacing
 
-  rowImages = [
-    rowImages[2],
-    rowImages[0],
-    rowImages[1],
-    rowImages[4],
-    rowImages[3]
-  ]
+  // Reorder rows
+  // rowImages = [
+  //   rowImages[2],
+  //   rowImages[0],
+  //   rowImages[1],
+  //   rowImages[4],
+  //   rowImages[3]
+  // ]
 
   // for (let rowIndex = 1; rowIndex < rowImages.length; rowIndex += 2) {
   //   const t = rowImages[rowIndex]
@@ -177,6 +178,7 @@ async function createCollage () {
   //   rowImages[rowIndex + 1] = t
   // }
 
+  // Swap odd/even
   for (const row of rowImages) {
     let indexOf = rowImages.indexOf(row)
     indexOf = indexOf === 3 ? indexOf + 1 : indexOf

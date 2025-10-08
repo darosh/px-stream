@@ -64,8 +64,8 @@
   "PX IN SVG": {
     description: "Vector graphics input with resolution-independent scaling SVG file formal"
   },
-  "PX IN Syphon": {
-    description: "[Syphon](https://syphon.info/) input for sharing visuals between applications. Mac only."
+  "PX IN Stream": {
+    description: "[Syphon](https://syphon.info/) or [Spout](https://spout.zeal.co/) input for sharing visuals between applications."
   },
   "PX IN Video": {
     description: "Video playback. Supports MP4, AVI, MOV (including [HAP codecs](https://hap.video/))."

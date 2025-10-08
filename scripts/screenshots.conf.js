@@ -6,6 +6,7 @@ export default {
   y0: 1445,
   y1: 385,
   devices: [
+    [0, 'PX IN Stream (Spout)', 276],
     [1, 'PX World', 248],
     [1, 'PX Mix View', 676],
     [1, 'PX Shader', 856 + 3 * 16 * 2],
@@ -14,7 +15,7 @@ export default {
     [1, 'PX FX Transform', 276],
     [2, 'PX Route Audio', 224],
     [2, 'PX GEN Text', 276],
-    [2, 'PX IN Syphon', 276],
+    [2, 'PX IN Stream (Syphon)', 276],
     [2, 'PX IN SVG', 276],
     [2, 'PX IN Mix', 276],
     [2, 'PX IN Channel', 276],
@@ -45,7 +46,8 @@ export default {
     [6, 'PX GEN Sketching', 468],
     [6, 'PX GEN Mini Shader', 468],
     [6, 'PX Rec', 224]
-  ].map(([src, name, x1, exclude]) => {
+  ].map(([s, name, x1, exclude]) => {
+    const src = s + 1
     WIDTHS[src] = WIDTHS[src] || 14
     const r = [src, name, WIDTHS[src], x1, exclude]
     WIDTHS[src] = r[2] + r[3] + 10
