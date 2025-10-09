@@ -44,6 +44,8 @@
 
 ## Windows
 
+- [x] fix save files timestamp
+- [x] mini shader real time
 - [x] check render gate closed on popup closed
 - [x] do not resize fullscreen
 - [x] mix view broken popup
