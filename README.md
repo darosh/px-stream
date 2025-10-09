@@ -734,11 +734,13 @@ VST
 - more shaders, presets
 - demo track
 - 1.0 release
-- gumroad.com for donations
+- gumroad.com for donations?
 - more shaders, presets
 - 2.0?
   - simple/instant audio/MIDI based modulation
-  - geometry/scene based devices
+  - geometry/scene based devices?
+  - more GENs, FXs, shaders, presets
+  - device template / SDK, dev doc?
 
 <br>
 
