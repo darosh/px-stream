@@ -25,6 +25,7 @@ function getDevicePath (path) {
 
   for (let i = 1; i < path.length; i++) {
     if (path[i] === 'tracks' && path[i + 1] !== undefined) {
+      pathArray.push(1)
       pathArray.push(parseInt(path[i + 1]) + 1) // +1 to make 1-indexed
       i++
     } else if (path[i] === 'devices' && path[i + 1] !== undefined) {
@@ -33,8 +34,16 @@ function getDevicePath (path) {
     } else if (path[i] === 'chains' && path[i + 1] !== undefined) {
       pathArray.push(parseInt(path[i + 1]) + 1) // +1 to make 1-indexed
       i++
-    } else if (path[i] === 'live_set') {
-      // continue
+    } else if (path[i] === 'return_tracks' && path[i + 1] !== undefined) {
+      pathArray.push(2)
+      pathArray.push(parseInt(path[i + 1]) + 1) // +1 to make 1-indexed
+      i++
+    } else if (path[i] === 'master_track' && path[i + 1] !== undefined) {
+      pathArray.push(3)
+      pathArray.push(parseInt(path[i + 1]) + 1) // +1 to make 1-indexed
+      i++
+    // } else if (path[i] === 'live_set') {
+    // continue
     } else {
       post(`Unknown path: ${path[i]} ${path[i + 1]}\n`)
     }
