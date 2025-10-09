@@ -317,6 +317,8 @@ Transition between two previous devices. Channel selection same as Mix Dry. Uses
 
 <img src="./docs/media/previews/PX_Mix_Transition_v1.webp" height="231" title="PX Mix Transition" /> <img src="./docs/media/automation/PX_Mix_Transition_v1.webp" height="231" title="PX Mix Transition" />
 
+✨ `TIP` Transitions are user editable shaders in [JXS file format](https://docs.cycling74.com/userguide/jitter/jxs_file_format/) and some of them include additional parameters. For example `Angular.jxs` has `<param name="startingAngle" type="float" default="90"/>` where you can adjust the default value.
+
 <br>
 
 ---
