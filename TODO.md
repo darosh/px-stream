@@ -7,6 +7,7 @@
 - [ ] doc world enabled automation
 - [ ] doc FS display link and fps 0, and multi fs limitation
 - [ ] doc exclusive rotation
+- [ ] preset guide doc
 
 ## Misc
 
@@ -41,6 +42,7 @@
 
 ## Windows
 
+- [x] do not resize fullscreen
 - [x] mix view broken popup
 - [x] FX pass diferent tab layout
 - [x] spout support
