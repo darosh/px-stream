@@ -15,7 +15,6 @@
 - [ ] sample presets
 - [ ] check duplication every device
 - [ ] check previews undo history on automation
-- [ ] fix channel update on device remove
 - [ ] guide presets
 
 ## Licencing
@@ -126,6 +125,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] fix channel update on device remove
 - [x] windows testing
 - [x] guide + screenshots
 - [x] fix color wheel automation position / update screenshots
