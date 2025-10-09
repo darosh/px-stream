@@ -490,6 +490,8 @@ Shaders in [twigl.app](https://twigl.app/) `geekest (300 es)` format.
 
 <img src="./docs/media/previews/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" /> <img src="./docs/media/automation/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" />
 
+✨ `TIP` To use real time set `Offset` parameter to **−1&nbsp;ms**
+
 🧲 `AUTOMATION` To automate selected mini shader find `File` / `File Automation` parameter in automation lane
 
 #### GEN Mini Shader &mdash; Shader files
