@@ -273,6 +273,8 @@ Multichannel mixing and preview. Mix output selected in expanded section can be 
 
 <img src="./docs/media/extra/PX_Mix_View_(floating_menu).png" title="Floating window menu" height="148" />
 
+🧪 `DEV_NOTE` Do we want solo buttons here? And the mixer faders? And smooth fade in/out?
+
 <br>
 
 ---
