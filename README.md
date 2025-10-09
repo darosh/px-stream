@@ -10,7 +10,7 @@
 
 > PX Stream is a visual performance toolkit of 30+ devices for [Max for Live](https://www.ableton.com/en/live/max-for-live/), featuring 
 > - audio-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals, 
-> - various effects and generators,
+> - various effects, generators and utilities,
 > - 90+ transitions
 > - text rendering 
 > - and [Syphon](https://syphon.info/)/[Spout](https://spout.zeal.co/) output streaming
@@ -81,6 +81,8 @@
 
 ## Install
 
+
+0. Prerequisites: _Ableton Live 12 Suite_ or _Ableton Live 12 Standard with Max for Live_
 1. Download latest [release](https://github.com/darosh/px-stream/releases)
 2. Follow official instructions on [Using third-party Packs](https://help.ableton.com/hc/en-us/articles/206471044-Using-third-party-Packs)
 
