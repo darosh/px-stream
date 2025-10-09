@@ -95,6 +95,6 @@
     description: "Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects. Up to 32 dynamic parameters and various audio rendering options with our custom audio types."
   },
   "PX World": {
-    description: "Essential rendering context. You need exactly one per Live set. More would be problematic. Sets target FPS. FPS 0 will use available maximum with displaylink turned on on Mac."
+    description: "Essential rendering context. You need exactly one per Live set. More would be mad."
   }
 }

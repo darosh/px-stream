@@ -113,6 +113,8 @@ In package manager:
 
 ## Guide
 
+Following first 3 guides are available as presets in the installation pack under `Presets` > `Guide` folder. Unlike other presets they include [PX World](#px-world) and [PX Mix View](#px-mix-view) devices for demonstration purposes, other presets expect users manage those themselves. 
+
 ### Guide &mdash; Minimal patch
 
 1. Insert [PX World](#px-world) device
@@ -250,9 +252,13 @@ Most of the 500+ parameters in the toolkit can be [automated in standard way](ht
 
 ### PX World
 
-Essential rendering context. You need exactly one per Live set. More would be problematic. Sets target FPS. FPS 0 will use available maximum with displaylink turned on on Mac.
+Essential rendering context. You need exactly one per Live set. More would be mad.
 
 <img src="./docs/media/devices/PX_World.webp" height="231" title="PX World" /> <img src="./docs/media/devices/PX_World_(mad_world).webp" height="231" title="PX World (mad world)" />
+
+✨ `TIP` `Enable` parameter turns off all rendering completely (disabling the device does the same)
+
+📒 `NOTE` `FPS` parameter set to **0** will use available maximum with `displaylink` turned on Mac.
 
 <br>
 

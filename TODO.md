@@ -3,21 +3,12 @@
 ## Doc
 
 - [ ] doc
-- [ ] doc demo
-- [ ] doc world enabled automation
-- [ ] doc FS display link and fps 0, and multi fs limitation
-- [ ] doc exclusive rotation
-- [ ] preset guide doc
 
 ## Misc
 
-- [ ] If parameter automation causes high CPU load, try enabling Defer Automation Output in the object Inspector,
-  or try higher values for the Update Limit.
 - [ ] sample presets
 - [ ] check duplication every device
 - [ ] check previews undo history on automation
-- [ ] guide presets
-- [ ] update image assets
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 
@@ -44,6 +35,12 @@
 
 ## Windows
 
+- [x] doc world enabled automation
+- [x] doc FS display link and fps 0, and multi fs limitation
+- [x] doc exclusive rotation
+- [x] preset guide doc
+- [x] guide presets
+- [x] update image assets
 - [x] fix save files timestamp
 - [x] mini shader real time
 - [x] check render gate closed on popup closed
@@ -133,6 +130,8 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] ~~If parameter automation causes high CPU load, try enabling Defer Automation Output in the object Inspector,
+  or try higher values for the Update Limit.~~
 - [x] fix channel update on device remove
 - [x] windows testing
 - [x] guide + screenshots
