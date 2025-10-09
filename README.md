@@ -150,6 +150,7 @@ Following first 3 guides are available as presets in the installation pack under
 
 ✨ `TIP`  With [PX Mix Channel](#px-mix-channel) and [PX Mix Dry](#px-mix-dry) you can create complex multichannel non-linear processing structure in single track
 
+📒 `NOTE` Tracks and groups have no effect on rendering, the only thing that is taken into account is order of devices across whole Live set.
 
 <img src="./docs/media/guide/Using_Mix_Dry.webp" height="231" title="Using Mix Dry" />
 
