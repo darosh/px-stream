@@ -21,6 +21,30 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-348",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 376.0, 2072.0, 112.0, 22.0 ],
+					"text" : "expr max(12\\, $f1)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 496.0, 1920.0, 100.0, 22.0 ],
+					"text" : "r ---w_size"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-352",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -657,7 +681,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 376.0, 2072.0, 100.0, 22.0 ],
+					"patching_rect" : [ 376.0, 2120.0, 100.0, 22.0 ],
 					"text" : "t f f"
 				}
 
@@ -753,8 +777,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 376.0, 2032.0, 112.0, 22.0 ],
-					"text" : "expr ($f1 - 64) / 8."
+					"patching_rect" : [ 376.0, 2032.0, 128.0, 22.0 ],
+					"text" : "expr ($f1 - 64 - 4) / 8."
 				}
 
 			}
@@ -812,7 +836,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 887.0, 1927.0, 100.0, 22.0 ],
+					"patching_rect" : [ 912.0, 1864.0, 100.0, 22.0 ],
 					"text" : "s ---ww"
 				}
 
@@ -2442,7 +2466,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u269009319" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u544010739" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-148",
 					"linecount" : 8,
@@ -2455,7 +2479,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 8 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 304 16",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 8 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 304 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -2468,7 +2492,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u221009176" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u204010624" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-143",
 					"linecount" : 8,
@@ -2481,7 +2505,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 7 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 272 16",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 7 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 272 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -2494,7 +2518,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u439009046" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u410010503" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-135",
 					"linecount" : 8,
@@ -2507,7 +2531,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 6 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 240 16",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 6 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 240 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -2520,7 +2544,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u070008902" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u703010382" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-115",
 					"linecount" : 8,
@@ -2533,7 +2557,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 5 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 208 16",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 5 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 208 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -2546,7 +2570,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u893008732" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u570010261" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-114",
 					"linecount" : 8,
@@ -2559,7 +2583,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 4 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 176 16",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 4 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 176 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -2572,7 +2596,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u730008567" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u730010146" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-111",
 					"linecount" : 8,
@@ -2585,7 +2609,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 3 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 144 16",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 3 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 144 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -2598,7 +2622,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u877008446" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u299010025" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-109",
 					"linecount" : 8,
@@ -2611,7 +2635,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 2 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 112 16",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 2 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 112 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -2624,7 +2648,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u567008319" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u244009904" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-101",
 					"linecount" : 8,
@@ -2637,7 +2661,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 1 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 80 16",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 1 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 80 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -5732,7 +5756,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1841.0, 1753.0, 80.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 300.000016444445805, 0.0, 28.0, 169.0 ],
+					"presentation_rect" : [ 300.000017333334767, 0.0, 28.0, 169.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -6449,7 +6473,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 544.0, 608.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.000023555557505, 153.0, 65.0, 15.0 ],
+					"presentation_rect" : [ 380.000024444446467, 153.0, 65.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend",
@@ -6480,7 +6504,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1560.0, 504.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.000023555557505, 134.0, 65.0, 15.0 ],
+					"presentation_rect" : [ 380.000024444446467, 134.0, 65.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 8",
@@ -6511,7 +6535,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1408.0, 496.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.000023555557505, 115.0, 65.0, 15.0 ],
+					"presentation_rect" : [ 380.000024444446467, 115.0, 65.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 7",
@@ -6542,7 +6566,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1272.0, 496.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.000023555557505, 96.0, 65.0, 15.0 ],
+					"presentation_rect" : [ 380.000024444446467, 96.0, 65.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 6",
@@ -6573,7 +6597,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1096.0, 504.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.000023555557505, 78.0, 65.0, 15.0 ],
+					"presentation_rect" : [ 380.000024444446467, 78.0, 65.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 5",
@@ -6604,7 +6628,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 968.0, 496.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.000023555557505, 59.0, 65.0, 15.0 ],
+					"presentation_rect" : [ 380.000024444446467, 59.0, 65.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 4",
@@ -6635,7 +6659,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 800.0, 504.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.000023555557505, 40.0, 65.0, 15.0 ],
+					"presentation_rect" : [ 380.000024444446467, 40.0, 65.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 3",
@@ -6666,7 +6690,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 672.0, 504.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.000023555557505, 21.0, 65.0, 15.0 ],
+					"presentation_rect" : [ 380.000024444446467, 21.0, 65.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 2",
@@ -6697,7 +6721,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 528.0, 488.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.000023555557505, 2.0, 65.0, 15.0 ],
+					"presentation_rect" : [ 380.000024444446467, 2.0, 65.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 1",
@@ -6734,7 +6758,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 352.0, 448.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 447.000027555557836, 151.0, 72.0, 17.0 ],
+					"presentation_rect" : [ 447.000028444446798, 151.0, 72.0, 17.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -7434,7 +7458,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1360.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 332.000037333336422, 134.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 332.000038222225385, 134.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 8",
@@ -7467,7 +7491,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1216.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 332.000037333336422, 115.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 332.000038222225385, 115.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 7",
@@ -7500,7 +7524,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1104.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 332.000037333336422, 96.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 332.000038222225385, 96.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 6",
@@ -7533,7 +7557,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 960.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 332.000037333336422, 78.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 332.000038222225385, 78.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 5",
@@ -7566,7 +7590,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 856.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 332.000037333336422, 59.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 332.000038222225385, 59.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 4",
@@ -7599,7 +7623,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 712.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 332.000037333336422, 40.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 332.000038222225385, 40.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 3",
@@ -7632,7 +7656,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 600.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 332.000037333336422, 21.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 332.000038222225385, 21.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 2",
@@ -7665,7 +7689,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 472.0, 264.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 332.000037333336422, 2.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 332.000038222225385, 2.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 1",
@@ -8280,7 +8304,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1799.0, 927.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 449.000037333336422, 134.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 449.000038222225385, 134.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "FPS",
@@ -8314,7 +8338,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1648.0, 728.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 495.000037333336422, 59.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 495.000038222225385, 59.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -8352,7 +8376,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1592.0, 728.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 476.000041333336753, 59.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 476.000042222225716, 59.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -8390,7 +8414,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1536.0, 728.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 457.000037333336422, 59.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 457.000038222225385, 59.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -8428,7 +8452,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1480.0, 728.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 495.000026666668873, 40.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 495.000027555557836, 40.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -8466,7 +8490,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1424.0, 728.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 476.000041333336753, 40.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 476.000042222225716, 40.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -8504,7 +8528,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1368.0, 728.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 457.000026666668873, 40.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 457.000027555557836, 40.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -8542,7 +8566,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1312.0, 728.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 495.000037333336422, 21.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 495.000038222225385, 21.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -8580,7 +8604,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1256.0, 728.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 476.000041333336753, 21.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 476.000042222225716, 21.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -8618,7 +8642,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1200.0, 728.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 457.000037333336422, 21.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 457.000038222225385, 21.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -8855,7 +8879,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 88.0, 504.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.000037333336422, 153.0, 24.0, 15.0 ],
+					"presentation_rect" : [ 304.000038222225385, 153.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -8892,7 +8916,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1416.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.000037333336422, 134.0, 24.0, 15.0 ],
+					"presentation_rect" : [ 304.000038222225385, 134.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "8",
@@ -8925,7 +8949,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1272.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.000037333336422, 115.0, 24.0, 15.0 ],
+					"presentation_rect" : [ 304.000038222225385, 115.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "7",
@@ -8958,7 +8982,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1160.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.000037333336422, 96.0, 24.0, 15.0 ],
+					"presentation_rect" : [ 304.000038222225385, 96.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "6",
@@ -8991,7 +9015,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1016.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.000037333336422, 78.0, 24.0, 15.0 ],
+					"presentation_rect" : [ 304.000038222225385, 78.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "5",
@@ -9024,7 +9048,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 912.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.000037333336422, 59.0, 24.0, 15.0 ],
+					"presentation_rect" : [ 304.000038222225385, 59.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "4",
@@ -9057,7 +9081,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 768.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.000037333336422, 40.0, 24.0, 15.0 ],
+					"presentation_rect" : [ 304.000038222225385, 40.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "3",
@@ -9090,7 +9114,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 656.0, 280.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.000037333336422, 21.0, 24.0, 15.0 ],
+					"presentation_rect" : [ 304.000038222225385, 21.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "2",
@@ -9123,7 +9147,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 528.0, 264.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.000037333336422, 2.0, 24.0, 15.0 ],
+					"presentation_rect" : [ 304.000038222225385, 2.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "1",
@@ -9425,7 +9449,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 200.0, 112.0, 104.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 454.000041777781234, 4.0, 59.0, 18.0 ],
+					"presentation_rect" : [ 454.000042666670197, 4.0, 59.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_text_zombie"
@@ -9450,7 +9474,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 200.0, 104.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 450.000037333336422, 2.0, 65.0, 79.0 ],
+					"presentation_rect" : [ 450.000038222225385, 2.0, 65.0, 79.0 ],
 					"proportion" : 0.39,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
@@ -9593,7 +9617,7 @@
 ,
 					"patching_rect" : [ 208.0, 1488.0, 120.0, 400.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 446.00002177777958, 0.0, 74.0, 169.0 ],
+					"presentation_rect" : [ 446.000022666668542, 0.0, 74.0, 169.0 ],
 					"varname" : "tabed",
 					"viewvisibility" : 1
 				}
@@ -9713,6 +9737,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-320", 0 ],
+					"source" : [ "obj-110", 0 ]
 				}
 
 			}
@@ -12489,7 +12520,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-320", 0 ],
+					"order" : 1,
+					"source" : [ "obj-316", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-339", 0 ],
+					"order" : 0,
 					"source" : [ "obj-316", 0 ]
 				}
 
@@ -12531,7 +12571,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-333", 0 ],
+					"destination" : [ "obj-348", 0 ],
 					"source" : [ "obj-323", 0 ]
 				}
 
@@ -12731,6 +12771,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-256", 0 ],
 					"source" : [ "obj-346", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-333", 0 ],
+					"source" : [ "obj-348", 0 ]
 				}
 
 			}
