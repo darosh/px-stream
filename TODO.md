@@ -20,6 +20,7 @@
 - [ ] update image assets
 - [ ] check performance pack
 - [ ] check render gate closed on popup closed
+- [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 
 ## Licencing
 
