@@ -16,6 +16,7 @@
 - [ ] check duplication every device
 - [ ] check previews undo history on automation
 - [ ] guide presets
+- [ ] update image assets
 
 ## Licencing
 
