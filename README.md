@@ -69,9 +69,9 @@
     - [Minimal patch](#guide--minimal-patch)
     - [Adding FX](#guide--adding-fx)
     - [Using Mix Dry](#guide--using-mix-dry)
-    - [Syphon streaming](#guide--using-mix-dry)
+    - [Syphon/Spout streaming](#guide--syphonspout-streaming)
     - [Automation](#guide--automation)
-    - [Transitions](#guide--performance)
+    - [Performance](#guide--performance)
 - [Devices](#devices)
 - [Alternatives](#alternatives)
 - [Roadmap](#roadmap)
@@ -156,12 +156,12 @@ Following first 3 guides are available as presets in the installation pack under
 
 <br>
 
-### Guide &mdash; Syphon streaming
+### Guide &mdash; Syphon/Spout streaming
 
 1. Expand the [PX Mix View](#px-mix-view) device using the `[...]` button
-2. Select Mix OUT channel number **1** &dash; this will allow you to select the stream in Syphon client as `[Live] PX Stream 1`
+2. Select Mix OUT channel number **1** &dash; this will allow you to select the stream in Syphon (Max) or Spout (Windows) client as `[Live] PX Stream 1`
 
-📒 `NOTE` `Mix OUT` has dual purpose, not only it turns the Syphon output on, but it also can be consumed with the [IN Mix](#in-mix) device for further (post)processing
+📒 `NOTE` `Mix OUT` has dual purpose, not only it turns the Syphon/Spout output on, but it also can be consumed with the [IN Mix](#in-mix) device for further (post)processing
 
 <img src="./docs/media/guide/Syphon_streaming.webp" height="231" title="Syphon streaming" />
 
