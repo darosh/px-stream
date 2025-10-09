@@ -732,6 +732,7 @@ VST
 - more shaders, presets
 - beta testing (public)
 - more shaders, presets
+- demo track
 - 1.0 release
 - gumroad.com for donations
 - more shaders, presets
