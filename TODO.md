@@ -18,6 +18,8 @@
 - [ ] check previews undo history on automation
 - [ ] guide presets
 - [ ] update image assets
+- [ ] check performance pack
+- [ ] check render gate closed on popup closed
 
 ## Licencing
 
