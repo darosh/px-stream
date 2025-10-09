@@ -16,6 +16,7 @@
 - [ ] check duplication every device
 - [ ] check previews undo history on automation
 - [ ] fix channel update on device remove
+- [ ] guide presets
 
 ## Licencing
 

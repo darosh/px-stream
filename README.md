@@ -732,7 +732,8 @@ VST
 - more shaders, presets
 - beta testing (public)
 - more shaders, presets
-- 1.0 release 
+- 1.0 release
+- gumroad.com for donations
 - more shaders, presets
 - 2.0?
   - simple/instant audio/MIDI based modulation
