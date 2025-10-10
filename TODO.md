@@ -3,6 +3,7 @@
 ## Doc
 
 - [ ] doc
+- [ ] screenshot
 
 ## Misc
 
@@ -11,6 +12,7 @@
 - [ ] check previews undo history on automation
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
+- [ ] fix presets, add glow wave
 
 ## Licencing
 
