@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,52 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-390",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 440.0, 1496.0, 72.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation_name" : "Pop Window",
+					"appearance" : 1,
+					"automation" : "Off",
+					"automationon" : "On",
+					"id" : "obj-383",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 528.0, 1600.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 332.0, 153.0, 44.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_annotation_name" : "Pop Window",
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_longname" : "Pop Window",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Pop",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Pop",
+					"texton" : "Pop",
+					"varname" : "live.text[19]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-290",
 					"maxclass" : "newobj",
@@ -629,7 +675,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 440.0, 1608.0, 67.0, 22.0 ],
+					"patching_rect" : [ 440.0, 1624.0, 67.0, 22.0 ],
 					"text" : "s ---to_pop"
 				}
 
@@ -4581,7 +4627,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 528.0, 1608.0, 70.0, 22.0 ],
+					"patching_rect" : [ 528.0, 1632.0, 70.0, 22.0 ],
 					"text" : "s ---go_pop"
 				}
 
@@ -4658,7 +4704,6 @@
 						"gridsnaponopen" : 2,
 						"objectsnaponopen" : 0,
 						"integercoordinates" : 1,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -6537,7 +6582,6 @@
 										"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"integercoordinates" : 1,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-13",
@@ -15042,6 +15086,38 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"order" : 3,
+					"source" : [ "obj-383", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"order" : 2,
+					"source" : [ "obj-383", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-405", 0 ],
+					"order" : 1,
+					"source" : [ "obj-383", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-440", 0 ],
+					"order" : 0,
+					"source" : [ "obj-383", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-270", 1 ],
 					"source" : [ "obj-384", 1 ]
 				}
@@ -15093,6 +15169,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-383", 0 ],
+					"source" : [ "obj-390", 0 ]
 				}
 
 			}
@@ -15296,32 +15379,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"order" : 3,
-					"source" : [ "obj-439", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"order" : 2,
-					"source" : [ "obj-439", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-405", 0 ],
-					"order" : 1,
-					"source" : [ "obj-439", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-440", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-383", 0 ],
 					"source" : [ "obj-439", 0 ]
 				}
 
@@ -15944,6 +16002,7 @@
 			"obj-174" : [ "Blend 8", "Blend 8", 0 ],
 			"obj-175" : [ "Blend", "Blend", 0 ],
 			"obj-19::obj-1" : [ "Help", "Help", 0 ],
+			"obj-383" : [ "Pop Window", "Pop", 0 ],
 			"obj-46" : [ "1", "1", 0 ],
 			"obj-47" : [ "2", "2", 0 ],
 			"obj-48" : [ "3", "3", 0 ],
