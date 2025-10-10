@@ -262,7 +262,7 @@ Essential rendering context. You need exactly one per Live set. More would be ma
 
 ✨ `TIP` `Enable` parameter turns off all rendering completely (disabling the device does the same)
 
-📒 `NOTE` `FPS` parameter set to **0** will use available maximum with `displaylink` turned on Mac.
+📒 `NOTE` Mac only: `FPS` parameter set to **0** will use available maximum with `displaylink` turned on. On windows this has no effect.
 
 <br>
 
