@@ -86,7 +86,7 @@
 1. Download latest [release](https://github.com/darosh/px-stream/releases)
 2. Follow official instructions on [Using third-party Packs](https://help.ableton.com/hc/en-us/articles/206471044-Using-third-party-Packs)
 
-### Windows
+### Windows specific additional installation steps
 
 Windows users need to install two additional Max packages (VIDDLL and [ISF](https://cycling74.com/packages/isf)) in [package manager](https://docs.cycling74.com/userguide/package_manager/)
 
