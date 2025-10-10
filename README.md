@@ -331,7 +331,7 @@ Video recording and screenshotting
 
 <img src="./docs/media/devices/PX_Rec.webp" height="231" title="PX Rec" />
 
-On windows the only supported video codec is `h264`, on Mac there are additionally `prores4444` and `prores442` available
+📒 `NOTE` On windows the only supported video codec is `h264`, on Mac there are additionally `prores4444` and `prores442` available
 
 ✨ `TIP`  Recorded files are stored under `assets/video` as MOV files and directly available in [IN Video](#in-video) device and for screenshot it is PNG files in `assets/images` and [IN Image](#in-image) device
 
