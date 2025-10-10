@@ -285,6 +285,8 @@ Multichannel mixing and preview. Mix output selected in expanded section can be 
 
 ✨ `TIP` On mac the floating window is hidden when live is out of focus, you can use this fork of [Simple-Syphon-Client](https://github.com/darosh/Simple-Syphon-Client) modified to be always on top &mdash; see [Syphon/Spout streaming](#guide--syphonspout-streaming) guide. 
 
+✨ `TIP` Use Live key mapping on `Pop` toggle for quick show/hide
+
 🧪 `DEV_NOTE` Do we want solo buttons in the floating window? And the mixer faders? And smooth fade in/out?
 
 <br>
