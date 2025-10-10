@@ -267,7 +267,7 @@ function replaceLines (lines, slug, replace) {
   ]
 }
 
-function updateDescription (lines, device, description, images, preview, auto) {
+function updateDescription (lines, device, images, preview, auto) {
   const title = imgTitle(device)
 
   const start = lines.indexOf(`### ${title}`)
@@ -279,9 +279,10 @@ function updateDescription (lines, device, description, images, preview, auto) {
 
   let end = start + 1
 
-  while (!(lines[end][0] === '#' 
-    || (lines[end] === '<br>' && lines[end + 1] === '' && lines[end + 2] === '---') 
-    || lines[end] === '---' 
+  while (!(lines[end][0] === '#'
+    || (lines[end] === '<br>' && lines[end + 1] === '' && lines[end + 2].startsWith('##'))
+    || (lines[end] === '<br>' && lines[end + 1] === '' && lines[end + 2] === '---')
+    || lines[end] === '---'
     || lines[end].charCodeAt(0) > 255)) {
     end++
   }
@@ -289,13 +290,12 @@ function updateDescription (lines, device, description, images, preview, auto) {
   const fullH = 231
   const smallH = 148
   const realH = 255
-  const ratio = fullH/realH
-  const ratioSmall = smallH/fullH
+  const ratioSmall = smallH / fullH
 
   let size = images[0] ? realH : 0
   let br = ''
   let hasBr = false
-  
+
   images.sort((a, b) => {
     if (b.name.includes('Spout') || a.name.includes('Syphon')) {
       return -1
@@ -303,13 +303,13 @@ function updateDescription (lines, device, description, images, preview, auto) {
       return 0
     }
   })
-  
-  let imagesHtml = images.map(({name, width}, index) => {
+
+  let imagesHtml = images.map(({ name, width }, index) => {
     let h
 
     if (!index) {
       size += width
-      h =  fullH
+      h = fullH
     } else if (size < 800) {
       h = fullH
       size += width
@@ -319,7 +319,7 @@ function updateDescription (lines, device, description, images, preview, auto) {
       br = !hasBr ? '<br>' : ''
       hasBr = true
     }
-    
+
     return `${br}<img src="${imageToFile(name, screenshots.v)}" height="${h}" title="${name}" />`
   })
 
@@ -337,43 +337,32 @@ function updateDescription (lines, device, description, images, preview, auto) {
       + imagesHtml[0]
   }
 
-  let descLines = Array.isArray(description) ? description : description.split('\n')
-
-  // descLines = !descLines.join('').trim() ? [] : ['', ...descLines]
+  const descLine = lines.slice(start + 2, start + 3)[0]
 
   const r = [
     '',
-    descLines.shift(),
+    descLine,
     '',
   ]
 
-  if (!descLines.length) {
-    r.push(imagesHtml.join(' '))
-    r.push('')
-    imagesHtml = []
-  } else {
-    r.push(imagesHtml.shift())
-    r.push('')
-    r.push(...descLines)
-    r.push('')
-  }
+  r.push(imagesHtml.join(' '))
+  r.push('')
 
-  if (imagesHtml.length) {
-    r.push(imagesHtml.join(' '))
-    r.push('')
+  return {
+    description: descLine,
+    lines: [
+      ...lines.slice(0, start + 1),
+      ...r,
+      ...lines.slice(end)
+    ]
   }
-
-  return [
-    ...lines.slice(0, start + 1),
-    ...r,
-    ...lines.slice(end)
-  ]
 }
 
 function updateDeviceInfo (lines, devices) {
   let updated = lines
+  const updatedDevices = {}
 
-  for (const [device, { description }] of Object.entries(devices)) {
+  for (const [device] of Object.entries(devices)) {
     const images = screenshots.devices
       .filter(([_id, name, _x, _width, exclude]) => {
         return (name.replace(/ \(.+\)/, '') === device)
@@ -400,21 +389,28 @@ function updateDeviceInfo (lines, devices) {
         return name === device
       })
 
-    updated = updateDescription(updated, device, description, images, previews?.[0], autos?.[0])
+    const r = updateDescription(updated, device, images, previews?.[0], autos?.[0])
+
+    updated = r.lines
+    updatedDevices[device] = r.description
   }
 
-  return updated
+  return { lines: updated, devices: updatedDevices }
 }
 
 async function updateReadme (htmlCollage) {
   const outputFile = './README.md'
+  const deviceFile = './scripts/doc-devices.json5'
   const rm = readFile(outputFile, 'utf8')
   let lines = (await rm).split('\n')
   lines = replaceLines(lines, 'collage', htmlCollage)
-  const devices = JSON5.parse(await readFile('./scripts/doc-devices.json5', 'utf8'))
-  lines = updateDeviceInfo(lines, devices)
+  const devices = JSON5.parse(await readFile(deviceFile, 'utf8'))
+  const r = updateDeviceInfo(lines, devices)
+  lines = r.lines
   await writeFile(outputFile, lines.join('\n'))
   console.log('README.md updated', outputFile)
+  await writeFile(deviceFile, JSON5.stringify(r.devices, null, 2))
+  console.log('doc-devices.json5', deviceFile)
 }
 
 async function mergeDiagonal (imgAPath, imgBPath, outPath) {
