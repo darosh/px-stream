@@ -15,6 +15,7 @@ assets/video/
 assets/video/*.avi
 assets/video/*.mp4
 assets/video/REC.*
+assets/video/.obsolete/
 assets/mini-shaders/.broken
 assets/mini-shaders/.dupl
 assets/mini-shaders/.slow
