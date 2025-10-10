@@ -569,6 +569,8 @@ Text generation from session/clip names, custom text, or dynamic musical data (b
 
 <img src="./docs/media/previews/PX_GEN_Text_v1.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/automation/PX_GEN_Text_v1.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/devices/PX_GEN_Text_(expanded).webp" height="231" title="PX GEN Text (expanded)" />
 
+📒 `NOTE` Arrangements clip text is cached, in order to refresh the cache disable + enable the device, (or switch mode to `Session` and back.)
+
 🧲 `AUTOMATION` To automate selected font find `Font` / `Font Automation` parameter in automation lane
 
 <br>
