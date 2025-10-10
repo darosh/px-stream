@@ -113,7 +113,7 @@ In package manager:
 
 ## Guide
 
-Following first 3 guides are available as presets in the installation pack under `Presets` > `Guide` folder. Unlike other presets they include [PX World](#px-world) and [PX Mix View](#px-mix-view) devices for demonstration purposes, other presets expect users manage those themselves. 
+Following first 3 guides are available as presets in the installation pack under `Presets` > `Guide` folder. Unlike other presets they include [PX World](#px-world) and [PX Mix View](#px-mix-view) devices for demonstration purposes, other presets expect users manage those and target channel themselves. 
 
 ### Guide &mdash; Minimal patch
 
