@@ -10,7 +10,7 @@
 - [ ] check previews undo history on automation
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
-= [ ] mix view resize glitch
+- [ ] re-screenshots mix view -1 -2 px
 
 ## Licencing
 
@@ -35,6 +35,7 @@
 
 ## Windows
 
+- [x] mix view resize glitch
 - [x] mix view broken popup
 - [x] FX pass diferent tab layout
 - [x] spout support
@@ -120,6 +121,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] spout in bundle
 - [x] win: canvas ui error
 - [x] win: FPS font size
 - [x] win: console hot keys Ctrl+Alt+Shift+M
