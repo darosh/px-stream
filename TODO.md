@@ -10,6 +10,7 @@
 - [ ] check previews undo history on automation
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
+= [ ] mix view resize glitch
 
 ## Licencing
 
@@ -43,7 +44,7 @@
     - use: h264, prores422, prores4444
 - [x] syphon error
 - [x] VIDDLL needs to be installed
-- [x] Mini Shader 
+- [x] Mini Shader
   - jit.gl.slab: GLSL shader error in program fp:
     ERROR: 2:4: 'FragUserData' : cannot initialize this type of qualifier
   - jit.gl.slab: jit.gl.shader: GLSL program failed to compile.
@@ -91,7 +92,7 @@ Here is a checklist to recap the topics of this guide that can be tested, which 
 
 Note: many of these things can be checked and changed in the View > Parameters window.
 
-- [x] Info fields: All Info Title 
+- [x] Info fields: All Info Title
 - [ ] and Info fields are filled in.
 - [ ] Naming: All parameters have non-generic Long Name and Short Name fields. No names have auto-appended indexes, like `[1]`.
 - [ ] Automation: The parameter dropdown for a device contains all intended automatable parameters.
@@ -369,4 +370,3 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [x] categorize
 - [x] fps
 - [x] unified wav
-    
