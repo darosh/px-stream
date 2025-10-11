@@ -113,7 +113,7 @@ In package manager:
 
 ## Guide
 
-Following first 3 guides are available as presets in the installation pack under `Presets` > `Guide` folder. Unlike other presets they include [PX World](#px-world) and [PX Mix View](#px-mix-view) devices for demonstration purposes, other presets expect users manage those and target channel themselves. 
+Following first 3 guides are available as Live sessions in `/Demo` folder/
 
 ### Guide &mdash; Minimal patch
 
@@ -175,7 +175,7 @@ Most of the 500+ parameters in the toolkit can be [automated in standard way](ht
 
 - **File and font menus** in devices loading dynamic assets operate on two ways
   1. when you only select single value without automation the session will restore the value based on selected name
-  2. when you automate, for example `File / File Automation` parameter in [IN SVG](#in-svg) the automation is based on order of items and will break if you change the content of loaded folder, for example `assets/svg`
+  2. when you automate, for example `File / File Automation` parameter in [IN SVG](#in-svg) the automation is based on order of items and will break if you change the content of loaded folder, for example `Assets/svg`
 - **Cam and Stream (Syphon/Spout)** input selection cannot be automated
 - **Color wheels** in [FX Color](#fx-color) &mdash; see  🧲 `AUTOMATION` note in the device documentation
 
@@ -276,8 +276,8 @@ Multichannel mixing and preview. Mix output selected in expanded section can be 
 <img src="./docs/media/devices/PX_Mix_View.webp" height="231" title="PX Mix View" /> <br><img src="./docs/media/devices/PX_Mix_View_(expanded).webp" height="148" title="PX Mix View (expanded)" />
 
 🎛️ `Hotkeys` 
-- <kbd>Shift+Click</kbd> for instant screenshot stored in `assets/images`, it will be available in [IN Image](#in-image) device as PNG file
-- <kbd>Control+Click</kbd> for instant video recording (while holding the mouse button) stored in `assets/video` encoded with `h264` codec, it will be available in [IN Video](#in-video) device as MOV file. For more options and automation use [PX Rec](#px-rec) device instead.
+- <kbd>Shift+Click</kbd> for instant screenshot stored in `Assets/images`, it will be available in [IN Image](#in-image) device as PNG file
+- <kbd>Control+Click</kbd> for instant video recording (while holding the mouse button) stored in `Assets/video` encoded with `h264` codec, it will be available in [IN Video](#in-video) device as MOV file. For more options and automation use [PX Rec](#px-rec) device instead.
 
 ✨ `TIP` Click on preview opens floating window with fullscreen option and channel toggle buttons
 
@@ -337,7 +337,7 @@ Video recording and screenshotting
 
 📒 `NOTE` On windows the only supported video codec is `h264`, on Mac there are additionally `prores4444` and `prores442` available
 
-✨ `TIP`  Recorded files are stored under `assets/video` as MOV files and directly available in [IN Video](#in-video) device and for screenshot it is PNG files in `assets/images` and [IN Image](#in-image) device
+✨ `TIP`  Recorded files are stored under `Assets/video` as MOV files and directly available in [IN Video](#in-video) device and for screenshot it is PNG files in `Assets/images` and [IN Image](#in-image) device
 
 <br>
 
