@@ -51,6 +51,8 @@
   - MAC: OpenGL Version 4.1 Metal - 89.4, GLSL Version 4.10
 - [x] isf mxo?
 - [x] ~~; max packagebrowser viddll~~ does not work in Live
+- [ ] win: canvas ui error
+- [ ] win: FPS font size
 
 ## Final Checklist
 
@@ -119,6 +121,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] win: console hot keys Ctrl+Alt+Shift+M
 - [x] sample presets
 - [x] fix presets, add glow wave
 - [x] screenshot
