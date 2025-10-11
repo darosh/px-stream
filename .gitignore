@@ -28,7 +28,7 @@ docs/media/temp/screenshot-*.png
 docs/media/temp/Screenshot 2*.png
 docs/media/temp/screenshot-*.mov
 docs/media/temp/Screen Recording *.mov
-docs/media/temp/guide/
+docs/media/temp/
 tests/fixtures/* Project/Backup/
 tests/fixtures/PX Stream/
 scripts/assets/.downloaded

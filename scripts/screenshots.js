@@ -22,7 +22,7 @@ async function processScreenshots (p, config, imageToFile) {
   }
 }
 
-await processScreenshots('./docs/media/temp/Screenshot 2*.png', config, imageToFile)
+await processScreenshots('./docs/media/temp/dark/Screenshot 2*.png', config, imageToFile)
   .catch(console.error)
 
 await processScreenshots('./docs/media/temp/guide/Screenshot 2*.png', configGuide, imageToFileGuide)
