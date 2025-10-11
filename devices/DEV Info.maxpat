@@ -57,7 +57,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "function bang() {\r\nconst channels = new Dict('px_channels').getkeys().join(' ')\r\nconst chains = new Dict('px_chains')\r\nconst tracks = {1: 'T', 2: 'R', 3: 'M' }\r\nconst keys = chains.getkeys()\r\nconst values = keys.map(key => chains.get(key))\r\n\t.map(r => `${tracks[r[0][0]]+r[0].slice(1).join(':')}  ID:${r[1]}  ${r.slice(2).join('  ')}`)\r\n\t.join('\\n')\r\n\r\noutlet(0, `\\n\\nchannels ${channels}\\n\\n${values}`)\r\n}\r\n",
+					"code" : "function bang() {\r\nconst channels = new Dict('px_channels')?.getkeys()?.join(' ')\r\n\r\nif (!channels) {\r\noutlet(0, '\\n\\nchannels missing')\r\n\r\nreturn\r\n}\r\n\r\nconst chains = new Dict('px_chains')\r\nconst tracks = {1: 'T', 2: 'R', 3: 'M' }\r\nconst keys = chains.getkeys()\r\nconst values = keys.map(key => chains.get(key))\r\n\t.map(r => `${tracks[r[0][0]]+r[0].slice(1).join(':')}  ID:${r[1]}  ${r.slice(2).join('  ')}`)\r\n\t.join('\\n')\r\n\r\noutlet(0, `\\n\\nchannels ${channels}\\n\\n${values}`)\r\n}\r\n",
 					"filename" : "none",
 					"fontface" : 0,
 					"fontname" : "<Monospaced>",
@@ -183,12 +183,15 @@
 								"box" : 								{
 									"fontname" : "Ableton Sans Light",
 									"id" : "obj-2",
+									"linecount" : 3,
 									"maxclass" : "live.comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 64.0, 235.0, 18.0 ],
+									"patching_rect" : [ 0.0, 64.0, 235.0, 41.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 312.0, 18.0 ],
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 0.0, 0.0, 312.0, 41.0 ],
+									"text" : "\n\nchannels missing",
 									"textjustification" : 0
 								}
 
@@ -988,6 +991,16 @@
  ],
 		"parameters" : 		{
 			"obj-28" : [ "Auto", "Auto", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
