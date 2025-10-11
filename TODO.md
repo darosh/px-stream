@@ -3,16 +3,13 @@
 ## Doc
 
 - [ ] doc
-- [ ] screenshot
 
 ## Misc
 
-- [ ] sample presets
 - [ ] check duplication every device
 - [ ] check previews undo history on automation
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
-- [ ] fix presets, add glow wave
 
 ## Licencing
 
@@ -37,16 +34,6 @@
 
 ## Windows
 
-- [x] doc world enabled automation
-- [x] doc FS display link and fps 0, and multi fs limitation
-- [x] doc exclusive rotation
-- [x] preset guide doc
-- [x] guide presets
-- [x] update image assets
-- [x] fix save files timestamp
-- [x] mini shader real time
-- [x] check render gate closed on popup closed
-- [x] do not resize fullscreen
 - [x] mix view broken popup
 - [x] FX pass diferent tab layout
 - [x] spout support
@@ -132,6 +119,19 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] sample presets
+- [x] fix presets, add glow wave
+- [x] screenshot
+- [x] doc world enabled automation
+- [x] doc FS display link and fps 0, and multi fs limitation
+- [x] doc exclusive rotation
+- [x] preset guide doc
+- [x] guide presets
+- [x] update image assets
+- [x] fix save files timestamp
+- [x] mini shader real time
+- [x] check render gate closed on popup closed
+- [x] do not resize fullscreen
 - [x] ~~If parameter automation causes high CPU load, try enabling Defer Automation Output in the object Inspector,
   or try higher values for the Update Limit.~~
 - [x] fix channel update on device remove
