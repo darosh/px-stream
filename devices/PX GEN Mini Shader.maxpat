@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 520.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -39,7 +39,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.0, 776.0, 120.0, 35.0 ],
+					"patching_rect" : [ 312.0, 776.0, 124.0, 35.0 ],
 					"text" : "expr $f1 * 3600 + $f2 * 60 + $f3"
 				}
 
@@ -577,7 +577,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "time", "ticks" ],
-					"patching_rect" : [ 144.0, 448.0, 49.0, 35.0 ],
+					"patching_rect" : [ 144.0, 448.0, 51.0, 35.0 ],
 					"text" : "t b time ticks"
 				}
 
@@ -1172,7 +1172,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Show Parameters",
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_initial" : [ 1 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Show Parameters",
 							"parameter_mmax" : 1,
@@ -3260,6 +3260,16 @@
 			"obj-4" : [ "Show Parameters", "Show Parameters", 0 ],
 			"obj-91" : [ "Param Y", "Param Y", 0 ],
 			"obj-93" : [ "Param X", "Param X", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-112::obj-76" : 				{
 					"parameter_invisible" : 2,

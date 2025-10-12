@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 579.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 222.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -980,7 +980,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "More",
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_initial" : [ 1 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "More",
 							"parameter_mmax" : 1,
@@ -3343,16 +3343,6 @@
 			"obj-91" : [ "Curve", "Curve", 0 ],
 			"obj-94" : [ "Offset", "Offset", 0 ],
 			"obj-97" : [ "Max", "Max", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
