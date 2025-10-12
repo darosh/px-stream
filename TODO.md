@@ -15,6 +15,7 @@
 - [ ] re-screenshot guides
 - [ ] re-save collapsed presets and demos
 - [ ] collapse by default: color, mini shader, pixelization, anything else?
+- [ ] blur dials position and labels fix
 
 ## Licencing
 
