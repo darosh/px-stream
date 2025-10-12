@@ -27,6 +27,12 @@ for (const transition of glsl) {
   for (const key of Object.keys(transition.paramsTypes)) {
     let d = transition.defaultParams[key]
     d = Array.isArray(d) ? d.join(' ') : d
+    
+    if (d === true) {
+      d = 1
+    } else if (d === false) {
+      d = 0
+    }
 
     jxs.push(`  <param name="${key}" type="${transition.paramsTypes[key]}" default="${d}"/>`)
   }
@@ -70,5 +76,7 @@ void main() {
   jxs.push(`</jittershader>`)
   jxs.push('')
 
-  await writeFile(`./devices/transitions/${readableName}.jxs`, jxs.join('\n'))
+  const path = `./assets/transitions/${readableName}.jxs`
+  await writeFile(path, jxs.join('\n'))
+  console.log(`Written: ${path}`)
 }

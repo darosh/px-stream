@@ -3,7 +3,7 @@
   <param name="tex0" type="int" default="0"/>
   <param name="tex1" type="int" default="1"/>
   <param name="progress" type="float" default="0.5"/>
-  <param name="u_transitionUpToDown" type="bool" default="true"/>
+  <param name="u_transitionUpToDown" type="bool" default="1"/>
   <param name="u_max_static_span" type="float" default="0.5"/>
   <language name="glsl" version="1.0">
     <bind param="tex0" program="fp"/>
