@@ -14,9 +14,6 @@
 - [ ] re-screenshot collapsed
 - [ ] re-screenshot guides
 - [ ] re-save collapsed presets and demos
-- [ ] collapse by default: color, mini shader, pixelization, anything else?
-- [ ] blur dials position and labels fix
-- [ ] disable GL button on WINDOWS, gate
 
 ## Licencing
 
@@ -147,6 +144,9 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] disable GL button on WINDOWS, gate
+- [x] collapse by default: color, mini shader, pixelization, anything else?
+- [x] blur dials position and labels fix
 - [x] spout in bundle
 - [x] win: canvas ui error
 - [x] win: FPS font size
