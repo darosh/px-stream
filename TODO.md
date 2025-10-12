@@ -15,7 +15,10 @@
 - [ ] re-screenshot guides
 - [ ] re-save collapsed presets and demos
 - [ ] is windows needs real bang
-- [ ] align info box shader and mini shader
+- [ ] align info box shader and mini shader, sketching
+- [ ] sketching collapse
+- [ ] sketching min delay 1
+- [ ] sketching win performance
 
 ## Licencing
 
