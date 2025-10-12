@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -119,7 +119,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 984.0, 40.0, 41.0, 22.0 ],
-					"text" : "* -128"
+					"text" : "* -200"
 				}
 
 			}
@@ -502,7 +502,7 @@
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
+					"offset" : [ 0.0, 200.0 ],
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
@@ -534,7 +534,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 104.0, 1504.0, 50.0, 63.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 40.0, 397.0, 50.0, 63.0 ],
+									"presentation_rect" : [ 40.0, 613.0, 50.0, 63.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Sharpen Width",
@@ -543,7 +543,7 @@
 											"parameter_longname" : "Sharpen Width",
 											"parameter_mmax" : 200.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "Sharpen Width",
+											"parameter_shortname" : "Sharpen",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -576,7 +576,7 @@
 											"parameter_longname" : "Blur Width",
 											"parameter_mmax" : 200.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "Blur Width",
+											"parameter_shortname" : "Blur ",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -659,7 +659,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 112.0, 1104.0, 44.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 65.0, 348.0, 48.0, 15.0 ],
+									"presentation_rect" : [ 65.0, 492.0, 48.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Y",
@@ -693,7 +693,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 112.0, 1024.0, 44.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 17.0, 348.0, 48.0, 15.0 ],
+									"presentation_rect" : [ 17.0, 492.0, 48.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "X",
@@ -724,7 +724,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 176.0, 1024.0, 150.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 333.0, 56.0, 18.0 ],
+									"presentation_rect" : [ 15.0, 477.0, 56.0, 18.0 ],
 									"text" : "Center",
 									"textjustification" : 0
 								}
@@ -910,7 +910,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 160.0, 144.0, 50.0, 63.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 40.0, 141.0, 50.0, 63.0 ],
+									"presentation_rect" : [ 40.0, 213.0, 50.0, 63.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Gaussian Width",
@@ -919,7 +919,7 @@
 											"parameter_longname" : "Gaussian Width",
 											"parameter_mmax" : 100.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "Gaussian Width",
+											"parameter_shortname" : "Gaussian",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -943,7 +943,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 128.0, 864.0, 50.0, 63.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 40.0, 269.0, 50.0, 63.0 ],
+									"presentation_rect" : [ 40.0, 413.0, 50.0, 63.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Radial Width",
@@ -952,7 +952,7 @@
 											"parameter_longname" : "Radial Width",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
-											"parameter_shortname" : "Radial Width",
+											"parameter_shortname" : "Radial",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1425,14 +1425,24 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-31::obj-10" : [ "Sharpen Width", "Sharpen Width", 0 ],
-			"obj-31::obj-13" : [ "Gaussian Width", "Gaussian Width", 0 ],
-			"obj-31::obj-15" : [ "Radial Width", "Radial Width", 0 ],
+			"obj-31::obj-10" : [ "Sharpen Width", "Sharpen", 0 ],
+			"obj-31::obj-13" : [ "Gaussian Width", "Gaussian", 0 ],
+			"obj-31::obj-15" : [ "Radial Width", "Radial", 0 ],
 			"obj-31::obj-28" : [ "Y", "Y", 0 ],
 			"obj-31::obj-47" : [ "X", "X", 0 ],
-			"obj-31::obj-9" : [ "Blur Width", "Blur Width", 0 ],
+			"obj-31::obj-9" : [ "Blur Width", "Blur ", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
 			"obj-4" : [ "Blur", "Blur", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
