@@ -14,6 +14,8 @@
 - [ ] re-screenshot collapsed
 - [ ] re-screenshot guides
 - [ ] re-save collapsed presets and demos
+- [ ] is windows needs real bang
+- [ ] align info box shader and mini shader
 
 ## Licencing
 
@@ -56,26 +58,6 @@
   - MAC: OpenGL Version 4.1 Metal - 89.4, GLSL Version 4.10
 - [x] isf mxo?
 - [x] ~~; max packagebrowser viddll~~ does not work in Live
-
-### Transition errors
-
-```
-progress: bad number
-int: bad number
-tex1: bad number
-jit_position: bad number
-progress: bad number
-direction: bad number
-progress: bad number
-type: bad number
-ReverseEffect: bad number
-tex1: bad number
-textureMatrix1: bad number
-FadeInSecond: bad number
-textureMatrix1: bad number
-FadeInSecond: bad number
-u_transitionUpToDown: bad number
-```
 
 ## Final Checklist
 
@@ -398,3 +380,22 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [x] categorize
 - [x] fps
 - [x] unified wav
+- [x] win transition errors
+
+```
+progress: bad number
+int: bad number
+tex1: bad number
+jit_position: bad number
+progress: bad number
+direction: bad number
+progress: bad number
+type: bad number
+ReverseEffect: bad number
+tex1: bad number
+textureMatrix1: bad number
+FadeInSecond: bad number
+textureMatrix1: bad number
+FadeInSecond: bad number
+u_transitionUpToDown: bad number
+```
