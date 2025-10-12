@@ -124,7 +124,7 @@ Following first 3 guides are available as Live sessions in `/Demo` folder/
 
 ✨ `TIP`  All devices start with PX so you can quickly select device with sequence <kbd>Command+F</kbd> + `px wo` + <kbd>Down</kbd> + <kbd>Enter</kbd>
 
-<img src="./docs/media/guide/Minimal_patch.webp" height="231" title="Minimal patch" />
+<img src="./docs/media/guide/Minimal_patch.webp" height="127" title="Minimal patch" />
 
 <br>
 
@@ -136,7 +136,7 @@ Following first 3 guides are available as Live sessions in `/Demo` folder/
 4. Select **1** in `channel selector in the bottom of the last inserted device
 5. Adjust FX Kaleidoscope parameters as you like
 
-<img src="./docs/media/guide/Adding_FX.webp" height="231" title="Adding FX" />
+<img src="./docs/media/guide/Adding_FX.webp" height="127" title="Adding FX" />
 
 <br>
 
@@ -154,7 +154,7 @@ Following first 3 guides are available as Live sessions in `/Demo` folder/
 
 ✨ `TIP`  Replace the `Mix Dry` device with [PX Mix Transition](#px-mix-transition) and try experimenting with that.
 
-<img src="./docs/media/guide/Using_Mix_Dry.webp" height="231" title="Using Mix Dry" />
+<img src="./docs/media/guide/Using_Mix_Dry.webp" height="127" title="Using Mix Dry" />
 
 <br>
 
@@ -165,7 +165,7 @@ Following first 3 guides are available as Live sessions in `/Demo` folder/
 
 📒 `NOTE` `Mix OUT` has dual purpose, not only it turns the Syphon/Spout output on, but it also can be consumed with the [IN Mix](#in-mix) device for further (post)processing
 
-<img src="./docs/media/guide/Syphon_streaming.webp" height="231" title="Syphon streaming" />
+<img src="./docs/media/guide/Syphon_streaming.webp" height="127" title="Syphon streaming" />
 
 <br>
 
