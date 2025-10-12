@@ -20,11 +20,12 @@
   },
   "private": true,
   "scripts": {
-    "build": "run-s build:clean build:pre osascript:amxd:freeze build:assets build:devices build:post build:check",
+    "build": "run-s build:clean build:pre osascript:amxd:freeze build:assets build:clean:user build:devices build:post build:check",
     "build:onerror": "run-s osascript:amxd:freeze-post build:assets build:devices build:post",
     "build:assets": "rsync -av --exclude='*/.*' ./assets/ './scripts/packaging/PX Stream/Assets/'",
     "build:check": "bash -c 'comm -23 <(cd devices && ls *.amxd | sort) <(cd \"scripts/packaging/PX Stream/Devices\" && ls *.amxd | sort)'",
     "build:clean": "rm -rf './scripts/packaging/PX Stream/Assets' './scripts/packaging/PX Stream/Devices'",
+    "build:clean:user": "rm ./scripts/packaging/PX\\ Stream/Assets/images/SCR.*.* ./scripts/packaging/PX\\ Stream/Assets/images/REC.*.*",
     "build:devices": "mkdir -p './scripts/packaging/PX Stream/Devices' && mv ./frozen/*.amxd './scripts/packaging/PX Stream/Devices/'",
     "build:pre": "sed -i '' 's|/assets/|/Assets/|g' ./devices/PX._path.maxpat && sed -i '' 's|/assets/|/Assets/|g' ./devices/PX._path_alt.maxpat",
     "build:post": "sed -i '' 's|/Assets/|/assets/|g' ./devices/PX._path.maxpat && sed -i '' 's|/Assets/|/assets/|g' ./devices/PX._path_alt.maxpat",
