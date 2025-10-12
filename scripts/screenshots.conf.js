@@ -8,7 +8,7 @@ export default {
   devices: [
     [0, 'PX IN Stream (Spout)', 276],
     [1, 'PX World', 248],
-    [1, 'PX Mix View', 676],
+    [1, 'PX Mix View', 674],
     [1, 'PX Shader', 856 + 3 * 16 * 2],
     [1, 'PX Mix Channel', 276],
     [1, 'PX Mix Dry', 276],
@@ -35,7 +35,7 @@ export default {
     [4, 'PX FX Color (gamma)', 620],
     [4, 'PX FX Color (hue)', 972],
     [4, 'PX FX Colorize', 452],
-    [5, 'PX Mix View (expanded)', 1054],
+    [5, 'PX Mix View (expanded)', 1050],
     [5, 'PX Route MIDI (linked)', 224],
     [5, 'PX Shader (types)', 592 + 16 * 2],
     [5, 'PX GEN Text (expanded)', 536],

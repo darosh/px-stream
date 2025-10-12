@@ -3,6 +3,7 @@
 ## Doc
 
 - [ ] doc
+- [ ] sketching win performance
 
 ## Misc
 
@@ -11,10 +12,9 @@
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] re-screenshots mix view -1 -2 px
-- [ ] re-screenshot collapsed
-- [ ] re-screenshot guides
-- [ ] re-save collapsed presets and demos
-- [ ] sketching win performance
+- [x] re-screenshot collapsed
+- [x] re-screenshot guides
+- [x] re-save collapsed presets and demos
 
 ## Licencing
 
