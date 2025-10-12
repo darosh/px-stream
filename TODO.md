@@ -14,10 +14,6 @@
 - [ ] re-screenshot collapsed
 - [ ] re-screenshot guides
 - [ ] re-save collapsed presets and demos
-- [ ] is windows needs real bang
-- [ ] align info box shader and mini shader, sketching
-- [ ] sketching collapse
-- [ ] sketching min delay 1
 - [ ] sketching win performance
 
 ## Licencing
@@ -129,6 +125,10 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] ~~is windows~~ selected track needs real bang
+- [x] align info box shader and mini shader, sketching
+- [x] sketching collapse
+- [x] sketching min delay 5
 - [x] disable GL button on WINDOWS, gate
 - [x] collapse by default: color, mini shader, pixelization, anything else?
 - [x] blur dials position and labels fix

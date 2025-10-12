@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -1078,6 +1078,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Delay",
 							"parameter_mmax" : 2000.0,
+							"parameter_mmin" : 5.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Delay",
 							"parameter_type" : 0,
@@ -1203,7 +1204,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Show Parameters",
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_initial" : [ 1 ],
+							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Show Parameters",
 							"parameter_mmax" : 1,
@@ -1315,7 +1316,7 @@
 ,
 					"patching_rect" : [ 1080.0, 616.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 40.0, 126.0, 86.0 ],
+					"presentation_rect" : [ 2.0, 40.0, 126.0, 90.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3225,16 +3226,6 @@
 			"obj-66" : [ "Max Skip", "Max Skip", 0 ],
 			"obj-91" : [ "Param Y", "Param Y", 0 ],
 			"obj-93" : [ "Param X", "Param X", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-112::obj-76" : 				{
 					"parameter_invisible" : 2,

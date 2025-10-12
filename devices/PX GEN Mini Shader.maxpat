@@ -1284,7 +1284,7 @@
 ,
 					"patching_rect" : [ 1080.0, 616.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 40.0, 126.0, 86.0 ],
+					"presentation_rect" : [ 2.0, 40.0, 126.0, 90.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3260,16 +3260,6 @@
 			"obj-4" : [ "Show Parameters", "Show Parameters", 0 ],
 			"obj-91" : [ "Param Y", "Param Y", 0 ],
 			"obj-93" : [ "Param X", "Param X", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-112::obj-76" : 				{
 					"parameter_invisible" : 2,
