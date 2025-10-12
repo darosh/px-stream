@@ -287,6 +287,8 @@ Multichannel mixing and preview. Mix output selected in expanded section can be 
 
 ✨ `TIP` Use Live key mapping on `Pop` toggle for quick show/hide
 
+📒 `NOTE` You can use as many `Mix View` devices you want, including their popup windows. The preview inside device is rendered only when the track is active to save some resources so you may see a glitch when switching back to that track.
+
 📒 `NOTE` The `GL` toggle turns on OpenGL based rendering of the preview in the device (the floating window is always accelerated), unfortunately it works well only on Mac.
 
 🧪 `DEV_NOTE` Do we want solo buttons in the floating window? And the mixer faders? And smooth fade in/out?
