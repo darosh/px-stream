@@ -4,6 +4,7 @@
 
 - [ ] doc
 - [ ] sketching win performance
+- [ ] performance guide: sample, embrace, ditch
 
 ## Misc
 
@@ -11,10 +12,7 @@
 - [ ] check previews undo history on automation
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
-- [ ] re-screenshots mix view -1 -2 px
-- [x] re-screenshot collapsed
-- [x] re-screenshot guides
-- [x] re-save collapsed presets and demos
+- [ ] reduce alpha assets - keep/reorg previews
 
 ## Licencing
 
@@ -125,6 +123,10 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] re-screenshots mix view -1 -2 px
+- [x] re-screenshot collapsed
+- [x] re-screenshot guides
+- [x] re-save collapsed presets and demos
 - [x] ~~is windows~~ selected track needs real bang
 - [x] align info box shader and mini shader, sketching
 - [x] sketching collapse
