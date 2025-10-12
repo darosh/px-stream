@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -226,7 +226,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation_name" : "Pop Window",
+					"annotation_name" : "GL",
 					"appearance" : 1,
 					"automation" : "Off",
 					"automationon" : "On",
@@ -241,12 +241,12 @@
 					"presentation_rect" : [ 409.0, 153.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Pop Window",
+							"parameter_annotation_name" : "GL",
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_longname" : "Pop Window[1]",
+							"parameter_longname" : "GL",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Pop",
+							"parameter_shortname" : "GL",
 							"parameter_type" : 2
 						}
 
@@ -16829,7 +16829,7 @@
 			"obj-19::obj-1" : [ "Help", "Help", 0 ],
 			"obj-383" : [ "Pop Window", "Pop", 0 ],
 			"obj-46" : [ "1", "1", 0 ],
-			"obj-468" : [ "Pop Window[1]", "Pop", 0 ],
+			"obj-468" : [ "GL", "GL", 0 ],
 			"obj-47" : [ "2", "2", 0 ],
 			"obj-48" : [ "3", "3", 0 ],
 			"obj-49" : [ "4", "4", 0 ],
@@ -16849,6 +16849,16 @@
 			"obj-91" : [ "Out 1", "Out 1", 0 ],
 			"obj-95" : [ "Out 9", "Out 9", 0 ],
 			"obj-96" : [ "FPS", "FPS", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-146::obj-151" : 				{
 					"parameter_longname" : "Dimensions"
