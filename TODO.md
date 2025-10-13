@@ -5,6 +5,7 @@
 - [ ] doc
 - [ ] sketching win performance
 - [ ] performance guide: sample, embrace, ditch
+- [ ] doc: svg rounded dim
 
 ## Misc
 
@@ -12,7 +13,6 @@
 - [ ] check previews undo history on automation
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
-- [ ] reduce alpha assets - keep/reorg previews
 
 ## Licencing
 
@@ -123,6 +123,8 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] reduce alpha assets - keep/reorg previews
+- [x] svg fit rounding?
 - [x] re-screenshots mix view -1 -2 px
 - [x] re-screenshot collapsed
 - [x] re-screenshot guides
