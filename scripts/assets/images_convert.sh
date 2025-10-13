@@ -1,5 +1,5 @@
 #!/bin/bash
-# Usage: ./convert_to_webp.sh
+# Usage: ./images_convert.sh  
 # Converts all images in downloaded/ to WebP with max dimension 1080px
 
 input_dir="downloaded"

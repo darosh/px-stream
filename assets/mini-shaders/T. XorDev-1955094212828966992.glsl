@@ -1,2 +1,0 @@
-vec3 p;for(float i,z,d,b;i++<6e1;o+=vec4(1,5,2,0)/b-(dFdx(z)*r.y-z)/exp(d/.1))p=z*(FC.rgb*2.-r.xyy)/r.y-1.,p.z+=8.,z+=min(b=length(abs(p*=.1*mat3(9,0,3,0,9,2,-7,-2,8)).xy+min(.4*p.z-2.6,0.))/(cos(d/.1-t)+2.),d=max(d=length(p)-5.,d-length(p.xy)+1.-cos(d/.1)*.1))*.5;o=tanh(o/4e3);
-// https://x.com/XorDev/status/1955094212828966992
