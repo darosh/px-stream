@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,42 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 536.0, 128.0, 100.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 536.0, 88.0, 80.0, 22.0 ],
+					"text" : "r ---this_bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 664.0, 128.0, 100.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
@@ -173,7 +209,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 82.0, 571.0, 498.0 ],
+						"rect" : [ 198.0, 150.0, 571.0, 498.0 ],
 						"openinpresentation" : 1,
 						"default_fontname" : "Ableton Sans Light",
 						"gridsize" : [ 8.0, 8.0 ],
@@ -183,15 +219,12 @@
 								"box" : 								{
 									"fontname" : "Ableton Sans Light",
 									"id" : "obj-2",
-									"linecount" : 3,
 									"maxclass" : "live.comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 64.0, 235.0, 41.0 ],
+									"patching_rect" : [ 0.0, 64.0, 235.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 0.0, 0.0, 312.0, 41.0 ],
-									"text" : "\n\nchannels missing",
+									"presentation_rect" : [ 0.0, 0.0, 252.0, 18.0 ],
 									"textjustification" : 0
 								}
 
@@ -222,7 +255,7 @@
 ,
 					"patching_rect" : [ 864.0, 584.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 20.0, 256.0, 149.0 ],
+					"presentation_rect" : [ 0.0, 20.0, 252.0, 149.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -615,7 +648,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1000.0, 584.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 256.0, 147.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 252.0, 147.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -646,7 +679,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 392.0, 312.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 235.0, 0.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 231.0, 0.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_surface_bg"
@@ -814,6 +847,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 1 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -948,6 +988,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
@@ -988,51 +1042,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-28" : [ "Auto", "Auto", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "PX._chain.js",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "PX._chain.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "PX._channel.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jitgltextureinfo.js",
-				"bootpath" : "C74:/packages/Jitter Tools/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

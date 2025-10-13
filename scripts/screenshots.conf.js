@@ -26,7 +26,7 @@ export default {
     [3, 'PX GEN Cos Pattern', 646],
     [3, 'PX FX Delay', 276],
     [3, 'PX FX Blur', 276],
-    [3, 'DEV Info', 528],
+    [3, 'DEV Info', 520],
     [3, 'DEV Console', 276],
     [3, 'PX FX Convert', 276],
     [3, 'PX World (mad world)', 248],
@@ -45,7 +45,7 @@ export default {
     [6, 'PX Mix Transition', 276],
     [6, 'PX GEN Sketching', 468],
     [6, 'PX GEN Mini Shader', 468],
-    [6, 'PX Rec', 224]
+  [6, 'PX Rec', 224]
   ].map(([s, name, x1, exclude]) => {
     const src = s + 1
     WIDTHS[src] = WIDTHS[src] || 14
