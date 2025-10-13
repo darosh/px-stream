@@ -16,3 +16,5 @@ function draw () {
 
   circle(50, 50, 67)
 }
+
+// CC0

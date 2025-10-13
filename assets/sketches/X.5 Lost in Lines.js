@@ -49,3 +49,5 @@ function draw () {
   circle(x1, y1, size * 4)
   circle(x2, y2, size * 4)
 }
+
+// CC0

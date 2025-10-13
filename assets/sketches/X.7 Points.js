@@ -43,3 +43,5 @@ function draw () {
     patternOffset -= 100
   }
 }
+
+// CC0

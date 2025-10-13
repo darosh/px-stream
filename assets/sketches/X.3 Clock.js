@@ -28,3 +28,5 @@ function draw() {
 
   line(50, 50, q * sin(a) + 50, q * cos(a) + 50)
 }
+
+// CC0

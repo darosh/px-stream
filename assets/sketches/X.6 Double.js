@@ -88,3 +88,5 @@ function draw () {
   // Draw pivot point
   circle(cx, cy, size * 3)
 }
+
+// CC0
