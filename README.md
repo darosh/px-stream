@@ -43,7 +43,7 @@
     <a href="#in-video"><img src="./docs/media/devices/PX_IN_Video.webp" title="IN Video" width="66"/></a>
     <a href="#fx-colorize"><img src="./docs/media/devices/PX_FX_Colorize.webp" title="FX Colorize" width="109"/></a>
     <a href="#fx-color"><img src="./docs/media/devices/PX_FX_Color.webp" title="FX Color" width="156"/></a>
-    <a href="#gen-text"><img src="./docs/media/devices/PX_GEN_Text_(expanded).webp" title="GEN Text" width="129"/></a>
+    <a href="#dev-info"><img src="./docs/media/devices/DEV_Info.webp" title="DEV Info" width="126"/></a>
     <a href="#px-mix-dry"><img src="./docs/media/devices/PX_Mix_Dry.webp" title="PX Mix Dry" width="66"/></a>
     <a href="#in-svg"><img src="./docs/media/devices/PX_IN_SVG.webp" title="IN SVG" width="66"/></a>
     <a href="#gen-text"><img src="./docs/media/devices/PX_GEN_Text.webp" title="GEN Text" width="66"/></a>
@@ -56,7 +56,7 @@
     <a href="#in-cam"><img src="./docs/media/devices/PX_IN_Cam.webp" title="IN Cam" width="66"/></a>
     <a href="#in-stream"><img src="./docs/media/devices/PX_IN_Stream_(Spout).webp" title="IN Stream" width="66"/></a>
     <a href="#px-mix-transition"><img src="./docs/media/devices/PX_Mix_Transition.webp" title="PX Mix Transition" width="66"/></a>
-    <a href="#dev-info"><img src="./docs/media/devices/DEV_Info.webp" title="DEV Info" width="125"/></a>
+    <a href="#gen-text"><img src="./docs/media/devices/PX_GEN_Text_(expanded).webp" title="GEN Text" width="129"/></a>
     <a href="#px-mix-view"><img src="./docs/media/devices/PX_Mix_View.webp" title="PX Mix View" width="162"/></a>
 </div>
 <!-- end: collage -->
