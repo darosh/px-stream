@@ -55,8 +55,8 @@ for (const f of dir) {
   }
 
   console.log(f)
-  const nf = await formatFile(`./shaders/${f}`)
+  const nf = await formatFile(`./assets/shaders/${f}`)
 
   // console.log(nf.newMeta)
-  await writeFile(`./shaders/${f}`, nf.newFile)
+  await writeFile(`./assets/shaders/${f}`, nf.newFile)
 }
