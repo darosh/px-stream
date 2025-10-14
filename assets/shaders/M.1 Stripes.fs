@@ -3,14 +3,14 @@
     "CATEGORIES": ["MIDI Visualizer"],
     "INPUTS": [
         {"NAME": "midiImage", "TYPE": "audio"},
-        {"NAME": "minNote", "TYPE": "float", "MIN": 0.0, "MAX": 127.0, "DEFAULT": 21.0},
-        {"NAME": "maxNote", "TYPE": "float", "MIN": 0.0, "MAX": 127.0, "DEFAULT": 108.0},
-        {"NAME": "intensity", "TYPE": "float", "MIN": 0.0, "MAX": 10.0, "DEFAULT": 5},
-        {"NAME": "channels", "TYPE": "float", "MIN": 1, "MAX": 16, "DEFAULT": 1},
-        {"NAME": "paletteA", "TYPE": "color", "DEFAULT": [0.5, 0.5, 0.5, 1.0]},
-        {"NAME": "paletteB", "TYPE": "color", "DEFAULT": [0.5, 0.5, 0.5, 1.0]},
-        {"NAME": "paletteC", "TYPE": "color", "DEFAULT": [1.0, 1.0, 1.0, 1.0]},
-        {"NAME": "paletteD", "TYPE": "color", "DEFAULT": [0.0, 0.33, 0.67, 1.0]}
+        {"NAME": "minNote", "TYPE": "float", "DEFAULT": 21, "MIN": 0, "MAX": 127},
+        {"NAME": "maxNote", "TYPE": "float", "DEFAULT": 108, "MIN": 0, "MAX": 127},
+        {"NAME": "intensity", "TYPE": "float", "DEFAULT": 5, "MIN": 0, "MAX": 10},
+        {"NAME": "channels", "TYPE": "float", "DEFAULT": 1, "MIN": 1, "MAX": 16},
+        {"NAME": "paletteA", "TYPE": "color", "DEFAULT": [0.5, 0.5, 0.5, 1]},
+        {"NAME": "paletteB", "TYPE": "color", "DEFAULT": [0.5, 0.5, 0.5, 1]},
+        {"NAME": "paletteC", "TYPE": "color", "DEFAULT": [1, 1, 1, 1]},
+        {"NAME": "paletteD", "TYPE": "color", "DEFAULT": [0, 0.33, 0.67, 1]}
     ],
     "ISFVSN": "2",
     "DESCRIPTION": "Cos palette MIDI stripes"

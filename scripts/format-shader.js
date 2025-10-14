@@ -47,7 +47,7 @@ async function formatFile(path) {
   return { newFile, newMeta }
 }
 
-const dir = await readdir('./shaders')
+const dir = await readdir('./assets/shaders')
 
 for (const f of dir) {
   if (!f.endsWith('.fs')) {

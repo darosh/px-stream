@@ -3,14 +3,14 @@
     "CATEGORIES": ["MIDI Visualizer"],
     "INPUTS": [
         {"NAME": "midiImage", "TYPE": "audio"},
-        {"NAME": "maxPolyphony", "TYPE": "float", "MIN": 1.0, "MAX": 16.0, "DEFAULT": 4.0},
-        {"NAME": "circleSharpness", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.8},
-        {"NAME": "margin", "TYPE": "float", "MIN": 0.0, "MAX": 0.5, "DEFAULT": 0.2},
-        {"NAME": "radius", "TYPE": "float", "MIN": 0.01, "MAX": 5, "DEFAULT": 1.0},
-        {"NAME": "paletteA", "TYPE": "color", "DEFAULT": [0.5, 0.5, 0.5, 1.0]},
-        {"NAME": "paletteB", "TYPE": "color", "DEFAULT": [0.5, 0.5, 0.5, 1.0]},
-        {"NAME": "paletteC", "TYPE": "color", "DEFAULT": [1.0, 1.0, 1.0, 1.0]},
-        {"NAME": "paletteD", "TYPE": "color", "DEFAULT": [0.0, 0.33, 0.67, 1.0]}
+        {"NAME": "maxPolyphony", "TYPE": "float", "DEFAULT": 4, "MIN": 1, "MAX": 16},
+        {"NAME": "circleSharpness", "TYPE": "float", "DEFAULT": 0.8, "MIN": 0, "MAX": 1},
+        {"NAME": "margin", "TYPE": "float", "DEFAULT": 0.2, "MIN": 0, "MAX": 0.5},
+        {"NAME": "radius", "TYPE": "float", "DEFAULT": 1, "MIN": 0.01, "MAX": 5},
+        {"NAME": "paletteA", "TYPE": "color", "DEFAULT": [0.5, 0.5, 0.5, 1]},
+        {"NAME": "paletteB", "TYPE": "color", "DEFAULT": [0.5, 0.5, 0.5, 1]},
+        {"NAME": "paletteC", "TYPE": "color", "DEFAULT": [1, 1, 1, 1]},
+        {"NAME": "paletteD", "TYPE": "color", "DEFAULT": [0, 0.33, 0.67, 1]}
     ],
     "ISFVSN": "2",
     "DESCRIPTION": "Polyphonic voice visualization with dynamic slots"
