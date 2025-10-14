@@ -169,6 +169,16 @@ Following first 4 guides are available as Live sessions in `/Demo` folder/
 
 <br>
 
+### Guide &mdash; Using XY Oscilloscope
+
+1. Pick XY sound source (we used [this one](https://youtu.be/qnL40CbuodU?si=rmkzOA2spQ2ag46G&t=27) for animation bellow)
+2. Insert [PX Shader](#px-shader) and select XY shader (those begin with X.1, X.2, ...)
+3. Add some [FX Pass](#fx-pass) bloom goodness
+
+<img src="./docs/media/guide/Using_XY_Oscilloscope.webp" height="127" title="Using Mix Dry" />
+
+<br>
+
 ### Guide &mdash; Syphon/Spout streaming
 
 1. Expand the [PX Mix View](#px-mix-view) device using the `[...]` button

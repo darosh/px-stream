@@ -8,7 +8,6 @@
 - [ ] doc: svg rounded dim
 - [ ] shader: param typing
 - [ ] guide: using feedback
-- [ ] guide: using xy oscilloscope
 
 ## Misc
 
@@ -126,6 +125,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] guide: using xy oscilloscope
 - [x] guide: using midi
 - [x] shader types block dials
 - [x] ~~midi send refresh~~

@@ -4,7 +4,7 @@ let x0 = 14
 const COL = 46
 
 export default {
-  offset: [0.5, 0.75, 0.7, 0.5, 0.6],
+  offset: [0.5, 0.75, 0.7, 0.5, 0.6, 0],
   time: 1.825,
   v: 1,
   frame: 2,
@@ -19,7 +19,7 @@ export default {
       [4, 'PX GEN Sketching'],
       [6, 'PX GEN Text']
     ], [6, 35, 342, 342]],
-    
+
     [1, 'PX GEN Cos Pattern', 646, 0],
     [1, 'PX GEN Mini Shader', 468, 2],
     [1, 'PX GEN Sketching', 468, 4],
@@ -32,7 +32,7 @@ export default {
       [4, 'PX FX Colorize'],
       [6, 'PX FX Delay']
     ], [6, 35, 342, 342]],
-    
+
     [2, '_', COL],
     [2, 'PX FX Alpha', 452, 0],
     [2, '_', COL],
@@ -49,7 +49,7 @@ export default {
       [4, 'PX FX Pixelization'],
       [6, 'PX FX Transform']
     ], [6, 35, 342, 342]],
-    
+
     [3, '_', COL],
     [3, 'PX FX Kaleidoscope', 276, 0],
     [3, '_', COL],
@@ -58,7 +58,7 @@ export default {
     [3, 'PX FX Pixelization', 544, 4],
     [3, '_', COL],
     [3, 'PX FX Transform', 276, 6],
-    
+
     /* 4 */
     [4, 'PX Mix View', 414, [
       [0, 'PX IN SVG'],
@@ -68,7 +68,7 @@ export default {
       [8, 'PX Mix Transition'],
       [10, 'PX FX Convert']
     ], [6, 35, 342, 342]],
-    
+
     [4, 'PX IN SVG', 276, 0],
     [4, 'PX IN Image', 276, 2],
     [4, 'PX IN Video', 276, 4],
@@ -89,6 +89,9 @@ export default {
 
     [5, '_', 276],
     [5, 'PX FX Color', 648, 0],
+
+    /* 6 */
+    [6, 'Using XY Oscilloscope', 2294, 0],
     
   ].map(([src, name, x1, animated, slice]) => {
     WIDTHS[src] = WIDTHS[src] || 14
