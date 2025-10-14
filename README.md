@@ -69,6 +69,7 @@
     - [Minimal patch](#guide--minimal-patch)
     - [Adding FX](#guide--adding-fx)
     - [Using Mix Dry](#guide--using-mix-dry)
+    - [Using MIDI](#guide--using-midi)
     - [Syphon/Spout streaming](#guide--syphonspout-streaming)
     - [Automation](#guide--automation)
     - [Performance](#guide--performance)
@@ -113,7 +114,7 @@ In package manager:
 
 ## Guide
 
-Following first 3 guides are available as Live sessions in `/Demo` folder/
+Following first 4 guides are available as Live sessions in `/Demo` folder/
 
 ### Guide &mdash; Minimal patch
 
@@ -155,6 +156,16 @@ Following first 3 guides are available as Live sessions in `/Demo` folder/
 ✨ `TIP`  Replace the `Mix Dry` device with [PX Mix Transition](#px-mix-transition) and try experimenting with that.
 
 <img src="./docs/media/guide/Using_Mix_Dry.webp" height="127" title="Using Mix Dry" />
+
+<br>
+
+### Guide &mdash; Using MIDI
+
+1. Insert [Route MIDI](#px-route-midi) device before [PX Shader](#px-shader)
+2. Select MIDI source. Expand `Types` on Shader device - should see midi indicators blinking on both devices as shown on screenshot bellow.
+3. Select MIDI powered shader (name begins with M.1, M.2, ...)
+
+<img src="./docs/media/guide/Using_MIDI.webp" height="127" title="Using Mix Dry" />
 
 <br>
 

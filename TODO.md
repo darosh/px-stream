@@ -7,6 +7,7 @@
 - [ ] performance guide: sample, embrace, ditch
 - [ ] doc: svg rounded dim
 - [ ] shader: param typing
+- [ ] guide: using midi
 
 ## Misc
 
