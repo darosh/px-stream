@@ -171,7 +171,7 @@ Following first 4 guides are available as Live sessions in `/Demo` folder/
 
 ### Guide &mdash; Using XY Oscilloscope
 
-1. Pick XY sound source (we used [this one](https://youtu.be/qnL40CbuodU?si=rmkzOA2spQ2ag46G&t=27) for animation bellow)
+1. Pick XY sound source (we used [this one](https://youtu.be/qnL40CbuodU?t=27) for animation bellow)
 2. Insert [PX Shader](#px-shader) and select XY shader (those begin with X.1, X.2, ...)
 3. Add some [FX Pass](#fx-pass) bloom goodness
 
