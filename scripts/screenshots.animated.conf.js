@@ -91,7 +91,7 @@ export default {
     [5, 'PX FX Color', 648, 0],
 
     /* 6 */
-    [6, 'Using XY Oscilloscope', 2294, 0],
+    [6, 'Using XY Oscilloscope', 1918, 0],
     
   ].map(([src, name, x1, animated, slice]) => {
     WIDTHS[src] = WIDTHS[src] || 14

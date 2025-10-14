@@ -175,7 +175,7 @@ Following first 4 guides are available as Live sessions in `/Demo` folder/
 2. Insert [PX Shader](#px-shader) and select XY shader (those begin with X.1, X.2, ...)
 3. Add some [FX Pass](#fx-pass) bloom goodness
 
-<img src="./docs/media/guide/Using_XY_Oscilloscope.webp" height="127" title="Using Mix Dry" />
+<img src="./docs/media/guide/Using_XY_Oscilloscope_v1.webp" height="127" title="Using Mix Dry" />
 
 <br>
 
