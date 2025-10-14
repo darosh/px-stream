@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -47.0, 87.0, 777.0, 423.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
@@ -23,7 +23,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 136.0, 296.0, 110.0, 22.0 ],
-					"text" : "scale 0. 1. 0. 2048."
+					"text" : "scale 0. 1. 0. 10."
 				}
 
 			}
@@ -789,7 +789,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 528.0, 196.0, 35.0 ],
+					"patching_rect" : [ 784.0, 528.0, 198.0, 35.0 ],
 					"text" : "activeslidercolor 0.502 0.502 0.502 0.341"
 				}
 
@@ -802,7 +802,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 480.0, 196.0, 35.0 ],
+					"patching_rect" : [ 784.0, 480.0, 198.0, 35.0 ],
 					"text" : "activeslidercolor 0.502 0.502 0.502 0.341"
 				}
 
@@ -815,7 +815,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 424.0, 196.0, 35.0 ],
+					"patching_rect" : [ 784.0, 424.0, 198.0, 35.0 ],
 					"text" : "activeslidercolor 0.502 0.502 0.502 0.341"
 				}
 
@@ -828,7 +828,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 376.0, 196.0, 35.0 ],
+					"patching_rect" : [ 784.0, 376.0, 198.0, 35.0 ],
 					"text" : "activeslidercolor 0.502 0.502 0.502 0.341"
 				}
 
@@ -949,7 +949,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 568.0, 196.0, 35.0 ],
+					"patching_rect" : [ 784.0, 568.0, 198.0, 35.0 ],
 					"text" : "activeslidercolor 0.502 0.502 0.502 0.341"
 				}
 
@@ -1081,7 +1081,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 432.0, 288.0, 110.0, 22.0 ],
-					"text" : "scale 0. 2048. 0. 1."
+					"text" : "scale 0. 10. 0. 1."
 				}
 
 			}
@@ -1141,7 +1141,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 264.0, 296.0, 110.0, 22.0 ],
-					"text" : "scale 0. 1. 0. 2048."
+					"text" : "scale 0. 1. 0. 10."
 				}
 
 			}

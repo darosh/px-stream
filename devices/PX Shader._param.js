@@ -15,7 +15,7 @@ const extra = {
     intensity: [0.0, 5., 1.]
   },
   xycImage: { dim: [16, 1024, 512, 'audio'] },
-  midiImage: { dim: [16, 1024, 128, 'audio'] },
+  // midiImage: { dim: [16, 1024, 128, 'audio'] },
   inputImage: {}
 }
 
