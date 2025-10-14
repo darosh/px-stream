@@ -60,8 +60,11 @@ function shiftDials (amount) {
 
   while (obj) {
     const n = obj.maxclass
-
-    if (n?.startsWith('live.comment') || n?.startsWith('live.numbox')) {
+    const v = obj.varname
+    
+    if (n?.startsWith('live.comment')
+      || v?.startsWith('live.text')
+      || n?.startsWith('live.numbox')) {
       var rect = obj.getattr('presentation_rect')
       // rect = [left, top, width, height]
       rect[0] += amount // shift left (x) by amount

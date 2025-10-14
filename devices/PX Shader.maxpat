@@ -6175,7 +6175,7 @@
 ,
 					"text" : "Type",
 					"texton" : "Type",
-					"varname" : "live.text[14]"
+					"varname" : "typeSwitch"
 				}
 
 			}
@@ -6215,7 +6215,7 @@
 ,
 					"text" : "...",
 					"texton" : "...",
-					"varname" : "live.text[13]"
+					"varname" : "expand"
 				}
 
 			}
@@ -11298,7 +11298,7 @@
 ,
 					"text" : "Reload",
 					"usesvgviewbox" : 1,
-					"varname" : "live.text[10]"
+					"varname" : "reload"
 				}
 
 			}
@@ -11336,7 +11336,7 @@
 ,
 					"text" : "Folder",
 					"usesvgviewbox" : 1,
-					"varname" : "live.text[9]"
+					"varname" : "folder"
 				}
 
 			}
@@ -11374,7 +11374,7 @@
 ,
 					"text" : "Edit",
 					"usesvgviewbox" : 1,
-					"varname" : "live.text[8]"
+					"varname" : "edit"
 				}
 
 			}
@@ -21807,6 +21807,16 @@
 			"obj-78" : [ "P03", "P03", 0 ],
 			"obj-8" : [ "FFT", "FFT", 0 ],
 			"obj-9" : [ "WAVE", "WAVE", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-112::obj-6" : 				{
 					"parameter_longname" : "File Automation"
