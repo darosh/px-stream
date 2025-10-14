@@ -110,7 +110,7 @@ In package manager:
 ## Troubleshooting and feedback
 
 - File an [issue](https://github.com/darosh/px-stream/issues) or vote on existing one
-- Join our [Discord server](https://discord.gg/de5txQSven)
+- Join [PX Stream Discord Server](https://discord.gg/de5txQSven) and share your videos, shaders, presets and thoughts.
 
 <br>
 
