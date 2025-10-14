@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 520.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,18 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 480.0, 576.0, 100.0, 22.0 ],
+					"text" : "prepend read"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -11385,8 +11397,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 656.0, 552.0, 106.0, 22.0 ],
-					"text" : "sprintf \\\"%s%s.fs\\\""
+					"patching_rect" : [ 656.0, 552.0, 133.0, 22.0 ],
+					"text" : "sprintf symout %s%s.fs"
 				}
 
 			}
@@ -11539,8 +11551,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 1440.0, 87.0, 22.0 ],
-					"text" : "sprintf file://%s"
+					"patching_rect" : [ 16.0, 1440.0, 129.0, 22.0 ],
+					"text" : "sprintf symout file://%s"
 				}
 
 			}
@@ -13562,8 +13574,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.0, 552.0, 133.0, 22.0 ],
-					"text" : "sprintf read \\\"%s%s.fs\\\""
+					"patching_rect" : [ 480.0, 544.0, 144.0, 22.0 ],
+					"text" : "sprintf symout %s%s.fs"
 				}
 
 			}
@@ -15088,8 +15100,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1408.0, 840.0, 100.0, 22.0 ],
-					"text" : "sprintf \\\"%s::%s\\\""
+					"patching_rect" : [ 1408.0, 840.0, 142.0, 22.0 ],
+					"text" : "sprintf symout %s::%s"
 				}
 
 			}
@@ -17950,7 +17962,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-145", 0 ],
+					"destination" : [ "obj-74", 0 ],
 					"source" : [ "obj-134", 0 ]
 				}
 
@@ -21447,6 +21459,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-145", 0 ],
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-370", 0 ],
 					"disabled" : 1,
 					"source" : [ "obj-75", 0 ]
@@ -21807,16 +21826,6 @@
 			"obj-78" : [ "P03", "P03", 0 ],
 			"obj-8" : [ "FFT", "FFT", 0 ],
 			"obj-9" : [ "WAVE", "WAVE", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-112::obj-6" : 				{
 					"parameter_longname" : "File Automation"

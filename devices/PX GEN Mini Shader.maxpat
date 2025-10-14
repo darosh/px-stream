@@ -1474,7 +1474,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 472.0, 1287.0, 114.0, 22.0 ],
-					"text" : "sprintf \\\"%s%s.glsl\\\""
+					"text" : "sprintf symout %s%s.glsl"
 				}
 
 			}
@@ -1729,7 +1729,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 1096.0, 87.0, 22.0 ],
-					"text" : "sprintf file://%s"
+					"text" : "sprintf symout file://%s"
 				}
 
 			}

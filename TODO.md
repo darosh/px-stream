@@ -124,6 +124,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] sprint symout!!!
 - [x] guide: using feedback
 - [x] guide: using xy oscilloscope
 - [x] guide: using midi

@@ -651,7 +651,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 280.0, 512.0, 78.0, 22.0 ],
-					"text" : "sprintf %s%s"
+					"text" : "sprintf symout %s%s"
 				}
 
 			}
@@ -846,7 +846,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 560.0, 87.0, 22.0 ],
-					"text" : "sprintf file://%s"
+					"text" : "sprintf symout file://%s"
 				}
 
 			}

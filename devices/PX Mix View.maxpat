@@ -6078,7 +6078,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 878.0, 144.0, 22.0 ],
-													"text" : "sprintf %sREC. %s.mov"
+													"text" : "sprintf symout %sREC. %s.mov"
 												}
 
 											}
@@ -6717,7 +6717,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 54.0, 605.0, 144.0, 22.0 ],
-													"text" : "sprintf %sSCR. %s.png"
+													"text" : "sprintf symout %sSCR. %s.png"
 												}
 
 											}

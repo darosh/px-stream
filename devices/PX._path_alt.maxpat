@@ -115,7 +115,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 108.0, 472.0, 126.0, 35.0 ],
-					"text" : "sprintf \\\"%s/assets/%s/\\\""
+					"text" : "sprintf symout %s/assets/%s/"
 				}
 
 			}
