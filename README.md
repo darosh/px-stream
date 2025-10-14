@@ -175,7 +175,7 @@ Following first 5 guides are available as Live sessions in `/Demo` folder/
 
 1. Add one frame delayed signal using [IN Channel](#in-channel) with same channel number to the chain
 2. Mix the delayed and original signal with [Mix Dry](#px-mix-dry) device
-3. Insert between devices effects like [FX Blue](#fx-blur) and [FX Color](#fx-color) to add more movement  
+3. Insert between devices effects like [FX Blur](#fx-blur) and [FX Color](#fx-color) or [FX Transform](#fx-transform) to add more movement  
 
 <img src="./docs/media/guide/Using_Feedback.webp" height="127" title="Using Mix Dry" />
 
