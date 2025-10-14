@@ -173,7 +173,7 @@ Following first 5 guides are available as Live sessions in `/Demo` folder/
 
 ### Guide &mdash; Using Feedback
 
-1. Add one frame delayed signal using [IN Mix](#in-mix) with same channel number to the chain
+1. Add one frame delayed signal using [IN Channel](#in-channel) with same channel number to the chain
 2. Mix the delayed and original signal with [Mix Dry](#px-mix-dry) device
 3. Insert between devices effects like [FX Blue](#fx-blur) and [FX Color](#fx-color) to add more movement  
 
