@@ -8,7 +8,7 @@
 
 <br> 
 
-> PX Stream is a visual performance toolkit of 30+ devices for [Max for Live](https://www.ableton.com/en/live/max-for-live/), featuring 
+> PX Stream is a visual performance toolkit of 30+ compact devices for [Max for Live](https://www.ableton.com/en/live/max-for-live/), featuring 
 > - audio-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals, 
 > - various effects, generators and utilities,
 > - 90+ transitions
@@ -182,7 +182,7 @@ Following first 4 guides are available as Live sessions in `/Demo` folder/
 
 ### Guide &mdash; Automation
 
-Most of the 500+ parameters in the toolkit can be [automated in standard way](https://www.ableton.com/en/manual/automation-and-editing-envelopes/) with few exceptions:
+Most of the parameters in the toolkit can be [automated in standard way](https://www.ableton.com/en/manual/automation-and-editing-envelopes/) with few exceptions:
 
 - **File and font menus** in devices loading dynamic assets operate on two ways
   1. when you only select single value without automation the session will restore the value based on selected name
