@@ -162,8 +162,8 @@ Following first 4 guides are available as Live sessions in `/Demo` folder/
 ### Guide &mdash; Using MIDI
 
 1. Insert [Route MIDI](#px-route-midi) device before [PX Shader](#px-shader)
-2. Select MIDI source. Expand `Types` on Shader device - should see midi indicators blinking on both devices as shown on screenshot bellow.
-3. Select MIDI powered shader (name begins with M.1, M.2, ...)
+2. Select MIDI source. Expand `Types` on Shader device - you should see incoming MIDI signal dot indicators blinking on both devices as shown on screenshot bellow.
+3. Select MIDI powered shader (name begins with M.1, M.2, ...) 
 
 <img src="./docs/media/guide/Using_MIDI.webp" height="127" title="Using Mix Dry" />
 
