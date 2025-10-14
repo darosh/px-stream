@@ -13,6 +13,8 @@
 - [ ] check previews undo history on automation
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
+- [ ] midi send refresh
+- [ ] shader types block dials
 
 ## Licencing
 
@@ -123,6 +125,8 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] decimal shader params
+- [x] midi shaders
 - [x] reduce alpha assets - keep/reorg previews
 - [x] svg fit rounding?
 - [x] re-screenshots mix view -1 -2 px
