@@ -4,8 +4,8 @@ let x0 = 14
 const COL = 46
 
 export default {
-  offset: [0.5, 0.75, 0.7, 0.5, 0.6, 0],
-  time: 1.825,
+  offset: [0.5, 0.75, 0.7, 0.5, 0.6, 0, 0],
+  time: 2.825,
   v: 1,
   frame: 2,
   y0: 1445,
@@ -92,6 +92,9 @@ export default {
 
     /* 6 */
     [6, 'Using XY Oscilloscope', 1918, 0],
+    
+    /* 7 */
+    [7, 'Using Feedback', 2386, 0],
     
   ].map(([src, name, x1, animated, slice]) => {
     WIDTHS[src] = WIDTHS[src] || 14
