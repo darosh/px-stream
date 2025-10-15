@@ -223,7 +223,7 @@ function fixUninitializedVars (glslCode) {
 
 // Based on https://github.com/doxas/twigl/blob/master/src/fragmen.js
 
-const noise = `//
+const noise = `
 // Description : Array and textureless GLSL 2D simplex noise function.
 //      Author : Ian McEwan, Ashima Arts.
 //  Maintainer : stegu
@@ -232,11 +232,12 @@ const noise = `//
 //               Distributed under the MIT License. See LICENSE file.
 //               https://github.com/ashima/webgl-noise
 //               https://github.com/stegu/webgl-noise
-//
-// (sqrt(5) - 1)/4 = F4, used once below
 `
 
 const UTILS = {
+  noise: {
+    code: noise
+  },
   F4: {
     code: `#define F4 0.309016994374947451`
   },
@@ -257,7 +258,7 @@ vec4  permute(vec4 x) {return mod289(((x*34.0)+1.0)*x);}`
 vec4  taylorInvSqrt(vec4 r_) {return 1.79284291400159 - 0.85373472095314 * r_;}`
   },
   snoise2D: {
-    deps: ['mod289', 'permute'],
+    deps: ['noise', 'mod289', 'permute'],
     code: `float snoise2D(vec2 v){
   const vec4 C = vec4(0.211324865405187,  // (3.0-sqrt(3.0))/6.0
                       0.366025403784439,  // 0.5*(sqrt(3.0)-1.0)
