@@ -1,6 +1,6 @@
 {
   "name": "px-stream",
-  "version": "0.0.0",
+  "version": "1.0.0-alpha",
   "devDependencies": {
     "canvas": "^3.2.0",
     "chalk": "^5.6.2",
