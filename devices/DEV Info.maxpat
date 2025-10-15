@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 520.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -93,7 +93,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "function bang() {\r\nconst channels = new Dict('px_channels')?.getkeys()?.join(' ')\r\n\r\nif (!channels) {\r\noutlet(0, '\\n\\nchannels missing')\r\n\r\nreturn\r\n}\r\n\r\nconst chains = new Dict('px_chains')\r\nconst tracks = {1: 'T', 2: 'R', 3: 'M' }\r\nconst keys = chains.getkeys()\r\nconst values = keys.map(key => chains.get(key))\r\n\t.map(r => `${tracks[r[0][0]]+r[0].slice(1).join(':')}  ID:${r[1]}  ${r.slice(2).join('  ')}`)\r\n\t.join('\\n')\r\n\r\noutlet(0, `\\n\\nchannels ${channels}\\n\\n${values}`)\r\n}\r\n",
+					"code" : "function bang() {\r\nconst channels = new Dict('px_channels')?.getkeys()?.join(' ')\r\n\r\nif (!channels) {\r\noutlet(0, '\\n\\nchannels missing')\r\n\r\nreturn\r\n}\r\n\r\nconst chains = new Dict('px_chains')\r\nconst tracks = {1: 'T', 2: 'R', 3: 'M' }\r\nconst keys = chains.getkeys()\r\nconst values = (keys ?? []).map(key => chains.get(key))\r\n\t.map(r => `${tracks[r[0][0]]+r[0].slice(1).join(':')}  ID:${r[1]}  ${r.slice(2).join('  ')}`)\r\n\t.join('\\n')\r\n\r\noutlet(0, `\\n\\nchannels ${channels}\\n\\n${values}`)\r\n}\r\n",
 					"filename" : "none",
 					"fontface" : 0,
 					"fontname" : "<Monospaced>",
@@ -1042,7 +1042,51 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-28" : [ "Auto", "Auto", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "PX._chain.js",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._chain.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._channel.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jitgltextureinfo.js",
+				"bootpath" : "C74:/packages/Jitter Tools/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
