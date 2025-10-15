@@ -415,7 +415,7 @@ Send MIDI from selected track to next device
 
 <img src="./docs/media/devices/PX_Route_MIDI_(linked).webp" height="231" title="PX Route MIDI (linked)" />
 
-📒 `NOTE`  Works only with [PX Shader](#px-shader) device and MIDI-enabled shaders. See [Using MIDI](#guide--using-midi) guide.
+📒 `NOTE` Works only with [PX Shader](#px-shader) device and MIDI-enabled shaders. See the [Using MIDI](#guide--using-midi) guide.
 
 <br>
 
@@ -432,9 +432,9 @@ Up to 32 dynamic parameters and various audio rendering options with PX Stream s
 
 🧲 `AUTOMATION` To automate selected shader file find `File` / `File Automation` parameter in automation lane
 
-✨ `TIP` To reset shader parameter to its default value click the parameter label
+✨ `TIP` To reset a shader parameter to its default value, click the parameter label
 
-📒 `NOTE` Due to dynamic nature of parameter controls the underlying parameter sliders is using range 0 to 10, and has invisible text with scaled value placed on top of that &mdash; which unfortunately leads to typing in values being pretty suboptimal.
+📒 `NOTE` Due to the dynamic nature of parameter controls, the underlying parameter slider uses a range of 0 to 10, and has invisible text with a scaled value placed on top of that &mdash; which unfortunately makes typing in values pretty suboptimal.
 
 <br>
 
@@ -450,7 +450,7 @@ Up to 32 dynamic parameters and various audio rendering options with PX Stream s
 | XYC  | xycImage   | audio    | X = Left, Y = Right, connected lines                                                                                                                                                                  |
 | XYD  | xydImage   | audio    | X = Left, Y = Right, skipping distant lines                                                                                                                                                           |
 | XYE  | xyeImage   | audio    | [electron beam emulation](https://m1el.github.io/woscope-how/), ported to Jitter shader by Rob Ramirez [here](https://discord.com/channels/289378508247924738/351004699811512322/1407790819183956109) |
-| MIDI | midiImage  | audio    | R: [x, y, value] = [note, channel, velocity],<br>G: [x, y, value] = [CC number, channel, velocity],<br>B:  [x, y, value] = [0, 0, voices], [voice, 0, note]                                           |
+| MIDI | midiImage  | audio    | R: [x, y, value] = [note, channel, velocity],<br>G: [x, y, value] = [CC number, channel, value],<br>B: [x, y, value] = [0, 0, voices], [voice, 0, note]                                               |
 | IN   | inputImage | image    | automatic, from previous device in the chain                                                                                                                                                          |
 
 <br>
@@ -495,13 +495,13 @@ Image input. Supports JPG, WEBP and PNG formats.
 
 ### IN SVG
 
-Vector graphics input with resolution-independent scaling SVG file formal
+Vector graphics input with resolution-independent scaling in SVG file format
 
 <img src="./docs/media/previews/PX_IN_SVG_v1.webp" height="231" title="PX IN SVG" /> <img src="./docs/media/automation/PX_IN_SVG_v1.webp" height="231" title="PX IN SVG" />
 
 🧲 `AUTOMATION` To automate selected SVG file find `File` / `File Automation` parameter in automation lane
 
-📒 `NOTE` SVG internal dimensions must be whole number to fully fit into the screen. 
+📒 `NOTE` SVG internal dimensions must be whole numbers to fully fit into the screen.
 
 ✨ `TIP`  There is free [Inkscape](https://inkscape.org/) SVG editor available
 
@@ -529,7 +529,7 @@ Use texture from [Mix Channel](#px-mix-channel) as input
 
 <img src="./docs/media/devices/PX_IN_Channel.webp" height="231" title="PX IN Channel" />
 
-✨ `TIP` Creates feedback when combined with [Mix Dry](#px-mix-dry) on same channel. See [Using Feedback](#guide--using-feedback) guide.
+✨ `TIP` Creates feedback when combined with [Mix Dry](#px-mix-dry) on the same channel. See [Using Feedback](#guide--using-feedback) guide.
 
 <br>
 
@@ -564,7 +564,7 @@ Shaders in [twigl.app](https://twigl.app/) `geekest (300 es)` format.
 
 <img src="./docs/media/previews/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" /> <img src="./docs/media/automation/PX_GEN_Mini_Shader_v1.webp" height="231" title="PX GEN Mini Shader" />
 
-✨ `TIP` To use real time set `Offset` parameter to **−1&nbsp;ms**
+✨ `TIP` To use real time, set `Offset` parameter to **−1&nbsp;ms**
 
 🧲 `AUTOMATION` To automate selected mini shader find `File` / `File Automation` parameter in automation lane
 
@@ -572,9 +572,9 @@ Shaders in [twigl.app](https://twigl.app/) `geekest (300 es)` format.
 
 #### GEN Mini Shader &mdash; Shader files
 
-`GLSL` files are stored in `data/mini-shaders` folder. Temporary JXS files is stored under `data/mini-shaders/.temp.jxs`.
+`GLSL` files are stored in the `data/mini-shaders` folder. Temporary JXS files are stored under `data/mini-shaders/.temp.jxs`.
 
-Learn more about the [Modeling the World in 280 Characters](https://tympanus.net/codrops/2025/06/23/modeling-the-world-in-280-characters/).
+Learn more about [Modeling the World in 280 Characters](https://tympanus.net/codrops/2025/06/23/modeling-the-world-in-280-characters/).
 
 <br>
 
