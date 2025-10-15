@@ -1,7 +1,7 @@
 # PX Stream
 
 [![License: MIT or CC BY](https://img.shields.io/badge/License-MIT_or_CC_BY-333.svg)](LICENSE)
-[![Discord](https://img.shields.io/discord/1329379539708805193?label=Discord&logo=discord&logoColor=white&color=333)](https://discord.gg/de5txQSven)
+[![Discord](https://img.shields.io/discord/1329379539708805193?label=Discord&logo=discord&logoColor=ccc&color=333)](https://discord.gg/de5txQSven)
 ![Version](https://img.shields.io/github/package-json/v/darosh/px-stream?label=Version&color=333)
 [![Downloads](https://img.shields.io/github/downloads/darosh/px-stream/total?label=Downloads&color=333)](https://github.com/darosh/px-stream/releases)
 
