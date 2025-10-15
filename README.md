@@ -308,10 +308,6 @@ Multichannel mixing and preview. Mix output selected in expanded section can be 
 
 <img src="./docs/media/devices/PX_Mix_View.webp" height="231" title="PX Mix View" /> <br><img src="./docs/media/devices/PX_Mix_View_(expanded).webp" height="148" title="PX Mix View (expanded)" />
 
-🎛️ `Hotkeys` 
-- <kbd>Shift+Click</kbd> for instant screenshot stored in `Assets/images`, it will be available in [IN Image](#in-image) device as PNG file
-- <kbd>Control+Click</kbd> for instant video recording (while holding the mouse button) stored in `Assets/video` encoded with `h264` codec, it will be available in [IN Video](#in-video) device as MOV file. For more options and automation use [PX Rec](#px-rec) device instead.
-
 ✨ `TIP` Click on preview opens floating window with fullscreen option and channel toggle buttons
 
 <img src="./docs/media/extra/PX_Mix_View_(floating_menu).png" title="Floating window menu" height="148" />
@@ -325,6 +321,13 @@ Multichannel mixing and preview. Mix output selected in expanded section can be 
 📒 `NOTE` Mac only: the `GL` toggle turns on OpenGL based rendering of the preview in the device (the floating window is always accelerated).
 
 🧪 `DEV_NOTE` Do we want solo buttons in the floating window? And the mixer faders? And smooth fade in/out?
+
+<br>
+
+#### PX Mix View &mdash; 🎛️ Hotkeys
+
+- <kbd>Shift+Click</kbd> for instant screenshot stored in `Assets/images`, it will be available in [IN Image](#in-image) device as PNG file
+- <kbd>Control+Click</kbd> for instant video recording (while holding the mouse button) stored in `Assets/video` encoded with `h264` codec, it will be available in [IN Video](#in-video) device as MOV file. For more options and automation use [PX Rec](#px-rec) device instead.
 
 <br>
 
