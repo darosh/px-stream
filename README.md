@@ -733,7 +733,7 @@ Postprocessing shaders from Max/Jitter library. See [Max documentation](https://
 
 ✨ `TIP` Everything looks better with Bloom effect, especially if you are into the neon glowing aesthetics.
 
-✨ `TIP` To adjust Bloom effect find the right `Threshold` first and then set the `Bloom` amount
+✨ `TIP` To adjust the Bloom effect, find the right `Threshold` first and then set the `Bloom` amount
 
 <br>
 
@@ -746,11 +746,11 @@ Multi-shape pixelization: rectangular, circular, honeycomb, hexagonal, triangula
 
 <img src="./docs/media/previews/PX_FX_Pixelization_v1.webp" height="231" title="PX FX Pixelization" /> <img src="./docs/media/automation/PX_FX_Pixelization_v1.webp" height="231" title="PX FX Pixelization" />
 
-✨ `TIP` To make a gap between pixels lower the `Shape %` value
+✨ `TIP` To make gaps between pixels, lower the `Shape %` value
 
-✨ `TIP` To make image less pixelated adjust the `Smooth` parameter
+✨ `TIP` To make the image less pixelated, adjust the `Smooth` parameter
 
-✨ `TIP` For LED like glowing effect use `Fading`
+✨ `TIP` For an LED-like glowing effect, use `Fading`
 
 <br>
 
