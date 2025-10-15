@@ -411,6 +411,8 @@ Interactive Shader Format ([ISF](https://isf.video/)) host for generators and ef
 
 🧲 `AUTOMATION` To automate selected shader file find `File` / `File Automation` parameter in automation lane
 
+<br>
+
 #### PX Shader &mdash; Audio types
 
 |      | Name       | Type     | Description                                                                                                                                                                                           |
@@ -535,13 +537,15 @@ Shaders in [twigl.app](https://twigl.app/) `geekest (300 es)` format.
 
 🧲 `AUTOMATION` To automate selected mini shader find `File` / `File Automation` parameter in automation lane
 
+<br>
+
 #### GEN Mini Shader &mdash; Shader files
 
 `GLSL` files are stored in `data/mini-shaders` folder. Temporary JXS files is stored under `data/mini-shaders/.temp.jxs`.
 
-#### GEN Mini Shader &mdash; Shader categories
-
 Learn more about the [Modeling the World in 280 Characters](https://tympanus.net/codrops/2025/06/23/modeling-the-world-in-280-characters/).
+
+<br>
 
 #### GEN Mini Shader &mdash; Variables
 
@@ -554,6 +558,9 @@ Learn more about the [Modeling the World in 280 Characters](https://tympanus.net
 | f    | float     | frame               |
 | b    | sampler2D | backbuffer (unused) |
 | o    | vec4      | output              |
+
+
+<br>
 
 #### GEN Mini Shader &mdash; Utilities
 
