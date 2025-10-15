@@ -423,22 +423,8 @@ Interactive Shader Format ([ISF](https://isf.video/)) host for generators and ef
 | XYC  | xycImage   | audio    | X = Left, Y = Right, connected lines                                                                                                                                                                  |
 | XYD  | xydImage   | audio    | X = Left, Y = Right, skipping distant lines                                                                                                                                                           |
 | XYE  | xyeImage   | audio    | [electron beam emulation](https://m1el.github.io/woscope-how/), ported to Jitter shader by Rob Ramirez [here](https://discord.com/channels/289378508247924738/351004699811512322/1407790819183956109) |
-| MIDI | midiImage  | audio    | X = (R: note/velocity, G: CC number/value), Y = MIDI channel                                                                                                                                          |
+| MIDI | midiImage  | audio    | R: [x, y, value] = [note, channel, velocity],<br>G: [x, y, value] = [CC number, channel, velocity],<br>B:  [x, y, value] = [0, 0, voices], [voice, 0, note]                                           |
 | IN   | inputImage | image    | automatic, from previous device in the chain                                                                                                                                                          |
-
-#### PX Shader &mdash; Shader categories
-
-- C. Colorful
-- F. FFT Spectrogram
-- G. Generator
-- L. LED
-- M. MIDI
-- S. Scenes
-- T. Transformation
-- U. Utility
-- W. Waveforms
-- X. XY Oscilloscopes
-- ~. Test Shaders
 
 <br>
 
@@ -555,25 +541,19 @@ Shaders in [twigl.app](https://twigl.app/) `geekest (300 es)` format.
 
 #### GEN Mini Shader &mdash; Shader categories
 
-| Type | Description           |
-|------|-----------------------|
-| B.   | Shaders from Blue Sky |
-| T.   | Shaders from Twitter  |
-| X.   | Examples              |
-
 Learn more about the [Modeling the World in 280 Characters](https://tympanus.net/codrops/2025/06/23/modeling-the-world-in-280-characters/).
 
 #### GEN Mini Shader &mdash; Variables
 
-| Name | Type      | Description  |
-|------|-----------|--------------|
-| FC   | vec4      | gl_FragCoord |
-| r    | vec2      | resolution   |
-| m    | vec2      | mouse        |
-| t    | float     | time         |
-| f    | float     | frame        |
-| b    | sampler2D | backbuffer   |
-| o    | vec4      | output       |
+| Name | Type      | Description         |
+|------|-----------|---------------------|
+| FC   | vec4      | gl_FragCoord        |
+| r    | vec2      | resolution          |
+| m    | vec2      | mouse               |
+| t    | float     | time                |
+| f    | float     | frame               |
+| b    | sampler2D | backbuffer (unused) |
+| o    | vec4      | output              |
 
 #### GEN Mini Shader &mdash; Utilities
 

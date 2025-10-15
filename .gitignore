@@ -23,9 +23,11 @@ assets/mini-shaders/.unknown
 assets/mini-shaders/.temp.jxs
 assets/mini-shaders/.temp-*.jxs
 assets/mini-shaders/.obsolete
+assets/mini-shaders/.info
 assets/shaders/.wip
 assets/shaders/.obsolete
 assets/shaders/.bugs
+assets/shaders/.info
 assets/shaders/.postponed
 assets/sketches/.obsolete
 assets/svg/.unknown
