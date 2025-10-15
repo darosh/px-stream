@@ -618,7 +618,7 @@ Custom OpenGL primitives scripting with JavaScript, slightly compatible with [op
 
 🧲 `AUTOMATION` To automate selected sketch find `File` / `File Automation` parameter in automation lane
 
-🧪 `DEV_NOTE` This device is very limited, and due to the underlying tech `JS`/`jit.gl.sketch` it will likely develop into its own thing rather than processing.js compatible environment 
+🧪 `DEV_NOTE` This device is very limited, and due to the underlying tech `JS`/`jit.gl.sketch`, it will likely develop into its own thing rather than a processing.js compatible environment
 
 <br>
 
@@ -631,7 +631,7 @@ Text generation from session/clip names, custom text, or dynamic musical data (b
 
 <img src="./docs/media/previews/PX_GEN_Text_v1.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/automation/PX_GEN_Text_v1.webp" height="231" title="PX GEN Text" /> <img src="./docs/media/devices/PX_GEN_Text_(expanded).webp" height="231" title="PX GEN Text (expanded)" />
 
-📒 `NOTE` Arrangements clip text is cached, in order to refresh the cache disable + enable the device, (or switch mode to `Session` and back.)
+📒 `NOTE` Arrangement clip text is cached. In order to refresh the cache, disable and enable the device (or switch mode to `Session` and back).
 
 🧲 `AUTOMATION` To automate selected font find `Font` / `Font Automation` parameter in automation lane
 
@@ -668,9 +668,9 @@ Color grading and adjustment tools
 
 <img src="./docs/media/previews/PX_FX_Color_v1.webp" height="231" title="PX FX Color" /> <img src="./docs/media/automation/PX_FX_Color_v1.webp" height="231" title="PX FX Color" /> <br><img src="./docs/media/devices/PX_FX_Color_(gamma).webp" height="148" title="PX FX Color (gamma)" /> <img src="./docs/media/devices/PX_FX_Color_(hue).webp" height="148" title="PX FX Color (hue)" />
 
-🧲 `AUTOMATION` For color wheels automation find `Dark X`, `Dark Y`, `Light X`, ... parameters in automation lane 
+🧲 `AUTOMATION` For color wheel automation, find `Dark X`, `Dark Y`, `Light X`, ... parameters in automation lane
 
-✨ `TIP` To reset color wheel to default value click its label `Dark`, `Light`, ...
+✨ `TIP` To reset a color wheel to its default value, click its label (`Dark`, `Light`, ...)
 
 <br>
 
