@@ -324,7 +324,7 @@ Multichannel mixing and preview. Mix output selected in expanded section can be 
 
 <br>
 
-#### PX Mix View &mdash; 🎛️ Hotkeys
+#### PX Mix View &mdash; Hotkeys
 
 - <kbd>Shift+Click</kbd> for instant screenshot stored in `Assets/images`, it will be available in [IN Image](#in-image) device as PNG file
 - <kbd>Control+Click</kbd> for instant video recording (while holding the mouse button) stored in `Assets/video` encoded with `h264` codec, it will be available in [IN Video](#in-video) device as MOV file. For more options and automation use [PX Rec](#px-rec) device instead.
