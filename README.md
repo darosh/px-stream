@@ -120,7 +120,7 @@ Following first 5 guides are available as Live sessions in `/Demo` folder/
 
 ### Guide &mdash; Minimal patch
 
-1. Insert [PX World](#px-world) device
+1. Insert [PX World](#px-world) device. Exactly one `World` device is needed per Live set.
 2. Insert [PX Mix View](#px-mix-view) device
 3. Insert [GEN Mini Shader](#gen-mini-shader) device
 4. Select channel number **1** in `channel selector` in the bottom of the last inserted device
@@ -304,15 +304,17 @@ Essential rendering context. You need exactly one per Live set. More would be ma
 
 ### PX Mix View
 
-Multichannel mixing and preview. Mix output selected in expanded section can be consumed by [IN Mix](#in-mix) device and [Syphon](https://syphon.info/) clients. Click preview for floating window, <kbd>ESC</kbd> for fullscreen on/off.
+Multichannel mixing, preview and stream output
 
 <img src="./docs/media/devices/PX_Mix_View.webp" height="231" title="PX Mix View" /> <br><img src="./docs/media/devices/PX_Mix_View_(expanded).webp" height="148" title="PX Mix View (expanded)" />
+
+✨ `TIP` Mix output selected in expanded section can be consumed by [IN Mix](#in-mix) device and [Syphon](https://syphon.info/) or [Spout](https://spout.zeal.co/) clients.
 
 ✨ `TIP` Click on preview opens floating window with fullscreen option and channel toggle buttons
 
 <img src="./docs/media/extra/PX_Mix_View_(floating_menu).png" title="Floating window menu" height="148" />
 
-✨ `TIP` On mac the floating window is hidden when live is out of focus, you can use this fork of [Simple-Syphon-Client](https://github.com/darosh/Simple-Syphon-Client) modified to be always on top &mdash; see [Syphon/Spout streaming](#guide--syphonspout-streaming) guide. 
+✨ `TIP` On Mac the floating window is hidden when live is out of focus, you can use this fork of [Simple-Syphon-Client](https://github.com/darosh/Simple-Syphon-Client) modified to be always on top &mdash; see [Syphon/Spout streaming](#guide--syphonspout-streaming) guide. 
 
 ✨ `TIP` Use Live key mapping on `Pop` toggle for quick show/hide
 
@@ -347,9 +349,15 @@ Send texture to selected channel. Alternative to individual channel selectors on
 
 ### PX Mix Dry
 
-Dry/wet mix from two previous devices. Select which (-1 to -4) for dry signal. Multiple blend modes and signal swap. Swap has no effect on [commutative](https://en.wikipedia.org/wiki/Commutative_property) blending methods.
+Dry/wet mix from two previous devices
 
 <img src="./docs/media/previews/PX_Mix_Dry_v1.webp" height="231" title="PX Mix Dry" /> <img src="./docs/media/automation/PX_Mix_Dry_v1.webp" height="231" title="PX Mix Dry" />
+
+✨ `TIP` `Dry` parameter selects which of previous (-1 to -4) is used as dry signal 
+
+✨ `TIP`  With [PX Mix Channel](#px-mix-channel) and [PX Mix Dry](#px-mix-dry) you can create complex multichannel non-linear processing structure in single track
+
+📒 `NOTE` `Swap` parameter has no effect on [commutative](https://en.wikipedia.org/wiki/Commutative_property) blending methods
 
 <br>
 
@@ -386,7 +394,7 @@ Video recording and screenshotting
 
 ### PX Route Audio
 
-Route audio from any track in your Live set
+Route audio from any track in the Live set
 
 <img src="./docs/media/devices/PX_Route_Audio.webp" height="231" title="PX Route Audio" />
 
@@ -397,9 +405,11 @@ Route audio from any track in your Live set
 
 ### PX Route MIDI
 
-Send MIDI from selected track to next device. Works with [PX Shader](#px-shader) device and MIDI-enabled shaders.
+Send MIDI from selected track to next device
 
 <img src="./docs/media/devices/PX_Route_MIDI_(linked).webp" height="231" title="PX Route MIDI (linked)" />
+
+📒 `NOTE`  Works only with [PX Shader](#px-shader) device and MIDI-enabled shaders. See [Using MIDI](#guide--using-midi) guide.
 
 <br>
 
@@ -408,11 +418,17 @@ Send MIDI from selected track to next device. Works with [PX Shader](#px-shader)
 
 ### PX Shader
 
-Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects. Up to 32 dynamic parameters and various audio rendering options with our custom audio types.
+Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects
 
 <img src="./docs/media/previews/PX_Shader_v1.webp" height="231" title="PX Shader" /> <img src="./docs/media/devices/PX_Shader.webp" height="231" title="PX Shader" /> <br><img src="./docs/media/devices/PX_Shader_(types).webp" height="148" title="PX Shader (types)" />
 
+Up to 32 dynamic parameters and various audio rendering options with PX Stream specific audio/MIDI input types.
+
 🧲 `AUTOMATION` To automate selected shader file find `File` / `File Automation` parameter in automation lane
+
+✨ `TIP` To reset shader parameter to its default value click the parameter label
+
+📒 `NOTE` Due to dynamic nature of parameter controls the underlying parameter sliders is using range 0 to 10, and has invisible text with scaled value placed on top of that &mdash; which unfortunately leads to typing in values being pretty suboptimal.
 
 <br>
 
@@ -460,7 +476,7 @@ Live input from connected video devices
 
 ### IN Image
 
-Static image input. Supports JPG, WEBP and PNG formats.
+Image input. Supports JPG, WEBP and PNG formats.
 
 <img src="./docs/media/previews/PX_IN_Image_v1.webp" height="231" title="PX IN Image" /> <img src="./docs/media/automation/PX_IN_Image_v1.webp" height="231" title="PX IN Image" />
 
@@ -499,9 +515,11 @@ Video playback. Supports MP4, AVI, MOV (including [HAP codecs](https://hap.video
 
 ### IN Channel
 
-Use texture from [Mix Channel](#px-mix-channel) as input. Creates feedback when combined with [Mix Dry](#px-mix-dry) on same channel.
+Use texture from [Mix Channel](#px-mix-channel) as input
 
 <img src="./docs/media/devices/PX_IN_Channel.webp" height="231" title="PX IN Channel" />
+
+✨ `TIP` Creates feedback when combined with [Mix Dry](#px-mix-dry) on same channel. See [Using Feedback](#guide--using-feedback) guide.
 
 <br>
 
@@ -625,7 +643,7 @@ Alpha channel tools: chroma key, mapping, inversion, smoothing, removal, etc.
 
 ### FX Blur
 
-Four blur shaders from Max/Jitter stock collection
+Four blur Max/Jitter stock shaders
 
 <img src="./docs/media/previews/PX_FX_Blur_v1.webp" height="231" title="PX FX Blur" /> <img src="./docs/media/automation/PX_FX_Blur_v1.webp" height="231" title="PX FX Blur" />
 
@@ -651,7 +669,7 @@ Color grading and adjustment tools
 
 ### FX Colorize
 
-Two/tri tone colorization with multiple mapping methods
+Two/tri tone colorization with various mapping methods
 
 <img src="./docs/media/previews/PX_FX_Colorize_v1.webp" height="231" title="PX FX Colorize" /> <img src="./docs/media/automation/PX_FX_Colorize_v1.webp" height="231" title="PX FX Colorize" />
 
@@ -675,7 +693,7 @@ Texture format conversion including OKLAB and normalized OKLAB aka NOKLAB
 
 ### FX Delay
 
-Frame-based texture delay. Combine with Mix Dry device for ghost trail effects.
+Frame-based texture delay
 
 <img src="./docs/media/previews/PX_FX_Delay_v1.webp" height="231" title="PX FX Delay" /> <img src="./docs/media/automation/PX_FX_Delay_v1.webp" height="231" title="PX FX Delay" />
 
@@ -688,7 +706,7 @@ Frame-based texture delay. Combine with Mix Dry device for ghost trail effects.
 
 ### FX Kaleidoscope
 
-Kaleidoscope patterns based on [Brewster designs]((https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster)) plus Max/Jitter shader
+Kaleidoscope patterns based on [Brewster designs]((https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster)) plus one stock Max/Jitter shader
 
 <img src="./docs/media/previews/PX_FX_Kaleidoscope_v1.webp" height="231" title="PX FX Kaleidoscope" /> <img src="./docs/media/automation/PX_FX_Kaleidoscope_v1.webp" height="231" title="PX FX Kaleidoscope" />
 
@@ -699,7 +717,7 @@ Kaleidoscope patterns based on [Brewster designs]((https://en.wikipedia.org/wiki
 
 ### FX Pass
 
-Postprocessing shaders from Max/Jitter stock library. See [Max documentation](https://docs.cycling74.com/reference/jit.gl.pass).
+Postprocessing shaders from Max/Jitter library. See [Max documentation](https://docs.cycling74.com/reference/jit.gl.pass).
 
 <img src="./docs/media/previews/PX_FX_Pass_v1.webp" height="231" title="PX FX Pass" /> <img src="./docs/media/automation/PX_FX_Pass_v1.webp" height="231" title="PX FX Pass" />
 
@@ -742,7 +760,7 @@ Geometric transformations: scale, shift, rotation (around axis or vector)
 
 ### DEV Info
 
-Shows texture info for development purposes
+Shows texture, channel and chain info for development purposes
 
 <img src="./docs/media/devices/DEV_Info.webp" height="231" title="DEV Info" />
 
