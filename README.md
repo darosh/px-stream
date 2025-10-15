@@ -117,16 +117,16 @@ In package manager:
 
 ## Guide
 
-Following first 5 guides are available as Live sessions in `/Demo` folder/
+The first 5 guides are available as Live sessions in the `/Demo` folder
 
 ### Guide &mdash; Minimal patch
 
 1. Insert [PX World](#px-world) device. Exactly one `World` device is needed per Live set.
 2. Insert [PX Mix View](#px-mix-view) device
 3. Insert [GEN Mini Shader](#gen-mini-shader) device
-4. Select channel number **1** in `channel selector` in the bottom of the last inserted device
+4. Select channel number **1** in the `channel selector` at the bottom of the last inserted device
 
-✨ `TIP`  All devices start with PX so you can quickly select device with sequence <kbd>Command+F</kbd> + `px wo` + <kbd>Down</kbd> + <kbd>Enter</kbd>
+✨ `TIP` All devices start with PX, so you can quickly select a device with the sequence <kbd>Command+F</kbd> + `px wo` + <kbd>Down</kbd> + <kbd>Enter</kbd>
 
 <img src="./docs/media/guide/Minimal_patch.webp" height="127" title="Minimal patch" />
 
@@ -134,10 +134,10 @@ Following first 5 guides are available as Live sessions in `/Demo` folder/
 
 ### Guide &mdash; Adding FX
 
-1. Select **P** (Pass) in `channel selector` in the `GEN Mini Shader` device from previous guide
+1. Select **P** (Pass) in the `channel selector` in the `GEN Mini Shader` device from the previous guide
 2. Insert [FX Kaleidoscope](#fx-kaleidoscope) device
 3. Insert [PX Mix Channel](#px-mix-channel) device
-4. Select **1** in `channel selector in the bottom of the last inserted device
+4. Select **1** in the `channel selector` at the bottom of the last inserted device
 5. Adjust FX Kaleidoscope parameters as you like
 
 <img src="./docs/media/guide/Adding_FX.webp" height="127" title="Adding FX" />
@@ -146,17 +146,17 @@ Following first 5 guides are available as Live sessions in `/Demo` folder/
 
 ### Guide &mdash; Using Mix Dry
 
-1. Insert [IN SVG](#in-svg) device before `Mix Channel` device and select `PX Stream logo`
-2. Insert [PX Mix Dry](#px-mix-dry) before `Mix Channel` device
+1. Insert [IN SVG](#in-svg) device before the `Mix Channel` device and select `PX Stream logo`
+2. Insert [PX Mix Dry](#px-mix-dry) before the `Mix Channel` device
 3. Experiment with parameters in the `Mix Dry` device
 
-✨ `TIP`  `Dry` selector **-1** to **-4** in the `PX Mix Dry` device selects which of the previous devices is used as the _dry_ one
+✨ `TIP` `Dry` selector **-1** to **-4** in the `PX Mix Dry` device selects which of the previous devices is used as the _dry_ one
 
-✨ `TIP`  With [PX Mix Channel](#px-mix-channel) and [PX Mix Dry](#px-mix-dry) you can create complex multichannel non-linear processing structure in single track
+✨ `TIP` With [PX Mix Channel](#px-mix-channel) and [PX Mix Dry](#px-mix-dry), you can create complex multichannel non-linear processing structures in a single track
 
-📒 `NOTE` Tracks and groups have no effect on rendering, the only thing that is taken into account is order of devices across whole Live set.
+📒 `NOTE` Tracks and groups have no effect on rendering. The only thing that is taken into account is the order of devices across the whole Live set.
 
-✨ `TIP`  Replace the `Mix Dry` device with [PX Mix Transition](#px-mix-transition) and try experimenting with that.
+✨ `TIP` Replace the `Mix Dry` device with [PX Mix Transition](#px-mix-transition) and try experimenting with that
 
 <img src="./docs/media/guide/Using_Mix_Dry.webp" height="127" title="Using Mix Dry" />
 
