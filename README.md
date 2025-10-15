@@ -165,8 +165,8 @@ The first 5 guides are available as Live sessions in the `/Demo` folder
 ### Guide &mdash; Using MIDI
 
 1. Insert [Route MIDI](#px-route-midi) device before [PX Shader](#px-shader)
-2. Select MIDI source. Expand `Types` on Shader device - you should see incoming MIDI signal dot indicators blinking on both devices as shown on screenshot bellow.
-3. Select MIDI powered shader (name begins with M.1, M.2, ...) 
+2. Select a MIDI source. Expand `Types` on the Shader device - you should see incoming MIDI signal dot indicators blinking on both devices as shown in the screenshot below.
+3. Select a MIDI-powered shader (name begins with M.1, M.2, ...)
 
 <img src="./docs/media/guide/Using_MIDI.webp" height="127" title="Using Mix Dry" />
 
@@ -174,9 +174,9 @@ The first 5 guides are available as Live sessions in the `/Demo` folder
 
 ### Guide &mdash; Using Feedback
 
-1. Add one frame delayed signal using [IN Channel](#in-channel) with same channel number to the chain
-2. Mix the delayed and original signal with [Mix Dry](#px-mix-dry) device
-3. Insert between devices effects like [FX Blur](#fx-blur) and [FX Color](#fx-color) or [FX Transform](#fx-transform) to add more movement  
+1. Add a one-frame delayed signal using [IN Channel](#in-channel) with the same channel number to the chain
+2. Mix the delayed and original signals with the [Mix Dry](#px-mix-dry) device
+3. Insert effects between devices like [FX Blur](#fx-blur) and [FX Color](#fx-color) or [FX Transform](#fx-transform) to add more movement
 
 <img src="./docs/media/guide/Using_Feedback.webp" height="127" title="Using Mix Dry" />
 
@@ -185,7 +185,7 @@ The first 5 guides are available as Live sessions in the `/Demo` folder
 ### Guide &mdash; Using XY Oscilloscope
 
 1. Pick XY sound source (we used [this one](https://youtu.be/qnL40CbuodU?t=27) for animation bellow)
-2. Insert [PX Shader](#px-shader) and select XY shader (those begin with X.1, X.2, ...)
+2. Insert [PX Shader](#px-shader) and select an XY shader (those begin with X.1, X.2, ...)
 3. Add some [FX Pass](#fx-pass) bloom goodness
 
 <img src="./docs/media/guide/Using_XY_Oscilloscope_v1.webp" height="127" title="Using Mix Dry" />
@@ -195,7 +195,7 @@ The first 5 guides are available as Live sessions in the `/Demo` folder
 ### Guide &mdash; Syphon/Spout streaming
 
 1. Expand the [PX Mix View](#px-mix-view) device using the `[...]` button
-2. Select Mix OUT channel number **1** &dash; this will allow you to select the stream in Syphon (Max) or Spout (Windows) client as `[Live] PX Stream 1`
+2. Select Mix OUT channel number **1** &mdash; this will allow you to select the stream in a Syphon (Mac) or Spout (Windows) client as `[Live] PX Stream 1`
 
 📒 `NOTE` `Mix OUT` has dual purpose, not only it turns the Syphon/Spout output on, but it also can be consumed with the [IN Mix](#in-mix) device for further (post)processing
 
@@ -205,11 +205,11 @@ The first 5 guides are available as Live sessions in the `/Demo` folder
 
 ### Guide &mdash; Automation
 
-Most of the parameters in the toolkit can be [automated in standard way](https://www.ableton.com/en/manual/automation-and-editing-envelopes/) with few exceptions:
+Most of the parameters in the toolkit can be [automated in the standard way](https://www.ableton.com/en/manual/automation-and-editing-envelopes/) with a few exceptions:
 
 - **File and font menus** in devices loading dynamic assets operate on two ways
-  1. when you only select single value without automation the session will restore the value based on selected name
-  2. when you automate, for example `File / File Automation` parameter in [IN SVG](#in-svg) the automation is based on order of items and will break if you change the content of loaded folder, for example `Assets/svg`
+  1. when you only select a single value without automation, the session will restore the value based on the selected name
+  2. when you automate, for example the `File / File Automation` parameter in [IN SVG](#in-svg), the automation is based on the order of items and will break if you change the content of the loaded folder, for example `Assets/svg`
 - **Cam and Stream (Syphon/Spout)** input selection cannot be automated
 - **Color wheels** in [FX Color](#fx-color) &mdash; see  🧲 `AUTOMATION` note in the device documentation
 
