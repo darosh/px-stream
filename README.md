@@ -299,7 +299,7 @@ Essential rendering context. You need exactly one per Live set. More would be ma
 
 ✨ `TIP` `Enable` parameter turns off all rendering completely (disabling the device does the same)
 
-📒 `NOTE` Mac only: `FPS` parameter set to **0** will use available maximum with `displaylink` turned on. On windows this has no effect.
+📒 `NOTE` Mac only: `FPS` parameter set to **0** will use the maximum available FPS with `displaylink` turned on. On Windows this has no effect.
 
 <br>
 
@@ -314,15 +314,15 @@ Multichannel mixing, preview and stream output
 
 ✨ `TIP` Mix output selected in expanded section can be consumed by [IN Mix](#in-mix) device and [Syphon](https://syphon.info/) or [Spout](https://spout.zeal.co/) clients.
 
-✨ `TIP` Click on preview opens floating window with fullscreen option and channel toggle buttons
+✨ `TIP` Click on preview to open floating window with fullscreen option and channel toggle buttons
 
 <img src="./docs/media/extra/PX_Mix_View_(floating_menu).png" title="Floating window menu" height="148" />
 
-✨ `TIP` On Mac the floating window is hidden when live is out of focus, you can use this fork of [Simple-Syphon-Client](https://github.com/darosh/Simple-Syphon-Client) modified to be always on top &mdash; see [Syphon/Spout streaming](#guide--syphonspout-streaming) guide. 
+✨ `TIP` On Mac the floating window is hidden when Live is out of focus. You can use this fork of [Simple-Syphon-Client](https://github.com/darosh/Simple-Syphon-Client) modified to be always on top &mdash; see [Syphon/Spout streaming](#guide--syphonspout-streaming) guide.
 
 ✨ `TIP` Use Live key mapping on `Pop` toggle for quick show/hide
 
-📒 `NOTE` You can use as many `Mix View` devices you want, including their popup windows. The preview inside device is rendered only when the track is active to save some resources so you may see a glitch when switching back to that track.
+📒 `NOTE` You can use as many `Mix View` devices as you want, including their popup windows. The preview inside the device is rendered only when the track is active to save resources, so you may see a glitch when switching back to that track.
 
 📒 `NOTE` Mac only: the `GL` toggle turns on OpenGL based rendering of the preview in the device (the floating window is always accelerated).
 
@@ -332,8 +332,8 @@ Multichannel mixing, preview and stream output
 
 #### PX Mix View &mdash; Hotkeys
 
-- <kbd>Shift+Click</kbd> for instant screenshot stored in `Assets/images`, it will be available in [IN Image](#in-image) device as PNG file
-- <kbd>Control+Click</kbd> for instant video recording (while holding the mouse button) stored in `Assets/video` encoded with `h264` codec, it will be available in [IN Video](#in-video) device as MOV file. For more options and automation use [PX Rec](#px-rec) device instead.
+- <kbd>Shift+Click</kbd> for instant screenshot stored in `Assets/images`. It will be available in [IN Image](#in-image) device as a PNG file.
+- <kbd>Control+Click</kbd> for instant video recording (while holding the mouse button) stored in `Assets/video`, encoded with `h264` codec. It will be available in [IN Video](#in-video) device as a MOV file. For more options and automation, use [PX Rec](#px-rec) device instead.
 
 <br>
 
@@ -357,9 +357,9 @@ Dry/wet mix from two previous devices
 
 <img src="./docs/media/previews/PX_Mix_Dry_v1.webp" height="231" title="PX Mix Dry" /> <img src="./docs/media/automation/PX_Mix_Dry_v1.webp" height="231" title="PX Mix Dry" />
 
-✨ `TIP` `Dry` parameter selects which of previous (-1 to -4) is used as dry signal 
+✨ `TIP` `Dry` parameter selects which of the previous devices (-1 to -4) is used as dry signal
 
-✨ `TIP`  With [PX Mix Channel](#px-mix-channel) and [PX Mix Dry](#px-mix-dry) you can create complex multichannel non-linear processing structure in single track
+✨ `TIP` With [PX Mix Channel](#px-mix-channel) and [PX Mix Dry](#px-mix-dry) you can create complex multichannel non-linear processing structures in a single track
 
 📒 `NOTE` `Swap` parameter has no effect on [commutative](https://en.wikipedia.org/wiki/Commutative_property) blending methods
 
