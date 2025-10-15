@@ -370,9 +370,11 @@ Dry/wet mix from two previous devices
 
 ### PX Mix Transition
 
-Transition between two previous devices. Channel selection same as Mix Dry. Uses 90+ transitions from [gl-transitions.com](https://gl-transitions.com/).
+Transition between two previous devices powered by 90+ transitions from [gl-transitions.com](https://gl-transitions.com/)
 
 <img src="./docs/media/previews/PX_Mix_Transition_v1.webp" height="231" title="PX Mix Transition" /> <img src="./docs/media/automation/PX_Mix_Transition_v1.webp" height="231" title="PX Mix Transition" />
+
+📒 `NOTE` `From` selection works the same way as the `Dry` parameter in [Mix Dry](#px-mix-dry) device
 
 ✨ `TIP` Transitions are user editable shaders in [JXS file format](https://docs.cycling74.com/userguide/jitter/jxs_file_format/) and some of them include additional parameters. For example `Angular.jxs` has `<param name="startingAngle" type="float" default="90"/>` where you can adjust the default value.
 
@@ -387,9 +389,9 @@ Video recording and screenshotting
 
 <img src="./docs/media/devices/PX_Rec.webp" height="231" title="PX Rec" />
 
-📒 `NOTE` On windows the only supported video codec is `h264`, on Mac there are additionally `prores4444` and `prores442` available
+📒 `NOTE` On Windows the only supported video codec is `h264`. On Mac there are additionally `prores4444` and `prores442` available.
 
-✨ `TIP`  Recorded files are stored under `Assets/video` as MOV files and directly available in [IN Video](#in-video) device and for screenshot it is PNG files in `Assets/images` and [IN Image](#in-image) device
+✨ `TIP` Recorded files are stored under `Assets/video` as MOV files and directly available in [IN Video](#in-video) device. Screenshots are PNG files in `Assets/images` and available in [IN Image](#in-image) device.
 
 <br>
 
