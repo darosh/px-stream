@@ -9,12 +9,13 @@
 
 <br> 
 
-> PX Stream is a visual performance toolkit of 30+ compact devices for [Max for Live](https://www.ableton.com/en/live/max-for-live/), featuring 
-> - audio-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals, 
-> - various effects, generators and utilities,
+> PX Stream is a visual performance toolkit of 30+ compact devices for [Max for Live](https://www.ableton.com/en/live/max-for-live/), featuring:
+> - audio and MIDI-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals
+> - multichannel mixing and routing system
+> - effects, generators, and utilities
 > - 90+ transitions
-> - text rendering 
-> - and [Syphon](https://syphon.info/)/[Spout](https://spout.zeal.co/) output streaming
+> - text rendering
+> - [Syphon](https://syphon.info/)/[Spout](https://spout.zeal.co/) output streaming
 
 <br> 
 
@@ -87,31 +88,31 @@
 
 
 0. Prerequisites: _Ableton Live 12 Suite_ or _Ableton Live 12 Standard with Max for Live_
-1. Download latest [release](https://github.com/darosh/px-stream/releases)
+1. Download the latest [release](https://github.com/darosh/px-stream/releases)
 2. Follow official instructions on [Using third-party Packs](https://help.ableton.com/hc/en-us/articles/206471044-Using-third-party-Packs)
 
 ### Windows specific additional installation steps
 
-Windows users need to install two additional Max packages (VIDDLL and [ISF](https://cycling74.com/packages/isf)) in [package manager](https://docs.cycling74.com/userguide/package_manager/)
+Windows users need to install two additional Max packages (VIDDLL and [ISF](https://cycling74.com/packages/isf)) in the [package manager](https://docs.cycling74.com/userguide/package_manager/)
 
 Open the package manager:
 
-1. Open [...] menu on max device, for example `PX World` and click `Edit in Max`
-2. In Max > `File` menu click `Show Package Manager`
+1. Open the [...] menu on a max device, for example `PX World`, and click `Edit in Max`
+2. In Max > `File` menu, click `Show Package Manager`
 
 In package manager:
 
-4. Select `Remote packages` and search for a package `VIDDLL`
+4. Select `Remote packages` and search for the package `VIDDLL`
 5. Open the package and click install
-6. Repeat step **4.** for `ISF` package
+6. Repeat step **4** for the `ISF` package
 7. Restart Live
 
 <br>
 
 ## Troubleshooting and feedback
 
-- File an [issue](https://github.com/darosh/px-stream/issues) or vote on existing one
-- Join [PX Stream Discord Server](https://discord.gg/de5txQSven) and share your videos, shaders, presets and thoughts.
+- File an [issue](https://github.com/darosh/px-stream/issues) or vote on an existing one
+- Join the [PX Stream Discord Server](https://discord.gg/de5txQSven) and share your videos, shaders, presets and thoughts.
 
 <br>
 
@@ -217,16 +218,16 @@ Most of the parameters in the toolkit can be [automated in the standard way](htt
 
 ### Guide &mdash; Performance
 
-- Devices and assets are designed to be mostly lightweight and run at 60 to 120 FPS on MacBook M1 Pro.
+- Devices and assets are designed to be mostly lightweight and run at 60 to 120 FPS on a MacBook M1 Pro.
 - Power status, energy saving options and floating/fullscreen preview window status may affect real FPS.
-- Most of the processing is done with OpenGL on GPU so they should not affect Ableton CPU based sound processing.
-- Optimizing resources loaded from assets is recommended: smaller dimensions for images and smaller format (WEBP) and smaller dimensions and CPU friendly codec (HAP) for videos
-- Some devices, especially the postprocessing ones like the [FX Pass](#fx-pass) is better to use only once &mdash; before the final output
-- Some devices, especially [GEN Sketching](#gen-sketching) seems to have noticeably worse performance on Windows
+- Most of the processing is done with OpenGL on the GPU, so it should not affect Ableton's CPU-based sound processing.
+- Optimizing resources loaded from assets is recommended: smaller dimensions for images and smaller format (WEBP), and smaller dimensions and CPU-friendly codec (HAP) for videos
+- Some devices, especially postprocessing ones like [FX Pass](#fx-pass), are better to use only once &mdash; before the final output
+- Some devices, especially [GEN Sketching](#gen-sketching), seem to have noticeably worse performance on Windows
 
-✨ `TIP` To guess the impact of device on performance select 0 FPS in [PX World](#px-world) and turn on the `Show FPS` switch in extended (`[...]` button) [PX Mix View](#px-mix-view) device
+✨ `TIP` To guess the impact of a device on performance, select 0 FPS in [PX World](#px-world) and turn on the `Show FPS` switch in the extended (`[...]` button) [PX Mix View](#px-mix-view) device
 
-✨ `TIP` If you notice significant drop in performance, don't use the effect (or embrace the glitch goodness), or sample parts of the performance to the video &mdash; there is [PX Rec](#px-rec) recording device or instant video sampling hotkeys in [Mix View](#px-mix-view) device available.
+✨ `TIP` If you notice a significant drop in performance, don't use the effect (or embrace the glitch goodness), or sample parts of the performance to video &mdash; there is the [PX Rec](#px-rec) recording device or instant video sampling hotkeys in the [Mix View](#px-mix-view) device available.
 
 <br>
 
