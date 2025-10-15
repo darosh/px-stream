@@ -1,19 +1,10 @@
 # Todo
 
-## Doc
-
-- [ ] doc
-- [ ] sketching win performance
-- [ ] performance guide: sample, embrace, ditch
-- [ ] doc: svg rounded dim
-- [ ] shader: param typing
-
-## Misc
-
 - [ ] check duplication every device
 - [ ] check previews undo history on automation
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
+- [ ] doc
 
 ## Licencing
 
@@ -38,6 +29,7 @@
 
 ## Windows
 
+- [x] ~~sketching win performance~~
 - [x] mix view resize glitch
 - [x] mix view broken popup
 - [x] FX pass diferent tab layout
@@ -124,6 +116,9 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] performance guide: sample, embrace, ditch
+- [x] doc: svg rounded dim
+- [x] shader: param typing
 - [x] sprint symout!!!
 - [x] guide: using feedback
 - [x] guide: using xy oscilloscope

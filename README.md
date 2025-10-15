@@ -221,8 +221,11 @@ Most of the parameters in the toolkit can be [automated in standard way](https:/
 - Most of the processing is done with OpenGL on GPU so they should not affect Ableton CPU based sound processing.
 - Optimizing resources loaded from assets is recommended: smaller dimensions for images and smaller format (WEBP) and smaller dimensions and CPU friendly codec (HAP) for videos
 - Some devices, especially the postprocessing ones like the [FX Pass](#fx-pass) is better to use only once &mdash; before the final output
+- Some devices, especially [GEN Sketching](#gen-sketching) seems to have noticeably worse performance on Windows
 
 ✨ `TIP` To guess the impact of device on performance select 0 FPS in [PX World](#px-world) and turn on the `Show FPS` switch in extended (`[...]` button) [PX Mix View](#px-mix-view) device
+
+✨ `TIP` If you notice significant drop in performance, don't use the effect (or embrace the glitch goodness), or sample parts of the performance to the video &mdash; there is [PX Rec](#px-rec) recording device or instant video sampling hotkeys in [Mix View](#px-mix-view) device available.
 
 <br>
 
@@ -494,6 +497,10 @@ Vector graphics input with resolution-independent scaling SVG file formal
 <img src="./docs/media/previews/PX_IN_SVG_v1.webp" height="231" title="PX IN SVG" /> <img src="./docs/media/automation/PX_IN_SVG_v1.webp" height="231" title="PX IN SVG" />
 
 🧲 `AUTOMATION` To automate selected SVG file find `File` / `File Automation` parameter in automation lane
+
+📒 `NOTE` SVG internal dimensions must be whole number to fully fit into the screen. 
+
+✨ `TIP`  There is free [Inkscape](https://inkscape.org/) SVG editor available
 
 <br>
 
