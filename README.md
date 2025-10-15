@@ -694,7 +694,7 @@ Texture format conversion including OKLAB and normalized OKLAB aka NOKLAB
 
 <img src="./docs/media/previews/PX_FX_Convert_v1.webp" height="231" title="PX FX Convert" /> <img src="./docs/media/automation/PX_FX_Convert_v1.webp" height="231" title="PX FX Convert" />
 
-✨ `TIP` to get even weirder colors use two `FX Convert` devices with different format
+✨ `TIP` To get even weirder colors, use two `FX Convert` devices with different formats
 
 <br>
 
@@ -707,7 +707,7 @@ Frame-based texture delay
 
 <img src="./docs/media/previews/PX_FX_Delay_v1.webp" height="231" title="PX FX Delay" /> <img src="./docs/media/automation/PX_FX_Delay_v1.webp" height="231" title="PX FX Delay" />
 
-✨ `TIP` To see the dry and delayed signal at same time put [Mix Dry](#px-mix-dry) device after the delay one
+✨ `TIP` To see the dry and delayed signals at the same time, put a [Mix Dry](#px-mix-dry) device after the delay one
 
 <br>
 
@@ -716,7 +716,7 @@ Frame-based texture delay
 
 ### FX Kaleidoscope
 
-Kaleidoscope patterns based on [Brewster designs]((https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster)) plus one stock Max/Jitter shader
+Kaleidoscope patterns based on [Brewster designs](https://en.wikipedia.org/wiki/Kaleidoscope#Different_versions_suggested_by_Brewster) plus one stock Max/Jitter shader
 
 <img src="./docs/media/previews/PX_FX_Kaleidoscope_v1.webp" height="231" title="PX FX Kaleidoscope" /> <img src="./docs/media/automation/PX_FX_Kaleidoscope_v1.webp" height="231" title="PX FX Kaleidoscope" />
 
