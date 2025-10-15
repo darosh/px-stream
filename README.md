@@ -795,11 +795,11 @@ Max for Live
 - [Zwobot](https://www.zwobotmax.com/)
 - [EboSuite](https://www.ebosuite.com/)
 
-Max for Live + App
+Max for Live + Companion App
 
 - [Videosync 2](https://videosync.showsync.com/)
 
-VST
+Plugin / Standalone App 
 
 - [VS - Visual Synthesizer](https://www.imaginando.pt/products/vs-visual-synthesizer)
 
@@ -807,13 +807,13 @@ VST
 
 ## Roadmap
 
-- alpha testing (volunteers)
+- alpha testing (volunteers needed)
 - more shaders, presets
 - beta testing (public)
 - more shaders, presets
-- demo track
+- example demo track
 - 1.0 release
-- gumroad.com for donations?
+- gumroad for donations?
 - more shaders, presets
 - 2.0?
   - simple/instant audio/MIDI based modulation
@@ -829,4 +829,4 @@ This project is dual-licensed under [MIT or CC-BY](./LICENSE) (your choice).
 
 You may use, modify, and distribute this work under either license.
 
-For dynamically loaded assets licensing see [assets/LICENSE.md](./assets/LICENSE.md)
+For licensing of dynamically loaded assets, see [assets/LICENSE.md](./assets/LICENSE.md)
