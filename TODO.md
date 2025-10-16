@@ -116,6 +116,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] pop persistence
 - [x] performance guide: sample, embrace, ditch
 - [x] doc: svg rounded dim
 - [x] shader: param typing
