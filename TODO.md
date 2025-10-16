@@ -10,13 +10,13 @@
 
 - [ ] check mini shaders licences
   - [x] https://bsky.app/profile/holtsetio.bsky.social/post/3lwyikurabc26
-  - [ ] https://bsky.app/profile/rangemarten.bsky.social/post/3losfvor4ws2y
-  - [ ] https://x.com/kamoshika_vrc/status/1684571232765882368
-  - [ ] https://x.com/XorDev/status/1601770313230209024
-  - [ ] https://x.com/YoheiNishitsuji/status/1796435007873151189
+  - [x] https://bsky.app/profile/rangemarten.bsky.social/post/3losfvor4ws2y
+  - [x] https://x.com/kamoshika_vrc/status/1684571232765882368
+  - [x] https://x.com/XorDev/status/1601770313230209024
+  - [x] MIT https://x.com/YoheiNishitsuji/status/1796435007873151189
 - [ ] check processing licences
-  - [ ] https://x.com/SnowEsamosc/status/1971220103070130586
-  - [ ] https://x.com/yuruyurau/status/1719632742269514103
+  - [x] https://x.com/SnowEsamosc/status/1971220103070130586
+  - [x] https://x.com/yuruyurau/status/1719632742269514103
 
 ```text
 Hi,
@@ -54,6 +54,10 @@ Jan
 
 ```text
 Hi! Can I include it in my open source VJ toolkit https://github.com/darosh/px-stream ? It's in assets/mini-shaders with link to post, marked "license pending." Any open license works (CC0/BY/BY-NC) or I'll remove it. Thank you!
+```
+
+```text
+Hi! Can I include it in my open source VJ toolkit https://github.com/darosh/px-stream ? It's in assets/sketches with link to post, marked "license pending." Any open license works (CC0/BY/BY-NC) or I'll remove it. Thank you!
 ```
 
 ## IFS
