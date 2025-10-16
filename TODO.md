@@ -18,6 +18,40 @@
   - [ ] https://x.com/SnowEsamosc/status/1971220103070130586
   - [ ] https://x.com/yuruyurau/status/1719632742269514103
 
+```text
+Hi,
+
+I would love to include your shaders in my open source VJ toolkit for Ableton Live: https://github.com/darosh/px-stream
+
+Currently, it's included in the assets/mini-shaders folder with a link to the original post and marked as "license pending clarification" in assets/LICENSE.md.
+
+The project is dual-licensed MIT/CC-BY. I can work with any open license you prefer (CC0, CC-BY, CC-BY-NC-SA, etc.) - or if you'd prefer, I'll remove it immediately.
+
+The shaders are dynamically loaded and user-editable, so people can learn from and tweak your code while creating visuals for their music.
+
+Would you be okay with this? Let me know your preferred license or if you have any concerns.
+
+Best regards,
+Jan
+```
+
+```text
+Hi,
+
+I would love to include your Processing sketches in my open source VJ toolkit for Ableton Live: https://github.com/darosh/px-stream
+
+Currently, it's included in the assets/sketches folder with a link to the original post and marked as "license pending clarification" in assets/LICENSE.md.
+
+The project is dual-licensed MIT/CC-BY. I can work with any open license you prefer (CC0, CC-BY, CC-BY-NC-SA, etc.) - or if you'd prefer, I'll remove it immediately.
+
+The sketches are dynamically loaded and user-editable, so people can learn from and tweak your code while creating visuals for their music.
+
+Would you be okay with this? Let me know your preferred license or if you have any concerns.
+
+Best regards,
+Jan
+```
+
 ## IFS
 
 - [ ] tempo param? BEAT? BAR?

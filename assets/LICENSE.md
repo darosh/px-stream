@@ -1,8 +1,8 @@
 # Dynamically loaded assets licensing
 
-**Important:** Assets marked ⚠️ `UNKNOWN` are provided for reference only while licensing is clarified.
+**Important:** Assets marked ⚠️ `UNKNOWN` are provided for reference only while licensing is pending clarification.
 Users must obtain proper licensing from original authors before redistribution or commercial use.
-These shaders and scripts are shared by the #つぶやきGLSL and #つぶやきProcessing communities and are included with attribution and links to original posts. If you're the author and want yours removed or properly licensed, please file an [issue](https://github.com/darosh/px-stream).
+These shaders and scripts are shared by the #つぶやきGLSL and #つぶやきProcessing communities and are included with links to original posts. If you're the author and want yours removed or properly licensed, please file an [issue](https://github.com/darosh/px-stream).
 
 | Folder                         | License                                                                      | Source / Author                                                                                             |
 |--------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
