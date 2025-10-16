@@ -10,12 +10,13 @@
 <br> 
 
 > PX Stream is a visual performance toolkit of 30+ compact devices for [Max for Live](https://www.ableton.com/en/live/max-for-live/), featuring:
-> - audio and MIDI-reactive [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals
+> - audio and MIDI-reactive extended [Interactive Shader Format](https://www.interactiveshaderformat.com/) visuals
 > - multichannel mixing and routing system
 > - effects, generators, and utilities
 > - 90+ transitions
 > - text rendering
 > - [Syphon](https://syphon.info/)/[Spout](https://spout.zeal.co/) output streaming
+> - user-editable ISF shaders, mini shaders, GL sketches and transitions
 
 <br> 
 
