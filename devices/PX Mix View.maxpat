@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 520.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -9242,12 +9242,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-43",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 1424.0, 322.0, 22.0 ],
-					"text" : "expr ($i1 > ($i3-78) && $i1 < $i3) && ($i2 > 0 && $i2 < 169)"
+					"patching_rect" : [ 32.0, 1424.0, 322.0, 35.0 ],
+					"text" : "expr ($i1 > ($i3-217) && $i1 < $i3) && ($i2 > 0 && $i2 < 169)"
 				}
 
 			}
@@ -10608,7 +10609,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 392.0, 264.0, 49.0 ],
-					"text" : ";\rmax launchbrowser https://github.com/darosh/px-stream#px-stream"
+					"text" : ";\rmax launchbrowser https://github.com/darosh/px-stream"
 				}
 
 			}
@@ -11867,7 +11868,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 72.0, 720.0, 42.0, 22.0 ],
-					"text" : "+ 219."
+					"text" : "+ 217."
 				}
 
 			}
@@ -12608,7 +12609,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 200.0, 104.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 449.111112888889011, 70.0, 65.0, 79.0 ],
+					"presentation_rect" : [ 449.0, 70.0, 65.0, 79.0 ],
 					"proportion" : 0.39,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
@@ -12646,7 +12647,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
+						"rect" : [ 33.0, 82.0, 520.0, 498.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 8.0, 8.0 ],
@@ -12718,7 +12719,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 336.0, 26.0, 88.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 5.0, 308.0, 65.0, 22.0 ],
+									"presentation_rect" : [ 4.0, 306.0, 67.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "Off", "On" ],

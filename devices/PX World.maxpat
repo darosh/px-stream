@@ -313,7 +313,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 380.0, 79.0, 285.0, 476.0 ],
+						"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 8.0, 8.0 ],
@@ -328,7 +328,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 336.0, 72.0, 264.0, 49.0 ],
-									"text" : ";\rmax launchbrowser https://github.com/darosh/px-stream#px-stream"
+									"text" : ";\rmax launchbrowser https://github.com/darosh/px-stream"
 								}
 
 							}
@@ -402,7 +402,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 336.0, 26.0, 88.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 24.0, 274.0, 65.0, 22.0 ],
+									"presentation_rect" : [ 23.0, 274.0, 67.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "Off", "On" ],
