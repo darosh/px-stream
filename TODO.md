@@ -4,7 +4,7 @@
 - [ ] check previews undo history on automation
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
-- [ ] doc
+- [ ] push mapping
 
 ## Licencing
 
@@ -158,6 +158,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] doc alpha
 - [x] pop persistence
 - [x] performance guide: sample, embrace, ditch
 - [x] doc: svg rounded dim
