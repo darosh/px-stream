@@ -12647,7 +12647,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 82.0, 520.0, 498.0 ],
+						"rect" : [ 33.0, 79.0, 520.0, 498.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 8.0, 8.0 ],
@@ -12676,7 +12676,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 336.0, 72.0, 264.0, 49.0 ],
-									"text" : ";\rmax launchbrowser https://github.com/darosh/px-stream#px-stream"
+									"text" : ";\rmax launchbrowser https://github.com/darosh/px-stream"
 								}
 
 							}
@@ -17497,6 +17497,16 @@
 			"obj-91" : [ "Out 1", "Out 1", 0 ],
 			"obj-95" : [ "Out 9", "Out 9", 0 ],
 			"obj-96" : [ "FPS", "FPS", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-146::obj-151" : 				{
 					"parameter_longname" : "Dimensions"
