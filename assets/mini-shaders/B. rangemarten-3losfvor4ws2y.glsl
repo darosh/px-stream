@@ -1,2 +1,3 @@
 float i,j,z,d,s,D;vec4 q,P;mat2 M=rotate2D(.1*t);for(vec3 p;++i<55.;p=normalize(vec3((2.*FC.xy-r)/r.y,2))*z){p.z-=2.;q=vec4(p,.5);q.yw*=M;q.wx*=M;q.zw*=M;P=q;d=9.;s=1.;for(j=0.;++j<8.;D=dot(P,P),P=abs(P)/D,s*=D,P-=.1*vec4(5,7,9,5),P=P.ywzx)d=min(d,length(P)*s);P=1.+cos(.7*vec4(2,1,0,3.*length(q.xy))+1.+8.*length(q));P.xyz*=P.w;o+=P/d;z+=.6*d+1E-3;}o=tanh(o/3E3);
 // https://bsky.app/profile/rangemarten.bsky.social/post/3losfvor4ws2y
+// CC0
