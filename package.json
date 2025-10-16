@@ -29,7 +29,7 @@
     "clean:assets": "rm -rf './build/PX Stream/Assets'",
     "clean:devices": "'./build/PX Stream/Devices'",
     "clean:user:assets": "rm -f ./build/PX\\ Stream/Assets/images/SCR.*.* ./build/PX\\ Stream/Assets/images/REC.*.*",
-    "debug:demos:off": "mkdir -p ./build/debug && mv ./build/PX\\ Stream/Demo/DEBUG*.* ./build/debug/",
+    "debug:demos:off": "mkdir -p ./build/debug && mv -f ./build/PX\\ Stream/Demo/DEBUG*.* ./build/debug/ 2>/dev/null || true",
     "debug:demos:on": "mv ./build/debug/DEBUG*.* ./build/PX\\ Stream/Demo/",
     "copy:assets": "rsync -av --exclude='*/.*' ./assets/ './build/PX Stream/Assets/'",
     "doc": "npm run doc:screenshots && npm run doc:readme",
