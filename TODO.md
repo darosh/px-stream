@@ -9,7 +9,7 @@
 ## Licencing
 
 - [ ] check mini shaders licences
-  - [ ] https://bsky.app/profile/holtsetio.bsky.social/post/3lwyikurabc26
+  - [x] https://bsky.app/profile/holtsetio.bsky.social/post/3lwyikurabc26
   - [ ] https://bsky.app/profile/rangemarten.bsky.social/post/3losfvor4ws2y
   - [ ] https://x.com/kamoshika_vrc/status/1684571232765882368
   - [ ] https://x.com/XorDev/status/1601770313230209024
@@ -50,6 +50,10 @@ Would you be okay with this? Let me know your preferred license or if you have a
 
 Best regards,
 Jan
+```
+
+```text
+Hi! Can I include it in my open source VJ toolkit https://github.com/darosh/px-stream ? It's in assets/mini-shaders with link to post, marked "license pending." Any open license works (CC0/BY/BY-NC) or I'll remove it. Thank you!
 ```
 
 ## IFS
