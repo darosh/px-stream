@@ -9,7 +9,7 @@
 ## Licencing
 
 - [ ] check mini shaders licences
-  - [x] https://bsky.app/profile/holtsetio.bsky.social/post/3lwyikurabc26
+  - [x] MIT https://bsky.app/profile/holtsetio.bsky.social/post/3lwyikurabc26
   - [x] https://bsky.app/profile/rangemarten.bsky.social/post/3losfvor4ws2y
   - [x] https://x.com/kamoshika_vrc/status/1684571232765882368
   - [x] https://x.com/XorDev/status/1601770313230209024
