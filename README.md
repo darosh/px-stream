@@ -119,7 +119,7 @@ In package manager:
 
 ## Guide
 
-The first 5 guides are available as Live sessions in the `/Demo` folder
+The first 5 guides are available as Live sessions in the `/Demo` folder of the installed pack
 
 ### Guide &mdash; Minimal patch
 
