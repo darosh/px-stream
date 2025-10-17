@@ -5,6 +5,8 @@
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] push mapping
+- [ ] doc win settings: Win -> System -> Display -> Graphics -> Ableton -> GPU Preference = High performance, Optimization for windowed games: On 
+- [ ] doc win settings: Max -> Options -> OpenGL Status
 
 ## Licencing
 
