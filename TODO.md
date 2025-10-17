@@ -5,8 +5,16 @@
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] push mapping
+- [ ] alpha 2 release and win test (before or after mac alpha 1 result?)
 - [ ] doc win settings: Win -> System -> Display -> Graphics -> Ableton -> GPU Preference = High performance, Optimization for windowed games: On 
 - [ ] doc win settings: Max -> Options -> OpenGL Status
+- [ ] Preview
+  - should reset pwin when (current === selected track) && is_windows
+  - should reset pwin when GL switch is changed
+  - should pause preview rendering when current !== selected track || device is collapsed || device is disabled
+  - none of above should cause lag in Syphon/Spout stream
+  - GL switch default on
+  - GL switch doc needs update
 
 ## Licencing
 
