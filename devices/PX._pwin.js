@@ -1,7 +1,7 @@
 autowatch = 1
 
 // Main function to delete and recreate object
-function recreate_pwin_static () {
+function bang () {
   const patcher = this.patcher
   let old_obj = null
   let switch_obj = null
@@ -26,20 +26,6 @@ function recreate_pwin_static () {
     
     obj = obj.nextobject
   }
-
-  // Find the object with varname "pwin_switch"
-  // obj = patcher.firstobject
-  
-  // while (obj) {
-  //   if (obj.varname === 'pwin_switch') {
-  //     switch_obj = obj
-  //     // post('Found pwin_switch\n')
-  //    
-  //     break
-  //   }
-  //  
-  //   obj = obj.nextobject
-  // }
 
   // Find the object with varname "extra_handler"
   obj = patcher.firstobject
@@ -67,8 +53,7 @@ function recreate_pwin_static () {
     patcher.remove(old_obj)
   }
 
-  // Create new object at same position (adjust object type as needed)
-  // Change "live.text" to whatever object type you need
+  // Create new object at same position and with same name
   const new_obj = patcher.newdefault(old_pos[0], old_pos[1], 'jit.pwindow', '@presentation', 1, '@name', old_name)
   new_obj.varname = 'pwin_static'
 
@@ -84,16 +69,4 @@ function recreate_pwin_static () {
   // patcher.connect(switch_obj, 0, new_obj, 0)
   patcher.connect(new_obj, 1, extra_handler, 0)
   // post('Connected pwin_switch to extra_handler\n')
-}
-
-// Call the function when receiving a bang
-function bang () {
-  recreate_pwin_static()
-}
-
-// You can also trigger with a message
-function msg_int (v) {
-  if (v > 0) {
-    recreate_pwin_static()
-  }
 }
