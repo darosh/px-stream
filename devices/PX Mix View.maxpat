@@ -19326,7 +19326,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-235", 0 ],
-					"disabled" : 1,
 					"source" : [ "obj-509", 0 ]
 				}
 
@@ -19422,6 +19421,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-509", 0 ],
+					"disabled" : 1,
 					"source" : [ "obj-521", 0 ]
 				}
 
@@ -20010,16 +20010,6 @@
 			"obj-91" : [ "Out 1", "Out 1", 0 ],
 			"obj-95" : [ "Out 9", "Out 9", 0 ],
 			"obj-96" : [ "FPS", "FPS", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-146::obj-151" : 				{
 					"parameter_longname" : "Dimensions"
