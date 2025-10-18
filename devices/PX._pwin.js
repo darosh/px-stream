@@ -8,6 +8,7 @@ function recreate_pwin_static () {
   let extra_handler = null
   let old_pos = [0, 0]
   let old_pres_rect = null
+  let old_name = null
 
   // Find the object with varname "pwin_static"
   let obj = patcher.firstobject
@@ -17,6 +18,7 @@ function recreate_pwin_static () {
       old_obj = obj
       old_pos = [obj.rect[0], obj.rect[1]]
       old_pres_rect = obj.getattr('presentation_rect')
+      old_name = obj.getattr('name')
       // post('Found pwin_static at position: ' + old_pos + '\n')
       // post('Presentation rect: ' + old_pres_rect + '\n')
       break
@@ -26,18 +28,18 @@ function recreate_pwin_static () {
   }
 
   // Find the object with varname "pwin_switch"
-  obj = patcher.firstobject
+  // obj = patcher.firstobject
   
-  while (obj) {
-    if (obj.varname === 'pwin_switch') {
-      switch_obj = obj
-      // post('Found pwin_switch\n')
-      
-      break
-    }
-    
-    obj = obj.nextobject
-  }
+  // while (obj) {
+  //   if (obj.varname === 'pwin_switch') {
+  //     switch_obj = obj
+  //     // post('Found pwin_switch\n')
+  //    
+  //     break
+  //   }
+  //  
+  //   obj = obj.nextobject
+  // }
 
   // Find the object with varname "extra_handler"
   obj = patcher.firstobject
@@ -67,7 +69,7 @@ function recreate_pwin_static () {
 
   // Create new object at same position (adjust object type as needed)
   // Change "live.text" to whatever object type you need
-  const new_obj = patcher.newdefault(old_pos[0], old_pos[1], 'jit.pwindow', '@presentation', 1)
+  const new_obj = patcher.newdefault(old_pos[0], old_pos[1], 'jit.pwindow', '@presentation', 1, '@name', old_name)
   new_obj.varname = 'pwin_static'
 
   // Restore presentation_rect if it existed
@@ -79,9 +81,9 @@ function recreate_pwin_static () {
   // post('Created new pwin_static\n')
 
   // Connect pwin_switch output 0 to new object input 0
-  patcher.connect(switch_obj, 0, new_obj, 0)
+  // patcher.connect(switch_obj, 0, new_obj, 0)
   patcher.connect(new_obj, 1, extra_handler, 0)
-  // post('Connected pwin_switch to pwin_static\n')
+  // post('Connected pwin_switch to extra_handler\n')
 }
 
 // Call the function when receiving a bang
