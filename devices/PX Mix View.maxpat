@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 60.0, 1132.0, 580.0 ],
+		"rect" : [ 33.0, 60.0, 1532.0, 580.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,42 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-497",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 567.0, 1085.0, 48.0, 22.0 ],
+					"text" : "pipe 80"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-490",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 687.0, 1100.0, 48.0, 22.0 ],
+					"text" : "pipe 80"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-466",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 352.0, 1560.0, 73.0, 22.0 ],
+					"text" : "speedlim 41"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-239",
 					"maxclass" : "newobj",
@@ -2896,19 +2932,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 424.0, 1280.0, 72.0, 22.0 ],
 					"text" : "enable $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-454",
-					"linecount" : 3,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 424.0, 1360.0, 100.0, 50.0 ],
-					"text" : "jit.gl.asyncread px-stream @enable 0"
 				}
 
 			}
@@ -14709,7 +14732,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 424.0, 1576.0, 80.0, 60.0 ],
+					"patching_rect" : [ 352.0, 1600.0, 80.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 169.0 ],
 					"sync" : 1,
@@ -17096,6 +17119,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-509", 0 ],
+					"disabled" : 1,
 					"source" : [ "obj-237", 1 ]
 				}
 
@@ -18845,13 +18869,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-102", 1 ],
-					"source" : [ "obj-454", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-492", 0 ],
 					"source" : [ "obj-455", 0 ]
 				}
@@ -18859,7 +18876,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-517", 1 ],
+					"destination" : [ "obj-490", 0 ],
 					"source" : [ "obj-456", 0 ]
 				}
 
@@ -18941,8 +18958,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-525", 0 ],
+					"destination" : [ "obj-497", 0 ],
 					"source" : [ "obj-464", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-466", 0 ]
 				}
 
 			}
@@ -19076,13 +19100,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-454", 0 ],
-					"source" : [ "obj-479", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-184", 0 ],
 					"order" : 0,
 					"source" : [ "obj-48", 0 ]
@@ -19201,6 +19218,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-517", 1 ],
+					"source" : [ "obj-490", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-453", 0 ],
 					"source" : [ "obj-491", 2 ]
 				}
@@ -19248,6 +19272,13 @@
 					"destination" : [ "obj-443", 0 ],
 					"order" : 0,
 					"source" : [ "obj-496", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-525", 0 ],
+					"source" : [ "obj-497", 0 ]
 				}
 
 			}
@@ -19340,7 +19371,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-466", 0 ],
 					"order" : 1,
 					"source" : [ "obj-507", 0 ]
 				}
@@ -19501,13 +19532,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-523", 0 ],
 					"source" : [ "obj-526", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-454", 0 ],
-					"source" : [ "obj-528", 0 ]
 				}
 
 			}
@@ -20039,16 +20063,6 @@
 			"obj-91" : [ "Out 1", "Out 1", 0 ],
 			"obj-95" : [ "Out 9", "Out 9", 0 ],
 			"obj-96" : [ "FPS", "FPS", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-146::obj-151" : 				{
 					"parameter_longname" : "Dimensions"
