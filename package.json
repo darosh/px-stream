@@ -14,6 +14,7 @@
     "glsl-tokenizer": "^2.1.5",
     "json-stringify-pretty-compact": "^4.0.0",
     "json5": "^2.2.3",
+    "node-fetch": "^3.3.2",
     "npm-run-all": "^4.1.5",
     "puppeteer": "^24.22.0",
     "sharp": "^0.34.3"
@@ -31,6 +32,7 @@
     "clean:user:assets": "rm -f ./build/PX\\ Stream/Assets/images/SCR.*.* ./build/PX\\ Stream/Assets/images/REC.*.*",
     "debug:demos:off": "mkdir -p ./build/debug && mv -f ./build/PX\\ Stream/Demo/DEBUG*.* ./build/debug/ 2>/dev/null || true",
     "debug:demos:on": "mv ./build/debug/DEBUG*.* ./build/PX\\ Stream/Demo/",
+    "downloads": "node ./scripts/downloads.js",
     "copy:assets": "rsync -av --exclude='*/.*' ./assets/ './build/PX Stream/Assets/'",
     "doc": "npm run doc:screenshots && npm run doc:readme",
     "doc:readme": "node ./scripts/doc.js",
