@@ -5,7 +5,9 @@
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] push mapping
-- [ ] cross device messages on change only
+- [ ] PX Mix device
+- [ ] simplify feedback
+- [ ] check frames on sketching
 
 ```text
 Alpha 3 release notes:
@@ -166,6 +168,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] cross device messages on change only
 - [x] view: Pop + FPS re-layout
 - [x] alpha 2 release and win test (before ~~or after~~ mac alpha 1 result?)
 - [x] doc win settings: Win -> System -> Display -> Graphics -> Ableton -> GPU Preference = High performance, Optimization for windowed games: On
