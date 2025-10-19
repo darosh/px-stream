@@ -116,7 +116,7 @@ Optimization (may help some Windows 11 users):
 9. Restart computer
 10. Check used renderer in Max -> Options -> OpenGL Status
 
-🧪 `DEV_NOTE` Preview in the `Mix View` device seems to be problematic on Windows, moving it to own track or collapsing and using only pop window instead before it is resolved may help.
+🧪 `DEV_NOTE` Preview in the `Mix View` device seems to be problematic on Windows, moving it to own track or collapsing and using only pop window instead before it is resolved may help. Alternatively you could use something like [SpoutReceiver.exe](https://github.com/leadedge/Spout2/releases).
 
 <br>
 
