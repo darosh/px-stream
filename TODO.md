@@ -5,7 +5,6 @@
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] push mapping
-- [ ] PX Mix device
 
 ```text
 Alpha 3 release notes:
@@ -18,6 +17,12 @@ Mix View device:
 Alpha 7 release notes:
 - cross device communication optimization
 - reduced preview inside Mix View device on Windows to 8 FPS
+```
+
+```text
+Alpha 10 release notes:
+Mix View
+- `[...]` button replaced with `[<]` and `[>]` buttons
 ```
 
 ## Licencing
@@ -174,6 +179,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] ~~PX Mix device~~ preview switch + doc
 - [x] cross device messages on change only
 - [x] view: Pop + FPS re-layout
 - [x] alpha 2 release and win test (before ~~or after~~ mac alpha 1 result?)

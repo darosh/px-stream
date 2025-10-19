@@ -116,7 +116,7 @@ Optimization (may help some Windows 11 users):
 9. Restart computer
 10. Check used renderer in Max -> Options -> OpenGL Status
 
-🧪 `DEV_NOTE` Preview in the `Mix View` device seems to be problematic on Windows, moving it to own track or collapsing and using only pop window instead before it is resolved may help. Alternatively you could use something like [SpoutReceiver.exe](https://github.com/leadedge/Spout2/releases).
+🧪 `DEV_NOTE` Preview in the `Mix View` device seems to be problematic on Windows, moving it to own track or collapsing and using only pop window instead may help. Alternatively you could use something like [SpoutReceiver.exe](https://github.com/leadedge/Spout2/releases) if there is a problem with the pop window as well.
 
 <br>
 
@@ -206,7 +206,7 @@ The first 5 guides are available as Live sessions in the `/Demo` folder of the i
 
 ### Guide &mdash; Syphon/Spout streaming
 
-1. Expand the [PX Mix View](#px-mix-view) device using the `[...]` button
+1. Expand the [PX Mix View](#px-mix-view) device using the `[>]` button
 2. Select Mix OUT channel number **1** &mdash; this will allow you to select the stream in a Syphon (Mac) or Spout (Windows) client as `[Live] PX Stream 1`
 
 📒 `NOTE` `Mix OUT` has dual purpose, not only it turns the Syphon/Spout output on, but it also can be consumed with the [IN Mix](#in-mix) device for further (post)processing
@@ -236,7 +236,7 @@ Most of the parameters in the toolkit can be [automated in the standard way](htt
 - Some devices, especially postprocessing ones like [FX Pass](#fx-pass), are better to use only once &mdash; before the final output
 - Some devices, especially [GEN Sketching](#gen-sketching), seem to have noticeably worse performance on Windows
 
-✨ `TIP` To guess the impact of a device on performance, select 0 FPS in [PX World](#px-world) and turn on the `Show FPS` switch in the extended (`[...]` button) [PX Mix View](#px-mix-view) device
+✨ `TIP` To guess the impact of a device on performance, select 0 FPS in [PX World](#px-world) and turn on the `Show FPS` switch in the extended (`[>]` button) [PX Mix View](#px-mix-view) device
 
 ✨ `TIP` If you notice a significant drop in performance, don't use the effect (or embrace the glitch goodness), or sample parts of the performance to video &mdash; there is the [PX Rec](#px-rec) recording device or instant video sampling hotkeys in the [Mix View](#px-mix-view) device available.
 
