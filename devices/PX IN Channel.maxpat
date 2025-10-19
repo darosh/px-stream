@@ -21,6 +21,17 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-458",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 448.0, 184.0, 112.0, 22.0 ],
+					"text" : "s px_render_flush"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -127,11 +138,11 @@
 				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 448.0, 128.0, 50.0, 22.0 ],
-					"text" : "select 0"
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 448.0, 128.0, 64.0, 22.0 ],
+					"text" : "select 0 1"
 				}
 
 			}
@@ -142,7 +153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 400.0, 128.0, 32.0, 22.0 ],
+					"patching_rect" : [ 400.0, 144.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -154,7 +165,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 720.0, 272.0, 80.0, 22.0 ],
+					"patching_rect" : [ 864.0, 328.0, 80.0, 22.0 ],
 					"text" : "r ---this_bang"
 				}
 
@@ -262,8 +273,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 400.0, 80.0, 70.0, 22.0 ],
-					"text" : "r px_render"
+					"patching_rect" : [ 400.0, 56.0, 120.0, 22.0 ],
+					"text" : "r px_render_always"
 				}
 
 			}
@@ -656,6 +667,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-458", 0 ],
+					"disabled" : 1,
+					"source" : [ "obj-21", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-85", 1 ],
 					"source" : [ "obj-21", 0 ]
 				}
@@ -829,16 +848,6 @@
 		"parameters" : 		{
 			"obj-366" : [ "Channel", "Channel", 0 ],
 			"obj-7" : [ "Channel In", "Channel In", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
