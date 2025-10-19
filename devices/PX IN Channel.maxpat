@@ -705,7 +705,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 3 ],
+					"destination" : [ "obj-29", 1 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -783,14 +783,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"source" : [ "obj-31", 0 ]
+					"source" : [ "obj-31", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"source" : [ "obj-31", 1 ]
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}
@@ -899,16 +899,6 @@
 		"parameters" : 		{
 			"obj-366" : [ "Channel", "Channel", 0 ],
 			"obj-7" : [ "Channel In", "Channel In", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
