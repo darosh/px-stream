@@ -11,7 +11,7 @@
 Alpha 3 release notes:
 Mix View device:
 - GL button removed (screenshots in the doc will be updated for Beta release)
-- preview inside `Mix View` device is limited to 25 FPS (12.5 FPS on Windows), (FPS in pop window and stream output is unaffected)
+- preview inside device is limited to 25 FPS (12.5 FPS on Windows), (FPS in pop window and stream output is unaffected)
 ```
 
 ## Licencing
