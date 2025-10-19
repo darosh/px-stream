@@ -16,6 +16,12 @@ Mix View device:
 - preview inside device is limited to 25 FPS (12.5 FPS on Windows), (FPS in pop window and stream output is unaffected)
 ```
 
+```text
+Alpha 7 release notes:
+- cross device communication optimization
+- reduced preview inside Mix View device on Windows to 8 FPS
+```
+
 ## Licencing
 
 - [ ] check mini shaders licences
