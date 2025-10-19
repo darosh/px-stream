@@ -6,8 +6,6 @@
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] push mapping
 - [ ] PX Mix device
-- [ ] simplify feedback
-- [ ] check frames on sketching
 
 ```text
 Alpha 3 release notes:
@@ -87,6 +85,8 @@ Hi! Can I include it in my open source VJ toolkit https://github.com/darosh/px-s
 
 ## Windows
 
+- [x] simplify feedback
+- [x] ~~check frames on sketching~~
 - [x] ~~sketching win performance~~
 - [x] mix view resize glitch
 - [x] mix view broken popup
