@@ -101,12 +101,20 @@ Open the package manager:
 1. Open the [...] menu on a max device, for example `PX World`, and click `Edit in Max`
 2. In Max > `File` menu, click `Show Package Manager`
 
-In package manager:
+In Max package manager:
 
 4. Select `Remote packages` and search for the package `VIDDLL`
 5. Open the package and click install
 6. Repeat step **4** for the `ISF` package
 7. Restart Live
+
+Optimization (may help some Windows 11 users):
+
+8. Windows Settings -> System -> Display -> Graphics -> Ableton:
+   - GPU Preference = High performance, 
+   - Optimization for windowed games = On
+9. Restart computer
+10. Check used renderer in Max -> Options -> OpenGL Status
 
 <br>
 
@@ -324,11 +332,15 @@ Multichannel mixing, preview and stream output
 
 ✨ `TIP` Use Live key mapping on `Pop` toggle for quick show/hide
 
-📒 `NOTE` You can use as many `Mix View` devices as you want, including their popup windows. The preview inside the device is rendered only when the track is active to save resources, so you may see a glitch when switching back to that track.
+📒 `NOTE` You can use as many `Mix View` devices as you want, including their popup windows. 
 
-📒 `NOTE` Mac only: the `GL` toggle turns on OpenGL based rendering of the preview in the device (the floating window is always accelerated).
+📒 `NOTE` The preview inside the device is limited to 25 accelerated FPS on Mac and on Windows to non-accelerated 12.5 FPS.
+
+📒 `NOTE` Preview inside device is rendered only when the track is active and the device is not collapsed to save resources, so you may see a glitch when switching back to that track.
 
 🧪 `DEV_NOTE` Do we want solo buttons in the floating window? And the mixer faders? And smooth fade in/out?
+
+🧪 `DEV_NOTE` We could add something like PX Mix (without the View part, just the mix, stream and pop)
 
 <br>
 
