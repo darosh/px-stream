@@ -5,39 +5,6 @@
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] screenshots
-- [ ] push mapping
-    - [x] DEV Console
-    - [x] DEV Info
-    - [x] PX FX Alpha
-    - [x] PX FX Blur
-    - [x] PX FX Color
-    - [ ] PX FX Colorize
-    - [x] PX FX Convert
-    - [x] PX FX Delay
-    - [x] PX FX Kaleidoscope
-    - [x] PX FX Pass
-    - [x] PX FX Pixelization
-    - [x] PX FX Transform
-    - [x] PX GEN Cos Pattern
-    - [x] PX GEN Mini Shader
-    - [x] PX GEN Sketching
-    - [x] PX GEN Text
-    - [x] PX IN Cam
-    - [x] PX IN Channel
-    - [x] PX IN Image
-    - [x] PX IN Mix
-    - [x] PX IN Stream
-    - [x] PX IN SVG
-    - [x] PX IN Video
-    - [x] PX Mix Channel
-    - [x] PX Mix Dry
-    - [x] PX Mix Transition
-    - [x] PX Mix View
-    - [x] PX Rec
-    - [x] PX Route Audio
-    - [x] PX Route MIDI
-    - [x] PX Shader
-    - [x] PX World
 
 ```text
 Alpha 3 release notes:
@@ -221,6 +188,41 @@ Note: many of these things can be checked and changed in the View > Parameters w
     - Take special care of auto-indexed names when there are parameters in abstractions (also in bpatchers) that are instantiated multiple times.
 - [ ] Value recall: Parameter values stored in a Live Set with an old version of the device are all recalled properly.
 - [ ] API ID recall: Persistent ids stored in a Live Set with an old version of the device are all recalled properly.
+
+## Push mapping
+
+- [x] DEV Console
+- [x] DEV Info
+- [x] PX FX Alpha
+- [x] PX FX Blur
+- [x] PX FX Color
+- [x] PX FX Colorize
+- [x] PX FX Convert
+- [x] PX FX Delay
+- [x] PX FX Kaleidoscope
+- [x] PX FX Pass
+- [x] PX FX Pixelization
+- [x] PX FX Transform
+- [x] PX GEN Cos Pattern
+- [x] PX GEN Mini Shader
+- [x] PX GEN Sketching
+- [x] PX GEN Text
+- [x] PX IN Cam
+- [x] PX IN Channel
+- [x] PX IN Image
+- [x] PX IN Mix
+- [x] PX IN Stream
+- [x] PX IN SVG
+- [x] PX IN Video
+- [x] PX Mix Channel
+- [x] PX Mix Dry
+- [x] PX Mix Transition
+- [x] PX Mix View
+- [x] PX Rec
+- [x] PX Route Audio
+- [x] PX Route MIDI
+- [x] PX Shader
+- [x] PX World
 
 ## Done
 
