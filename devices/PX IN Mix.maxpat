@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 641.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 405.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -1160,7 +1160,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation_name" : "9",
+					"annotation_name" : "Z",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-95",
@@ -1178,14 +1178,14 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_annotation_name" : "9",
+							"parameter_annotation_name" : "Z",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "9",
+							"parameter_longname" : "Z",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "9",
+							"parameter_shortname" : "Z",
 							"parameter_type" : 2
 						}
 
@@ -1200,7 +1200,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation_name" : "8",
+					"annotation_name" : "Y",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-78",
@@ -1218,14 +1218,14 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_annotation_name" : "8",
+							"parameter_annotation_name" : "Y",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "8",
+							"parameter_longname" : "Y",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "8",
+							"parameter_shortname" : "Y",
 							"parameter_type" : 2
 						}
 
@@ -1240,7 +1240,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation_name" : "7",
+					"annotation_name" : "X",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-79",
@@ -1258,14 +1258,14 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_annotation_name" : "7",
+							"parameter_annotation_name" : "X",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "7",
+							"parameter_longname" : "X",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "7",
+							"parameter_shortname" : "X",
 							"parameter_type" : 2
 						}
 
@@ -1280,7 +1280,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation_name" : "6",
+					"annotation_name" : "F",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-84",
@@ -1298,14 +1298,14 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_annotation_name" : "6",
+							"parameter_annotation_name" : "F",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "6",
+							"parameter_longname" : "F",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "6",
+							"parameter_shortname" : "F",
 							"parameter_type" : 2
 						}
 
@@ -1320,7 +1320,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation_name" : "5",
+					"annotation_name" : "E",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-1",
@@ -1338,14 +1338,14 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_annotation_name" : "5",
+							"parameter_annotation_name" : "E",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "5",
+							"parameter_longname" : "E",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "5",
+							"parameter_shortname" : "E",
 							"parameter_type" : 2
 						}
 
@@ -1360,7 +1360,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation_name" : "4",
+					"annotation_name" : "D",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-88",
@@ -1378,14 +1378,14 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_annotation_name" : "4",
+							"parameter_annotation_name" : "D",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "4",
+							"parameter_longname" : "D",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "4",
+							"parameter_shortname" : "D",
 							"parameter_type" : 2
 						}
 
@@ -1400,7 +1400,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation_name" : "3",
+					"annotation_name" : "C",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-89",
@@ -1418,14 +1418,14 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_annotation_name" : "3",
+							"parameter_annotation_name" : "C",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "3",
+							"parameter_longname" : "C",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "3",
+							"parameter_shortname" : "C",
 							"parameter_type" : 2
 						}
 
@@ -1440,7 +1440,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation_name" : "2",
+					"annotation_name" : "B",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-90",
@@ -1458,14 +1458,14 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_annotation_name" : "2",
+							"parameter_annotation_name" : "B",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "2",
+							"parameter_longname" : "B",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "2",
+							"parameter_shortname" : "B",
 							"parameter_type" : 2
 						}
 
@@ -1479,7 +1479,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation_name" : "1",
+					"annotation_name" : "A",
 					"automation" : "Off",
 					"automationon" : "On",
 					"id" : "obj-91",
@@ -1497,14 +1497,14 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_annotation_name" : "1",
+							"parameter_annotation_name" : "A",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "1",
+							"parameter_longname" : "A",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "1",
+							"parameter_shortname" : "A",
 							"parameter_type" : 2
 						}
 
@@ -2895,26 +2895,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "5", "5", 0 ],
+			"obj-1" : [ "E", "E", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
-			"obj-78" : [ "8", "8", 0 ],
-			"obj-79" : [ "7", "7", 0 ],
-			"obj-84" : [ "6", "6", 0 ],
-			"obj-88" : [ "4", "4", 0 ],
-			"obj-89" : [ "3", "3", 0 ],
-			"obj-90" : [ "2", "2", 0 ],
-			"obj-91" : [ "1", "1", 0 ],
-			"obj-95" : [ "9", "9", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
+			"obj-78" : [ "Y", "Y", 0 ],
+			"obj-79" : [ "X", "X", 0 ],
+			"obj-84" : [ "F", "F", 0 ],
+			"obj-88" : [ "D", "D", 0 ],
+			"obj-89" : [ "C", "C", 0 ],
+			"obj-90" : [ "B", "B", 0 ],
+			"obj-91" : [ "A", "A", 0 ],
+			"obj-95" : [ "Z", "Z", 0 ],
 			"inherited_shortname" : 1
 		}
 ,
