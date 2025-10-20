@@ -6,18 +6,17 @@
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] screenshots
 - [ ] push mapping
-    - [ ] DEV Console
-    - [ ] DEV CPU Reporter
-    - [ ] DEV Info
+    - [x] DEV Console
+    - [x] DEV Info
     - [ ] PX FX Alpha
     - [ ] PX FX Blur
     - [ ] PX FX Color
     - [ ] PX FX Colorize
     - [ ] PX FX Convert
-    - [ ] PX FX Delay
+    - [x] PX FX Delay
     - [ ] PX FX Kaleidoscope
-    - [ ] PX FX Pass
-    - [ ] PX FX Pixelization
+    - [x] PX FX Pass
+    - [x] PX FX Pixelization
     - [x] PX FX Transform
     - [x] PX GEN Cos Pattern
     - [x] PX GEN Mini Shader
