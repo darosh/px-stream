@@ -4,6 +4,7 @@
 - [ ] check previews undo history on automation
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
+- [ ] rename mix IN/OUT numbers to letters
 - [ ] push mapping
     - [ ] DEV Console
     - [ ] DEV CPU Reporter
@@ -56,6 +57,18 @@ Alpha 7 release notes:
 Alpha 10 release notes:
 Mix View
 - `[...]` button replaced with `[<]` and `[>]` buttons
+```
+
+```text
+Alpha 11 release notes:
+All
+- Push support
+
+Mix View
+- fixed mixing sliders 
+
+Mix View + IN Mix
+- renamed buttons from numbers 1-9 to letters A-I
 ```
 
 ## Licencing
