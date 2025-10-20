@@ -5,6 +5,39 @@
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] push mapping
+    - [ ] DEV Console.amxd
+    - [ ] DEV CPU Reporter.amxd
+    - [ ] DEV Info.amxd
+    - [ ] PX FX Alpha.amxd
+    - [ ] PX FX Blur.amxd
+    - [ ] PX FX Color.amxd
+    - [ ] PX FX Colorize.amxd
+    - [ ] PX FX Convert.amxd
+    - [ ] PX FX Delay.amxd
+    - [ ] PX FX Kaleidoscope.amxd
+    - [ ] PX FX Pass.amxd
+    - [ ] PX FX Pixelization.amxd
+    - [ ] PX FX Transform.amxd
+    - [ ] PX GEN Cos Pattern.amxd
+    - [ ] PX GEN Mini Shader.amxd
+    - [ ] PX GEN Sketching.amxd
+    - [ ] PX GEN Text.amxd
+    - [ ] PX IN Cam.amxd
+    - [ ] PX IN Channel.amxd
+    - [ ] PX IN Image.amxd
+    - [ ] PX IN Mix.amxd
+    - [ ] PX IN Stream.amxd
+    - [ ] PX IN SVG.amxd
+    - [ ] PX IN Video.amxd
+    - [ ] PX Mix Channel.amxd
+    - [ ] PX Mix Dry.amxd
+    - [ ] PX Mix Transition.amxd
+    - [x] PX Mix View.amxd
+    - [ ] PX Rec.amxd
+    - [ ] PX Route Audio.amxd
+    - [ ] PX Route MIDI.amxd
+    - [ ] PX Shader.amxd
+    - [ ] PX World.amxd
 
 ```text
 Alpha 3 release notes:
