@@ -4,6 +4,7 @@
 - [ ] check previews undo history on automation
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
+- [ ] screenshots
 - [ ] rename mix IN/OUT numbers to letters
 - [ ] push mapping
     - [ ] DEV Console
