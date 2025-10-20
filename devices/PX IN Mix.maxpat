@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 641.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -1159,7 +1159,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "9",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1191,15 +1191,15 @@
 
 					}
 ,
-					"text" : "9",
-					"texton" : "9",
+					"text" : "Z",
+					"texton" : "Z",
 					"varname" : "live.text[17]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "8",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1231,15 +1231,15 @@
 
 					}
 ,
-					"text" : "8",
-					"texton" : "8",
+					"text" : "Y",
+					"texton" : "Y",
 					"varname" : "live.text[9]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "7",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1271,15 +1271,15 @@
 
 					}
 ,
-					"text" : "7",
-					"texton" : "7",
+					"text" : "X",
+					"texton" : "X",
 					"varname" : "live.text[10]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "6",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1311,15 +1311,15 @@
 
 					}
 ,
-					"text" : "6",
-					"texton" : "6",
+					"text" : "F",
+					"texton" : "F",
 					"varname" : "live.text[11]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "5",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1351,15 +1351,15 @@
 
 					}
 ,
-					"text" : "5",
-					"texton" : "5",
+					"text" : "E",
+					"texton" : "E",
 					"varname" : "live.text[12]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "4",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1391,15 +1391,15 @@
 
 					}
 ,
-					"text" : "4",
-					"texton" : "4",
+					"text" : "D",
+					"texton" : "D",
 					"varname" : "live.text[13]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "3",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1431,15 +1431,15 @@
 
 					}
 ,
-					"text" : "3",
-					"texton" : "3",
+					"text" : "C",
+					"texton" : "C",
 					"varname" : "live.text[14]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "2",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1471,15 +1471,14 @@
 
 					}
 ,
-					"text" : "2",
-					"texton" : "2",
+					"text" : "B",
 					"varname" : "live.text[15]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "1",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1511,8 +1510,7 @@
 
 					}
 ,
-					"text" : "1",
-					"texton" : "1",
+					"texton" : "A",
 					"varname" : "live.text[16]"
 				}
 
@@ -1558,7 +1556,7 @@
 					}
 ,
 					"text" : "Mix IN",
-					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"textcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -1566,7 +1564,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
 					"id" : "obj-93",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1701,7 +1699,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -2907,6 +2905,16 @@
 			"obj-90" : [ "2", "2", 0 ],
 			"obj-91" : [ "1", "1", 0 ],
 			"obj-95" : [ "9", "9", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

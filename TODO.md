@@ -5,7 +5,6 @@
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] screenshots
-- [ ] rename mix IN/OUT numbers to letters
 - [ ] push mapping
     - [ ] DEV Console
     - [ ] DEV CPU Reporter
@@ -69,7 +68,7 @@ Mix View
 - fixed mixing sliders 
 
 Mix View + IN Mix
-- renamed buttons from numbers 1-9 to letters A-I
+- renamed buttons from numbers 1-9 to letters A-Z
 ```
 
 ## Licencing
@@ -226,6 +225,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] rename mix IN/OUT numbers to letters
 - [x] ~~PX Mix device~~ preview switch + doc
 - [x] cross device messages on change only
 - [x] view: Pop + FPS re-layout
