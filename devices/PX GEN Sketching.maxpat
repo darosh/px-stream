@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 638.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -889,7 +889,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation_name" : "Max Triangles",
+					"annotation_name" : "Max Objects",
 					"id" : "obj-38",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -901,14 +901,14 @@
 					"presentation_rect" : [ 180.0, 49.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Max Triangles",
+							"parameter_annotation_name" : "Max Objects",
 							"parameter_initial" : [ 1000 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Max Triangles",
+							"parameter_longname" : "Max Objects",
 							"parameter_mmax" : 9999.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 4,
-							"parameter_shortname" : "Max Triangles",
+							"parameter_shortname" : "Max Objects",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -1183,7 +1183,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Show Parameters",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1505,7 +1505,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 472.0, 1088.0, 105.0, 22.0 ],
+					"patching_rect" : [ 472.0, 1088.0, 132.0, 22.0 ],
 					"text" : "sprintf symout %s%s.js"
 				}
 
@@ -1760,7 +1760,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 920.0, 87.0, 22.0 ],
+					"patching_rect" : [ 0.0, 920.0, 129.0, 22.0 ],
 					"text" : "sprintf symout file://%s"
 				}
 
@@ -2038,7 +2038,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -2122,7 +2122,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
 					"id" : "obj-369",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -3220,12 +3220,22 @@
 			"obj-361" : [ "Open Folder", "Open Folder", 0 ],
 			"obj-362" : [ "Reload", "Reload", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
-			"obj-38" : [ "Max Triangles", "Max Triangles", 0 ],
+			"obj-38" : [ "Max Objects", "Max Objects", 0 ],
 			"obj-4" : [ "Show Parameters", "Show Parameters", 0 ],
 			"obj-40" : [ "View", "View", 0 ],
 			"obj-66" : [ "Max Skip", "Max Skip", 0 ],
 			"obj-91" : [ "Param Y", "Param Y", 0 ],
 			"obj-93" : [ "Param X", "Param X", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-112::obj-76" : 				{
 					"parameter_invisible" : 2,

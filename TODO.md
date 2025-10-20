@@ -19,17 +19,17 @@
     - [ ] PX FX Pass
     - [ ] PX FX Pixelization
     - [ ] PX FX Transform
-    - [ ] PX GEN Cos Pattern
-    - [ ] PX GEN Mini Shader
-    - [ ] PX GEN Sketching
-    - [ ] PX GEN Text
-    - [ ] PX IN Cam
-    - [ ] PX IN Channel
-    - [ ] PX IN Image
-    - [ ] PX IN Mix
-    - [ ] PX IN Stream
-    - [ ] PX IN SVG
-    - [ ] PX IN Video
+    - [x] PX GEN Cos Pattern
+    - [x] PX GEN Mini Shader
+    - [x] PX GEN Sketching
+    - [x] PX GEN Text
+    - [x] PX IN Cam
+    - [x] PX IN Channel
+    - [x] PX IN Image
+    - [x] PX IN Mix
+    - [x] PX IN Stream
+    - [x] PX IN SVG
+    - [x] PX IN Video
     - [x] PX Mix Channel
     - [x] PX Mix Dry
     - [x] PX Mix Transition
