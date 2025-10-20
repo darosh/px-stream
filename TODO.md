@@ -9,7 +9,7 @@
     - [x] DEV Console
     - [x] DEV Info
     - [ ] PX FX Alpha
-    - [ ] PX FX Blur
+    - [x] PX FX Blur
     - [ ] PX FX Color
     - [ ] PX FX Colorize
     - [x] PX FX Convert
