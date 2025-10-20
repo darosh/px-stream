@@ -29,15 +29,15 @@
     - [ ] PX IN Stream
     - [ ] PX IN SVG
     - [ ] PX IN Video
-    - [ ] PX Mix Channel
-    - [ ] PX Mix Dry
-    - [ ] PX Mix Transition
+    - [x] PX Mix Channel
+    - [x] PX Mix Dry
+    - [x] PX Mix Transition
     - [x] PX Mix View
-    - [ ] PX Rec
-    - [ ] PX Route Audio
-    - [ ] PX Route MIDI
-    - [ ] PX Shader
-    - [ ] PX World
+    - [x] PX Rec
+    - [x] PX Route Audio
+    - [x] PX Route MIDI
+    - [x] PX Shader
+    - [x] PX World
 
 ```text
 Alpha 3 release notes:
