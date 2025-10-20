@@ -12,9 +12,9 @@
     - [ ] PX FX Blur
     - [ ] PX FX Color
     - [ ] PX FX Colorize
-    - [ ] PX FX Convert
+    - [x] PX FX Convert
     - [x] PX FX Delay
-    - [ ] PX FX Kaleidoscope
+    - [x] PX FX Kaleidoscope
     - [x] PX FX Pass
     - [x] PX FX Pixelization
     - [x] PX FX Transform
