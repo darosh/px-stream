@@ -8,7 +8,7 @@
 - [ ] push mapping
     - [x] DEV Console
     - [x] DEV Info
-    - [ ] PX FX Alpha
+    - [x] PX FX Alpha
     - [x] PX FX Blur
     - [ ] PX FX Color
     - [ ] PX FX Colorize
