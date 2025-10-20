@@ -10,7 +10,7 @@
     - [x] DEV Info
     - [x] PX FX Alpha
     - [x] PX FX Blur
-    - [ ] PX FX Color
+    - [x] PX FX Color
     - [ ] PX FX Colorize
     - [x] PX FX Convert
     - [x] PX FX Delay
