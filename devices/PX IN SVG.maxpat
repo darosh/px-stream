@@ -21,6 +21,18 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1144.0, 136.0, 100.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-57",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -154,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1144.0, 160.0, 30.0, 22.0 ],
+					"patching_rect" : [ 1144.0, 176.0, 30.0, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -165,7 +177,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1208.0, 216.0, 67.0, 22.0 ],
+					"patching_rect" : [ 1208.0, 232.0, 67.0, 22.0 ],
 					"text" : "s ---update"
 				}
 
@@ -687,7 +699,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 512.0, 100.0, 22.0 ],
+					"patching_rect" : [ 280.0, 512.0, 142.0, 22.0 ],
 					"text" : "sprintf symout %s%s.svg"
 				}
 
@@ -882,7 +894,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 560.0, 87.0, 22.0 ],
+					"patching_rect" : [ 8.0, 560.0, 129.0, 22.0 ],
 					"text" : "sprintf symout file://%s"
 				}
 
@@ -1151,7 +1163,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1144.0, 216.0, 49.0, 22.0 ],
+					"patching_rect" : [ 1144.0, 232.0, 49.0, 22.0 ],
 					"text" : "s ---dim"
 				}
 
@@ -2000,7 +2012,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-54", 0 ]
 				}
 
@@ -2102,6 +2114,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-82", 3 ],
 					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -2235,16 +2254,6 @@
 			"obj-4::obj-76" : [ "File", "File", 0 ],
 			"obj-54::obj-151" : [ "Dimensions", "Dimensions", 0 ],
 			"obj-91" : [ "View", "View", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-4::obj-6" : 				{
 					"parameter_longname" : "File Automation"

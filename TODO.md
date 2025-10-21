@@ -210,13 +210,13 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [x] PX GEN Mini Shader
 - [ ] PX GEN Sketching
 - [ ] PX GEN Text
-- [ ] PX IN Cam
-- [ ] PX IN Channel
-- [ ] PX IN Image
-- [ ] PX IN Mix
-- [ ] PX IN Stream
-- [ ] PX IN SVG
-- [ ] PX IN Video
+- [x] PX IN Cam
+- [x] PX IN Channel
+- [x] PX IN Image
+- [x] PX IN Mix
+- [x] PX IN Stream
+- [x] PX IN SVG
+- [x] PX IN Video
 - [x] PX Mix Channel
 - [x] PX Mix Dry
 - [x] PX Mix Transition

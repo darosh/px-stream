@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 579.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 343.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -206,7 +206,7 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Play / Pause",
-					"automation" : "",
+					"automation" : "Play",
 					"automationon" : "Pause",
 					"id" : "obj-103",
 					"maxclass" : "live.text",
@@ -220,7 +220,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Play / Pause",
-							"parameter_enum" : [ "", "Pause" ],
+							"parameter_enum" : [ "Play", "Pause" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Play / Pause",
@@ -779,7 +779,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 512.0, 78.0, 22.0 ],
+					"patching_rect" : [ 280.0, 512.0, 120.0, 22.0 ],
 					"text" : "sprintf symout %s%s"
 				}
 
@@ -974,7 +974,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 560.0, 87.0, 22.0 ],
+					"patching_rect" : [ 8.0, 560.0, 129.0, 22.0 ],
 					"text" : "sprintf symout file://%s"
 				}
 
@@ -1991,6 +1991,16 @@
 			"obj-4::obj-6" : [ "File Automation", "File", 0 ],
 			"obj-4::obj-76" : [ "File", "File", 0 ],
 			"obj-91" : [ "View", "View", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-17::obj-151" : 				{
 					"parameter_longname" : "Dimensions"
