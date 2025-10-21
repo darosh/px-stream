@@ -35,6 +35,9 @@ Mix View
 
 Mix View + IN Mix
 - renamed buttons from numbers 1-9 to letters A-Z
+
+DEV Info, DEV Console
+- small device width
 ```
 
 ## Licencing
@@ -193,39 +196,40 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 - [x] DEV Console
 - [x] DEV Info
-- [x] PX FX Alpha
-- [x] PX FX Blur
-- [x] PX FX Color
-- [x] PX FX Colorize
-- [x] PX FX Convert
-- [x] PX FX Delay
-- [x] PX FX Kaleidoscope
-- [x] PX FX Pass
-- [x] PX FX Pixelization
-- [x] PX FX Transform
-- [x] PX GEN Cos Pattern
+- [ ] PX FX Alpha
+- [ ] PX FX Blur
+- [ ] PX FX Color
+- [ ] PX FX Colorize
+- [ ] PX FX Convert
+- [ ] PX FX Delay
+- [ ] PX FX Kaleidoscope
+- [ ] PX FX Pass
+- [ ] PX FX Pixelization
+- [ ] PX FX Transform
+- [ ] PX GEN Cos Pattern
 - [x] PX GEN Mini Shader
-- [x] PX GEN Sketching
-- [x] PX GEN Text
-- [x] PX IN Cam
-- [x] PX IN Channel
-- [x] PX IN Image
-- [x] PX IN Mix
-- [x] PX IN Stream
-- [x] PX IN SVG
-- [x] PX IN Video
-- [x] PX Mix Channel
-- [x] PX Mix Dry
-- [x] PX Mix Transition
+- [ ] PX GEN Sketching
+- [ ] PX GEN Text
+- [ ] PX IN Cam
+- [ ] PX IN Channel
+- [ ] PX IN Image
+- [ ] PX IN Mix
+- [ ] PX IN Stream
+- [ ] PX IN SVG
+- [ ] PX IN Video
+- [ ] PX Mix Channel
+- [ ] PX Mix Dry
+- [ ] PX Mix Transition
 - [x] PX Mix View
 - [x] PX Rec
 - [x] PX Route Audio
 - [x] PX Route MIDI
-- [x] PX Shader
+- [ ] PX Shader
 - [x] PX World
 
 ## Done
 
+- [x] resize: console, info, 116, 130, 130 + 96 = 226
 - [x] rename mix IN/OUT numbers to letters
 - [x] ~~PX Mix device~~ preview switch + doc
 - [x] cross device messages on change only
