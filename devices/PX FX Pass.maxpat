@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 560.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,18 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 976.0, 32.0, 100.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
@@ -268,7 +280,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 976.0, 16.0, 280.0, 16.0 ],
+					"patching_rect" : [ 976.0, 8.0, 280.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 126.0, 28.0 ],
 					"saved_attribute_attributes" : 					{
@@ -502,7 +514,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -745,7 +757,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Gamma Correction",
-											"parameter_enum" : [ "none", "lin2sRGB pow", "lin2sRGB exact" ],
+											"parameter_enum" : [ "None", "Pow", "Exact" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Gamma Correction",
@@ -1357,7 +1369,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Tonemap Exposure",
 											"parameter_mmax" : 10.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Tonemap Exposure",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
@@ -1587,7 +1599,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Tint",
 											"parameter_mmax" : 10.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Tint",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
@@ -3504,7 +3516,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
+					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -3513,6 +3525,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -3750,16 +3769,6 @@
 			"obj-26::obj-8" : [ "Bloom Tonemapping", "Bloom Tonemapping", 0 ],
 			"obj-26::obj-9" : [ "Bloom Gamma Correction", "Bloom Gamma Correction", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,

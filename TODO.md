@@ -203,7 +203,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [x] PX FX Convert
 - [x] PX FX Delay
 - [x] PX FX Kaleidoscope
-- [ ] PX FX Pass
+- [x] PX FX Pass
 - [ ] PX FX Pixelization
 - [ ] PX FX Transform
 - [x] PX GEN Cos Pattern
