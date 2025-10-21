@@ -196,7 +196,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 - [x] DEV Console
 - [x] DEV Info
-- [ ] PX FX Alpha
+- [x] PX FX Alpha
 - [ ] PX FX Blur
 - [ ] PX FX Color
 - [ ] PX FX Colorize

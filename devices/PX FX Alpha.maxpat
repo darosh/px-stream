@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
+		"rect" : [ 133.0, 82.0, 520.0, 498.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -615,7 +615,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Distance B",
 											"parameter_mmax" : 255.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Distance B",
 											"parameter_type" : 0,
 											"parameter_units" : "B",
@@ -647,7 +647,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Distance G",
 											"parameter_mmax" : 255.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Distance G",
 											"parameter_type" : 0,
 											"parameter_units" : "G",
@@ -679,7 +679,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Distance R",
 											"parameter_mmax" : 255.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Distance R",
 											"parameter_type" : 0,
 											"parameter_units" : "R",
@@ -734,7 +734,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Distance Fade",
 											"parameter_mmax" : 0.5,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Distance Fade",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -765,7 +765,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Distance Threshold",
 											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Distance Threshold",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -808,8 +808,8 @@
 , 							{
 								"box" : 								{
 									"annotation_name" : "Invert Mapping",
-									"automation" : "0",
-									"automationon" : "1",
+									"automation" : "Off",
+									"automationon" : "On",
 									"id" : "obj-10",
 									"maxclass" : "live.text",
 									"numinlets" : 1,
@@ -822,7 +822,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Invert Mapping",
-											"parameter_enum" : [ "0", "1" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_longname" : "Invert Mapping",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
@@ -883,8 +883,8 @@
 , 							{
 								"box" : 								{
 									"annotation_name" : "Luminance Invert",
-									"automation" : "0",
-									"automationon" : "1",
+									"automation" : "Off",
+									"automationon" : "On",
 									"id" : "obj-22",
 									"maxclass" : "live.text",
 									"numinlets" : 1,
@@ -897,7 +897,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Luminance Invert",
-											"parameter_enum" : [ "0", "1" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_longname" : "Luminance Invert",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
@@ -932,7 +932,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Fade",
 											"parameter_mmax" : 0.5,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Fade",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -963,7 +963,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Global",
 											"parameter_mmax" : 3.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Global",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -994,7 +994,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Hue",
 											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Hue",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1191,7 +1191,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Luminance Threshold",
 											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Luminance Threshold",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1258,7 +1258,7 @@
 											"parameter_longname" : "Scale",
 											"parameter_mmax" : 16.0,
 											"parameter_mmin" : 0.1,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Scale",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1304,8 +1304,8 @@
 , 							{
 								"box" : 								{
 									"annotation_name" : "OKLAB",
-									"automation" : "0",
-									"automationon" : "1",
+									"automation" : "Off",
+									"automationon" : "On",
 									"id" : "obj-105",
 									"maxclass" : "live.text",
 									"numinlets" : 1,
@@ -1318,7 +1318,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "OKLAB",
-											"parameter_enum" : [ "0", "1" ],
+											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "OKLAB",
@@ -1355,7 +1355,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Max",
 											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Max",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1386,7 +1386,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Min",
 											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Min",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1417,7 +1417,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Phase",
 											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Phase",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1448,7 +1448,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Luminance Fade",
 											"parameter_mmax" : 0.5,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Luminance Fade",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1479,7 +1479,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Lightness",
 											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Lightness",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1510,7 +1510,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Chroma",
 											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Chroma",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1
@@ -1695,7 +1695,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Chroma B",
 											"parameter_mmax" : 255.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Chroma B",
 											"parameter_type" : 0,
 											"parameter_units" : "B",
@@ -1727,7 +1727,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Chroma G",
 											"parameter_mmax" : 255.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Chroma G",
 											"parameter_type" : 0,
 											"parameter_units" : "G",
@@ -1759,7 +1759,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Chroma R",
 											"parameter_mmax" : 255.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Chroma R",
 											"parameter_type" : 0,
 											"parameter_units" : "R",
@@ -2489,8 +2489,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Cutoff",
-					"automation" : "0",
-					"automationon" : "1",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-56",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2503,7 +2503,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Cutoff",
-							"parameter_enum" : [ "0", "1" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Cutoff",
@@ -2538,7 +2538,7 @@
 					}
 ,
 					"text" : "Thresh.",
-					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"textcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -2562,7 +2562,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Multiply",
 							"parameter_mmax" : 2.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Multiply",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -2593,7 +2593,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Threshold",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Threshold",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -2624,7 +2624,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Smooth",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Smooth",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -2655,7 +2655,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Quantize",
 							"parameter_mmax" : 16.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Quantize",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -2686,7 +2686,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Gamma",
 							"parameter_mmax" : 3.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Gamma",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -2910,8 +2910,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Invert",
-					"automation" : "0",
-					"automationon" : "1",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-110",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2924,7 +2924,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Invert",
-							"parameter_enum" : [ "0", "1" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Invert",
@@ -2975,7 +2975,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "More",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3210,7 +3210,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
