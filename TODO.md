@@ -200,8 +200,8 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [x] PX FX Blur
 - [x] PX FX Color
 - [x] PX FX Colorize
-- [ ] PX FX Convert
-- [ ] PX FX Delay
+- [x] PX FX Convert
+- [x] PX FX Delay
 - [ ] PX FX Kaleidoscope
 - [ ] PX FX Pass
 - [ ] PX FX Pixelization
