@@ -448,7 +448,7 @@ Up to 32 dynamic parameters and various audio rendering options with PX Stream s
 
 ✨ `TIP` To reset a shader parameter to its default value, click the parameter label
 
-📒 `NOTE` Due to the dynamic nature of parameter controls, the underlying parameter slider uses a range of 0 to 10, and has invisible text with a scaled value placed on top of that &mdash; which unfortunately makes typing in values pretty suboptimal.
+📒 `NOTE` Due to the dynamic nature of parameter controls, the underlying parameter slider uses a range of 0 to 10 (it is also the range you can see on Push), and has invisible text with a scaled value placed on top of that &mdash; which unfortunately makes typing in values pretty suboptimal.
 
 <br>
 

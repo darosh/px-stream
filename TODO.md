@@ -224,7 +224,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [x] PX Rec
 - [x] PX Route Audio
 - [x] PX Route MIDI
-- [ ] PX Shader
+- [x] PX Shader
 - [x] PX World
 
 ## Done
