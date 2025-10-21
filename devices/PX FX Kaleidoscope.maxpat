@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 579.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 343.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -343,7 +343,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 79.0, 562.0, 498.0 ],
+						"rect" : [ 33.0, 82.0, 562.0, 498.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 8.0, 8.0 ],
@@ -844,7 +844,7 @@
 											"parameter_longname" : "Scale X",
 											"parameter_mmax" : 10.0,
 											"parameter_mmin" : -10.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Scale X",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
@@ -1248,7 +1248,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "Mirror Blend",
 											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Mirror Blend",
 											"parameter_steps" : 1025,
 											"parameter_type" : 0,
@@ -1409,7 +1409,7 @@
 											"parameter_longname" : "Scale X Split",
 											"parameter_mmax" : 10.0,
 											"parameter_mmin" : -10.0,
-											"parameter_modmode" : 4,
+											"parameter_modmode" : 3,
 											"parameter_shortname" : "Scale X Split",
 											"parameter_steps" : 1001,
 											"parameter_type" : 0,
@@ -1562,7 +1562,7 @@
 , 							{
 								"box" : 								{
 									"angle" : 270.0,
-									"bgcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+									"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2353,7 +2353,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -2800,6 +2800,16 @@
 			"obj-28::obj-63" : [ "Scale X Split", "Scale X Split", 0 ],
 			"obj-28::obj-96" : [ "Keep Ratio Split", "Keep Ratio Split", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
