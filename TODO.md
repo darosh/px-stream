@@ -34,10 +34,10 @@ Mix View
 - fixed mixing sliders 
 
 Mix View + IN Mix
-- renamed buttons from numbers 1-9 to letters A-Z
+- Mix OUT, IN Mix: renamed buttons from numbers 1-9 to letters A-Z
 
 DEV Info, DEV Console
-- small device width
+- smaller device width
 ```
 
 ## Licencing
