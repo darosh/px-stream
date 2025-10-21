@@ -218,8 +218,8 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [ ] PX IN SVG
 - [ ] PX IN Video
 - [ ] PX Mix Channel
-- [ ] PX Mix Dry
-- [ ] PX Mix Transition
+- [x] PX Mix Dry
+- [x] PX Mix Transition
 - [x] PX Mix View
 - [x] PX Rec
 - [x] PX Route Audio
