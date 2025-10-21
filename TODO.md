@@ -217,7 +217,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [ ] PX IN Stream
 - [ ] PX IN SVG
 - [ ] PX IN Video
-- [ ] PX Mix Channel
+- [x] PX Mix Channel
 - [x] PX Mix Dry
 - [x] PX Mix Transition
 - [x] PX Mix View
