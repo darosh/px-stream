@@ -180,7 +180,7 @@ The first 5 guides are available as Live sessions in the `/Demo` folder of the i
 2. Select a MIDI source. Expand `Types` on the Shader device - you should see incoming MIDI signal dot indicators blinking on both devices as shown in the screenshot below.
 3. Select a MIDI-powered shader (name begins with M.1, M.2, ...)
 
-<img src="./docs/media/guide/Using_MIDI.webp" height="127" title="Using Mix Dry" />
+<img src="./docs/media/guide/Using_MIDI.webp" height="127" title="Using MIDI" />
 
 <br>
 
@@ -190,7 +190,7 @@ The first 5 guides are available as Live sessions in the `/Demo` folder of the i
 2. Mix the delayed and original signals with the [Mix Dry](#px-mix-dry) device
 3. Insert effects between devices like [FX Blur](#fx-blur) and [FX Color](#fx-color) or [FX Transform](#fx-transform) to add more movement
 
-<img src="./docs/media/guide/Using_Feedback_v1.webp" height="127" title="Using Mix Dry" />
+<img src="./docs/media/guide/Using_Feedback_v1.webp" height="127" title="Using Feedback" />
 
 <br>
 
@@ -200,7 +200,7 @@ The first 5 guides are available as Live sessions in the `/Demo` folder of the i
 2. Insert [PX Shader](#px-shader) and select an XY shader (those begin with X.1, X.2, ...)
 3. Add some [FX Pass](#fx-pass) bloom goodness
 
-<img src="./docs/media/guide/Using_XY_Oscilloscope_v2.webp" height="127" title="Using Mix Dry" />
+<img src="./docs/media/guide/Using_XY_Oscilloscope_v2.webp" height="127" title="Using XY Oscilloscope" />
 
 <br>
 
@@ -211,7 +211,7 @@ The first 5 guides are available as Live sessions in the `/Demo` folder of the i
 
 📒 `NOTE` `Mix OUT` has dual purpose, not only it turns the Syphon/Spout output on, but it also can be consumed with the [IN Mix](#in-mix) device for further (post)processing
 
-<img src="./docs/media/guide/Syphon_streaming.webp" height="127" title="Syphon streaming" />
+<img src="./docs/media/guide/Syphon_streaming.webp" height="127" title="Syphon/Spout streaming" />
 
 <br>
 
