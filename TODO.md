@@ -197,8 +197,8 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [x] DEV Console
 - [x] DEV Info
 - [x] PX FX Alpha
-- [ ] PX FX Blur
-- [ ] PX FX Color
+- [x] PX FX Blur
+- [x] PX FX Color
 - [ ] PX FX Colorize
 - [ ] PX FX Convert
 - [ ] PX FX Delay
