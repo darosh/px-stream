@@ -162,16 +162,7 @@ async function createCollage () {
   )
 
   const totalHeight = rows * rowHeight + (rows - 1) * spacing
-
-  // Reorder rows
-  rowImages = [
-    rowImages[2],
-    rowImages[0],
-    rowImages[1],
-    rowImages[4],
-    rowImages[3]
-  ]
-
+  
   // for (let rowIndex = 1; rowIndex < rowImages.length; rowIndex += 2) {
   //   const t = rowImages[rowIndex]
   //   rowImages[rowIndex] = rowImages[rowIndex + 1]
@@ -189,7 +180,16 @@ async function createCollage () {
     row.push(pick)
   }
 
-  rowImages[4].reverse()
+  // Reorder rows
+  rowImages = [
+    rowImages[0],
+    rowImages[1],
+    rowImages[2],
+    rowImages[4],
+    rowImages[3]
+  ]
+
+  // rowImages[4].reverse()
 
   // Prepare sharp composites and layout data for HTML
   const composites = []
