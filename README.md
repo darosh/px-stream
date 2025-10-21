@@ -207,7 +207,7 @@ The first 5 guides are available as Live sessions in the `/Demo` folder of the i
 ### Guide &mdash; Syphon/Spout streaming
 
 1. Expand the [PX Mix View](#px-mix-view) device using the `[>]` button
-2. Select Mix OUT channel number **1** &mdash; this will allow you to select the stream in a Syphon (Mac) or Spout (Windows) client as `[Live] PX Stream 1`
+2. Select Mix OUT stream **A** &mdash; this will allow you to select the stream in a Syphon (Mac) or Spout (Windows) client as `[Live] PX Stream A`
 
 📒 `NOTE` `Mix OUT` has dual purpose, not only it turns the Syphon/Spout output on, but it also can be consumed with the [IN Mix](#in-mix) device for further (post)processing
 
