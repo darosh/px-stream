@@ -190,7 +190,7 @@ The first 5 guides are available as Live sessions in the `/Demo` folder of the i
 2. Mix the delayed and original signals with the [Mix Dry](#px-mix-dry) device
 3. Insert effects between devices like [FX Blur](#fx-blur) and [FX Color](#fx-color) or [FX Transform](#fx-transform) to add more movement
 
-<img src="./docs/media/guide/Using_Feedback.webp" height="127" title="Using Mix Dry" />
+<img src="./docs/media/guide/Using_Feedback_v1.webp" height="127" title="Using Mix Dry" />
 
 <br>
 
@@ -200,7 +200,7 @@ The first 5 guides are available as Live sessions in the `/Demo` folder of the i
 2. Insert [PX Shader](#px-shader) and select an XY shader (those begin with X.1, X.2, ...)
 3. Add some [FX Pass](#fx-pass) bloom goodness
 
-<img src="./docs/media/guide/Using_XY_Oscilloscope_v1.webp" height="127" title="Using Mix Dry" />
+<img src="./docs/media/guide/Using_XY_Oscilloscope_v2.webp" height="127" title="Using Mix Dry" />
 
 <br>
 
