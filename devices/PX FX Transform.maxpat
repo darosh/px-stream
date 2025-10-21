@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 641.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -295,7 +295,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 71.0, 567.0, 508.0 ],
+						"rect" : [ 33.0, 82.0, 567.0, 498.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 8.0, 8.0 ],
@@ -1010,7 +1010,7 @@
 							"parameter_longname" : "Scale X",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : -10.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Scale X",
 							"parameter_steps" : 1001,
 							"parameter_type" : 0,
@@ -1784,16 +1784,6 @@
 			"obj-62" : [ "Scale Y", "Scale Y", 0 ],
 			"obj-63" : [ "Scale X", "Scale X", 0 ],
 			"obj-96" : [ "Keep Ratio", "Keep Ratio", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
