@@ -208,7 +208,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [ ] PX FX Transform
 - [ ] PX GEN Cos Pattern
 - [x] PX GEN Mini Shader
-- [ ] PX GEN Sketching
+- [x] PX GEN Sketching
 - [x] PX GEN Text
 - [x] PX IN Cam
 - [x] PX IN Channel

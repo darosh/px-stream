@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 638.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 402.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -234,7 +234,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Param Y",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Param Y",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -907,7 +907,7 @@
 							"parameter_longname" : "Max Objects",
 							"parameter_mmax" : 9999.0,
 							"parameter_mmin" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Max Objects",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -953,7 +953,7 @@
 							"parameter_longname" : "Max Points",
 							"parameter_mmax" : 9999.0,
 							"parameter_mmin" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Max Points",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -3226,16 +3226,6 @@
 			"obj-66" : [ "Max Skip", "Max Skip", 0 ],
 			"obj-91" : [ "Param Y", "Param Y", 0 ],
 			"obj-93" : [ "Param X", "Param X", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-112::obj-76" : 				{
 					"parameter_invisible" : 2,
