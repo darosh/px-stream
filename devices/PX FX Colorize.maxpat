@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 222.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 641.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -465,7 +465,7 @@
 							"parameter_longname" : "Levels",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Levels",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -531,7 +531,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Phase",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Phase",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -563,7 +563,7 @@
 							"parameter_longname" : "Scale",
 							"parameter_mmax" : 16.0,
 							"parameter_mmin" : 0.1,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Scale",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -609,8 +609,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Blend",
-					"automation" : "0",
-					"automationon" : "1",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-111",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -623,7 +623,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend",
-							"parameter_enum" : [ "0", "1" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Blend",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -642,8 +642,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Invert",
-					"automation" : "0",
-					"automationon" : "1",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-110",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -656,7 +656,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Invert",
-							"parameter_enum" : [ "0", "1" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Invert",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -737,8 +737,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "OKLAB",
-					"automation" : "0",
-					"automationon" : "1",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-105",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -751,7 +751,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "OKLAB",
-							"parameter_enum" : [ "0", "1" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "OKLAB",
@@ -788,7 +788,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Max",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Max",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -819,7 +819,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Min",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Min",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -851,7 +851,7 @@
 							"parameter_longname" : "Falloff",
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Falloff",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -883,7 +883,7 @@
 							"parameter_longname" : "Curve",
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Curve",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -914,7 +914,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Offset",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Offset",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -945,7 +945,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Smoothing",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Smoothing",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -959,7 +959,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "More",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1051,7 +1051,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Width",
 							"parameter_mmax" : 2.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Width",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -1082,7 +1082,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Position",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Position",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -2049,7 +2049,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -3343,6 +3343,16 @@
 			"obj-91" : [ "Curve", "Curve", 0 ],
 			"obj-94" : [ "Offset", "Offset", 0 ],
 			"obj-97" : [ "Max", "Max", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

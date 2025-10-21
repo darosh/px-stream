@@ -199,7 +199,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [x] PX FX Alpha
 - [x] PX FX Blur
 - [x] PX FX Color
-- [ ] PX FX Colorize
+- [x] PX FX Colorize
 - [ ] PX FX Convert
 - [ ] PX FX Delay
 - [ ] PX FX Kaleidoscope
