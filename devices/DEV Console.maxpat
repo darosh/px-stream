@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 641.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -173,7 +173,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 352.0, 264.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 84.0, 0.0, 48.0, 48.0 ],
+					"presentation_rect" : [ 70.0, 0.0, 48.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_surface_bg"
@@ -291,21 +291,21 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 48.0, 82.0, 510.0, 498.0 ],
+						"rect" : [ 323.0, 81.0, 274.0, 498.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 8.0, 8.0 ],
 						"gridsnaponopen" : 2,
 						"integercoordinates" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"fontsize" : 14.0,
+									"fontsize" : 12.0,
 									"id" : "obj-1",
 									"maxclass" : "live.comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 32.0, 192.0, 122.0, 23.0 ],
+									"patching_rect" : [ 32.0, 192.0, 106.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ -1.0, 250.0, 132.0, 23.0 ],
+									"presentation_rect" : [ -1.0, 250.0, 117.0, 21.0 ],
 									"text" : "Ctrl+Alt+Shift+M",
 									"textjustification" : 1
 								}
@@ -322,9 +322,9 @@
 									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 24.0, 176.0, 128.0, 128.0 ],
+									"patching_rect" : [ 24.0, 176.0, 116.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 200.0, 130.0, 121.0 ],
+									"presentation_rect" : [ 0.0, 200.0, 116.0, 121.0 ],
 									"proportion" : 0.39,
 									"rounded" : 0,
 									"saved_attribute_attributes" : 									{
@@ -343,14 +343,14 @@
 							}
 , 							{
 								"box" : 								{
-									"fontsize" : 28.0,
+									"fontsize" : 25.0,
 									"id" : "obj-2",
 									"maxclass" : "live.comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 24.0, 40.0, 144.0, 41.0 ],
+									"patching_rect" : [ 24.0, 40.0, 132.0, 37.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ -1.0, 39.0, 130.0, 41.0 ],
+									"presentation_rect" : [ -1.0, 41.0, 117.0, 37.0 ],
 									"text" : "⌥⇧⌘M",
 									"textjustification" : 1
 								}
@@ -367,9 +367,9 @@
 									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 24.0, 128.0, 128.0 ],
+									"patching_rect" : [ 16.0, 24.0, 116.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 130.0, 121.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 116.0, 121.0 ],
 									"proportion" : 0.39,
 									"rounded" : 0,
 									"saved_attribute_attributes" : 									{
@@ -392,7 +392,7 @@
 ,
 					"patching_rect" : [ 103.0, 416.0, 137.0, 528.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 48.0, 130.0, 121.0 ],
+					"presentation_rect" : [ 0.0, 48.0, 116.0, 121.0 ],
 					"varname" : "conTab",
 					"viewvisibility" : 1
 				}
@@ -601,38 +601,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-1" : [ "Active", "Active", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "PX._is_windows.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "PX._legend.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
