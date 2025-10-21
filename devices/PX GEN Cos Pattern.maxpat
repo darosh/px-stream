@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 579.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 343.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -442,7 +442,7 @@
 							"parameter_longname" : "Value",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : -10.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Value",
 							"parameter_type" : 0,
 							"parameter_units" : "value",

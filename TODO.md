@@ -206,7 +206,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [ ] PX FX Pass
 - [ ] PX FX Pixelization
 - [ ] PX FX Transform
-- [ ] PX GEN Cos Pattern
+- [x] PX GEN Cos Pattern
 - [x] PX GEN Mini Shader
 - [x] PX GEN Sketching
 - [x] PX GEN Text
