@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
+		"rect" : [ 133.0, 82.0, 520.0, 498.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -263,7 +263,7 @@
 							"parameter_longname" : "Fading",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Fading",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -786,7 +786,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Angle B",
 							"parameter_mmax" : 360.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Angle B",
 							"parameter_type" : 0,
 							"parameter_units" : "B",
@@ -818,7 +818,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Angle G",
 							"parameter_mmax" : 360.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Angle G",
 							"parameter_type" : 0,
 							"parameter_units" : "G",
@@ -850,7 +850,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Angle R",
 							"parameter_mmax" : 360.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Angle R",
 							"parameter_type" : 0,
 							"parameter_units" : "R",
@@ -882,7 +882,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Frequency",
 							"parameter_mmax" : 20.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Frequency",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -911,7 +911,7 @@
 					}
 ,
 					"text" : "Freq.",
-					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"textcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -935,7 +935,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Rotation",
 							"parameter_mmax" : 360.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Rotation",
 							"parameter_type" : 0,
 							"parameter_units" : "°",
@@ -967,7 +967,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Scale",
 							"parameter_mmax" : 100.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Scale",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -998,7 +998,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Rotation Angle",
 							"parameter_mmax" : 360.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Rotation Angle",
 							"parameter_type" : 0,
 							"parameter_units" : "°",
@@ -1030,7 +1030,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Rotation Y",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Rotation Y",
 							"parameter_type" : 0,
 							"parameter_units" : "y",
@@ -1062,7 +1062,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Rotation X",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Rotation X",
 							"parameter_type" : 0,
 							"parameter_units" : "x",
@@ -1095,7 +1095,7 @@
 							"parameter_longname" : "Shift Y",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Shift Y",
 							"parameter_type" : 0,
 							"parameter_units" : "y",
@@ -1128,7 +1128,7 @@
 							"parameter_longname" : "Shift X",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Shift X",
 							"parameter_type" : 0,
 							"parameter_units" : "x",
@@ -1161,7 +1161,7 @@
 							"parameter_longname" : "Y",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.001,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Y",
 							"parameter_type" : 0,
 							"parameter_units" : "y",
@@ -1194,7 +1194,7 @@
 							"parameter_longname" : "X",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.001,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "X",
 							"parameter_type" : 0,
 							"parameter_units" : "x",
@@ -1221,8 +1221,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Invert",
-					"automation" : "0",
-					"automationon" : "1",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-32",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1235,7 +1235,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Invert",
-							"parameter_enum" : [ "0", "1" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "Invert",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -1344,8 +1344,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "OKLAB",
-					"automation" : "0",
-					"automationon" : "1",
+					"automation" : "Off",
+					"automationon" : "On",
 					"id" : "obj-105",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1358,7 +1358,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "OKLAB",
-							"parameter_enum" : [ "0", "1" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "OKLAB",
@@ -1395,7 +1395,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Modulation",
 							"parameter_mmax" : 2.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Modulation",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -1571,7 +1571,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Distortion",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Distortion",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -1602,7 +1602,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Displacement",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Displacement",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -1633,7 +1633,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Smooth",
 							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Smooth",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -1664,7 +1664,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Displacement Angle",
 							"parameter_mmax" : 360.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Displacement Angle",
 							"parameter_type" : 0,
 							"parameter_units" : "°",
@@ -1696,7 +1696,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Fade",
 							"parameter_mmax" : 3.0,
-							"parameter_modmode" : 4,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "Fade",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -1860,7 +1860,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "More",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2082,7 +2082,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -2264,7 +2264,7 @@
 					}
 ,
 					"text" : "Fade",
-					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"textcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -3099,16 +3099,6 @@
 			"obj-66" : [ "Angle B", "Angle B", 0 ],
 			"obj-87" : [ "More", "More", 0 ],
 			"obj-96" : [ "Keep Ratio", "Keep Ratio", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
