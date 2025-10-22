@@ -21,6 +21,90 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-647",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 792.0, 3440.0, 100.0, 22.0 ],
+					"text" : "zl.join"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-645",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 840.0, 3375.0, 56.0, 22.0 ],
+					"text" : "t 0.6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-644",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 920.0, 3376.0, 56.0, 22.0 ],
+					"text" : "t 0.78"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-643",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 840.0, 3407.0, 152.0, 22.0 ],
+					"text" : "prepend slider_color 1 1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-642",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 840.0, 3344.0, 100.0, 22.0 ],
+					"text" : "select 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-641",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 792.0, 3304.0, 100.0, 22.0 ],
+					"text" : "unpack i i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-640",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 792.0, 3272.0, 100.0, 22.0 ],
+					"text" : "r ---to_popup"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-634",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -4154,20 +4238,20 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Button_u614007136" ] ],
+					"embedstate" : [ [ "recallID", "Button_u124003171" ] ],
 					"filename" : "jit_gl_ui_button.js",
 					"id" : "obj-259",
-					"linecount" : 5,
+					"linecount" : 7,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2512.0, 1856.0, 291.0, 76.0 ],
+					"patching_rect" : [ 2512.0, 1840.0, 294.0, 102.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.button @canvas ---ui_canvas @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 1 @border 0 @background_color 0.5 0.5 0.5 0.6 @width 32 @height 32 @position 16 16 @label_color 1 1 1 0.96 @label_offset 0 0",
+					"text" : "jit.ui.button @canvas ---ui_canvas @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 1 @border 0 @background_color 0.5 0.5 0.5 0.6 @width 32 @height 32 @position 10000 10000 @label_color 1 1 1 0.96 @label_offset 0 0 @keep_in_window 0 @color_button_pressed 0.5 0.5 0.5 0.6",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_button.js",
 						"flags" : 0,
@@ -7886,7 +7970,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 8 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 304 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 8 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 1 1 1 0.78 @label_color 1 1 1 0.96 @position 304 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -7913,7 +7997,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 7 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 272 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 7 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 1 1 1 0.78 @label_color 1 1 1 0.96 @position 272 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -7940,7 +8024,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 6 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 240 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 6 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 1 1 1 0.78 @label_color 1 1 1 0.96 @position 240 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -7967,7 +8051,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 5 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 208 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 5 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 1 1 1 0.78 @label_color 1 1 1 0.96 @position 208 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -7994,7 +8078,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 4 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 176 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 4 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 1 1 1 0.78 @label_color 1 1 1 0.96 @position 176 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -8021,7 +8105,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 3 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 144 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 3 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 1 1 1 0.78 @label_color 1 1 1 0.96 @position 144 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -8048,7 +8132,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 2 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 112 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 2 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 1 1 1 0.78 @label_color 1 1 1 0.96 @position 112 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -8075,7 +8159,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 1 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 80 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 1 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 1 1 1 0.78 @label_color 1 1 1 0.96 @position 80 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -8101,20 +8185,20 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Button_u964008642" ] ],
+					"embedstate" : [ [ "recallID", "Button_u355003908" ] ],
 					"filename" : "jit_gl_ui_button.js",
 					"id" : "obj-70",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1032.0, 1624.0, 320.0, 76.0 ],
+					"patching_rect" : [ 1032.0, 1624.0, 320.0, 89.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.button @canvas ---ui_canvas @label _ @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 1 @border 0 @background_color 0.5 0.5 0.5 0.6 @width 32 @height 32 @position 48 16 @label_color 1 1 1 0.96 @label_offset -2 -1",
+					"text" : "jit.ui.button @canvas ---ui_canvas @label _ @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 1 @border 0 @background_color 0.5 0.5 0.5 0.6 @width 32 @height 32 @position 48 16 @label_color 1 1 1 0.96 @label_offset -2 -1 @color_button_pressed 0.5 0.5 0.5 0.6",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_button.js",
 						"flags" : 0,
@@ -8190,20 +8274,20 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Button_u469007040" ] ],
+					"embedstate" : [ [ "recallID", "Button_u292003753" ] ],
 					"filename" : "jit_gl_ui_button.js",
 					"id" : "obj-42",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 728.0, 1624.0, 291.0, 76.0 ],
+					"patching_rect" : [ 728.0, 1624.0, 291.0, 89.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.button @canvas ---ui_canvas @label × @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 1 @border 0 @background_color 0.5 0.5 0.5 0.6 @width 32 @height 32 @position 16 16 @label_color 1 1 1 0.96 @label_offset 0 -1",
+					"text" : "jit.ui.button @canvas ---ui_canvas @label × @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 1 @border 0 @background_color 0.5 0.5 0.5 0.6 @width 32 @height 32 @position 16 16 @label_color 1 1 1 0.96 @label_offset 0 -1 @color_button_pressed 0.5 0.5 0.5 0.6",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_button.js",
 						"flags" : 0,
@@ -21503,6 +21587,69 @@
 				"patchline" : 				{
 					"destination" : [ "obj-636", 0 ],
 					"source" : [ "obj-639", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-641", 0 ],
+					"source" : [ "obj-640", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-642", 0 ],
+					"source" : [ "obj-641", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-647", 0 ],
+					"source" : [ "obj-641", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-644", 0 ],
+					"source" : [ "obj-642", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-645", 0 ],
+					"source" : [ "obj-642", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-647", 1 ],
+					"source" : [ "obj-643", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-643", 0 ],
+					"source" : [ "obj-644", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-643", 0 ],
+					"source" : [ "obj-645", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-533", 0 ],
+					"source" : [ "obj-647", 0 ]
 				}
 
 			}
