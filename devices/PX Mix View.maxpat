@@ -6677,7 +6677,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 392.0, 2672.0, 144.0, 22.0 ],
-					"text" : "expr min(320\\, $i1)"
+					"text" : "expr min(352\\, $i1)"
 				}
 
 			}
