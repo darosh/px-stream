@@ -5219,7 +5219,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u124002966" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u342005159" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-256",
 					"linecount" : 7,
@@ -5232,7 +5232,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label _ @position_anchor_percentage 0 0 @border 0 @background_color 0 0 0 0 @label_offset 32 0 @width 1 @height 32 @background_color 0.992 0.333 0.349 1 @live_style_toggle 1 @toggle_color_off 1 1 1 0 @toggle_color_on 0.992 0.333 0.349 1 @label_color 1 1 1 0 @layer 1",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label _ @position_anchor_percentage 0 0 @border 0 @label_offset 32 0 @width 1 @height 32 @background_color 0.992 0.333 0.349 1 @live_style_toggle 1 @toggle_color_off 1 1 1 0 @toggle_color_on 0.992 0.333 0.349 1 @label_color 1 1 1 0 @layer 1",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -6736,7 +6736,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u544010739" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u797005124" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-148",
 					"linecount" : 8,
@@ -6749,7 +6749,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 8 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 304 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 8 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 304 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -6763,7 +6763,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u204010624" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u432004728" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-143",
 					"linecount" : 8,
@@ -6776,7 +6776,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 7 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 272 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 7 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 272 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -6790,7 +6790,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u410010503" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u373004572" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-135",
 					"linecount" : 8,
@@ -6803,7 +6803,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 6 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 240 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 6 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 240 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -6817,7 +6817,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u703010382" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u614004482" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-115",
 					"linecount" : 8,
@@ -6830,7 +6830,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 5 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 208 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 5 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 208 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -6844,7 +6844,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u570010261" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u803004251" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-114",
 					"linecount" : 8,
@@ -6857,7 +6857,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 4 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 176 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 4 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 176 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -6871,7 +6871,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u730010146" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u899004215" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-111",
 					"linecount" : 8,
@@ -6884,7 +6884,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 3 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 144 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 3 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 144 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -6898,7 +6898,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u299010025" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u787003978" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-109",
 					"linecount" : 8,
@@ -6911,7 +6911,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 2 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 112 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 2 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 112 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -6925,7 +6925,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "recallID", "Toggle_u244009904" ] ],
+					"embedstate" : [ [ "recallID", "Toggle_u116003794" ] ],
 					"filename" : "jit_gl_ui_toggle.js",
 					"id" : "obj-101",
 					"linecount" : 8,
@@ -6938,7 +6938,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 1 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @background_color 0 0 0 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 80 16 @keep_in_window 0",
+					"text" : "jit.ui.toggle @canvas ---ui_canvas @label 1 @position_anchor_percentage 0 0 @font \"Ableton Sans\" @fontsize 0.9 @border 0 @label_offset 0 -1 @width 32 @height 32 @background_color 0.5 0.5 0.5 0.5 @live_style_toggle 1 @toggle_color_off 0.5 0.5 0.5 0.6 @toggle_color_on 0.4 0.4 0.4 0.9 @label_color 1 1 1 0.96 @position 80 16 @keep_in_window 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_toggle.js",
 						"flags" : 0,
@@ -19798,6 +19798,16 @@
 			"obj-91" : [ "A", "A", 0 ],
 			"obj-95" : [ "Z", "Z", 0 ],
 			"obj-96" : [ "FPS", "FPS", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-146::obj-151" : 				{
 					"parameter_longname" : "Dimensions"
@@ -19875,17 +19885,6 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "PX._syphon_out.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.gl.syphonserver.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "jit_gl_ui_2D_Text.js",
