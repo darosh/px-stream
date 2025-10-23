@@ -4,7 +4,7 @@
     <param name="image0" type="int" default="0"/>
     <param name="image1" type="int" default="1"/>
     
-    <param name="blend0" type="float" default="1.0"/>
+    <param name="blend0" type="vec4" default="1 1 1 1"/>
 
     <param name="mode0" type="int" default="0" />
 
@@ -14,6 +14,8 @@
     
     <param name="view0" type="int" default="0" />
 
+    <param name="alpha0" type="bool" default="0" />
+    
     <!-- Target dimensions for aspect correction -->
     <param name="targetdim" type="vec2" default="1920 1080"/>
 
@@ -38,6 +40,8 @@
 
         <bind param="view0" program="fp" />
 
+        <bind param="alpha0" program="fp" />
+        
         <bind param="targetdim" program="fp"/>
 
         <bind param="modelViewProjectionMatrix" program="vp"/>

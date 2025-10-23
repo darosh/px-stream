@@ -64,6 +64,15 @@
     <param name="view6" type="int" default="0" />
     <param name="view7" type="int" default="0" />
 
+    <param name="alpha0" type="bool" default="0" />
+    <param name="alpha1" type="bool" default="0" />
+    <param name="alpha2" type="bool" default="0" />
+    <param name="alpha3" type="bool" default="0" />
+    <param name="alpha4" type="bool" default="0" />
+    <param name="alpha5" type="bool" default="0" />
+    <param name="alpha6" type="bool" default="0" />
+    <param name="alpha7" type="bool" default="0" />
+
     <!-- Target dimensions for aspect correction -->
     <param name="targetdim" type="vec2" default="1920 1080"/>
 
@@ -135,6 +144,15 @@
         <bind param="view5" program="fp" />
         <bind param="view6" program="fp" />
         <bind param="view7" program="fp" />
+
+        <bind param="alpha0" program="fp" />
+        <bind param="alpha1" program="fp" />
+        <bind param="alpha2" program="fp" />
+        <bind param="alpha3" program="fp" />
+        <bind param="alpha4" program="fp" />
+        <bind param="alpha5" program="fp" />
+        <bind param="alpha6" program="fp" />
+        <bind param="alpha7" program="fp" />
 
         <bind param="targetdim" program="fp"/>
 
