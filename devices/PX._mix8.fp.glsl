@@ -114,6 +114,8 @@ vec3 oklab2rgb(vec3 c) {
     return linear_to_srgb(rgb);
 }
 
+// "Additive" "Alpha blend" " Average" " Bright light" "Burn" "Color dodge" " Darken" " Difference" " Divide" " Dodge" " Exclude" " Freeze" " Glow" " Hard light" "Hard mix" " Heat" " Inverse" " Lighten" " Linear burn" "Linear dodge" " Linear light" "Multiply" "Negate" "Normal" "Overlay" "Phoenix" "Pin light" " Reflect" " Screen" " Softlight" " Stamp" " Subtractive" " Vivid light"
+
 vec4 blend (int mode, vec4 a, vec4 b, float amount) {
     vec4 one = vec4(1.0);
     vec4 two = vec4(2.0);
@@ -123,62 +125,88 @@ vec4 blend (int mode, vec4 a, vec4 b, float amount) {
 
     if (mode == 0) { // Additive
         result = a + b;
-    } else if (mode == 1) { // "Alpha blend"
+    } else if (mode == 1) { // Alpha blend
         return vec4(mix(a.rgb, b.rgb, vec3(1.-a.a)*amount), 1.);
-    } else if (mode == 2) { // Average 
-        result = (a + b) * vec4(0.5);
-    } else if (mode == 3) { // "Bright light" 
+    } else if (mode == 2) { // Average
+        result = (a + b) * mid;
+    } else if (mode == 3) { // Bright light
         result = (one - a) * a * b + a * (one - (one - a) * (one - b));
-    } else if (mode == 4) { // Burn 
+    } else if (mode == 4) { // Burn
         result = one - (one - a) / b;
-    } else if (mode == 5) { // Darken 
-        result = min(a, b);
-    } else if (mode == 6) { // Difference 
-        result = abs(a - b);
-    } else if (mode == 7) { // Dodge 
+    } else if (mode == 5) { // Color dodge
         result = a / (one - b);
-    } else if (mode == 8) { // Exclude 
+    } else if (mode == 6) { // Darken
+        result = min(a, b);
+    } else if (mode == 7) { // Difference
+        result = abs(a - b);
+    } else if (mode == 8) { // Divide
+        result = a / b;
+    } else if (mode == 9) { // Dodge
+        result = a / (one - b);
+    } else if (mode == 10) { // Exclude
         result = a + b - (two * a * b);
-    } else if (mode == 9) { // Freeze 
+    } else if (mode == 11) { // Freeze
         vec4 c = (one - a);
         result = one - (c * c) / b;
-    } else if (mode == 10) { // Glow
+    } else if (mode == 12) { // Glow
         result = (b * b) / (one - a);
-    } else if (mode == 11) { // "Hard light"  
+    } else if (mode == 13) { // Hard light
         float luminance = dot(b, lumcoeff);
         float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
         vec4 branch1 = two * a * b;
         vec4 branch2 = one - (two * (one - a) * (one - b));
         result = mix(branch1, branch2, vec4(mixamount));
-    } else if (mode == 12) { // Heat 
+    } else if (mode == 14) { // Hard mix
+        result = vec4(step(one - a, b));
+    } else if (mode == 15) { // Heat
         vec4 c = (one - b);
         result = one - (c * c) / a;
-    } else if (mode == 13) { // Inverse 
+    } else if (mode == 16) { // Inverse
         result = b / (one - a);
-    } else if (mode == 14) { // Lighten 
+    } else if (mode == 17) { // Lighten
         result = max(a, b);
-    } else if (mode == 15) { // Multiply 
+    } else if (mode == 18) { // Linear burn
+        result = a + b - one;
+    } else if (mode == 19) { // Linear dodge
+        result = a + b;
+    } else if (mode == 20) { // Linear light
+        result = two * b + a - one;
+    } else if (mode == 21) { // Multiply
         result = a * b;
-    } else if (mode == 16) { // Negate 
+    } else if (mode == 22) { // Negate
         result = one - abs(one - a - b);
-    } else if (mode == 17) { // Normal 
+    } else if (mode == 23) { // Normal
         result = b;
-    } else if (mode == 18) { // Overlay 
+    } else if (mode == 24) { // Overlay
         float luminance = dot(a, lumcoeff);
         float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
         vec4 branch1 = two * a * b;
         vec4 branch2 = one - (two * (one - a) * (one - b));
         result = mix(branch1, branch2, vec4(mixamount));
-    } else if (mode == 19) { // Reflect 
+    } else if (mode == 25) { // Phoenix
+        result = min(a, b) - max(a, b) + one;
+    } else if (mode == 26) { // Pin light
+        float luminance = dot(b, lumcoeff);
+        float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
+        vec4 branch1 = min(a, two * b);
+        vec4 branch2 = max(a, two * (b - mid));
+        result = mix(branch1, branch2, vec4(mixamount));
+    } else if (mode == 27) { // Reflect
         result = (a * a) / (one - b);
-    } else if (mode == 20) { // Screen 
+    } else if (mode == 28) { // Screen
         result = one - (one - a) * (one - b);
-    } else if (mode == 21) { // Softlight 
+    } else if (mode == 29) { // Softlight
         result = two * a * b + a * a - two * a * a * b;
-    } else if (mode == 22) { // Stamp 
+    } else if (mode == 30) { // Stamp
         result = a + two * b - one;
-    } else if (mode == 23) { // Subtractive
+    } else if (mode == 31) { // Subtractive
         result = a + b - one;
+    } else if (mode == 32) { // Vivid light
+        float luminance = dot(b, lumcoeff);
+        float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
+        vec4 branch1 = one - (one - a) / (two * b);
+        vec4 branch2 = a / (two * (one - b));
+        result = mix(branch1, branch2, vec4(mixamount));
     }
 
     return mix(a, result, amount);
@@ -196,62 +224,88 @@ vec4 oklab (int mode, vec4 a, vec4 b, float amount) {
 
     if (mode == 0) { // Additive
         result = a + b;
-    } else if (mode == 1) { // "Alpha blend"
+    } else if (mode == 1) { // Alpha blend
         return vec4(oklab2rgb(mix(aok.rgb, bok.rgb, vec3(1.-a.a)*amount)), 1.);
-    } else if (mode == 2) { // Average 
-        result = (a + b) * vec4(0.5);
-    } else if (mode == 3) { // "Bright light" 
+    } else if (mode == 2) { // Average
+        result = (a + b) * mid;
+    } else if (mode == 3) { // Bright light
         result = (one - a) * a * b + a * (one - (one - a) * (one - b));
-    } else if (mode == 4) { // Burn 
+    } else if (mode == 4) { // Burn
         result = one - (one - a) / b;
-    } else if (mode == 5) { // Darken 
-        result = min(a, b);
-    } else if (mode == 6) { // Difference 
-        result = abs(a - b);
-    } else if (mode == 7) { // Dodge 
+    } else if (mode == 5) { // Color dodge
         result = a / (one - b);
-    } else if (mode == 8) { // Exclude 
+    } else if (mode == 6) { // Darken
+        result = min(a, b);
+    } else if (mode == 7) { // Difference
+        result = abs(a - b);
+    } else if (mode == 8) { // Divide
+        result = a / b;
+    } else if (mode == 9) { // Dodge
+        result = a / (one - b);
+    } else if (mode == 10) { // Exclude
         result = a + b - (two * a * b);
-    } else if (mode == 9) { // Freeze 
+    } else if (mode == 11) { // Freeze
         vec4 c = (one - a);
         result = one - (c * c) / b;
-    } else if (mode == 10) { // Glow
+    } else if (mode == 12) { // Glow
         result = (b * b) / (one - a);
-    } else if (mode == 11) { // "Hard light"  
+    } else if (mode == 13) { // Hard light
         float luminance = dot(b, lumcoeff);
         float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
         vec4 branch1 = two * a * b;
         vec4 branch2 = one - (two * (one - a) * (one - b));
         result = mix(branch1, branch2, vec4(mixamount));
-    } else if (mode == 12) { // Heat 
+    } else if (mode == 14) { // Hard mix
+        result = vec4(step(one - a, b));
+    } else if (mode == 15) { // Heat
         vec4 c = (one - b);
         result = one - (c * c) / a;
-    } else if (mode == 13) { // Inverse 
+    } else if (mode == 16) { // Inverse
         result = b / (one - a);
-    } else if (mode == 14) { // Lighten 
+    } else if (mode == 17) { // Lighten
         result = max(a, b);
-    } else if (mode == 15) { // Multiply 
+    } else if (mode == 18) { // Linear burn
+        result = a + b - one;
+    } else if (mode == 19) { // Linear dodge
+        result = a + b;
+    } else if (mode == 20) { // Linear light
+        result = two * b + a - one;
+    } else if (mode == 21) { // Multiply
         result = a * b;
-    } else if (mode == 16) { // Negate 
+    } else if (mode == 22) { // Negate
         result = one - abs(one - a - b);
-    } else if (mode == 17) { // Normal 
+    } else if (mode == 23) { // Normal
         result = b;
-    } else if (mode == 18) { // Overlay 
+    } else if (mode == 24) { // Overlay
         float luminance = dot(a, lumcoeff);
         float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
         vec4 branch1 = two * a * b;
         vec4 branch2 = one - (two * (one - a) * (one - b));
         result = mix(branch1, branch2, vec4(mixamount));
-    } else if (mode == 19) { // Reflect 
+    } else if (mode == 25) { // Phoenix
+        result = min(a, b) - max(a, b) + one;
+    } else if (mode == 26) { // Pin light
+        float luminance = dot(b, lumcoeff);
+        float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
+        vec4 branch1 = min(a, two * b);
+        vec4 branch2 = max(a, two * (b - mid));
+        result = mix(branch1, branch2, vec4(mixamount));
+    } else if (mode == 27) { // Reflect
         result = (a * a) / (one - b);
-    } else if (mode == 20) { // Screen 
+    } else if (mode == 28) { // Screen
         result = one - (one - a) * (one - b);
-    } else if (mode == 21) { // Softlight 
+    } else if (mode == 29) { // Softlight
         result = two * a * b + a * a - two * a * a * b;
-    } else if (mode == 22) { // Stamp 
+    } else if (mode == 30) { // Stamp
         result = a + two * b - one;
-    } else if (mode == 23) { // Subtractive
+    } else if (mode == 31) { // Subtractive
         result = a + b - one;
+    } else if (mode == 32) { // Vivid light
+        float luminance = dot(b, lumcoeff);
+        float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
+        vec4 branch1 = one - (one - a) / (two * b);
+        vec4 branch2 = a / (two * (one - b));
+        result = mix(branch1, branch2, vec4(mixamount));
     }
 
     vec4 mixed = mix(aok, vec4(rgb2oklab(clamp(result.rgb, 0, 1)), result.a), amount);
