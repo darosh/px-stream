@@ -5,6 +5,10 @@
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] screenshots
+- [ ] view: update push params
+- [ ] view: inline shaders
+- [ ] unify play buttons
+- [ ] view: upgrade blend
 
 ```text
 Alpha 3 release notes:
@@ -32,9 +36,15 @@ All
 
 Mix View
 - fixed mixing sliders 
+- more blend modes + color modes
+- alpha, view fit, swap and OKLAB support
 
 Mix View + IN Mix
 - Mix OUT, IN Mix: renamed buttons from numbers 1-9 to letters A-Z
+
+Mix Dry
+- more blend modes + color modes
+- alpha, view fit, swap and OKLAB support
 
 DEV Info, DEV Console
 - smaller device width
@@ -105,6 +115,9 @@ Hi! Can I include it in my open source VJ toolkit https://github.com/darosh/px-s
 
 ## Windows
 
+- [x] dry: update push params
+- [x] dry: inline shaders
+- [x] dry: upgrade blend
 - [x] simplify feedback
 - [x] ~~check frames on sketching~~
 - [x] ~~sketching win performance~~
