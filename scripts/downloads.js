@@ -53,6 +53,8 @@ function formatDate (iso) {
       ])
     })
 
+    table.reverse()
+    
     table.push([
       'Total',
       `${releases.length} releases`,
