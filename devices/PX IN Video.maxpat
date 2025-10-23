@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 343.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 498.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -89,7 +89,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.27843137254902, 0.27843137254902, 0.27843137254902, 0.0 ],
-					"blinkcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"blinkcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"id" : "obj-43",
 					"ignoreclick" : 1,
 					"maxclass" : "button",
@@ -206,8 +206,8 @@
 , 			{
 				"box" : 				{
 					"annotation_name" : "Play / Pause",
-					"automation" : "Play",
-					"automationon" : "Pause",
+					"automation" : "Pause",
+					"automationon" : "Play",
 					"id" : "obj-103",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -220,8 +220,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Play / Pause",
-							"parameter_enum" : [ "Play", "Pause" ],
-							"parameter_initial" : [ 0 ],
+							"parameter_enum" : [ "Pause", "Play" ],
+							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "Play / Pause",
 							"parameter_mmax" : 1,
@@ -232,8 +232,8 @@
 
 					}
 ,
-					"text" : "Play",
-					"texton" : "Pause",
+					"text" : "Pause",
+					"texton" : "Play",
 					"varname" : "live.text"
 				}
 
@@ -269,7 +269,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 552.0, 328.0, 60.0, 22.0 ],
+					"patching_rect" : [ 552.0, 312.0, 60.0, 22.0 ],
 					"text" : "select 0 1"
 				}
 
@@ -1155,7 +1155,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -1966,14 +1966,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
-					"source" : [ "obj-99", 0 ]
+					"source" : [ "obj-99", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
-					"source" : [ "obj-99", 1 ]
+					"source" : [ "obj-99", 0 ]
 				}
 
 			}
@@ -1991,16 +1991,6 @@
 			"obj-4::obj-6" : [ "File Automation", "File", 0 ],
 			"obj-4::obj-76" : [ "File", "File", 0 ],
 			"obj-91" : [ "View", "View", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-17::obj-151" : 				{
 					"parameter_longname" : "Dimensions"

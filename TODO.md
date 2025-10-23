@@ -7,7 +7,6 @@
 - [ ] screenshots
 - [ ] view: update push params
 - [ ] view: inline shaders
-- [ ] unify play buttons
 - [ ] view: upgrade blend
 
 ```text
@@ -45,6 +44,9 @@ Mix View + IN Mix
 Mix Dry
 - more blend modes + color modes
 - alpha, view fit, swap and OKLAB support
+
+IN Video
+- fixed play buton (cosmetic) state
 
 DEV Info, DEV Console
 - smaller device width
@@ -115,6 +117,7 @@ Hi! Can I include it in my open source VJ toolkit https://github.com/darosh/px-s
 
 ## Windows
 
+- [x] unify play buttons
 - [x] dry: update push params
 - [x] dry: inline shaders
 - [x] dry: upgrade blend
