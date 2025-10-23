@@ -1,0 +1,168 @@
+<jittershader name="multi_blend_8">
+    <description>Blend up to 8 textures with aspect-correct scaling</description>
+
+    <param name="image0" type="int" default="0"/>
+    <param name="image1" type="int" default="1"/>
+    <param name="image2" type="int" default="2"/>
+    <param name="image3" type="int" default="3"/>
+    <param name="image4" type="int" default="4"/>
+    <param name="image5" type="int" default="5"/>
+    <param name="image6" type="int" default="6"/>
+    <param name="image7" type="int" default="7"/>
+    
+    <param name="blend0" type="float" default="1.0"/>
+    <param name="blend1" type="float" default="1.0"/>
+    <param name="blend2" type="float" default="1.0"/>
+    <param name="blend3" type="float" default="1.0"/>
+    <param name="blend4" type="float" default="1.0"/>
+    <param name="blend5" type="float" default="1.0"/>
+    <param name="blend6" type="float" default="1.0"/>
+    <param name="blend7" type="float" default="1.0"/>
+
+    <param name="enable0" type="bool" default="1" />
+    <param name="enable1" type="bool" default="0" />
+    <param name="enable2" type="bool" default="0" />
+    <param name="enable3" type="bool" default="0" />
+    <param name="enable4" type="bool" default="0" />
+    <param name="enable5" type="bool" default="0" />
+    <param name="enable6" type="bool" default="0" />
+    <param name="enable7" type="bool" default="0" />
+
+    <param name="mode0" type="int" default="0" />
+    <param name="mode1" type="int" default="0" />
+    <param name="mode2" type="int" default="0" />
+    <param name="mode3" type="int" default="0" />
+    <param name="mode4" type="int" default="0" />
+    <param name="mode5" type="int" default="0" />
+    <param name="mode6" type="int" default="0" />
+    <param name="mode7" type="int" default="0" />
+
+    <param name="swap0" type="bool" default="0" />
+    <param name="swap1" type="bool" default="0" />
+    <param name="swap2" type="bool" default="0" />
+    <param name="swap3" type="bool" default="0" />
+    <param name="swap4" type="bool" default="0" />
+    <param name="swap5" type="bool" default="0" />
+    <param name="swap6" type="bool" default="0" />
+    <param name="swap7" type="bool" default="0" />
+
+    <param name="oklab0" type="bool" default="0" />
+    <param name="oklab1" type="bool" default="0" />
+    <param name="oklab2" type="bool" default="0" />
+    <param name="oklab3" type="bool" default="0" />
+    <param name="oklab4" type="bool" default="0" />
+    <param name="oklab5" type="bool" default="0" />
+    <param name="oklab6" type="bool" default="0" />
+    <param name="oklab7" type="bool" default="0" />
+    
+    <param name="view0" type="int" default="0" />
+    <param name="view1" type="int" default="0" />
+    <param name="view2" type="int" default="0" />
+    <param name="view3" type="int" default="0" />
+    <param name="view4" type="int" default="0" />
+    <param name="view5" type="int" default="0" />
+    <param name="view6" type="int" default="0" />
+    <param name="view7" type="int" default="0" />
+
+    <!-- Target dimensions for aspect correction -->
+    <param name="targetdim" type="vec2" default="1920 1080"/>
+
+    <param name="modelViewProjectionMatrix" type="mat4" state="MODELVIEW_PROJECTION_MATRIX"/>
+    <param name="textureMatrix0" type="mat4" state="TEXTURE0_MATRIX"/>
+    <param name="jit_position" type="vec3" state="POSITION"/>
+    <param name="jit_texcoord" type="vec2" state="TEXCOORD"/>
+
+    <language name="glsl" version="1.5">
+        <bind param="image0" program="fp"/>
+        <bind param="image1" program="fp"/>
+        <bind param="image2" program="fp"/>
+        <bind param="image3" program="fp"/>
+        <bind param="image4" program="fp"/>
+        <bind param="image5" program="fp"/>
+        <bind param="image6" program="fp"/>
+        <bind param="image7" program="fp"/>
+
+        <bind param="blend0" program="fp"/>
+        <bind param="blend1" program="fp"/>
+        <bind param="blend2" program="fp"/>
+        <bind param="blend3" program="fp"/>
+        <bind param="blend4" program="fp"/>
+        <bind param="blend5" program="fp"/>
+        <bind param="blend6" program="fp"/>
+        <bind param="blend7" program="fp"/>
+
+        <bind param="enable0" program="fp" />
+        <bind param="enable1" program="fp" />
+        <bind param="enable2" program="fp" />
+        <bind param="enable3" program="fp" />
+        <bind param="enable4" program="fp" />
+        <bind param="enable5" program="fp" />
+        <bind param="enable6" program="fp" />
+        <bind param="enable7" program="fp" />
+
+        <bind param="mode0" program="fp" />
+        <bind param="mode1" program="fp" />
+        <bind param="mode2" program="fp" />
+        <bind param="mode3" program="fp" />
+        <bind param="mode4" program="fp" />
+        <bind param="mode5" program="fp" />
+        <bind param="mode6" program="fp" />
+        <bind param="mode7" program="fp" />
+
+        <bind param="swap0" program="fp" />
+        <bind param="swap1" program="fp" />
+        <bind param="swap2" program="fp" />
+        <bind param="swap3" program="fp" />
+        <bind param="swap4" program="fp" />
+        <bind param="swap5" program="fp" />
+        <bind param="swap6" program="fp" />
+        <bind param="swap7" program="fp" />
+
+        <bind param="oklab0" program="fp" />
+        <bind param="oklab1" program="fp" />
+        <bind param="oklab2" program="fp" />
+        <bind param="oklab3" program="fp" />
+        <bind param="oklab4" program="fp" />
+        <bind param="oklab5" program="fp" />
+        <bind param="oklab6" program="fp" />
+        <bind param="oklab7" program="fp" />
+
+        <bind param="view0" program="fp" />
+        <bind param="view1" program="fp" />
+        <bind param="view2" program="fp" />
+        <bind param="view3" program="fp" />
+        <bind param="view4" program="fp" />
+        <bind param="view5" program="fp" />
+        <bind param="view6" program="fp" />
+        <bind param="view7" program="fp" />
+
+        <bind param="targetdim" program="fp"/>
+
+        <bind param="modelViewProjectionMatrix" program="vp"/>
+        <bind param="textureMatrix0" program="vp"/>
+        <bind param="jit_position" program="vp"/>
+        <bind param="jit_texcoord" program="vp"/>
+
+        <program name="vp" type="vertex">
+            <![CDATA[
+#version 330 core
+
+in vec3 jit_position;
+in vec2 jit_texcoord;
+
+out jit_PerVertex {
+    vec2 texcoord;
+} jit_out;
+
+uniform mat4 modelViewProjectionMatrix;
+uniform mat4 textureMatrix0;
+
+void main() {
+    gl_Position = modelViewProjectionMatrix * vec4(jit_position, 1.);
+    jit_out.texcoord = jit_texcoord;
+}
+]]>
+        </program>
+        <program name="fp" type="fragment" source="PX._mix8.fp.glsl" />
+    </language>
+</jittershader>
