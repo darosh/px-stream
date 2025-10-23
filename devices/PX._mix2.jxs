@@ -1,0 +1,70 @@
+<jittershader name="multi_blend_8">
+    <description>Blend up to 8 textures with aspect-correct scaling</description>
+
+    <param name="image0" type="int" default="0"/>
+    <param name="image1" type="int" default="1"/>
+    
+    <param name="blend0" type="float" default="1.0"/>
+
+    <param name="mode0" type="int" default="0" />
+
+    <param name="swap0" type="bool" default="0" />
+
+    <param name="oklab0" type="bool" default="0" />
+    
+    <param name="view0" type="int" default="0" />
+
+    <!-- Target dimensions for aspect correction -->
+    <param name="targetdim" type="vec2" default="1920 1080"/>
+
+    <param name="modelViewProjectionMatrix" type="mat4" state="MODELVIEW_PROJECTION_MATRIX"/>
+    <param name="textureMatrix0" type="mat4" state="TEXTURE0_MATRIX"/>
+    <param name="jit_position" type="vec3" state="POSITION"/>
+    <param name="jit_texcoord" type="vec2" state="TEXCOORD"/>
+
+    <language name="glsl" version="1.5">
+        <bind param="image0" program="fp"/>
+        <bind param="image1" program="fp"/>
+
+        <bind param="blend0" program="fp"/>
+
+        <bind param="enable0" program="fp" />
+
+        <bind param="mode0" program="fp" />
+
+        <bind param="swap0" program="fp" />
+
+        <bind param="oklab0" program="fp" />
+
+        <bind param="view0" program="fp" />
+
+        <bind param="targetdim" program="fp"/>
+
+        <bind param="modelViewProjectionMatrix" program="vp"/>
+        <bind param="textureMatrix0" program="vp"/>
+        <bind param="jit_position" program="vp"/>
+        <bind param="jit_texcoord" program="vp"/>
+
+        <program name="vp" type="vertex">
+            <![CDATA[
+#version 330 core
+
+in vec3 jit_position;
+in vec2 jit_texcoord;
+
+out jit_PerVertex {
+    vec2 texcoord;
+} jit_out;
+
+uniform mat4 modelViewProjectionMatrix;
+uniform mat4 textureMatrix0;
+
+void main() {
+    gl_Position = modelViewProjectionMatrix * vec4(jit_position, 1.);
+    jit_out.texcoord = jit_texcoord;
+}
+]]>
+        </program>
+        <program name="fp" type="fragment" source="PX._mix2.fp.glsl" />
+    </language>
+</jittershader>
