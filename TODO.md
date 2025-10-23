@@ -5,9 +5,7 @@
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] screenshots
-- [ ] view: update push params
-- [ ] view: inline shaders
-- [ ] view: upgrade blend
+- [ ] dry: swap + oklab highlight
 
 ```text
 Alpha 3 release notes:
@@ -35,11 +33,19 @@ All
 
 Mix View
 - fixed mixing sliders 
-- more blend modes + color modes
-- alpha, view fit, swap and OKLAB support
 
 Mix View + IN Mix
 - Mix OUT, IN Mix: renamed buttons from numbers 1-9 to letters A-Z
+
+DEV Info, DEV Console
+- smaller device width
+```
+
+```text
+Alpha 12 release notes:
+Mix View
+- more blend modes + color modes
+- alpha, view fit, swap and OKLAB support
 
 Mix Dry
 - more blend modes + color modes
@@ -47,9 +53,6 @@ Mix Dry
 
 IN Video
 - fixed play buton (cosmetic) state
-
-DEV Info, DEV Console
-- smaller device width
 ```
 
 ## Licencing
@@ -117,13 +120,6 @@ Hi! Can I include it in my open source VJ toolkit https://github.com/darosh/px-s
 
 ## Windows
 
-- [x] unify play buttons
-- [x] dry: update push params
-- [x] dry: inline shaders
-- [x] dry: upgrade blend
-- [x] simplify feedback
-- [x] ~~check frames on sketching~~
-- [x] ~~sketching win performance~~
 - [x] mix view resize glitch
 - [x] mix view broken popup
 - [x] FX pass diferent tab layout
@@ -245,6 +241,16 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] view: update push params
+- [x] view: inline shaders
+- [x] view: upgrade blend
+- [x] unify play buttons
+- [x] dry: update push params
+- [x] dry: inline shaders
+- [x] dry: upgrade blend
+- [x] simplify feedback
+- [x] ~~check frames on sketching~~
+- [x] ~~sketching win performance~~
 - [x] resize: console, info, 116, 130, 130 + 96 = 226
 - [x] rename mix IN/OUT numbers to letters
 - [x] ~~PX Mix device~~ preview switch + doc
