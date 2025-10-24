@@ -5,8 +5,10 @@
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] screenshots
-- [ ] initial pop size
-- [ ] pop resize blocked by sliders?
+- [ ] doc: oklab highlight
+- [ ] doc: swap highlight
+- [ ] win: test
+- [ ] assets: smaller video
 
 ```text
 Alpha 3 release notes:
@@ -47,6 +49,8 @@ Alpha 12 release notes:
 Mix View
 - more blend modes + color modes
 - alpha, view fit, swap and OKLAB support
+- consistent initial popup size
+- improved UI look for smaller popup size 
 
 Mix Dry
 - more blend modes + color modes
@@ -242,6 +246,8 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] initial pop size
+- [x] pop resize blocked by sliders?
 - [x] dry: swap + oklab highlight
 - [x] externalize button highlight patches
 - [x] update blend pickers
