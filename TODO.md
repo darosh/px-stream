@@ -8,7 +8,6 @@
 - [ ] doc: oklab highlight
 - [ ] doc: swap highlight
 - [ ] win: test
-- [ ] assets: smaller video
 
 ```text
 Alpha 3 release notes:
@@ -246,6 +245,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] assets: smaller video
 - [x] initial pop size
 - [x] pop resize blocked by sliders?
 - [x] dry: swap + oklab highlight
