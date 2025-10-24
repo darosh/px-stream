@@ -5,7 +5,8 @@
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] screenshots
-- [ ] dry: swap + oklab highlight
+- [ ] initial pop size
+- [ ] pop resize blocked by sliders?
 
 ```text
 Alpha 3 release notes:
@@ -241,6 +242,9 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] dry: swap + oklab highlight
+- [x] externalize button highlight patches
+- [x] update blend pickers
 - [x] view: update push params
 - [x] view: inline shaders
 - [x] view: upgrade blend

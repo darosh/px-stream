@@ -131,28 +131,29 @@ vec3 hsv2rgb(vec3 c) {
     return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);
 }
 
-// "Additive" "Alpha blend" "Average" "Bright light" "Burn" "Color dodge" "Darken" "Difference" "Divide" "Dodge" "Exclude" "Freeze" "Glow" "Hard light" "Hard mix" "Heat" "Inverse" "Lighten" "Linear burn" "Linear dodge" "Linear light" "Multiply" "Negate" "Normal" "Overlay" "Phoenix" "Pin light" "Reflect" "Screen" "Softlight" "Stamp" "Subtractive" "Vivid light" "Color: Hue" "Color: Saturation" "Color: Hue + Saturation" "Color: Luminosity"
+vec3 lab2hcl(vec3 lab) {
+    float C = length(lab.yz);
+    // float h = atan(lab.z, lab.y);
+    float h = C > 0.0001 ? atan(lab.z, lab.y) : 0.0; // Default to 0 hue when achromatic
+    return vec3(h, C, lab.x);// H, C, L order (matches H, S, V)
+}
 
-// 0 1 2 13 18 19 21 24 28 29 31
-// 33 34 35 36
+vec3 hcl2lab(vec3 hcl) {
+    return vec3(hcl.z, cos(hcl.x) * hcl.y, sin(hcl.x) * hcl.y);// L, a, b
+}
+
+// "Additive" "Antimatter" "Average" "Bright light" "Burn" "Color dodge" "Darken" "Difference" "Divide" "Dodge" "Exclude" "Freeze" "Glow" "Hard light" "Hard mix" "Heat" "Inverse" "Lighten" "Linear burn" "Linear dodge" "Linear light" "Multiply" "Negate" "Normal" "Overlay" "Phoenix" "Pin light" "Reflect" "Screen" "Softlight" "Stamp" "Subtractive" "Vivid light" "Color: Hue" "Color: Chroma" "Color: Hue + Chroma" "Color: Luminosity"
+
 /* Extended OKLAB
+// 0 2 19 33 34 35 36
 0  - Additive
-1  - Alpha blend
 2  - Average
-13 - Hard light
-18 - Linear burn
 19 - Linear dodge
-21 - Multiply
-24 - Overlay
-28 - Screen
-29 - Softlight
-31 - Subtractive
 */
 
-// 1 3 4 5 8 9 11 12 13 15 16 18 20 24 26 27 30 32
-// 33 34 35 36
 /* Non-commutative ops
-1  - Alpha blend (uses A's alpha)
+// 1 3 4 5 8 9 11 12 13 15 16 18 20 24 26 27 30 32 33 34 35 36
+1  - Antimatter
 3  - Bright light
 4  - Burn
 5  - Color dodge
@@ -172,17 +173,28 @@ vec3 hsv2rgb(vec3 c) {
 32 - Vivid light
 */
 
-vec4 blend (int mode, vec4 a, vec4 b, float amount) {
-    vec4 one = vec4(1.0);
-    vec4 two = vec4(2.0);
-    vec4 mid = vec4(0.5);
-    vec4 lumcoeff = vec4(0.2125, 0.7154, 0.0721, 0.0);
-    vec4 result;
+vec4 blend (int mode, vec4 a4, vec4 b4, float amount) {
+    vec3 a = a4.rgb;
+    vec3 b = b4.rgb;
+    
+    vec3 one = vec3(1.0);
+    vec3 two = vec3(2.0);
+    vec3 mid = vec3(0.5);
+    
+    vec3 lumcoeff = vec3(0.2125, 0.7154, 0.0721);
+    
+    vec3 result;
+    float result_a = mix(a4.a, b4.a, amount);
 
     if (mode == 0) { // Additive
         result = a + b;
-    } else if (mode == 1) { // Alpha blend
-        return vec4(mix(a.rgb, b.rgb, vec3(1.-a.a)*amount), 1.);
+    } else if (mode == 1) { // Antimatter
+        // Subtractive with modulo wraparound - creates neon edges
+        vec3 subtract = a - b;
+        vec3 wrapped = fract(subtract + 0.5); // Wrap negative values
+        // Add noise at edges where colors clash
+        float edge = step(0.8 * amount, length(a - b));
+        result = wrapped + fract(a * b * 16.0) * edge;
     } else if (mode == 2) { // Average
         result = (a + b) * mid;
     } else if (mode == 3) { // Bright light
@@ -202,20 +214,20 @@ vec4 blend (int mode, vec4 a, vec4 b, float amount) {
     } else if (mode == 10) { // Exclude
         result = a + b - (two * a * b);
     } else if (mode == 11) { // Freeze
-        vec4 c = (one - a);
+        vec3 c = (one - a);
         result = one - (c * c) / b;
     } else if (mode == 12) { // Glow
         result = (b * b) / (one - a);
     } else if (mode == 13) { // Hard light
         float luminance = dot(b, lumcoeff);
         float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
-        vec4 branch1 = two * a * b;
-        vec4 branch2 = one - (two * (one - a) * (one - b));
-        result = mix(branch1, branch2, vec4(mixamount));
+        vec3 branch1 = two * a * b;
+        vec3 branch2 = one - (two * (one - a) * (one - b));
+        result = mix(branch1, branch2, mixamount);
     } else if (mode == 14) { // Hard mix
-        result = vec4(step(one - a, b));
+        result = vec3(step(one - a, b));
     } else if (mode == 15) { // Heat
-        vec4 c = (one - b);
+        vec3 c = (one - b);
         result = one - (c * c) / a;
     } else if (mode == 16) { // Inverse
         result = b / (one - a);
@@ -236,17 +248,17 @@ vec4 blend (int mode, vec4 a, vec4 b, float amount) {
     } else if (mode == 24) { // Overlay
         float luminance = dot(a, lumcoeff);
         float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
-        vec4 branch1 = two * a * b;
-        vec4 branch2 = one - (two * (one - a) * (one - b));
-        result = mix(branch1, branch2, vec4(mixamount));
+        vec3 branch1 = two * a * b;
+        vec3 branch2 = one - (two * (one - a) * (one - b));
+        result = mix(branch1, branch2, mixamount);
     } else if (mode == 25) { // Phoenix
         result = min(a, b) - max(a, b) + one;
     } else if (mode == 26) { // Pin light
         float luminance = dot(b, lumcoeff);
         float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
-        vec4 branch1 = min(a, two * b);
-        vec4 branch2 = max(a, two * (b - mid));
-        result = mix(branch1, branch2, vec4(mixamount));
+        vec3 branch1 = min(a, two * b);
+        vec3 branch2 = max(a, two * (b - mid));
+        result = mix(branch1, branch2, mixamount);
     } else if (mode == 27) { // Reflect
         result = (a * a) / (one - b);
     } else if (mode == 28) { // Screen
@@ -260,51 +272,63 @@ vec4 blend (int mode, vec4 a, vec4 b, float amount) {
     } else if (mode == 32) { // Vivid light
         float luminance = dot(b, lumcoeff);
         float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
-        vec4 branch1 = one - (one - a) / (two * b);
-        vec4 branch2 = a / (two * (one - b));
-        result = mix(branch1, branch2, vec4(mixamount));
-    } else if (mode == 33) { // Color: Hue (HSV version)
+        vec3 branch1 = one - (one - a) / (two * b);
+        vec3 branch2 = a / (two * (one - b));
+        result = mix(branch1, branch2, mixamount);
+    } else if (mode == 33) { // Color: Hue
         vec3 hsv_a = rgb2hsv(a.rgb);
         vec3 hsv_b = rgb2hsv(b.rgb);
-        result = vec4(hsv2rgb(vec3(hsv_b.x, hsv_a.yz)), a.a);
-
-    } else if (mode == 34) { // Color: Saturation (HSV version)
+        float use_b_hue = step(0.0001, hsv_b.y); // 1.0 if B has chroma, 0.0 if gray
+        float final_hue = mix(hsv_a.x, hsv_b.x, use_b_hue);
+        result = hsv2rgb(vec3(final_hue, hsv_a.y, hsv_a.z * hsv_b.z));
+    } else if (mode == 34) { // Color: Chroma
         vec3 hsv_a = rgb2hsv(a.rgb);
         vec3 hsv_b = rgb2hsv(b.rgb);
-        result = vec4(hsv2rgb(vec3(hsv_a.x, hsv_b.y, hsv_a.z)), a.a);
-
-    } else if (mode == 35) { // Color: Hue + Saturation (HSV version)
+        float use_a_hue = step(0.0001, hsv_a.y); // 1.0 if B has chroma, 0.0 if gray
+        float final_hue = mix(hsv_b.x, hsv_a.x, use_a_hue);
+        result = hsv2rgb(vec3(final_hue, hsv_b.y, hsv_a.z * hsv_b.z));
+    } else if (mode == 35) { // Color: Hue + Chroma
         vec3 hsv_a = rgb2hsv(a.rgb);
         vec3 hsv_b = rgb2hsv(b.rgb);
-        result = vec4(hsv2rgb(vec3(hsv_b.xy, hsv_a.z)), a.a);
-
-    } else if (mode == 36) { // Color: Luminosity (HSV version)
+        result = hsv2rgb(vec3(hsv_b.xy, hsv_a.z * hsv_b.z));
+    } else if (mode == 36) { // Color: Luminosity
         vec3 hsv_a = rgb2hsv(a.rgb);
         vec3 hsv_b = rgb2hsv(b.rgb);
-        result = vec4(hsv2rgb(vec3(hsv_a.xy, hsv_b.z)), a.a);
+        result = hsv2rgb(vec3(hsv_a.xy, hsv_a.z * hsv_b.z));
     }
 
-    return mix(a, result, amount);
+    return vec4(mix(a, clamp(result, 0, 2), amount), result_a);
 }
 
-vec4 oklab (int mode, vec4 a, vec4 b, float amount) {
-    vec4 one = vec4(1.0);
-    vec4 two = vec4(2.0);
-    vec4 mid = vec4(0.5);
-    vec4 lumcoeff = vec4(0.2125, 0.7154, 0.0721, 0.0);
-    vec4 result;
+vec4 oklab (int mode, vec4 a4, vec4 b4, float amount) {
+    vec3 a = a4.rgb;
+    vec3 b = b4.rgb;
 
-    vec4 aok = vec4(rgb2oklab(clamp(a.rgb, 0, 1)), a.a);
-    vec4 bok = vec4(rgb2oklab(clamp(b.rgb, 0, 1)), b.a);
+    vec3 one = vec3(1.0);
+    vec3 two = vec3(2.0);
+    vec3 mid = vec3(0.5);
+    vec3 lumcoeff = vec3(0.2125, 0.7154, 0.0721);
+
+    vec3 result;
+    float result_a = mix(a4.a, b4.a, amount);
+
+    vec3 aok = rgb2oklab(clamp(a.rgb, 0, 1));
+    vec3 bok = rgb2oklab(clamp(b.rgb, 0, 1));
 
     if (mode == 0) { // Additive - computed in OKLAB
-        result = vec4(aok.rgb + bok.rgb, max(aok.a, bok.a));
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), result.a);
-    } else if (mode == 1) { // Alpha blend - computed in OKLAB
-        return vec4(oklab2rgb(mix(aok.rgb, bok.rgb, vec3(1.-a.a)*amount)), 1.);
+        result = aok + bok;
+        return vec4(oklab2rgb(mix(aok, result, amount)), result_a);
+    } else if (mode == 1) { // Antimatter
+        // Subtractive with modulo wraparound - creates neon edges
+        vec3 subtract = a - b;
+        vec3 wrapped = fract(subtract + 0.5);// Wrap negative values
+        // Add noise at edges where colors clash
+        float l = length(a - b);
+        float edge = step(0.8 * amount, l);
+        result = wrapped + fract(a * b * 16.0) * edge;
     } else if (mode == 2) { // Average - computed in OKLAB
-        result = vec4((aok.rgb + bok.rgb) * 0.5, (aok.a + bok.a) * 0.5);
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), mix(aok.a, result.a, amount));
+        result = (aok + bok) * 0.5;
+        return vec4(oklab2rgb(mix(aok, result, amount)), result_a);
     } else if (mode == 3) { // Bright light
         result = (one - a) * a * b + a * (one - (one - a) * (one - b));
     } else if (mode == 4) { // Burn
@@ -322,102 +346,98 @@ vec4 oklab (int mode, vec4 a, vec4 b, float amount) {
     } else if (mode == 10) { // Exclude - keep RGB artifacts
         result = a + b - (two * a * b);
     } else if (mode == 11) { // Freeze
-        vec4 c = (one - a);
+        vec3 c = (one - a);
         result = one - (c * c) / b;
     } else if (mode == 12) { // Glow
         result = (b * b) / (one - a);
-    } else if (mode == 13) { // Hard light - computed in OKLAB
-        float luminance = bok.r;// Use L channel from OKLAB
+    } else if (mode == 13) { // Hard light
+        float luminance = dot(b, lumcoeff);
         float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
-        vec4 branch1 = vec4(two.rgb * aok.rgb * bok.rgb, aok.a * bok.a);
-        vec4 branch2 = vec4(one.rgb - (two.rgb * (one.rgb - aok.rgb) * (one.rgb - bok.rgb)), one.a - (one.a - aok.a) * (one.a - bok.a));
-        result = mix(branch1, branch2, vec4(mixamount));
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), mix(aok.a, result.a, amount));
+        vec3 branch1 = two * a * b;
+        vec3 branch2 = one - (two * (one - a) * (one - b));
+        result = mix(branch1, branch2, mixamount);
     } else if (mode == 14) { // Hard mix
-        result = vec4(step(one - a, b));
+        result = step(one - a, b);
     } else if (mode == 15) { // Heat
-        vec4 c = (one - b);
+        vec3 c = one - b;
         result = one - (c * c) / a;
     } else if (mode == 16) { // Inverse
         result = b / (one - a);
     } else if (mode == 17) { // Lighten
         result = max(a, b);
-    } else if (mode == 18) { // Linear burn - computed in OKLAB
-        result = vec4(aok.rgb + bok.rgb - one.rgb, aok.a + bok.a - one.a);
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), mix(aok.a, result.a, amount));
+    } else if (mode == 18) { // Linear burn
+        result = a + b - one;
     } else if (mode == 19) { // Linear dodge - computed in OKLAB
-        result = vec4(aok.rgb + bok.rgb, max(aok.a, bok.a));
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), result.a);
+        result = aok + bok;
+        return vec4(oklab2rgb(mix(aok, result, amount)), result_a);
     } else if (mode == 20) { // Linear light
         result = two * b + a - one;
-    } else if (mode == 21) { // Multiply - computed in OKLAB
-        result = vec4(aok.rgb * bok.rgb, aok.a * bok.a);
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), mix(aok.a, result.a, amount));
+    } else if (mode == 21) { // Multiply
+        result = a * b;
+        return vec4(oklab2rgb(mix(aok, result, amount)), result_a);
     } else if (mode == 22) { // Negate
         result = one - abs(one - a - b);
     } else if (mode == 23) { // Normal
         result = b;
-    } else if (mode == 24) { // Overlay - computed in OKLAB
-        float luminance = aok.r;// Use L channel from OKLAB
+    } else if (mode == 24) { // Overlay
+        float luminance = dot(a, lumcoeff);
         float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
-        vec4 branch1 = vec4(two.rgb * aok.rgb * bok.rgb, aok.a * bok.a);
-        vec4 branch2 = vec4(one.rgb - (two.rgb * (one.rgb - aok.rgb) * (one.rgb - bok.rgb)), one.a - (one.a - aok.a) * (one.a - bok.a));
-        result = mix(branch1, branch2, vec4(mixamount));
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), mix(aok.a, result.a, amount));
+        vec3 branch1 = two * a * b;
+        vec3 branch2 = one - (two * (one - a) * (one - b));
+        result = mix(branch1, branch2, mixamount);
     } else if (mode == 25) { // Phoenix - keep RGB artifacts
         result = min(a, b) - max(a, b) + one;
     } else if (mode == 26) { // Pin light
         float luminance = dot(b, lumcoeff);
         float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
-        vec4 branch1 = min(a, two * b);
-        vec4 branch2 = max(a, two * (b - mid));
-        result = mix(branch1, branch2, vec4(mixamount));
+        vec3 branch1 = min(a, two * b);
+        vec3 branch2 = max(a, two * (b - mid));
+        result = mix(branch1, branch2, mixamount);
     } else if (mode == 27) { // Reflect
         result = (a * a) / (one - b);
-    } else if (mode == 28) { // Screen - computed in OKLAB
-        result = vec4(one.rgb - (one.rgb - aok.rgb) * (one.rgb - bok.rgb), one.a - (one.a - aok.a) * (one.a - bok.a));
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), mix(aok.a, result.a, amount));
-    } else if (mode == 29) { // Softlight - computed in OKLAB
-        result = vec4(two.rgb * aok.rgb * bok.rgb + aok.rgb * aok.rgb - two.rgb * aok.rgb * aok.rgb * bok.rgb, aok.a);
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), mix(aok.a, result.a, amount));
+    } else if (mode == 28) { // Screen
+        result = one - (one - a) * (one - b);
+    } else if (mode == 29) { // Softlight
+        result = two * a * b + a * a - two * a * a * b;
     } else if (mode == 30) { // Stamp
         result = a + two * b - one;
-    } else if (mode == 31) { // Subtractive - computed in OKLAB
-        result = vec4(aok.rgb + bok.rgb - one.rgb, aok.a + bok.a - one.a);
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), mix(aok.a, result.a, amount));
+    } else if (mode == 31) { // Subtractive
+        result = a + b - one;
     } else if (mode == 32) { // Vivid light
         float luminance = dot(b, lumcoeff);
         float mixamount = clamp((luminance - 0.45) * 10., 0., 1.);
-        vec4 branch1 = one - (one - a) / (two * b);
-        vec4 branch2 = a / (two * (one - b));
-        result = mix(branch1, branch2, vec4(mixamount));
+        vec3 branch1 = one - (one - a) / (two * b);
+        vec3 branch2 = a / (two * (one - b));
+        result = mix(branch1, branch2, mixamount);
     } else if (mode == 33) { // Color: Hue
-        // Take a/b from bok (hue), L and saturation magnitude from aok
-        float sat_a = length(aok.gb);
-        float sat_b = length(bok.gb);
-        vec2 hue_b = sat_b > 0.0 ? bok.gb / sat_b : vec2(0.0);
-        result = vec4(aok.r, hue_b * sat_a, aok.a);
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), mix(aok.a, result.a, amount));
-    } else if (mode == 34) { // Color: Saturation
-        // Take saturation magnitude from bok, hue and L from aok
-        float sat_a = length(aok.gb);
-        float sat_b = length(bok.gb);
-        vec2 hue_a = sat_a > 0.0 ? aok.gb / sat_a : vec2(0.0);
-        result = vec4(aok.r, hue_a * sat_b, aok.a);
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), mix(aok.a, result.a, amount));
-    } else if (mode == 35) { // Color: Hue + Saturation
-        // Take a/b from bok (hue+sat), L from aok
-        result = vec4(aok.r, bok.gb, aok.a);
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), mix(aok.a, result.a, amount));
+        vec3 hsv_a = lab2hcl(aok);
+        vec3 hsv_b = lab2hcl(bok);
+        float use_b_hue = step(0.0001, hsv_b.y); // 1.0 if B has chroma, 0.0 if gray
+        float final_hue = mix(hsv_a.x, hsv_b.x, use_b_hue);
+        result = hcl2lab(vec3(final_hue, hsv_a.y, hsv_a.z * hsv_b.z));
+        return vec4(oklab2rgb(mix(aok, result, amount)), result_a);
+    } else if (mode == 34) { // Color: Chroma
+        vec3 hsv_a = lab2hcl(aok);
+        vec3 hsv_b = lab2hcl(bok);
+        float use_a_hue = step(0.0001, hsv_a.y); // 1.0 if B has chroma, 0.0 if gray
+        float final_hue = mix(hsv_b.x, hsv_a.x, use_a_hue);
+        result = hcl2lab(vec3(final_hue, hsv_b.y, hsv_a.z * hsv_b.z));
+        return vec4(oklab2rgb(mix(aok, result, amount)), result_a);
+    } else if (mode == 35) { // Color: Hue + Chroma
+        vec3 hsv_a = lab2hcl(aok);
+        vec3 hsv_b = lab2hcl(bok);
+        result = hcl2lab(vec3(hsv_b.xy, hsv_a.z * hsv_b.z));
+        return vec4(oklab2rgb(mix(aok, result, amount)), result_a);
     } else if (mode == 36) { // Color: Luminosity
-        // Take L from bok, a/b from aok (hue+sat)
-        result = vec4(bok.r, aok.gb, aok.a);
-        return vec4(oklab2rgb(mix(aok.rgb, result.rgb, amount)), mix(aok.a, result.a, amount));
+        vec3 hsv_a = lab2hcl(aok);
+        vec3 hsv_b = lab2hcl(bok);
+        result = hcl2lab(vec3(hsv_a.xy, hsv_a.z * hsv_b.z));
+        return vec4(oklab2rgb(mix(aok, result, amount)), result_a);
     }
 
-    vec4 mixed = mix(aok, vec4(rgb2oklab(clamp(result.rgb, 0, 1)), result.a), amount);
+    vec3 mixed = mix(aok, rgb2oklab(clamp(result, 0, 1)), amount);
 
-    return vec4(oklab2rgb(mixed.rgb), mixed.a);
+    return vec4(oklab2rgb(mixed.rgb), result_a);
 }
 
 void main() {

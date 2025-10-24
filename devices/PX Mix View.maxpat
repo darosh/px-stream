@@ -87,124 +87,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 130.0, 71.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 369.0, 22.0 ],
-									"text" : "zl.sect 1 3 4 5 8 9 11 12 13 15 16 18 20 24 26 27 30 32 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1240.0, 936.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1240.0, 936.0, 114.0, 22.0 ],
+					"text" : "PX._blend_is_swap"
 				}
 
 			}
@@ -215,125 +99,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 133.0, 152.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"linecount" : 2,
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 320.0, 22.0 ],
-									"text" : "zl.sect 1 3 4 5 8 9 11 12 13 15 16 18 20 24 26 27 30 32 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1408.0, 936.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1408.0, 936.0, 114.0, 22.0 ],
+					"text" : "PX._blend_is_swap"
 				}
 
 			}
@@ -344,125 +111,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 133.0, 152.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"linecount" : 2,
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 320.0, 22.0 ],
-									"text" : "zl.sect 1 3 4 5 8 9 11 12 13 15 16 18 20 24 26 27 30 32 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1376.0, 936.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1376.0, 936.0, 114.0, 22.0 ],
+					"text" : "PX._blend_is_swap"
 				}
 
 			}
@@ -473,125 +123,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 133.0, 152.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"linecount" : 2,
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 320.0, 22.0 ],
-									"text" : "zl.sect 1 3 4 5 8 9 11 12 13 15 16 18 20 24 26 27 30 32 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1344.0, 936.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1344.0, 936.0, 114.0, 22.0 ],
+					"text" : "PX._blend_is_swap"
 				}
 
 			}
@@ -602,124 +135,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 130.0, 71.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 369.0, 22.0 ],
-									"text" : "zl.sect 1 3 4 5 8 9 11 12 13 15 16 18 20 24 26 27 30 32 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1312.0, 936.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1312.0, 936.0, 114.0, 22.0 ],
+					"text" : "PX._blend_is_swap"
 				}
 
 			}
@@ -730,124 +147,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 130.0, 71.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 369.0, 22.0 ],
-									"text" : "zl.sect 1 3 4 5 8 9 11 12 13 15 16 18 20 24 26 27 30 32 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1280.0, 936.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1280.0, 936.0, 114.0, 22.0 ],
+					"text" : "PX._blend_is_swap"
 				}
 
 			}
@@ -858,124 +159,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 130.0, 71.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 369.0, 22.0 ],
-									"text" : "zl.sect 1 3 4 5 8 9 11 12 13 15 16 18 20 24 26 27 30 32 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1208.0, 936.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1208.0, 936.0, 114.0, 22.0 ],
+					"text" : "PX._blend_is_swap"
 				}
 
 			}
@@ -986,124 +171,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 130.0, 71.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 369.0, 22.0 ],
-									"text" : "zl.sect 1 3 4 5 8 9 11 12 13 15 16 18 20 24 26 27 30 32 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1176.0, 936.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1176.0, 936.0, 114.0, 22.0 ],
+					"text" : "PX._blend_is_swap"
 				}
 
 			}
@@ -1126,124 +195,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 412.0, 71.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 273.0, 22.0 ],
-									"text" : "zl.sect 0 1 2 13 18 19 21 24 28 29 31 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1112.0, 824.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1112.0, 824.0, 115.0, 22.0 ],
+					"text" : "PX._blend_is_oklab"
 				}
 
 			}
@@ -1254,124 +207,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 412.0, 71.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 273.0, 22.0 ],
-									"text" : "zl.sect 0 1 2 13 18 19 21 24 28 29 31 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1112.0, 792.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1112.0, 792.0, 115.0, 22.0 ],
+					"text" : "PX._blend_is_oklab"
 				}
 
 			}
@@ -1382,124 +219,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 412.0, 71.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 273.0, 22.0 ],
-									"text" : "zl.sect 0 1 2 13 18 19 21 24 28 29 31 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1112.0, 760.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1112.0, 760.0, 115.0, 22.0 ],
+					"text" : "PX._blend_is_oklab"
 				}
 
 			}
@@ -1510,124 +231,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 133.0, 71.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 273.0, 22.0 ],
-									"text" : "zl.sect 0 1 2 13 18 19 21 24 28 29 31 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1112.0, 728.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1112.0, 728.0, 115.0, 22.0 ],
+					"text" : "PX._blend_is_oklab"
 				}
 
 			}
@@ -1638,124 +243,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 412.0, 71.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 273.0, 22.0 ],
-									"text" : "zl.sect 0 1 2 13 18 19 21 24 28 29 31 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1112.0, 696.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1112.0, 696.0, 115.0, 22.0 ],
+					"text" : "PX._blend_is_oklab"
 				}
 
 			}
@@ -1766,124 +255,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 412.0, 71.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 273.0, 22.0 ],
-									"text" : "zl.sect 0 1 2 13 18 19 21 24 28 29 31 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1112.0, 664.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1112.0, 664.0, 115.0, 22.0 ],
+					"text" : "PX._blend_is_oklab"
 				}
 
 			}
@@ -1894,124 +267,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 412.0, 71.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 273.0, 22.0 ],
-									"text" : "zl.sect 0 1 2 13 18 19 21 24 28 29 31 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1112.0, 632.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1112.0, 632.0, 115.0, 22.0 ],
+					"text" : "PX._blend_is_oklab"
 				}
 
 			}
@@ -2022,124 +279,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 9,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 412.0, 71.0, 498.0, 508.0 ],
-						"gridsize" : [ 15.0, 15.0 ],
-						"integercoordinates" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-694",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 149.0, 217.0, 35.0 ],
-									"text" : "activebgoncolor \"LCD Handle Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-693",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 298.0, 149.0, 210.0, 35.0 ],
-									"text" : "activebgoncolor \"Control On Variant\", activetextoncolor \"Text / Icon On\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-676",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 273.0, 22.0 ],
-									"text" : "zl.sect 0 1 2 13 18 19 21 24 28 29 31 33 34 35 36"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-698",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-699",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 262.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-693", 0 ],
-									"source" : [ "obj-676", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-694", 0 ],
-									"source" : [ "obj-676", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-693", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-699", 0 ],
-									"source" : [ "obj-694", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-676", 0 ],
-									"source" : [ "obj-698", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1112.0, 600.0, 24.0, 22.0 ],
-					"text" : "p"
+					"patching_rect" : [ 1112.0, 600.0, 115.0, 22.0 ],
+					"text" : "PX._blend_is_oklab"
 				}
 
 			}
@@ -2234,7 +375,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 746.0, 735.0, 100.0, 22.0 ],
+					"patching_rect" : [ 744.0, 728.0, 100.0, 22.0 ],
 					"text" : "prepend alpha3"
 				}
 
@@ -2246,7 +387,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 746.0, 707.0, 100.0, 22.0 ],
+					"patching_rect" : [ 744.0, 704.0, 100.0, 22.0 ],
 					"text" : "prepend alpha2"
 				}
 
@@ -2258,14 +399,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 746.0, 679.0, 100.0, 22.0 ],
+					"patching_rect" : [ 752.0, 680.0, 100.0, 22.0 ],
 					"text" : "prepend alpha1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 8",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2277,7 +418,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 864.0, 822.999999999999773, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 507.0, 134.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 523.0, 134.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -2304,7 +445,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 7",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2316,7 +457,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 864.0, 802.857142857142662, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 507.0, 115.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 523.0, 115.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -2343,7 +484,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 6",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2355,7 +496,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 864.0, 782.714285714285552, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 507.0, 96.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 523.0, 96.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -2382,7 +523,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 5",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2394,7 +535,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 864.0, 762.571428571428442, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 507.0, 78.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 523.0, 78.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -2421,7 +562,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 4",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2431,9 +572,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 864.0, 742.428571428571331, 44.0, 15.0 ],
+					"patching_rect" : [ 864.0, 720.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 507.0, 59.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 523.0, 59.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -2460,7 +601,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 3",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2470,9 +611,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 864.0, 722.285714285714221, 44.0, 15.0 ],
+					"patching_rect" : [ 864.0, 696.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 507.0, 40.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 523.0, 40.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -2499,7 +640,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 2",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2509,9 +650,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 864.0, 702.14285714285711, 44.0, 15.0 ],
+					"patching_rect" : [ 864.0, 664.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 507.0, 21.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 523.0, 21.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -2538,7 +679,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 1",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2548,9 +689,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 864.0, 682.0, 44.0, 15.0 ],
+					"patching_rect" : [ 864.0, 640.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 507.0, 2.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 523.0, 2.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -2858,7 +999,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 976.0, 1016.0, 96.0, 22.0 ],
+					"patching_rect" : [ 976.0, 992.0, 96.0, 22.0 ],
 					"text" : "prepend swap2"
 				}
 
@@ -2870,7 +1011,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 976.0, 984.0, 96.0, 22.0 ],
+					"patching_rect" : [ 976.0, 968.0, 96.0, 22.0 ],
 					"text" : "prepend swap1"
 				}
 
@@ -2882,14 +1023,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 976.0, 952.0, 96.0, 22.0 ],
+					"patching_rect" : [ 976.0, 936.0, 96.0, 22.0 ],
 					"text" : "prepend swap0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 8",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2901,7 +1042,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1064.0, 808.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.0, 134.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 479.0, 134.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -2927,7 +1068,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 8",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2939,7 +1080,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1120.0, 1120.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 427.0, 134.0, 32.0, 15.0 ],
+					"presentation_rect" : [ 443.0, 134.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -2965,7 +1106,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 7",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2977,7 +1118,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1064.0, 784.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.0, 115.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 479.0, 115.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -3003,7 +1144,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 7",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3015,7 +1156,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1120.0, 1096.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 427.0, 115.0, 32.0, 15.0 ],
+					"presentation_rect" : [ 443.0, 115.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -3041,7 +1182,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 6",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3053,7 +1194,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1064.0, 756.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.0, 96.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 479.0, 96.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -3079,7 +1220,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 6",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3091,7 +1232,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1120.0, 1071.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 427.0, 96.0, 32.0, 15.0 ],
+					"presentation_rect" : [ 443.0, 96.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -3117,7 +1258,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 5",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3129,7 +1270,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1064.0, 732.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 464.0, 78.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 480.0, 78.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -3155,7 +1296,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 5",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3167,7 +1308,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1120.0, 1047.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 427.0, 78.0, 32.0, 15.0 ],
+					"presentation_rect" : [ 443.0, 78.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -3193,7 +1334,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 4",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3205,7 +1346,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1064.0, 707.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.0, 59.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 479.0, 59.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -3231,7 +1372,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 4",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3243,7 +1384,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1120.0, 1023.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 427.0, 59.0, 32.0, 15.0 ],
+					"presentation_rect" : [ 443.0, 59.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -3269,7 +1410,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 3",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3281,7 +1422,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1064.0, 682.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.0, 40.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 479.0, 40.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -3307,7 +1448,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 3",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3317,9 +1458,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1120.0, 1000.0, 44.0, 15.0 ],
+					"patching_rect" : [ 1128.0, 1000.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 427.0, 40.0, 32.0, 15.0 ],
+					"presentation_rect" : [ 443.0, 40.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -3345,7 +1486,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 2",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3357,7 +1498,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1064.0, 658.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.0, 21.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 479.0, 21.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -3383,7 +1524,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 2",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3395,7 +1536,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1120.0, 976.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 427.0, 21.0, 32.0, 15.0 ],
+					"presentation_rect" : [ 443.0, 21.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -3421,8 +1562,8 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
-					"activetextoncolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activetextoncolor" : [ 0.882352941176471, 0.882352941176471, 0.882352941176471, 1.0 ],
 					"annotation_name" : "OKLAB 1",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3434,7 +1575,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1064.0, 632.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.0, 2.0, 40.0, 15.0 ],
+					"presentation_rect" : [ 479.0, 2.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_display_handle_two"
@@ -3461,7 +1602,7 @@
 					}
 ,
 					"text" : "OKLAB",
-					"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
+					"textcolor" : [ 0.03921568627451, 0.03921568627451, 0.03921568627451, 1.0 ],
 					"texton" : "OKLAB",
 					"varname" : "live.text[22]"
 				}
@@ -3469,7 +1610,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 1",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -3479,9 +1620,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1120.0, 952.0, 44.0, 15.0 ],
+					"patching_rect" : [ 1120.0, 944.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 427.0, 2.0, 32.0, 15.0 ],
+					"presentation_rect" : [ 443.0, 2.0, 32.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -3517,7 +1658,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 520.0, 816.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 526.0, 134.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 542.0, 134.0, 28.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 8",
@@ -3548,7 +1689,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 520.0, 800.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 526.0, 115.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 542.0, 115.0, 28.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 7",
@@ -3579,7 +1720,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 520.0, 784.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 526.0, 96.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 542.0, 96.0, 28.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 6",
@@ -3610,7 +1751,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 520.0, 768.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 526.0, 78.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 542.0, 78.0, 28.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 5",
@@ -3641,7 +1782,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 520.0, 752.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 526.0, 59.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 542.0, 59.0, 28.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 4",
@@ -3672,7 +1813,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 520.0, 736.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 526.0, 40.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 542.0, 40.0, 28.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 3",
@@ -3703,7 +1844,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 520.0, 720.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 526.0, 21.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 542.0, 21.0, 28.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 2",
@@ -3734,7 +1875,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 520.0, 704.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 526.0, 2.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 542.0, 2.0, 28.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 1",
@@ -6027,7 +4168,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Preview",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -16663,11 +14804,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1560.0, 504.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 379.111144000000024, 134.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 379.0, 134.0, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 8",
-							"parameter_enum" : [ "Additive", "Alpha blend", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Saturation", "Color: Hue + Saturation", "Color: Luminosity" ],
+							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
 							"parameter_longname" : "Blend 8",
 							"parameter_mmax" : 36,
@@ -16694,11 +14835,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1408.0, 496.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 379.111144000000024, 115.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 379.0, 115.0, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 7",
-							"parameter_enum" : [ "Additive", "Alpha blend", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Saturation", "Color: Hue + Saturation", "Color: Luminosity" ],
+							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
 							"parameter_longname" : "Blend 7",
 							"parameter_mmax" : 36,
@@ -16725,11 +14866,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1272.0, 496.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 379.111144000000024, 96.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 379.0, 96.0, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 6",
-							"parameter_enum" : [ "Additive", "Alpha blend", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Saturation", "Color: Hue + Saturation", "Color: Luminosity" ],
+							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
 							"parameter_longname" : "Blend 6",
 							"parameter_mmax" : 36,
@@ -16756,11 +14897,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1096.0, 504.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 379.111144000000024, 78.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 379.0, 78.0, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 5",
-							"parameter_enum" : [ "Additive", "Alpha blend", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Saturation", "Color: Hue + Saturation", "Color: Luminosity" ],
+							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
 							"parameter_longname" : "Blend 5",
 							"parameter_mmax" : 36,
@@ -16787,11 +14928,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 968.0, 496.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 379.111144000000024, 59.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 379.0, 59.0, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 4",
-							"parameter_enum" : [ "Additive", "Alpha blend", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Saturation", "Color: Hue + Saturation", "Color: Luminosity" ],
+							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
 							"parameter_longname" : "Blend 4",
 							"parameter_mmax" : 36,
@@ -16818,11 +14959,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 800.0, 504.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 379.111144000000024, 40.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 379.0, 40.0, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 3",
-							"parameter_enum" : [ "Additive", "Alpha blend", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Saturation", "Color: Hue + Saturation", "Color: Luminosity" ],
+							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
 							"parameter_longname" : "Blend 3",
 							"parameter_mmax" : 36,
@@ -16849,11 +14990,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 672.0, 504.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 379.111144000000024, 21.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 379.0, 21.0, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 2",
-							"parameter_enum" : [ "Additive", "Alpha blend", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Saturation", "Color: Hue + Saturation", "Color: Luminosity" ],
+							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
 							"parameter_longname" : "Blend 2",
 							"parameter_mmax" : 36,
@@ -16880,11 +15021,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 528.0, 488.0, 88.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 379.111144000000024, 2.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 379.0, 2.0, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 1",
-							"parameter_enum" : [ "Additive", "Alpha blend", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Saturation", "Color: Hue + Saturation", "Color: Luminosity" ],
+							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
 							"parameter_longname" : "Blend 1",
 							"parameter_mmax" : 36,
@@ -18089,7 +16230,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Z",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -18127,7 +16268,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Y",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -18165,7 +16306,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "X",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -18203,7 +16344,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "F",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -18241,7 +16382,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "E",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -18279,7 +16420,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "D",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -18317,7 +16458,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "C",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -18355,7 +16496,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "B",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -18392,7 +16533,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "A",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -18629,7 +16770,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "More",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -19106,7 +17247,7 @@
 					}
 ,
 					"text" : "Mix OUT",
-					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"textcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -19114,7 +17255,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
 					"id" : "obj-93",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -26515,6 +24656,16 @@
 			"obj-91" : [ "A", "A", 0 ],
 			"obj-95" : [ "Z", "Z", 0 ],
 			"obj-96" : [ "FPS", "FPS", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-146::obj-151" : 				{
 					"parameter_longname" : "Dimensions"
@@ -26542,6 +24693,20 @@
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._blend_is_oklab.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._blend_is_swap.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
