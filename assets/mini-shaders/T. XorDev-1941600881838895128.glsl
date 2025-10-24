@@ -1,2 +1,3 @@
 for(float i,z,d,n;i++<1e2;o+=(cos(t+vec4(0,2,4,0))+9.-n*8.)/d/d){vec3 p=z*normalize(FC.rgb*2.-r.xyy);p.z+=7.;n=fract(.3*t+pow(fract(d*1e2),.1));p.y+=n*(n+n-3.)/.1+9.;d=length(p);z+=d=.3*length(vec3(d*.3-n*n*n,cos(n+atan(vec2(p.z,d),p.xy)*mat2(4,-3,3,4))*.3));}o=tanh(o/1e4);
 // https://x.com/XorDev/status/1941600881838895128
+// CC BY-NC-SA 4.0

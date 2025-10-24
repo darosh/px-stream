@@ -5,3 +5,4 @@ m=R*(mod(p*R,2.)-1.);
 float z=sqrt(1.-dot(m,m));
 o=(m.xyxx+m.yxxx)*z;
 // https://x.com/XorDev/status/1943411429995872361
+// CC BY-NC-SA 4.0
