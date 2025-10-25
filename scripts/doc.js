@@ -189,7 +189,8 @@ async function createCollage () {
     rowImages[3]
   ]
 
-  // rowImages[4].reverse()
+  rowImages[3].reverse()
+  rowImages[4].reverse()
 
   // Prepare sharp composites and layout data for HTML
   const composites = []

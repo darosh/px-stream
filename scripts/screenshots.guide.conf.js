@@ -9,7 +9,7 @@ export default {
     [1, 'Minimal patch', 248 + 674 + 276 + 2 * 10],
     [2, 'Adding FX', 248 + 674 + 276 + 276 + 276 + 4 * 10],
     [3, 'Using Mix Dry', 248 + 674 + 276 + 276 + 276 + 276 + 276 + 6 * 10],
-    [4, 'Syphon streaming', 1050],
+    [4, 'Syphon streaming', 1302],
     [5, '_', 50, true],
     // [5, 'Using MIDI', 2624],
     [5, 'Using MIDI', 248 + 674 + 276 + 276 + 276 + 276 + 276 + 6 * 10 + 20],

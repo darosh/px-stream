@@ -35,17 +35,17 @@ export default {
     [4, 'PX FX Color (gamma)', 620],
     [4, 'PX FX Color (hue)', 972],
     [4, 'PX FX Colorize', 452],
-    [5, 'PX Mix View (expanded)', 1050],
+    [5, 'PX Mix View (expanded)', 1302],
     [5, 'PX Route MIDI (linked)', 224],
     [5, 'PX Shader (types)', 592 + 16 * 2],
     [5, 'PX GEN Text (expanded)', 536],
-    [5, 'PX FX Alpha', 452],
     [6, 'PX FX Pixelization', 544],
     [6, 'PX IN Image', 276],
     [6, 'PX Mix Transition', 276],
     [6, 'PX GEN Sketching', 468],
     [6, 'PX GEN Mini Shader', 468],
-  [6, 'PX Rec', 224]
+    [6, 'PX Rec', 224],
+    [6, 'PX FX Alpha', 452],
   ].map(([s, name, x1, exclude]) => {
     const src = s + 1
     WIDTHS[src] = WIDTHS[src] || 14

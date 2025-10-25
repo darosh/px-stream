@@ -5,13 +5,13 @@ const COL = 46
 
 export default {
   offset: [0.5, 0.75, 0.7, 0.5, 0.6, 0, 0],
-  time: 2.825,
+  time: 1.825, // 1.825 2.825
   v: 1,
   frame: 2,
   y0: 1445,
   y1: 385,
   devices: [
-    
+
     /* 1 */
     [1, 'PX Mix View', 414, [
       [0, 'PX GEN Cos Pattern'],
@@ -92,16 +92,18 @@ export default {
 
     /* 6 */
     [6, 'Using XY Oscilloscope', 1918, 0],
-    
+
     /* 7 */
     [7, 'Using Feedback', 2386, 0],
-    
-  ].map(([src, name, x1, animated, slice]) => {
-    WIDTHS[src] = WIDTHS[src] || 14
-    const r = [src, name, WIDTHS[src], x1, animated, slice]
-    WIDTHS[src] = r[2] + r[3] + 10
-    return r
-  })
+
+  ]
+    // .filter(d => d[0] === 4)
+    .map(([src, name, x1, animated, slice]) => {
+      WIDTHS[src] = WIDTHS[src] || 14
+      const r = [src, name, WIDTHS[src], x1, animated, slice]
+      WIDTHS[src] = r[2] + r[3] + 10
+      return r
+    })
 }
 
 export function previewToFile (name, v) {
