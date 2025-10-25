@@ -19,7 +19,7 @@ uniform vec2 grid_size;
 uniform vec2 grid_offset;
 uniform bool center_mode;
 uniform float gap_size;
-uniform int aspect_mode;// 0=fit, 1=fill, 2=stretch
+uniform int aspect_mode; // 0=fit, 1=fill, 2=stretch
 uniform vec2 targetdim;
 
 // 5x5 matrix of channel assignments
@@ -28,6 +28,50 @@ uniform int cell_10, cell_11, cell_12, cell_13, cell_14;
 uniform int cell_20, cell_21, cell_22, cell_23, cell_24;
 uniform int cell_30, cell_31, cell_32, cell_33, cell_34;
 uniform int cell_40, cell_41, cell_42, cell_43, cell_44;
+
+// Scale UV with aspect correction
+// scaleMode: 0=fit (letterbox), 1=fill (crop), 2=stretch
+vec2 scaleUV(vec2 uv, vec2 texSize, vec2 targetSize, int scaleMode) {
+    if (scaleMode == 2) {
+        // Stretch - just use uv as-is and convert to rect coords
+        return uv * texSize;
+    }
+
+    float texRatio = texSize.x / texSize.y;
+    float targetRatio = targetSize.x / targetSize.y;
+
+    vec2 scale;
+
+    if (scaleMode == 0) {
+        // Fit (contain) - scale to fit inside, leaving black bars
+        if (texRatio > targetRatio) {
+            // Texture is wider than target - constrain by width
+            scale.x = 1.0;
+            scale.y = texRatio / targetRatio;
+        } else {
+            // Texture is taller than target - constrain by height
+            scale.x = targetRatio / texRatio;
+            scale.y = 1.0;
+        }
+    } else {
+        // Fill (cover) - scale to fill entire frame, cropping edges
+        if (texRatio > targetRatio) {
+            // Texture is wider than target - constrain by height, crop width
+            scale.x = targetRatio / texRatio;
+            scale.y = 1.0;
+        } else {
+            // Texture is taller than target - constrain by width, crop height
+            scale.x = 1.0;
+            scale.y = texRatio / targetRatio;
+        }
+    }
+
+    // Apply scale (centering the image)
+    vec2 scaledUV = (uv - 0.5) * scale + 0.5;
+
+    // Convert normalized coords to rect pixel coords
+    return scaledUV * texSize;
+}
 
 // Get channel assignment for a given cell
 int getCell(int col, int row) {
@@ -66,29 +110,52 @@ int getCell(int col, int row) {
 }
 
 // Sample from the correct texture based on channel index
-vec4 sampleChannel(int channel, vec2 uv) {
-    if (channel == 0) return texture(image0, uv);
-    if (channel == 1) return texture(image1, uv);
-    if (channel == 2) return texture(image2, uv);
-    if (channel == 3) return texture(image3, uv);
-    if (channel == 4) return texture(image4, uv);
-    if (channel == 5) return texture(image5, uv);
-    if (channel == 6) return texture(image6, uv);
-    if (channel == 7) return texture(image7, uv);
-    return vec4(0.0, 0.0, 0.0, 1.0);// Black for invalid channel
-}
+vec4 sampleChannel(int channel, vec2 uv, vec2 cellSize) {
+    vec2 texSize;
+    vec2 texCoord;
 
-// Get texture dimensions for a channel
-vec2 getTexDim(int channel) {
-    if (channel == 0) return textureSize(image0);
-    if (channel == 1) return textureSize(image1);
-    if (channel == 2) return textureSize(image2);
-    if (channel == 3) return textureSize(image3);
-    if (channel == 4) return textureSize(image4);
-    if (channel == 5) return textureSize(image5);
-    if (channel == 6) return textureSize(image6);
-    if (channel == 7) return textureSize(image7);
-    return vec2(1920.0, 1080.0);
+    if (channel == 0) {
+        texSize = vec2(textureSize(image0));
+        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        return texture(image0, texCoord);
+    }
+    if (channel == 1) {
+        texSize = vec2(textureSize(image1));
+        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        return texture(image1, texCoord);
+    }
+    if (channel == 2) {
+        texSize = vec2(textureSize(image2));
+        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        return texture(image2, texCoord);
+    }
+    if (channel == 3) {
+        texSize = vec2(textureSize(image3));
+        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        return texture(image3, texCoord);
+    }
+    if (channel == 4) {
+        texSize = vec2(textureSize(image4));
+        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        return texture(image4, texCoord);
+    }
+    if (channel == 5) {
+        texSize = vec2(textureSize(image5));
+        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        return texture(image5, texCoord);
+    }
+    if (channel == 6) {
+        texSize = vec2(textureSize(image6));
+        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        return texture(image6, texCoord);
+    }
+    if (channel == 7) {
+        texSize = vec2(textureSize(image7));
+        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        return texture(image7, texCoord);
+    }
+
+    return vec4(0.0, 0.0, 0.0, 1.0); // Black for invalid channel
 }
 
 void main() {
@@ -140,50 +207,9 @@ void main() {
     // Get channel for this cell
     int channel = getCell(col, row);
 
-    // Get source texture dimensions
-    vec2 srcDim = getTexDim(channel);
-
-    // Calculate aspect ratios
-    float srcAspect = srcDim.x / srcDim.y;
-    float dstAspect = targetdim.x / targetdim.y;
-
-    // Apply aspect correction based on mode
-    vec2 texUV = cellUV;
-
-    if (aspect_mode == 0) { // Fit
-        if (srcAspect > dstAspect) {
-            // Source is wider - letterbox top/bottom
-            float scale = dstAspect / srcAspect;
-            texUV.y = (texUV.y - 0.5) / scale + 0.5;
-            if (texUV.y < 0.0 || texUV.y > 1.0) {
-                outColor = vec4(0.0, 0.0, 0.0, 1.0);
-                return;
-            }
-        } else {
-            // Source is taller - pillarbox left/right
-            float scale = srcAspect / dstAspect;
-            texUV.x = (texUV.x - 0.5) / scale + 0.5;
-            if (texUV.x < 0.0 || texUV.x > 1.0) {
-                outColor = vec4(0.0, 0.0, 0.0, 1.0);
-                return;
-            }
-        }
-    } else if (aspect_mode == 1) { // Fill
-        if (srcAspect > dstAspect) {
-            // Source is wider - crop left/right
-            float scale = srcAspect / dstAspect;
-            texUV.x = (texUV.x - 0.5) * scale + 0.5;
-        } else {
-            // Source is taller - crop top/bottom
-            float scale = dstAspect / srcAspect;
-            texUV.y = (texUV.y - 0.5) * scale + 0.5;
-        }
-    }
-    // aspect_mode == 2 (stretch) uses texUV as-is
-
-    // Convert to texture coordinates (0-srcDim range for sampler2DRect)
-    vec2 texCoord = texUV * srcDim;
+    // Calculate cell size in pixels (each cell gets equal portion of targetdim)
+    vec2 cellSize = targetdim / grid_size;
 
     // Sample and output
-    outColor = sampleChannel(channel, texCoord);
+    outColor = sampleChannel(channel, cellUV, cellSize);
 }
