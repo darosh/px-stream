@@ -1,0 +1,132 @@
+<jittershader name="split_screen">
+    <description>Split screen grid with 7 video inputs</description>
+
+    <!-- 7 texture inputs (0-6, keeping 7 for potential future use) -->
+    <param name="image0" type="int" default="0"/>
+    <param name="image1" type="int" default="1"/>
+    <param name="image2" type="int" default="2"/>
+    <param name="image3" type="int" default="3"/>
+    <param name="image4" type="int" default="4"/>
+    <param name="image5" type="int" default="5"/>
+    <param name="image6" type="int" default="6"/>
+    <param name="image7" type="int" default="7"/>
+
+    <!-- Grid viewport parameters -->
+    <param name="grid_size" type="vec2" default="5.0 5.0"/>
+    <param name="grid_offset" type="vec2" default="0.0 0.0"/>
+    <param name="center_mode" type="bool" default="1"/>
+    <param name="gap_size" type="float" default="0.0"/>
+    <param name="aspect_mode" type="int" default="0"/> <!-- 0=fit, 1=fill, 2=stretch -->
+
+    <!-- Target dimensions for aspect correction -->
+    <param name="targetdim" type="vec2" default="1280 720"/>
+
+    <!-- 5x5 matrix of channel assignments (0-7) -->
+    <param name="cell_00" type="int" default="0"/>
+    <param name="cell_01" type="int" default="0"/>
+    <param name="cell_02" type="int" default="0"/>
+    <param name="cell_03" type="int" default="0"/>
+    <param name="cell_04" type="int" default="0"/>
+
+    <param name="cell_10" type="int" default="0"/>
+    <param name="cell_11" type="int" default="0"/>
+    <param name="cell_12" type="int" default="0"/>
+    <param name="cell_13" type="int" default="0"/>
+    <param name="cell_14" type="int" default="0"/>
+
+    <param name="cell_20" type="int" default="0"/>
+    <param name="cell_21" type="int" default="0"/>
+    <param name="cell_22" type="int" default="0"/>
+    <param name="cell_23" type="int" default="0"/>
+    <param name="cell_24" type="int" default="0"/>
+
+    <param name="cell_30" type="int" default="0"/>
+    <param name="cell_31" type="int" default="0"/>
+    <param name="cell_32" type="int" default="0"/>
+    <param name="cell_33" type="int" default="0"/>
+    <param name="cell_34" type="int" default="0"/>
+
+    <param name="cell_40" type="int" default="0"/>
+    <param name="cell_41" type="int" default="0"/>
+    <param name="cell_42" type="int" default="0"/>
+    <param name="cell_43" type="int" default="0"/>
+    <param name="cell_44" type="int" default="0"/>
+
+    <!-- Standard Jitter parameters -->
+    <param name="modelViewProjectionMatrix" type="mat4" state="MODELVIEW_PROJECTION_MATRIX"/>
+    <param name="textureMatrix0" type="mat4" state="TEXTURE0_MATRIX"/>
+    <param name="jit_position" type="vec3" state="POSITION"/>
+    <param name="jit_texcoord" type="vec2" state="TEXCOORD"/>
+
+    <language name="glsl" version="1.5">
+        <bind param="image0" program="fp"/>
+        <bind param="image1" program="fp"/>
+        <bind param="image2" program="fp"/>
+        <bind param="image3" program="fp"/>
+        <bind param="image4" program="fp"/>
+        <bind param="image5" program="fp"/>
+        <bind param="image6" program="fp"/>
+        <bind param="image7" program="fp"/>
+
+        <bind param="grid_size" program="fp"/>
+        <bind param="grid_offset" program="fp"/>
+        <bind param="center_mode" program="fp"/>
+        <bind param="gap_size" program="fp"/>
+        <bind param="aspect_mode" program="fp"/>
+        <bind param="targetdim" program="fp"/>
+
+        <bind param="cell_00" program="fp"/>
+        <bind param="cell_01" program="fp"/>
+        <bind param="cell_02" program="fp"/>
+        <bind param="cell_03" program="fp"/>
+        <bind param="cell_04" program="fp"/>
+        <bind param="cell_10" program="fp"/>
+        <bind param="cell_11" program="fp"/>
+        <bind param="cell_12" program="fp"/>
+        <bind param="cell_13" program="fp"/>
+        <bind param="cell_14" program="fp"/>
+        <bind param="cell_20" program="fp"/>
+        <bind param="cell_21" program="fp"/>
+        <bind param="cell_22" program="fp"/>
+        <bind param="cell_23" program="fp"/>
+        <bind param="cell_24" program="fp"/>
+        <bind param="cell_30" program="fp"/>
+        <bind param="cell_31" program="fp"/>
+        <bind param="cell_32" program="fp"/>
+        <bind param="cell_33" program="fp"/>
+        <bind param="cell_34" program="fp"/>
+        <bind param="cell_40" program="fp"/>
+        <bind param="cell_41" program="fp"/>
+        <bind param="cell_42" program="fp"/>
+        <bind param="cell_43" program="fp"/>
+        <bind param="cell_44" program="fp"/>
+
+        <bind param="modelViewProjectionMatrix" program="vp"/>
+        <bind param="textureMatrix0" program="vp"/>
+        <bind param="jit_position" program="vp"/>
+        <bind param="jit_texcoord" program="vp"/>
+
+        <program name="vp" type="vertex">
+            <![CDATA[
+#version 330 core
+
+in vec3 jit_position;
+in vec2 jit_texcoord;
+
+out jit_PerVertex {
+    vec2 texcoord;
+} jit_out;
+
+uniform mat4 modelViewProjectionMatrix;
+uniform mat4 textureMatrix0;
+
+void main() {
+    gl_Position = modelViewProjectionMatrix * vec4(jit_position, 1.);
+    jit_out.texcoord = jit_texcoord;
+}
+]]>
+        </program>
+
+        <program name="fp" type="fragment" source="PX._mix_split.fp.glsl" />
+    </language>
+</jittershader>
