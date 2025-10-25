@@ -7,7 +7,19 @@
 - [ ] screenshots
 - [ ] doc: oklab highlight
 - [ ] doc: swap highlight
-- [ ] win: test
+- [ ] transition view fit
+- [ ] merge/split mix?
+- [ ] masking?
+
+- [Release notes](#release-notes)
+- [Licencing](#licencing)
+- [ISF](#isf)
+- [Windows](#windows)
+- [Final checklist](#final-checklist)
+- [Push mapping](#push-mapping)
+- [Done](#done)
+
+## Release notes
 
 ```text
 Alpha 3 release notes:
@@ -65,7 +77,7 @@ IN Video
   - [x] MIT https://bsky.app/profile/holtsetio.bsky.social/post/3lwyikurabc26
   - [x] CC0 https://bsky.app/profile/rangemarten.bsky.social/post/3losfvor4ws2y
   - [x] https://x.com/kamoshika_vrc/status/1684571232765882368
-  - [x] https://x.com/XorDev/status/1601770313230209024
+  - [x] CC BY-NC-SA https://x.com/XorDev/status/1601770313230209024
   - [x] MIT https://x.com/YoheiNishitsuji/status/1796435007873151189
 - [ ] check processing licences
   - [x] https://x.com/SnowEsamosc/status/1971220103070130586
@@ -113,7 +125,7 @@ Hi! Can I include it in my open source VJ toolkit https://github.com/darosh/px-s
 Hi! Can I include it in my open source VJ toolkit https://github.com/darosh/px-stream ? It's in assets/sketches with link to post, marked "license pending." Any open license works (CC0/BY/BY-NC) or I'll remove it. Thank you!
 ```
 
-## IFS
+## ISF
 
 - [ ] tempo param? BEAT? BAR?
 - [ ] frameSkip should be time based
@@ -143,7 +155,7 @@ Hi! Can I include it in my open source VJ toolkit https://github.com/darosh/px-s
 - [x] isf mxo?
 - [x] ~~; max packagebrowser viddll~~ does not work in Live
 
-## Final Checklist
+## Final checklist
 
 From [m4l-production-guidelines](https://github.com/Ableton/maxdevtools/blob/main/m4l-production-guidelines/m4l-production-guidelines.md)
 
@@ -245,6 +257,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] win: test
 - [x] assets: smaller video
 - [x] initial pop size
 - [x] pop resize blocked by sliders?
