@@ -1383,13 +1383,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-669",
-					"linecount" : 7,
+					"linecount" : 9,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 504.0, 1864.0, 100.0, 102.0 ],
-					"text" : "jit.gl.layer px-stream @layer 1 @drawto ---mixer @preserve_aspect 1"
+					"patching_rect" : [ 504.0, 1864.0, 100.0, 129.0 ],
+					"text" : "jit.gl.layer px-stream @layer 1 @drawto ---mixer @preserve_aspect 1 @blend_enable 0"
 				}
 
 			}
@@ -1401,8 +1401,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 456.0, 1992.0, 100.0, 129.0 ],
-					"text" : "jit.gl.node px-stream @adapt 0 @capture 1 @name ---mixer @blend_enable 1 @erase_color 0 0 0 1 @dim 1920 1080"
+					"patching_rect" : [ 440.0, 2024.0, 100.0, 129.0 ],
+					"text" : "jit.gl.node px-stream @adapt 0 @capture 1 @name ---mixer @blend_enable 0 @erase_color 0 0 0 1 @dim 1920 1080"
 				}
 
 			}
@@ -2650,7 +2650,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 43.0, 100.0, 662.0, 476.0 ],
+						"rect" : [ 45.0, 95.0, 662.0, 476.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"integercoordinates" : 1,
 						"boxes" : [ 							{
@@ -25263,6 +25263,16 @@
 			"obj-91" : [ "A", "A", 0 ],
 			"obj-95" : [ "Z", "Z", 0 ],
 			"obj-96" : [ "FPS", "FPS", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-146::obj-151" : 				{
 					"parameter_longname" : "Dimensions"
