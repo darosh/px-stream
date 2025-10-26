@@ -10,10 +10,9 @@
 - [ ] transition view fit
 - [ ] masking?
 - [ ] transform: crop?
-- [ ] split screenshots
-- [ ] split animation
-- [ ] split push banks
-- [ ] doc: randomize cycles
+- [ ] grid: screenshots
+- [ ] grid: animation
+- [ ] doc: grid randomize cycles
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
@@ -251,6 +250,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [x] PX IN Video
 - [x] PX Mix Channel
 - [x] PX Mix Dry
+- [x] PX Mix Grid
 - [x] PX Mix Transition
 - [x] PX Mix View
 - [x] PX Rec
@@ -261,6 +261,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] grid: push banks
 - [x] ~~split grid shift 1px right~~
 - [x] split grid arrow color?
 - [x] split rename to ~~merge~~ grid
