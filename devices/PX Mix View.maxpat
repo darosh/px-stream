@@ -1072,7 +1072,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 8",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1111,7 +1111,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 7",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1150,7 +1150,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 6",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1189,7 +1189,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 5",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1228,7 +1228,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 4",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1267,7 +1267,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 3",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1306,7 +1306,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 2",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1345,7 +1345,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Alpha 1",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1696,7 +1696,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 8",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1734,7 +1734,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 8",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1772,7 +1772,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 7",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1810,7 +1810,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 7",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1848,7 +1848,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 6",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1886,7 +1886,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 6",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1924,7 +1924,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 5",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1962,7 +1962,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 5",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2000,7 +2000,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 4",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2038,7 +2038,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 4",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2076,7 +2076,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 3",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2114,7 +2114,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 3",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2152,7 +2152,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "OKLAB 2",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2190,7 +2190,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 2",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2228,8 +2228,8 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
-					"activetextoncolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activetextoncolor" : [ 0.882352941176471, 0.882352941176471, 0.882352941176471, 1.0 ],
 					"annotation_name" : "OKLAB 1",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2268,7 +2268,7 @@
 					}
 ,
 					"text" : "OKLAB",
-					"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
+					"textcolor" : [ 0.03921568627451, 0.03921568627451, 0.03921568627451, 1.0 ],
 					"texton" : "OKLAB",
 					"varname" : "live.text[22]"
 				}
@@ -2276,7 +2276,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Swap 1",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -4834,7 +4834,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Preview",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -11538,16 +11538,17 @@
 				"box" : 				{
 					"filename" : "jit_gl_ui_canvas.js",
 					"id" : "obj-61",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2120.0, 1768.0, 298.0, 22.0 ],
+					"patching_rect" : [ 2120.0, 1768.0, 298.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.canvas @drawto ---plane_ui @name ---ui_canvas",
+					"text" : "jit.ui.canvas @drawto ---plane_ui @name ---ui_canvas @enable_mouse_editing 0",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_canvas.js",
 						"flags" : 0,
@@ -16837,7 +16838,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Z",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -16875,7 +16876,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "Y",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -16913,7 +16914,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "X",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -16951,7 +16952,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "F",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -16989,7 +16990,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "E",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -17027,7 +17028,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "D",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -17065,7 +17066,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "C",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -17103,7 +17104,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "B",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -17140,7 +17141,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "A",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -17377,7 +17378,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation_name" : "More",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -17854,7 +17855,7 @@
 					}
 ,
 					"text" : "Mix OUT",
-					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"textcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -17862,7 +17863,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
+					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
 					"id" : "obj-93",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -25263,16 +25264,6 @@
 			"obj-91" : [ "A", "A", 0 ],
 			"obj-95" : [ "Z", "Z", 0 ],
 			"obj-96" : [ "FPS", "FPS", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-146::obj-151" : 				{
 					"parameter_longname" : "Dimensions"

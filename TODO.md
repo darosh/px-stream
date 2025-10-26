@@ -8,6 +8,7 @@
 - [ ] masking?
 - [ ] windows + preview bug in "using feedback"
 - [ ] transform: crop?
+- [ ] enable_mouse_editing 0
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
