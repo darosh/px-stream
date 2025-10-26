@@ -21,7 +21,7 @@
   },
   "private": true,
   "scripts": {
-    "build": "run-s debug:demos:off build:assets build:pre osascript:amxd:freeze move:devices build:post build:check",
+    "build": "run-s debug:demos:off build:assets build:pre build:v8 osascript:amxd:freeze move:devices build:post build:check",
     "build:assets": "run-s clean:assets copy:assets clean:user:assets",
     "build:check": "bash -c 'comm -23 <(cd devices && ls *.amxd | sort) <(cd \"build/PX Stream/Devices\" && ls *.amxd | sort)'",
     "build:post": "sed -i '' 's|/Assets/|/assets/|g' ./devices/PX._path.maxpat && sed -i '' 's|/Assets/|/assets/|g' ./devices/PX._path_alt.maxpat",
