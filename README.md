@@ -261,7 +261,7 @@ Most of the parameters in the toolkit can be [automated in the standard way](htt
         <a href="#px-mix-transition"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Mix Transition</a><br>
         <a href="#px-mix-grid"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Mix Grid</a><br>
         <hr>
-        <a href="#px-rec"><img src="./docs/media/categories/core.svg" width="12" height="12" alt="Core category" style="vertical-align: baseline" /> <img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Rec</a><br>
+        <a href="#px-rec"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Rec</a><br>
         <a href="#px-route-audio"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Route Audio</a><br>
         <a href="#px-route-midi"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Route MIDI</a><br>
         <hr>
