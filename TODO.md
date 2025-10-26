@@ -8,8 +8,12 @@
 - [ ] doc: oklab highlight
 - [ ] doc: swap highlight
 - [ ] transition view fit
-- [ ] merge/split mix?
 - [ ] masking?
+- [ ] transform: crop?
+- [ ] split push banks
+- [ ] split rename to merge
+- [ ] join rename to PIP
+- [ ] merge/split mix?
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
