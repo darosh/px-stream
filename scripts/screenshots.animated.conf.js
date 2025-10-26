@@ -97,7 +97,7 @@ export default {
     [7, 'Using Feedback', 2386, 0],
 
     /* 8 */
-    [8, 'PX Mix View', 414, [
+    [8, 'PX Mix View', 412, [
       [0, 'PX Mix Grid']
     ], [6, 35, 342, 342]],
 
