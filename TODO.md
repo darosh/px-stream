@@ -4,16 +4,10 @@
 - [ ] check previews undo history on automation
 - [ ] check performance pack
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
-- [ ] screenshots
-- [ ] doc: oklab highlight
-- [ ] doc: swap highlight
 - [ ] transition view fit
 - [ ] masking?
 - [ ] windows + preview bug in "using feedback"
 - [ ] transform: crop?
-- [ ] grid: screenshots
-- [ ] grid: animation
-- [ ] doc: grid randomize cycles
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
@@ -266,6 +260,12 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] screenshots
+- [x] grid: screenshots
+- [x] grid: animation
+- [x] ~~doc: grid randomize cycles~~
+- [x] ~~doc: oklab highlight~~
+- [x] ~~doc: swap highlight~~
 - [x] grid: push banks
 - [x] ~~split grid shift 1px right~~
 - [x] split grid arrow color?

@@ -349,8 +349,6 @@ Multichannel mixing, preview and stream output
 
 📒 `NOTE` Preview inside device is rendered only when the track is active and the device is not collapsed to save resources, so you may see a glitch when switching back to that track.
 
-🧪 `DEV_NOTE` Do we want solo buttons in the floating window? And the mixer faders? And smooth fade in/out?
-
 <br>
 
 #### PX Mix View &mdash; Hotkeys
