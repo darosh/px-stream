@@ -46,6 +46,7 @@ export default {
     [6, 'PX GEN Mini Shader', 468],
     [6, 'PX Rec', 224],
     [6, 'PX FX Alpha', 452],
+    [7, 'PX Mix Grid', 276],
   ].map(([s, name, x1, exclude]) => {
     const src = s + 1
     WIDTHS[src] = WIDTHS[src] || 14
