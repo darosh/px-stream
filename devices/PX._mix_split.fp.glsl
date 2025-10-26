@@ -18,8 +18,9 @@ uniform sampler2DRect image7;
 uniform vec2 grid_size;
 uniform vec2 grid_offset;
 uniform bool center_mode;
+uniform bool join_mode;
 uniform float gap_size;
-uniform int aspect_mode; // 0=fit, 1=fill, 2=stretch
+uniform int aspect_mode;// 0=fit, 1=fill, 2=stretch
 uniform vec2 targetdim;
 
 // 5x5 matrix of channel assignments
@@ -109,53 +110,91 @@ int getCell(int col, int row) {
     return 0;
 }
 
+// Get bounding box for all cells with matching channel
+void getChannelBounds(int channel, out ivec2 minCell, out ivec2 maxCell) {
+    minCell = ivec2(5, 5);
+    maxCell = ivec2(-1, -1);
+
+    for (int r = 0; r < 5; r++) {
+        for (int c = 0; c < 5; c++) {
+            if (getCell(c, r) == channel) {
+                minCell = min(minCell, ivec2(c, r));
+                maxCell = max(maxCell, ivec2(c, r));
+            }
+        }
+    }
+}
+
 // Sample from the correct texture based on channel index
-vec4 sampleChannel(int channel, vec2 uv, vec2 cellSize) {
+vec4 sampleChannel(int channel, vec2 uv, vec2 cellSize, int col, int row) {
     vec2 texSize;
     vec2 texCoord;
+    vec2 finalUV = uv;
+    vec2 finalCellSize = cellSize;
+
+    // In join mode, calculate UV across bounding box of all cells with same channel
+    if (join_mode) {
+        ivec2 minCell, maxCell;
+        getChannelBounds(channel, minCell, maxCell);
+
+        // Calculate bounding box dimensions
+        ivec2 boundSize = maxCell - minCell + ivec2(1, 1);
+
+        if (boundSize.x > 1 || boundSize.y > 1) {
+            // This channel spans multiple cells
+            // Calculate position within the bounding box
+            vec2 posInBound = vec2(col - minCell.x, row - minCell.y);
+
+            // Map UV to position within the full bounding box
+            finalUV = (posInBound + uv) / vec2(boundSize);
+
+            // Adjust cell size to be the full bounding box size
+            finalCellSize = cellSize * vec2(boundSize);
+        }
+    }
 
     if (channel == 0) {
         texSize = vec2(textureSize(image0));
-        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
         return texture(image0, texCoord);
     }
     if (channel == 1) {
         texSize = vec2(textureSize(image1));
-        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
         return texture(image1, texCoord);
     }
     if (channel == 2) {
         texSize = vec2(textureSize(image2));
-        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
         return texture(image2, texCoord);
     }
     if (channel == 3) {
         texSize = vec2(textureSize(image3));
-        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
         return texture(image3, texCoord);
     }
     if (channel == 4) {
         texSize = vec2(textureSize(image4));
-        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
         return texture(image4, texCoord);
     }
     if (channel == 5) {
         texSize = vec2(textureSize(image5));
-        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
         return texture(image5, texCoord);
     }
     if (channel == 6) {
         texSize = vec2(textureSize(image6));
-        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
         return texture(image6, texCoord);
     }
     if (channel == 7) {
         texSize = vec2(textureSize(image7));
-        texCoord = scaleUV(uv, texSize, cellSize, aspect_mode);
+        texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
         return texture(image7, texCoord);
     }
 
-    return vec4(0.0, 0.0, 0.0, 1.0); // Black for invalid channel
+    return vec4(0.0, 0.0, 0.0, 1.0);
 }
 
 void main() {
@@ -207,9 +246,9 @@ void main() {
     // Get channel for this cell
     int channel = getCell(col, row);
 
-    // Calculate cell size in pixels (each cell gets equal portion of targetdim)
+    // Calculate cell size in pixels
     vec2 cellSize = targetdim / grid_size;
 
     // Sample and output
-    outColor = sampleChannel(channel, cellUV, cellSize);
+    outColor = sampleChannel(channel, cellUV, cellSize, col, row);
 }

@@ -1,5 +1,6 @@
 const ON = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 let VALS = []
+let BANG = 0
 
 function inc (v, on) {
   ON[v] = on
@@ -70,6 +71,48 @@ function bang3 () {
   }
 }
 
+function bang4 () {
+  // 5x5 magic square
+  const MAGIC = [
+    [17, 24, 1, 8, 15],
+    [23, 5, 7, 14, 16],
+    [4, 6, 13, 20, 22],
+    [10, 12, 19, 21, 3],
+    [11, 18, 25, 2, 9]
+  ]
+
+  const STO = [[], [], [], [], []]
+
+  for (let y = 0; y < 5; y++) {
+    for (let x = 0; x < 5; x++) {
+      let val = MAGIC[y][x] % VALS.length
+      STO[x][y] = VALS[val]
+    }
+  }
+
+  // Random swaps for variation
+  const swaps = 5 + Math.floor(Math.random() * 10)
+
+  for (let i = 0; i < swaps; i++) {
+    const x1 = Math.floor(Math.random() * 5)
+    const y1 = Math.floor(Math.random() * 5)
+    const x2 = Math.floor(Math.random() * 5)
+    const y2 = Math.floor(Math.random() * 5)
+
+    const temp = STO[x1][y1]
+    STO[x1][y1] = STO[x2][y2]
+    STO[x2][y2] = temp
+  }
+
+  for (let y = 0; y < 5; y++) {
+    for (let x = 0; x < 5; x++) {
+      let val = MAGIC[y][x] % VALS.length
+      outlet(0, x, y, STO[x][y])
+    }
+  }
+}
+
 function bang () {
-  bang3()
+  [bang1, bang2, bang3, bang4][BANG]()
+  BANG = (BANG + 1) % 4
 }

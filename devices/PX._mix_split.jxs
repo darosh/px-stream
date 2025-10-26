@@ -15,6 +15,7 @@
     <param name="grid_size" type="vec2" default="5.0 5.0"/>
     <param name="grid_offset" type="vec2" default="0.0 0.0"/>
     <param name="center_mode" type="bool" default="1"/>
+    <param name="join_mode" type="bool" default="0"/>
     <param name="gap_size" type="float" default="0.0"/>
     <param name="aspect_mode" type="int" default="0"/> <!-- 0=fit, 1=fill, 2=stretch -->
 
@@ -71,6 +72,7 @@
         <bind param="grid_size" program="fp"/>
         <bind param="grid_offset" program="fp"/>
         <bind param="center_mode" program="fp"/>
+        <bind param="join_mode" program="fp"/>
         <bind param="gap_size" program="fp"/>
         <bind param="aspect_mode" program="fp"/>
         <bind param="targetdim" program="fp"/>
