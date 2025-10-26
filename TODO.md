@@ -10,9 +10,14 @@
 - [ ] transition view fit
 - [ ] masking?
 - [ ] transform: crop?
+- [ ] split screenshots
+- [ ] split animation
+- [ ] split grid shift 1px right
+- [ ] split grid arrow color?
 - [ ] split push banks
 - [ ] split rename to merge
 - [ ] join rename to PIP
+- [ ] doc: randomize cycles
 - [ ] merge/split mix?
 
 - [Release notes](#release-notes)
