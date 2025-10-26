@@ -29,7 +29,7 @@
     "build:v8": "esbuild \"./devices/PX GEN Mini Shader._convert.js\" --format=cjs --bundle --keep-names --outfile=\"./devices/PX GEN Mini Shader._convert.min.js\"",
     "clean:assets": "rm -rf './build/PX Stream/Assets'",
     "clean:devices": "'./build/PX Stream/Devices'",
-    "clean:user:assets": "rm -f ./build/PX\\ Stream/Assets/images/SCR.*.* ./build/PX\\ Stream/Assets/images/REC.*.*",
+    "clean:user:assets": "rm -f ./build/PX\\ Stream/Assets/images/SCR.*.* ./build/PX\\ Stream/Assets/video/REC.*.*",
     "copy:assets": "rsync -av --exclude='*/.*' ./assets/ './build/PX Stream/Assets/'",
     "debug:demos:off": "mkdir -p ./build/debug && mv -f ./build/PX\\ Stream/Demo/DEBUG*.* ./build/debug/ 2>/dev/null || true",
     "debug:demos:on": "mv ./build/debug/DEBUG*.* ./build/PX\\ Stream/Demo/",
