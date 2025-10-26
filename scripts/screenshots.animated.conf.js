@@ -4,7 +4,7 @@ let x0 = 14
 const COL = 46
 
 export default {
-  offset: [0.5, 0.75, 0.7, 0.5, 0.6, 0, 0],
+  offset: [0.5, 0.75, 0.7, 0.5, 0.6, 0, 0, 0.8],
   time: 1.825, // 1.825 2.825
   v: 1,
   frame: 2,
@@ -96,8 +96,14 @@ export default {
     /* 7 */
     [7, 'Using Feedback', 2386, 0],
 
+    /* 8 */
+    [8, 'PX Mix View', 414, [
+      [0, 'PX Mix Grid']
+    ], [6, 35, 342, 342]],
+
+    [8, 'PX Mix Grid', 276, 0],
   ]
-    // .filter(d => d[0] === 4)
+    // .filter(d => d[0] === 8)
     .map(([src, name, x1, animated, slice]) => {
       WIDTHS[src] = WIDTHS[src] || 14
       const r = [src, name, WIDTHS[src], x1, animated, slice]
