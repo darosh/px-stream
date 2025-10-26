@@ -12,13 +12,8 @@
 - [ ] transform: crop?
 - [ ] split screenshots
 - [ ] split animation
-- [ ] split grid shift 1px right
-- [ ] split grid arrow color?
 - [ ] split push banks
-- [ ] split rename to merge
-- [ ] join rename to PIP
 - [ ] doc: randomize cycles
-- [ ] merge/split mix?
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
@@ -266,6 +261,11 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] ~~split grid shift 1px right~~
+- [x] split grid arrow color?
+- [x] split rename to ~~merge~~ grid
+- [x] join rename to PIP
+- [x] merge/split mix?
 - [x] wrap clamp
 - [x] win: test
 - [x] assets: smaller video
