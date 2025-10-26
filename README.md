@@ -253,53 +253,61 @@ Most of the parameters in the toolkit can be [automated in the standard way](htt
     <th align="left">DEV (utilities)</th>
   </tr>
     <td valign="top">
-        <a href="#px-world">World</a><br>
-        <a href="#px-mix-view">Mix View</a><br>
-        <a href="#px-mix_channel">Mix Channel</a><br>
-        <a href="#px-mix-dry">Mix Dry</a><br>
-        <a href="#px-mix-transition">Mix Transition</a><br>
-        <a href="#px-rec">Rec</a><br>
+        <a href="#px-world"><img src="./docs/media/categories/core.svg" width="12" height="12" alt="Core category" style="vertical-align: baseline" /> World</a><br>
+        <a href="#px-mix-view"><img src="./docs/media/categories/core.svg" width="12" height="12" alt="Core category" style="vertical-align: baseline" /> Mix View</a><br>
+        <a href="#px-mix_channel"><img src="./docs/media/categories/core.svg" width="12" height="12" alt="Core category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Mix Channel</a><br>
+        <a href="#px-mix-dry"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Mix Dry</a><br>
+        <a href="#px-mix-transition"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Mix Transition</a><br>
+        <a href="#px-mix-grid"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Mix Grid</a><br>
         <hr>
-        <a href="#px-route-audio">Route Audio</a><br>
-        <a href="#px-route-midi">Route MIDI</a><br>
+        <a href="#px-rec"><img src="./docs/media/categories/core.svg" width="12" height="12" alt="Core category" style="vertical-align: baseline" /> <img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Rec</a><br>
+        <a href="#px-route-audio"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Route Audio</a><br>
+        <a href="#px-route-midi"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Route MIDI</a><br>
         <hr>
-        <a href="#px-shader">Shader</a>
+        <a href="#px-shader"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> Shader</a>
     </td>
     <td valign="top">
-        <a href="#in-cam">IN Cam</a><br>
-        <a href="#in-stream">IN Stream</a><br>
+        <a href="#in-cam"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> IN Cam</a><br>
+        <a href="#in-stream"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> IN Stream</a><br>
         <hr>
-        <a href="#in-image">IN Image</a><br>
-        <a href="#in-video">IN Video</a><br>
-        <a href="#in-svg">IN SVG</a><br>
+        <a href="#in-image"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> IN Image</a><br>
+        <a href="#in-video"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> IN Video</a><br>
+        <a href="#in-svg"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> IN SVG</a><br>
         <hr>
-        <a href="#in-channel">IN Channel</a><br>
-        <a href="#in-mix">IN Mix</a><br>
+        <a href="#in-channel"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> IN Channel</a><br>
+        <a href="#in-mix"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> IN Mix</a><br>
     </td>
     <td valign="top">
-        <a href="#gen-cos-pattern">GEN Cos Pattern</a><br>
-        <a href="#gen-mini-shader">GEN Mini Shader</a><br>
-        <a href="#gen-sketching">GEN Sketching</a><br>
-        <a href="#gen-text">GEN Text</a><br>
+        <a href="#gen-cos-pattern"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> GEN Cos Pattern</a><br>
+        <a href="#gen-mini-shader"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> GEN Mini Shader</a><br>
+        <a href="#gen-sketching"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> GEN Sketching</a><br>
+        <a href="#gen-text"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> GEN Text</a><br>
     </td>
     <td valign="top">
-        <a href="#fx-alpha">FX Alpha</a><br>
-        <a href="#fx-blur">FX Blur</a><br>
-        <a href="#fx-color">FX Color</a><br>
-        <a href="#fx-colorize">FX Colorize</a><br>
-        <a href="#fx-convert">FX Convert</a><br>
-        <a href="#fx-delay">FX Delay</a><br>
-        <a href="#fx-kaleidoscope">FX Kaleidoscope</a><br>
-        <a href="#fx-pass">FX Pass</a><br>
-        <a href="#fx-pixelization">FX Pixelization</a><br>
-        <a href="#fx-transform">FX Transform</a>
+        <a href="#fx-alpha"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> FX Alpha</a><br>
+        <a href="#fx-blur"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> FX Blur</a><br>
+        <a href="#fx-color"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> FX Color</a><br>
+        <a href="#fx-colorize"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> FX Colorize</a><br>
+        <a href="#fx-convert"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> FX Convert</a><br>
+        <a href="#fx-delay"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> FX Delay</a><br>
+        <a href="#fx-kaleidoscope"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> FX Kaleidoscope</a><br>
+        <a href="#fx-pass"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> FX Pass</a><br>
+        <a href="#fx-pixelization"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> FX Pixelization</a><br>
+        <a href="#fx-transform"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> FX Transform</a>
     </td>
     <td valign="top">
-        <a href="#dev-info">DEV Info</a><br>
-        <a href="#dev-console">DEV Console</a>
+        <a href="#dev-info"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> DEV Info</a><br>
+        <a href="#dev-console"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> DEV Console</a>
     </td>
   </tr>
 </table>
+
+Categories: 
+<img src="./docs/media/categories/core.svg" width="12" height="12" alt="Core category" style="vertical-align: baseline" /> Core 
+<img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Utility 
+<img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> Source 
+<img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Chain 
+<img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> FX 
 
 <br>
 
