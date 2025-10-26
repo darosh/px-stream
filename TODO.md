@@ -9,6 +9,7 @@
 - [ ] doc: swap highlight
 - [ ] transition view fit
 - [ ] masking?
+- [ ] windows + preview bug in "using feedback"
 - [ ] transform: crop?
 - [ ] grid: screenshots
 - [ ] grid: animation
@@ -59,12 +60,16 @@ DEV Info, DEV Console
 ```
 
 ```text
-Alpha 12 release notes:
+Alpha 13 release notes:
+Mix Grid
+- new device
+
 Mix View
 - more blend modes + color modes
 - alpha, view fit, swap and OKLAB support
 - consistent initial popup size
-- improved UI look for smaller popup size 
+- improved UI look for smaller popup size
+- known issue: demo set "Using Feedback" not showing preview inside device on Windows (pop works) 
 
 Mix Dry
 - more blend modes + color modes
