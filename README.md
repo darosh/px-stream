@@ -407,7 +407,7 @@ Transition between two previous devices powered by 90+ transitions from [gl-tran
 
 Merging multiple channels into split screen view
 
-<img src="./docs/media/devices/PX_Mix_Grid.webp" height="231" title="PX Mix Grid" />
+<img src="./docs/media/previews/PX_Mix_Grid_v1.webp" height="231" title="PX Mix Grid" /> <img src="./docs/media/automation/PX_Mix_Grid_v1.webp" height="231" title="PX Mix Grid" />
 
 <br>
 

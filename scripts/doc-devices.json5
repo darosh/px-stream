@@ -24,6 +24,7 @@
   'PX IN Video': 'Video playback. Supports MP4, AVI, MOV (including [HAP codecs](https://hap.video/)).',
   'PX Mix Channel': 'Send texture to selected channel. Alternative to individual channel selectors on each device.',
   'PX Mix Dry': 'Dry/wet mix from two previous devices',
+  'PX Mix Grid': 'Merging multiple channels into split screen view',
   'PX Mix Transition': 'Transition between two previous devices powered by 90+ transitions from [gl-transitions.com](https://gl-transitions.com/)',
   'PX Mix View': 'Multichannel mixing, preview and stream output',
   'PX Rec': 'Video recording and screenshotting',
