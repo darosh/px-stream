@@ -266,6 +266,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] wrap clamp
 - [x] win: test
 - [x] assets: smaller video
 - [x] initial pop size

@@ -131,6 +131,8 @@ vec4 sampleChannel(int channel, vec2 uv, vec2 cellSize, int col, int row) {
     vec2 texCoord;
     vec2 finalUV = uv;
     vec2 finalCellSize = cellSize;
+    vec4 EMPTY = vec4(0.0, 0.0, 0.0, 0.0);
+    bool clamp_edges = true;
 
     // In join mode, calculate UV across bounding box of all cells with same channel
     if (join_mode) {
@@ -156,41 +158,49 @@ vec4 sampleChannel(int channel, vec2 uv, vec2 cellSize, int col, int row) {
     if (channel == 0) {
         texSize = vec2(textureSize(image0));
         texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
+        if (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y)) { return EMPTY; }
         return texture(image0, texCoord);
     }
     if (channel == 1) {
         texSize = vec2(textureSize(image1));
         texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
+        if (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y)) { return EMPTY; }
         return texture(image1, texCoord);
     }
     if (channel == 2) {
         texSize = vec2(textureSize(image2));
         texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
+        if (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y)) { return EMPTY; }
         return texture(image2, texCoord);
     }
     if (channel == 3) {
         texSize = vec2(textureSize(image3));
         texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
+        if (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y)) { return EMPTY; }
         return texture(image3, texCoord);
     }
     if (channel == 4) {
         texSize = vec2(textureSize(image4));
         texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
+        if (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y)) { return EMPTY; }
         return texture(image4, texCoord);
     }
     if (channel == 5) {
         texSize = vec2(textureSize(image5));
         texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
+        if (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y)) { return EMPTY; }
         return texture(image5, texCoord);
     }
     if (channel == 6) {
         texSize = vec2(textureSize(image6));
         texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
+        if (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y)) { return EMPTY; }
         return texture(image6, texCoord);
     }
     if (channel == 7) {
         texSize = vec2(textureSize(image7));
         texCoord = scaleUV(finalUV, texSize, finalCellSize, aspect_mode);
+        if (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y)) { return EMPTY; }
         return texture(image7, texCoord);
     }
 

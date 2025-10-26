@@ -409,11 +409,20 @@ vec4 oklab (int mode, vec4 a4, vec4 b4, vec4 amount4) {
 }
 
 void main() {
+    vec4 EMPTY = vec4(0.0, 0.0, 0.0, 0.0);
+    bool clamp_edges = true;
+
     vec2 texSize0 = vec2(textureSize(image0));
-    vec4 col0 = texture(image0, scaleUV(jit_in.texcoord, texSize0, targetdim, view0));
+    vec2 texCoord0 = scaleUV(jit_in.texcoord, texSize0, targetdim, view0);
+    vec4 col0 = (clamp_edges && (texCoord0.x < 0.0 || texCoord0.x >= texSize0.x || texCoord0.y < 0.0 || texCoord0.y >= texSize0.y))
+    ? EMPTY
+    : texture(image0, texCoord0);
 
     vec2 texSize1 = vec2(textureSize(image1));
-    vec4 col1 = texture(image1, scaleUV(jit_in.texcoord, texSize1, targetdim, view0));
+    vec2 texCoord1 = scaleUV(jit_in.texcoord, texSize1, targetdim, view0);
+    vec4 col1 = (clamp_edges && (texCoord1.x < 0.0 || texCoord1.x >= texSize1.x || texCoord1.y < 0.0 || texCoord1.y >= texSize1.y))
+    ? EMPTY
+    : texture(image1, texCoord1);
 
     vec4 amount = alpha0 ? blend0 * col1.a : blend0;
 

@@ -443,12 +443,18 @@ vec4 oklab (int mode, vec4 a4, vec4 b4, float amount) {
 void main() {
     vec4 result = vec4(0.0, 0.0, 0.0, 1.0);
     vec2 texSize;
+    vec2 texCoord;
     vec4 col;
     float amount;
+    vec4 EMPTY = vec4(0.0, 0.0, 0.0, 0.0);
+    bool clamp_edges = true;
 
     if (enable0) {
         texSize = vec2(textureSize(image0));
-        col = texture(image0, scaleUV(jit_in.texcoord, texSize, targetdim, view0));
+        texCoord = scaleUV(jit_in.texcoord, texSize, targetdim, view0);
+        col = (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y)) 
+        ? EMPTY 
+        : texture(image0, texCoord);
         amount = alpha0 ? blend0 * col.a : blend0;
         result = oklab0
         ? (swap0 ? oklab(mode0, col, result, amount) : oklab(mode0, result, col, amount))
@@ -457,7 +463,10 @@ void main() {
 
     if (enable1) {
         texSize = vec2(textureSize(image1));
-        col = texture(image1, scaleUV(jit_in.texcoord, texSize, targetdim, view1));
+        texCoord = scaleUV(jit_in.texcoord, texSize, targetdim, view1);
+        col = (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y))
+        ? EMPTY
+        : texture(image1, texCoord);
         amount = alpha1 ? blend1 * col.a : blend1;
         result = oklab1
         ? (swap1 ? oklab(mode1, col, result, amount) : oklab(mode1, result, col, amount))
@@ -466,7 +475,10 @@ void main() {
 
     if (enable2) {
         texSize = vec2(textureSize(image2));
-        col = texture(image2, scaleUV(jit_in.texcoord, texSize, targetdim, view2));
+        texCoord = scaleUV(jit_in.texcoord, texSize, targetdim, view3);
+        col = (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y))
+        ? EMPTY
+        : texture(image2, texCoord);
         amount = alpha2 ? blend2 * col.a : blend2;
         result = oklab2
         ? (swap2 ? oklab(mode2, col, result, amount) : oklab(mode2, result, col, amount))
@@ -475,7 +487,10 @@ void main() {
 
     if (enable3) {
         texSize = vec2(textureSize(image3));
-        col = texture(image3, scaleUV(jit_in.texcoord, texSize, targetdim, view3));
+        texCoord = scaleUV(jit_in.texcoord, texSize, targetdim, view3);
+        col = (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y))
+        ? EMPTY
+        : texture(image3, texCoord);
         amount = alpha3 ? blend3 * col.a : blend3;
         result = oklab3
         ? (swap3 ? oklab(mode3, col, result, amount) : oklab(mode3, result, col, amount))
@@ -484,7 +499,10 @@ void main() {
 
     if (enable4) {
         texSize = vec2(textureSize(image4));
-        col = texture(image4, scaleUV(jit_in.texcoord, texSize, targetdim, view4));
+        texCoord = scaleUV(jit_in.texcoord, texSize, targetdim, view4);
+        col = (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y))
+        ? EMPTY
+        : texture(image4, texCoord);
         amount = alpha4 ? blend4 * col.a : blend4;
         result = oklab4
         ? (swap4 ? oklab(mode4, col, result, amount) : oklab(mode4, result, col, amount))
@@ -493,7 +511,10 @@ void main() {
 
     if (enable5) {
         texSize = vec2(textureSize(image5));
-        col = texture(image5, scaleUV(jit_in.texcoord, texSize, targetdim, view5));
+        texCoord = scaleUV(jit_in.texcoord, texSize, targetdim, view5);
+        col = (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y))
+        ? EMPTY
+        : texture(image5, texCoord);
         amount = alpha5 ? blend5 * col.a : blend5;
         result = oklab5
         ? (swap5 ? oklab(mode5, col, result, amount) : oklab(mode5, result, col, amount))
@@ -502,7 +523,10 @@ void main() {
 
     if (enable6) {
         texSize = vec2(textureSize(image6));
-        col = texture(image6, scaleUV(jit_in.texcoord, texSize, targetdim, view6));
+        texCoord = scaleUV(jit_in.texcoord, texSize, targetdim, view6);
+        col = (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y))
+        ? EMPTY
+        : texture(image6, texCoord);
         amount = alpha6 ? blend6 * col.a : blend6;
         result = oklab6
         ? (swap6 ? oklab(mode6, col, result, amount) : oklab(mode6, result, col, amount))
@@ -511,7 +535,10 @@ void main() {
 
     if (enable7) {
         texSize = vec2(textureSize(image7));
-        col = texture(image7, scaleUV(jit_in.texcoord, texSize, targetdim, view7));
+        texCoord = scaleUV(jit_in.texcoord, texSize, targetdim, view7);
+        col = (clamp_edges && (texCoord.x < 0.0 || texCoord.x >= texSize.x || texCoord.y < 0.0 || texCoord.y >= texSize.y))
+        ? EMPTY
+        : texture(image7, texCoord);
         amount = alpha7 ? blend7 * col.a : blend7;
         result = oklab7
         ? (swap7 ? oklab(mode7, col, result, amount) : oklab(mode7, result, col, amount))
