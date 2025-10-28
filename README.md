@@ -262,6 +262,8 @@ Most of the parameters in the toolkit can be [automated in the standard way](htt
         <a href="#px-mix-grid"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Mix Grid</a><br>
         <a href="#px-shader"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> Shader</a>
         <hr>
+        <a href="#px-follow"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Follow</a><br>
+        <a href="#px-sync"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Sync</a><br>
         <a href="#px-rec"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Rec</a><br>
         <a href="#px-route-audio"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Route Audio</a><br>
         <a href="#px-route-midi"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Route MIDI</a><br>
@@ -440,6 +442,24 @@ Interactive Shader Format ([ISF](https://isf.video/)) host for generators and ef
 | XYE  | xyeImage   | audio    | [electron beam emulation](https://m1el.github.io/woscope-how/), ported to Jitter shader by Rob Ramirez [here](https://discord.com/channels/289378508247924738/351004699811512322/1407790819183956109) |
 | MIDI | midiImage  | audio    | R: [x, y, value] = [note, channel, velocity],<br>G: [x, y, value] = [CC number, channel, value],<br>B: [x, y, value] = [0, 0, voices], [voice, 0, note]                                               |
 | IN   | inputImage | image    | automatic, from previous device in the chain                                                                                                                                                          |
+
+<br>
+
+---
+<br>
+
+### PX Follow
+
+Envelope follower based video rate ADSR modulation with step sequencer
+
+<br>
+
+---
+<br>
+
+### PX Sync
+
+Beat sync video rate ADSR modulation with step sequencer
 
 <br>
 
