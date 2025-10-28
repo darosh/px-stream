@@ -257,9 +257,9 @@ Most of the parameters in the toolkit can be [automated in the standard way](htt
         <a href="#px-world"><img src="./docs/media/categories/core.svg" width="12" height="12" alt="Core category" style="vertical-align: baseline" /> World</a><br>
         <a href="#px-mix-view"><img src="./docs/media/categories/core.svg" width="12" height="12" alt="Core category" style="vertical-align: baseline" /> Mix View</a><br>
         <a href="#px-mix_channel"><img src="./docs/media/categories/core.svg" width="12" height="12" alt="Core category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Mix Channel</a><br>
-        <a href="#px-mix-dry"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Mix Dry</a><br>
-        <a href="#px-mix-transition"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Mix Transition</a><br>
-        <a href="#px-mix-grid"><img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Mix Grid</a><br>
+        <a href="#px-mix-dry"><img src="./docs/media/categories/multichain.svg" width="12" height="12" alt="Multichain category" style="vertical-align: baseline" /> Mix Dry</a><br>
+        <a href="#px-mix-transition"><img src="./docs/media/categories/multichain.svg" width="12" height="12" alt="Multichain category" style="vertical-align: baseline" /> Mix Transition</a><br>
+        <a href="#px-mix-grid"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Mix Grid</a><br>
         <hr>
         <a href="#px-rec"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Rec</a><br>
         <a href="#px-route-audio"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Route Audio</a><br>
@@ -303,12 +303,13 @@ Most of the parameters in the toolkit can be [automated in the standard way](htt
   </tr>
 </table>
 
-Categories: 
-<img src="./docs/media/categories/core.svg" width="12" height="12" alt="Core category" style="vertical-align: baseline" /> Core 
-<img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Utility 
-<img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> Source 
-<img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Chain 
-<img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> FX 
+__Categories:__ <br>
+<img src="./docs/media/categories/core.svg" width="12" height="12" alt="Core category" style="vertical-align: baseline" /> Core <br>
+<img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Utility <br>
+<img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> Source <br>
+<img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Chain (receives texture from previous device and/or sends texture to next device or selected channel) <br>
+<img src="./docs/media/categories/multichain.svg" width="12" height="12" alt="Multichain category" style="vertical-align: baseline" /> Multichain (receives 2 textures from previous devices and sends one texture to next device or selected channel) <br>
+<img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> FX <br>
 
 <br>
 
