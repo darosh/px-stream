@@ -11,7 +11,6 @@
 - [ ] follow: screenshots + doc
 - [ ] follow
 - [ ] sync: screenshots + doc
-- [ ] sync: push
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
@@ -230,6 +229,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 - [x] DEV Console
 - [x] DEV Info
+- [x] PX Follow
 - [x] PX FX Alpha
 - [x] PX FX Blur
 - [x] PX FX Color
@@ -260,11 +260,12 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [x] PX Route Audio
 - [x] PX Route MIDI
 - [x] PX Shader
-- [ ] PX Sync
+- [x] PX Sync
 - [x] PX World
 
 ## Done
 
+- [x] sync: push
 - [x] ~~sync: link skip self clone~~
 - [x] sync: auto re-link
 - [x] sync: multi mod fix

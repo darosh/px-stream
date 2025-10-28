@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 579.0, 508.0 ],
+		"rect" : [ 128.0, 82.0, 281.0, 498.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -1273,7 +1273,6 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Link",
 							"parameter_enum" : [ "", "val2" ],
-							"parameter_invisible" : 2,
 							"parameter_longname" : "Link",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -4768,7 +4767,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D8",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "D8",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -4802,7 +4801,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D7",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "D7",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -4836,7 +4835,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D6",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "D6",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -4870,7 +4869,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D5",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "D5",
@@ -4906,7 +4905,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D4",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "D4",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -4940,7 +4939,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D3",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "D3",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -4974,7 +4973,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D2",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "D2",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5008,7 +5007,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D1",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "D1",
@@ -5044,7 +5043,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C8",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "C8",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5078,7 +5077,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C7",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "C7",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5112,7 +5111,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C6",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "C6",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5146,7 +5145,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C5",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "C5",
@@ -5182,7 +5181,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C4",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "C4",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5216,7 +5215,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C3",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "C3",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5250,7 +5249,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C2",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "C2",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5284,7 +5283,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C1",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "C1",
@@ -5320,7 +5319,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B8",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "B8",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5354,7 +5353,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B7",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "B7",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5388,7 +5387,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B6",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "B6",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5422,7 +5421,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B5",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "B5",
@@ -5458,7 +5457,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B4",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "B4",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5492,7 +5491,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B3",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "B3",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5526,7 +5525,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B2",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "B2",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5560,7 +5559,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B1",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "B1",
@@ -5594,7 +5593,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "A8",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5628,7 +5627,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A7",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "A7",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5660,7 +5659,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "A6",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5694,7 +5693,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A5",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "A5",
@@ -5730,7 +5729,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A4",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "A4",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5764,7 +5763,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A3",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "A3",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5798,7 +5797,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A2",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_longname" : "A2",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
@@ -5832,7 +5831,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A1",
-							"parameter_enum" : [ "off", "on" ],
+							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "A1",
@@ -7514,6 +7513,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 112.0, 62.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"tricolor" : 						{
+							"expression" : "themecolor.live_control_text_zombie"
+						}
+,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Parameter D",
 							"parameter_enum" : [ " ", " " ],
@@ -7526,6 +7529,7 @@
 
 					}
 ,
+					"tricolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
 					"varname" : "live.menu"
 				}
 
@@ -7543,6 +7547,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 75.0, 62.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"tricolor" : 						{
+							"expression" : "themecolor.live_control_text_zombie"
+						}
+,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Parameter C",
 							"parameter_enum" : [ " ", " " ],
@@ -7555,6 +7563,7 @@
 
 					}
 ,
+					"tricolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
 					"varname" : "live.menu[2]"
 				}
 
@@ -7572,6 +7581,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 38.0, 62.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"tricolor" : 						{
+							"expression" : "themecolor.live_control_text_zombie"
+						}
+,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Parameter B",
 							"parameter_enum" : [ " ", " " ],
@@ -7584,6 +7597,7 @@
 
 					}
 ,
+					"tricolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
 					"varname" : "live.menu[1]"
 				}
 
@@ -11965,90 +11979,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-11" : [ "More", "More", 0 ],
-			"obj-113" : [ "A1", "A1", 0 ],
-			"obj-115" : [ "B4", "B4", 0 ],
-			"obj-116" : [ "B3", "B3", 0 ],
-			"obj-117" : [ "B2", "B2", 0 ],
-			"obj-118" : [ "B1", "B1", 0 ],
-			"obj-119" : [ "C8", "C8", 0 ],
-			"obj-120" : [ "C7", "C7", 0 ],
-			"obj-121" : [ "C6", "C6", 0 ],
-			"obj-122" : [ "A2", "A2", 0 ],
-			"obj-123" : [ "A4", "A4", 0 ],
-			"obj-124" : [ "A3", "A3", 0 ],
-			"obj-125" : [ "A8", "A8", 0 ],
-			"obj-126" : [ "A7", "A7", 0 ],
-			"obj-127" : [ "A6", "A6", 0 ],
-			"obj-128" : [ "A5", "A5", 0 ],
-			"obj-129" : [ "C5", "C5", 0 ],
-			"obj-130" : [ "C4", "C4", 0 ],
-			"obj-131" : [ "C3", "C3", 0 ],
-			"obj-132" : [ "C2", "C2", 0 ],
-			"obj-133" : [ "C1", "C1", 0 ],
-			"obj-134" : [ "D8", "D8", 0 ],
-			"obj-135" : [ "D7", "D7", 0 ],
-			"obj-136" : [ "D6", "D6", 0 ],
-			"obj-137" : [ "D5", "D5", 0 ],
-			"obj-138" : [ "D4", "D4", 0 ],
-			"obj-139" : [ "D3", "D3", 0 ],
-			"obj-140" : [ "D2", "D2", 0 ],
-			"obj-141" : [ "D1", "D1", 0 ],
-			"obj-15" : [ "Attack", "Attack", 0 ],
-			"obj-179" : [ "Fall", "Fall", 0 ],
-			"obj-18" : [ "Decay", "Decay", 0 ],
-			"obj-19" : [ "Release", "Release", 0 ],
-			"obj-20" : [ "Sustain", "Sustain", 0 ],
-			"obj-204" : [ "Attack Slope", "A. Slope", 0 ],
-			"obj-208" : [ "Release Slope", "R. Slope", 0 ],
-			"obj-22" : [ "Parameter B", "Parameter B", 0 ],
-			"obj-25" : [ "Range B", "Range B", 0 ],
-			"obj-292" : [ "Rise", "Rise", 0 ],
-			"obj-293" : [ "Gain", "Gain", 0 ],
-			"obj-299" : [ "Link", "Link", 0 ],
-			"obj-31" : [ "Range C", "Range C", 0 ],
-			"obj-36" : [ "Range D", "Range D", 0 ],
-			"obj-44" : [ "Parameter C", "Parameter C", 0 ],
-			"obj-45" : [ "Parameter D", "Parameter D", 0 ],
-			"obj-47" : [ "B8", "B8", 0 ],
-			"obj-48" : [ "B7", "B7", 0 ],
-			"obj-49" : [ "B6", "B6", 0 ],
-			"obj-50" : [ "B5", "B5", 0 ],
-			"obj-51" : [ "Range A", "Range A", 0 ],
-			"obj-56" : [ "Intensity", "Intensity", 0 ],
-			"obj-59" : [ "Bang", "Bang", 0 ],
-			"obj-9" : [ "Parameter A", "Parameter A", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "Rise", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "PX._legend.maxpat",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "PX._sync.js",
-				"bootpath" : "~/Documents/GitHub/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
