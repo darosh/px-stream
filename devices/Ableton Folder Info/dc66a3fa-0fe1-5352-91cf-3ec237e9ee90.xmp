@@ -299,11 +299,27 @@
                      </rdf:Bag>
                   </ablFR:colors>
                </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <ablFR:filePath>PX Sync.amxd</ablFR:filePath>
+                  <ablFR:colors>
+                     <rdf:Bag>
+                        <rdf:li>3</rdf:li>
+                     </rdf:Bag>
+                  </ablFR:colors>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <ablFR:filePath>PX Follow.amxd</ablFR:filePath>
+                  <ablFR:colors>
+                     <rdf:Bag>
+                        <rdf:li>3</rdf:li>
+                     </rdf:Bag>
+                  </ablFR:colors>
+               </rdf:li>
             </rdf:Bag>
          </ablFR:items>
          <xmp:CreatorTool>Updated by Ableton Index 12.2.6</xmp:CreatorTool>
          <xmp:CreateDate>2025-08-29T20:56:33+02:00</xmp:CreateDate>
-         <xmp:MetadataDate>2025-10-26T17:20:53+01:00</xmp:MetadataDate>
+         <xmp:MetadataDate>2025-10-28T18:35:28+01:00</xmp:MetadataDate>
       </rdf:Description>
    </rdf:RDF>
 </x:xmpmeta>
