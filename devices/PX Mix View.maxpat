@@ -11538,17 +11538,16 @@
 				"box" : 				{
 					"filename" : "jit_gl_ui_canvas.js",
 					"id" : "obj-61",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2120.0, 1768.0, 302.0, 35.0 ],
+					"patching_rect" : [ 2120.0, 1768.0, 302.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "jit.ui.canvas @drawto ---plane_ui @name ---ui_canvas @enable_mouse_editing 0",
+					"text" : "jit.ui.canvas @drawto ---plane_ui @name ---ui_canvas",
 					"textfile" : 					{
 						"filename" : "jit_gl_ui_canvas.js",
 						"flags" : 0,
@@ -25264,16 +25263,6 @@
 			"obj-91" : [ "A", "A", 0 ],
 			"obj-95" : [ "Z", "Z", 0 ],
 			"obj-96" : [ "FPS", "FPS", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-146::obj-151" : 				{
 					"parameter_longname" : "Dimensions"
