@@ -43,7 +43,7 @@ function add_target (index, live_id, param_slot) {
   TARGETS[target_slot] = index
   p(0, 'target', target_slot + 1, 'id', live_id)
   outlet(0, 'target', target_slot + 1, 'id', live_id)
-  outlet(0, 'gate', param_slot, target_slot  + 1)
+  outlet(0, 'gate', param_slot, target_slot + 1)
   outlet(0, 'metro', param_slot, 1)
 }
 
@@ -65,28 +65,35 @@ function replace_target (index, live_id, previous_selected, param_slot) {
   outlet(0, 'metro', param_slot, 1)
 }
 
+function open_gate (index, param_slot) {
+  const target_slot = TARGETS.findIndex(d => d === index)
+  outlet(0, 'gate', param_slot, target_slot + 1)
+  outlet(0, 'metro', param_slot, 1)
+}
+
 function set_param (param_slot, index) {
   if (!PARAMS.length) {
     return
   }
-  
-  p(JSON.stringify({param_slot, index}))
+
+  p(JSON.stringify({ param_slot, index }))
 
   const previous_selected = SELECTED[param_slot - 1]
   SELECTED[param_slot - 1] = index
   const live_id = index > 0 ? new LiveAPI(PARAMS[index - 1].path).id : 0
-  p(JSON.stringify({SELECTED}))
+  p(JSON.stringify({ SELECTED }))
   const usage = SELECTED.filter(x => x === previous_selected).length
-  p(JSON.stringify({previous_selected}))
-  p(JSON.stringify({usage}))
-  
+  p(JSON.stringify({ previous_selected }))
+  p(JSON.stringify({ usage }))
+
   if ((previous_selected === 0) && !TARGETS.includes(index)) {
     // add target
     add_target(index, live_id, param_slot)
     // outlet(0, 'gate', param_slot, target_slot)
-  } else if ((previous_selected === 0) && TARGETS.includes(index)) {
+  } else if ((previous_selected === 0) && (index > 0) && TARGETS.includes(index)) {
     // reuse target
     p('REUSE')
+    open_gate(index, param_slot)
   } else if ((previous_selected > 0) && (index === 0) && usage > 0) {
     // keep old target
     p('KEEP')

@@ -13,7 +13,6 @@
 - [ ] sync: screenshots + doc
 - [ ] sync: auto re-link
 - [ ] sync: link skip self clone
-- [ ] sync: multi mod fix
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
@@ -266,6 +265,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] sync: multi mod fix
 - [x] sync: reset counters, comment on stop
 - [x] enable_mouse_editing 0
 - [x] screenshots
