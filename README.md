@@ -260,12 +260,11 @@ Most of the parameters in the toolkit can be [automated in the standard way](htt
         <a href="#px-mix-dry"><img src="./docs/media/categories/multichain.svg" width="12" height="12" alt="Multichain category" style="vertical-align: baseline" /> Mix Dry</a><br>
         <a href="#px-mix-transition"><img src="./docs/media/categories/multichain.svg" width="12" height="12" alt="Multichain category" style="vertical-align: baseline" /> Mix Transition</a><br>
         <a href="#px-mix-grid"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Mix Grid</a><br>
+        <a href="#px-shader"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> Shader</a>
         <hr>
         <a href="#px-rec"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> Rec</a><br>
         <a href="#px-route-audio"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Route Audio</a><br>
         <a href="#px-route-midi"><img src="./docs/media/categories/util.svg" width="12" height="12" alt="Utility category" style="vertical-align: baseline" /> Route MIDI</a><br>
-        <hr>
-        <a href="#px-shader"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> <img src="./docs/media/categories/fx.svg" width="12" height="12" alt="FX category" style="vertical-align: baseline" /> Shader</a>
     </td>
     <td valign="top">
         <a href="#in-cam"><img src="./docs/media/categories/source.svg" width="12" height="12" alt="Source category" style="vertical-align: baseline" /> <img src="./docs/media/categories/chain.svg" width="12" height="12" alt="Chain category" style="vertical-align: baseline" /> IN Cam</a><br>
@@ -413,6 +412,40 @@ Merging multiple channels into split screen view
 ---
 <br>
 
+### PX Shader
+
+Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects
+
+<img src="./docs/media/previews/PX_Shader_v1.webp" height="231" title="PX Shader" /> <img src="./docs/media/devices/PX_Shader.webp" height="231" title="PX Shader" /> <br><img src="./docs/media/devices/PX_Shader_(types).webp" height="148" title="PX Shader (types)" />
+
+🧲 `AUTOMATION` To automate selected shader file find `File` / `File Automation` parameter in automation lane
+
+✨ `TIP` To reset a shader parameter to its default value, click the parameter label
+
+📒 `NOTE` Due to the dynamic nature of parameter controls, the underlying parameter slider uses a range of 0 to 10 (it is also the range you can see on Push), and has invisible text with a scaled value placed on top of that &mdash; which unfortunately makes typing in values pretty suboptimal.
+
+<br>
+
+#### PX Shader &mdash; Audio types
+
+|      | Name       | Type     | Description                                                                                                                                                                                           |
+|------|------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| WAVE | waveImage  | audio    | standard ISF, channel per image row                                                                                                                                                                   |
+| WAVU | wavuImage  | audio    | channel per image color, Red = Left, Green = Right                                                                                                                                                    |
+| FFT  | fftImage   | audiofft | standard ISF, channel per image row                                                                                                                                                                   |
+| FFTU | fftuImage  | audiofft | channel per image color                                                                                                                                                                               |
+| XY   | xyImage    | audio    | X = Left, Y = Right, dots                                                                                                                                                                             |
+| XYC  | xycImage   | audio    | X = Left, Y = Right, connected lines                                                                                                                                                                  |
+| XYD  | xydImage   | audio    | X = Left, Y = Right, skipping distant lines                                                                                                                                                           |
+| XYE  | xyeImage   | audio    | [electron beam emulation](https://m1el.github.io/woscope-how/), ported to Jitter shader by Rob Ramirez [here](https://discord.com/channels/289378508247924738/351004699811512322/1407790819183956109) |
+| MIDI | midiImage  | audio    | R: [x, y, value] = [note, channel, velocity],<br>G: [x, y, value] = [CC number, channel, value],<br>B: [x, y, value] = [0, 0, voices], [voice, 0, note]                                               |
+| IN   | inputImage | image    | automatic, from previous device in the chain                                                                                                                                                          |
+
+<br>
+
+---
+<br>
+
 ### PX Rec
 
 Video recording and screenshotting
@@ -446,40 +479,6 @@ Send MIDI from selected track to next device
 <img src="./docs/media/devices/PX_Route_MIDI_(linked).webp" height="231" title="PX Route MIDI (linked)" />
 
 📒 `NOTE` Works only with [PX Shader](#px-shader) device and MIDI-enabled shaders. See the [Using MIDI](#guide--using-midi) guide.
-
-<br>
-
----
-<br>
-
-### PX Shader
-
-Interactive Shader Format ([ISF](https://isf.video/)) host for generators and effects
-
-<img src="./docs/media/previews/PX_Shader_v1.webp" height="231" title="PX Shader" /> <img src="./docs/media/devices/PX_Shader.webp" height="231" title="PX Shader" /> <br><img src="./docs/media/devices/PX_Shader_(types).webp" height="148" title="PX Shader (types)" />
-
-🧲 `AUTOMATION` To automate selected shader file find `File` / `File Automation` parameter in automation lane
-
-✨ `TIP` To reset a shader parameter to its default value, click the parameter label
-
-📒 `NOTE` Due to the dynamic nature of parameter controls, the underlying parameter slider uses a range of 0 to 10 (it is also the range you can see on Push), and has invisible text with a scaled value placed on top of that &mdash; which unfortunately makes typing in values pretty suboptimal.
-
-<br>
-
-#### PX Shader &mdash; Audio types
-
-|      | Name       | Type     | Description                                                                                                                                                                                           |
-|------|------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| WAVE | waveImage  | audio    | standard ISF, channel per image row                                                                                                                                                                   |
-| WAVU | wavuImage  | audio    | channel per image color, Red = Left, Green = Right                                                                                                                                                    |
-| FFT  | fftImage   | audiofft | standard ISF, channel per image row                                                                                                                                                                   |
-| FFTU | fftuImage  | audiofft | channel per image color                                                                                                                                                                               |
-| XY   | xyImage    | audio    | X = Left, Y = Right, dots                                                                                                                                                                             |
-| XYC  | xycImage   | audio    | X = Left, Y = Right, connected lines                                                                                                                                                                  |
-| XYD  | xydImage   | audio    | X = Left, Y = Right, skipping distant lines                                                                                                                                                           |
-| XYE  | xyeImage   | audio    | [electron beam emulation](https://m1el.github.io/woscope-how/), ported to Jitter shader by Rob Ramirez [here](https://discord.com/channels/289378508247924738/351004699811512322/1407790819183956109) |
-| MIDI | midiImage  | audio    | R: [x, y, value] = [note, channel, velocity],<br>G: [x, y, value] = [CC number, channel, value],<br>B: [x, y, value] = [0, 0, voices], [voice, 0, note]                                               |
-| IN   | inputImage | image    | automatic, from previous device in the chain                                                                                                                                                          |
 
 <br>
 
