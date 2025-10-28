@@ -7,12 +7,36 @@ outlets = 1
 let PARAMS = []
 let SELECTED = [0, 0, 0, 0]
 let TARGETS = []
+let NEXT = null
 
-function u () {
+function link () {
   SELECTED = [0, 0, 0, 0]
   TARGETS = [0, 0, 0, 0]
   const next = get_next('this_device')
-  // p(next)
+  p(next)
+
+  if (NEXT === next) {
+    return
+  }
+
+  NEXT = next
+  
+  if (!next) {
+    const range = [
+      '_parameter_range',
+      ' ',
+      ' '
+    ]
+
+    outlet(0, 'range', range)
+    outlet(0, 1, 0)
+    outlet(0, 2, 0)
+    outlet(0, 3, 0)
+    outlet(0, 4, 0)
+
+    return
+  }
+  
   const next_device = new LiveAPI(next)
   const params = scanParameters(next_device)
     .filter(d => !d.is_quantized[0])
@@ -118,13 +142,17 @@ function get_next (path) {
   const parts = this_device.path.split(' ')
   const entities = parts.at(-2)
   const this_index = Number.parseInt(parts.at(-1), 10)
+  p(entities)
   const total = parent.getcount(entities)
   p(total)
 
   const next_index = this_index + 1
-
+  const next_path = [...parts.slice(0, parts.length - 1), next_index].join(' ')
+  
+  outlet(0, 'next', next_path)
+  
   if (next_index < total) {
-    return [...parts.slice(0, parts.length - 1), next_index].join(' ')
+    return next_path
   }
 }
 

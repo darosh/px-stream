@@ -11,7 +11,6 @@
 - [ ] follow: screenshots + doc
 - [ ] follow
 - [ ] sync: screenshots + doc
-- [ ] sync: auto re-link
 - [ ] sync: link skip self clone
 
 - [Release notes](#release-notes)
@@ -265,6 +264,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] sync: auto re-link
 - [x] sync: multi mod fix
 - [x] sync: reset counters, comment on stop
 - [x] enable_mouse_editing 0

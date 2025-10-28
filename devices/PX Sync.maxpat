@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 71.0, 396.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 579.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,76 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"annotation_name" : "Link",
+					"automation" : "",
+					"id" : "obj-299",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 288.0, 128.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 105.0, 153.0, 40.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_annotation_name" : "Link",
+							"parameter_enum" : [ "", "val2" ],
+							"parameter_invisible" : 2,
+							"parameter_longname" : "Link",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Link",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Link",
+					"texton" : "Bang",
+					"varname" : "live.text[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-298",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 344.0, 96.0, 122.0, 22.0 ],
+					"text" : "r px_chains_updated"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-296",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 344.0, 144.0, 100.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-165",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 224.0, 168.0, 100.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-274",
 					"maxclass" : "newobj",
@@ -1046,7 +1116,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 224.0, 152.0, 82.0, 22.0 ],
+					"patching_rect" : [ 224.0, 96.0, 82.0, 22.0 ],
 					"text" : "r ---this_bang"
 				}
 
@@ -6329,11 +6399,11 @@
 				"box" : 				{
 					"id" : "obj-58",
 					"maxclass" : "newobj",
-					"numinlets" : 9,
-					"numoutlets" : 9,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 224.0, 280.0, 216.0, 22.0 ],
-					"text" : "route range 1 2 3 4 target gate metro"
+					"numinlets" : 10,
+					"numoutlets" : 10,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 224.0, 280.0, 248.0, 22.0 ],
+					"text" : "route range 1 2 3 4 target gate metro next"
 				}
 
 			}
@@ -6504,7 +6574,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 224.0, 200.0, 100.0, 22.0 ],
-					"text" : "prepend u"
+					"text" : "prepend link"
 				}
 
 			}
@@ -7429,6 +7499,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-165", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-236", 0 ],
 					"source" : [ "obj-166", 0 ]
 				}
@@ -8247,7 +8324,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
+					"destination" : [ "obj-165", 0 ],
 					"source" : [ "obj-224", 0 ]
 				}
 
@@ -9345,6 +9422,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-289", 0 ],
 					"source" : [ "obj-291", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-165", 0 ],
+					"source" : [ "obj-296", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-296", 0 ],
+					"source" : [ "obj-298", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-165", 0 ],
+					"source" : [ "obj-299", 0 ]
 				}
 
 			}
@@ -10715,6 +10813,7 @@
 			"obj-208" : [ "Release Slope", "R. Slope", 0 ],
 			"obj-22" : [ "Parameter B", "Parameter B", 0 ],
 			"obj-25" : [ "Range B", "Range B", 0 ],
+			"obj-299" : [ "Link", "Link", 0 ],
 			"obj-31" : [ "Range C", "Range C", 0 ],
 			"obj-36" : [ "Range D", "Range D", 0 ],
 			"obj-44" : [ "Parameter C", "Parameter C", 0 ],
@@ -10727,16 +10826,6 @@
 			"obj-56" : [ "Intensity", "Intensity", 0 ],
 			"obj-59" : [ "Bang", "Bang", 0 ],
 			"obj-9" : [ "Parameter A", "Parameter A", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
