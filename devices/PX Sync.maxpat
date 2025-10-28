@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 579.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 579.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -21,6 +21,18 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 272.0, 144.0, 100.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation_name" : "Link",
 					"automation" : "",
 					"id" : "obj-299",
@@ -30,7 +42,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 288.0, 128.0, 44.0, 15.0 ],
+					"patching_rect" : [ 272.0, 128.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 105.0, 153.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -60,7 +72,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 344.0, 96.0, 122.0, 22.0 ],
+					"patching_rect" : [ 384.0, 96.0, 122.0, 22.0 ],
 					"text" : "r px_chains_updated"
 				}
 
@@ -72,7 +84,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 344.0, 144.0, 100.0, 22.0 ],
+					"patching_rect" : [ 384.0, 144.0, 100.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -9441,7 +9453,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-165", 0 ],
+					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-299", 0 ]
 				}
 
@@ -9832,6 +9844,13 @@
 					"destination" : [ "obj-5", 1 ],
 					"order" : 0,
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-165", 0 ],
+					"source" : [ "obj-33", 0 ]
 				}
 
 			}
@@ -10826,6 +10845,16 @@
 			"obj-56" : [ "Intensity", "Intensity", 0 ],
 			"obj-59" : [ "Bang", "Bang", 0 ],
 			"obj-9" : [ "Parameter A", "Parameter A", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

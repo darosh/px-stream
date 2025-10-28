@@ -11,7 +11,7 @@
 - [ ] follow: screenshots + doc
 - [ ] follow
 - [ ] sync: screenshots + doc
-- [ ] sync: link skip self clone
+- [ ] sync: push
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
@@ -260,10 +260,12 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [x] PX Route Audio
 - [x] PX Route MIDI
 - [x] PX Shader
+- [ ] PX Sync
 - [x] PX World
 
 ## Done
 
+- [x] ~~sync: link skip self clone~~
 - [x] sync: auto re-link
 - [x] sync: multi mod fix
 - [x] sync: reset counters, comment on stop

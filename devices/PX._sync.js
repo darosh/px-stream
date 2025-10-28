@@ -135,10 +135,17 @@ function set_param (param_slot, index) {
 
 function get_next (path) {
   const this_device = new LiveAPI(path)
+
+  if (!this_device?.path) {
+    return
+  }
+
   const parent = new LiveAPI(`${path} canonical_parent`)
+  
   p(this_device.path)
   p(parent.path)
   p(parent.children)
+  
   const parts = this_device.path.split(' ')
   const entities = parts.at(-2)
   const this_index = Number.parseInt(parts.at(-1), 10)
