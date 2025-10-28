@@ -8,7 +8,12 @@
 - [ ] masking?
 - [ ] windows + preview bug in "using feedback"
 - [ ] transform: crop?
-- [ ] enable_mouse_editing 0
+- [ ] follow: screenshots + doc
+- [ ] follow
+- [ ] sync: screenshots + doc
+- [ ] sync: reset counters, comment on stop
+- [ ] sync: auto re-link
+- [ ] sync: link skip self clone
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
@@ -261,6 +266,7 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] enable_mouse_editing 0
 - [x] screenshots
 - [x] grid: screenshots
 - [x] grid: animation
