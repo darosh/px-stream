@@ -9,19 +9,20 @@ let SELECTED = [0, 0, 0, 0]
 let TARGETS = []
 let NEXT = null
 
+
+function p (...v) {
+  // post(v + '\n')
+}
+
 function link () {
   SELECTED = [0, 0, 0, 0]
   TARGETS = [0, 0, 0, 0]
   const next = get_next('this_device')
-  p(next)
-
-  if (NEXT === next) {
-    return
-  }
-
-  NEXT = next
+  p(JSON.stringify({next}))
   
   if (!next) {
+    NEXT = 0
+    
     const range = [
       '_parameter_range',
       ' ',
@@ -38,6 +39,14 @@ function link () {
   }
   
   const next_device = new LiveAPI(next)
+
+  if (NEXT === next_device.id) {
+    return
+  }
+
+  NEXT = next_device.id
+
+
   const params = scanParameters(next_device)
     .filter(d => !d.is_quantized[0])
   // p(JSON.stringify(params, null, 2))
@@ -56,10 +65,6 @@ function link () {
   // outlet(0, 2, params.length >= 2 ? 2 : 0)
   // outlet(0, 3, params.length >= 3 ? 3 : 0)
   // outlet(0, 4, params.length >= 4 ? 4 : 0)
-}
-
-function p (...v) {
-  // post(v + '\n')
 }
 
 function add_target (index, live_id, param_slot) {
