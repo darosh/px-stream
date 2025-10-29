@@ -47,6 +47,10 @@ export default {
     [6, 'PX Rec', 224],
     [6, 'PX FX Alpha', 452],
     [7, 'PX Mix Grid', 276],
+    [7, 'PX Sync', 224],
+    [7, 'PX Follow', 224],
+    [7, 'PX Sync (expanded)', 546],
+    [7, 'PX Follow (expanded)', 640],
   ].map(([s, name, x1, exclude]) => {
     const src = s + 1
     WIDTHS[src] = WIDTHS[src] || 14

@@ -22,46 +22,50 @@
 
 <!-- begin: collage -->
 <div>
-    <a href="#px-mix-view"><img src="./docs/media/devices/PX_Mix_View_(expanded).webp" title="PX Mix View" width="305"/></a>
-    <a href="#px-mix-grid"><img src="./docs/media/devices/PX_Mix_Grid.webp" title="PX Mix Grid" width="65"/></a>
-    <a href="#in-stream"><img src="./docs/media/devices/PX_IN_Stream_(Syphon).webp" title="IN Stream" width="65"/></a>
-    <a href="#in-channel"><img src="./docs/media/devices/PX_IN_Channel.webp" title="IN Channel" width="65"/></a>
-    <a href="#fx-kaleidoscope"><img src="./docs/media/devices/PX_FX_Kaleidoscope.webp" title="FX Kaleidoscope" width="65"/></a>
-    <a href="#px-mix-dry"><img src="./docs/media/devices/PX_Mix_Dry.webp" title="PX Mix Dry" width="65"/></a>
-    <a href="#gen-cos-pattern"><img src="./docs/media/devices/PX_GEN_Cos_Pattern.webp" title="GEN Cos Pattern" width="151"/></a>
-    <a href="#gen-text"><img src="./docs/media/devices/PX_GEN_Text_(expanded).webp" title="GEN Text" width="125"/></a>
-    <a href="#dev-info"><img src="./docs/media/devices/DEV_Info.webp" title="DEV Info" width="110"/></a>
-    <a href="#px-mix-transition"><img src="./docs/media/devices/PX_Mix_Transition.webp" title="PX Mix Transition" width="65"/></a>
-    <a href="#in-svg"><img src="./docs/media/devices/PX_IN_SVG.webp" title="IN SVG" width="65"/></a>
-    <a href="#gen-text"><img src="./docs/media/devices/PX_GEN_Text.webp" title="GEN Text" width="65"/></a>
-    <a href="#fx-convert"><img src="./docs/media/devices/PX_FX_Convert.webp" title="FX Convert" width="65"/></a>
-    <a href="#px-route-midi"><img src="./docs/media/devices/PX_Route_MIDI_(linked).webp" title="PX Route MIDI" width="52"/></a>
-    <a href="#fx-color"><img src="./docs/media/devices/PX_FX_Color_(hue).webp" title="FX Color" width="228"/></a>
-    <a href="#px-shader"><img src="./docs/media/devices/PX_Shader.webp" title="PX Shader" width="223"/></a>
-    <a href="#gen-sketching"><img src="./docs/media/devices/PX_GEN_Sketching.webp" title="GEN Sketching" width="110"/></a>
-    <a href="#px-mix-channel"><img src="./docs/media/devices/PX_Mix_Channel.webp" title="PX Mix Channel" width="65"/></a>
-    <a href="#in-mix"><img src="./docs/media/devices/PX_IN_Mix.webp" title="IN Mix" width="65"/></a>
-    <a href="#fx-transform"><img src="./docs/media/devices/PX_FX_Transform.webp" title="FX Transform" width="65"/></a>
-    <a href="#fx-blur"><img src="./docs/media/devices/PX_FX_Blur.webp" title="FX Blur" width="65"/></a>
-    <a href="#px-route-audio"><img src="./docs/media/devices/PX_Route_Audio.webp" title="PX Route Audio" width="52"/></a>
-    <a href="#fx-pixelization"><img src="./docs/media/devices/PX_FX_Pixelization.webp" title="FX Pixelization" width="127"/></a>
-    <a href="#fx-color"><img src="./docs/media/devices/PX_FX_Color_(gamma).webp" title="FX Color" width="145"/></a>
-    <a href="#gen-mini-shader"><img src="./docs/media/devices/PX_GEN_Mini_Shader.webp" title="GEN Mini Shader" width="110"/></a>
-    <a href="#px-world"><img src="./docs/media/devices/PX_World.webp" title="PX World" width="58"/></a>
-    <a href="#in-video"><img src="./docs/media/devices/PX_IN_Video.webp" title="IN Video" width="65"/></a>
-    <a href="#in-image"><img src="./docs/media/devices/PX_IN_Image.webp" title="IN Image" width="65"/></a>
-    <a href="#fx-pass"><img src="./docs/media/devices/PX_FX_Pass.webp" title="FX Pass" width="65"/></a>
-    <a href="#px-world"><img src="./docs/media/devices/PX_World_(mad_world).webp" title="PX World" width="58"/></a>
-    <a href="#px-rec"><img src="./docs/media/devices/PX_Rec.webp" title="PX Rec" width="52"/></a>
-    <a href="#px-shader"><img src="./docs/media/devices/PX_Shader_(types).webp" title="PX Shader" width="146"/></a>
-    <a href="#fx-color"><img src="./docs/media/devices/PX_FX_Color.webp" title="FX Color" width="152"/></a>
-    <a href="#dev-console"><img src="./docs/media/devices/DEV_Console.webp" title="DEV Console" width="58"/></a>
-    <a href="#fx-delay"><img src="./docs/media/devices/PX_FX_Delay.webp" title="FX Delay" width="65"/></a>
-    <a href="#in-cam"><img src="./docs/media/devices/PX_IN_Cam.webp" title="IN Cam" width="65"/></a>
-    <a href="#in-stream"><img src="./docs/media/devices/PX_IN_Stream_(Spout).webp" title="IN Stream" width="65"/></a>
-    <a href="#fx-alpha"><img src="./docs/media/devices/PX_FX_Alpha.webp" title="FX Alpha" width="106"/></a>
-    <a href="#fx-colorize"><img src="./docs/media/devices/PX_FX_Colorize.webp" title="FX Colorize" width="106"/></a>
-    <a href="#px-mix-view"><img src="./docs/media/devices/PX_Mix_View.webp" title="PX Mix View" width="158"/></a>
+    <a href="#px-mix-view"><img src="./docs/media/devices/PX_Mix_View_(expanded).webp" title="PX Mix View" width="278"/></a>
+    <a href="#dev-info"><img src="./docs/media/devices/DEV_Info.webp" title="DEV Info" width="100"/></a>
+    <a href="#px-mix-channel"><img src="./docs/media/devices/PX_Mix_Channel.webp" title="PX Mix Channel" width="59"/></a>
+    <a href="#in-mix"><img src="./docs/media/devices/PX_IN_Mix.webp" title="IN Mix" width="59"/></a>
+    <a href="#fx-transform"><img src="./docs/media/devices/PX_FX_Transform.webp" title="FX Transform" width="59"/></a>
+    <a href="#fx-blur"><img src="./docs/media/devices/PX_FX_Blur.webp" title="FX Blur" width="59"/></a>
+    <a href="#px-route-audio"><img src="./docs/media/devices/PX_Route_Audio.webp" title="PX Route Audio" width="48"/></a>
+    <a href="#fx-pixelization"><img src="./docs/media/devices/PX_FX_Pixelization.webp" title="FX Pixelization" width="116"/></a>
+    <a href="#fx-color"><img src="./docs/media/devices/PX_FX_Color_(hue).webp" title="FX Color" width="208"/></a>
+    <a href="#px-follow"><img src="./docs/media/devices/PX_Follow.webp" title="PX Follow" width="48"/></a>
+    <a href="#dev-console"><img src="./docs/media/devices/DEV_Console.webp" title="DEV Console" width="53"/></a>
+    <a href="#fx-delay"><img src="./docs/media/devices/PX_FX_Delay.webp" title="FX Delay" width="59"/></a>
+    <a href="#in-cam"><img src="./docs/media/devices/PX_IN_Cam.webp" title="IN Cam" width="59"/></a>
+    <a href="#in-stream"><img src="./docs/media/devices/PX_IN_Stream_(Spout).webp" title="IN Stream" width="59"/></a>
+    <a href="#px-mix-grid"><img src="./docs/media/devices/PX_Mix_Grid.webp" title="PX Mix Grid" width="59"/></a>
+    <a href="#fx-alpha"><img src="./docs/media/devices/PX_FX_Alpha.webp" title="FX Alpha" width="96"/></a>
+    <a href="#fx-color"><img src="./docs/media/devices/PX_FX_Color_(gamma).webp" title="FX Color" width="133"/></a>
+    <a href="#px-shader"><img src="./docs/media/devices/PX_Shader_(types).webp" title="PX Shader" width="133"/></a>
+    <a href="#px-rec"><img src="./docs/media/devices/PX_Rec.webp" title="PX Rec" width="48"/></a>
+    <a href="#px-world"><img src="./docs/media/devices/PX_World.webp" title="PX World" width="53"/></a>
+    <a href="#fx-kaleidoscope"><img src="./docs/media/devices/PX_FX_Kaleidoscope.webp" title="FX Kaleidoscope" width="59"/></a>
+    <a href="#in-channel"><img src="./docs/media/devices/PX_IN_Channel.webp" title="IN Channel" width="59"/></a>
+    <a href="#in-stream"><img src="./docs/media/devices/PX_IN_Stream_(Syphon).webp" title="IN Stream" width="59"/></a>
+    <a href="#px-mix-transition"><img src="./docs/media/devices/PX_Mix_Transition.webp" title="PX Mix Transition" width="59"/></a>
+    <a href="#gen-sketching"><img src="./docs/media/devices/PX_GEN_Sketching.webp" title="GEN Sketching" width="100"/></a>
+    <a href="#px-shader"><img src="./docs/media/devices/PX_Shader.webp" title="PX Shader" width="203"/></a>
+    <a href="#fx-color"><img src="./docs/media/devices/PX_FX_Color.webp" title="FX Color" width="138"/></a>
+    <a href="#px-sync"><img src="./docs/media/devices/PX_Sync_(expanded).webp" title="PX Sync" width="117"/></a>
+    <a href="#fx-colorize"><img src="./docs/media/devices/PX_FX_Colorize.webp" title="FX Colorize" width="96"/></a>
+    <a href="#px-mix-dry"><img src="./docs/media/devices/PX_Mix_Dry.webp" title="PX Mix Dry" width="59"/></a>
+    <a href="#in-svg"><img src="./docs/media/devices/PX_IN_SVG.webp" title="IN SVG" width="59"/></a>
+    <a href="#gen-text"><img src="./docs/media/devices/PX_GEN_Text.webp" title="GEN Text" width="59"/></a>
+    <a href="#fx-convert"><img src="./docs/media/devices/PX_FX_Convert.webp" title="FX Convert" width="59"/></a>
+    <a href="#px-route-midi"><img src="./docs/media/devices/PX_Route_MIDI_(linked).webp" title="PX Route MIDI" width="48"/></a>
+    <a href="#gen-cos-pattern"><img src="./docs/media/devices/PX_GEN_Cos_Pattern.webp" title="GEN Cos Pattern" width="138"/></a>
+    <a href="#px-follow"><img src="./docs/media/devices/PX_Follow_(expanded).webp" title="PX Follow" width="137"/></a>
+    <a href="#px-sync"><img src="./docs/media/devices/PX_Sync.webp" title="PX Sync" width="48"/></a>
+    <a href="#px-world"><img src="./docs/media/devices/PX_World_(mad_world).webp" title="PX World" width="53"/></a>
+    <a href="#fx-pass"><img src="./docs/media/devices/PX_FX_Pass.webp" title="FX Pass" width="59"/></a>
+    <a href="#in-image"><img src="./docs/media/devices/PX_IN_Image.webp" title="IN Image" width="59"/></a>
+    <a href="#in-video"><img src="./docs/media/devices/PX_IN_Video.webp" title="IN Video" width="59"/></a>
+    <a href="#gen-mini-shader"><img src="./docs/media/devices/PX_GEN_Mini_Shader.webp" title="GEN Mini Shader" width="100"/></a>
+    <a href="#gen-text"><img src="./docs/media/devices/PX_GEN_Text_(expanded).webp" title="GEN Text" width="114"/></a>
+    <a href="#px-mix-view"><img src="./docs/media/devices/PX_Mix_View.webp" title="PX Mix View" width="144"/></a>
 </div>
 <!-- end: collage -->
 
@@ -407,7 +411,7 @@ Transition between two previous devices powered by 90+ transitions from [gl-tran
 
 Merging multiple channels into split screen view
 
-<img src="./docs/media/previews/PX_Mix_Grid_v1.webp" height="231" title="PX Mix Grid" /> <img src="./docs/media/automation/PX_Mix_Grid_v2.webp" height="231" title="PX Mix Grid" />
+<img src="./docs/media/previews/PX_Mix_Grid_v1.webp" height="231" title="PX Mix Grid" /> <img src="./docs/media/automation/PX_Mix_Grid_v1.webp" height="231" title="PX Mix Grid" />
 
 <br>
 
@@ -452,6 +456,8 @@ Interactive Shader Format ([ISF](https://isf.video/)) host for generators and ef
 
 Envelope follower based video rate ADSR modulation with step sequencer
 
+<img src="./docs/media/devices/PX_Follow.webp" height="231" title="PX Follow" /> <img src="./docs/media/devices/PX_Follow_(expanded).webp" height="231" title="PX Follow (expanded)" />
+
 <br>
 
 ---
@@ -460,6 +466,8 @@ Envelope follower based video rate ADSR modulation with step sequencer
 ### PX Sync
 
 Beat sync video rate ADSR modulation with step sequencer
+
+<img src="./docs/media/devices/PX_Sync.webp" height="231" title="PX Sync" /> <img src="./docs/media/devices/PX_Sync_(expanded).webp" height="231" title="PX Sync (expanded)" />
 
 <br>
 

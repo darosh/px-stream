@@ -185,11 +185,12 @@ async function createCollage () {
     rowImages[0],
     rowImages[1],
     rowImages[2],
-    rowImages[3],
-    rowImages[4]
+    rowImages[4],
+    rowImages[3]
   ]
 
-  // rowImages[3].reverse()
+  rowImages[1].reverse()
+  rowImages[2].reverse()
   rowImages[4].reverse()
 
   // Prepare sharp composites and layout data for HTML
