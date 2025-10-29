@@ -15,6 +15,7 @@
 - [ ] sync follow: clamp mod
 - [ ] defer all params
 - [ ] use bundled max version 9.0.7
+- [ ] sync: bypass audio
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
