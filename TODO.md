@@ -6,16 +6,13 @@
 - [ ] demo track should be [standard compatible](https://www.ableton.com/en/live/compare-editions/) = no operator, no wavetable
 - [ ] transition view fit
 - [ ] masking?
-- [ ] windows + preview bug in "using feedback"
 - [ ] transform: crop?
+- [ ] windows + preview bug in "using feedback"
+- [ ] shader should not history undo on session open
+- [ ] max 9.1.0: pop GL UI broken
+- [ ] max 9.1.0: pop size
 - [ ] follow: screenshots + doc
-- [ ] follow
 - [ ] sync: screenshots + doc
-- [ ] sync follow: negative slope
-- [ ] sync follow: clamp mod
-- [ ] defer all params
-- [ ] use bundled max version 9.0.7
-- [ ] sync: bypass audio
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
@@ -270,6 +267,12 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] follow: negative slope
+- [x] follow: clamp mod
+- [x] sync: bypass audio
+- [x] follow
+- [x] defer all params
+- [x] use bundled max version 9.0.7
 - [x] sync: push
 - [x] ~~sync: link skip self clone~~
 - [x] sync: auto re-link
