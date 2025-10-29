@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 500.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 500.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -449,6 +449,15 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "PX._routing_objects.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.631373 ]
 	}
 

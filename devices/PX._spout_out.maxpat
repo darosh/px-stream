@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1213.0, 610.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
@@ -21,10 +21,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 73.0, 72.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
@@ -81,9 +77,8 @@
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 1,
+					"numoutlets" : 0,
 					"patching_rect" : [ 200.0, 282.0, 400.0, 22.0 ],
 					"text" : "jit.gl.spoutsender @sendername \"PX Stream 1\" @enable 0 @automatic 0"
 				}
@@ -166,6 +161,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"oscreceiveudpport" : 0
 	}
 

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 130.0, 150.0, 379.0, 318.0 ],
+		"rect" : [ 128.0, 149.0, 379.0, 318.0 ],
 		"default_fontsize" : 10.0,
 		"default_fontname" : "Arial Bold",
 		"gridsize" : [ 8.0, 8.0 ],

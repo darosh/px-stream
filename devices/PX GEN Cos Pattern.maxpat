@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -340,9 +340,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Shift Hue",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Shift Hue",
+							"parameter_longname" : "Shift Hue",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Shift Hue",
@@ -407,8 +408,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Color Preset",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "A", "B", "C", "D", "E", "F", "G", "H" ],
-							"parameter_defer" : 1, "parameter_longname" : "Color Preset",
+							"parameter_longname" : "Color Preset",
 							"parameter_mmax" : 7,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Color Preset",
@@ -438,8 +440,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Value",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
-							"parameter_defer" : 1, "parameter_longname" : "Value",
+							"parameter_longname" : "Value",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : -10.0,
 							"parameter_modmode" : 3,
@@ -474,10 +477,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Keep Scale Ratio",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Keep Scale Ratio",
+							"parameter_longname" : "Keep Scale Ratio",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Keep Scale Ratio",
@@ -510,10 +514,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "B",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "B",
+							"parameter_longname" : "B",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "B",
@@ -545,10 +550,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "G",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "G",
+							"parameter_longname" : "G",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "G",
@@ -581,10 +587,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "R",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "R",
+							"parameter_longname" : "R",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "R",
@@ -617,10 +624,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "A",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "A",
+							"parameter_longname" : "A",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "A",
@@ -661,9 +669,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Steps",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Steps",
+							"parameter_longname" : "Steps",
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Steps",
 							"parameter_type" : 0,
@@ -679,7 +688,7 @@
 			}
 , 			{
 				"box" : 				{
-					"active1" : [ 1.0, 0.67843137254902, 0.337254901960784, 1.0 ],
+					"active1" : [ 0.9, 0.65, 0.05, 1.0 ],
 					"bubblesize" : 12,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.0,
@@ -824,9 +833,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Shift Y",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Shift Y",
+							"parameter_longname" : "Shift Y",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 3,
@@ -858,9 +868,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Shift X",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Shift X",
+							"parameter_longname" : "Shift X",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 3,
@@ -906,9 +917,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Scale Y",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Scale Y",
+							"parameter_longname" : "Scale Y",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 3,
@@ -940,9 +952,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Scale X",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Scale X",
+							"parameter_longname" : "Scale X",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 3,
@@ -988,9 +1001,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Phase A",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Phase A",
+							"parameter_longname" : "Phase A",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Phase A",
@@ -1019,9 +1033,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Frequency A",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Frequency A",
+							"parameter_longname" : "Frequency A",
 							"parameter_mmax" : 2.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Frequency A",
@@ -1050,9 +1065,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Amplitude A",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Amplitude A",
+							"parameter_longname" : "Amplitude A",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Amplitude A",
@@ -1081,9 +1097,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Offset A",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Offset A",
+							"parameter_longname" : "Offset A",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Offset A",
@@ -1272,9 +1289,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Phase B",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Phase B",
+							"parameter_longname" : "Phase B",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Phase B",
@@ -1303,9 +1321,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Phase G",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Phase G",
+							"parameter_longname" : "Phase G",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Phase G",
@@ -1334,9 +1353,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Phase R",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Phase R",
+							"parameter_longname" : "Phase R",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Phase R",
@@ -1365,9 +1385,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Frequency B",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Frequency B",
+							"parameter_longname" : "Frequency B",
 							"parameter_mmax" : 2.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Frequency B",
@@ -1396,9 +1417,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Frequency G",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Frequency G",
+							"parameter_longname" : "Frequency G",
 							"parameter_mmax" : 2.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Frequency G",
@@ -1427,9 +1449,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Frequency R",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Frequency R",
+							"parameter_longname" : "Frequency R",
 							"parameter_mmax" : 2.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Frequency R",
@@ -1458,9 +1481,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Amplitude B",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Amplitude B",
+							"parameter_longname" : "Amplitude B",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Amplitude B",
@@ -1489,9 +1513,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Amplitude G",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Amplitude G",
+							"parameter_longname" : "Amplitude G",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Amplitude G",
@@ -1520,9 +1545,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Amplitude R",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Amplitude R",
+							"parameter_longname" : "Amplitude R",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Amplitude R",
@@ -1551,9 +1577,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Offset B",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Offset B",
+							"parameter_longname" : "Offset B",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Offset B",
@@ -1582,9 +1609,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Offset G",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Offset G",
+							"parameter_longname" : "Offset G",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Offset G",
@@ -1613,9 +1641,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Offset R",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Offset R",
+							"parameter_longname" : "Offset R",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Offset R",
@@ -1715,10 +1744,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Keep Ratio",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Keep Ratio",
+							"parameter_longname" : "Keep Ratio",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Keep Ratio",
@@ -1784,9 +1814,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Density",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Density",
+							"parameter_longname" : "Density",
 							"parameter_mmax" : 4.0,
 							"parameter_mmin" : -4.0,
 							"parameter_modmode" : 3,
@@ -1997,7 +2028,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Angle",
-							"parameter_defer" : 1, "parameter_longname" : "Angle",
+							"parameter_defer" : 1,
+							"parameter_longname" : "Angle",
 							"parameter_mmax" : 360.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Angle",
@@ -2047,8 +2079,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Pattern",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Linear", "Radial", "Spiral", "Log", "Flower", "Twisted", "Ripples", "Hyperbolic", "Plasma", "Board", "Waves", "Liquid", "Veins", "Cells", "Clouds", "Fractal", "Flowing", "Turbulence", "Random", "Grid", "Noise", "Constant" ],
-							"parameter_defer" : 1, "parameter_longname" : "Pattern",
+							"parameter_longname" : "Pattern",
 							"parameter_mmax" : 21,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Pattern",
@@ -2214,7 +2247,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -2240,11 +2273,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -3302,15 +3336,15 @@
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}
 ,
 			"parameter_overrides" : 			{
 				"obj-109::obj-151" : 				{
-					"parameter_defer" : 1, "parameter_longname" : "Dimensions[1]"
+					"parameter_defer" : 1,
+					"parameter_longname" : "Dimensions[1]"
 				}
 
 			}

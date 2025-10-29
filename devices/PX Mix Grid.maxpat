@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 498.0, 508.0 ],
+		"rect" : [ 133.0, 153.0, 130.0, 168.0 ],
 		"openrect" : [ 0.0, 0.0, 130.0, 169.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
@@ -50,10 +50,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Picture in picture",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "PIP",
+							"parameter_longname" : "PIP",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "PIP",
@@ -360,10 +361,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Use 0",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Use 0",
+							"parameter_longname" : "Use 0",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Use 0",
@@ -419,10 +421,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "View",
+							"parameter_longname" : "View",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View",
@@ -910,10 +913,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Center",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Center",
+							"parameter_longname" : "Center",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Center",
@@ -943,9 +947,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Offset Y",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Offset Y",
+							"parameter_longname" : "Offset Y",
 							"parameter_mmax" : 5.0,
 							"parameter_mmin" : -5.0,
 							"parameter_modmode" : 3,
@@ -976,9 +981,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Offset X",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Offset X",
+							"parameter_longname" : "Offset X",
 							"parameter_mmax" : 5.0,
 							"parameter_mmin" : -5.0,
 							"parameter_modmode" : 3,
@@ -1009,9 +1015,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Scale Y",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Scale Y",
+							"parameter_longname" : "Scale Y",
 							"parameter_mmax" : 5.0,
 							"parameter_mmin" : 0.001,
 							"parameter_modmode" : 3,
@@ -1042,9 +1049,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Scale X",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Scale X",
+							"parameter_longname" : "Scale X",
 							"parameter_mmax" : 5.0,
 							"parameter_mmin" : 0.001,
 							"parameter_modmode" : 3,
@@ -1081,8 +1089,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Randomize",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Randomize",
+							"parameter_longname" : "Randomize",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Randomize",
@@ -1114,8 +1123,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Use 8",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Use 8",
+							"parameter_longname" : "Use 8",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Use 8",
@@ -1147,8 +1157,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Use 7",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Use 7",
+							"parameter_longname" : "Use 7",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Use 7",
@@ -1180,8 +1191,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Use 6",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Use 6",
+							"parameter_longname" : "Use 6",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Use 6",
@@ -1213,8 +1225,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Use 5",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Use 5",
+							"parameter_longname" : "Use 5",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Use 5",
@@ -1246,8 +1259,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Use 4",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Use 4",
+							"parameter_longname" : "Use 4",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Use 4",
@@ -1279,8 +1293,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Use 3",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Use 3",
+							"parameter_longname" : "Use 3",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Use 3",
@@ -1312,8 +1327,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Use 2",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Use 2",
+							"parameter_longname" : "Use 2",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Use 2",
@@ -1345,10 +1361,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Use 1",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Use 1",
+							"parameter_longname" : "Use 1",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Use 1",
@@ -1387,10 +1404,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "E5",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "E5",
+							"parameter_longname" : "E5",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "E5",
@@ -1428,10 +1446,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "E4",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "E4",
+							"parameter_longname" : "E4",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "E4",
@@ -1469,10 +1488,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "E3",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "E3",
+							"parameter_longname" : "E3",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "E3",
@@ -1510,10 +1530,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "E2",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "E2",
+							"parameter_longname" : "E2",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "E2",
@@ -1551,10 +1572,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "E1",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "E1",
+							"parameter_longname" : "E1",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "E1",
@@ -1592,10 +1614,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D5",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "D5",
+							"parameter_longname" : "D5",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "D5",
@@ -1633,10 +1656,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D4",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "D4",
+							"parameter_longname" : "D4",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "D4",
@@ -1674,10 +1698,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D3",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "D3",
+							"parameter_longname" : "D3",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "D3",
@@ -1715,10 +1740,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D2",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "D2",
+							"parameter_longname" : "D2",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "D2",
@@ -1756,10 +1782,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D1",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "D1",
+							"parameter_longname" : "D1",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "D1",
@@ -1797,10 +1824,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C5",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "C5",
+							"parameter_longname" : "C5",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "C5",
@@ -1838,10 +1866,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C4",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "C4",
+							"parameter_longname" : "C4",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "C4",
@@ -1879,10 +1908,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C3",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "C3",
+							"parameter_longname" : "C3",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "C3",
@@ -1920,10 +1950,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C2",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "C2",
+							"parameter_longname" : "C2",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "C2",
@@ -1961,10 +1992,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C1",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "C1",
+							"parameter_longname" : "C1",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "C1",
@@ -2002,10 +2034,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B5",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "B5",
+							"parameter_longname" : "B5",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "B5",
@@ -2043,10 +2076,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B4",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "B4",
+							"parameter_longname" : "B4",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "B4",
@@ -2084,10 +2118,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B3",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "B3",
+							"parameter_longname" : "B3",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "B3",
@@ -2125,10 +2160,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B2",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "B2",
+							"parameter_longname" : "B2",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "B2",
@@ -2166,10 +2202,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B1",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "B1",
+							"parameter_longname" : "B1",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "B1",
@@ -2207,10 +2244,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A5",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "A5",
+							"parameter_longname" : "A5",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "A5",
@@ -2248,10 +2286,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A4",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "A4",
+							"parameter_longname" : "A4",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "A4",
@@ -2289,10 +2328,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A3",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "A3",
+							"parameter_longname" : "A3",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "A3",
@@ -2330,10 +2370,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A2",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "A2",
+							"parameter_longname" : "A2",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "A2",
@@ -2371,10 +2412,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A1",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ " ", "1", "2", "3", "4", "5", "6", "7", "8" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "A1",
+							"parameter_longname" : "A1",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "A1",
@@ -2702,11 +2744,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -4021,15 +4064,15 @@
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}
 ,
 			"parameter_overrides" : 			{
 				"obj-35::obj-151" : 				{
-					"parameter_defer" : 1, "parameter_longname" : "Dimensions"
+					"parameter_defer" : 1,
+					"parameter_longname" : "Dimensions"
 				}
 
 			}

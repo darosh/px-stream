@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -55,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -126,7 +126,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 9,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1072,7 +1072,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Alpha 8",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1092,10 +1092,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Alpha 8",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Alpha 8",
+							"parameter_longname" : "Alpha 8",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Alpha 8",
@@ -1111,7 +1112,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Alpha 7",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1131,10 +1132,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Alpha 7",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Alpha 7",
+							"parameter_longname" : "Alpha 7",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Alpha 7",
@@ -1150,7 +1152,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Alpha 6",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1170,10 +1172,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Alpha 6",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Alpha 6",
+							"parameter_longname" : "Alpha 6",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Alpha 6",
@@ -1189,7 +1192,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Alpha 5",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1209,10 +1212,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Alpha 5",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Alpha 5",
+							"parameter_longname" : "Alpha 5",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Alpha 5",
@@ -1228,7 +1232,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Alpha 4",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1248,10 +1252,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Alpha 4",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Alpha 4",
+							"parameter_longname" : "Alpha 4",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Alpha 4",
@@ -1267,7 +1272,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Alpha 3",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1287,10 +1292,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Alpha 3",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Alpha 3",
+							"parameter_longname" : "Alpha 3",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Alpha 3",
@@ -1306,7 +1312,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Alpha 2",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1326,10 +1332,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Alpha 2",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Alpha 2",
+							"parameter_longname" : "Alpha 2",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Alpha 2",
@@ -1345,7 +1352,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Alpha 1",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1365,8 +1372,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Alpha 1",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Alpha 1",
+							"parameter_longname" : "Alpha 1",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Alpha 1",
@@ -1696,7 +1704,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "OKLAB 8",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1716,8 +1724,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "OKLAB 8",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "OKLAB 8",
+							"parameter_longname" : "OKLAB 8",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "OKLAB 8",
@@ -1734,7 +1743,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Swap 8",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1754,8 +1763,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Swap 8",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Swap 8",
+							"parameter_longname" : "Swap 8",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Swap 8",
@@ -1772,7 +1782,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "OKLAB 7",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1792,8 +1802,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "OKLAB 7",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "OKLAB 7",
+							"parameter_longname" : "OKLAB 7",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "OKLAB 7",
@@ -1810,7 +1821,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Swap 7",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1830,8 +1841,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Swap 7",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Swap 7",
+							"parameter_longname" : "Swap 7",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Swap 7",
@@ -1848,7 +1860,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "OKLAB 6",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1868,8 +1880,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "OKLAB 6",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "OKLAB 6",
+							"parameter_longname" : "OKLAB 6",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "OKLAB 6",
@@ -1886,7 +1899,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Swap 6",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1906,8 +1919,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Swap 6",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Swap 6",
+							"parameter_longname" : "Swap 6",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Swap 6",
@@ -1924,7 +1938,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "OKLAB 5",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1944,8 +1958,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "OKLAB 5",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "OKLAB 5",
+							"parameter_longname" : "OKLAB 5",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "OKLAB 5",
@@ -1962,7 +1977,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Swap 5",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1982,8 +1997,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Swap 5",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Swap 5",
+							"parameter_longname" : "Swap 5",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Swap 5",
@@ -2000,7 +2016,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "OKLAB 4",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2020,8 +2036,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "OKLAB 4",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "OKLAB 4",
+							"parameter_longname" : "OKLAB 4",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "OKLAB 4",
@@ -2038,7 +2055,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Swap 4",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2058,8 +2075,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Swap 4",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Swap 4",
+							"parameter_longname" : "Swap 4",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Swap 4",
@@ -2076,7 +2094,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "OKLAB 3",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2096,8 +2114,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "OKLAB 3",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "OKLAB 3",
+							"parameter_longname" : "OKLAB 3",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "OKLAB 3",
@@ -2114,7 +2133,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Swap 3",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2134,8 +2153,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Swap 3",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Swap 3",
+							"parameter_longname" : "Swap 3",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Swap 3",
@@ -2152,7 +2172,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "OKLAB 2",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2172,8 +2192,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "OKLAB 2",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "OKLAB 2",
+							"parameter_longname" : "OKLAB 2",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "OKLAB 2",
@@ -2190,7 +2211,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Swap 2",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2210,8 +2231,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Swap 2",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Swap 2",
+							"parameter_longname" : "Swap 2",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Swap 2",
@@ -2228,8 +2250,8 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
-					"activetextoncolor" : [ 0.882352941176471, 0.882352941176471, 0.882352941176471, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activetextoncolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"annotation_name" : "OKLAB 1",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2257,8 +2279,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "OKLAB 1",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "OKLAB 1",
+							"parameter_longname" : "OKLAB 1",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "OKLAB 1",
@@ -2268,7 +2291,7 @@
 					}
 ,
 					"text" : "OKLAB",
-					"textcolor" : [ 0.03921568627451, 0.03921568627451, 0.03921568627451, 1.0 ],
+					"textcolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
 					"texton" : "OKLAB",
 					"varname" : "live.text[22]"
 				}
@@ -2276,7 +2299,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Swap 1",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -2296,8 +2319,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Swap 1",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Swap 1",
+							"parameter_longname" : "Swap 1",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Swap 1",
@@ -2328,9 +2352,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 8",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "View 8",
+							"parameter_longname" : "View 8",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View 8",
@@ -2359,9 +2384,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 7",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "View 7",
+							"parameter_longname" : "View 7",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View 7",
@@ -2390,9 +2416,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 6",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "View 6",
+							"parameter_longname" : "View 6",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View 6",
@@ -2421,9 +2448,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 5",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "View 5",
+							"parameter_longname" : "View 5",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View 5",
@@ -2452,9 +2480,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 4",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "View 4",
+							"parameter_longname" : "View 4",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View 4",
@@ -2483,9 +2512,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 3",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "View 3",
+							"parameter_longname" : "View 3",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View 3",
@@ -2514,9 +2544,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 2",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "View 2",
+							"parameter_longname" : "View 2",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View 2",
@@ -2545,9 +2576,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View 1",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "View 1",
+							"parameter_longname" : "View 1",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View 1",
@@ -2644,7 +2676,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4834,7 +4866,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Preview",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -4859,10 +4891,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Preview",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Preview",
+							"parameter_longname" : "Preview",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Preview",
@@ -5139,7 +5172,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5371,7 +5404,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5604,7 +5637,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5787,7 +5820,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5981,7 +6014,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6164,7 +6197,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6411,7 +6444,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6672,7 +6705,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7937,7 +7970,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8410,7 +8443,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9417,7 +9450,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10064,7 +10097,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10135,7 +10168,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 9,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11658,7 +11691,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11692,7 +11725,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 9,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12235,7 +12268,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 9,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12961,7 +12994,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 9,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13540,7 +13573,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 9,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -14357,7 +14390,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15415,9 +15448,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 8",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "Blend 8",
+							"parameter_longname" : "Blend 8",
 							"parameter_mmax" : 36,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Blend 8",
@@ -15446,9 +15480,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 7",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "Blend 7",
+							"parameter_longname" : "Blend 7",
 							"parameter_mmax" : 36,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Blend 7",
@@ -15477,9 +15512,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 6",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "Blend 6",
+							"parameter_longname" : "Blend 6",
 							"parameter_mmax" : 36,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Blend 6",
@@ -15508,9 +15544,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 5",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "Blend 5",
+							"parameter_longname" : "Blend 5",
 							"parameter_mmax" : 36,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Blend 5",
@@ -15539,9 +15576,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 4",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "Blend 4",
+							"parameter_longname" : "Blend 4",
 							"parameter_mmax" : 36,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Blend 4",
@@ -15570,9 +15608,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 3",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "Blend 3",
+							"parameter_longname" : "Blend 3",
 							"parameter_mmax" : 36,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Blend 3",
@@ -15601,9 +15640,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 2",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "Blend 2",
+							"parameter_longname" : "Blend 2",
 							"parameter_mmax" : 36,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Blend 2",
@@ -15632,9 +15672,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend 1",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "Blend 1",
+							"parameter_longname" : "Blend 1",
 							"parameter_mmax" : 36,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Blend 1",
@@ -16018,9 +16059,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 8",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Mix 8",
+							"parameter_longname" : "Mix 8",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Mix 8",
@@ -16051,9 +16093,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 7",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Mix 7",
+							"parameter_longname" : "Mix 7",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Mix 7",
@@ -16084,9 +16127,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 6",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Mix 6",
+							"parameter_longname" : "Mix 6",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Mix 6",
@@ -16117,9 +16161,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 5",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Mix 5",
+							"parameter_longname" : "Mix 5",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Mix 5",
@@ -16150,9 +16195,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 4",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Mix 4",
+							"parameter_longname" : "Mix 4",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Mix 4",
@@ -16183,9 +16229,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 3",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Mix 3",
+							"parameter_longname" : "Mix 3",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Mix 3",
@@ -16216,9 +16263,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 2",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Mix 2",
+							"parameter_longname" : "Mix 2",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Mix 2",
@@ -16249,9 +16297,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mix 1",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Mix 1",
+							"parameter_longname" : "Mix 1",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Mix 1",
@@ -16837,7 +16886,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Z",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -16857,8 +16906,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Z",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Z",
+							"parameter_longname" : "Z",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Z",
@@ -16875,7 +16925,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Y",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -16895,8 +16945,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Y",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Y",
+							"parameter_longname" : "Y",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Y",
@@ -16913,7 +16964,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "X",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -16933,8 +16984,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "X",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "X",
+							"parameter_longname" : "X",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "X",
@@ -16951,7 +17003,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "F",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -16971,8 +17023,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "F",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "F",
+							"parameter_longname" : "F",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "F",
@@ -16989,7 +17042,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "E",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -17009,8 +17062,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "E",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "E",
+							"parameter_longname" : "E",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "E",
@@ -17027,7 +17081,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "D",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -17047,8 +17101,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "D",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "D",
+							"parameter_longname" : "D",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "D",
@@ -17065,7 +17120,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "C",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -17085,8 +17140,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "C",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "C",
+							"parameter_longname" : "C",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "C",
@@ -17103,7 +17159,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "B",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -17123,8 +17179,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "B",
+							"parameter_longname" : "B",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "B",
@@ -17140,7 +17197,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "A",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -17160,8 +17217,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "A",
+							"parameter_longname" : "A",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "A",
@@ -17377,7 +17435,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "More",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -17402,8 +17460,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "More",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "More",
+							"parameter_longname" : "More",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "More",
@@ -17435,8 +17494,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "8",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "8",
+							"parameter_longname" : "8",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "8",
@@ -17468,8 +17528,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "7",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "7",
+							"parameter_longname" : "7",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "7",
@@ -17501,8 +17562,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "6",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "6",
+							"parameter_longname" : "6",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "6",
@@ -17534,8 +17596,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "5",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "5",
+							"parameter_longname" : "5",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "5",
@@ -17567,8 +17630,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "4",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "4",
+							"parameter_longname" : "4",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "4",
@@ -17600,8 +17664,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "3",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "3",
+							"parameter_longname" : "3",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "3",
@@ -17633,8 +17698,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "2",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "2",
+							"parameter_longname" : "2",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "2",
@@ -17666,10 +17732,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "1",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "1",
+							"parameter_longname" : "1",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "1",
@@ -17854,7 +17921,7 @@
 					}
 ,
 					"text" : "Mix OUT",
-					"textcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -17862,7 +17929,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"id" : "obj-93",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -17902,7 +17969,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -17983,9 +18050,10 @@
 									"presentation_rect" : [ 4.0, 308.0, 67.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
-											"parameter_defer" : 1, "parameter_longname" : "Help",
+											"parameter_longname" : "Help",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Help",
@@ -18049,8 +18117,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "FPS",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "FPS",
+							"parameter_longname" : "FPS",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "FPS",
@@ -18083,8 +18152,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Pop Window",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Pop Window",
+							"parameter_longname" : "Pop Window",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Pop",
@@ -18219,7 +18289,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -25263,9 +25333,19 @@
 			"obj-91" : [ "A", "A", 0 ],
 			"obj-95" : [ "Z", "Z", 0 ],
 			"obj-96" : [ "FPS", "FPS", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-146::obj-151" : 				{
-					"parameter_defer" : 1, "parameter_longname" : "Dimensions"
+					"parameter_defer" : 1,
+					"parameter_longname" : "Dimensions"
 				}
 
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -55,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -307,7 +307,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -405,9 +405,10 @@
 									"presentation_rect" : [ 23.0, 270.0, 67.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
-											"parameter_defer" : 1, "parameter_longname" : "Help",
+											"parameter_longname" : "Help",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Help",
@@ -874,11 +875,12 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "FPS",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "0", "1", "4", "8", "16", "24", "30", "60", "90", "120", "240" ],
 							"parameter_info" : "Select target FPS. FPS 0 will use available maximum with displaylink turned on on Mac.",
 							"parameter_initial" : [ 5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "FPS",
+							"parameter_longname" : "FPS",
 							"parameter_mmax" : 10,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "FPS",
@@ -908,7 +910,7 @@
 					}
 ,
 					"text" : "FPS Limit",
-					"textcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -932,11 +934,12 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Enabled",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Stop the world here. Disabling device will do the same.",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Enabled",
+							"parameter_longname" : "Enabled",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Enabled",
@@ -962,10 +965,11 @@
 					"patching_rect" : [ 96.0, 64.0, 100.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "2560 1440", "2560 1080", "1920 1080", "1280 720", "720 1280", "640 480", "320 240", "512 512", "480 480", "256 256" ],
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Dimensions",
+							"parameter_longname" : "Dimensions",
 							"parameter_mmax" : 9,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Dimensions",
@@ -1230,7 +1234,7 @@
 					}
 ,
 					"text" : "FPS: ",
-					"textcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -1252,7 +1256,7 @@
 					}
 ,
 					"text" : "World: ",
-					"textcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -1260,7 +1264,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"id" : "obj-9",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1819,6 +1823,15 @@
 			"obj-16" : [ "Enabled", "Enabled", 0 ],
 			"obj-23" : [ "FPS", "FPS", 0 ],
 			"obj-65::obj-1" : [ "Help", "Help", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

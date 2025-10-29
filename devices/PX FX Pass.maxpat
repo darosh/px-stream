@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -290,8 +290,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Pass",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Bloom", "FXAA", "Gamma", "Grain", "Tonemap", "Vignette" ],
-							"parameter_defer" : 1, "parameter_longname" : "Pass",
+							"parameter_longname" : "Pass",
 							"parameter_mmax" : 5,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Pass",
@@ -514,7 +515,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -540,11 +541,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -616,7 +618,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -658,10 +660,11 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Anamorphic",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Anamorphic",
+											"parameter_longname" : "Anamorphic",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Colored",
@@ -693,10 +696,11 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Colored",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Colored",
+											"parameter_longname" : "Colored",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Colored",
@@ -726,10 +730,11 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Tonemapping",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "none", "Reinhard", "Reinhard-Jodie", "ACES film", "Uncharted 2" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Tonemapping",
+											"parameter_longname" : "Tonemapping",
 											"parameter_mmax" : 4,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Tonemapping",
@@ -757,10 +762,11 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Gamma Correction",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "None", "Pow", "Exact" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Gamma Correction",
+											"parameter_longname" : "Gamma Correction",
 											"parameter_mmax" : 2,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Gamma Correction",
@@ -802,10 +808,11 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Show Clipped",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Show Clipped",
+											"parameter_longname" : "Show Clipped",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Show Clipped",
@@ -837,10 +844,11 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Bloom Gamma Correction",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Bloom Gamma Correction",
+											"parameter_longname" : "Bloom Gamma Correction",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Bloom Gamma Correction",
@@ -872,10 +880,11 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Bloom Tonemapping",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Bloom Tonemapping",
+											"parameter_longname" : "Bloom Tonemapping",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Bloom Tonemapping",
@@ -905,9 +914,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Falloff",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 2 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Falloff",
+											"parameter_longname" : "Falloff",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Falloff",
@@ -973,9 +983,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Exposure",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Exposure",
+											"parameter_longname" : "Exposure",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Exposure",
@@ -1005,9 +1016,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Expand",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 2 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Expand",
+											"parameter_longname" : "Expand",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Expand",
@@ -1037,9 +1049,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "X",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "X",
+											"parameter_longname" : "X",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "X",
@@ -1069,9 +1082,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Y",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Y",
+											"parameter_longname" : "Y",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Y",
@@ -1101,9 +1115,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Bars",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Bars",
+											"parameter_longname" : "Bars",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Bars",
@@ -1301,9 +1316,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "White",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 11.199999999999999 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "White",
+											"parameter_longname" : "White",
 											"parameter_mmax" : 100.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "White",
@@ -1333,9 +1349,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Invert Gamma",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.555555 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Invert Gamma",
+											"parameter_longname" : "Invert Gamma",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Invert Gamma",
@@ -1365,9 +1382,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Tonemap Exposure",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 2 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Tonemap Exposure",
+											"parameter_longname" : "Tonemap Exposure",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Tonemap Exposure",
@@ -1499,9 +1517,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Luma",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Luma",
+											"parameter_longname" : "Luma",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Luma",
@@ -1531,9 +1550,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Amount",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.25 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Amount",
+											"parameter_longname" : "Amount",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Amount",
@@ -1563,9 +1583,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Size",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 2.5 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Size",
+											"parameter_longname" : "Size",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Size",
@@ -1595,9 +1616,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Tint",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.7 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Tint",
+											"parameter_longname" : "Tint",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Tint",
@@ -1781,9 +1803,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Max White",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 3 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Max White",
+											"parameter_longname" : "Max White",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Max White",
@@ -1813,9 +1836,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Gamma Exposure",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Gamma Exposure",
+											"parameter_longname" : "Gamma Exposure",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Gamma Exposure",
@@ -1845,9 +1869,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Dithering",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Dithering",
+											"parameter_longname" : "Dithering",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Dithering",
@@ -1877,9 +1902,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Colors",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 256 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Colors",
+											"parameter_longname" : "Colors",
 											"parameter_mmax" : 256.0,
 											"parameter_modmode" : 4,
 											"parameter_shortname" : "Colors",
@@ -2153,9 +2179,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Bloom White",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Bloom White",
+											"parameter_longname" : "Bloom White",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Bloom White",
@@ -2185,9 +2212,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Upsample",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Upsample",
+											"parameter_longname" : "Upsample",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Upsample",
@@ -2217,9 +2245,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Threshold",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.99 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Threshold",
+											"parameter_longname" : "Threshold",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Threshold",
@@ -2249,9 +2278,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Gamma",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Gamma",
+											"parameter_longname" : "Gamma",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Gamma",
@@ -2281,9 +2311,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Bloom Exposure",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Bloom Exposure",
+											"parameter_longname" : "Bloom Exposure",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Bloom Exposure",
@@ -2313,9 +2344,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Bloom",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Bloom",
+											"parameter_longname" : "Bloom",
 											"parameter_mmax" : 10.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Bloom",
@@ -3769,6 +3801,15 @@
 			"obj-26::obj-8" : [ "Bloom Tonemapping", "Bloom Tonemapping", 0 ],
 			"obj-26::obj-9" : [ "Bloom Gamma Correction", "Bloom Gamma Correction", 0 ],
 			"obj-366" : [ "Channel", "Channel", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

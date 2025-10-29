@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 641.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 641.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -289,7 +289,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -379,9 +379,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Rotate Z",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Rotate Z",
+											"parameter_longname" : "Rotate Z",
 											"parameter_mmax" : 360.0,
 											"parameter_mmin" : -360.0,
 											"parameter_modmode" : 3,
@@ -413,9 +414,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Rotate Y",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Rotate Y",
+											"parameter_longname" : "Rotate Y",
 											"parameter_mmax" : 360.0,
 											"parameter_mmin" : -360.0,
 											"parameter_modmode" : 3,
@@ -447,9 +449,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Rotate X",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Rotate X",
+											"parameter_longname" : "Rotate X",
 											"parameter_mmax" : 360.0,
 											"parameter_mmin" : -360.0,
 											"parameter_modmode" : 3,
@@ -481,9 +484,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Vector Z",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Vector Z",
+											"parameter_longname" : "Vector Z",
 											"parameter_mmax" : 100.0,
 											"parameter_mmin" : -100.0,
 											"parameter_modmode" : 3,
@@ -515,9 +519,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Vector Y",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Vector Y",
+											"parameter_longname" : "Vector Y",
 											"parameter_mmax" : 100.0,
 											"parameter_mmin" : -100.0,
 											"parameter_modmode" : 3,
@@ -549,9 +554,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Vector X",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Vector X",
+											"parameter_longname" : "Vector X",
 											"parameter_mmax" : 100.0,
 											"parameter_mmin" : -100.0,
 											"parameter_modmode" : 3,
@@ -607,9 +613,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Rotate",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Rotate",
+											"parameter_longname" : "Rotate",
 											"parameter_mmax" : 360.0,
 											"parameter_mmin" : -360.0,
 											"parameter_modmode" : 3,
@@ -798,10 +805,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Keep Ratio",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Keep Ratio",
+							"parameter_longname" : "Keep Ratio",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Keep Ratio",
@@ -971,9 +979,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Scale Y",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Scale Y",
+							"parameter_longname" : "Scale Y",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : -10.0,
 							"parameter_modmode" : 3,
@@ -1005,9 +1014,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Scale X",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Scale X",
+							"parameter_longname" : "Scale X",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : -10.0,
 							"parameter_modmode" : 3,
@@ -1039,9 +1049,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Offset Y",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Offset Y",
+							"parameter_longname" : "Offset Y",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : -10.0,
 							"parameter_modmode" : 3,
@@ -1073,9 +1084,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Offset X",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Offset X",
+							"parameter_longname" : "Offset X",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : -10.0,
 							"parameter_modmode" : 3,
@@ -1175,7 +1187,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -1201,11 +1213,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -1322,8 +1335,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Rotation Mode",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Axis", "Vector" ],
-							"parameter_defer" : 1, "parameter_longname" : "Rotation Mode",
+							"parameter_longname" : "Rotation Mode",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Rotation Mode",
@@ -1784,6 +1798,15 @@
 			"obj-62" : [ "Scale Y", "Scale Y", 0 ],
 			"obj-63" : [ "Scale X", "Scale X", 0 ],
 			"obj-96" : [ "Keep Ratio", "Keep Ratio", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

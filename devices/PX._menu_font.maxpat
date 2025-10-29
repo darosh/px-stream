@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 133.0, 153.0, 98.0, 18.0 ],
 		"openrect" : [ 0.0, 0.0, 98.0, 19.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
@@ -249,8 +249,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Font",
+							"parameter_defer" : 1,
 							"parameter_info" : "Selected font",
-							"parameter_defer" : 1, "parameter_longname" : "Font Automation",
+							"parameter_longname" : "Font Automation",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Font",
@@ -306,10 +307,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Font",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Loading...", " " ],
 							"parameter_info" : "Selected font",
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Font",
+							"parameter_longname" : "Font",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Font",
@@ -334,7 +336,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -863,10 +865,11 @@
 					"patching_rect" : [ 552.0, 504.0, 133.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_defer" : 1,
 							"parameter_initial" : [ "" ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "FileName",
+							"parameter_longname" : "FileName",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "FileName",
 							"parameter_type" : 3
@@ -1287,8 +1290,7 @@
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}

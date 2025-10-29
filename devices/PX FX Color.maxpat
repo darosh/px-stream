@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 520.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -169,10 +169,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Show Hue",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Show Hue",
+							"parameter_longname" : "Show Hue",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Show Hue",
@@ -378,7 +379,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -403,7 +404,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 9,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -618,7 +619,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 9,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -952,9 +953,10 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Shadow X",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Shadow X",
+											"parameter_longname" : "Shadow X",
 											"parameter_mmax" : 100.0,
 											"parameter_mmin" : -100.0,
 											"parameter_modmode" : 3,
@@ -1005,9 +1007,10 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Shadow Y",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Shadow Y",
+											"parameter_longname" : "Shadow Y",
 											"parameter_mmax" : 100.0,
 											"parameter_mmin" : -100.0,
 											"parameter_modmode" : 3,
@@ -1082,9 +1085,10 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Light X",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Light X",
+											"parameter_longname" : "Light X",
 											"parameter_mmax" : 100.0,
 											"parameter_mmin" : -100.0,
 											"parameter_modmode" : 3,
@@ -1135,9 +1139,10 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Light Y",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Light Y",
+											"parameter_longname" : "Light Y",
 											"parameter_mmax" : 100.0,
 											"parameter_mmin" : -100.0,
 											"parameter_modmode" : 3,
@@ -1212,9 +1217,10 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Global X",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Global X",
+											"parameter_longname" : "Global X",
 											"parameter_mmax" : 100.0,
 											"parameter_mmin" : -100.0,
 											"parameter_modmode" : 3,
@@ -1265,9 +1271,10 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Global Y",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Global Y",
+											"parameter_longname" : "Global Y",
 											"parameter_mmax" : 100.0,
 											"parameter_mmin" : -100.0,
 											"parameter_modmode" : 3,
@@ -1342,9 +1349,10 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Dark X",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Dark X",
+											"parameter_longname" : "Dark X",
 											"parameter_mmax" : 100.0,
 											"parameter_mmin" : -100.0,
 											"parameter_modmode" : 3,
@@ -1395,9 +1403,10 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Dark Y",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Dark Y",
+											"parameter_longname" : "Dark Y",
 											"parameter_mmax" : 100.0,
 											"parameter_mmin" : -100.0,
 											"parameter_modmode" : 3,
@@ -1551,9 +1560,10 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Reset Shadow",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
-											"parameter_defer" : 1, "parameter_longname" : "Reset Shadow",
+											"parameter_longname" : "Reset Shadow",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Reset Shadow",
@@ -1635,9 +1645,10 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Reset Light",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
-											"parameter_defer" : 1, "parameter_longname" : "Reset Light",
+											"parameter_longname" : "Reset Light",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Reset Light",
@@ -1719,9 +1730,10 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Reset Global",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
-											"parameter_defer" : 1, "parameter_longname" : "Reset Global",
+											"parameter_longname" : "Reset Global",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Reset Global",
@@ -1803,9 +1815,10 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Reset Dark",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
-											"parameter_defer" : 1, "parameter_longname" : "Reset Dark",
+											"parameter_longname" : "Reset Dark",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Reset Dark",
@@ -2113,9 +2126,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Global Lum",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Global Lum",
+											"parameter_longname" : "Global Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -2146,9 +2160,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Global Sat",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Global Sat",
+											"parameter_longname" : "Global Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Global Sat",
@@ -2179,9 +2194,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Global Hue",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Global Hue",
+											"parameter_longname" : "Global Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -2316,9 +2332,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Y Lum",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Y Lum",
+											"parameter_longname" : "Y Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -2349,9 +2366,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Y Sat",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Y Sat",
+											"parameter_longname" : "Y Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Y Sat",
@@ -2382,9 +2400,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Y Hue",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Y Hue",
+											"parameter_longname" : "Y Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -2429,9 +2448,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "M Lum",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "M Lum",
+											"parameter_longname" : "M Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -2462,9 +2482,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "M Sat",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "M Sat",
+											"parameter_longname" : "M Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "M Sat",
@@ -2495,9 +2516,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "M Hue",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "M Hue",
+											"parameter_longname" : "M Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -2542,9 +2564,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "C Lum",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "C Lum",
+											"parameter_longname" : "C Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -2575,9 +2598,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "C Sat",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "C Sat",
+											"parameter_longname" : "C Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "C Sat",
@@ -2608,9 +2632,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "C Hue",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "C Hue",
+											"parameter_longname" : "C Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -2655,9 +2680,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "B Lum",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "B Lum",
+											"parameter_longname" : "B Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -2688,9 +2714,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "B Sat",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "B Sat",
+											"parameter_longname" : "B Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "B Sat",
@@ -2721,9 +2748,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "B Hue",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "B Hue",
+											"parameter_longname" : "B Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -2768,9 +2796,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "G Lum",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "G Lum",
+											"parameter_longname" : "G Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -2801,9 +2830,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "G Sat",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "G Sat",
+											"parameter_longname" : "G Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "G Sat",
@@ -2834,9 +2864,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "G Hue",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "G Hue",
+											"parameter_longname" : "G Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -2881,9 +2912,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "R Lum",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "R Lum",
+											"parameter_longname" : "R Lum",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -2914,9 +2946,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "R Sat",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "R Sat",
+											"parameter_longname" : "R Sat",
 											"parameter_mmax" : 3.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "R Sat",
@@ -2947,9 +2980,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "R Hue",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "R Hue",
+											"parameter_longname" : "R Hue",
 											"parameter_mmax" : 0.5,
 											"parameter_mmin" : -0.5,
 											"parameter_modmode" : 3,
@@ -3124,9 +3158,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "B Lift",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "B Lift",
+											"parameter_longname" : "B Lift",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -3158,9 +3193,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "G Lift",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "G Lift",
+											"parameter_longname" : "G Lift",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -3192,9 +3228,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "R Lift",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "R Lift",
+											"parameter_longname" : "R Lift",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -3226,9 +3263,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "B Gain",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "B Gain",
+											"parameter_longname" : "B Gain",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "B Gain",
@@ -3259,9 +3297,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "G Gamma",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "G Gamma",
+											"parameter_longname" : "G Gamma",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "G Gamma",
@@ -3292,9 +3331,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "R Gamma",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "R Gamma",
+											"parameter_longname" : "R Gamma",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "R Gamma",
@@ -3325,9 +3365,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "B Gamma",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "B Gamma",
+											"parameter_longname" : "B Gamma",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "B Gamma",
@@ -3358,9 +3399,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "G Gain",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "G Gain",
+											"parameter_longname" : "G Gain",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "G Gain",
@@ -3391,9 +3433,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "R Gain",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "R Gain",
+											"parameter_longname" : "R Gain",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "R Gain",
@@ -3498,7 +3541,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 9,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3713,7 +3756,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 9,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4039,9 +4082,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Shadow Luminance",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Shadow Luminance",
+											"parameter_longname" : "Shadow Luminance",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -4073,9 +4117,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Dark Luminance",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Dark Luminance",
+											"parameter_longname" : "Dark Luminance",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -4107,9 +4152,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Global Luminance",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Global Luminance",
+											"parameter_longname" : "Global Luminance",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -4170,11 +4216,12 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Global",
+											"parameter_defer" : 1,
 											"parameter_info" : "Click the label for reset to default value.",
 											"parameter_initial" : [ -1, -1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 2,
-											"parameter_defer" : 1, "parameter_longname" : "Global",
+											"parameter_longname" : "Global",
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Global",
 											"parameter_type" : 3
@@ -4245,11 +4292,12 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Light",
+											"parameter_defer" : 1,
 											"parameter_info" : "Click the label for reset to default value.",
 											"parameter_initial" : [ -1, -1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 2,
-											"parameter_defer" : 1, "parameter_longname" : "Light",
+											"parameter_longname" : "Light",
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Light",
 											"parameter_type" : 3
@@ -4320,11 +4368,12 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Shadow",
+											"parameter_defer" : 1,
 											"parameter_info" : "Click the label for reset to default value.",
 											"parameter_initial" : [ -1, -1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 2,
-											"parameter_defer" : 1, "parameter_longname" : "Shadow",
+											"parameter_longname" : "Shadow",
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Shadow",
 											"parameter_type" : 3
@@ -4395,11 +4444,12 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Dark",
+											"parameter_defer" : 1,
 											"parameter_info" : "Click the label for reset to default value.",
 											"parameter_initial" : [ -1, -1 ],
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 2,
-											"parameter_defer" : 1, "parameter_longname" : "Dark",
+											"parameter_longname" : "Dark",
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Dark",
 											"parameter_type" : 3
@@ -4441,9 +4491,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Light Luminance",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Light Luminance",
+											"parameter_longname" : "Light Luminance",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -5593,10 +5644,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Show Gamma",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Show Gamma",
+							"parameter_longname" : "Show Gamma",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Show Gamma",
@@ -5718,10 +5770,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Show Color",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Show Color",
+							"parameter_longname" : "Show Color",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Show Color",
@@ -5752,9 +5805,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Tint",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Tint",
+							"parameter_longname" : "Tint",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 3,
@@ -5786,9 +5840,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Exposure",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Exposure",
+							"parameter_longname" : "Exposure",
 							"parameter_mmax" : 3.0,
 							"parameter_mmin" : -3.0,
 							"parameter_modmode" : 3,
@@ -5820,9 +5875,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Temperature",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Temperature",
+							"parameter_longname" : "Temperature",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 3,
@@ -5854,9 +5910,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Contrast",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Contrast",
+							"parameter_longname" : "Contrast",
 							"parameter_mmax" : 3.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Contrast",
@@ -5887,9 +5944,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Saturation",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Saturation",
+							"parameter_longname" : "Saturation",
 							"parameter_mmax" : 2.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Saturation",
@@ -5920,9 +5978,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Brightness",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Brightness",
+							"parameter_longname" : "Brightness",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 3,
@@ -6255,11 +6314,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -6896,8 +6956,7 @@
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}

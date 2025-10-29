@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -198,8 +198,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
-							"parameter_defer" : 1, "parameter_longname" : "View",
+							"parameter_longname" : "View",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View",
@@ -650,7 +651,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 512.0, 78.0, 22.0 ],
+					"patching_rect" : [ 280.0, 512.0, 120.0, 22.0 ],
 					"text" : "sprintf symout %s%s"
 				}
 
@@ -711,9 +712,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Folder",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Folder",
+							"parameter_longname" : "Folder",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Folder",
@@ -749,9 +751,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Edit",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Edit",
+							"parameter_longname" : "Edit",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Edit",
@@ -845,7 +848,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 560.0, 87.0, 22.0 ],
+					"patching_rect" : [ 8.0, 560.0, 129.0, 22.0 ],
 					"text" : "sprintf symout file://%s"
 				}
 
@@ -1052,11 +1055,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -1127,9 +1131,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reload",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reload",
+							"parameter_longname" : "Reload",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reload",
@@ -1866,8 +1871,7 @@
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}
@@ -1882,12 +1886,14 @@
 				}
 ,
 				"obj-4::obj-6" : 				{
-					"parameter_defer" : 1, "parameter_longname" : "File"
+					"parameter_defer" : 1,
+					"parameter_longname" : "File"
 				}
 ,
 				"obj-4::obj-76" : 				{
+					"parameter_defer" : 1,
 					"parameter_invisible" : 2,
-					"parameter_defer" : 1, "parameter_longname" : "File Automation",
+					"parameter_longname" : "File Automation",
 					"parameter_modmode" : 0,
 					"parameter_range" : [ "Loading...", " " ],
 					"parameter_type" : 2,

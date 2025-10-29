@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 82.0, 520.0, 498.0 ],
+		"rect" : [ 133.0, 81.0, 520.0, 498.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -203,7 +203,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -279,11 +279,12 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Auto",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Automatically update texture info",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Auto",
+							"parameter_longname" : "Auto",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Auto",
@@ -638,9 +639,9 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"border" : 1,
-					"bordercolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+					"bordercolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"id" : "obj-27",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -667,15 +668,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
-					"blinkcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+					"blinkcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"id" : "obj-20",
 					"ignoreclick" : 1,
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"outlinecolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 392.0, 312.0, 24.0, 24.0 ],
 					"presentation" : 1,
@@ -1045,6 +1046,15 @@
  ],
 		"parameters" : 		{
 			"obj-28" : [ "Auto", "Auto", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 134.0, 560.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 560.0, 508.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
@@ -118,8 +118,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 411.0, 109.0, 143.0, 36.0 ],
-					"text" : ";\r\nmax getsystem ---system"
+					"patching_rect" : [ 411.0, 109.0, 143.0, 35.0 ],
+					"text" : ";\rmax getsystem ---system"
 				}
 
 			}
@@ -181,18 +181,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "PX._spout_out.maxpat",
-				"bootpath" : "D:/GITHUB/px-stream/devices",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.gl.spoutsender.mxe64",
-				"type" : "mx64"
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"oscreceiveudpport" : 0
 	}

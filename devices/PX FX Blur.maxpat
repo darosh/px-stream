@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 520.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 520.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -255,8 +255,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blur",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Blur", "Gaussian", "Radial", "Sharpen" ],
-							"parameter_defer" : 1, "parameter_longname" : "Blur",
+							"parameter_longname" : "Blur",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Blur",
@@ -433,11 +434,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -509,7 +511,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -538,9 +540,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Sharpen Width",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 4 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Sharpen Width",
+											"parameter_longname" : "Sharpen Width",
 											"parameter_mmax" : 200.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Sharpen",
@@ -571,9 +574,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Blur Width",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 4 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Blur Width",
+											"parameter_longname" : "Blur Width",
 											"parameter_mmax" : 200.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Blur ",
@@ -663,9 +667,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Y",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.5 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Y",
+											"parameter_longname" : "Y",
 											"parameter_mmax" : 3.0,
 											"parameter_mmin" : -2.0,
 											"parameter_modmode" : 3,
@@ -697,9 +702,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "X",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.5 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "X",
+											"parameter_longname" : "X",
 											"parameter_mmax" : 3.0,
 											"parameter_mmin" : -2.0,
 											"parameter_modmode" : 3,
@@ -914,9 +920,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Gaussian Width",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 4 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Gaussian Width",
+											"parameter_longname" : "Gaussian Width",
 											"parameter_mmax" : 100.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Gaussian",
@@ -947,9 +954,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Radial Width",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.5 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Radial Width",
+											"parameter_longname" : "Radial Width",
 											"parameter_mmax" : 2.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Radial",
@@ -1437,8 +1445,7 @@
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}

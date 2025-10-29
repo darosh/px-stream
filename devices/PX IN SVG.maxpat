@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -137,7 +137,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.27843137254902, 0.27843137254902, 0.27843137254902, 0.0 ],
-					"blinkcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"blinkcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"id" : "obj-43",
 					"ignoreclick" : 1,
 					"maxclass" : "button",
@@ -414,8 +414,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
-							"parameter_defer" : 1, "parameter_longname" : "View",
+							"parameter_longname" : "View",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View",
@@ -760,9 +761,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Folder",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Folder",
+							"parameter_longname" : "Folder",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Folder",
@@ -798,9 +800,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Edit",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Edit",
+							"parameter_longname" : "Edit",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Edit",
@@ -991,9 +994,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reload",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reload",
+							"parameter_longname" : "Reload",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reload",
@@ -1346,7 +1350,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -1372,11 +1376,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -2254,14 +2259,25 @@
 			"obj-4::obj-76" : [ "File", "File", 0 ],
 			"obj-54::obj-151" : [ "Dimensions", "Dimensions", 0 ],
 			"obj-91" : [ "View", "View", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-4::obj-6" : 				{
-					"parameter_defer" : 1, "parameter_longname" : "File Automation"
+					"parameter_defer" : 1,
+					"parameter_longname" : "File Automation"
 				}
 ,
 				"obj-4::obj-76" : 				{
+					"parameter_defer" : 1,
 					"parameter_invisible" : 2,
-					"parameter_defer" : 1, "parameter_longname" : "File",
+					"parameter_longname" : "File",
 					"parameter_modmode" : 0,
 					"parameter_range" : [ "Loading...", " " ],
 					"parameter_type" : 2,
@@ -2269,7 +2285,8 @@
 				}
 ,
 				"obj-54::obj-151" : 				{
-					"parameter_defer" : 1, "parameter_longname" : "Dimensions"
+					"parameter_defer" : 1,
+					"parameter_longname" : "Dimensions"
 				}
 
 			}

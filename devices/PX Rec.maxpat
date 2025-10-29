@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -31,13 +31,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 58.0, 99.0, 662.0, 476.0 ],
+						"rect" : [ 55.0, 99.0, 662.0, 476.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"integercoordinates" : 1,
 						"visible" : 1,
@@ -240,7 +240,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 51.0, 568.0, 144.0, 22.0 ],
+									"patching_rect" : [ 51.0, 568.0, 178.0, 22.0 ],
 									"text" : "sprintf symout %sREC. %s.mov"
 								}
 
@@ -584,8 +584,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Alpha",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Alpha",
+							"parameter_longname" : "Alpha",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Alpha",
@@ -705,7 +706,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -946,6 +947,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-219",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -1746,9 +1748,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Folder Images",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Folder Images",
+							"parameter_longname" : "Folder Images",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Folder Images",
@@ -1784,9 +1787,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Folder Video",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Folder Video",
+							"parameter_longname" : "Folder Video",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Folder Video",
@@ -1856,7 +1860,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 480.0, 87.0, 22.0 ],
+					"patching_rect" : [ 8.0, 480.0, 129.0, 22.0 ],
 					"text" : "sprintf symout file://%s"
 				}
 
@@ -1889,10 +1893,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Codec",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "h264", "prores422", "prores4444" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Codec",
+							"parameter_longname" : "Codec",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Codec",
@@ -1927,8 +1932,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "REC",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "REC",
+							"parameter_longname" : "REC",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "REC",
@@ -1966,8 +1972,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "SCR",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "SCR",
+							"parameter_longname" : "SCR",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "SCR",
@@ -2187,8 +2194,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Audio",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Audio",
+							"parameter_longname" : "Audio",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Audio",
@@ -2805,8 +2813,7 @@
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}

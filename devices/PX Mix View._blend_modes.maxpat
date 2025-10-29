@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 567.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 567.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,
@@ -115,9 +115,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend Mode",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Add", "Alpha", "Alpha add", "Alpha saturate", "Alpha mask", "Darken", "Exclusion", "Ghosting", "Hard contrast", "Lighten", "Multiply", "Overlay", "Overlay inverted", "Screen", "Subtract" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "Blend Mode",
+							"parameter_longname" : "Blend Mode",
 							"parameter_mmax" : 14,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Blend",

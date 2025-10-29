@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 498.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 498.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -141,10 +141,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Reset",
+							"parameter_longname" : "Reset",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset",
@@ -186,9 +187,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Rate",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Rate",
+							"parameter_longname" : "Rate",
 							"parameter_mmax" : 8.0,
 							"parameter_mmin" : -8.0,
 							"parameter_modmode" : 3,
@@ -220,10 +222,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Play / Pause",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Pause", "Play" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Play / Pause",
+							"parameter_longname" : "Play / Pause",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Play / Pause",
@@ -313,8 +316,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
-							"parameter_defer" : 1, "parameter_longname" : "View",
+							"parameter_longname" : "View",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View",
@@ -840,9 +844,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Folder",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Folder",
+							"parameter_longname" : "Folder",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Folder",
@@ -878,9 +883,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Edit",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Edit",
+							"parameter_longname" : "Edit",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Edit",
@@ -1181,11 +1187,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -1256,9 +1263,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reload",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reload",
+							"parameter_longname" : "Reload",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reload",
@@ -1991,18 +1999,30 @@
 			"obj-4::obj-6" : [ "File Automation", "File", 0 ],
 			"obj-4::obj-76" : [ "File", "File", 0 ],
 			"obj-91" : [ "View", "View", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-17::obj-151" : 				{
-					"parameter_defer" : 1, "parameter_longname" : "Dimensions"
+					"parameter_defer" : 1,
+					"parameter_longname" : "Dimensions"
 				}
 ,
 				"obj-4::obj-6" : 				{
-					"parameter_defer" : 1, "parameter_longname" : "File Automation"
+					"parameter_defer" : 1,
+					"parameter_longname" : "File Automation"
 				}
 ,
 				"obj-4::obj-76" : 				{
+					"parameter_defer" : 1,
 					"parameter_invisible" : 2,
-					"parameter_defer" : 1, "parameter_longname" : "File",
+					"parameter_longname" : "File",
 					"parameter_modmode" : 0,
 					"parameter_range" : [ "Loading...", " " ],
 					"parameter_type" : 2,

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -337,7 +337,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -730,10 +730,11 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Keep Ratio",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Keep Ratio",
+											"parameter_longname" : "Keep Ratio",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Keep Ratio",
@@ -805,9 +806,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Scale Y",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Scale Y",
+											"parameter_longname" : "Scale Y",
 											"parameter_mmax" : 10.0,
 											"parameter_mmin" : -10.0,
 											"parameter_modmode" : 3,
@@ -839,9 +841,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Scale X",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Scale X",
+											"parameter_longname" : "Scale X",
 											"parameter_mmax" : 10.0,
 											"parameter_mmin" : -10.0,
 											"parameter_modmode" : 3,
@@ -873,9 +876,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Origin Y",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Origin Y",
+											"parameter_longname" : "Origin Y",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -907,9 +911,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Origin X",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Origin X",
+											"parameter_longname" : "Origin X",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -941,9 +946,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Offset Y",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Offset Y",
+											"parameter_longname" : "Offset Y",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -975,9 +981,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Offset X",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Offset X",
+											"parameter_longname" : "Offset X",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -1010,9 +1017,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Rotation",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 180 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Rotation",
+											"parameter_longname" : "Rotation",
 											"parameter_mmax" : 360.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Rotation",
@@ -1057,10 +1065,11 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Keep Ratio Split",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Keep Ratio Split",
+											"parameter_longname" : "Keep Ratio Split",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Keep Ratio Split",
@@ -1133,9 +1142,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Divisions",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 12 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Divisions",
+											"parameter_longname" : "Divisions",
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Divisions",
 											"parameter_type" : 0,
@@ -1175,9 +1185,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Brightness",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.8 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Brightness",
+											"parameter_longname" : "Brightness",
 											"parameter_mmax" : 1.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Brightness",
@@ -1244,9 +1255,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Mirror Blend",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Mirror Blend",
+											"parameter_longname" : "Mirror Blend",
 											"parameter_mmax" : 1.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Mirror Blend",
@@ -1277,9 +1289,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Softness",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0.02 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Softness",
+											"parameter_longname" : "Softness",
 											"parameter_mmax" : 1.0,
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "Softness",
@@ -1370,9 +1383,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Scale Y Split",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Scale Y Split",
+											"parameter_longname" : "Scale Y Split",
 											"parameter_mmax" : 10.0,
 											"parameter_mmin" : -10.0,
 											"parameter_modmode" : 3,
@@ -1404,9 +1418,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Scale X Split",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 1 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Scale X Split",
+											"parameter_longname" : "Scale X Split",
 											"parameter_mmax" : 10.0,
 											"parameter_mmin" : -10.0,
 											"parameter_modmode" : 3,
@@ -1438,9 +1453,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Origin Y Split",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Origin Y Split",
+											"parameter_longname" : "Origin Y Split",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -1472,9 +1488,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Origin X Split",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Origin X Split",
+											"parameter_longname" : "Origin X Split",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -1506,9 +1523,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Offset Y Split",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Offset Y Split",
+											"parameter_longname" : "Offset Y Split",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -1540,9 +1558,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Offset X Split",
+											"parameter_defer" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Offset X Split",
+											"parameter_longname" : "Offset X Split",
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : -1.0,
 											"parameter_modmode" : 3,
@@ -1562,7 +1581,7 @@
 , 							{
 								"box" : 								{
 									"angle" : 270.0,
-									"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+									"bgcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2201,8 +2220,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Type",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "S", "A", "3", "4", "5", "6", "8", "12" ],
-							"parameter_defer" : 1, "parameter_longname" : "Type",
+							"parameter_longname" : "Type",
 							"parameter_mmax" : 7,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Type",
@@ -2353,7 +2373,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -2379,11 +2399,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -2804,8 +2825,7 @@
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}

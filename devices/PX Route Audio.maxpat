@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -53,16 +53,16 @@
 			}
 , 			{
 				"box" : 				{
-					"coldcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"coldcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"display_range" : [ -70.0, 24.0 ],
-					"hotcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"hotcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"id" : "obj-19",
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"orientation" : 1,
 					"outlettype" : [ "float", "int" ],
-					"overloadcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"overloadcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"patching_rect" : [ 184.0, 224.0, 30.0, 10.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 143.0, 94.0, 2.0 ],
@@ -85,23 +85,23 @@
 
 					}
 ,
-					"slidercolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
-					"warmcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ]
+					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
+					"warmcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"coldcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"coldcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"display_range" : [ -70.0, 24.0 ],
-					"hotcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"hotcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"id" : "obj-29",
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"orientation" : 1,
 					"outlettype" : [ "float", "int" ],
-					"overloadcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"overloadcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"patching_rect" : [ 120.0, 224.0, 30.0, 10.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 139.0, 94.0, 2.0 ],
@@ -124,8 +124,8 @@
 
 					}
 ,
-					"slidercolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
-					"warmcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ]
+					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
+					"warmcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ]
 				}
 
 			}
@@ -146,11 +146,12 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Receive Gain",
+							"parameter_defer" : 1,
 							"parameter_info" : "Sets the gain of remote audio.",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Receive Gain",
+							"parameter_longname" : "Receive Gain",
 							"parameter_mmax" : 24.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 2,
@@ -199,11 +200,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Thru Gain",
+							"parameter_defer" : 1,
 							"parameter_info" : "Sets the gain of audio thru.",
 							"parameter_initial" : [ -70 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Thru Gain",
+							"parameter_longname" : "Thru Gain",
 							"parameter_mmax" : 24.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 2,
@@ -234,16 +236,16 @@
 			}
 , 			{
 				"box" : 				{
-					"coldcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"coldcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"display_range" : [ -70.0, 24.0 ],
-					"hotcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"hotcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"id" : "obj-8",
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"orientation" : 1,
 					"outlettype" : [ "float", "int" ],
-					"overloadcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"overloadcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"patching_rect" : [ 304.0, 248.0, 30.0, 10.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 66.0, 94.0, 2.0 ],
@@ -266,23 +268,23 @@
 
 					}
 ,
-					"slidercolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
-					"warmcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ]
+					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
+					"warmcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"coldcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"coldcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"display_range" : [ -70.0, 24.0 ],
-					"hotcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"hotcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"id" : "obj-3",
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"orientation" : 1,
 					"outlettype" : [ "float", "int" ],
-					"overloadcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"overloadcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"patching_rect" : [ 240.0, 248.0, 30.0, 10.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 62.0, 94.0, 2.0 ],
@@ -305,8 +307,8 @@
 
 					}
 ,
-					"slidercolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ],
-					"warmcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ]
+					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ],
+					"warmcolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ]
 				}
 
 			}
@@ -326,7 +328,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Enables/disables audio thru.",
 					"annotation_name" : "Thru",
 					"appearance" : 1,
@@ -348,12 +350,13 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Thru",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Enables/disables audio thru.",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Thru",
+							"parameter_longname" : "Thru",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Thru",
@@ -419,7 +422,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation" : "Enables/disables remote audio.",
 					"annotation_name" : "Receive",
 					"appearance" : 1,
@@ -441,11 +444,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Receive",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Enables/disables remote audio.",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Receive",
+							"parameter_longname" : "Receive",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Receive",
@@ -760,6 +764,15 @@
 			"obj-11" : [ "Thru", "Thru", 0 ],
 			"obj-27" : [ "Thru Gain", "Thru Gain", 0 ],
 			"obj-4" : [ "Receive Gain", "Receive Gain", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

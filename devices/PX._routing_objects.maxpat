@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 80.0, 777.0, 423.0 ],
+		"rect" : [ 133.0, 153.0, 777.0, 423.0 ],
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
 		"gridsnaponopen" : 2,

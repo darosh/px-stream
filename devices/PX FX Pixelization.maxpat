@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 82.0, 520.0, 498.0 ],
+		"rect" : [ 133.0, 81.0, 520.0, 498.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -213,10 +213,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Keep Ratio",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Keep Ratio",
+							"parameter_longname" : "Keep Ratio",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Keep Ratio",
@@ -258,9 +259,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Fading",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Fading",
+							"parameter_longname" : "Fading",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 3,
@@ -287,7 +289,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -438,7 +440,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -782,9 +784,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Angle B",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 180 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Angle B",
+							"parameter_longname" : "Angle B",
 							"parameter_mmax" : 360.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Angle B",
@@ -814,9 +817,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Angle G",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 90 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Angle G",
+							"parameter_longname" : "Angle G",
 							"parameter_mmax" : 360.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Angle G",
@@ -846,9 +850,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Angle R",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Angle R",
+							"parameter_longname" : "Angle R",
 							"parameter_mmax" : 360.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Angle R",
@@ -878,9 +883,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Frequency",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 10 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Frequency",
+							"parameter_longname" : "Frequency",
 							"parameter_mmax" : 20.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Frequency",
@@ -911,7 +917,7 @@
 					}
 ,
 					"text" : "Freq.",
-					"textcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -931,9 +937,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Rotation",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Rotation",
+							"parameter_longname" : "Rotation",
 							"parameter_mmax" : 360.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Rotation",
@@ -963,9 +970,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Scale",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Scale",
+							"parameter_longname" : "Scale",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Scale",
@@ -994,9 +1002,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Rotation Angle",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Rotation Angle",
+							"parameter_longname" : "Rotation Angle",
 							"parameter_mmax" : 360.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Rotation Angle",
@@ -1026,9 +1035,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Rotation Y",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Rotation Y",
+							"parameter_longname" : "Rotation Y",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Rotation Y",
@@ -1058,9 +1068,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Rotation X",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Rotation X",
+							"parameter_longname" : "Rotation X",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Rotation X",
@@ -1090,9 +1101,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Shift Y",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Shift Y",
+							"parameter_longname" : "Shift Y",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 3,
@@ -1123,9 +1135,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Shift X",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Shift X",
+							"parameter_longname" : "Shift X",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 3,
@@ -1156,9 +1169,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Y",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.02 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Y",
+							"parameter_longname" : "Y",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.001,
 							"parameter_modmode" : 3,
@@ -1189,9 +1203,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "X",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.02 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "X",
+							"parameter_longname" : "X",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.001,
 							"parameter_modmode" : 3,
@@ -1235,8 +1250,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Invert",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Invert",
+							"parameter_longname" : "Invert",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Invert",
@@ -1325,10 +1341,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Mapping",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "OKLAB Lightness", "OKLAB Chroma", "OKLAB Hue", " RGB Luminance", "RGB Saturation", "RGB Average", "RGB Max", "RGB Min" ],
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Mapping",
+							"parameter_longname" : "Mapping",
 							"parameter_mmax" : 7,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Mapping",
@@ -1358,10 +1375,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "OKLAB",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "OKLAB",
+							"parameter_longname" : "OKLAB",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "OKLAB",
@@ -1391,9 +1409,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Modulation",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Modulation",
+							"parameter_longname" : "Modulation",
 							"parameter_mmax" : 2.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Modulation",
@@ -1567,9 +1586,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Distortion",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Distortion",
+							"parameter_longname" : "Distortion",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Distortion",
@@ -1598,9 +1618,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Displacement",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Displacement",
+							"parameter_longname" : "Displacement",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Displacement",
@@ -1629,9 +1650,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Smooth",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Smooth",
+							"parameter_longname" : "Smooth",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Smooth",
@@ -1660,9 +1682,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Displacement Angle",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Displacement Angle",
+							"parameter_longname" : "Displacement Angle",
 							"parameter_mmax" : 360.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Displacement Angle",
@@ -1692,9 +1715,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Fade",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Fade",
+							"parameter_longname" : "Fade",
 							"parameter_mmax" : 3.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Fade",
@@ -1751,10 +1775,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Preview",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Normal", "Grid" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Preview",
+							"parameter_longname" : "Preview",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Preview",
@@ -1791,10 +1816,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Grid",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "4", "C", "C6", "6", "3" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Grid",
+							"parameter_longname" : "Grid",
 							"parameter_mmax" : 4,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Grid",
@@ -1860,7 +1886,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "More",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -1880,10 +1906,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "More",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "More",
+							"parameter_longname" : "More",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "More",
@@ -2082,7 +2109,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -2108,11 +2135,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -2264,7 +2292,7 @@
 					}
 ,
 					"text" : "Fade",
-					"textcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"textcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"textjustification" : 0
 				}
 
@@ -3099,6 +3127,15 @@
 			"obj-66" : [ "Angle B", "Angle B", 0 ],
 			"obj-87" : [ "More", "More", 0 ],
 			"obj-96" : [ "Keep Ratio", "Keep Ratio", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

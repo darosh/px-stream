@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -627,9 +627,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Reload",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
-											"parameter_defer" : 1, "parameter_longname" : "Reload[2]",
+											"parameter_longname" : "Reload[2]",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Reload",
@@ -995,8 +996,9 @@
 									"restore" : [ 0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_defer" : 1,
 											"parameter_invisible" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "ServerName[1]",
+											"parameter_longname" : "ServerName[1]",
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "ServerName",
 											"parameter_type" : 3
@@ -1214,9 +1216,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_annotation_name" : "Reload",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "Off", "On" ],
 											"parameter_invisible" : 2,
-											"parameter_defer" : 1, "parameter_longname" : "Reload[3]",
+											"parameter_longname" : "Reload[3]",
 											"parameter_mmax" : 1,
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Reload",
@@ -1413,7 +1416,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 9,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2896,11 +2899,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -3149,6 +3153,15 @@
 			"obj-4::obj-32" : [ "ServerName[1]", "ServerName", 0 ],
 			"obj-4::obj-362" : [ "Reload[3]", "Reload", 0 ],
 			"obj-4::obj-49" : [ "Reload[2]", "Reload", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

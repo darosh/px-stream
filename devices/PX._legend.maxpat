@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 58.0, 99.0, 285.0, 476.0 ],
+		"rect" : [ 55.0, 99.0, 351.0, 46.0 ],
 		"openrect" : [ 0.0, 0.0, 351.0, 47.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"integercoordinates" : 1,
@@ -23,7 +23,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 351.0, 47.0 ],
-					"presentation_linecount" : 2,
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"

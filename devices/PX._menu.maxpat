@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 498.0, 508.0 ],
+		"rect" : [ 133.0, 153.0, 130.0, 18.0 ],
 		"openrect" : [ 0.0, 0.0, 130.0, 19.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
@@ -249,8 +249,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "File",
+							"parameter_defer" : 1,
 							"parameter_info" : "Selected file",
-							"parameter_defer" : 1, "parameter_longname" : "File Automation",
+							"parameter_longname" : "File Automation",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "File",
@@ -306,10 +307,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "File",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Loading...", " " ],
 							"parameter_info" : "Selected file",
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "File",
+							"parameter_longname" : "File",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "File",
@@ -863,10 +865,11 @@
 					"patching_rect" : [ 552.0, 504.0, 133.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_defer" : 1,
 							"parameter_initial" : [ "" ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "FileName",
+							"parameter_longname" : "FileName",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "FileName",
 							"parameter_type" : 3

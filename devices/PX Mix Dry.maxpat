@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 498.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 498.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -75,7 +75,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 120.0, 400.0, 93.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "text G, texton G"
 				}
 
@@ -88,7 +87,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 40.0, 448.0, 87.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "text L, texton L"
 				}
 
@@ -139,10 +137,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "A",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "A",
+							"parameter_longname" : "A",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "A",
@@ -256,6 +255,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activetextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "Swap",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -273,14 +273,19 @@
 							"expression" : "themecolor.live_value_arc"
 						}
 ,
+						"activetextcolor" : 						{
+							"expression" : "themecolor.live_control_text_zombie"
+						}
+,
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg_on"
 						}
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Swap",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Swap",
+							"parameter_longname" : "Swap",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Swap",
@@ -312,9 +317,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "View",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
 							"parameter_info" : "Determines how two layers are blended with each other",
-							"parameter_defer" : 1, "parameter_longname" : "View",
+							"parameter_longname" : "View",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View",
@@ -330,6 +336,7 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activetextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "OKLAB",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -347,14 +354,19 @@
 							"expression" : "themecolor.live_value_arc"
 						}
 ,
+						"activetextcolor" : 						{
+							"expression" : "themecolor.live_control_text_zombie"
+						}
+,
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg_on"
 						}
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "OKLAB",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "OKLAB",
+							"parameter_longname" : "OKLAB",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "OKLAB",
@@ -545,10 +557,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Dry",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "−4", "−3", "−2", "−1" ],
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Dry",
+							"parameter_longname" : "Dry",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Dry",
@@ -839,10 +852,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "B",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "B",
+							"parameter_longname" : "B",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "B",
@@ -879,10 +893,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "G",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "G",
+							"parameter_longname" : "G",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "G",
@@ -920,10 +935,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "R",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "R",
+							"parameter_longname" : "R",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "R",
@@ -965,10 +981,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Blend",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Additive", "Antimatter", "Average", "Bright light", "Burn", "Color dodge", "Darken", "Difference", "Divide", "Dodge", "Exclude", "Freeze", "Glow", "Hard light", "Hard mix", "Heat", "Inverse", "Lighten", "Linear burn", "Linear dodge", "Linear light", "Multiply", "Negate", "Normal", "Overlay", "Phoenix", "Pin light", "Reflect", "Screen", "Softlight", "Stamp", "Subtractive", "Vivid light", "Color: Hue", "Color: Chroma", "Color: Hue + Chroma", "Color: Luminosity" ],
 							"parameter_initial" : [ 23.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Blend",
+							"parameter_longname" : "Blend",
 							"parameter_mmax" : 36,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Blend",
@@ -997,9 +1014,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Dry / Wet",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 50 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Dry / Wet",
+							"parameter_longname" : "Dry / Wet",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Dry / Wet",
@@ -1038,7 +1056,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1491,11 +1509,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -2396,8 +2415,7 @@
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}

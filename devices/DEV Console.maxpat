@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 641.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 641.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -161,15 +161,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
-					"blinkcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+					"blinkcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"id" : "obj-7",
 					"ignoreclick" : 1,
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"outlinecolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 352.0, 264.0, 24.0, 24.0 ],
 					"presentation" : 1,
@@ -211,11 +211,12 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Active",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_info" : "Activates Max console additional output. May affect performance. DO NOT USE IN PRODUCTION.",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Active",
+							"parameter_longname" : "Active",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Active",
@@ -285,7 +286,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -314,9 +315,9 @@
 , 							{
 								"box" : 								{
 									"angle" : 270.0,
-									"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+									"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 									"border" : 1,
-									"bordercolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+									"bordercolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 									"id" : "obj-3",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -359,9 +360,9 @@
 , 							{
 								"box" : 								{
 									"angle" : 270.0,
-									"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+									"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 									"border" : 1,
-									"bordercolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+									"bordercolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 									"id" : "obj-4",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -601,7 +602,37 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-1" : [ "Active", "Active", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "PX._is_windows.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._legend.maxpat",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

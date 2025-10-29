@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -51,7 +51,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -186,10 +186,11 @@
 					"patching_rect" : [ 592.0, 368.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_invisible" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Initialized",
+							"parameter_longname" : "Initialized",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Initialized",
@@ -292,9 +293,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P32",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P32",
+							"parameter_longname" : "Reset P32",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P32",
@@ -376,9 +378,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P31",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P31",
+							"parameter_longname" : "Reset P31",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P31",
@@ -460,9 +463,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P30",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P30",
+							"parameter_longname" : "Reset P30",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P30",
@@ -544,9 +548,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P29",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P29",
+							"parameter_longname" : "Reset P29",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P29",
@@ -628,9 +633,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P28",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P28",
+							"parameter_longname" : "Reset P28",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P28",
@@ -712,9 +718,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P27",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P27",
+							"parameter_longname" : "Reset P27",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P27",
@@ -796,9 +803,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P26",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P26",
+							"parameter_longname" : "Reset P26",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P26",
@@ -880,9 +888,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P25",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P25",
+							"parameter_longname" : "Reset P25",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P25",
@@ -964,9 +973,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P24",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P24",
+							"parameter_longname" : "Reset P24",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P24",
@@ -1048,9 +1058,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P23",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P23",
+							"parameter_longname" : "Reset P23",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P23",
@@ -1132,9 +1143,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P22",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P22",
+							"parameter_longname" : "Reset P22",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P22",
@@ -1216,9 +1228,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P21",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P21",
+							"parameter_longname" : "Reset P21",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P21",
@@ -1300,9 +1313,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P20",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P20",
+							"parameter_longname" : "Reset P20",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P20",
@@ -1384,9 +1398,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P19",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P19",
+							"parameter_longname" : "Reset P19",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P19",
@@ -1468,9 +1483,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P18",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P18",
+							"parameter_longname" : "Reset P18",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P18",
@@ -1552,9 +1568,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P17",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P17",
+							"parameter_longname" : "Reset P17",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P17",
@@ -1636,9 +1653,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P16",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P16",
+							"parameter_longname" : "Reset P16",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P16",
@@ -1720,9 +1738,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P15",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P15",
+							"parameter_longname" : "Reset P15",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P15",
@@ -1804,9 +1823,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P14",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P14",
+							"parameter_longname" : "Reset P14",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P14",
@@ -1888,9 +1908,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P13",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P13",
+							"parameter_longname" : "Reset P13",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P13",
@@ -1972,9 +1993,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P12",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P12",
+							"parameter_longname" : "Reset P12",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P12",
@@ -2056,9 +2078,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P11",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P11",
+							"parameter_longname" : "Reset P11",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P11",
@@ -2140,9 +2163,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P10",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P10",
+							"parameter_longname" : "Reset P10",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P10",
@@ -2224,9 +2248,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P09",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P09",
+							"parameter_longname" : "Reset P09",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P09",
@@ -2308,9 +2333,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P08",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P08",
+							"parameter_longname" : "Reset P08",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P08",
@@ -2392,9 +2418,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P07",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P07",
+							"parameter_longname" : "Reset P07",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P07",
@@ -2476,9 +2503,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P06",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P06",
+							"parameter_longname" : "Reset P06",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P06",
@@ -2560,9 +2588,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P05",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P05",
+							"parameter_longname" : "Reset P05",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P05",
@@ -2644,9 +2673,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P04",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P04",
+							"parameter_longname" : "Reset P04",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P04",
@@ -2728,9 +2758,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P03",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P03",
+							"parameter_longname" : "Reset P03",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P03",
@@ -2812,9 +2843,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P02",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P02",
+							"parameter_longname" : "Reset P02",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P02",
@@ -2896,9 +2928,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reset P01",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reset P01",
+							"parameter_longname" : "Reset P01",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reset P01",
@@ -3650,7 +3683,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P32",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-267",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3675,7 +3708,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P32",
-							"parameter_defer" : 1, "parameter_longname" : "P32",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P32",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P32",
@@ -3695,7 +3729,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P31",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-269",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3720,7 +3754,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P31",
-							"parameter_defer" : 1, "parameter_longname" : "P31",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P31",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P31",
@@ -3740,7 +3775,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P30",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-271",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3765,7 +3800,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P30",
-							"parameter_defer" : 1, "parameter_longname" : "P30",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P30",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P30",
@@ -3785,7 +3821,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P29",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-273",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3810,7 +3846,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P29",
-							"parameter_defer" : 1, "parameter_longname" : "P29",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P29",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P29",
@@ -3830,7 +3867,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P28",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-275",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3855,7 +3892,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P28",
-							"parameter_defer" : 1, "parameter_longname" : "P28",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P28",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P28",
@@ -3875,7 +3913,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P27",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-303",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3900,7 +3938,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P27",
-							"parameter_defer" : 1, "parameter_longname" : "P27",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P27",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P27",
@@ -3920,7 +3959,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P26",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-363",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3945,7 +3984,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P26",
-							"parameter_defer" : 1, "parameter_longname" : "P26",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P26",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P26",
@@ -3965,7 +4005,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P25",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-390",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -3990,7 +4030,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P25",
-							"parameter_defer" : 1, "parameter_longname" : "P25",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P25",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P25",
@@ -4730,7 +4771,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P24",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-478",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4755,7 +4796,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P24",
-							"parameter_defer" : 1, "parameter_longname" : "P24",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P24",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P24",
@@ -4775,7 +4817,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P23",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-480",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4800,7 +4842,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P23",
-							"parameter_defer" : 1, "parameter_longname" : "P23",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P23",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P23",
@@ -4820,7 +4863,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P22",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-483",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4845,7 +4888,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P22",
-							"parameter_defer" : 1, "parameter_longname" : "P22",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P22",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P22",
@@ -4865,7 +4909,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P21",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-485",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4890,7 +4934,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P21",
-							"parameter_defer" : 1, "parameter_longname" : "P21",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P21",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P21",
@@ -4910,7 +4955,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P20",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-487",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4935,7 +4980,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P20",
-							"parameter_defer" : 1, "parameter_longname" : "P20",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P20",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P20",
@@ -4955,7 +5001,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P19",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-489",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -4980,7 +5026,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P19",
-							"parameter_defer" : 1, "parameter_longname" : "P19",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P19",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P19",
@@ -5000,7 +5047,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P18",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-491",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5025,7 +5072,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P18",
-							"parameter_defer" : 1, "parameter_longname" : "P18",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P18",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P18",
@@ -5045,7 +5093,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P17",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-493",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5070,7 +5118,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P17",
-							"parameter_defer" : 1, "parameter_longname" : "P17",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P17",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P17",
@@ -5090,7 +5139,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P16",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-449",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5115,7 +5164,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P16",
-							"parameter_defer" : 1, "parameter_longname" : "P16",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P16",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P16",
@@ -5135,7 +5185,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P15",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-451",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5160,7 +5210,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P15",
-							"parameter_defer" : 1, "parameter_longname" : "P15",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P15",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P15",
@@ -5180,7 +5231,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P14",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-453",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5205,7 +5256,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P14",
-							"parameter_defer" : 1, "parameter_longname" : "P14",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P14",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P14",
@@ -5225,7 +5277,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P13",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-455",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5250,7 +5302,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P13",
-							"parameter_defer" : 1, "parameter_longname" : "P13",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P13",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P13",
@@ -5270,7 +5323,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P12",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-457",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5295,7 +5348,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P12",
-							"parameter_defer" : 1, "parameter_longname" : "P12",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P12",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P12",
@@ -5315,7 +5369,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P11",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-459",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5340,7 +5394,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P11",
-							"parameter_defer" : 1, "parameter_longname" : "P11",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P11",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P11",
@@ -5360,7 +5415,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P10",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-463",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5385,7 +5440,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P10",
-							"parameter_defer" : 1, "parameter_longname" : "P10",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P10",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P10",
@@ -5405,7 +5461,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P09",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-474",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5430,7 +5486,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P09",
-							"parameter_defer" : 1, "parameter_longname" : "P09",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P09",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P09",
@@ -5450,7 +5507,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P08",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-439",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5475,7 +5532,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P08",
-							"parameter_defer" : 1, "parameter_longname" : "P08",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P08",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P08",
@@ -5495,7 +5553,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P07",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-371",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5520,7 +5578,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P07",
-							"parameter_defer" : 1, "parameter_longname" : "P07",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P07",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P07",
@@ -5540,7 +5599,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P06",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-311",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5565,7 +5624,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P06",
-							"parameter_defer" : 1, "parameter_longname" : "P06",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P06",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P06",
@@ -5585,7 +5645,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P05",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-294",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5610,7 +5670,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P05",
-							"parameter_defer" : 1, "parameter_longname" : "P05",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P05",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P05",
@@ -5630,7 +5691,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P04",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-153",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5655,7 +5716,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P04",
-							"parameter_defer" : 1, "parameter_longname" : "P04",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P04",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P04",
@@ -5675,7 +5737,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P03",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-78",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5700,7 +5762,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P03",
-							"parameter_defer" : 1, "parameter_longname" : "P03",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P03",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P03",
@@ -5720,7 +5783,7 @@
 					"activeslidercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.341176470588235 ],
 					"annotation_name" : "P02",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-40",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5745,7 +5808,8 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P02",
-							"parameter_defer" : 1, "parameter_longname" : "P02",
+							"parameter_defer" : 1,
+							"parameter_longname" : "P02",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P02",
@@ -5766,7 +5830,7 @@
 					"annotation" : "Click the label for reset to default value.",
 					"annotation_name" : "P01",
 					"appearance" : 2,
-					"bordercolor" : [ 0.282352941176471, 0.282352941176471, 0.282352941176471, 1.0 ],
+					"bordercolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-12",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -5791,8 +5855,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "P01",
+							"parameter_defer" : 1,
 							"parameter_info" : "Click the label for reset to default value.",
-							"parameter_defer" : 1, "parameter_longname" : "P01",
+							"parameter_longname" : "P01",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "P01",
@@ -5831,7 +5896,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.058823529411765, 0.058823529411765, 0.058823529411765, 0.0 ],
-					"blinkcolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"blinkcolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"id" : "obj-469",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -5921,16 +5986,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "IN",
 					"appearance" : 1,
 					"automation" : "Off",
 					"automationon" : "On",
-					"bgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-					"bordercolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 1.0 ],
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-308",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -5959,9 +6024,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "IN",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "IN",
+							"parameter_longname" : "IN",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "IN",
@@ -6153,7 +6219,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Type",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -6173,10 +6239,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Show Type",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Show Type",
+							"parameter_longname" : "Show Type",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Show Type",
@@ -6193,7 +6260,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation_name" : "Show Parameters",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -6213,10 +6280,11 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Show Parameters",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Show Parameters",
+							"parameter_longname" : "Show Parameters",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Show Parameters",
@@ -6349,7 +6417,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7657,16 +7725,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "XYE",
 					"appearance" : 1,
 					"automation" : "Off",
 					"automationon" : "On",
-					"bgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-					"bordercolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 1.0 ],
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-427",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -7695,9 +7763,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "XYE",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "XYE",
+							"parameter_longname" : "XYE",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "XYE",
@@ -7783,7 +7852,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8680,16 +8749,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "XYD",
 					"appearance" : 1,
 					"automation" : "Off",
 					"automationon" : "On",
-					"bgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-					"bordercolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 1.0 ],
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-24",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -8718,9 +8787,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "XYD",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "XYD",
+							"parameter_longname" : "XYD",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "XYD",
@@ -8737,16 +8807,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "XYC",
 					"appearance" : 1,
 					"automation" : "Off",
 					"automationon" : "On",
-					"bgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-					"bordercolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 1.0 ],
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-15",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -8775,9 +8845,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "XYC",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "XYC",
+							"parameter_longname" : "XYC",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "XYC",
@@ -8794,16 +8865,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "XY",
 					"appearance" : 1,
 					"automation" : "Off",
 					"automationon" : "On",
-					"bgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-					"bordercolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 1.0 ],
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -8832,9 +8903,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "XY",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "XY",
+							"parameter_longname" : "XY",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "XY",
@@ -9229,7 +9301,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9666,7 +9738,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9724,7 +9796,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 9,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10588,7 +10660,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11209,16 +11281,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "MIDI",
 					"appearance" : 1,
 					"automation" : "Off",
 					"automationon" : "On",
-					"bgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-					"bordercolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 1.0 ],
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-364",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -11247,9 +11319,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "MIDI",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "MIDI",
+							"parameter_longname" : "MIDI",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "MIDI",
@@ -11285,9 +11358,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reload",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Reload",
+							"parameter_longname" : "Reload",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reload",
@@ -11323,9 +11397,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Open Folder",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Open Folder",
+							"parameter_longname" : "Open Folder",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Open Folder",
@@ -11361,9 +11436,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Edit",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Edit",
+							"parameter_longname" : "Edit",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Edit",
@@ -11663,7 +11739,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12432,16 +12508,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "FFTU",
 					"appearance" : 1,
 					"automation" : "Off",
 					"automationon" : "On",
-					"bgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-					"bordercolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 1.0 ],
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-138",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -12470,9 +12546,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "FFTU",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "FFTU",
+							"parameter_longname" : "FFTU",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "FFTU",
@@ -12536,16 +12613,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "WAVU",
 					"appearance" : 1,
 					"automation" : "Off",
 					"automationon" : "On",
-					"bgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-					"bordercolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 1.0 ],
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-317",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -12574,9 +12651,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "WAVU",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "WAVU",
+							"parameter_longname" : "WAVU",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "WAVU",
@@ -12696,7 +12774,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13315,9 +13393,10 @@
 					"patching_rect" : [ 880.0, 568.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Engine",
+							"parameter_longname" : "Engine",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Engine",
@@ -14732,7 +14811,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15193,16 +15272,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "WAVE",
 					"appearance" : 1,
 					"automation" : "Off",
 					"automationon" : "On",
-					"bgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-					"bordercolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 1.0 ],
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-9",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -15231,9 +15310,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "WAVE",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "WAVE",
+							"parameter_longname" : "WAVE",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "WAVE",
@@ -15250,16 +15330,16 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+					"activebgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"annotation_name" : "FFT",
 					"appearance" : 1,
 					"automation" : "Off",
 					"automationon" : "On",
-					"bgoncolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-					"bordercolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 1.0 ],
+					"bgoncolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
+					"bordercolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"id" : "obj-8",
 					"ignoreclick" : 1,
-					"labeltextcolor" : [ 0.619607843137255, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"labeltextcolor" : [ 0.57636836783545, 0.576368229540612, 0.576368265679262, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -15288,9 +15368,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "FFT",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "FFT",
+							"parameter_longname" : "FFT",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "FFT",
@@ -15446,7 +15527,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15931,7 +16012,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -16800,7 +16881,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+					"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"id" : "obj-369",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -16882,7 +16963,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -16908,11 +16989,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -21818,20 +21900,21 @@
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}
 ,
 			"parameter_overrides" : 			{
 				"obj-112::obj-6" : 				{
-					"parameter_defer" : 1, "parameter_longname" : "File Automation"
+					"parameter_defer" : 1,
+					"parameter_longname" : "File Automation"
 				}
 ,
 				"obj-112::obj-76" : 				{
+					"parameter_defer" : 1,
 					"parameter_invisible" : 2,
-					"parameter_defer" : 1, "parameter_longname" : "File",
+					"parameter_longname" : "File",
 					"parameter_modmode" : 0,
 					"parameter_range" : [ "Loading...", " " ],
 					"parameter_type" : 2,
@@ -21839,7 +21922,8 @@
 				}
 ,
 				"obj-296::obj-151" : 				{
-					"parameter_defer" : 1, "parameter_longname" : "Dimensions"
+					"parameter_defer" : 1,
+					"parameter_longname" : "Dimensions"
 				}
 
 			}

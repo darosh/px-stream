@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 638.0, 508.0 ],
+		"rect" : [ 133.0, 71.0, 638.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -206,9 +206,10 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Color",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_defer" : 1, "parameter_longname" : "Color",
+							"parameter_longname" : "Color",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Color",
@@ -587,7 +588,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -911,7 +912,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -980,9 +981,9 @@
 , 							{
 								"box" : 								{
 									"annotation_name" : "Text",
-									"bgcolor" : [ 0.188235294117647, 0.188235294117647, 0.188235294117647, 1.0 ],
+									"bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 									"border" : 1.0,
-									"bordercolor" : [ 0.090196078431373, 0.090196078431373, 0.090196078431373, 1.0 ],
+									"bordercolor" : [ 0.09782765023003, 0.097827613875914, 0.09782762332443, 1.0 ],
 									"id" : "obj-116",
 									"maxclass" : "textedit",
 									"numinlets" : 1,
@@ -1007,8 +1008,9 @@
 ,
 										"valueof" : 										{
 											"parameter_annotation_name" : "Text",
+											"parameter_defer" : 1,
 											"parameter_invisible" : 1,
-											"parameter_defer" : 1, "parameter_longname" : "Text",
+											"parameter_longname" : "Text",
 											"parameter_modmode" : 0,
 											"parameter_shortname" : "Text",
 											"parameter_type" : 3
@@ -1016,6 +1018,7 @@
 
 									}
 ,
+									"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 									"varname" : "textedit"
 								}
 
@@ -1332,7 +1335,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1527,7 +1530,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1722,7 +1725,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2002,8 +2005,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Text Type",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Text", "Beat", "Bar.Beat", "Time" ],
-							"parameter_defer" : 1, "parameter_longname" : "Text Type",
+							"parameter_longname" : "Text Type",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Text Type",
@@ -2222,9 +2226,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Line Length",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ -1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Line Length",
+							"parameter_longname" : "Line Length",
 							"parameter_mmax" : 1000.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 3,
@@ -2256,9 +2261,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Lead Scale",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Lead Scale",
+							"parameter_longname" : "Lead Scale",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Lead Scale",
@@ -2289,9 +2295,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Tracking",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Tracking",
+							"parameter_longname" : "Tracking",
 							"parameter_mmax" : 10.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Tracking",
@@ -2348,8 +2355,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Italic",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Italic",
+							"parameter_longname" : "Italic",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Italic",
@@ -2381,8 +2389,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Bold",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_defer" : 1, "parameter_longname" : "Bold",
+							"parameter_longname" : "Bold",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Bold",
@@ -2432,7 +2441,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3120,7 +3129,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3764,7 +3773,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3959,7 +3968,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4490,9 +4499,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Track",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Track",
+							"parameter_longname" : "Track",
 							"parameter_mmax" : 99.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Track",
@@ -4522,9 +4532,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Y",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Y",
+							"parameter_longname" : "Y",
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
 							"parameter_modmode" : 3,
@@ -4555,9 +4566,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "X",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "X",
+							"parameter_longname" : "X",
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : -2.0,
 							"parameter_modmode" : 3,
@@ -4589,9 +4601,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "G",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "G",
+							"parameter_longname" : "G",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "G",
@@ -4622,9 +4635,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "R",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "R",
+							"parameter_longname" : "R",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "R",
@@ -4655,9 +4669,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "A",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "A",
+							"parameter_longname" : "A",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "A",
@@ -4688,9 +4703,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "B",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "B",
+							"parameter_longname" : "B",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "B",
@@ -4768,9 +4784,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Font Size",
+							"parameter_defer" : 1,
 							"parameter_initial" : [ 24 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Font Size",
+							"parameter_longname" : "Font Size",
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Font Size",
 							"parameter_steps" : 1271,
@@ -4836,10 +4853,11 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Alignment",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Left", "Center", "Right", "Justify" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Alignment",
+							"parameter_longname" : "Alignment",
 							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Alignment",
@@ -5010,7 +5028,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 					"annotation_name" : "Channel",
 					"focusbordercolor" : [ 0.752941176470588, 0.752941176470588, 0.752941176470588, 0.0 ],
@@ -5036,11 +5054,12 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Channel",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "P" ],
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Channel",
+							"parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -5080,8 +5099,9 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Clip Type",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "Session", "Arrangement", "..." ],
-							"parameter_defer" : 1, "parameter_longname" : "Clip Type",
+							"parameter_longname" : "Clip Type",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Clip Type",
@@ -6451,6 +6471,15 @@
 			"obj-81::obj-4" : [ "FileName", "FileName", 0 ],
 			"obj-81::obj-6" : [ "Font Automation", "Font", 0 ],
 			"obj-81::obj-76" : [ "Font", "Font", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"parameter_overrides" : 			{
 				"obj-81::obj-76" : 				{
 					"parameter_invisible" : 2,

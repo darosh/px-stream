@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 130.0, 150.0, 72.0, 16.0 ],
+		"rect" : [ 128.0, 149.0, 72.0, 16.0 ],
 		"openrect" : [ 0.0, 0.0, 72.0, 17.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -69,11 +69,12 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Dimensions",
+							"parameter_defer" : 1,
 							"parameter_enum" : [ "2560×1440", "2560×1080", "1920×1080", "1280×720", "720×1280", "640×480", "320×240", "512×512", "480×480", "256×256" ],
 							"parameter_info" : "Dimensions of rendered texture in pixels",
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_defer" : 1, "parameter_longname" : "Dimensions",
+							"parameter_longname" : "Dimensions",
 							"parameter_mmax" : 9,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Dimensions",
