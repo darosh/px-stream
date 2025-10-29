@@ -11,6 +11,10 @@
 - [ ] follow: screenshots + doc
 - [ ] follow
 - [ ] sync: screenshots + doc
+- [ ] sync follow: negative slope
+- [ ] sync follow: clamp mod
+- [ ] defer all params
+- [ ] use bundled max version 9.0.7
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
