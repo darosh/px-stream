@@ -93,7 +93,7 @@
 ## Install
 
 
-0. Prerequisites: _Ableton Live 12.2 Suite_ or _Ableton Live 12.2 Standard with Max for Live_ (bundled Max version 9.0.6, and up to 9.0.9 should work, 9.1.0 has broken popup window)
+0. Prerequisites: _Ableton Live 12.2 Suite_ or _Ableton Live 12.2 Standard with Max for Live_ (bundled Max version 9.0.7, and up to 9.0.9 should work, but 9.1.0 has broken popup window)
 1. Download the latest [release](https://github.com/darosh/px-stream/releases)
 2. Follow official instructions on [Using third-party Packs](https://help.ableton.com/hc/en-us/articles/206471044-Using-third-party-Packs)
 
