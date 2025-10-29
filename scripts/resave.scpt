@@ -20,12 +20,19 @@ on run argv
         tell application "System Events"
             tell process "Max"
                 keystroke "e" using command down
+                delay 1
                 keystroke "a" using command down
+                delay 1
                 keystroke "x" using command down
+                delay 1
                 keystroke "s" using command down
+                delay 1
                 keystroke "v" using command down
+                delay 1
                 keystroke "s" using command down
+                delay 1
                 keystroke "w" using command down
+                delay 1
             end tell
         end tell
         
