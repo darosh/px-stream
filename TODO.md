@@ -11,6 +11,8 @@
 - [ ] shader should not history undo on session open
 - [ ] max 9.1.0: pop GL UI broken
 - [ ] max 9.1.0: pop size
+- [ ] follow + sync: macro support
+- [ ] follow + sync: skip self
 - [ ] follow: screenshots + doc
 - [ ] sync: screenshots + doc
 
