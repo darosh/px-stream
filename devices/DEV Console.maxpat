@@ -215,7 +215,7 @@
 							"parameter_info" : "Activates Max console additional output. May affect performance. DO NOT USE IN PRODUCTION.",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Active",
+							"parameter_defer" : 1, "parameter_longname" : "Active",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Active",

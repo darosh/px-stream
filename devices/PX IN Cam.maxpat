@@ -440,7 +440,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "Format",
+							"parameter_defer" : 1, "parameter_longname" : "Format",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Format",
 							"parameter_type" : 3
@@ -470,7 +470,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "Device",
+							"parameter_defer" : 1, "parameter_longname" : "Device",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Device",
 							"parameter_type" : 3
@@ -881,7 +881,7 @@
 							"parameter_annotation_name" : "Reload",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Reload",
+							"parameter_defer" : 1, "parameter_longname" : "Reload",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reload",
@@ -1004,7 +1004,7 @@
 							"parameter_enum" : [ "Stop", "Pause", "Play" ],
 							"parameter_initial" : [ 2 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Play",
+							"parameter_defer" : 1, "parameter_longname" : "Play",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Play",
@@ -1218,7 +1218,7 @@
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Channel",
+							"parameter_defer" : 1, "parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",

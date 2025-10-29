@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 9,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 500.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 498.0, 508.0 ],
 		"openrect" : [ 0.0, 0.0, 130.0, 19.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
@@ -250,7 +250,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "File",
 							"parameter_info" : "Selected file",
-							"parameter_longname" : "File Automation",
+							"parameter_defer" : 1, "parameter_longname" : "File Automation",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "File",
@@ -309,7 +309,7 @@
 							"parameter_enum" : [ "Loading...", " " ],
 							"parameter_info" : "Selected file",
 							"parameter_invisible" : 2,
-							"parameter_longname" : "File",
+							"parameter_defer" : 1, "parameter_longname" : "File",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "File",
@@ -334,7 +334,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 9,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -866,7 +866,7 @@
 							"parameter_initial" : [ "" ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "FileName",
+							"parameter_defer" : 1, "parameter_longname" : "FileName",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "FileName",
 							"parameter_type" : 3
@@ -1287,8 +1287,7 @@
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
 				}
 
 			}

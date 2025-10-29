@@ -250,7 +250,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Font",
 							"parameter_info" : "Selected font",
-							"parameter_longname" : "Font Automation",
+							"parameter_defer" : 1, "parameter_longname" : "Font Automation",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Font",
@@ -309,7 +309,7 @@
 							"parameter_enum" : [ "Loading...", " " ],
 							"parameter_info" : "Selected font",
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Font",
+							"parameter_defer" : 1, "parameter_longname" : "Font",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Font",
@@ -866,7 +866,7 @@
 							"parameter_initial" : [ "" ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "FileName",
+							"parameter_defer" : 1, "parameter_longname" : "FileName",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "FileName",
 							"parameter_type" : 3

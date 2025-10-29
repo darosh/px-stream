@@ -764,7 +764,7 @@
 							"parameter_annotation_name" : "Param Y",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Param Y",
+							"parameter_defer" : 1, "parameter_longname" : "Param Y",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Param Y",
@@ -795,7 +795,7 @@
 							"parameter_annotation_name" : "Param X",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Param X",
+							"parameter_defer" : 1, "parameter_longname" : "Param X",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Param X",
@@ -1052,7 +1052,7 @@
 							"parameter_annotation_name" : "Offset",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Offset",
+							"parameter_defer" : 1, "parameter_longname" : "Offset",
 							"parameter_mmax" : 3600000.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 4,
@@ -1101,7 +1101,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Play / Stop",
+							"parameter_defer" : 1, "parameter_longname" : "Play / Stop",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Play / Stop",
@@ -1134,7 +1134,7 @@
 							"parameter_annotation_name" : "Speed",
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Speed",
+							"parameter_defer" : 1, "parameter_longname" : "Speed",
 							"parameter_mmax" : 4000.0,
 							"parameter_mmin" : -4000.0,
 							"parameter_modmode" : 3,
@@ -1174,7 +1174,7 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Show Parameters",
+							"parameter_defer" : 1, "parameter_longname" : "Show Parameters",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Show Parameters",
@@ -1451,7 +1451,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Reload",
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_longname" : "Reload",
+							"parameter_defer" : 1, "parameter_longname" : "Reload",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reload",
@@ -1596,7 +1596,7 @@
 							"parameter_annotation_name" : "Open Folder",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Open Folder",
+							"parameter_defer" : 1, "parameter_longname" : "Open Folder",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Open Folder",
@@ -1634,7 +1634,7 @@
 							"parameter_annotation_name" : "Edit",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Edit",
+							"parameter_defer" : 1, "parameter_longname" : "Edit",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Edit",
@@ -2034,7 +2034,7 @@
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Channel",
+							"parameter_defer" : 1, "parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -3263,7 +3263,7 @@
 			"parameter_overrides" : 			{
 				"obj-112::obj-76" : 				{
 					"parameter_invisible" : 2,
-					"parameter_longname" : "File",
+					"parameter_defer" : 1, "parameter_longname" : "File",
 					"parameter_modmode" : 0,
 					"parameter_range" : [ "Loading...", " " ],
 					"parameter_type" : 2,
@@ -3271,7 +3271,7 @@
 				}
 ,
 				"obj-35::obj-151" : 				{
-					"parameter_longname" : "Dimensions"
+					"parameter_defer" : 1, "parameter_longname" : "Dimensions"
 				}
 
 			}

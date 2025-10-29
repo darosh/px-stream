@@ -332,7 +332,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Conversion",
 							"parameter_enum" : [ "RGB → HSL", "HSL → RGB", "RGB → UYVY", "RGB → YUV", "RGB → OKLAB", " OKLAB → RGB", "RGB → NOKLAB", " NOKLAB → RGB" ],
-							"parameter_longname" : "Conversion",
+							"parameter_defer" : 1, "parameter_longname" : "Conversion",
 							"parameter_mmax" : 7,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Conversion",
@@ -514,7 +514,7 @@
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Channel",
+							"parameter_defer" : 1, "parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",

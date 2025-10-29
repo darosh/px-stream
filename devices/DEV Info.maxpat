@@ -283,7 +283,7 @@
 							"parameter_info" : "Automatically update texture info",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Auto",
+							"parameter_defer" : 1, "parameter_longname" : "Auto",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Auto",

@@ -415,7 +415,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "View",
 							"parameter_enum" : [ "Fit", "Fill", "Stretch" ],
-							"parameter_longname" : "View",
+							"parameter_defer" : 1, "parameter_longname" : "View",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "View",
@@ -762,7 +762,7 @@
 							"parameter_annotation_name" : "Folder",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Folder",
+							"parameter_defer" : 1, "parameter_longname" : "Folder",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Folder",
@@ -800,7 +800,7 @@
 							"parameter_annotation_name" : "Edit",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Edit",
+							"parameter_defer" : 1, "parameter_longname" : "Edit",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Edit",
@@ -993,7 +993,7 @@
 							"parameter_annotation_name" : "Reload",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "Reload",
+							"parameter_defer" : 1, "parameter_longname" : "Reload",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Reload",
@@ -1376,7 +1376,7 @@
 							"parameter_info" : "Sets target mix channel, rendered in Mix View device, alternative to Mix Channel device. When P (pass) is select texture is processed by following device.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Channel",
+							"parameter_defer" : 1, "parameter_longname" : "Channel",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Channel",
@@ -2256,12 +2256,12 @@
 			"obj-91" : [ "View", "View", 0 ],
 			"parameter_overrides" : 			{
 				"obj-4::obj-6" : 				{
-					"parameter_longname" : "File Automation"
+					"parameter_defer" : 1, "parameter_longname" : "File Automation"
 				}
 ,
 				"obj-4::obj-76" : 				{
 					"parameter_invisible" : 2,
-					"parameter_longname" : "File",
+					"parameter_defer" : 1, "parameter_longname" : "File",
 					"parameter_modmode" : 0,
 					"parameter_range" : [ "Loading...", " " ],
 					"parameter_type" : 2,
@@ -2269,7 +2269,7 @@
 				}
 ,
 				"obj-54::obj-151" : 				{
-					"parameter_longname" : "Dimensions"
+					"parameter_defer" : 1, "parameter_longname" : "Dimensions"
 				}
 
 			}

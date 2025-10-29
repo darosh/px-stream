@@ -73,7 +73,7 @@
 							"parameter_info" : "Dimensions of rendered texture in pixels",
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Dimensions",
+							"parameter_defer" : 1, "parameter_longname" : "Dimensions",
 							"parameter_mmax" : 9,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Dimensions",

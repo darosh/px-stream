@@ -3737,7 +3737,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Send MIDI",
+							"parameter_defer" : 1, "parameter_longname" : "Send MIDI",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Send MIDI",
