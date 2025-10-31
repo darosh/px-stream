@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 61.0, 77.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -21,6 +21,30 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-741",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1816.0, 1752.0, 100.0, 22.0 ],
+					"text" : "select 27"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-223",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 1821.0, 1445.0, 101.0, 22.0 ],
+					"text" : "keyskeys.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-740",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -28,18 +52,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1816.0, 1880.0, 100.0, 22.0 ],
 					"text" : "== 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-739",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1816.0, 1808.0, 100.0, 22.0 ],
-					"text" : "t b"
 				}
 
 			}
@@ -57,24 +69,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-733",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1816.0, 1776.0, 100.0, 22.0 ],
-					"text" : "== -3"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-729",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 1816.0, 1728.0, 100.0, 22.0 ],
+					"patching_rect" : [ 1816.0, 1712.0, 100.0, 22.0 ],
 					"text" : "key"
 				}
 
@@ -300,7 +300,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 1616.0, 1848.0, 100.0, 22.0 ],
+					"patching_rect" : [ 1672.0, 1840.0, 100.0, 22.0 ],
 					"text" : "t i 1"
 				}
 
@@ -25818,8 +25818,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-733", 0 ],
-					"source" : [ "obj-729", 3 ]
+					"destination" : [ "obj-741", 0 ],
+					"source" : [ "obj-729", 0 ]
 				}
 
 			}
@@ -25834,13 +25834,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-723", 0 ],
 					"source" : [ "obj-732", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-739", 0 ],
-					"source" : [ "obj-733", 0 ]
 				}
 
 			}
@@ -25890,13 +25883,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-737", 0 ],
-					"source" : [ "obj-739", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-728", 0 ],
 					"source" : [ "obj-74", 0 ]
 				}
@@ -25906,6 +25892,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-728", 0 ],
 					"source" : [ "obj-740", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-737", 0 ],
+					"source" : [ "obj-741", 0 ]
 				}
 
 			}
@@ -26639,6 +26632,13 @@
 				"name" : "jit_ui_transformerValueLabel.js",
 				"bootpath" : "C74:/packages/Jitter Tools/javascript/gl_ui/jit_ui_transform",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "keyskeys.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Examples/jitter-examples/other/3rd_Party/JitterApplets/SimpleMix_lib",
+				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 9/Examples/jitter-examples/other/3rd_Party/JitterApplets/SimpleMix_lib",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
