@@ -77,11 +77,12 @@ IN Video
 ```
 
 ```text
-Alpha 16 release notes:
+Alpha 17 release notes:
 Mix View
-- added UI, Full, Bare options as a workaround for multi-monitor setup with especially with different DPI which does not work well with the UI option
+- added UI, Full, Bare options as a workaround for multi-monitor setup especially with different DPI which does not work well with the UI option
 - fixed dimension change for hidden preview
 - fixed UI for Max 9.1.0 although there might other issues so it's better to stay on bundled 9.0.7
+- added fullscreen <key>ESC<key> support
 ```
 
 ## Licencing
