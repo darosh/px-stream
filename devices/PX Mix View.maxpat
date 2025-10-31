@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 71.0, 498.0, 508.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,18 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-74",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1672.0, 1712.0, 50.0, 22.0 ],
+					"text" : "set $1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-759",
 					"maxclass" : "newobj",
@@ -157,7 +169,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 1736.0, 1720.0, 100.0, 22.0 ],
+					"patching_rect" : [ 1673.0, 1784.0, 100.0, 22.0 ],
 					"text" : "t b 1"
 				}
 
@@ -422,12 +434,11 @@
 					"automationon" : "On",
 					"id" : "obj-108",
 					"maxclass" : "live.text",
-					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1719.0, 1672.0, 56.0, 15.0 ],
+					"patching_rect" : [ 1672.0, 1752.0, 56.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 523.0, 153.0, 56.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -22050,6 +22061,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-177", 1 ],
+					"order" : 1,
+					"source" : [ "obj-355", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"order" : 0,
 					"source" : [ "obj-355", 0 ]
 				}
 
@@ -25663,6 +25683,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-383", 0 ],
 					"source" : [ "obj-738", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"source" : [ "obj-74", 0 ]
 				}
 
 			}
