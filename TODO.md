@@ -9,12 +9,8 @@
 - [ ] transform: crop?
 - [ ] windows + preview bug in "using feedback"
 - [ ] shader should not history undo on session open
-- [ ] max 9.1.0: pop GL UI broken
-- [ ] max 9.1.0: pop size
 - [ ] follow + sync: macro support
 - [ ] follow + sync: skip self
-- [ ] follow: screenshots + doc
-- [ ] sync: screenshots + doc
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
@@ -78,6 +74,14 @@ Mix Dry
 
 IN Video
 - fixed play buton (cosmetic) state
+```
+
+```text
+Alpha 16 release notes:
+Mix View
+- added UI, Full, Bare options as a workaround for multi-monitor setup with especially with different DPI which does not work well with the UI option
+- fixed dimension change for hidden preview
+- fixed UI for Max 9.1.0 although there might other issues so it's better to stay on bundled 9.0.7
 ```
 
 ## Licencing
@@ -269,6 +273,10 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] max 9.1.0: pop GL UI broken
+- [x] postponed ~~max 9.1.0: pop size~~
+- [x] follow: screenshots + doc
+- [x] sync: screenshots + doc
 - [x] follow: negative slope
 - [x] follow: clamp mod
 - [x] sync: bypass audio
