@@ -94,7 +94,7 @@ Mix View
   - [x] CC BY-NC-SA https://x.com/XorDev/status/1601770313230209024
   - [x] MIT https://x.com/YoheiNishitsuji/status/1796435007873151189
 - [ ] check processing licences
-  - [x] https://x.com/SnowEsamosc/status/1971220103070130586
+  - [x] CC BY https://x.com/SnowEsamosc/status/1971220103070130586
   - [x] https://x.com/yuruyurau/status/1719632742269514103
 
 ```text
