@@ -86,6 +86,7 @@
 - [Devices](#devices)
 - [Alternatives](#alternatives)
 - [Roadmap](#roadmap)
+- [Media](#media)
 - [License](#license)
 
 <br>
@@ -876,6 +877,14 @@ Plugin / Standalone App
   - geometry/scene based devices?
   - more GENs, FXs, shaders, presets
   - device template / SDK, dev doc?
+
+<br>
+
+## Media
+
+- [all devices poster](./docs/media/devices.webp)
+- [logo](./assets/svg/PX.1%20Logo.svg) (transparent, needs dark background)
+- icon [PNG](./docs/media/icons/PX_Icon.png), [SVG](./assets/svg/PX.3%20Icon.svg)
 
 <br>
 
