@@ -62,6 +62,9 @@ function link () {
   outlet(0, 'range', range)
 
   outlet(0, 1, params.length >= 1 ? 1 : 0)
+  outlet(0, 2, 0)
+  outlet(0, 3, 0)
+  outlet(0, 4, 0)
   // outlet(0, 2, params.length >= 2 ? 2 : 0)
   // outlet(0, 3, params.length >= 3 ? 3 : 0)
   // outlet(0, 4, params.length >= 4 ? 4 : 0)
