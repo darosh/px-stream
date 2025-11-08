@@ -5526,52 +5526,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
-					"annotation_name" : "Preview",
-					"automation" : "Off",
-					"automationon" : "On",
-					"focusbordercolor" : [ 0.447058823529412, 0.447058823529412, 0.447058823529412, 0.0 ],
-					"id" : "obj-510",
-					"maxclass" : "live.text",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 160.0, 568.0, 44.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 302.0, 153.0, 15.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"activebgoncolor" : 						{
-							"expression" : "themecolor.live_value_arc"
-						}
-,
-						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"valueof" : 						{
-							"parameter_annotation_name" : "Preview",
-							"parameter_defer" : 1,
-							"parameter_enum" : [ "Off", "On" ],
-							"parameter_initial" : [ 1 ],
-							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Preview",
-							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "Preview",
-							"parameter_type" : 2
-						}
-
-					}
-,
-					"text" : "<",
-					"texton" : "<",
-					"varname" : "live.text[20]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-509",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -18070,50 +18024,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
-					"annotation_name" : "More",
-					"automation" : "Off",
-					"automationon" : "On",
-					"focusbordercolor" : [ 0.447058823529412, 0.447058823529412, 0.447058823529412, 0.0 ],
-					"id" : "obj-54",
-					"maxclass" : "live.text",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 16.0, 736.0, 44.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 314.0, 153.0, 15.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"activebgoncolor" : 						{
-							"expression" : "themecolor.live_value_arc"
-						}
-,
-						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"valueof" : 						{
-							"parameter_annotation_name" : "More",
-							"parameter_defer" : 1,
-							"parameter_enum" : [ "Off", "On" ],
-							"parameter_longname" : "More",
-							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "More",
-							"parameter_type" : 2
-						}
-
-					}
-,
-					"text" : ">",
-					"texton" : ">",
-					"varname" : "live.text[8]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"annotation_name" : "8",
 					"automation" : "Off",
 					"automationon" : "On",
@@ -19203,6 +19113,96 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 1144.0, 1232.0, 272.0, 49.0 ],
 					"text" : "jit.gl.videoplane ---pwin @preserve_aspect 1 @drawto ---pwin @layer 1 @enable 0 @capture ---ppwin_txt @transform_reset 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"annotation_name" : "Preview",
+					"automation" : "Off",
+					"automationon" : "On",
+					"focusbordercolor" : [ 0.447058823529412, 0.447058823529412, 0.447058823529412, 0.0 ],
+					"id" : "obj-510",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 160.0, 568.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 302.0, 153.0, 15.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : "themecolor.live_value_arc"
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"valueof" : 						{
+							"parameter_annotation_name" : "Preview",
+							"parameter_defer" : 1,
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_initial" : [ 1 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "Preview",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Preview",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "<",
+					"texton" : "<",
+					"varname" : "live.text[20]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"annotation_name" : "More",
+					"automation" : "Off",
+					"automationon" : "On",
+					"focusbordercolor" : [ 0.447058823529412, 0.447058823529412, 0.447058823529412, 0.0 ],
+					"id" : "obj-54",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 16.0, 736.0, 44.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 314.0, 153.0, 15.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : "themecolor.live_value_arc"
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"valueof" : 						{
+							"parameter_annotation_name" : "More",
+							"parameter_defer" : 1,
+							"parameter_enum" : [ "Off", "On" ],
+							"parameter_longname" : "More",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "More",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : ">",
+					"texton" : ">",
+					"varname" : "live.text[8]"
 				}
 
 			}
