@@ -91,7 +91,7 @@ Mix View
 ```text
 Alpha 18 release notes:
 Mini Shader
-- added support for #include directive and [Lygia Shader Library](https://lygia.xyz/) (bundled in `assets/lib/lygia`), see examples `X.Lygia.01` to `18`
+- added support for `#include` directive and [Lygia Shader Library](https://lygia.xyz/) (bundled in `assets/lib/lygia`), see examples `X.Lygia.01` to `18`
 
 Rec
 - fixed video recording (Thanks (@SenPi)[https://discord.com/channels/1329379539708805193/1329379539708805196/1436424813731123311])
