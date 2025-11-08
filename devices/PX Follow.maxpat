@@ -2247,7 +2247,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 847.0, 1763.0, 40.0, 22.0 ],
+					"patching_rect" : [ 847.0, 1797.0, 40.0, 22.0 ],
 					"text" : "* 0.5"
 				}
 
@@ -4471,7 +4471,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 48.0, 1552.0, 24.0, 22.0 ],
+					"patching_rect" : [ 48.0, 2000.0, 24.0, 22.0 ],
 					"text" : "p"
 				}
 
@@ -6214,7 +6214,7 @@
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Range D",
-							"parameter_steps" : 201,
+							"parameter_steps" : 20001,
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
 						}
@@ -6253,7 +6253,7 @@
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Range C",
-							"parameter_steps" : 201,
+							"parameter_steps" : 20001,
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
 						}
@@ -6304,7 +6304,7 @@
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Range B",
-							"parameter_steps" : 201,
+							"parameter_steps" : 20001,
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
 						}
@@ -7316,7 +7316,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 797.0, 1791.0, 104.0, 22.0 ],
+					"patching_rect" : [ 800.0, 1888.0, 104.0, 22.0 ],
 					"text" : "gate 4"
 				}
 
@@ -7587,7 +7587,7 @@
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Range A",
-							"parameter_steps" : 201,
+							"parameter_steps" : 20001,
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
 						}
@@ -9383,6 +9383,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-202", 1 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 1 ],
+					"source" : [ "obj-210", 0 ]
 				}
 
 			}
@@ -11370,7 +11377,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-64", 1 ],
+					"destination" : [ "obj-210", 0 ],
 					"source" : [ "obj-52", 0 ]
 				}
 
