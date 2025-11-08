@@ -14,9 +14,6 @@
 - [ ] add note about names to "PX Shader &mdash; Audio types"
 - [ ] https://www.shadertoy.com/view/7dyyRy
 - [ ] using modulation
-- [ ] 3rd modulation weight fix?
-- [ ] modulation weight resolution?
-- [ ] mix view instant rec layout fix
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
@@ -89,6 +86,22 @@ Mix View
 - fixed dimension change for hidden preview
 - fixed UI for Max 9.1.0 although there might other issues so it's better to stay on bundled 9.0.7
 - added fullscreen <key>ESC<key> support
+```
+
+```text
+Alpha 18 release notes:
+Mini Shader
+- added support for #include directive and [Lygia Shader Library](https://lygia.xyz/) (bundled in `assets/lib/lygia`), see examples `X.Lygia.01` to `18`
+
+Rec
+- fixed video recording (Thanks (@SenPi)[https://discord.com/channels/1329379539708805193/1329379539708805196/1436424813731123311])
+
+Sync & Follow
+- fixed 3rd modulation weight not applied
+- increased weight resolution
+
+Mix View
+- cosmetic fix of instant recording
 ```
 
 ## Licencing
@@ -286,6 +299,9 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] 3rd modulation weight fix?
+- [x] modulation weight resolution?
+- [x] mix view instant rec layout fix
 - [x] max 9.1.0: pop GL UI broken
 - [x] postponed ~~max 9.1.0: pop size~~
 - [x] follow: screenshots + doc
