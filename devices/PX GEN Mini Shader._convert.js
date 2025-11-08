@@ -1,4 +1,5 @@
 import tokenizeString from 'glsl-tokenizer'
+import { inlineIncludes } from '../scripts/shaders/include.js'
 
 const defaultValues = {
   'int': '=0',
@@ -577,7 +578,7 @@ uniform sampler2D b;
 }
 
 function toJxs (fs) {
-  return `<jittershader name="shading">
+  return [`<jittershader name="shading">
     <param name="b" type="int" default="0" />
     <param name="position" type="vec3" state="POSITION" />
     <param name="textureMatrix0" type="mat4" state="TEXTURE0_MATRIX" />
@@ -607,11 +608,13 @@ void main(){
         </program>
         <program name="fp" type="fragment">
             <![CDATA[
-${fs}
+`,
+...fs, // template limited to 32kb?
+`
 ]]>
         </program>
     </language>
-</jittershader>`
+</jittershader>`]
 }
 
 function getIdents (tokens) {
@@ -650,12 +653,30 @@ function getUtils (tokens) {
 
 const fs = new Fragmen()
 
-function convert (original) {
+function readFile(path) {
+  const f = new File(path, 'read')
+  
+  if (f.isopen) {
+    const t = f.readstring(1e6)
+    f.close()
+    return t
+  }
+}
+
+function convert (original_) {
+  const lines = original_.split('\n')
+  const i = lines.findLastIndex(x => x.startsWith('#include'))
+  const pre_original = i === -1 ? '' : lines.slice(0, i + 1)
+  const original = i === -1 ? original_ : lines.slice(i + 1).join('\n')
   const fixedLoops = fixUninitializedLoopVars(original)
   const fixedVars = fixUninitializedVars(fixedLoops.fixed)
-  const code = fs.preprocessFragmentCode(fixedVars.fixed, getUtils(fixedVars.tokens))
-
-  return toJxs(code)
+  let code = fs.preprocessFragmentCode(fixedVars.fixed, getUtils(fixedVars.tokens)).split('\n')
+  const base = folder.replace('mini-shaders', 'lib')
+  const pre_code = inlineIncludes(pre_original, base, readFile)
+  
+  return toJxs(
+    [code[0], ...pre_code, ...code.slice(1)]
+  )
 }
 
 let folder
@@ -681,7 +702,12 @@ function load_file (original) {
 
   f.eof = 0
   f.position = 0
-  f.writestring(jxs)
+  
+  for(let i = 0; i < jxs.length; i++) {
+    f.writestring(jxs[i])
+    f.writestring('\n')
+  }
+
   f.close()
 
   outlet(0, 'jxs', 'file', path)

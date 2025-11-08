@@ -32,6 +32,7 @@ assets/shaders/.postponed
 assets/sketches/.obsolete
 assets/svg/.unknown
 assets/svg/.obsolete
+assets/lib/
 docs/media/temp/screenshot-*.png
 docs/media/temp/Screenshot 2*.png
 docs/media/temp/screenshot-*.mov
@@ -43,5 +44,4 @@ scripts/assets/.downloaded
 build/PX Stream/Icon
 build/PX Stream/Assets
 build/*.alp
-build/PX Stream/Devices/
 build/PX Stream/Devices/
