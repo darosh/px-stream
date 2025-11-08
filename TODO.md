@@ -11,6 +11,12 @@
 - [ ] shader should not history undo on session open
 - [ ] follow + sync: macro support
 - [ ] follow + sync: skip self
+- [ ] add note about names to "PX Shader &mdash; Audio types"
+- [ ] https://www.shadertoy.com/view/7dyyRy
+- [ ] using modulation
+- [ ] 3rd modulation weight fix?
+- [ ] modulation weight resolution?
+- [ ] mix view instant rec layout fix
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
@@ -271,6 +277,12 @@ Note: many of these things can be checked and changed in the View > Parameters w
 - [x] PX Shader
 - [x] PX Sync
 - [x] PX World
+
+## Socials
+
+- https://x.com/sidebrain/status/1985762677667631431
+- https://www.facebook.com/SideBrain
+- https://www.threads.com/@sidebrain/post/DQpKEIaj4Jk
 
 ## Done
 
