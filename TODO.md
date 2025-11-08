@@ -105,7 +105,8 @@ Mix View
 - cosmetic fix of instant recording
 
 Demo sets
-- added Sync.als example
+- added `Sync.als` 
+- added `Simple Set.als`
 ```
 
 ## Licencing
