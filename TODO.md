@@ -97,11 +97,15 @@ Rec
 - fixed video recording (Thanks (@SenPi)[https://discord.com/channels/1329379539708805193/1329379539708805196/1436424813731123311])
 
 Sync & Follow
-- fixed 3rd modulation weight not applied
-- increased weight resolution
+- fixed 3rd modulation weight not applied (was always 50%)
+- fixed session restoring selected modulated parameter
+- increased weight resolution (from 1% to 0.01%)
 
 Mix View
 - cosmetic fix of instant recording
+
+Demo sets
+- added Sync.als example
 ```
 
 ## Licencing
