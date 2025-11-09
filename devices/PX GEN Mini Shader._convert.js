@@ -536,7 +536,7 @@ uniform vec2 m;
 uniform float t;
 uniform float f;
 uniform float s;
-uniform sampler2D b;
+uniform samplerJit0 b;
 `
   }
 
@@ -580,38 +580,37 @@ uniform sampler2D b;
 function toJxs (fs) {
   return [`<jittershader name="shading">
     <param name="b" type="int" default="0" />
-    <param name="position" type="vec3" state="POSITION" />
-    <param name="textureMatrix0" type="mat4" state="TEXTURE0_MATRIX" />
     <param name="r" type="vec2" default="512 512" />
     <param name="m" type="vec2" default="0 0" />
     <param name="t" type="float" default="1" />
     <param name="f" type="float" default="1000" />
-    <language name="glsl" version="3.3">
+    <param name="modelViewProjectionMatrix" type="mat4" state="MODELVIEW_PROJECTION_MATRIX" />
+    <param name="position" type="vec3" state="POSITION" />
+    <language name="glsl" version="1.5">
         <bind param="b" program="fp" />
-        <bind param="position" program="vp" />
-        <bind param="textureMatrix0" program="vp" />
         <bind param="r" program="fp" />
         <bind param="m" program="fp" />
         <bind param="t" program="fp" />
         <bind param="f" program="fp" />
-        <program name="vp" type="vertex">
-            <![CDATA[
-#version 330
-in  vec3 position;
-uniform mat4 textureMatrix0;
+        <bind param="modelViewProjectionMatrix" program="vp" />
+        <bind param="position" program="vp" />
+        <program name="vp" type="vertex"  >
+        <![CDATA[
+            #version 330 core
 
-void main(){
-    vec2 vTexCoord = (position.xy - 0.5).xy * 2.0;
-    gl_Position = vec4(vTexCoord, 0., 1.0);
-}
-]]>
+            in vec3 position;
+            uniform mat4 modelViewProjectionMatrix;
+
+            void main() {
+                gl_Position = modelViewProjectionMatrix*vec4(position, 1.);
+            }
+        ]]>
         </program>
-        <program name="fp" type="fragment">
-            <![CDATA[
-`,
-...fs, // template limited to 32kb?
-`
-]]>
+
+        <program name="fp" type="fragment"  >
+        <![CDATA[`,
+    ...fs, // template limited to 32kb?
+        `]]>
         </program>
     </language>
 </jittershader>`]
