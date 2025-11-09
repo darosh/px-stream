@@ -7,6 +7,7 @@ node_modules/
 .drawing.*.svg
 .TEST*.amxd
 .TEST*.maxpat
+.TEST*.jxs
 .data-dir/
 devices/*.min.js
 assets/images/
