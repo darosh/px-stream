@@ -1,7 +1,5 @@
 // https://github.com/patriciogonzalezvivo/lygia_examples/blob/main/filter_fibonacciBokeh.frag
 
-#define SAMPLER_TYPE sampler2DRect
-
 #include "lygia/filter/fibonacciBokeh.glsl"
 
 #include "lygia/draw/digits.glsl"
@@ -16,7 +14,7 @@ void main () {
     float ix = floor(st.x * 5.0);
     float radius = (ix/4.0) * 0.5;
 
-    color += fibonacciBokeh(b, FC.xy, vec2(1.0), radius).rgb;
+    color += fibonacciBokeh(b, st, pixel, radius).rgb;
     
     color -= digits(uv - vec2(ix/5.0 + 0.01, 0.01), radius, 2.);
     color -= step(.99, fract(uv.x * 5.0));

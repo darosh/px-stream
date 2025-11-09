@@ -1,9 +1,7 @@
 // https://github.com/patriciogonzalezvivo/lygia_examples/blob/main/filter_kuwahara2D.frag
 
-#define SAMPLER_TYPE sampler2DRect
-
 #include "lygia/sample/clamp2edge.glsl"
-//#define KUWAHARA_SAMPLER_FNC(TEX, UV) sampleClamp2edge(TEX, UV)
+#define KUWAHARA_SAMPLER_FNC(TEX, UV) sampleClamp2edge(TEX, UV)
 #include "lygia/filter/kuwahara.glsl"
 
 #include "lygia/draw/digits.glsl"
@@ -18,7 +16,7 @@ void main (void) {
     float kernel_size = max(1.0, ix * 3.0);
     int ks = int(kernel_size);
 
-    color += kuwahara(b, FC.xy, vec2(1.), ks).rgb;
+    color += kuwahara(b, uv, pixel, ks).rgb;
 
     color += digits(st - vec2(ix/5.0 + 0.01, 0.01), kernel_size, 0.0);
     color -= step(.99, fract(st.x * 5.0));
