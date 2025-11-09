@@ -14,6 +14,8 @@
 - [ ] add note about names to "PX Shader &mdash; Audio types"
 - [ ] https://www.shadertoy.com/view/7dyyRy
 - [ ] using modulation
+- [ ] ISF shader bool should round .5+ up
+- [ ] audiofft is audioFFT? doc fix?
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
@@ -107,6 +109,18 @@ Mix View
 Demo sets
 - added `Sync.als` 
 - added `Simple Set.als`
+`
+
+```text
+Alpha 19 release notes:
+Mini Shader
+- added support for input texture
+- added FX shader examples (X.02 FX Invert, X.Lygia.21 FX ... X.Lygia.25 FX)
+
+Shader
+- added shaders
+
+Demo sets
 ```
 
 ## Licencing
