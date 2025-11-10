@@ -115,11 +115,10 @@ Mini Shader
 - added FX shader examples (X.02 FX Invert, X.Lygia.21 FX ... X.Lygia.25 FX)
 
 Shader
-- fixed audiofft instead of audioFFT
+- added support for `#include` directive and [Lygia Shader Library](https://lygia.xyz/) (bundled in `assets/lib/lygia`), see examples `X.Lygia.01` to `02`
 - changed bool param rounding (works better with modulation now) 
 - added shaders
-
-Demo sets
+- fixed audiofft instead of audioFFT
 ```
 
 ## Licencing
