@@ -21,6 +21,19 @@
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-24",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1080.0, 328.0, 100.0, 49.0 ],
+					"text" : "loadmess jit_gl_texture PX_EMPTY"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -51,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 960.0, 360.0, 100.0, 22.0 ],
+					"patching_rect" : [ 944.0, 344.0, 100.0, 22.0 ],
 					"text" : "zl.slice 2"
 				}
 
@@ -2606,6 +2619,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-188", 0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
