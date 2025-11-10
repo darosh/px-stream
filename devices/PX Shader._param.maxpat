@@ -605,7 +605,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -632,7 +631,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 352.0, 176.0, 130.0, 22.0 ],
+									"patching_rect" : [ 376.0, 176.0, 130.0, 22.0 ],
 									"text" : "string.compare bool"
 								}
 
@@ -668,8 +667,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 200.0, 176.0, 130.0, 22.0 ],
-									"text" : "string.compare audiofft"
+									"patching_rect" : [ 200.0, 176.0, 144.0, 22.0 ],
+									"text" : "string.compare audioFFT"
 								}
 
 							}
@@ -792,7 +791,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 288.0, 336.0, 61.0, 49.0 ],
+					"patching_rect" : [ 280.0, 352.0, 104.0, 22.0 ],
 					"text" : "p is-audio-or-bool"
 				}
 
