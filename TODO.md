@@ -12,7 +12,6 @@
 - [ ] follow + sync: macro support
 - [ ] follow + sync: skip self
 - [ ] add note about names to "PX Shader &mdash; Audio types"
-- [ ] https://www.shadertoy.com/view/7dyyRy
 - [ ] using modulation
 
 - [Release notes](#release-notes)
@@ -320,6 +319,8 @@ Note: many of these things can be checked and changed in the View > Parameters w
 
 ## Done
 
+- [x] https://www.shadertoy.com/view/t3SfW1
+- [x] https://www.shadertoy.com/view/7dyyRy
 - [x] ISF shader bool should round .5+ up
 - [x] audiofft is audioFFT? doc fix?
 - [x] 3rd modulation weight fix?
