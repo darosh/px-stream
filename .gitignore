@@ -25,6 +25,7 @@ assets/mini-shaders/.temp.jxs
 assets/mini-shaders/.temp-*.jxs
 assets/mini-shaders/.obsolete
 assets/mini-shaders/.info
+assets/shaders/.temp-*.fs
 assets/shaders/.wip
 assets/shaders/.obsolete
 assets/shaders/.bugs
