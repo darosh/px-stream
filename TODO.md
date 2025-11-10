@@ -114,7 +114,7 @@ Demo sets
 ```text
 Alpha 19 release notes:
 Mini Shader
-- added support for input texture
+- added support for input texture (repurposed backbuffer b variable)
 - added FX shader examples (X.02 FX Invert, X.Lygia.21 FX ... X.Lygia.25 FX)
 
 Shader
