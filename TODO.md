@@ -14,8 +14,6 @@
 - [ ] add note about names to "PX Shader &mdash; Audio types"
 - [ ] https://www.shadertoy.com/view/7dyyRy
 - [ ] using modulation
-- [ ] ISF shader bool should round .5+ up
-- [ ] audiofft is audioFFT? doc fix?
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
@@ -118,6 +116,8 @@ Mini Shader
 - added FX shader examples (X.02 FX Invert, X.Lygia.21 FX ... X.Lygia.25 FX)
 
 Shader
+- fixed audiofft instead of audioFFT
+- changed bool param rounding (works better with modulation now) 
 - added shaders
 
 Demo sets
@@ -313,11 +313,15 @@ Note: many of these things can be checked and changed in the View > Parameters w
 ## Socials
 
 - https://x.com/sidebrain/status/1985762677667631431
+- https://x.com/sidebrain/status/1986866381649060254
 - https://www.facebook.com/SideBrain
 - https://www.threads.com/@sidebrain/post/DQpKEIaj4Jk
+- https://www.instagram.com/stories/sidebrain/
 
 ## Done
 
+- [x] ISF shader bool should round .5+ up
+- [x] audiofft is audioFFT? doc fix?
 - [x] 3rd modulation weight fix?
 - [x] modulation weight resolution?
 - [x] mix view instant rec layout fix
