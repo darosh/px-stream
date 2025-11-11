@@ -118,7 +118,11 @@ Shader
 - added support for `#include` directive and [Lygia Shader Library](https://lygia.xyz/) (bundled in `assets/lib/lygia`), see examples `X.Lygia.01` to `02`
 - changed bool param rounding (works better with modulation now) 
 - added shaders
-- fixed audiofft instead of audioFFT
+- fixed audiofft used instead of audioFFT
+- fixed MIDI data update
+
+MIDI Route
+- reduced MIDI data indicator overhead
 ```
 
 ## Licencing
