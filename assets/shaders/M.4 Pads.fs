@@ -10,19 +10,24 @@
         {"NAME": "brightness", "TYPE": "float", "DEFAULT": 0.25, "MIN": 0, "MAX": 1},
         {"NAME": "glow", "TYPE": "bool", "DEFAULT": 0},
         {"NAME": "N", "TYPE": "float", "DEFAULT": 7, "MIN": 2, "MAX": 12},
-        {"NAME": "note", "TYPE": "float", "DEFAULT": 36, "MIN": 0, "MAX": 127}
+        {"NAME": "note", "TYPE": "float", "DEFAULT": 36, "MIN": 0, "MAX": 127},
+        {"NAME": "rotation", "TYPE": "float", "DEFAULT": 0, "MIN": 0, "MAX": 2}
     ],
     "ISFVSN": "2",
     "DESCRIPTION": "4x4 finger drumming pad visualization"
 }*/
 
 #include "lygia/draw/fill.glsl"
+
 #include "lygia/space/ratio.glsl"
+#include "lygia/space/rotate.glsl"
+
 #include "lygia/sdf/circleSDF.glsl"
 #include "lygia/sdf/rectSDF.glsl"
 #include "lygia/sdf/starSDF.glsl"
 #include "lygia/sdf/flowerSDF.glsl"
 #include "lygia/sdf/heartSDF.glsl"
+
 #include "darosh/sdf/teddySDF.glsl"
 
 float getPadActivity(float padIndex) {
@@ -57,6 +62,10 @@ void main() {
     vec2 cellLocal = fract(gridSpace);
     float d, radius;
 
+    if (rotation > 0) {
+        cellLocal = rotate(cellLocal, rotation * ((mod(padIndex, 2) == 0 ? -1 : 1) * TIME * rotation * 1.4 + padIndex));
+    }
+    
     if (activity == 0) {
         d = 0;
         radius = 0;
