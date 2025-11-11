@@ -54,4 +54,21 @@ float teddySDF(vec2 st) {
     
     return bear;
 }
+
+float teddyEyesSDF(vec2 st) {
+    #ifdef CENTER_2D
+    st -= CENTER_2D;
+    #else
+    st -= 0.5;
+    #endif
+
+    st *= 4.0;
+
+    st += 0.5;
+
+    float eyeLeft = circleSDF(st - vec2(-0.22, 0.46)) - 0.001;
+    float eyeRight = circleSDF(st - vec2(0.22, 0.46)) - 0.001;
+
+    return min(eyeLeft, eyeRight);
+}
 #endif
