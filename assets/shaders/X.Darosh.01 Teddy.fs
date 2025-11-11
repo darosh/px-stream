@@ -2,7 +2,8 @@
     "CREDIT": "by darosh",
     "CATEGORIES": ["Example"],
     "INPUTS": [
-        {"NAME": "scale", "TYPE": "float", "DEFAULT": 1, "MIN": 0, "MAX": 10}
+        {"NAME": "scale", "TYPE": "float", "DEFAULT": 1, "MIN": 0, "MAX": 10},
+        {"NAME": "speed", "TYPE": "float", "DEFAULT": 1, "MIN": 0, "MAX": 10}
     ],
     "ISFVSN": "2",
     "DESCRIPTION": "Custom library + Lygia usage example"
@@ -37,7 +38,7 @@ void main() {
     float sdf = 1.0;
     float sdfEyes = 1.0;
 
-    st_f = rotate(st_f, (mod(index, 2) == 0 ? -1 : 1) * TIME * 1.4 + index);
+    st_f = rotate(st_f, (mod(index, 2) == 0 ? -1 : 1) * TIME * speed * 1.4 + index);
 
     sdf = teddySDF(st_f);
     sdfEyes = teddyEyesSDF(st_f);
