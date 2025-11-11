@@ -3,9 +3,14 @@
     "CATEGORIES": ["MIDI Visualizer"],
     "INPUTS": [
         {"NAME": "midiImage", "TYPE": "audio"},
+        {"NAME": "grid", "TYPE": "float", "DEFAULT": 4, "MIN": 2, "MAX": 8},
+        {"NAME": "type", "TYPE": "float", "DEFAULT": 0, "MIN": 0, "MAX": 6},
         {"NAME": "margin", "TYPE": "float", "DEFAULT": 0.1, "MIN": 0, "MAX": 1},
         {"NAME": "edge", "TYPE": "float", "DEFAULT": 0, "MIN": 0, "MAX": 0.5},
-        {"NAME": "minBrigtness", "TYPE": "float", "DEFAULT": 0.25, "MIN": 0, "MAX": 1}
+        {"NAME": "brightness", "TYPE": "float", "DEFAULT": 0.25, "MIN": 0, "MAX": 1},
+        {"NAME": "glow", "TYPE": "bool", "DEFAULT": 0},
+        {"NAME": "N", "TYPE": "float", "DEFAULT": 7, "MIN": 2, "MAX": 12},
+        {"NAME": "note", "TYPE": "float", "DEFAULT": 36, "MIN": 0, "MAX": 127}
     ],
     "ISFVSN": "2",
     "DESCRIPTION": "4x4 finger drumming pad visualization"
@@ -14,9 +19,14 @@
 #include "lygia/draw/fill.glsl"
 #include "lygia/space/ratio.glsl"
 #include "lygia/sdf/circleSDF.glsl"
+#include "lygia/sdf/rectSDF.glsl"
+#include "lygia/sdf/starSDF.glsl"
+#include "lygia/sdf/flowerSDF.glsl"
+#include "lygia/sdf/heartSDF.glsl"
+#include "darosh/sdf/teddySDF.glsl"
 
 float getPadActivity(float padIndex) {
-    float targetNote = 36.0 + padIndex;
+    float targetNote = note + padIndex;
     float maxVel = 0.0;
     vec4 midiData = IMG_PIXEL(midiImage, vec2(targetNote + .5, .5));
 
@@ -27,42 +37,59 @@ void main() {
     vec2 st = gl_FragCoord.xy / RENDERSIZE.xy;
     st = ratio(st, RENDERSIZE);
 
-    // Grid setup
-    float gridSize = 4.0;
-    float marginSize = margin / gridSize / 2;
-    float cellSize = (1.0 - marginSize * 2) / gridSize;
+    st *= 1 + margin;
+    st -= margin / 2;
 
-    vec3 color = vec3(0.1);
+    float gridSize = round(grid);
+    vec3 color = vec3(0);
+    vec2 gridSpace = st * gridSize;
+    vec2 cellIndex = floor(gridSpace);
 
-    // Loop through each pad position
-    for (float row = 0.0; row < gridSize; row += 1.0) {
-        for (float col = 0.0; col < gridSize; col += 1.0) {
-            // Calculate pad center
-            vec2 padCenter = vec2(
-            (col + .5) * cellSize - .5 + marginSize,
-            (row + .5) * cellSize - .5 + marginSize
-            );
+    if (cellIndex.x < 0.0 || cellIndex.x >= gridSize || cellIndex.y < 0.0 || cellIndex.y >= gridSize) {
+        gl_FragColor = vec4(0);
 
-            // Distance from current pixel to pad center
-            float d = circleSDF(st - padCenter);
-
-            // Radius of each pad (with margin)
-            float radius = cellSize * (1.0 - margin);
-
-            // Fill the circle
-            float circle = edge > 0. ? fill(d, radius, edge) : fill(d, radius);
-
-            // Get activity (dummy - always on)
-            float padIndex = col + row * gridSize;
-            float activity = getPadActivity(padIndex);
-
-            activity = activity > 0. ? mix(minBrigtness, 1.0, activity) : 0.;
-
-            // Color the pad
-            vec3 padColor = vec3(0.2, 0.6, 1.0) * activity;
-            color = mix(color, padColor, circle);
-        }
+        return;
     }
+
+    float padIndex = cellIndex.x + cellIndex.y * gridSize;
+    float activity = getPadActivity(padIndex);
+
+    vec2 cellLocal = fract(gridSpace);
+    float d, radius;
+
+    if (activity == 0) {
+        d = 0;
+        radius = 0;
+    } else if (type < 1) {
+        d = circleSDF(cellLocal);
+        radius = 1 * (1.0 - margin);
+    } else if (type < 2) {
+        d = rectSDF(cellLocal);
+        radius = 1 * (1.0 - margin);
+    } else if (type < 3) {
+        d = starSDF(cellLocal, int(N));
+        radius = 1 * (0.75 - margin);
+    } else if (type < 4) {
+        d = flowerSDF(cellLocal, int(N));
+        radius = 1 * (0.75 - margin);
+    } else if (type < 5) {
+        d = heartSDF(cellLocal);
+        radius = 1 * (0.75 - margin);
+    } else {
+        d = teddySDF(cellLocal / (1.25 - margin));
+        radius = .5;
+    }
+
+    float shape = edge > 0. ? fill(d, radius, edge) : fill(d, radius);
+    activity = activity > 0. ? mix(brightness, 1.0, activity) : 0.;
+    vec3 padColor = vec3(1.) * activity;
+
+    if (glow && (activity > 0)) {
+        float sdfEyes = teddyEyesSDF(cellLocal / (1.25 - margin));
+        padColor.rgb = mix(padColor.rgb, vec3(2, 0, 0), fill(sdfEyes, 0.01, 1));
+    }
+
+    color = mix(color, padColor, shape);
 
     gl_FragColor = vec4(color, 1.0);
 }
