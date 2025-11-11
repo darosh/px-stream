@@ -17,7 +17,7 @@ float getPadActivity(float padIndex) {
     float targetNote = 36.0 + padIndex;
     float maxVel = 0.0;
     vec4 midiData = IMG_PIXEL(midiImage, vec2(targetNote + .5, .5));
-    
+
     return midiData.r;
 }
 
@@ -53,8 +53,8 @@ void main() {
             float padIndex = col + row * gridSize;
             float activity = getPadActivity(padIndex);
 
-            activity = activity > .0 ? 1. : 0;
-            
+            activity = activity > 0. ? mix(0.5, 1.0, activity) : 0.;
+
             // Color the pad
             vec3 padColor = vec3(0.2, 0.6, 1.0) * activity;
             color = mix(color, padColor, circle);
