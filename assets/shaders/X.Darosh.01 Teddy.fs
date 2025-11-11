@@ -1,7 +1,9 @@
 /*{
     "CREDIT": "by darosh",
     "CATEGORIES": ["Example"],
-    "INPUTS": [],
+    "INPUTS": [
+        {"NAME": "scale", "TYPE": "float", "DEFAULT": 1, "MIN": 0, "MAX": 10}
+    ],
     "ISFVSN": "2",
     "DESCRIPTION": "Custom library + Lygia usage example"
 }*/
@@ -22,12 +24,13 @@ void main() {
 
     st = center(st);
     st = aspect(st, RENDERSIZE.xy);
+    st *= scale;
     st = uncenter(st);
 
     float cols = 4.0;
     st *= cols;
-    vec2 st_i = floor(st);
-    vec2 st_f = fract(st);
+    vec2 st_i = floor(st + .5);
+    vec2 st_f = fract(st + .5);
 
     float index = (st_i.x + (cols-st_i.y - 1.0) * cols);
 
@@ -36,12 +39,10 @@ void main() {
 
     st_f = rotate(st_f, (mod(index, 2) == 0 ? -1 : 1) * TIME * 1.4 + index);
 
-    if (index < 20.0) {
-        sdf = teddySDF(st_f);
-        sdfEyes = teddyEyesSDF(st_f);
-    }
+    sdf = teddySDF(st_f);
+    sdfEyes = teddyEyesSDF(st_f);
 
-    color.rgb += fill(sdf, 0.5) * mix(0.3, 0.9, abs(sin(index + mod(index, 3))));
+    color.rgb += fill(sdf, 0.5) * mix(0.3, 0.9, abs(sin(index + 2 + mod(index, 3))));
     color.rgb = mix(color.rgb, vec3(2, 0, 0), fill(sdfEyes, 0.01, 1));
 
     gl_FragColor = color;
