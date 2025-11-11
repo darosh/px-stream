@@ -120,6 +120,7 @@ Shader
 - added shaders
 - fixed audiofft used instead of audioFFT
 - fixed MIDI data update
+- fixed error on empty ISF inputs
 
 MIDI Route
 - reduced MIDI data indicator overhead
