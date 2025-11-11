@@ -34,7 +34,7 @@ function typeToLabel (type) {
 function anything () {
   const d = new Dict(arguments[0])
 
-  const keys = d.getkeys()
+  const keys = d.getkeys() ?? []
   const o = {}
 
   for (const k of keys) {
