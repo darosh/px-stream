@@ -74,7 +74,7 @@ function anything () {
       continue
       //o[k].max = 1024
       //o[k].default = 1024
-    } else if (t === 'audioFFT') {
+    } else if (t === 'audiofft') { // jit.gl.fft seems to convert to lowercase :(
       continue
       //o[k].max = 1024
       //o[k].default = 1024
