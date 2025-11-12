@@ -52,10 +52,10 @@ float LineDist(vec3 a, vec3 b, vec3 p) {
     return length(cross(b-a, p-a))/length(p-a);
 }
 
-float df_line( in vec2 a, in vec2 b, in vec2 p)
+float df_line(in vec2 a, in vec2 b, in vec2 p)
 {
     vec2 pa = p - a, ba = b - a;
-    float h = clamp(dot(pa,ba) / dot(ba,ba), 0., 1.);
+    float h = clamp(dot(pa, ba) / dot(ba, ba), 0., 1.);
     return length(pa - ba * h);
 }
 
@@ -78,16 +78,16 @@ float NetLayer(vec2 st, float n, float t) {
 
     vec2 p[9];
     int i=0;
-    for(float y=-1.; y<=1.; y++) {
-        for(float x=-1.; x<=1.; x++) {
-            p[i++] = GetPos(id, vec2(x,y), t);
+    for (float y=-1.; y<=1.; y++) {
+        for (float x=-1.; x<=1.; x++) {
+            p[i++] = GetPos(id, vec2(x, y), t);
         }
     }
 
     float m = 0.;
     float sparkle = 0.;
 
-    for(int i=0; i<9; i++) {
+    for (int i=0; i<9; i++) {
         m += line(p[4], p[i], st);
 
         float d = length(st-p[i]);
@@ -113,7 +113,7 @@ float NetLayer(vec2 st, float n, float t) {
     return m;
 }
 
-void mainImage( out vec4 fragColor, in vec2 fragCoord )
+void mainImage(out vec4 fragColor, in vec2 fragCoord)
 {
     vec2 uv = (fragCoord-iResolution.xy*.5)/iResolution.y;
     vec2 M = iMouse.xy/iResolution.xy-.5;
@@ -127,7 +127,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
     M *= rot*2.;
 
     float m = 0.;
-    for(float i=0.; i<1.; i+=1./NUM_LAYERS) {
+    for (float i=0.; i<1.; i+=1./NUM_LAYERS) {
         float z = fract(t+i);
         float size = mix(15., 1., z);
         float fade = S(0., .6, z)*S(1., .8, z);
@@ -135,7 +135,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
         m += fade * NetLayer(st*size-M*z, i, iTime);
     }
 
-    float fft  = texelFetch( iChannel0, ivec2(.7,0), 0 ).x;
+    float fft  = texelFetch(iChannel0, ivec2(.7, 0), 0).x;
     float glow = -uv.y*fft*2.;
 
     vec3 baseCol = vec3(s, cos(t*.4), -sin(t*.24))*.4+.6;
@@ -148,10 +148,10 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
     uv = fract(uv);
     //if(uv.x>.98 || uv.y>.98) col += 1.;
     #else
-    col *= 1.-dot(uv,uv);
+    col *= 1.-dot(uv, uv);
     t = mod(iTime, 230.);
     col *= S(0., 20., t)*S(224., 200., t);
     #endif
 
-    fragColor = vec4(col,1);
+    fragColor = vec4(col, 1);
 }
