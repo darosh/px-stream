@@ -1,3 +1,20 @@
+/*{
+    "CREDIT": "by BigWIngs",
+    "CATEGORIES": ["Scene"],
+    "INPUTS": [
+        {"NAME": "fftImage", "TYPE": "audioFFT"},
+        {"NAME": "X", "TYPE": "float", "DEFAULT": 0, "MIN": -0.5, "MAX": 0.5},
+        {"NAME": "Y", "TYPE": "float", "DEFAULT": 0, "MIN": -0.5, "MAX": 0.5},
+        {"NAME": "SPEED", "TYPE": "float", "DEFAULT": 1, "MIN": 0, "MAX": 10},
+        {"NAME": "COLOR", "TYPE": "float", "DEFAULT": 0.1, "MIN": 0, "MAX": 10},
+        {"NAME": "OFFSET", "TYPE": "float", "DEFAULT": 0, "MIN": 0, "MAX": 30},
+        {"NAME": "NUM_LAYERS", "TYPE": "float", "DEFAULT": 4, "MIN": 1, "MAX": 12},
+        {"NAME": "SIMPLE", "TYPE": "bool", "DEFAULT": 0}
+    ],
+    "ISFVSN": "2",
+    "DESCRIPTION": "Adapted from https://www.shadertoy.com/view/lscczl"
+}*/
+
 // The Universe Within - by Martijn Steinrucken aka BigWings 2018
 // Email:countfrolic@gmail.com Twitter:@The_ArtOfCode
 // License Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
@@ -23,12 +40,7 @@
 // YouTube Tutorial for this effect:
 // https://youtu.be/3CycKKJiwis
 
-
 #define S(a, b, t) smoothstep(a, b, t)
-#define NUM_LAYERS 4.
-
-//#define SIMPLE
-
 
 float N21(vec2 p) {
     vec3 a = fract(vec3(p.xyx) * vec3(213.897, 653.453, 253.098));
@@ -113,12 +125,13 @@ float NetLayer(vec2 st, float n, float t) {
     return m;
 }
 
-void mainImage(out vec4 fragColor, in vec2 fragCoord)
+void main()
 {
-    vec2 uv = (fragCoord-iResolution.xy*.5)/iResolution.y;
-    vec2 M = iMouse.xy/iResolution.xy-.5;
+    vec2 uv = (gl_FragCoord.xy-RENDERSIZE.xy*.5)/RENDERSIZE.y;
+    vec2 M = vec2(X, Y);
 
-    float t = iTime*.1;
+    float t = TIME * SPEED*.1;
+    float t_color = OFFSET + TIME * COLOR;
 
     float s = sin(t);
     float c = cos(t);
@@ -132,26 +145,26 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord)
         float size = mix(15., 1., z);
         float fade = S(0., .6, z)*S(1., .8, z);
 
-        m += fade * NetLayer(st*size-M*z, i, iTime);
+        m += fade * NetLayer(st*size-M*z, i, TIME * SPEED);
     }
 
-    float fft  = texelFetch(iChannel0, ivec2(.7, 0), 0).x;
+    float fft  = IMG_NORM_PIXEL(fftImage, ivec2(.7, 0), 0).x;
     float glow = -uv.y*fft*2.;
 
-    vec3 baseCol = vec3(s, cos(t*.4), -sin(t*.24))*.4+.6;
+    vec3 baseCol = vec3(s, cos(t_color*.4), -sin(t_color*.24))*.4+.6;
     vec3 col = baseCol*m;
     col += baseCol*glow;
 
-    #ifdef SIMPLE
-    uv *= 10.;
-    col = vec3(1)*NetLayer(uv, 0., iTime);
-    uv = fract(uv);
-    //if(uv.x>.98 || uv.y>.98) col += 1.;
-    #else
-    col *= 1.-dot(uv, uv);
-    t = mod(iTime, 230.);
-    col *= S(0., 20., t)*S(224., 200., t);
-    #endif
+    if (SIMPLE) {
+        uv *= 10.;
+        col = vec3(1)*NetLayer(uv, 0., TIME * SPEED);
+        uv = fract(uv);
+        //if(uv.x>.98 || uv.y>.98) col += 1.;
+    } else {
+        col *= 1.-dot(uv, uv);
+        t = mod(TIME * SPEED, 230.);
+        col *= S(0., 20., t)*S(224., 200., t);
+    }
 
-    fragColor = vec4(col, 1);
+    gl_FragColor = vec4(col, 1);
 }
