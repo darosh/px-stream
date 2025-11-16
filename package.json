@@ -23,7 +23,7 @@
   "private": true,
   "scripts": {
     "build": "run-s debug:demos:off build:assets build:pre build:v8:mini build:v8:maxi osascript:amxd:freeze move:devices build:post build:check",
-    "build:assets": "run-s clean:assets copy:assets clean:user:assets",
+    "build:assets": "run-s clean:assets copy:assets clean:temp:assets clean:user:assets",
     "build:check": "bash -c 'comm -23 <(cd devices && ls *.amxd | sort) <(cd \"build/PX Stream/Devices\" && ls *.amxd | sort)'",
     "build:post": "sed -i '' 's|/Assets/|/assets/|g' ./devices/PX._path.maxpat && sed -i '' 's|/Assets/|/assets/|g' ./devices/PX._path_alt.maxpat",
     "build:pre": "sed -i '' 's|/assets/|/Assets/|g' ./devices/PX._path.maxpat && sed -i '' 's|/assets/|/Assets/|g' ./devices/PX._path_alt.maxpat",
@@ -31,6 +31,7 @@
     "build:v8:mini": "esbuild \"./devices/PX GEN Mini Shader._convert.js\" --format=cjs --bundle --keep-names --outfile=\"./devices/PX GEN Mini Shader._convert.min.js\"",
     "clean:assets": "rm -rf './build/PX Stream/Assets'",
     "clean:devices": "'./build/PX Stream/Devices'",
+    "clean:temp:assets": "rm -f ./build/PX\\ Stream/Assets/mini-shaders/.temp.jxs ./build/PX\\ Stream/Assets/shaders/.temp-.*.*",
     "clean:user:assets": "rm -f ./build/PX\\ Stream/Assets/images/SCR.*.* ./build/PX\\ Stream/Assets/video/REC.*.*",
     "copy:assets": "rsync -av --exclude='*/.*' ./assets/ './build/PX Stream/Assets/'",
     "copy:lygia": "rm -rf assets/lib/lygia && rsync -av --include='*/' --include='*.glsl' --include='LICENSE.md' --exclude='*' ./node_modules/lygia/ ./assets/lib/lygia/ && rm -rf assets/lib/lygia/.github",    
