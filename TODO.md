@@ -133,7 +133,11 @@ All
 
 Shader
 - removed unused `Audio Fft` parameter (regression caused by previous update)
-- added shader
+- added shaders
+
+Demo
+- `Retro Vis.als` demo https://youtu.be/7piqR-xdgHY
+- `X.Darosh.06 Retro Roll.fs` shader https://youtu.be/4xlyQeEKm5U
 ```
 
 ## Licencing
