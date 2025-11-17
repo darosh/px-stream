@@ -127,17 +127,18 @@ MIDI Route
 ``
 
 ```text
-Alpha 20 release notes:
+Alpha 22 release notes:
 All
 - updated to Max 9.0.8 (bundled in Live 12.2.7 )
 
 Shader
 - removed unused `Audio Fft` parameter (regression caused by previous update)
-- added shaders
+- added shaders - showing usage of `#include` directive with Lygia and custom shader libraries in ISF shaders
 
 Demo
-- `Retro Vis.als` demo https://youtu.be/7piqR-xdgHY
-- `X.Darosh.06 Retro Roll.fs` shader https://youtu.be/4xlyQeEKm5U
+- `Retro O Vis.als` demo [youtu.be/XsXSijTUIKI](https://youtu.be/XsXSijTUIKI)
+- `Retro Vis.als` demo [youtu.be/7piqR-xdgHY](https://youtu.be/7piqR-xdgHY)
+- `X.Darosh.06 Retro Roll.fs` shader [youtu.be/4xlyQeEKm5U](https://youtu.be/4xlyQeEKm5U)
 ```
 
 ## Licencing
