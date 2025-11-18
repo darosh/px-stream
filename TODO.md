@@ -13,6 +13,8 @@
 - [ ] follow + sync: skip self
 - [ ] add note about names to "PX Shader &mdash; Audio types"
 - [ ] using modulation
+- [ ] MIX OUT persistence
+- [ ] doc better signal flow explanation?
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
