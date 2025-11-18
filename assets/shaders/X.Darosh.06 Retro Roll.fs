@@ -20,11 +20,12 @@
         {"NAME": "circular", "TYPE": "bool", "DEFAULT": 1}
     ],
     "PASSES": [
-    {"TARGET": "feedbackBuffer", "PERSISTENT": true}, 
-    {"TARGET": "dataBuffer", "PERSISTENT": true, "WIDTH": 512, "HEIGHT": 1},
-    {"TARGET": "renderWave", "WIDTH": 1024, "HEIGHT": 1},
-    {"TARGET": "waveformPass", "PERSISTENT": true}, 
-    {}],
+        {"TARGET": "feedbackBuffer", "PERSISTENT": true},
+        {"TARGET": "dataBuffer", "PERSISTENT": true, "WIDTH": 512, "HEIGHT": 1},
+        {"TARGET": "renderWave", "WIDTH": 1024, "HEIGHT": 1},
+        {"TARGET": "waveformPass", "PERSISTENT": true},
+        {}
+    ],
     "ISFVSN": "2"
 }*/
 

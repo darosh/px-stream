@@ -89,7 +89,7 @@ function anything () {
       // post('o[k][m]: ' + [k, m] + ': ' + JSON.stringify(o[k][m])  + '\n')
     }
 
-    if (o[k]?.values) {
+    if (o[k]?.values && Array.isArray(o[k].values)) {
       o[k].min = Math.min(...o[k].values)
       o[k].max = Math.max(...o[k].values)
     }
