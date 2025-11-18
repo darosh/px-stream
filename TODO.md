@@ -143,6 +143,13 @@ Demo
 - `X.Darosh.06 Retro Roll.fs` shader [youtu.be/4xlyQeEKm5U](https://youtu.be/4xlyQeEKm5U)
 ```
 
+```text
+Alpha 23 release notes:
+Shader
+- added support for `long` parameter
+- added shaders
+```
+
 ## Licencing
 
 - [ ] check mini shaders licences
