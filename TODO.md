@@ -15,6 +15,7 @@
 - [ ] using modulation
 - [ ] MIX OUT persistence
 - [ ] doc better signal flow explanation?
+- [ ] discord link near help button
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
