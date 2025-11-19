@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+		"rect" : [ 33.0, 91.0, 777.0, 423.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -20,6 +20,18 @@
 		"enablevscroll" : 0,
 		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-739",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1808.0, 904.0, 64.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-741",
 					"maxclass" : "newobj",
@@ -1413,7 +1425,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1575.0, 912.0, 114.0, 22.0 ],
+					"patching_rect" : [ 1576.0, 961.0, 114.0, 22.0 ],
 					"text" : "PX._blend_is_swap"
 				}
 
@@ -1425,7 +1437,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1744.0, 912.0, 114.0, 22.0 ],
+					"patching_rect" : [ 1745.0, 961.0, 114.0, 22.0 ],
 					"text" : "PX._blend_is_swap"
 				}
 
@@ -1437,7 +1449,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1711.0, 912.0, 114.0, 22.0 ],
+					"patching_rect" : [ 1713.0, 961.0, 114.0, 22.0 ],
 					"text" : "PX._blend_is_swap"
 				}
 
@@ -1449,7 +1461,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1680.0, 912.0, 114.0, 22.0 ],
+					"patching_rect" : [ 1682.0, 961.0, 114.0, 22.0 ],
 					"text" : "PX._blend_is_swap"
 				}
 
@@ -1461,7 +1473,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1647.0, 912.0, 114.0, 22.0 ],
+					"patching_rect" : [ 1648.0, 961.0, 114.0, 22.0 ],
 					"text" : "PX._blend_is_swap"
 				}
 
@@ -1473,7 +1485,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1616.0, 912.0, 114.0, 22.0 ],
+					"patching_rect" : [ 1617.0, 961.0, 114.0, 22.0 ],
 					"text" : "PX._blend_is_swap"
 				}
 
@@ -1485,7 +1497,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1544.0, 912.0, 114.0, 22.0 ],
+					"patching_rect" : [ 1545.0, 961.0, 114.0, 22.0 ],
 					"text" : "PX._blend_is_swap"
 				}
 
@@ -1497,7 +1509,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1511.0, 912.0, 114.0, 22.0 ],
+					"patching_rect" : [ 1513.0, 961.0, 114.0, 22.0 ],
 					"text" : "PX._blend_is_swap"
 				}
 
@@ -1509,7 +1521,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 1503.0, 872.0, 176.0, 22.0 ],
+					"patching_rect" : [ 1504.0, 920.0, 176.0, 22.0 ],
 					"text" : "route 1 2 3 4 5 6 7 8"
 				}
 
@@ -15018,7 +15030,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+						"rect" : [ 33.0, 80.0, 777.0, 423.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"integercoordinates" : 1,
 						"boxes" : [ 							{
@@ -15585,7 +15597,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1591.0, 848.0, 37.0, 22.0 ],
+					"patching_rect" : [ 1808.0, 864.0, 37.0, 22.0 ],
 					"text" : "p dial"
 				}
 
@@ -17004,7 +17016,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2183.0, 928.0, 168.0, 22.0 ],
+					"patching_rect" : [ 2168.0, 928.0, 168.0, 22.0 ],
 					"text" : "sprintf symout PX Stream %s"
 				}
 
@@ -21106,7 +21118,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-133", 0 ],
+					"destination" : [ "obj-739", 0 ],
 					"source" : [ "obj-232", 0 ]
 				}
 
@@ -25878,6 +25890,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-383", 0 ],
 					"source" : [ "obj-738", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"source" : [ "obj-739", 0 ]
 				}
 
 			}
