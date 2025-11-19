@@ -4,7 +4,7 @@
     "INPUTS": [
         {"NAME": "value", "TYPE": "long", "DEFAULT": 1, "MIN": 0, "MAX": 1000},
         {"NAME": "digits", "TYPE": "long", "DEFAULT": 5, "MIN": 0, "MAX": 48},
-        {"NAME": "scale", "TYPE": "float", "DEFAULT": 0.25, "MIN": 0.1, "MAX": 4},
+        {"NAME": "scale", "TYPE": "float", "DEFAULT": 0.25, "MIN": 0.01, "MAX": 4},
         {"NAME": "spacing", "TYPE": "float", "DEFAULT": 1.2, "MIN": 0.8, "MAX": 2},
         {"NAME": "segmentColor", "LABEL": "Color", "TYPE": "color", "DEFAULT": [1, 0, 0, 1]},
         {"NAME": "width", "TYPE": "float", "DEFAULT": 1, "MIN": 0, "MAX": 2},
