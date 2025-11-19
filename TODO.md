@@ -146,6 +146,9 @@ Demo
 
 ```text
 Alpha 23 release notes:
+Mix View
+- fixed MIX OUT not streaming on session open (Thanks [@_Mote_ of Discord](https://discord.com/channels/1329379539708805193/1329379539708805196/1440322236392411228))
+
 Shader
 - added support for `long` parameter
 - added shaders
