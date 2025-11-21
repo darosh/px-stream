@@ -16138,11 +16138,10 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 89.0, 777.0, 423.0 ],
+						"rect" : [ 33.0, 90.0, 777.0, 423.0 ],
 						"gridsize" : [ 8.0, 8.0 ],
 						"gridsnaponopen" : 2,
 						"integercoordinates" : 1,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-28",
