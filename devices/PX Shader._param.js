@@ -1,8 +1,10 @@
 outlets = 1
 
 const extra = {
-  fftuImage: { dim: [1, 1024, 512, 'audio'] },
-  fftImage: { dim: [1, 1024, 512, 'audio'] },
+  // fftuImage: { dim: [1, 128, 128, 'audio'] },
+  // fftImage: { dim: [1, 128, 128, 'audio'] },
+  fftuImage: {},
+  fftImage: {},
   wavuImage: { dim: [1, 1024, 512, 'audio'] },
   waveImage: { dim: [1, 1024, 512, 'audio'] },
   xyImage: { dim: [16, 1024, 512, 'audio'] },
