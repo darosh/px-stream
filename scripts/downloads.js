@@ -30,7 +30,7 @@ function formatDate (iso) {
     const table = new Table({
       head: ['Release', 'Published', 'Downloads'],
       style: { head: ['cyan'], border: ['grey'] },
-      colWidths: [17, 26, 11],
+      colWidths: [18, 26, 11],
       wordWrap: true,
     })
 
