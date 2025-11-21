@@ -1,9 +1,7 @@
 /*{
     "CREDIT": "by darosh",
     "CATEGORIES": ["Example", "Lygia"],
-    "INPUTS": [
-        {"NAME": "value", "TYPE": "float", "DEFAULT": 0.5, "MIN": 0, "MAX": 1}
-    ],
+    "INPUTS": [{"NAME": "value", "TYPE": "float", "DEFAULT": 0.5, "MIN": 0, "MAX": 1}],
     "ISFVSN": "2",
     "DESCRIPTION": "Example of lygia/lighting/raymarch.glsl usage"
 }*/
