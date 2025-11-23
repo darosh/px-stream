@@ -20,11 +20,15 @@
 #define SRQ 11025.// Sample Rate / 4.
 #define BINS 512.
 
+float mapToPixelCenterRange(float uv) {
+    return (0.5 / BINS) + uv * ((BINS - 1.0) / BINS);
+}
+
 float getNormalizedFreqShiftFFT(float normalizedBin) {
-    const float b0 = (SRQ/BINS) * -0.5;
-    const float b1 = SRQ-((SRQ/BINS) * 0.5);
+    const float b0 = 0;
+    const float b1 = SRQ;
     float adjustedBin = (normalizedBin * SRQ - b0) / (b1 - b0);
-    //adjustedBin = (floor(adjustedBin * BINS) + 0.5) / BINS;
+    adjustedBin = mapToPixelCenterRange(adjustedBin);
     vec4 sampled = IMG_NORM_PIXEL(BUFFER, vec2(adjustedBin, 0.5));
     return max(sampled.r, sampled.g);
 }
