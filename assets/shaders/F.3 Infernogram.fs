@@ -13,10 +13,12 @@
         {"NAME": "high", "TYPE": "float", "DEFAULT": 1, "MIN": 0, "MAX": 1},
         {"NAME": "speed", "TYPE": "float", "DEFAULT": 0.25, "MIN": 0, "MAX": 50}
     ],
-    "PASSES": [{"TARGET": "BufferA", "PERSISTENT": true, "FLOAT": true}, {}],
+    "PASSES": [{"TARGET": "BUFFER", "PERSISTENT": true, "FLOAT": true}, {}],
     "ISFVSN": "2",
     "DESCRIPTION": "Displays incoming FFT data with a vertical scroll and color mapping based on the Inferno gradient.\nSupports optional logarithmic scaling on the X axis for better low-frequency detail. Adapted Shadertoy: tfKSzw by theko."
 }*/
+
+#define BINS 512.
 
 // === Inferno-style gradient ===
 vec3 infernoGradient(float t) {
@@ -38,30 +40,27 @@ vec3 infernoGradient(float t) {
     return mix(colors[idx], colors[min(idx + 1, 6)], frac);
 }
 
-float getFFT(float bin, float bins) {
-    float normalizedBin = bin / bins;
+float getBinFFT(float bin) {
+    float normalizedBin = bin / BINS;
     vec4 sampled = IMG_NORM_PIXEL(fftuImage, vec2(normalizedBin, 0.5));
     return max(sampled.r, sampled.g);
 }
 
-float getFFT(float normalizedBin) {
+float getNormalizedFFT(float normalizedBin) {
     vec4 sampled = IMG_NORM_PIXEL(fftuImage, vec2(normalizedBin, 0.5));
     return max(sampled.r, sampled.g);
 }
 
-float logScaled(float x, float bins) {
-    float minBin = 1.0;
-    float maxBin = bins;
-    float b = pow(maxBin / minBin, x);
-    return (b - minBin) / (maxBin - minBin);
+float logXToBin(float x) { // Convert x position to bin index (inverse of above)
+    return pow(BINS + 1., x) - 1.;
 }
 
-float binToX(float bin, float bins) {
-    float minBin = 1.0;
-    float maxBin = bins;
-    float b = (bin / bins) * (maxBin - minBin) + minBin;
-    float x = log(b / minBin) / log(maxBin / minBin);
-    return x;
+float binToX(float b) {
+    return b / (BINS - 1.);
+}
+
+float logScaled(float x) {
+    return binToX(logXToBin(x));
 }
 
 float getTiltGain(float f, float pivotFreq, float maxTiltGain) {
@@ -70,28 +69,27 @@ float getTiltGain(float f, float pivotFreq, float maxTiltGain) {
     return clamp(tiltGain, -abs(maxTiltGain), abs(maxTiltGain));
 }
 
-float sampleFFT(float x0, float x1, float bins) {
-    float bin0 = logScaled(x0, bins) * bins;
-    float bin1 = logScaled(x1, bins) * bins;
+float getLogScaledRangeFFT(float x0, float x1) {
+    float bin0 = logScaled(x0) * BINS;
+    float bin1 = logScaled(x1) * BINS;
 
     float binCenter = (bin0 + bin1) * 0.5;
     float fBinCenter = floor(binCenter);
-    float amp = getFFT(fBinCenter, bins);
-    
+    float amp = getBinFFT(fBinCenter);
+
     if (amp == 0.) {
         return 0.;
     }
 
     float pixelCenterX = (x0 + x1) * 0.5;
     amp += getTiltGain(pixelCenterX, center, tilt);
-    
+
     if (sharp == 0.) {
         return amp;
     }
 
-    // float xCenter = binToX(fBinCenter, bins);
-    float bx0 = binToX(fBinCenter, bins);
-    float bx1 = binToX(fBinCenter + 1., bins);
+    float bx0 = binToX(fBinCenter);
+    float bx1 = binToX(fBinCenter + 1.);
     float xCenter = (bx0 + bx1) * .5;
 
     float dist = abs(pixelCenterX - xCenter);
@@ -102,8 +100,9 @@ float sampleFFT(float x0, float x1, float bins) {
 }
 
 void main() {
+    vec2 uv = isf_FragNormCoord;
+
     if (PASSINDEX == 0) {
-        vec2 uv = isf_FragNormCoord;
         float shift = TIMEDELTA * speed;// Vertical scroll speed per frame
 
         if (uv.y < shift) {
@@ -114,9 +113,9 @@ void main() {
                 float pixelWidth = 1.0 / RENDERSIZE.x;
                 float x0 = uv.x - pixelWidth * 0.5;
                 float x1 = uv.x + pixelWidth * 0.5;
-                amplitude = sampleFFT(x0, x1, 128.);
+                amplitude = getLogScaledRangeFFT(x0, x1);
             } else {
-                amplitude = getFFT(uv.x);
+                amplitude = getNormalizedFFT(uv.x);
             }
 
             float value = clamp(amplitude * gain, 0.0, 1.0);
@@ -125,14 +124,13 @@ void main() {
             gl_FragColor = vec4(newColor, 1.0);
         } else {
             vec2 shiftedUV = uv - vec2(0.0, shift);
-            vec3 oldColor = IMG_NORM_PIXEL(BufferA, mod(shiftedUV, 1.0)).rgb;
+            vec3 oldColor = IMG_NORM_PIXEL(BUFFER, mod(shiftedUV, 1.0)).rgb;
 
             gl_FragColor = vec4(oldColor, 1.0);
         }
 
     } else if (PASSINDEX == 1) {
-        vec2 uv = gl_FragCoord.xy / RENDERSIZE.xy;
-        vec3 col = IMG_NORM_PIXEL(BufferA, mod(uv, 1.0)).rgb;
+        vec3 col = IMG_NORM_PIXEL(BUFFER, mod(uv, 1.0)).rgb;
         gl_FragColor = vec4(col, 1.0);
     }
 }
