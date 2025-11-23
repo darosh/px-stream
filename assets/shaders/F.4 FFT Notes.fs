@@ -21,9 +21,10 @@
 #define BINS 512.
 
 float getNormalizedFreqShiftFFT(float normalizedBin) {
-    const float b0 = (SRQ/BINS)*.5;
-    const float b1 = SRQ-((SRQ/BINS)*.5);
+    const float b0 = (SRQ/BINS) * -0.5;
+    const float b1 = SRQ-((SRQ/BINS) * 0.5);
     float adjustedBin = (normalizedBin * SRQ - b0) / (b1 - b0);
+    //adjustedBin = (floor(adjustedBin * BINS) + 0.5) / BINS;
     vec4 sampled = IMG_NORM_PIXEL(BUFFER, vec2(adjustedBin, 0.5));
     return max(sampled.r, sampled.g);
 }

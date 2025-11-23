@@ -21,13 +21,16 @@
     "DESCRIPTION": "Adapted from https://www.shadertoy.com/view/tcG3Rm"
 }*/
 
+// Is this running better than the "F.4 FFT Notes.fs"? Where? 
+
 #define SRQ 11025.// Sample Rate / 4.
 #define BINS 512.
 
 float getNormalizedFreqShiftFFT(float normalizedBin) {
-    const float b0 = (SRQ/BINS)*.5;
-    const float b1 = SRQ-((SRQ/BINS)*.5);
+    const float b0 = (SRQ/BINS) * -0.5;
+    const float b1 = SRQ-((SRQ/BINS) * 0.5);
     float adjustedBin = (normalizedBin * SRQ - b0) / (b1 - b0);
+    //adjustedBin = (floor(adjustedBin * BINS) + 0.5) / BINS;
     vec4 sampled = IMG_NORM_PIXEL(BUFFER, vec2(adjustedBin, 0.5));
     return max(sampled.r, sampled.g);
 }
@@ -74,7 +77,7 @@ void main() {
 
         gl_FragColor = newPX.x > oldPX.x ? newPX : oldPX;
     } else if (PASSINDEX == 1) {
-        vec2 TO = gl_FragCoord.xy;
+        vec2 TO = floor(gl_FragCoord.xy);
 
         float frequency = notes[int(TO.x)] / exp2(9.-TO.y);
 
@@ -120,7 +123,7 @@ void main() {
 
         dist *= scale;
         
-        float f = IMG_PIXEL(TEMP, TO).x;
+        float f = IMG_PIXEL(TEMP, TO + .5).x;
 
         float bright = smoothstep(.0, 0.01, f*f*f*f - dist * 2.);
 
