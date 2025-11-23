@@ -51,16 +51,20 @@ float getNormalizedFFT(float normalizedBin) {
     return max(sampled.r, sampled.g);
 }
 
-float logXToBin(float x) { // Convert x position to bin index (inverse of above)
-    return pow(BINS + 1., x) - 1.;
+float logXToBin(float x) {
+    return pow(BINS, x) - 1.;
 }
 
-float binToX(float b) {
-    return b / (BINS - 1.);
+float binToLogX(float bin) {
+    return log(bin + 1.) / log(BINS);  // Inverse of logXToBin
 }
 
 float logScaled(float x) {
-    return binToX(logXToBin(x));
+    return logXToBin(x) / (BINS - 1.);  // Map bin to [0,1]
+}
+
+float binToX(float bin) {
+    return binToLogX(bin * (BINS - 1.));  // Scale bin from [0,1] range
 }
 
 float getTiltGain(float f, float pivotFreq, float maxTiltGain) {
@@ -88,8 +92,8 @@ float getLogScaledRangeFFT(float x0, float x1) {
         return amp;
     }
 
-    float bx0 = binToX(fBinCenter);
-    float bx1 = binToX(fBinCenter + 1.);
+    float bx0 = binToLogX(fBinCenter);
+    float bx1 = binToLogX(fBinCenter + 1.);
     float xCenter = (bx0 + bx1) * .5;
 
     float dist = abs(pixelCenterX - xCenter);
