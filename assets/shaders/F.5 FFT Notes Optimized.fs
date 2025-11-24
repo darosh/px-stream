@@ -13,9 +13,9 @@
         {"NAME": "low", "TYPE": "float", "DEFAULT": 0.75, "MIN": 0, "MAX": 1}
     ],
     "PASSES": [
-    {"TARGET": "BUFFER", "PERSISTENT": true, "FLOAT": true, "WIDTH": 512, "HEIGHT": 1}, 
-    {"TARGET": "TEMP", "FLOAT": true, "WIDTH": 12, "HEIGHT": 10}, 
-    {}
+        {"TARGET": "BUFFER", "PERSISTENT": true, "FLOAT": true, "WIDTH": 512, "HEIGHT": 1},
+        {"TARGET": "TEMP", "FLOAT": true, "WIDTH": 12, "HEIGHT": 10},
+        {}
     ],
     "ISFVSN": "2",
     "DESCRIPTION": "Adapted from https://www.shadertoy.com/view/tcG3Rm"
