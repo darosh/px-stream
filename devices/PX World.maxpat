@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -55,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 8,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -307,19 +307,444 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 8,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 33.0, 71.0, 877.0, 508.0 ],
+						"rect" : [ 33.0, 71.0, 579.0, 508.0 ],
 						"openinpresentation" : 1,
 						"gridonopen" : 2,
 						"gridsize" : [ 8.0, 8.0 ],
 						"gridsnaponopen" : 2,
 						"integercoordinates" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "bang" ],
+									"patching_rect" : [ 176.0, 512.0, 100.0, 22.0 ],
+									"text" : "t 2 b"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-52",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 184.0, 576.0, 41.0, 22.0 ],
+									"text" : "* -32"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-53",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 184.0, 712.0, 67.0, 22.0 ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+									"text" : "thispatcher"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-56",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 184.0, 616.0, 64.0, 22.0 ],
+									"text" : "offset 0 $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-59",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 184.0, 664.0, 176.0, 22.0 ],
+									"text" : "prepend script send updateTab"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"embed" : 1,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-15",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"numinlets" : 0,
+									"numoutlets" : 4,
+									"offset" : [ 0.0, -32.0 ],
+									"outlettype" : [ "", "", "", "" ],
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 313.0, 79.0, 281.0, 498.0 ],
+										"openinpresentation" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"integercoordinates" : 1,
+										"boxes" : [ 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-8",
+													"index" : 4,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 308.0, 50.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-7",
+													"index" : 3,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 202.0, 58.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-6",
+													"index" : 2,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 100.0, 58.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-5",
+													"index" : 1,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 12.0, 65.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"automation" : "Off",
+													"automationon" : "On",
+													"id" : "obj-3",
+													"maxclass" : "live.text",
+													"mode" : 0,
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"parameter_enable" : 1,
+													"patching_rect" : [ 308.0, 4.0, 88.0, 15.0 ],
+													"presentation" : 1,
+													"presentation_rect" : [ 10.0, 99.0, 95.0, 22.0 ],
+													"saved_attribute_attributes" : 													{
+														"valueof" : 														{
+															"parameter_defer" : 1,
+															"parameter_enum" : [ "Off", "On" ],
+															"parameter_invisible" : 2,
+															"parameter_longname" : "Help[5]",
+															"parameter_mmax" : 1,
+															"parameter_modmode" : 0,
+															"parameter_shortname" : "Help",
+															"parameter_type" : 2
+														}
+
+													}
+,
+													"text" : "No update",
+													"texton" : "Documentation",
+													"varname" : "live.text[4]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"automation" : "Off",
+													"automationon" : "On",
+													"id" : "obj-2",
+													"ignoreclick" : 1,
+													"maxclass" : "live.text",
+													"mode" : 0,
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"parameter_enable" : 1,
+													"patching_rect" : [ 198.0, 4.0, 88.0, 15.0 ],
+													"presentation" : 1,
+													"presentation_rect" : [ 10.0, 67.0, 95.0, 22.0 ],
+													"saved_attribute_attributes" : 													{
+														"valueof" : 														{
+															"parameter_defer" : 1,
+															"parameter_enum" : [ "Off", "On" ],
+															"parameter_invisible" : 2,
+															"parameter_longname" : "Help[4]",
+															"parameter_mmax" : 1,
+															"parameter_modmode" : 0,
+															"parameter_shortname" : "Help",
+															"parameter_type" : 2
+														}
+
+													}
+,
+													"text" : "Checking...",
+													"texton" : "Documentation",
+													"varname" : "live.text[3]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"automation" : "Off",
+													"automationon" : "On",
+													"id" : "obj-1",
+													"maxclass" : "live.text",
+													"mode" : 0,
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"parameter_enable" : 1,
+													"patching_rect" : [ 96.0, 4.0, 88.0, 15.0 ],
+													"presentation" : 1,
+													"presentation_rect" : [ 10.0, 35.0, 95.0, 22.0 ],
+													"saved_attribute_attributes" : 													{
+														"valueof" : 														{
+															"parameter_defer" : 1,
+															"parameter_enum" : [ "Off", "On" ],
+															"parameter_invisible" : 2,
+															"parameter_longname" : "Help[3]",
+															"parameter_mmax" : 1,
+															"parameter_modmode" : 0,
+															"parameter_shortname" : "Help",
+															"parameter_type" : 2
+														}
+
+													}
+,
+													"text" : "Download update",
+													"texton" : "Documentation",
+													"varname" : "live.text[2]"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"automation" : "Off",
+													"automationon" : "On",
+													"id" : "obj-4",
+													"maxclass" : "live.text",
+													"mode" : 0,
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"parameter_enable" : 1,
+													"patching_rect" : [ 0.0, 0.0, 88.0, 15.0 ],
+													"presentation" : 1,
+													"presentation_rect" : [ 10.0, 3.0, 95.0, 22.0 ],
+													"saved_attribute_attributes" : 													{
+														"valueof" : 														{
+															"parameter_defer" : 1,
+															"parameter_enum" : [ "Off", "On" ],
+															"parameter_invisible" : 2,
+															"parameter_longname" : "Help[1]",
+															"parameter_mmax" : 1,
+															"parameter_modmode" : 0,
+															"parameter_shortname" : "Help",
+															"parameter_type" : 2
+														}
+
+													}
+,
+													"text" : "Check for update",
+													"texton" : "Documentation",
+													"varname" : "live.text[1]"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-7", 0 ],
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-8", 0 ],
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 184.0, 312.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 302.0, 112.0, 32.0 ],
+									"varname" : "updateTab",
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"linecount" : 3,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 416.0, 560.0, 264.0, 49.0 ],
+									"text" : ";\rmax launchbrowser https://github.com/darosh/px-stream/releases"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"linecount" : 3,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 608.0, 72.0, 264.0, 49.0 ],
+									"text" : ";\rmax launchbrowser https://discord.com/invite/de5txQSven"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"automation" : "Off",
+									"automationon" : "On",
+									"id" : "obj-12",
+									"maxclass" : "live.text",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 608.0, 26.0, 88.0, 15.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.0, 279.0, 95.0, 22.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "Off", "On" ],
+											"parameter_invisible" : 2,
+											"parameter_longname" : "Help[2]",
+											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
+											"parameter_shortname" : "Help",
+											"parameter_type" : 2
+										}
+
+									}
+,
+									"text" : "Join Discord",
+									"texton" : "Documentation",
+									"varname" : "live.text[2]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 376.0, 344.0, 100.0, 22.0 ],
+									"text" : "prepend check"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"filename" : "PX._update.js",
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 376.0, 384.0, 100.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0
+									}
+,
+									"text" : "v8 PX._update.js",
+									"textfile" : 									{
+										"filename" : "PX._update.js",
+										"flags" : 0,
+										"embed" : 0,
+										"autowatch" : 1
+									}
+
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "dictionary", "" ],
+									"patching_rect" : [ 376.0, 304.0, 100.0, 22.0 ],
+									"text" : "maxurl"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-180",
 									"linecount" : 3,
@@ -402,7 +827,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 336.0, 26.0, 88.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 23.0, 270.0, 67.0, 22.0 ],
+									"presentation_rect" : [ 10.0, 253.0, 95.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_defer" : 1,
@@ -423,11 +848,65 @@
 								}
 
 							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 376.0, 264.0, 360.0, 22.0 ],
+									"text" : "get https://api.github.com/repos/darosh/px-stream/releases/latest"
+								}
+
+							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-180", 0 ],
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-15", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-15", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-15", 0 ]
 								}
 
 							}
@@ -442,6 +921,55 @@
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
 									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-52", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-56", 0 ],
+									"source" : [ "obj-52", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-59", 0 ],
+									"source" : [ "obj-56", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-53", 0 ],
+									"source" : [ "obj-59", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -1823,6 +2351,11 @@
 			"obj-16" : [ "Enabled", "Enabled", 0 ],
 			"obj-23" : [ "FPS", "FPS", 0 ],
 			"obj-65::obj-1" : [ "Help", "Help", 0 ],
+			"obj-65::obj-12" : [ "Help[2]", "Help", 0 ],
+			"obj-65::obj-15::obj-1" : [ "Help[3]", "Help", 0 ],
+			"obj-65::obj-15::obj-2" : [ "Help[4]", "Help", 0 ],
+			"obj-65::obj-15::obj-3" : [ "Help[5]", "Help", 0 ],
+			"obj-65::obj-15::obj-4" : [ "Help[1]", "Help", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1847,6 +2380,13 @@
 				"bootpath" : "~/Documents/GitHub/px-stream/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PX._update.js",
+				"bootpath" : "~/Documents/GitHub/px-stream/devices",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
