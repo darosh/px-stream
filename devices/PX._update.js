@@ -1,4 +1,4 @@
-const VERSION = '1.0.15-alpha-25'
+const VERSION = '1.0.14-alpha-24'
 
 function check (dict, name) {
   try {
