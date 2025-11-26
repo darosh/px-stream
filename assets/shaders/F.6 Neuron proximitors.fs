@@ -12,7 +12,9 @@
         {"NAME": "segments", "TYPE": "float", "DEFAULT": 0.5, "MIN": 0, "MAX": 1},
         {"NAME": "COLOR", "TYPE": "color", "DEFAULT": [0.5, 0.5, 0.5, 0.5]},
         {"NAME": "decay", "TYPE": "float", "DEFAULT": 0.9, "MIN": 0, "MAX": 1},
-        {"NAME": "decaySparkle", "TYPE": "float", "DEFAULT": 0.5, "MIN": 0, "MAX": 1}
+        {"NAME": "decaySparkle", "TYPE": "float", "DEFAULT": 0.5, "MIN": 0, "MAX": 1},
+        {"NAME": "CHAOS", "TYPE": "float", "DEFAULT": 0, "MIN": 0, "MAX": 1},
+        {"NAME": "RESET", "TYPE": "bool","DEFAULT": 0}
     ],
     "PASSES": [
         {"TARGET": "SOUND", "PERSISTENT": true, "FLOAT": true, "WIDTH": 1, "HEIGHT": 64},
@@ -69,18 +71,26 @@ void main() {
 
         if (int(fragCoord.x) == 0) { // first column -- position
             if (FRAMEINDEX == 0) {
-
                 // initial position
                 C.x = (hash12(fragCoord.xy) / 2. - .5) + .75;
                 C.y = (hash12(fragCoord.yx) / 2. - .5) * 2.;
-
-                // initial speed vector
-                C.z = (hash12(fragCoord.xy * C.xy) / 2. - .5) * 2.;
-                C.w = (hash12(C.xy * 1000.+ SEED * 100.) / 2. - .5) * 4.;
             } else {
                 // previous frame
                 C = IMG_PIXEL(BUFFER, fragCoord.xy);
                 C.xy += (C.zw - .5 + vec2(dirX, dirY)) * TIMEDELTA * speed;
+            }
+            
+            if (FRAMEINDEX == 0 || RESET) {
+                // initial speed vector
+                C.z = (hash12(fragCoord.xy * C.xy) / 2. - .5) * 2.;
+                C.w = (hash12(C.xy * 1000.+ SEED * 100.) / 2. - .5) * 4.;
+                float angle = CHAOS * 3.14159265;
+                angle *= mix(-1., 0., abs(hash12(fragCoord.xy)));
+                float cosA = cos(angle);
+                float sinA = sin(angle);
+                C.zw -= .5;
+                C.zw = vec2(C.z * cosA - C.w * sinA, C.z * sinA + C.w * cosA);
+                C.zw += .5;
             }
         } else if (int(fragCoord.x) == 1) { // second column -- nearest point position
             float minDist = 2.;
