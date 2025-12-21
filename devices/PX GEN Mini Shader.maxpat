@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 8,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 90.0, 71.0, 821.0, 508.0 ],
+		"rect" : [ 33.0, 51.0, 786.0, 506.0 ],
 		"openinpresentation" : 1,
 		"gridonopen" : 2,
 		"gridsize" : [ 8.0, 8.0 ],
@@ -1289,7 +1289,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 8,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1359,7 +1359,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "function read_file(f) {\r\n\tconst file = new File(f, 'read')\r\n\toutlet(0, file.readstring(1e6)) // mi-mi-milions!\r\n}",
+					"code" : "function read_file(f) {\r\n\tconst file = new File(f, 'read')\r\n\toutlet(0, file.readstring(1e6)) // mi-mi-milions!\r\n\tfile.close()\r\n}",
 					"filename" : "none",
 					"fontface" : 0,
 					"fontname" : "<Monospaced>",
@@ -2812,6 +2812,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-346", 0 ],
+					"order" : 1,
 					"source" : [ "obj-359", 0 ]
 				}
 
@@ -2819,7 +2820,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
-					"disabled" : 1,
+					"order" : 0,
 					"source" : [ "obj-359", 0 ]
 				}
 
