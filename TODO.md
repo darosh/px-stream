@@ -16,6 +16,12 @@
 - [ ] MIX OUT persistence
 - [ ] doc better signal flow explanation?
 - [ ] discord link near help button
+- [ ] jit.fx.ge.flowfield?
+- [ ] jit.fx.ge.pattern?
+- [ ] GEN Mini: close file, add watcher?
+- [ ] doc: buffer size vs FPS info
+- [ ] world: FPS/buffer size
+- [ ] investigate unresponsive UI on small buffer
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
