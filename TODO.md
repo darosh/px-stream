@@ -721,3 +721,21 @@ textureMatrix1: bad number
 FadeInSecond: bad number
 u_transitionUpToDown: bad number
 ```
+
+## Performance
+
+### Mac M1 Pro
+
+- Refresh rate: Pro Motion
+- Sample rate: 48000
+- Set: PX Stream.als
+
+| Buffer size | FPS Limit | FPS | Note |
+|-------------|-----------|-----|------|
+| 2048        | 0         | 106 |      |
+| 1024        | 0         | 114 |      |
+| 512         | 0         | 117 |      |
+| 256         | 0         | 119 |      |
+| 128         | 0         | 119 |      |
+| 64          | 0         | 120 |      |
+| 32          | 0         | 120 |      |
