@@ -746,12 +746,14 @@ u_transitionUpToDown: bad number
 - Sample rate: 48000
 - Set: PX Stream.als
 
-| Buffer size | FPS Limit | FPS | Note                                      |
-|-------------|-----------|-----|-------------------------------------------|
-| 2048        | 60        | 42  |                                           |
-| 1024        | 60        | 52  |                                           |
-| 512         | 90        | 85  |                                           |
-| 256         | 90        | 88  |                                           |
-| 128         | 120       | 120 |                                           |
-| 64          | 120       | 120 |                                           |
-| 32          | 120       | 120 | Max devices and Live becomes unresponsive |
+| Buffer size | FPS Limit | FPS | Note             |
+|-------------|-----------|-----|------------------|
+| 2048        | 60        | 42  |                  |
+| 1024        | 60        | 52  |                  |
+| 512         | 90        | 85  |                  |
+| 256         | 90        | 88  |                  |
+| 128         | 120       | 120 |                  |
+| 64          | 120       | 120 |                  |
+| 32          | 120       | 120 | _† Unresponsive_ |
+
+_† Max devices and Live becomes unresponsive_
