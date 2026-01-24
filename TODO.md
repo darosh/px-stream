@@ -728,7 +728,7 @@ u_transitionUpToDown: bad number
 
 - Refresh rate: Pro Motion
 - Sample rate: 48000
-- Set: PX Stream.als
+- Set: PX Stream.als, 1280x720
 
 | Buffer size | FPS Limit | FPS | Note |
 |-------------|-----------|-----|------|
@@ -744,7 +744,7 @@ u_transitionUpToDown: bad number
 
 - Refresh rate: 120 Hz
 - Sample rate: 48000
-- Set: PX Stream.als
+- Set: PX Stream.als, 1280x720
 
 | Buffer size | FPS Limit | FPS | Note             |
 |-------------|-----------|-----|------------------|
