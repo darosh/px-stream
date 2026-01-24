@@ -756,4 +756,4 @@ u_transitionUpToDown: bad number
 | 64          | 120       | 120 |                  |
 | 32          | 120       | 120 | _† Unresponsive_ |
 
-_† Max devices and Live becomes unresponsive_
+_† Max devices and Live become unresponsive_
