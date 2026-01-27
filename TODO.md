@@ -22,6 +22,7 @@
 - [ ] doc: buffer size vs FPS info
 - [ ] world: FPS/buffer size
 - [ ] investigate unresponsive UI on small buffer
+- [ ] add info about mouse and time params to mini shader doc
 
 - [Release notes](#release-notes)
 - [Licencing](#licencing)
